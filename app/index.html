@@ -128,6 +128,12 @@ function App() {
     });
   }, []);
 
+  const onRestore = useCallback(async (id) => {
+    await db.restoreAlbum(id);
+    const rows = await db.albums();
+    setAlbums(rows);
+  }, []);
+
   const onRoll = useCallback((album, mode) => {
     // Only the owner can write history, and a failed log should never
     // interrupt a roll, so this one stays silent.
@@ -169,7 +175,7 @@ function App() {
       <main>
         {route === "browse"
           ? <BrowseView albums={albums} owner={!!user} onPatch={onPatch} onPlay={onPlay}
-                        onAdd={onAdd} onDelete={onDelete} />
+                        onAdd={onAdd} onDelete={onDelete} onRestore={onRestore} />
           : <RollView albums={albums} owner={!!user} onPatch={onPatch} onPlay={onPlay} onRoll={onRoll} />}
       </main>
 

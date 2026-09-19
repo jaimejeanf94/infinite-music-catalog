@@ -87,6 +87,22 @@ const supabaseDb = {
     return data;
   },
 
+  // Everything hidden by a delete, newest first, for the Deleted filter.
+  async deletedAlbums() {
+    const { data, error } = await sb
+      .from("albums")
+      .select("id, artist, title, year, score, in_pool, notes, cover_url, genres, mbid, source, deleted_at")
+      .not("deleted_at", "is", null)
+      .order("deleted_at", { ascending: false });
+    if (error) throw error;
+    return data;
+  },
+
+  async restoreAlbum(id) {
+    const { error } = await sb.from("albums").update({ deleted_at: null }).eq("id", id);
+    if (error) throw error;
+  },
+
   // A tombstone rather than a delete -- see db/schema.sql for why.
   async deleteAlbum(id) {
     const { error } = await sb.from("albums")

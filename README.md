@@ -181,7 +181,25 @@ Two useful side effects:
 
 ---
 
-## 5. The data flow
+## 5. Deleting is never destructive
+
+Nothing is ever removed from the database. Deleting sets `deleted_at`, and the
+row stays exactly where it was — a timestamp rather than a boolean, so you also
+know *when* it happened.
+
+Everything respects it: the app hides it, `export.mjs` leaves it out of the CSV,
+and `import.mjs` deliberately still counts it as present so the nightly run
+cannot bring it back.
+
+To undo a mistake, open **Browse → Deleted** and press Restore. Album art,
+score and notes all come back with it, because they never went anywhere.
+
+The same applies in local mode, where the tombstone is a list of ids in
+`localStorage` rather than a column.
+
+---
+
+## 6. The data flow
 
 **Postgres is the source of truth.** The Google Sheet was the seed, not the
 engine, and the app is now where albums are added, rated and removed.
@@ -213,7 +231,7 @@ one-time migration that produced the first `albums.csv`. Neither runs any more.
 
 ---
 
-## 6. Running the scripts
+## 7. Running the scripts
 
 They read credentials from the environment, so nothing sensitive lands in the
 repo:
@@ -234,7 +252,7 @@ No `npm install` needed — the scripts use plain `fetch`.
 
 ---
 
-## 7. How the randomiser works
+## 8. How the randomiser works
 
 The sheet weighted albums by **tier**, not individually: each score owns a fixed
 share of the odds and splits it among its members.

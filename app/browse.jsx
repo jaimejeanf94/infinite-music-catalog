@@ -183,7 +183,7 @@ function AddAlbum({ albums, onAdd, onClose }) {
   );
 }
 
-function BrowseView({ albums, owner, onPatch, onPlay, onAdd, onDelete }) {
+function BrowseView({ albums, owner, onPatch, onPlay, onAdd, onDelete, onRestore }) {
   const [q, setQ] = React.useState("");
   const [filter, setFilter] = React.useState("all");
   const [sort, setSort] = React.useState("artist");
@@ -191,6 +191,12 @@ function BrowseView({ albums, owner, onPatch, onPlay, onAdd, onDelete }) {
   const [shown, setShown] = React.useState(CHUNK);
   const [open, setOpen] = React.useState(null);
   const [adding, setAdding] = React.useState(false);
+  const [deleted, setDeleted] = React.useState(null);   // null until asked for
+
+  React.useEffect(() => {
+    if (filter !== "deleted" || deleted) return;
+    db.deletedAlbums().then(setDeleted).catch(() => setDeleted([]));
+  }, [filter, deleted]);
 
   const stats = React.useMemo(() => ({
     total: albums.length,
@@ -258,7 +264,8 @@ function BrowseView({ albums, owner, onPatch, onPlay, onAdd, onDelete }) {
           onChange={(e) => setQ(e.target.value)}
         />
         <div className="chips">
-          {[["all", "All"], ["unscored", "Unrated"], ["scored", "Rated"], ["out", "Out of pool"]]
+          {[["all", "All"], ["unscored", "Unrated"], ["scored", "Rated"],
+            ["out", "Out of pool"], ["deleted", "Deleted"]]
             .map(([id, label]) => (
               <button key={id} className={"chip" + (filter === id ? " chip--on" : "")}
                       onClick={() => setFilter(id)}>{label}</button>
@@ -285,9 +292,34 @@ function BrowseView({ albums, owner, onPatch, onPlay, onAdd, onDelete }) {
         </select>
       </div>
 
-      <div className="count">{list.length.toLocaleString()} shown</div>
+      {filter === "deleted" ? (
+        <div className="count">
+          {deleted === null ? "Loading…" :
+           deleted.length === 0 ? "Nothing deleted. Anything you remove shows up here." :
+           `${deleted.length} hidden — nothing is ever erased from the database`}
+        </div>
+      ) : (
+        <div className="count">{list.length.toLocaleString()} shown</div>
+      )}
 
-      <div className="grid">
+      {filter === "deleted" && deleted?.length > 0 && (
+        <div className="restore-list">
+          {deleted.map((a) => (
+            <div key={a.id} className="restore-row">
+              <div className="restore-art"><CoverArt album={a} size={48} canPersist={false} /></div>
+              <div className="restore-txt">
+                <b>{a.title}</b>
+                <em>{a.artist}{a.year ? ` · ${a.year}` : ""}</em>
+              </div>
+              {a.score != null && <span className="badge badge--sm">{a.score}</span>}
+              <button className="btn btn--sm" disabled={!owner}
+                      onClick={() => onRestore(a.id)}>Restore</button>
+            </div>
+          ))}
+        </div>
+      )}
+
+      <div className="grid" hidden={filter === "deleted"}>
         {list.slice(0, shown).map((a) => (
           <button key={a.id} className="tile" onClick={() => setOpen(a)}>
             <div className="tile__art">
@@ -302,7 +334,7 @@ function BrowseView({ albums, owner, onPatch, onPlay, onAdd, onDelete }) {
         ))}
       </div>
 
-      {shown < list.length && (
+      {shown < list.length && filter !== "deleted" && (
         <button className="btn btn--more" onClick={() => setShown((n) => n + CHUNK)}>
           Show more ({(list.length - shown).toLocaleString()} left)
         </button>
@@ -310,7 +342,7 @@ function BrowseView({ albums, owner, onPatch, onPlay, onAdd, onDelete }) {
 
       {live && (
         <Detail album={live} owner={owner} onPatch={onPatch} onPlay={onPlay}
-                onDelete={(id) => { onDelete(id); setOpen(null); }}
+                onDelete={(id) => { onDelete(id); setDeleted(null); setOpen(null); }}
                 onClose={() => setOpen(null)} />
       )}
 

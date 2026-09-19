@@ -16,6 +16,10 @@ const LS_ADDED = "imc:local:added";
 const LS_GONE  = "imc:local:deleted";
 const LS_SEQ   = "imc:local:seq";
 
+// The last full parse, so deleted albums can be listed without re-reading the
+// CSV. Populated by albums().
+let LAST_FULL = [];
+
 // Albums added in the app get ids from well above the CSV's row numbers, so
 // the two can never collide as the spreadsheet grows.
 const ADDED_ID_BASE = 1000000;
@@ -97,10 +101,24 @@ const LocalDB = {
       })
       .filter((a) => !gone.has(a.id));
 
-    return [
+    LAST_FULL = [
       ...fromSheet,
-      ...added.filter((a) => !gone.has(a.id)).map((a) => ({ ...a, ...(edits[a.id] || {}) })),
+      ...added.map((a) => ({ ...a, ...(edits[a.id] || {}) })),
     ];
+    return LAST_FULL.filter((a) => !gone.has(a.id));
+  },
+
+  async deletedAlbums() {
+    const gone = load(LS_GONE, []);
+    if (!LAST_FULL.length) await this.albums();
+    // Newest deletion first, matching the database ordering.
+    const order = new Map(gone.map((id, i) => [id, i]));
+    return LAST_FULL.filter((a) => order.has(a.id))
+                    .sort((x, y) => order.get(y.id) - order.get(x.id));
+  },
+
+  async restoreAlbum(id) {
+    save(LS_GONE, load(LS_GONE, []).filter((x) => x !== id));
   },
 
   async addAlbum({ artist, title, year, score }) {
@@ -127,16 +145,10 @@ const LocalDB = {
     return album;
   },
 
+  // Always a tombstone, whether the album came from the CSV or was added here.
+  // Hard-removing an added album would make a mistaken delete unrecoverable,
+  // and ids never repeat (see the counter above), so keeping the row is safe.
   async deleteAlbum(id) {
-    const added = load(LS_ADDED, []);
-    const trimmed = added.filter((a) => a.id !== id);
-    if (trimmed.length !== added.length) {
-      // Added here, so it can simply go -- no tombstone needed.
-      save(LS_ADDED, trimmed);
-      return;
-    }
-    // An album from the sheet cannot be removed from the CSV, so record the id
-    // and filter it out on load -- the same tombstone idea the database uses.
     const gone = load(LS_GONE, []);
     if (!gone.includes(id)) { gone.push(id); save(LS_GONE, gone); }
   },

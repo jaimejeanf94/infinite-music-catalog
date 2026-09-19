@@ -246,3 +246,15 @@ main { max-width: 1100px; margin: 0 auto; padding: 20px 16px 40px; }
 .btn--danger:hover:not(:disabled) { background: #3a1a16; }
 .btn--armed { background: #c4392a; border-color: #c4392a; color: #fff; }
 .btn--armed:hover:not(:disabled) { background: #d6412f; }
+
+/* Deleted albums, kept and restorable — nothing is erased from the database. */
+.restore-list { display: flex; flex-direction: column; gap: 8px; }
+.restore-row {
+  display: flex; align-items: center; gap: 12px;
+  background: var(--panel); border: 1px solid var(--line);
+  border-radius: 10px; padding: 10px 12px;
+}
+.restore-art { width: 48px; height: 48px; flex: none; }
+.restore-txt { display: flex; flex-direction: column; min-width: 0; flex: 1; }
+.restore-txt b { font-size: 14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.restore-txt em { font-style: normal; font-size: 12px; color: var(--ink-dim); }
