@@ -52,6 +52,7 @@ code { background: var(--panel-2); padding: 1px 5px; border-radius: 5px; font-si
   border-bottom: 1px solid var(--line);
 }
 .brand {
+  margin-left: auto;
   font-family: var(--display);
   font-weight: 800;
   font-size: 26px;
@@ -61,9 +62,9 @@ code { background: var(--panel-2); padding: 1px 5px; border-radius: 5px; font-si
   color: var(--ink);
   text-decoration: none;
 }
-.nav { display: flex; gap: 4px; margin-left: auto; }
+.nav { display: flex; gap: 4px; }
 .nav__a {
-  padding: 6px 2px; margin-left: 20px; text-decoration: none;
+  padding: 6px 2px; margin-right: 22px; text-decoration: none;
   color: var(--ink-dim); font-family: var(--mono); font-size: 12px;
   text-transform: uppercase; letter-spacing: 0.14em;
   border-bottom: 2px solid transparent;
@@ -400,8 +401,22 @@ button, a, input, select, textarea, .tile { touch-action: manipulation; }
 }
 .genre--link { cursor: pointer; }
 .genre--link:hover { border-color: var(--accent); color: var(--ink); }
+/* Styles are not chips. A bordered pill reads as something you can press, and
+   next to the genres they were indistinguishable -- nine identical capsules in
+   a row with no way to tell which was which. These are description: plain
+   text, separated by middots. */
 .genre--style {
-  background: transparent;
-  border-style: dashed;
+  background: none;
+  border: 0;
+  padding: 0;
   color: var(--ink-dim);
+  font-family: var(--body);
+  font-size: 14px;
+  font-weight: 400;
 }
+.genre--style + .genre--style::before {
+  content: "·";
+  margin-right: 7px;
+  color: var(--line);
+}
+.taxo__row .genres { align-items: baseline; }

@@ -74,7 +74,7 @@ function SignIn({ onDone }) {
 function parseHash() {
   const raw = (location.hash || "").replace(/^#\/?/, "");
   const [path, qs] = raw.split("?");
-  return { route: path || "roll", params: new URLSearchParams(qs || "") };
+  return { route: path || "browse", params: new URLSearchParams(qs || "") };
 }
 
 function writeHash(route, params, { push } = {}) {
@@ -192,12 +192,12 @@ function App() {
   return (
     <>
       <header className="top">
-        <a className="brand" href="#/roll">Infinite Music Catalog</a>
-        {db.mode === "local" && <span className="tag" title="Ratings are saved in this browser only">local</span>}
         <nav className="nav">
+          <a className={"nav__a" + (route === "browse" ? " nav__a--on" : "")} href="#/browse">Shelf</a>
           <a className={"nav__a" + (route === "roll" ? " nav__a--on" : "")} href="#/roll">Roll</a>
-          <a className={"nav__a" + (route === "browse" ? " nav__a--on" : "")} href="#/browse">Browse</a>
         </nav>
+        {db.mode === "local" && <span className="tag" title="Ratings are saved in this browser only">local</span>}
+        <a className="brand" href="#/browse">Infinite Music Catalog</a>
         {db.mode === "local" ? null : user
           ? <button className="btn btn--quiet btn--sm" onClick={() => db.signOut()}>Sign out</button>
           : <button className="btn btn--quiet btn--sm" onClick={() => setShowSignIn(true)}>Sign in</button>}

@@ -62,6 +62,10 @@ browser console prints SQL you can paste into Supabase.
 
 ## 3. The two screens
 
+The app opens on the Shelf. Navigation sits top-left, where reading starts —
+it was on the right past a wide gap, which read as trim rather than as the way
+to the other screen.
+
 ### Roll — the randomiser
 
 Built for speed: one album, one keystroke, next.
@@ -79,7 +83,7 @@ only from albums with no score — the mode for working through the backlog.
 **Uniform** gives every album in the pool equal odds. Switching mode rolls
 immediately rather than leaving the last album on screen.
 
-### Browse — the shelf
+### Shelf — browsing
 
 Search across artist, album and year; filter by rated / unrated / out of pool /
 deleted; filter by genre; sort four ways. All of it lives in the URL, so a view
@@ -88,8 +92,9 @@ and grow as you scroll, because 4,476 at once crawls.
 
 **Genre and style are separate things.** Genre is what you browse by; style is
 what the record actually is. Deafheaven's *Lonely People With Power* is genre
-`black metal`, style `post-metal, blackgaze`. Genres filter and are clickable;
-styles only describe, because half of them sit on two albums or fewer.
+`black metal`, style `post-metal, blackgaze`. Genres are chips you can click to filter; styles are plain text, because half
+of them sit on two albums or fewer and a bordered pill reads as something you
+can press.
 
 The split is computed from your collection rather than imported, because no
 source provides a usable one. MusicBrainz tags are a flat list of 2,200 names
