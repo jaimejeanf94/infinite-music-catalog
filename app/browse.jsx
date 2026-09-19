@@ -3,6 +3,19 @@
 const BROWSE_SCORES = [70, 75, 80, 85, 90, 95, 100];
 const CHUNK = 60;   // tiles rendered per "page" — 4.4k at once would crawl
 
+// Tiles sit at slightly different heights, like records pushed unevenly into a
+// shelf. The offset is derived from the album id rather than chosen at random,
+// so a given album always sits at the same height and the wall does not
+// reshuffle itself on every re-render.
+//
+// The id is passed through a multiplicative hash first: ids run in sequence, so
+// using them directly would line the offsets up into vertical stripes once the
+// grid settled on a column count.
+const LIFTS = [0, 13, 6, 20, 3, 16, 9];
+function lift(id) {
+  return LIFTS[(Math.imul(id, 2654435761) >>> 0) % LIFTS.length];
+}
+
 function Stat({ label, value }) {
   return <div className="stat"><b>{value}</b><span>{label}</span></div>;
 }
@@ -321,7 +334,8 @@ function BrowseView({ albums, owner, onPatch, onPlay, onAdd, onDelete, onRestore
 
       <div className="grid" hidden={filter === "deleted"}>
         {list.slice(0, shown).map((a) => (
-          <button key={a.id} className="tile" onClick={() => setOpen(a)}>
+          <button key={a.id} className="tile" onClick={() => setOpen(a)}
+                  style={{ "--lift": lift(a.id) + "px" }}>
             <div className="tile__art">
               <CoverArt album={a} size={150} canPersist={owner}
                         onResolved={(id, url) => onPatch(id, { cover_url: url }, true)} />
