@@ -82,8 +82,22 @@ immediately rather than leaving the last album on screen.
 ### Browse — the shelf
 
 Search across artist, album and year; filter by rated / unrated / out of pool /
-deleted; filter by genre; sort four ways. Tiles render 60 at a time and grow as
-you scroll, because 4,476 at once crawls.
+deleted; filter by genre; sort four ways. All of it lives in the URL, so a view
+can be bookmarked and shared and Back undoes a filter. Tiles render 60 at a time
+and grow as you scroll, because 4,476 at once crawls.
+
+**Genre is a combobox, not a dropdown.** At 620 albums enriched there were
+already 216 distinct genres, and half of them covered two albums or fewer —
+`third stream`, `pigfuck`, `pagan black metal`. A list that long is unscannable,
+and most of it is too specific to browse for. So the list opens ranked by how
+much of *your* collection each genre covers, and typing reaches the tail:
+"post" gives post-rock (25) through post-punk revival (1).
+
+There is deliberately no genre/subgenre hierarchy. MusicBrainz's list is flat,
+so one would mean hand-maintaining ~600 mappings that are wrong at the edges
+anyway — `blackgaze` belongs under metal *and* shoegaze. Frequency in your own
+collection separates broad from specific for free, and keeps doing it as the
+catalogue grows.
 
 - **+ Add album** — artist and title required, year and an initial score
   optional. Duplicates are refused by the database and caught in the form first,

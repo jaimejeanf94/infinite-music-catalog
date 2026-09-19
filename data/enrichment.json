@@ -7106,5 +7106,499 @@
   "cover_from": "coverartarchive",
   "mb_year": "2022",
   "checked": "2026-09-19"
+ },
+ "Angel Olsen::All Mirrors": {
+  "status": "ok",
+  "mbid": "4262c677-2646-461a-93f2-80526ae2bb1a",
+  "genres": [
+   "indie rock",
+   "rock",
+   "pop"
+  ],
+  "cover_url": null,
+  "cover_from": null,
+  "mb_year": "2019",
+  "checked": "2026-09-19"
+ },
+ "Angel Olsen::My Woman": {
+  "status": "ok",
+  "mbid": "c9db1003-a83a-49b7-b04c-237e05260969",
+  "genres": [
+   "indie pop",
+   "indie rock",
+   "pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/c9db1003-a83a-49b7-b04c-237e05260969/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2016",
+  "checked": "2026-09-19"
+ },
+ "Angel Olsen::Burn Your Fire for No Witness": {
+  "status": "ok",
+  "mbid": "8cb480c5-404f-4f65-ad88-ba77e19ef33c",
+  "genres": [
+   "rock",
+   "pop",
+   "folk"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/8cb480c5-404f-4f65-ad88-ba77e19ef33c/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2014",
+  "checked": "2026-09-19"
+ },
+ "Angelo Badalamenti::Twin Peaks: Fire Walk with Me": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Angelo Badalamenti::Soundtrack from Twin Peaks": {
+  "status": "ok",
+  "mbid": "d76e8ddb-ee99-3f9e-baf5-a66123a18774",
+  "genres": [
+   "jazz",
+   "ambient",
+   "dark jazz"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/d76e8ddb-ee99-3f9e-baf5-a66123a18774/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1990",
+  "checked": "2026-09-19"
+ },
+ "Angelo Badalamenti & David Lynch::Mulholland Dr.": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Angels of Light::How I Loved You": {
+  "status": "ok",
+  "mbid": "b7a7b9f0-6cd6-31e5-bfa2-863873da6ca4",
+  "genres": [
+   "folk rock",
+   "gothic country",
+   "folk"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/b7a7b9f0-6cd6-31e5-bfa2-863873da6ca4/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2001",
+  "checked": "2026-09-19"
+ },
+ "Änglagård::Hybris": {
+  "status": "ok",
+  "mbid": "4097634d-c84d-397f-bc1e-93e59703a7d5",
+  "genres": [
+   "progressive rock",
+   "rock",
+   "symphonic prog"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/4097634d-c84d-397f-bc1e-93e59703a7d5/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1992",
+  "checked": "2026-09-19"
+ },
+ "Animal Collective::Time Skiffs": {
+  "status": "ok",
+  "mbid": "ee936249-9671-44c3-a446-1776150d781e",
+  "genres": [
+   "neo-psychedelia",
+   "experimental",
+   "indie rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/ee936249-9671-44c3-a446-1776150d781e/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2022",
+  "checked": "2026-09-19"
+ },
+ "Animal Collective::Bridge to Quiet": {
+  "status": "ok",
+  "mbid": "88f285a4-e2bb-4c20-95d5-6ec3c8dedd5b",
+  "genres": [
+   "ambient",
+   "rock",
+   "electronic"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/88f285a4-e2bb-4c20-95d5-6ec3c8dedd5b/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2020",
+  "checked": "2026-09-19"
+ },
+ "Animal Collective::Fall Be Kind": {
+  "status": "ok",
+  "mbid": "57f5f41f-a442-4b82-83f0-99bf5f3e7504",
+  "genres": [
+   "experimental",
+   "psychedelic pop",
+   "neo-psychedelia"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/57f5f41f-a442-4b82-83f0-99bf5f3e7504/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2009",
+  "checked": "2026-09-19"
+ },
+ "Animal Collective::Merriweather Post Pavilion": {
+  "status": "ok",
+  "mbid": "b059890c-d415-3e65-aaed-52c810565922",
+  "genres": [
+   "neo-psychedelia",
+   "experimental",
+   "psychedelic pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/b059890c-d415-3e65-aaed-52c810565922/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2009",
+  "checked": "2026-09-19"
+ },
+ "Camera Obscura::Let’s Get Out of This Country": {
+  "status": "ok",
+  "mbid": "5c3c11c7-9a96-3546-b82a-3846f3f1c6be",
+  "genres": [
+   "indie pop",
+   "rock",
+   "pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/5c3c11c7-9a96-3546-b82a-3846f3f1c6be/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2006",
+  "checked": "2026-09-19"
+ },
+ "Animal Collective::Strawberry Jam": {
+  "status": "ok",
+  "mbid": "89e4f726-2b6f-3f15-992e-b52105f53899",
+  "genres": [
+   "art rock",
+   "electronic",
+   "neo-psychedelia"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/89e4f726-2b6f-3f15-992e-b52105f53899/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2007",
+  "checked": "2026-09-19"
+ },
+ "Animal Collective::Feels": {
+  "status": "ok",
+  "mbid": "5438d2fd-1499-3daa-9f85-091a497d270b",
+  "genres": [
+   "neo-psychedelia",
+   "indie rock",
+   "freak folk"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/5438d2fd-1499-3daa-9f85-091a497d270b/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2005",
+  "checked": "2026-09-19"
+ },
+ "Animal Collective::Sung Tongs": {
+  "status": "ok",
+  "mbid": "264f585d-9a28-37b7-88b3-d8e090b4d2e7",
+  "genres": [
+   "experimental",
+   "psychedelic folk",
+   "neo-psychedelia"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/264f585d-9a28-37b7-88b3-d8e090b4d2e7/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2004",
+  "checked": "2026-09-19"
+ },
+ "Animal Collective::Spirit They're Gone, Spirit They're Vanished": {
+  "status": "partial",
+  "cover_url": "https://cdn-images.dzcdn.net/images/cover/a5fad6be240903ce220f6f2631eb6f93/1000x1000-000000-80-0-0.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Anna von Hausswolff::Dead Magic": {
+  "status": "ok",
+  "mbid": "ecf50db6-6c26-4014-9096-625307fde597",
+  "genres": [
+   "neoclassical dark wave",
+   "dark wave",
+   "experimental rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/ecf50db6-6c26-4014-9096-625307fde597/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2018",
+  "checked": "2026-09-19"
+ },
+ "Annahstasia::Tether": {
+  "status": "ok",
+  "mbid": "ae371a9b-95de-4c92-b0ff-cac39ea05c7a",
+  "genres": [
+   "soul",
+   "rock",
+   "singer-songwriter"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/ae371a9b-95de-4c92-b0ff-cac39ea05c7a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2025",
+  "checked": "2026-09-19"
+ },
+ "Annie::Anniemal": {
+  "status": "ok",
+  "mbid": "a2a25310-5f2d-3906-b930-9aaf4b8f915e",
+  "genres": [
+   "electronic",
+   "pop",
+   "synth-pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/a2a25310-5f2d-3906-b930-9aaf4b8f915e/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2004",
+  "checked": "2026-09-19"
+ },
+ "Anohni::Hopelessness": {
+  "status": "ok",
+  "mbid": "7c2f9ad0-029d-4ae3-93c2-0fe50397339b",
+  "genres": [
+   "art pop",
+   "electropop",
+   "idm"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/7c2f9ad0-029d-4ae3-93c2-0fe50397339b/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2016",
+  "checked": "2026-09-19"
+ },
+ "ANOHNI and The Johnsons::My Back Was A Bridge For You To Cross": {
+  "status": "ok",
+  "mbid": "7f44b345-d444-493f-bc91-bdee7da5826d",
+  "genres": [
+   "singer-songwriter",
+   "soul",
+   "chamber pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/7f44b345-d444-493f-bc91-bdee7da5826d/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-19"
+ },
+ "Anri::Timely!!": {
+  "status": "partial",
+  "cover_url": "https://cdn-images.dzcdn.net/images/cover/b86d778a2614f8b253d26e49abc14c09/1000x1000-000000-80-0-0.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Antônio Carlos Jobim::Wave": {
+  "status": "ok",
+  "mbid": "935fccc4-064a-339c-ba4c-b0acee6ff5eb",
+  "genres": [
+   "bossa nova",
+   "instrumental",
+   "jazz"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/935fccc4-064a-339c-ba4c-b0acee6ff5eb/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1967",
+  "checked": "2026-09-19"
+ },
+ "Antônio Carlos Jobim & Elis Regina::Elis & Tom": {
+  "status": "ok",
+  "mbid": "e3f00603-c147-3810-ae0d-29cb2cc60992",
+  "genres": [
+   "mpb",
+   "pop",
+   "bossa nova"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/e3f00603-c147-3810-ae0d-29cb2cc60992/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1980",
+  "checked": "2026-09-19"
+ },
+ "Antony and the Johnsons::The Crying Light": {
+  "status": "ok",
+  "mbid": "009f05b6-06ed-360e-95ea-4378bc548957",
+  "genres": [
+   "art pop",
+   "rock",
+   "avant-garde"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/009f05b6-06ed-360e-95ea-4378bc548957/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2009",
+  "checked": "2026-09-19"
+ },
+ "Antony and the Johnsons::I Am a Bird Now": {
+  "status": "ok",
+  "mbid": "63373d83-a96e-355c-aa44-837db92c2193",
+  "genres": [
+   "chamber pop",
+   "art pop",
+   "art rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/63373d83-a96e-355c-aa44-837db92c2193/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2005",
+  "checked": "2026-09-19"
+ },
+ "Aphex Twin::Collapse": {
+  "status": "ok",
+  "mbid": "8b54ee8d-2ac9-48b2-a06a-0282d86c8d96",
+  "genres": [
+   "idm",
+   "techno",
+   "electronic"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/8b54ee8d-2ac9-48b2-a06a-0282d86c8d96/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2018",
+  "checked": "2026-09-19"
+ },
+ "Aphex Twin::Syro": {
+  "status": "ok",
+  "mbid": "11a7c281-a260-4f77-a1d5-1ff2d4c917eb",
+  "genres": [
+   "idm",
+   "ambient techno",
+   "acid techno"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/11a7c281-a260-4f77-a1d5-1ff2d4c917eb/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2014",
+  "checked": "2026-09-19"
+ },
+ "Aphex Twin::DrukQs": {
+  "status": "ok",
+  "mbid": "87f1a316-510f-36c3-9f2c-38230b0e56e0",
+  "genres": [
+   "idm",
+   "drill and bass",
+   "electroacoustic"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/87f1a316-510f-36c3-9f2c-38230b0e56e0/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2001",
+  "checked": "2026-09-19"
+ },
+ "Aphex Twin::Come to Daddy": {
+  "status": "ok",
+  "mbid": "557e1cd5-5b6a-46c1-8d5b-45a32767449d",
+  "genres": [
+   "electronic",
+   "experimental",
+   "idm"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/557e1cd5-5b6a-46c1-8d5b-45a32767449d/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1997",
+  "checked": "2026-09-19"
+ },
+ "Aphex Twin::The Richard D. James Album": {
+  "status": "ok",
+  "mbid": "84d79dbe-7ac1-3ebc-9b36-238ddfb8229c",
+  "genres": [
+   "idm",
+   "electronic",
+   "drill and bass"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/84d79dbe-7ac1-3ebc-9b36-238ddfb8229c/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1996",
+  "checked": "2026-09-19"
+ },
+ "Aphex Twin::… I Care Because You Do": {
+  "status": "ok",
+  "mbid": "79c6d3be-251c-3644-b07e-09d738e15a84",
+  "genres": [
+   "idm",
+   "electronic",
+   "downtempo"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/79c6d3be-251c-3644-b07e-09d738e15a84/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1995",
+  "checked": "2026-09-19"
+ },
+ "Aphex Twin::Classics": {
+  "status": "ok",
+  "mbid": "f1c51bbf-407e-3f1c-85a1-aa44a432048f",
+  "genres": [
+   "electronic",
+   "techno",
+   "idm"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/f1c51bbf-407e-3f1c-85a1-aa44a432048f/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1994",
+  "checked": "2026-09-19"
+ },
+ "Aphex Twin::Selected Ambient Works 85-92": {
+  "status": "ok",
+  "mbid": "6842c81d-ea77-3dfd-abf7-4323add3f4d4",
+  "genres": [
+   "ambient techno",
+   "ambient",
+   "electronic"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/6842c81d-ea77-3dfd-abf7-4323add3f4d4/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1992",
+  "checked": "2026-09-19"
+ },
+ "Aphrodite's Child::666": {
+  "status": "ok",
+  "mbid": "9eb48d7e-2425-32d9-8d0b-54903d4a66be",
+  "genres": [
+   "rock",
+   "progressive rock",
+   "progressive"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/9eb48d7e-2425-32d9-8d0b-54903d4a66be/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1972",
+  "checked": "2026-09-19"
+ },
+ "Arca::KicK iii": {
+  "status": "ok",
+  "mbid": "d36553b5-d136-45ca-bda4-91e9adfd40d9",
+  "genres": [
+   "experimental",
+   "electronic",
+   "pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/d36553b5-d136-45ca-bda4-91e9adfd40d9/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2021",
+  "checked": "2026-09-19"
+ },
+ "Arca::Arca": {
+  "status": "ok",
+  "mbid": "1ef3260d-2f15-4bbf-8c2b-cf6088ba81e6",
+  "genres": [
+   "electronic",
+   "pop",
+   "experimental"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/1ef3260d-2f15-4bbf-8c2b-cf6088ba81e6/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-19"
+ },
+ "Arca::Entrañas": {
+  "status": "ok",
+  "mbid": "af8df90d-621e-42b7-86f9-8b64024f1b6a",
+  "genres": [
+   "experimental"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/af8df90d-621e-42b7-86f9-8b64024f1b6a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2016",
+  "checked": "2026-09-19"
+ },
+ "Arca::Mutant": {
+  "status": "ok",
+  "mbid": "5d88e587-169d-4724-a112-2b8a0cf5561f",
+  "genres": [
+   "experimental",
+   "electronic",
+   "idm"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/5d88e587-169d-4724-a112-2b8a0cf5561f/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2015",
+  "checked": "2026-09-19"
  }
 }

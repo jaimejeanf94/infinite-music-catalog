@@ -129,6 +129,96 @@ function Detail({ album, owner, onPatch, onPlay, onDelete, onClose }) {
   );
 }
 
+
+// Genre filter. There are already 216 distinct genres and half of them sit on
+// two albums or fewer, so a dropdown is the wrong control: the list is too long
+// to scan and most of it is too specific to browse for. Instead the common ones
+// are offered first, ranked by how much of YOUR collection they cover, and
+// typing reaches the tail.
+//
+// Built as a real combobox rather than a native <select> so it can show counts
+// and be searched -- which means the keyboard behaviour is ours to implement.
+function GenreFilter({ options, value, onChange }) {
+  const [open, setOpen] = React.useState(false);
+  const [query, setQuery] = React.useState("");
+  const [active, setActive] = React.useState(0);
+  const boxRef = React.useRef(null);
+  const listId = "genre-options";
+
+  const matches = React.useMemo(() => {
+    const needle = query.trim().toLowerCase();
+    const hits = needle
+      ? options.filter(([g]) => g.toLowerCase().includes(needle))
+      : options;
+    return hits.slice(0, 40);
+  }, [options, query]);
+
+  React.useEffect(() => setActive(0), [query]);
+
+  // Clicking away closes it; the input keeps whatever was already selected.
+  React.useEffect(() => {
+    if (!open) return;
+    const away = (e) => { if (!boxRef.current?.contains(e.target)) { setOpen(false); setQuery(""); } };
+    document.addEventListener("mousedown", away);
+    return () => document.removeEventListener("mousedown", away);
+  }, [open]);
+
+  const choose = (g) => { onChange(g); setOpen(false); setQuery(""); };
+
+  const onKey = (e) => {
+    if (e.key === "ArrowDown") { e.preventDefault(); setOpen(true); setActive((i) => Math.min(i + 1, matches.length - 1)); }
+    else if (e.key === "ArrowUp") { e.preventDefault(); setActive((i) => Math.max(i - 1, 0)); }
+    else if (e.key === "Enter" && open && matches[active]) { e.preventDefault(); choose(matches[active][0]); }
+    else if (e.key === "Escape") { setOpen(false); setQuery(""); e.currentTarget.blur(); }
+  };
+
+  if (value) {
+    return (
+      <button className="chip chip--on genre-clear" onClick={() => onChange("")}
+              title="Clear the genre filter">
+        {value} <span aria-hidden="true">×</span>
+        <span className="sr-only">, clear genre filter</span>
+      </button>
+    );
+  }
+
+  return (
+    <div className="combo" ref={boxRef}>
+      <input
+        className="combo__input"
+        type="text"
+        role="combobox"
+        aria-expanded={open}
+        aria-controls={listId}
+        aria-autocomplete="list"
+        aria-label="Filter by genre"
+        placeholder="Genre…"
+        value={query}
+        onChange={(e) => { setQuery(e.target.value); setOpen(true); }}
+        onFocus={() => setOpen(true)}
+        onKeyDown={onKey}
+      />
+      {open && (
+        <ul className="combo__list" id={listId} role="listbox">
+          {matches.length === 0 && <li className="combo__empty">No genre matches “{query}”</li>}
+          {matches.map(([g, n], i) => (
+            <li key={g} role="option" aria-selected={i === active}>
+              <button
+                className={"combo__opt" + (i === active ? " combo__opt--active" : "")}
+                onMouseEnter={() => setActive(i)}
+                onClick={() => choose(g)}
+              >
+                <span>{g}</span>
+                <em>{n}</em>
+              </button>
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+}
+
 function AddAlbum({ albums, onAdd, onClose }) {
   const [artist, setArtist] = React.useState("");
   const [title, setTitle] = React.useState("");
@@ -296,12 +386,8 @@ function BrowseView({ albums, owner, onPatch, onPlay, onAdd, onDelete, onRestore
             ))}
         </div>
         {genreOptions.length > 0 && (
-          <select className="sort" value={genre} onChange={(e) => setParam("genre", e.target.value)}>
-            <option value="">All genres</option>
-            {genreOptions.map(([g, n]) => (
-              <option key={g} value={g}>{g} ({n})</option>
-            ))}
-          </select>
+          <GenreFilter options={genreOptions} value={genre}
+                       onChange={(g) => setParam("genre", g)} />
         )}
         {owner && (
           <button className="btn btn--primary btn--sm" onClick={() => setAdding(true)}>
