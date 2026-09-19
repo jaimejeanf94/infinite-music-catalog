@@ -4857,5 +4857,635 @@
   "cover_from": "coverartarchive",
   "mb_year": "2018",
   "checked": "2026-09-19"
+ },
+ "Slowdive::everything is alive": {
+  "status": "ok",
+  "mbid": "0070ec11-d0ef-4df2-9cf8-f8a10f083f27",
+  "genres": [
+   "dream pop",
+   "shoegaze",
+   "rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/0070ec11-d0ef-4df2-9cf8-f8a10f083f27/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-19"
+ },
+ "The Antlers::Familiars": {
+  "status": "ok",
+  "mbid": "b0e03a04-2872-474c-9c32-338a8b56c884",
+  "genres": [
+   "rock",
+   "indie rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/b0e03a04-2872-474c-9c32-338a8b56c884/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2014",
+  "checked": "2026-09-19"
+ },
+ "The Comet is Coming::The Afterlife": {
+  "status": "ok",
+  "mbid": "2ce3fcff-c925-405c-bace-e8e3248ccbc0",
+  "genres": [
+   "jazz"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/2ce3fcff-c925-405c-bace-e8e3248ccbc0/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2019",
+  "checked": "2026-09-19"
+ },
+ "The Fall::Slates": {
+  "status": "ok",
+  "mbid": "cdd63b6e-209e-3635-95cf-510fbfe3a7d5",
+  "genres": [
+   "rock",
+   "punk",
+   "post-punk"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/cdd63b6e-209e-3635-95cf-510fbfe3a7d5/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1981",
+  "checked": "2026-09-19"
+ },
+ "The Flying Burrito Brothers::The Gilded Palace of Sin": {
+  "status": "partial",
+  "cover_url": "https://cdn-images.dzcdn.net/images/cover/f9b196a14abe282156fb9df85fb5af53/1000x1000-000000-80-0-0.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Wilco::Wilco (The Album)": {
+  "status": "ok",
+  "mbid": "c61adfc2-3488-3e14-9f91-5f904e577bc5",
+  "genres": [
+   "rock",
+   "indie rock",
+   "pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/c61adfc2-3488-3e14-9f91-5f904e577bc5/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2009",
+  "checked": "2026-09-19"
+ },
+ "Lemon Jelly::Lost Horizons": {
+  "status": "ok",
+  "mbid": "9bc9a542-ef68-38ee-a0a5-6189a422ccb7",
+  "genres": [
+   "electronic",
+   "downtempo"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/9bc9a542-ef68-38ee-a0a5-6189a422ccb7/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2002",
+  "checked": "2026-09-19"
+ },
+ "Javiera Mena::Esquemas Juveniles": {
+  "status": "ok",
+  "mbid": "1a010b5b-61b3-3365-8083-3345624584b4",
+  "genres": [
+   "pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/1a010b5b-61b3-3365-8083-3345624584b4/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2006",
+  "checked": "2026-09-19"
+ },
+ "Los Planetas::Unidad de desplazamiento": {
+  "status": "ok",
+  "mbid": "c1579cec-4add-3340-aa12-14d85c84bd38",
+  "genres": [
+   "rock",
+   "indie rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/c1579cec-4add-3340-aa12-14d85c84bd38/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2000",
+  "checked": "2026-09-19"
+ },
+ "Jaime Sin Tierra::...Lo que va a encandilar es el día": {
+  "status": "ok",
+  "mbid": "0f5f8a23-ab47-3120-b5a5-d058990cb09b",
+  "genres": [],
+  "cover_url": "https://coverartarchive.org/release-group/0f5f8a23-ab47-3120-b5a5-d058990cb09b/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2002",
+  "checked": "2026-09-19"
+ },
+ "Various Artists::The Roots of Chicha: Psychedelic Cumbias From Peru": {
+  "status": "ok",
+  "mbid": "481befd2-952c-3cb3-8c45-d278c454618e",
+  "genres": [
+   "psychedelic rock",
+   "cumbia peruana"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/481befd2-952c-3cb3-8c45-d278c454618e/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2007",
+  "checked": "2026-09-19"
+ },
+ "Jaime Sin Tierra::Autochocador": {
+  "status": "ok",
+  "mbid": "0651e6c2-d35d-3be2-b9cf-2ac5bfd276b0",
+  "genres": [],
+  "cover_url": "https://coverartarchive.org/release-group/0651e6c2-d35d-3be2-b9cf-2ac5bfd276b0/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2000",
+  "checked": "2026-09-19"
+ },
+ "Teleradio Donoso::Baila y Llorar": {
+  "status": "ok",
+  "mbid": "97295a51-4785-4bb2-a8e0-7fbeca6ee889",
+  "genres": [
+   "rock",
+   "indie rock",
+   "soul"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/97295a51-4785-4bb2-a8e0-7fbeca6ee889/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2008",
+  "checked": "2026-09-19"
+ },
+ "Miranda!::El Templo del Pop": {
+  "status": "ok",
+  "mbid": "ca669c76-f0e3-349c-b857-4d8231a07cf9",
+  "genres": [
+   "electronic",
+   "pop",
+   "synth-pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/ca669c76-f0e3-349c-b857-4d8231a07cf9/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2008",
+  "checked": "2026-09-19"
+ },
+ "Taller Dejao::El brillo que tiene es lo humano que le queda": {
+  "status": "ok",
+  "mbid": "62c1c3dd-e105-4c7a-b6c9-07cb622b5564",
+  "genres": [
+   "punk",
+   "experimental",
+   "post-hardcore"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/62c1c3dd-e105-4c7a-b6c9-07cb622b5564/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2013",
+  "checked": "2026-09-19"
+ },
+ "Miranda!::Es Menitra": {
+  "status": "ok",
+  "mbid": "1ee05e8c-3539-3d59-aece-ba367131fcf2",
+  "genres": [
+   "electronic",
+   "pop",
+   "synth-pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/1ee05e8c-3539-3d59-aece-ba367131fcf2/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2002",
+  "checked": "2026-09-19"
+ },
+ "Intoxicados::No es Solo Rock N' Roll": {
+  "status": "ok",
+  "mbid": "b0652e6a-9604-3c1f-aa7a-7ab76e6a77a9",
+  "genres": [
+   "rock",
+   "pop",
+   "alternative rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/b0652e6a-9604-3c1f-aa7a-7ab76e6a77a9/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2003",
+  "checked": "2026-09-19"
+ },
+ "Porter::Atemahawke": {
+  "status": "ok",
+  "mbid": "27eef4db-3fd3-3a4e-9431-75618bb708fd",
+  "genres": [
+   "rock",
+   "indie pop",
+   "experimental rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/27eef4db-3fd3-3a4e-9431-75618bb708fd/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2007",
+  "checked": "2026-09-19"
+ },
+ "Ekkaia::Manos que Estrechan Planes de Muerte y Sometiemiento": {
+  "status": "ok",
+  "mbid": "70dec006-1b52-3de5-a82d-0407293bb7ea",
+  "genres": [
+   "rock",
+   "punk",
+   "screamo"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/70dec006-1b52-3de5-a82d-0407293bb7ea/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2002",
+  "checked": "2026-09-19"
+ },
+ "Odisea::Odisea": {
+  "status": "ok",
+  "mbid": "8cf1deed-4298-4c21-b09d-b271633b3fc7",
+  "genres": [
+   "rock",
+   "electronic",
+   "pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/8cf1deed-4298-4c21-b09d-b271633b3fc7/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2010",
+  "checked": "2026-09-19"
+ },
+ "Femi & Malibu::United in Fmales 23-10-2018": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Volahn::Aq'ab'al": {
+  "status": "ok",
+  "mbid": "ac2069bb-d105-4766-83cb-008e477bddce",
+  "genres": [
+   "black metal",
+   "latin",
+   "rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/ac2069bb-d105-4766-83cb-008e477bddce/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2014",
+  "checked": "2026-09-19"
+ },
+ "Tus Amigos nuevos::Triunfo Moral": {
+  "status": "ok",
+  "mbid": "60d53ca7-96d0-4c79-97c0-3acf27535ca4",
+  "genres": [
+   "indie rock",
+   "dance-punk"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/60d53ca7-96d0-4c79-97c0-3acf27535ca4/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2015",
+  "checked": "2026-09-19"
+ },
+ "Simón Campusano::Brillo": {
+  "status": "ok",
+  "mbid": "3fbaaa39-b361-4fca-b4da-fdf780bb8a7c",
+  "genres": [],
+  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/42/e6/af/42e6af51-8979-8523-af9c-20bbb150c3d5/8429006474325.jpg/600x600bb.jpg",
+  "cover_from": "itunes",
+  "mb_year": "2019",
+  "checked": "2026-09-19"
+ },
+ "Porter::Moctezuma": {
+  "status": "ok",
+  "mbid": "d2512801-7142-4766-a50d-2c97437d1573",
+  "genres": [],
+  "cover_url": "https://coverartarchive.org/release-group/d2512801-7142-4766-a50d-2c97437d1573/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2014",
+  "checked": "2026-09-19"
+ },
+ "Enjambre::Daltónico": {
+  "status": "ok",
+  "mbid": "cfd698ec-6395-4d34-9cf4-9ef514062024",
+  "genres": [],
+  "cover_url": "https://coverartarchive.org/release-group/cfd698ec-6395-4d34-9cf4-9ef514062024/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2010",
+  "checked": "2026-09-19"
+ },
+ "Diego Lorenzini::De Algo hay que morir": {
+  "status": "ok",
+  "mbid": "2c6f8164-c0c8-4d16-b514-b02f1c2359e6",
+  "genres": [
+   "pop",
+   "folk",
+   "indie pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/2c6f8164-c0c8-4d16-b514-b02f1c2359e6/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2019",
+  "checked": "2026-09-19"
+ },
+ "Camila Moreno::Mala Madre": {
+  "status": "ok",
+  "mbid": "3da12246-7b82-48b6-8ab3-590c4dd93d19",
+  "genres": [],
+  "cover_url": "https://coverartarchive.org/release-group/3da12246-7b82-48b6-8ab3-590c4dd93d19/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2015",
+  "checked": "2026-09-19"
+ },
+ "Alex Anwandter::Rebeldes": {
+  "status": "ok",
+  "mbid": "ff0451bc-065e-4044-8dc6-d6fecdcb0b60",
+  "genres": [],
+  "cover_url": "https://coverartarchive.org/release-group/ff0451bc-065e-4044-8dc6-d6fecdcb0b60/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2011",
+  "checked": "2026-09-19"
+ },
+ "Javiera Mena::Mena": {
+  "status": "ok",
+  "mbid": "2ec94d85-737b-4872-a417-5e00bcef1d6f",
+  "genres": [
+   "electronic",
+   "pop",
+   "synth-pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/2ec94d85-737b-4872-a417-5e00bcef1d6f/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2010",
+  "checked": "2026-09-19"
+ },
+ "Rubio::Pez": {
+  "status": "ok",
+  "mbid": "7532648e-b6c9-416c-b5c7-0b2aacb3efbe",
+  "genres": [],
+  "cover_url": "https://coverartarchive.org/release-group/7532648e-b6c9-416c-b5c7-0b2aacb3efbe/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2018",
+  "checked": "2026-09-19"
+ },
+ "Demoniac::So It Goes": {
+  "status": "ok",
+  "mbid": "35f78a94-db20-43e3-85fd-4f474356528e",
+  "genres": [
+   "rock",
+   "black metal"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/35f78a94-db20-43e3-85fd-4f474356528e/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2020",
+  "checked": "2026-09-19"
+ },
+ "DJ E::Chuquimamani-Condori": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "César y su Jardín::Corre y Suelta a los Perros": {
+  "status": "ok",
+  "mbid": "2242d1bd-60b3-49c0-bfb6-e2b10495522f",
+  "genres": [],
+  "cover_url": "https://coverartarchive.org/release-group/2242d1bd-60b3-49c0-bfb6-e2b10495522f/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2025",
+  "checked": "2026-09-19"
+ },
+ "Milo J::La Vida era Más Corta": {
+  "status": "ok",
+  "mbid": "89d09f6b-75c1-41da-80f5-3af6fd11415a",
+  "genres": [],
+  "cover_url": "https://coverartarchive.org/release-group/89d09f6b-75c1-41da-80f5-3af6fd11415a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2025",
+  "checked": "2026-09-19"
+ },
+ "Candelabro::Deseo, carne y Voluntad": {
+  "status": "ok",
+  "mbid": "1c25ea45-9e71-44f9-b58a-4380fa6b4b52",
+  "genres": [
+   "post-rock",
+   "jazz rock",
+   "art rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/1c25ea45-9e71-44f9-b58a-4380fa6b4b52/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2025",
+  "checked": "2026-09-19"
+ },
+ "Candelabro::Ahora o Nunca": {
+  "status": "ok",
+  "mbid": "784bbcf3-b9f8-40eb-b2e7-0a7b6e2604e0",
+  "genres": [
+   "indie rock",
+   "art rock",
+   "neo-psychedelia"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/784bbcf3-b9f8-40eb-b2e7-0a7b6e2604e0/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-19"
+ },
+ "Enola Gay::Asia Menor": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Carne::Todos Mis Amigos Estan Tristes": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Dillóm::Por Cesarea": {
+  "status": "ok",
+  "mbid": "dd02ceef-6fe0-4040-8a8e-5ae45e9c88cd",
+  "genres": [
+   "alternative rock",
+   "indie rock",
+   "neo soul"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/dd02ceef-6fe0-4040-8a8e-5ae45e9c88cd/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2024",
+  "checked": "2026-09-19"
+ },
+ "Estoy Bien::Apoyo Emocional": {
+  "status": "ok",
+  "mbid": "ba543ff8-3c5d-4e83-8c58-d0766564dbd8",
+  "genres": [
+   "rock",
+   "indie rock",
+   "emo"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/ba543ff8-3c5d-4e83-8c58-d0766564dbd8/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-19"
+ },
+ "Solo Postres::Ramper": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "AKRILLA::epistolares": {
+  "status": "ok",
+  "mbid": "ab1db314-a2c4-4043-8937-4741ed3fc703",
+  "genres": [],
+  "cover_url": "https://coverartarchive.org/release-group/ab1db314-a2c4-4043-8937-4741ed3fc703/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2024",
+  "checked": "2026-09-19"
+ },
+ "Demoniac::Nube Negra": {
+  "status": "ok",
+  "mbid": "50ede783-ae0b-409f-b144-e68bd2949f30",
+  "genres": [
+   "thrash metal",
+   "metal",
+   "technical thrash metal"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/50ede783-ae0b-409f-b144-e68bd2949f30/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-19"
+ },
+ "Weed420::Amor de Enclava": {
+  "status": "ok",
+  "mbid": "f8089164-f464-47fe-b2fd-bfe67e4c07cd",
+  "genres": [],
+  "cover_url": "https://coverartarchive.org/release-group/f8089164-f464-47fe-b2fd-bfe67e4c07cd/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2025",
+  "checked": "2026-09-19"
+ },
+ "2814::新しい日の誕生": {
+  "status": "partial",
+  "cover_url": "https://cdn-images.dzcdn.net/images/cover/9b0cb78a28efdbe1ae48d71649419b47/1000x1000-000000-80-0-0.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "3776::歳時記 (Saijiki)": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "lovesliescrushing::Bloweyelashwish": {
+  "status": "ok",
+  "mbid": "34a7dfca-20a4-3321-8a08-5a72b3ca56d6",
+  "genres": [
+   "ambient",
+   "shoegaze",
+   "rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/34a7dfca-20a4-3321-8a08-5a72b3ca56d6/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1992",
+  "checked": "2026-09-19"
+ },
+ "矢野顕子 [Akiko Yano]::Tadaima": {
+  "status": "partial",
+  "cover_url": "https://cdn-images.dzcdn.net/images/cover/610701e9df3b8b3b0b2d8d95af1716c9/1000x1000-000000-80-0-0.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "…And You Will Know Us by the Trail of Dead::Source Tags & Codes": {
+  "status": "ok",
+  "mbid": "b2ed93f0-9b35-3d86-ac20-0c57272d86fc",
+  "genres": [
+   "rock",
+   "alternative rock",
+   "indie rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/b2ed93f0-9b35-3d86-ac20-0c57272d86fc/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2002",
+  "checked": "2026-09-19"
+ },
+ "$ilkmoney::I Don't Give A Fuck About This Rap Shit, Imma Just Drop Until I Don't Feel Like It Anymore": {
+  "status": "ok",
+  "mbid": "f584b1bd-0978-45c6-b1ce-b1369869f298",
+  "genres": [],
+  "cover_url": "https://coverartarchive.org/release-group/f584b1bd-0978-45c6-b1ce-b1369869f298/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2022",
+  "checked": "2026-09-19"
+ },
+ "100 gecs::10,000 gecs": {
+  "status": "ok",
+  "mbid": "d73daa13-b571-41dd-8dfd-740fde3fda7d",
+  "genres": [
+   "hyperpop",
+   "electronic",
+   "pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/d73daa13-b571-41dd-8dfd-740fde3fda7d/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-19"
+ },
+ "2 Many DJ's::Despacio": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Joe Jackson::Night And Day": {
+  "status": "ok",
+  "mbid": "0c55d762-c505-33fc-865b-5ac66cb90391",
+  "genres": [
+   "rock",
+   "pop",
+   "new wave"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/0c55d762-c505-33fc-865b-5ac66cb90391/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1982",
+  "checked": "2026-09-19"
+ },
+ "2 Many DJ's::2X2 (3)": {
+  "status": "ok",
+  "mbid": "6bbf1523-b4ba-4ec2-bfd7-4ad100d68c3a",
+  "genres": [],
+  "cover_url": "https://coverartarchive.org/release-group/6bbf1523-b4ba-4ec2-bfd7-4ad100d68c3a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-19"
+ },
+ "2 Many DJ's::2X2 (2)": {
+  "status": "ok",
+  "mbid": "6bbf1523-b4ba-4ec2-bfd7-4ad100d68c3a",
+  "genres": [],
+  "cover_url": "https://coverartarchive.org/release-group/6bbf1523-b4ba-4ec2-bfd7-4ad100d68c3a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-19"
+ },
+ "2 Many DJ's::2X2 (1)": {
+  "status": "ok",
+  "mbid": "6bbf1523-b4ba-4ec2-bfd7-4ad100d68c3a",
+  "genres": [],
+  "cover_url": "https://coverartarchive.org/release-group/6bbf1523-b4ba-4ec2-bfd7-4ad100d68c3a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-19"
+ },
+ "2 Many DJ's::BENELUX": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "2 Many DJ's::As Produced By Soulwax 2020-2022": {
+  "status": "ok",
+  "mbid": "35a2667c-71d8-4190-8318-80db4278cd31",
+  "genres": [],
+  "cover_url": "https://coverartarchive.org/release-group/35a2667c-71d8-4190-8318-80db4278cd31/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2022",
+  "checked": "2026-09-19"
+ },
+ "2 Many DJ's::A Tribute to Keith Forsey": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
  }
 }
