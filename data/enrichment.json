@@ -32123,5 +32123,2279 @@
   "cover_from": "coverartarchive",
   "mb_year": "2023",
   "checked": "2026-09-19"
+ },
+ "Kali Uchis::Isolation": {
+  "status": "ok",
+  "mbid": "57561634-f7bb-4e27-aa14-16d0ff79a001",
+  "genres": [
+   "contemporary r&b",
+   "neo soul",
+   "hip hop",
+   "bossa nova",
+   "latin",
+   "reggaeton",
+   "trip hop",
+   "psychedelic soul",
+   "sophisti-pop",
+   "synth funk"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/57561634-f7bb-4e27-aa14-16d0ff79a001/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2018",
+  "checked": "2026-09-19"
+ },
+ "Kali Uchis::Sincerely,": {
+  "status": "ok",
+  "mbid": "ffab75ab-f1b4-4357-a687-88ea5093f66a",
+  "genres": [
+   "contemporary r&b",
+   "dream pop",
+   "pop soul",
+   "psychedelic soul",
+   "smooth soul",
+   "sophisti-pop",
+   "r&b",
+   "bedroom pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/ffab75ab-f1b4-4357-a687-88ea5093f66a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2025",
+  "checked": "2026-09-19"
+ },
+ "Kamasi Washington::Harmony of Difference": {
+  "status": "ok",
+  "mbid": "af959345-1725-4e75-b554-e9687e2f71c4",
+  "genres": [
+   "jazz"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/af959345-1725-4e75-b554-e9687e2f71c4/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-19"
+ },
+ "Kamasi Washington::The Epic (CD 1)": {
+  "status": "ok",
+  "mbid": "fffaa737-94cb-42b9-b1f1-44698110ea8a",
+  "genres": [
+   "jazz",
+   "spiritual jazz"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/fffaa737-94cb-42b9-b1f1-44698110ea8a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2015",
+  "checked": "2026-09-19"
+ },
+ "Kamasi Washington::The Epic (CD 2)": {
+  "status": "ok",
+  "mbid": "fffaa737-94cb-42b9-b1f1-44698110ea8a",
+  "genres": [
+   "jazz",
+   "spiritual jazz"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/fffaa737-94cb-42b9-b1f1-44698110ea8a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2015",
+  "checked": "2026-09-19"
+ },
+ "Kamasi Washington::The Epic (CD 3)": {
+  "status": "ok",
+  "mbid": "fffaa737-94cb-42b9-b1f1-44698110ea8a",
+  "genres": [
+   "jazz",
+   "spiritual jazz"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/fffaa737-94cb-42b9-b1f1-44698110ea8a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2015",
+  "checked": "2026-09-19"
+ },
+ "Kanye West::DONDA": {
+  "status": "ok",
+  "mbid": "7f4792fe-b563-4554-849a-95a89be71f84",
+  "genres": [
+   "hip hop",
+   "pop",
+   "trap"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/7f4792fe-b563-4554-849a-95a89be71f84/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2021",
+  "checked": "2026-09-19"
+ },
+ "Kanye West::The Life of Pablo": {
+  "status": "ok",
+  "mbid": "8c18657a-6338-490d-a952-897663596b96",
+  "genres": [
+   "hip hop",
+   "pop rap",
+   "experimental hip hop",
+   "contemporary r&b",
+   "trap"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/8c18657a-6338-490d-a952-897663596b96/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2016",
+  "checked": "2026-09-19"
+ },
+ "Kanye West::Yeezus": {
+  "status": "ok",
+  "mbid": "5d4d0f2d-9be7-4922-bc9a-cbd2880b12c2",
+  "genres": [
+   "hip hop",
+   "experimental hip hop",
+   "industrial hip hop",
+   "psychedelic",
+   "avant-garde",
+   "electronic",
+   "experimental",
+   "electro-industrial",
+   "hardcore hip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/5d4d0f2d-9be7-4922-bc9a-cbd2880b12c2/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2013",
+  "checked": "2026-09-19"
+ },
+ "Kanye West::My Beautiful Dark Twisted Fantasy": {
+  "status": "ok",
+  "mbid": "5d6e21e1-deb5-428e-bb42-c2a567f3619b",
+  "genres": [
+   "hip hop",
+   "pop rap",
+   "pop soul",
+   "electronic",
+   "contemporary r&b",
+   "art pop",
+   "hardcore hip hop",
+   "british rhythm & blues"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/5d6e21e1-deb5-428e-bb42-c2a567f3619b/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2010",
+  "checked": "2026-09-19"
+ },
+ "Kanye West::808s & Heartbreaks": {
+  "status": "ok",
+  "mbid": "1c1b50ec-828b-3d7c-9b1b-54cb1fe97d55",
+  "genres": [
+   "hip hop",
+   "electronic",
+   "pop rap",
+   "experimental",
+   "electropop",
+   "alternative r&b",
+   "pop",
+   "contemporary r&b"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/1c1b50ec-828b-3d7c-9b1b-54cb1fe97d55/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2008",
+  "checked": "2026-09-19"
+ },
+ "Kanye West::Graduation": {
+  "status": "ok",
+  "mbid": "d44c50ad-61fd-3fce-95fc-27024d7f1d30",
+  "genres": [
+   "hip hop",
+   "pop rap",
+   "electropop",
+   "alternative hip hop",
+   "east coast hip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/d44c50ad-61fd-3fce-95fc-27024d7f1d30/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2007",
+  "checked": "2026-09-19"
+ },
+ "Kanye West::Late Registration": {
+  "status": "ok",
+  "mbid": "c563d738-3841-31ce-b29d-ec6b40fd1e7b",
+  "genres": [
+   "hip hop",
+   "conscious hip hop",
+   "pop rap"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/c563d738-3841-31ce-b29d-ec6b40fd1e7b/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2005",
+  "checked": "2026-09-19"
+ },
+ "Kanye West::The College Dropout": {
+  "status": "ok",
+  "mbid": "8a01217e-6947-3927-a39b-6691104694f1",
+  "genres": [
+   "hip hop",
+   "pop rap",
+   "chipmunk soul",
+   "neo soul",
+   "conscious hip hop",
+   "alternative pop",
+   "alternative hip hop",
+   "contemporary r&b",
+   "east coast hip hop",
+   "latin"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/8a01217e-6947-3927-a39b-6691104694f1/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2004",
+  "checked": "2026-09-19"
+ },
+ "Kara Jackson::Why Does Earth Give Us People To Love?": {
+  "status": "ok",
+  "mbid": "1e52b262-7b95-4641-98a7-bb4ca3749046",
+  "genres": [
+   "folk"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/1e52b262-7b95-4641-98a7-bb4ca3749046/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-19"
+ },
+ "Kasabian::Velociraptor!": {
+  "status": "ok",
+  "mbid": "b4fe76e4-1fe5-497f-b1ec-f28c6c7d20bf",
+  "genres": [
+   "rock",
+   "indie rock",
+   "alternative rock",
+   "psychedelic rock",
+   "neo-psychedelia",
+   "alternative dance"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/b4fe76e4-1fe5-497f-b1ec-f28c6c7d20bf/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2011",
+  "checked": "2026-09-19"
+ },
+ "Kasabian::West Ryder Pauper Lunatic Asylum": {
+  "status": "ok",
+  "mbid": "4a8b40bb-6af1-4284-b0b6-ac5c06f6442a",
+  "genres": [
+   "alternative rock",
+   "rock",
+   "indie rock",
+   "neo-psychedelia",
+   "alternative dance",
+   "electronic"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/4a8b40bb-6af1-4284-b0b6-ac5c06f6442a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2009",
+  "checked": "2026-09-19"
+ },
+ "Kasabian::Kasabian": {
+  "status": "ok",
+  "mbid": "6a5a0cc6-245e-3e29-a143-c1bab026def6",
+  "genres": [
+   "indie rock",
+   "electronic",
+   "alternative dance",
+   "alternative rock",
+   "post-punk revival",
+   "neo-psychedelia",
+   "rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/6a5a0cc6-245e-3e29-a143-c1bab026def6/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2004",
+  "checked": "2026-09-19"
+ },
+ "Katatonia::Brave Murder Day": {
+  "status": "ok",
+  "mbid": "9a86748d-33f5-37f8-a9f9-8be806d0ed92",
+  "genres": [
+   "death-doom metal",
+   "black metal",
+   "gothic metal",
+   "doom metal",
+   "rock",
+   "death metal"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/9a86748d-33f5-37f8-a9f9-8be806d0ed92/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1996",
+  "checked": "2026-09-19"
+ },
+ "Kate Bush::50 Words for Snow": {
+  "status": "ok",
+  "mbid": "2eefe885-f050-426d-93f0-29c5eb8b4f9a",
+  "genres": [
+   "rock",
+   "pop",
+   "alternative rock",
+   "art rock",
+   "pop rock",
+   "ambient pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/2eefe885-f050-426d-93f0-29c5eb8b4f9a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2011",
+  "checked": "2026-09-19"
+ },
+ "Kate Bush::Aerial": {
+  "status": "ok",
+  "mbid": "6169f5bc-b5ff-3348-b806-1b0f2a414217",
+  "genres": [
+   "art rock",
+   "rock",
+   "alternative rock",
+   "pop rock",
+   "pop",
+   "alternative pop",
+   "ambient pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/6169f5bc-b5ff-3348-b806-1b0f2a414217/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2005",
+  "checked": "2026-09-19"
+ },
+ "Kate Bush::The Sensual World": {
+  "status": "ok",
+  "mbid": "ad555095-b0a6-42c8-87aa-8ba035d20e12",
+  "genres": [
+   "art pop",
+   "rock",
+   "progressive pop",
+   "art rock",
+   "alternative pop",
+   "pop",
+   "blues",
+   "sophisti-pop",
+   "pop rock",
+   "electronic"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/ad555095-b0a6-42c8-87aa-8ba035d20e12/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1989",
+  "checked": "2026-09-19"
+ },
+ "Kate Bush::The Whole Story": {
+  "status": "ok",
+  "mbid": "460a3322-cbda-3a69-a376-22c35ee5732e",
+  "genres": [
+   "pop rock",
+   "art rock",
+   "rock",
+   "pop",
+   "blues",
+   "electronic",
+   "experimental",
+   "synth-pop",
+   "baroque pop",
+   "ballad"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/460a3322-cbda-3a69-a376-22c35ee5732e/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1986",
+  "checked": "2026-09-19"
+ },
+ "Kate Bush::Hound of Love": {
+  "status": "ok",
+  "mbid": "017f2a37-a78f-3578-9611-fa40408e5d90",
+  "genres": [
+   "art rock",
+   "pop rock",
+   "art pop",
+   "rock",
+   "progressive pop",
+   "electronic",
+   "pop",
+   "alternative rock",
+   "experimental",
+   "progressive rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/017f2a37-a78f-3578-9611-fa40408e5d90/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1985",
+  "checked": "2026-09-19"
+ },
+ "Kate Bush::The Dreaming": {
+  "status": "ok",
+  "mbid": "d28777fc-f135-3394-a033-eafb9ebcffb4",
+  "genres": [
+   "art rock",
+   "rock",
+   "pop",
+   "pop rock",
+   "art pop",
+   "progressive rock",
+   "experimental",
+   "soft rock",
+   "progressive pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/d28777fc-f135-3394-a033-eafb9ebcffb4/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1982",
+  "checked": "2026-09-19"
+ },
+ "Kate Bush::Never For Ever": {
+  "status": "ok",
+  "mbid": "b3c5541a-e1d0-354f-b6c8-565c37dde332",
+  "genres": [
+   "art rock",
+   "art pop",
+   "pop rock",
+   "progressive pop",
+   "rock",
+   "pop",
+   "baroque pop",
+   "progressive rock",
+   "soft rock",
+   "electronic"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/b3c5541a-e1d0-354f-b6c8-565c37dde332/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1980",
+  "checked": "2026-09-19"
+ },
+ "Kate Bush::The Kick Inside": {
+  "status": "ok",
+  "mbid": "e8f3a858-20f8-3798-80ac-65264afa4672",
+  "genres": [
+   "art rock",
+   "rock",
+   "art pop",
+   "pop",
+   "leftfield",
+   "pop rock",
+   "avant-garde",
+   "progressive rock",
+   "blues",
+   "folk rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/e8f3a858-20f8-3798-80ac-65264afa4672/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1978",
+  "checked": "2026-09-19"
+ },
+ "Keane::Hopes and Fears": {
+  "status": "ok",
+  "mbid": "b74d25cf-dcb5-3d19-992c-964fc0c72ba7",
+  "genres": [
+   "piano rock",
+   "rock",
+   "alternative rock",
+   "post-britpop",
+   "downtempo",
+   "pop",
+   "indie pop",
+   "pop rock",
+   "indie rock",
+   "britpop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/b74d25cf-dcb5-3d19-992c-964fc0c72ba7/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2004",
+  "checked": "2026-09-19"
+ },
+ "Keiichi Okabe 岡部啓一 & Keigo Hoashi 帆足圭吾::NieR:Automata": {
+  "status": "ok",
+  "mbid": "ac5c454f-3ca1-4822-957e-83a749f45e46",
+  "genres": [],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/ac5c454f-3ca1-4822-957e-83a749f45e46/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-19"
+ },
+ "Keith Jarrett::The Köln Concert": {
+  "status": "ok",
+  "mbid": "516d4629-7bf3-3ac3-907a-ed9a022db840",
+  "genres": [
+   "jazz",
+   "free improvisation",
+   "post-bop",
+   "contemporary jazz",
+   "instrumental jazz"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/516d4629-7bf3-3ac3-907a-ed9a022db840/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1975",
+  "checked": "2026-09-19"
+ },
+ "Kelela::Raven": {
+  "status": "ok",
+  "mbid": "ac94c394-60af-44dd-be4e-8d8fae38ba74",
+  "genres": [
+   "contemporary r&b",
+   "electronic",
+   "ambient"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/ac94c394-60af-44dd-be4e-8d8fae38ba74/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-19"
+ },
+ "Kelela::Take Me Apart": {
+  "status": "ok",
+  "mbid": "72ff5e97-05c4-493a-8aea-3bad435a6fd0",
+  "genres": [
+   "electronic",
+   "r&b"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/72ff5e97-05c4-493a-8aea-3bad435a6fd0/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-19"
+ },
+ "Kelela::Hallucinogen": {
+  "status": "ok",
+  "mbid": "ef41fe06-6b04-4e25-96fb-161fa1b0b9f0",
+  "genres": [
+   "electronic",
+   "hip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/ef41fe06-6b04-4e25-96fb-161fa1b0b9f0/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2015",
+  "checked": "2026-09-19"
+ },
+ "Kelly Lee Owens::Kelly Lee Owens": {
+  "status": "ok",
+  "mbid": "7eaadc60-127b-4b87-81bf-ba294697e584",
+  "genres": [
+   "electronic",
+   "downtempo",
+   "pop",
+   "synth-pop",
+   "minimal techno",
+   "ambient techno",
+   "tech house",
+   "ambient pop",
+   "art pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/7eaadc60-127b-4b87-81bf-ba294697e584/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-19"
+ },
+ "Kelsey Lu::BLOOD": {
+  "status": "ok",
+  "mbid": "1104c27c-31ad-4ea8-b86c-b780a339773d",
+  "genres": [
+   "pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/1104c27c-31ad-4ea8-b86c-b780a339773d/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2019",
+  "checked": "2026-09-19"
+ },
+ "Kendrick Lamar::GNX": {
+  "status": "ok",
+  "mbid": "32cb822c-a14e-49ce-a169-f209c5f31e0f",
+  "genres": [
+   "hip hop",
+   "west coast hip hop",
+   "conscious hip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/32cb822c-a14e-49ce-a169-f209c5f31e0f/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2024",
+  "checked": "2026-09-19"
+ },
+ "Kennie Beats::LOUIE": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Kenny Beats::Louise": {
+  "status": "ok",
+  "mbid": "d00b8ff3-b524-4539-a314-05dc51855502",
+  "genres": [
+   "instrumental hip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/d00b8ff3-b524-4539-a314-05dc51855502/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2022",
+  "checked": "2026-09-19"
+ },
+ "Kero Kero Bonito::Civilisation I": {
+  "status": "ok",
+  "mbid": "b76e2823-cd76-443a-8e7e-ce534ea50b33",
+  "genres": [
+   "electropop",
+   "bubblegum pop",
+   "indie pop",
+   "j-pop",
+   "pop"
+  ],
+  "genre_source": "artist",
+  "cover_url": "https://coverartarchive.org/release-group/b76e2823-cd76-443a-8e7e-ce534ea50b33/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2019",
+  "checked": "2026-09-19"
+ },
+ "Key Glock::Glockoma 2": {
+  "status": "ok",
+  "mbid": "75d497e6-816a-4b28-8c14-36c3cb2febdd",
+  "genres": [
+   "southern hip hop",
+   "memphis rap",
+   "trap"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/75d497e6-816a-4b28-8c14-36c3cb2febdd/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-19"
+ },
+ "Kiasmos::Kiasmos": {
+  "status": "ok",
+  "mbid": "8f3d55a7-efea-419b-add8-2a5469c2e014",
+  "genres": [
+   "electronic",
+   "microhouse"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/8f3d55a7-efea-419b-add8-2a5469c2e014/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2014",
+  "checked": "2026-09-19"
+ },
+ "Kid Cudi::Man on the Mon: The End of Day": {
+  "status": "ok",
+  "mbid": "1b4bb003-db4c-4858-84ec-817aaca09501",
+  "genres": [
+   "hip hop",
+   "alternative hip hop",
+   "electronic",
+   "pop",
+   "underground hip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/1b4bb003-db4c-4858-84ec-817aaca09501/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2009",
+  "checked": "2026-09-19"
+ },
+ "Kids & Explosion::Shit Computer": {
+  "status": "ok",
+  "mbid": "e0f57028-3e37-450f-88ac-b00ebd6cff0c",
+  "genres": [
+   "electronic",
+   "hip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/e0f57028-3e37-450f-88ac-b00ebd6cff0c/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2010",
+  "checked": "2026-09-19"
+ },
+ "Kids See Ghosts::Kids See Ghosts": {
+  "status": "ok",
+  "mbid": "3346a9d9-031e-49e2-84b0-3734d790d7e5",
+  "genres": [
+   "hip hop",
+   "experimental hip hop",
+   "experimental",
+   "pop rap"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/3346a9d9-031e-49e2-84b0-3734d790d7e5/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2018",
+  "checked": "2026-09-19"
+ },
+ "Kill Bill: the Rapper::Ramona": {
+  "status": "ok",
+  "mbid": "5262bfae-cf71-4cc1-969a-92bfe4e20477",
+  "genres": [
+   "hip hop"
+  ],
+  "genre_source": "artist",
+  "cover_url": "https://coverartarchive.org/release-group/5262bfae-cf71-4cc1-969a-92bfe4e20477/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2015",
+  "checked": "2026-09-19"
+ },
+ "Killer Mike::R.A.P Music": {
+  "status": "ok",
+  "mbid": "858deba8-5923-4561-b04b-a52e4e9770c1",
+  "genres": [
+   "hip hop",
+   "dirty south"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/858deba8-5923-4561-b04b-a52e4e9770c1/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2012",
+  "checked": "2026-09-19"
+ },
+ "Killing Joke::Night Time": {
+  "status": "ok",
+  "mbid": "11851270-b38e-3d60-a3ae-972a1e98d326",
+  "genres": [
+   "post-punk",
+   "rock",
+   "new wave",
+   "gothic rock",
+   "electronic",
+   "alternative rock",
+   "industrial rock",
+   "hard rock",
+   "alternative metal",
+   "dance-rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/11851270-b38e-3d60-a3ae-972a1e98d326/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1985",
+  "checked": "2026-09-19"
+ },
+ "Kilo Kish::American Gurl": {
+  "status": "ok",
+  "mbid": "912ac95c-3a2f-45cd-a08d-9af5a4ef406d",
+  "genres": [
+   "synth-pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/912ac95c-3a2f-45cd-a08d-9af5a4ef406d/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2022",
+  "checked": "2026-09-19"
+ },
+ "Kilo Kish::Redux": {
+  "status": "ok",
+  "mbid": "75ee1932-9dba-43db-ac7f-4a90bd6abc6f",
+  "genres": [
+   "pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/75ee1932-9dba-43db-ac7f-4a90bd6abc6f/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2019",
+  "checked": "2026-09-19"
+ },
+ "King Crimson::Red": {
+  "status": "ok",
+  "mbid": "89bc97c8-921a-3758-8481-3b39c564e297",
+  "genres": [
+   "progressive rock",
+   "art rock",
+   "rock",
+   "hard rock",
+   "jazz rock",
+   "free improvisation",
+   "jazz",
+   "progressive",
+   "psychedelic rock",
+   "classic rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/89bc97c8-921a-3758-8481-3b39c564e297/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1974",
+  "checked": "2026-09-19"
+ },
+ "King Crimson::Starless and Bible Black": {
+  "status": "ok",
+  "mbid": "e65ee097-180e-3116-8b68-599b177947b8",
+  "genres": [
+   "progressive rock",
+   "rock",
+   "experimental rock",
+   "progressive",
+   "art rock",
+   "experimental",
+   "classic rock",
+   "free improvisation"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/e65ee097-180e-3116-8b68-599b177947b8/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1974",
+  "checked": "2026-09-19"
+ },
+ "King Crimson::Larks' Tongues in Aspic": {
+  "status": "ok",
+  "mbid": "6d655093-4a0b-32ca-8d0e-b497d6ac781d",
+  "genres": [
+   "progressive rock",
+   "art rock",
+   "rock",
+   "avant-prog",
+   "experimental rock",
+   "experimental",
+   "progressive",
+   "classic rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/6d655093-4a0b-32ca-8d0e-b497d6ac781d/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1973",
+  "checked": "2026-09-19"
+ },
+ "King Crimson::Islands": {
+  "status": "ok",
+  "mbid": "294ffbbb-75bb-3f65-b309-94a99fa3c194",
+  "genres": [
+   "rock",
+   "progressive rock",
+   "art rock",
+   "progressive",
+   "classic rock",
+   "jazz fusion"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/294ffbbb-75bb-3f65-b309-94a99fa3c194/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1971",
+  "checked": "2026-09-19"
+ },
+ "King Crimson::In the Court of the Crimson King": {
+  "status": "ok",
+  "mbid": "a50636b5-5233-3329-a7f3-dba3d0e00ef7",
+  "genres": [
+   "progressive rock",
+   "art rock",
+   "rock",
+   "progressive",
+   "psychedelic rock",
+   "psychedelic",
+   "classic rock",
+   "symphonic rock",
+   "jazz fusion",
+   "avant-garde"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/a50636b5-5233-3329-a7f3-dba3d0e00ef7/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1969",
+  "checked": "2026-09-19"
+ },
+ "King Geedorah::Take Me To Your Leader": {
+  "status": "ok",
+  "mbid": "a22e4ba1-a880-35ab-9228-ec93acb0c038",
+  "genres": [
+   "hip hop",
+   "lo-fi",
+   "abstract hip hop",
+   "east coast hip hop",
+   "underground hip hop",
+   "boom bap"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/a22e4ba1-a880-35ab-9228-ec93acb0c038/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2003",
+  "checked": "2026-09-19"
+ },
+ "King Gizzard & The Lizard Wizard::Phantom island": {
+  "status": "ok",
+  "mbid": "716f0986-f131-4e3c-a140-55845bbded3c",
+  "genres": [
+   "symphonic rock",
+   "progressive pop",
+   "progressive rock",
+   "psychedelic rock",
+   "glam rock",
+   "southern rock",
+   "baroque pop",
+   "roots rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/716f0986-f131-4e3c-a140-55845bbded3c/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2025",
+  "checked": "2026-09-19"
+ },
+ "Kings of Convenience::Riot On An Empty Street": {
+  "status": "ok",
+  "mbid": "d0e15374-e370-3558-b2e4-6f2f4e6394e2",
+  "genres": [
+   "folk rock",
+   "downtempo",
+   "rock",
+   "electronic",
+   "pop",
+   "alternative rock",
+   "folk",
+   "indie rock",
+   "lo-fi",
+   "indie pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/d0e15374-e370-3558-b2e4-6f2f4e6394e2/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2004",
+  "checked": "2026-09-19"
+ },
+ "Kings of Leon::Only By The Night": {
+  "status": "ok",
+  "mbid": "7a23bc7e-d7bd-3a22-a38d-7d1f793bae1c",
+  "genres": [
+   "alternative rock",
+   "southern rock",
+   "rock",
+   "indie rock",
+   "alternative punk",
+   "pop rock",
+   "garage rock revival",
+   "pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/7a23bc7e-d7bd-3a22-a38d-7d1f793bae1c/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2008",
+  "checked": "2026-09-19"
+ },
+ "Kink Sunny Ade::The Best of The Classic Years": {
+  "status": "ok",
+  "mbid": "d66265fa-f8e3-3b79-ab11-23eddd92f3ce",
+  "genres": [
+   "jùjú"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/d66265fa-f8e3-3b79-ab11-23eddd92f3ce/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2003",
+  "checked": "2026-09-19"
+ },
+ "Kino Кино::Кино (Чёрный альбом)": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Kinoko Teikoku::eureka": {
+  "status": "partial",
+  "cover_url": "https://cdn-images.dzcdn.net/images/cover/1c8352a9fde32e9e019969032a07a603/1000x1000-000000-80-0-0.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Kirin J Calinan::Bravado": {
+  "status": "ok",
+  "mbid": "bffb7c26-614a-4e17-a2ee-2fbe93bef402",
+  "genres": [
+   "synth-pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/bffb7c26-614a-4e17-a2ee-2fbe93bef402/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-19"
+ },
+ "Klaxons::Myths Of The Near Future": {
+  "status": "ok",
+  "mbid": "e46c2970-bc74-3f6e-add9-fcf8e87a5c4f",
+  "genres": [
+   "indie rock",
+   "electroclash",
+   "dance-punk",
+   "rock",
+   "psychedelic pop",
+   "post-punk revival",
+   "new rave",
+   "electronic",
+   "pop",
+   "house"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/e46c2970-bc74-3f6e-add9-fcf8e87a5c4f/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2007",
+  "checked": "2026-09-19"
+ },
+ "Klô Pelgag::Notre-Dame-des-Sept-Douleurs": {
+  "status": "ok",
+  "mbid": "08515330-10b4-4c0b-b534-9b5cb5e87e09",
+  "genres": [
+   "rock",
+   "pop",
+   "singer-songwriter",
+   "progressive",
+   "chamber pop",
+   "art pop",
+   "alternative rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/08515330-10b4-4c0b-b534-9b5cb5e87e09/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2020",
+  "checked": "2026-09-19"
+ },
+ "kmoe::K1": {
+  "status": "ok",
+  "mbid": "d536157b-872f-4287-94ee-a0f7618b2221",
+  "genres": [
+   "indietronica"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/d536157b-872f-4287-94ee-a0f7618b2221/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2025",
+  "checked": "2026-09-19"
+ },
+ "Knocked Loose::You Won't Go Before You're Supposed To": {
+  "status": "ok",
+  "mbid": "a78e5c5c-5475-4b5d-9db0-0eac670d491a",
+  "genres": [
+   "metal",
+   "metalcore",
+   "hardcore punk",
+   "beatdown hardcore"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/a78e5c5c-5475-4b5d-9db0-0eac670d491a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2024",
+  "checked": "2026-09-19"
+ },
+ "Koji Kondo::The Legend of Zelda: Ocarina of Time": {
+  "status": "ok",
+  "mbid": "6a54e2bc-d5af-471e-88b3-58776d2b7641",
+  "genres": [],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/6a54e2bc-d5af-471e-88b3-58776d2b7641/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2011",
+  "checked": "2026-09-19"
+ },
+ "Koji Kondo 近藤浩治::ゼルダの伝説: ムジュラの仮面 (The Legend of Zelda: Majora's Mask)": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Kraftwerk::Computerwelt": {
+  "status": "ok",
+  "mbid": "2e58b620-cf80-3b07-a5bc-edabd69ba285",
+  "genres": [
+   "electro",
+   "electronic",
+   "avant-garde",
+   "synth-pop",
+   "experimental electronic"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/2e58b620-cf80-3b07-a5bc-edabd69ba285/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1981",
+  "checked": "2026-09-19"
+ },
+ "Kraftwerk::Die Mensch Maschine": {
+  "status": "ok",
+  "mbid": "d147e89b-90ca-35b6-9f7b-3e34b8edf63f",
+  "genres": [
+   "electronic",
+   "synth-pop",
+   "electro",
+   "krautrock",
+   "new wave",
+   "electropop",
+   "pop",
+   "minimal wave"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/d147e89b-90ca-35b6-9f7b-3e34b8edf63f/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1978",
+  "checked": "2026-09-19"
+ },
+ "Kraftwerk::Trans-Europa Express": {
+  "status": "ok",
+  "mbid": "33101a28-ae05-3a69-873c-684e336fe2df",
+  "genres": [
+   "electro",
+   "electronic",
+   "krautrock",
+   "synth-pop",
+   "experimental electronic",
+   "progressive electronic"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/33101a28-ae05-3a69-873c-684e336fe2df/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1977",
+  "checked": "2026-09-19"
+ },
+ "Kraftwerk::Autobahn": {
+  "status": "ok",
+  "mbid": "f73729e8-4501-3088-aa20-44945296036e",
+  "genres": [
+   "electronic",
+   "krautrock",
+   "progressive electronic",
+   "experimental electronic",
+   "electro",
+   "electropop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/f73729e8-4501-3088-aa20-44945296036e/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1974",
+  "checked": "2026-09-19"
+ },
+ "Krallice::Crystallice Exhaustion": {
+  "status": "ok",
+  "mbid": "1b312709-5ab3-4ae5-a38f-cf4b6df7cac7",
+  "genres": [
+   "black metal"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/1b312709-5ab3-4ae5-a38f-cf4b6df7cac7/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2022",
+  "checked": "2026-09-19"
+ },
+ "Krallice::Hyperion": {
+  "status": "ok",
+  "mbid": "2c5ae043-011b-4b9b-8ac9-9cc5114ae6bd",
+  "genres": [
+   "progressive metal",
+   "black metal",
+   "technical death metal",
+   "avant-garde metal"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/2c5ae043-011b-4b9b-8ac9-9cc5114ae6bd/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2016",
+  "checked": "2026-09-19"
+ },
+ "Krallice::Years Past Matter": {
+  "status": "ok",
+  "mbid": "6b5ccff1-bf54-4e47-a584-db04241c4bb5",
+  "genres": [
+   "black metal",
+   "progressive metal",
+   "avant-garde metal",
+   "post-metal",
+   "atmospheric black metal",
+   "rock",
+   "noise rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/6b5ccff1-bf54-4e47-a584-db04241c4bb5/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2012",
+  "checked": "2026-09-19"
+ },
+ "Kreator::Coma of Souls": {
+  "status": "ok",
+  "mbid": "60ded5ee-2661-302b-808a-fcc176e1d5b1",
+  "genres": [
+   "thrash metal",
+   "rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/60ded5ee-2661-302b-808a-fcc176e1d5b1/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1990",
+  "checked": "2026-09-19"
+ },
+ "Kreator::Extreme Agression": {
+  "status": "ok",
+  "mbid": "6b51dbf6-ef23-394e-85e2-5d3beabd23c0",
+  "genres": [
+   "thrash metal",
+   "rock",
+   "metal",
+   "heavy metal"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/6b51dbf6-ef23-394e-85e2-5d3beabd23c0/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1989",
+  "checked": "2026-09-19"
+ },
+ "Kreator::Pleasure to Kill": {
+  "status": "ok",
+  "mbid": "8dcae7a3-9e87-3089-90fc-56baffb245eb",
+  "genres": [
+   "thrash metal",
+   "rock",
+   "heavy metal"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/8dcae7a3-9e87-3089-90fc-56baffb245eb/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1986",
+  "checked": "2026-09-19"
+ },
+ "Kristofer Maddigan::Cuphead Original Soundtrack": {
+  "status": "ok",
+  "mbid": "8a393c64-4c95-465b-bbd5-0ed29f62fe0a",
+  "genres": [
+   "big band",
+   "jazz"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/8a393c64-4c95-465b-bbd5-0ed29f62fe0a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-19"
+ },
+ "Kruder Dorfmeister::The K&D Sessions": {
+  "status": "ok",
+  "mbid": "5869d55e-9a35-3bca-be2c-f7ae47440c62",
+  "genres": [
+   "electronica",
+   "downtempo",
+   "trip hop",
+   "electronic",
+   "dub"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/5869d55e-9a35-3bca-be2c-f7ae47440c62/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1998",
+  "checked": "2026-09-19"
+ },
+ "Kurt Vile::Bottle It In": {
+  "status": "ok",
+  "mbid": "2497ecd5-22e0-495b-a35c-cd3079c5b4ff",
+  "genres": [
+   "indie rock",
+   "rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/2497ecd5-22e0-495b-a35c-cd3079c5b4ff/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2018",
+  "checked": "2026-09-19"
+ },
+ "Kurt Vile::Walkin On a Pretty Daze": {
+  "status": "ok",
+  "mbid": "e99cf897-f7f1-4210-87a7-3f74d4cf5ec6",
+  "genres": [
+   "rock",
+   "indie rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/e99cf897-f7f1-4210-87a7-3f74d4cf5ec6/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2013",
+  "checked": "2026-09-19"
+ },
+ "Kurt Vile::Smoke Ring For My Halo": {
+  "status": "ok",
+  "mbid": "3963c451-0db1-4fa0-9a13-2476f4bd8b9a",
+  "genres": [
+   "rock",
+   "indie rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/3963c451-0db1-4fa0-9a13-2476f4bd8b9a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2011",
+  "checked": "2026-09-19"
+ },
+ "Kvelertak::Kvelertak": {
+  "status": "ok",
+  "mbid": "835314cb-26e6-4235-9ace-32116515214a",
+  "genres": [
+   "black metal",
+   "rock",
+   "hard rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/835314cb-26e6-4235-9ace-32116515214a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2010",
+  "checked": "2026-09-19"
+ },
+ "Kyle Dixon & Michael Stein::Stranger Things, Vol 1": {
+  "status": "partial",
+  "cover_url": "https://cdn-images.dzcdn.net/images/cover/0c3b635d809633aaaa76c88eedca9090/1000x1000-000000-80-0-0.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Kyuss::Welcome to SKy Valley": {
+  "status": "ok",
+  "mbid": "eecc24d6-b4ba-39a9-818f-a6ec14a9a04f",
+  "genres": [
+   "stoner rock",
+   "stoner metal",
+   "rock",
+   "hard rock",
+   "heavy metal",
+   "alternative metal",
+   "desert rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/eecc24d6-b4ba-39a9-818f-a6ec14a9a04f/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1994",
+  "checked": "2026-09-19"
+ },
+ "Kyuss::Blues for the Red Sun": {
+  "status": "ok",
+  "mbid": "816f2753-e709-3b10-ad93-e4c1af7aea6c",
+  "genres": [
+   "stoner rock",
+   "stoner metal",
+   "rock",
+   "alternative rock",
+   "hard rock",
+   "heavy metal",
+   "psychedelic",
+   "desert rock",
+   "alternative metal"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/816f2753-e709-3b10-ad93-e4c1af7aea6c/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1992",
+  "checked": "2026-09-19"
+ },
+ "L7::Bricks Are Heavy": {
+  "status": "ok",
+  "mbid": "9f7bedef-5588-3bca-8c81-06a102c4eb8d",
+  "genres": [
+   "grunge",
+   "punk",
+   "rock",
+   "alternative metal",
+   "alternative rock",
+   "heavy metal",
+   "riot grrrl"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/9f7bedef-5588-3bca-8c81-06a102c4eb8d/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1992",
+  "checked": "2026-09-19"
+ },
+ "La Dispute::Wildlife": {
+  "status": "ok",
+  "mbid": "56b3b007-8332-4a42-b074-2d8b04cdadf1",
+  "genres": [
+   "post-hardcore",
+   "emo",
+   "rock",
+   "screamo",
+   "poetry",
+   "indie rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/56b3b007-8332-4a42-b074-2d8b04cdadf1/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2011",
+  "checked": "2026-09-19"
+ },
+ "La Dispute::Somewhere at the Bottom of the River Between Vega and Altair": {
+  "status": "ok",
+  "mbid": "ab152f07-4fb8-3068-951d-47720622ac6d",
+  "genres": [
+   "post-hardcore",
+   "spoken word",
+   "rock",
+   "post-rock",
+   "progressive rock",
+   "punk",
+   "emo",
+   "screamo"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/ab152f07-4fb8-3068-951d-47720622ac6d/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2008",
+  "checked": "2026-09-19"
+ },
+ "La Máquina de Hacer Pájaros::La Máquina de Hacer Pájaros": {
+  "status": "ok",
+  "mbid": "de4ff68b-d2fc-323d-85b6-28111fc27601",
+  "genres": [
+   "rock",
+   "progressive rock",
+   "folk rock",
+   "classic rock",
+   "latin rock",
+   "symphonic prog"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/de4ff68b-d2fc-323d-85b6-28111fc27601/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1976",
+  "checked": "2026-09-19"
+ },
+ "Labrinth::Euphoria (Original Score from the HBO series)": {
+  "status": "ok",
+  "mbid": "5cc35d25-76df-44a0-8635-b3ee8c4d3d8f",
+  "genres": [
+   "electronic",
+   "pop",
+   "indie pop",
+   "gospel"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/5cc35d25-76df-44a0-8635-b3ee8c4d3d8f/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2019",
+  "checked": "2026-09-19"
+ },
+ "Lady Gaga::MAYHEM": {
+  "status": "ok",
+  "mbid": "4174e53c-90e8-4630-993f-1f7466178398",
+  "genres": [
+   "pop",
+   "dance-pop",
+   "synth-pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/4174e53c-90e8-4630-993f-1f7466178398/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2025",
+  "checked": "2026-09-19"
+ },
+ "Lady Gaga::The Fame Monster": {
+  "status": "ok",
+  "mbid": "20b4c8b3-e922-44a3-90e8-fa00acad8ed4",
+  "genres": [
+   "electropop",
+   "dance-pop",
+   "pop",
+   "electronic",
+   "europop",
+   "rock",
+   "synth-pop",
+   "pop rock",
+   "electro house"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/20b4c8b3-e922-44a3-90e8-fa00acad8ed4/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2009",
+  "checked": "2026-09-19"
+ },
+ "Ladytron::Witching Hour": {
+  "status": "ok",
+  "mbid": "532ddc26-600b-3278-aff5-94f601cddc6e",
+  "genres": [
+   "electronic",
+   "synth-pop",
+   "rock",
+   "indie rock",
+   "electroclash",
+   "pop",
+   "electropop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/532ddc26-600b-3278-aff5-94f601cddc6e/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2005",
+  "checked": "2026-09-19"
+ },
+ "Lamb of God::Ashes of the Wake": {
+  "status": "ok",
+  "mbid": "6a44f03b-e1b1-359e-9c3e-3b7821b4e186",
+  "genres": [
+   "metal",
+   "groove metal",
+   "heavy metal",
+   "rock",
+   "death metal",
+   "alternative metal"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/6a44f03b-e1b1-359e-9c3e-3b7821b4e186/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2004",
+  "checked": "2026-09-19"
+ },
+ "Lambchop::Nixon": {
+  "status": "ok",
+  "mbid": "4ae785f1-e986-3909-ab99-30e32024f94a",
+  "genres": [
+   "chamber pop",
+   "soul",
+   "alternative country",
+   "countrypolitan",
+   "rock",
+   "country rock",
+   "folk rock",
+   "blues rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/4ae785f1-e986-3909-ab99-30e32024f94a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2000",
+  "checked": "2026-09-19"
+ },
+ "Lamp::Lamp Genso": {
+  "status": "partial",
+  "cover_url": "https://cdn-images.dzcdn.net/images/cover/7072c41c8a9c6d6557d57f5670e9a154/1000x1000-000000-80-0-0.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Lamp::恋人へ [For Lovers]": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Lana del Rey::Did you know that there is a tunnel under Ocean Blvd": {
+  "status": "ok",
+  "mbid": "247ec1bd-06a6-4faa-af47-f64d7caa1f71",
+  "genres": [
+   "pop",
+   "alternative pop",
+   "singer-songwriter",
+   "art pop",
+   "rock",
+   "baroque pop",
+   "indie pop",
+   "neo-psychedelia",
+   "chamber pop",
+   "traditional pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/247ec1bd-06a6-4faa-af47-f64d7caa1f71/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-19"
+ },
+ "Lana del Rey::Blue Banisters": {
+  "status": "ok",
+  "mbid": "34162ed6-93e7-4eeb-ab15-454836b5732e",
+  "genres": [
+   "folk",
+   "singer-songwriter",
+   "ballad",
+   "alternative pop",
+   "rock",
+   "pop",
+   "indie pop",
+   "alternative rock",
+   "alternative country",
+   "alternative folk"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/34162ed6-93e7-4eeb-ab15-454836b5732e/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2021",
+  "checked": "2026-09-19"
+ },
+ "Lana del Rey::Norman Fucking Rockwell": {
+  "status": "ok",
+  "mbid": "24fd0887-9e83-42e3-b27e-e7f89ead4c03",
+  "genres": [
+   "art pop",
+   "pop",
+   "soft rock",
+   "singer-songwriter",
+   "neo-psychedelia",
+   "dream pop",
+   "chamber pop",
+   "piano rock",
+   "rock",
+   "psychedelic rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/24fd0887-9e83-42e3-b27e-e7f89ead4c03/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2019",
+  "checked": "2026-09-19"
+ },
+ "Late of The Pier::Fantasy Black Channel": {
+  "status": "ok",
+  "mbid": "57f0c6e7-b08a-3342-aff8-eba30fcaf526",
+  "genres": [
+   "dance-punk",
+   "rock",
+   "post-punk revival",
+   "indietronica",
+   "new rave"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/57f0c6e7-b08a-3342-aff8-eba30fcaf526/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2008",
+  "checked": "2026-09-19"
+ },
+ "Laufey::Bewitched": {
+  "status": "ok",
+  "mbid": "82c93285-46d7-4f44-ba7c-2c420cfc7665",
+  "genres": [
+   "jazz",
+   "vocal jazz",
+   "jazz pop",
+   "singer-songwriter",
+   "bossa nova",
+   "traditional pop",
+   "contemporary jazz"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/82c93285-46d7-4f44-ba7c-2c420cfc7665/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-19"
+ },
+ "Laura Nyro::Eli and the Thirteenth Confession": {
+  "status": "ok",
+  "mbid": "c5410670-fce4-3139-9fab-6806d79171c5",
+  "genres": [
+   "folk",
+   "rock",
+   "pop",
+   "pop rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/c5410670-fce4-3139-9fab-6806d79171c5/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1968",
+  "checked": "2026-09-19"
+ },
+ "Laurel::Dust": {
+  "status": "ok",
+  "mbid": "294e8511-88fc-41d2-937d-5b0f756df876",
+  "genres": [
+   "experimental",
+   "electronic",
+   "pop",
+   "ambient"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/294e8511-88fc-41d2-937d-5b0f756df876/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-19"
+ },
+ "Lauryn Hill::The Miseducation of Lauryn Hill": {
+  "status": "ok",
+  "mbid": "8691d12c-abd8-385c-b1eb-d841190124f7",
+  "genres": [
+   "r&b",
+   "hip hop",
+   "contemporary r&b",
+   "neo soul",
+   "pop",
+   "soul",
+   "alternative hip hop",
+   "east coast hip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/8691d12c-abd8-385c-b1eb-d841190124f7/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1998",
+  "checked": "2026-09-19"
+ },
+ "LCD Soundsystem::American Dream": {
+  "status": "ok",
+  "mbid": "bfedb7ca-9067-4cdb-8921-1f0cd920f2e9",
+  "genres": [
+   "dance-punk",
+   "electronic",
+   "new wave",
+   "synth-pop",
+   "post-punk revival",
+   "alternative dance",
+   "rock",
+   "indie rock",
+   "leftfield",
+   "alternative rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/bfedb7ca-9067-4cdb-8921-1f0cd920f2e9/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-19"
+ },
+ "LCD Soundsystem::The Long Goodbye: LCD Soundsystem Live At Madison Square Garden": {
+  "status": "ok",
+  "mbid": "85d6c787-d543-4750-9c20-543a55218214",
+  "genres": [
+   "rock",
+   "electronic",
+   "pop",
+   "alternative rock",
+   "electro",
+   "indie rock",
+   "disco",
+   "dance-punk"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/85d6c787-d543-4750-9c20-543a55218214/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2011",
+  "checked": "2026-09-19"
+ },
+ "LCD Soundsystem::This Is Happening": {
+  "status": "ok",
+  "mbid": "8898e5eb-48aa-4eea-8569-d3a2e9adaf02",
+  "genres": [
+   "dance-punk",
+   "electronic",
+   "new wave",
+   "alternative dance",
+   "indietronica",
+   "electro-disco",
+   "rock",
+   "indie rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/8898e5eb-48aa-4eea-8569-d3a2e9adaf02/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2010",
+  "checked": "2026-09-19"
+ },
+ "LCD Soundsystem::Sound of Silver": {
+  "status": "ok",
+  "mbid": "5cbcdd9f-4b7d-3b3c-b9f2-6b0e75971157",
+  "genres": [
+   "electronic",
+   "dance-punk",
+   "alternative dance",
+   "indietronica",
+   "alternative rock",
+   "post-punk revival",
+   "new rave",
+   "rock",
+   "electro",
+   "indie rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/5cbcdd9f-4b7d-3b3c-b9f2-6b0e75971157/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2007",
+  "checked": "2026-09-19"
+ },
+ "LCD Soundsystem::45:33": {
+  "status": "ok",
+  "mbid": "6d02e9fe-d8e1-3017-8203-1d783d8d9720",
+  "genres": [
+   "electronic",
+   "electro",
+   "disco",
+   "breaks",
+   "ambient",
+   "dance-punk"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/6d02e9fe-d8e1-3017-8203-1d783d8d9720/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2006",
+  "checked": "2026-09-19"
+ },
+ "LCD Soundsystem::LCD Soundsystem": {
+  "status": "ok",
+  "mbid": "0276770a-5f4b-3b0a-936c-69e295f3c5b9",
+  "genres": [
+   "electronic",
+   "dance-punk",
+   "indietronica",
+   "alternative dance",
+   "new rave",
+   "rock",
+   "electro",
+   "techno",
+   "leftfield",
+   "indie rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/0276770a-5f4b-3b0a-936c-69e295f3c5b9/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2005",
+  "checked": "2026-09-19"
+ },
+ "Le Tigre::Le Tigre": {
+  "status": "ok",
+  "mbid": "116d142c-e7fd-3902-8ca5-0d4999abd00e",
+  "genres": [
+   "electronic",
+   "rock",
+   "electro",
+   "pop",
+   "post-punk",
+   "new wave",
+   "indie rock",
+   "synth-pop",
+   "electroclash"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/116d142c-e7fd-3902-8ca5-0d4999abd00e/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1999",
+  "checked": "2026-09-19"
+ },
+ "Led Zeppelin::Coda": {
+  "status": "ok",
+  "mbid": "61de0438-6c34-363f-904e-b4d6267c79b9",
+  "genres": [
+   "hard rock",
+   "rock",
+   "blues rock",
+   "heavy metal",
+   "blues",
+   "folk rock",
+   "classic rock",
+   "british blues",
+   "arena rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/61de0438-6c34-363f-904e-b4d6267c79b9/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1982",
+  "checked": "2026-09-19"
+ },
+ "Led Zeppelin::Physical Graffiti": {
+  "status": "ok",
+  "mbid": "116c9490-6af4-3827-8261-2d5b1f508fe7",
+  "genres": [
+   "rock",
+   "hard rock",
+   "blues rock",
+   "classic rock",
+   "folk rock",
+   "heavy metal",
+   "blues",
+   "arena rock",
+   "british blues"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/116c9490-6af4-3827-8261-2d5b1f508fe7/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1975",
+  "checked": "2026-09-19"
+ },
+ "Led Zeppelin::Houses of The Holy": {
+  "status": "ok",
+  "mbid": "9b5006e5-b276-3a05-bcdd-8d986842320b",
+  "genres": [
+   "hard rock",
+   "rock",
+   "classic rock",
+   "blues rock",
+   "arena rock",
+   "heavy metal",
+   "folk rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/9b5006e5-b276-3a05-bcdd-8d986842320b/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1973",
+  "checked": "2026-09-19"
+ },
+ "Led Zeppelin::Led Zeppelin IV": {
+  "status": "ok",
+  "mbid": "2e61da88-39e9-3473-81d2-c964cb394952",
+  "genres": [
+   "hard rock",
+   "rock",
+   "blues rock",
+   "classic rock",
+   "arena rock",
+   "blues",
+   "folk rock",
+   "heavy metal",
+   "british blues"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/2e61da88-39e9-3473-81d2-c964cb394952/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1971",
+  "checked": "2026-09-19"
+ },
+ "Led Zeppelin::Led Zeppelin III": {
+  "status": "ok",
+  "mbid": "53f80f76-f8af-3558-bfd5-e7221e055c75",
+  "genres": [
+   "rock",
+   "hard rock",
+   "folk rock",
+   "blues rock",
+   "heavy metal",
+   "blues",
+   "classic rock",
+   "arena rock",
+   "rock and roll",
+   "british blues"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/53f80f76-f8af-3558-bfd5-e7221e055c75/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1970",
+  "checked": "2026-09-19"
+ },
+ "Led Zeppelin::Led Zeppelin": {
+  "status": "ok",
+  "mbid": "0f18ec88-aa87-38a9-8a65-f03d81763560",
+  "genres": [
+   "hard rock",
+   "rock",
+   "blues rock",
+   "arena rock",
+   "classic rock",
+   "british blues",
+   "heavy metal",
+   "blues",
+   "folk rock",
+   "folk"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/0f18ec88-aa87-38a9-8a65-f03d81763560/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1969",
+  "checked": "2026-09-19"
+ },
+ "Led Zeppelin::Led Zeppelin II": {
+  "status": "ok",
+  "mbid": "33b4653d-006e-3cc1-8afb-386b15a6cd6e",
+  "genres": [
+   "hard rock",
+   "rock",
+   "blues rock",
+   "heavy metal",
+   "blues",
+   "classic rock",
+   "arena rock",
+   "british blues"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/33b4653d-006e-3cc1-8afb-386b15a6cd6e/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1969",
+  "checked": "2026-09-19"
+ },
+ "Led Zeppellin::Remasters": {
+  "status": "ok",
+  "mbid": "115af8d3-65da-370a-b174-b42e82f470e5",
+  "genres": [
+   "hard rock",
+   "rock",
+   "blues rock",
+   "classic rock",
+   "arena rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/115af8d3-65da-370a-b174-b42e82f470e5/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1990",
+  "checked": "2026-09-19"
+ },
+ "Lee Morgan::The Sidewinder": {
+  "status": "ok",
+  "mbid": "24d2fedc-7976-3b88-bb91-b49a05f26e55",
+  "genres": [
+   "jazz",
+   "hard bop",
+   "soul jazz"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/24d2fedc-7976-3b88-bb91-b49a05f26e55/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1964",
+  "checked": "2026-09-19"
+ },
+ "Leftfield::Leftism": {
+  "status": "ok",
+  "mbid": "9345480c-e2d2-3cb9-9205-88c8a70e911d",
+  "genres": [
+   "progressive house",
+   "electronic",
+   "leftfield",
+   "house",
+   "techno",
+   "electronica",
+   "downtempo",
+   "instrumental",
+   "progressive",
+   "psychedelic"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/9345480c-e2d2-3cb9-9205-88c8a70e911d/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1995",
+  "checked": "2026-09-19"
+ },
+ "Leikeli47::Shape Up": {
+  "status": "ok",
+  "mbid": "63a1a05f-0a48-4142-b153-b1b72d564d30",
+  "genres": [
+   "hip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/63a1a05f-0a48-4142-b153-b1b72d564d30/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2022",
+  "checked": "2026-09-19"
+ },
+ "Lemon Demon::Spirit Phone": {
+  "status": "ok",
+  "mbid": "51202ca2-c319-4f0f-9ac0-7a0799c1e138",
+  "genres": [
+   "synth-pop",
+   "rock",
+   "electronic",
+   "pop",
+   "new wave",
+   "alternative rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/51202ca2-c319-4f0f-9ac0-7a0799c1e138/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2016",
+  "checked": "2026-09-19"
+ },
+ "Lemon Demon::Nature Tapes": {
+  "status": "ok",
+  "mbid": "ecb3edc4-5abd-45c0-b734-a9723c62aacb",
+  "genres": [
+   "rock",
+   "electronic",
+   "pop",
+   "alternative rock",
+   "comedy"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/ecb3edc4-5abd-45c0-b734-a9723c62aacb/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2014",
+  "checked": "2026-09-19"
+ },
+ "Lena Raine::Celeste": {
+  "status": "partial",
+  "cover_url": "https://cdn-images.dzcdn.net/images/cover/2fe93fddfb2d7223c46db4da4fcfd88c/1000x1000-000000-80-0-0.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Leo Kottke::6 & 12 Strings": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Leon Vynehall::Nothing is Still": {
+  "status": "ok",
+  "mbid": "65a0cf36-8a2c-4b96-88a9-a09d9cbb9b24",
+  "genres": [
+   "electronic",
+   "downtempo",
+   "ambient",
+   "jazz",
+   "experimental",
+   "deep house"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/65a0cf36-8a2c-4b96-88a9-a09d9cbb9b24/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2018",
+  "checked": "2026-09-19"
+ },
+ "Leon Vynehall::Music for the Uninvited": {
+  "status": "ok",
+  "mbid": "d8cb418a-69a0-4b60-96ab-8ae3b3c4dda8",
+  "genres": [
+   "electronic",
+   "house",
+   "uk garage"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/d8cb418a-69a0-4b60-96ab-8ae3b3c4dda8/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2014",
+  "checked": "2026-09-19"
+ },
+ "Leonard Cohen::You Want it Darker": {
+  "status": "ok",
+  "mbid": "99599db8-0e36-4a93-b0e8-350e9d7502a9",
+  "genres": [
+   "rock",
+   "singer-songwriter",
+   "folk rock",
+   "pop",
+   "pop rock",
+   "chamber folk",
+   "art pop",
+   "contemporary folk",
+   "ambient pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/99599db8-0e36-4a93-b0e8-350e9d7502a9/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2016",
+  "checked": "2026-09-19"
+ },
+ "Leonard Cohen::The Essential Leonard Cohen CD1": {
+  "status": "ok",
+  "mbid": "27f69d27-d77f-3418-9422-20ca6bd1a795",
+  "genres": [
+   "folk",
+   "rock",
+   "singer-songwriter",
+   "folk rock",
+   "contemporary folk"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/27f69d27-d77f-3418-9422-20ca6bd1a795/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2002",
+  "checked": "2026-09-19"
+ },
+ "Leonard Cohen::The Essential Leonard Cohen CD2": {
+  "status": "ok",
+  "mbid": "27f69d27-d77f-3418-9422-20ca6bd1a795",
+  "genres": [
+   "folk",
+   "rock",
+   "singer-songwriter",
+   "folk rock",
+   "contemporary folk"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/27f69d27-d77f-3418-9422-20ca6bd1a795/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2002",
+  "checked": "2026-09-19"
+ },
+ "Leonard Cohen::I'm Your Man": {
+  "status": "ok",
+  "mbid": "7f073c9c-f64f-3a79-bbd8-5aa7668e5cd8",
+  "genres": [
+   "rock",
+   "folk rock",
+   "pop",
+   "folk",
+   "singer-songwriter",
+   "ballad",
+   "synth-pop",
+   "sophisti-pop",
+   "electronic"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/7f073c9c-f64f-3a79-bbd8-5aa7668e5cd8/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1988",
+  "checked": "2026-09-19"
+ },
+ "Leonard Cohen::Songs of Love and Hate": {
+  "status": "ok",
+  "mbid": "964ccc52-2873-3bce-a806-73d71532c539",
+  "genres": [
+   "rock",
+   "folk",
+   "singer-songwriter",
+   "folk rock",
+   "baroque pop",
+   "contemporary folk",
+   "blues rock",
+   "ballad"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/964ccc52-2873-3bce-a806-73d71532c539/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1971",
+  "checked": "2026-09-19"
+ },
+ "Leonard Cohen::Songs from a Room": {
+  "status": "ok",
+  "mbid": "0c0d5696-5d29-3809-8b79-4bf1320f0353",
+  "genres": [
+   "folk",
+   "singer-songwriter",
+   "country",
+   "folk rock",
+   "contemporary folk",
+   "rock",
+   "blues",
+   "baroque pop",
+   "pop",
+   "folk pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/0c0d5696-5d29-3809-8b79-4bf1320f0353/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1969",
+  "checked": "2026-09-19"
+ },
+ "Leonard Cohen::Songs of Leonard Cohen": {
+  "status": "ok",
+  "mbid": "34291a49-8df9-304e-bd39-16b11d829d5f",
+  "genres": [
+   "folk",
+   "rock",
+   "singer-songwriter",
+   "contemporary folk",
+   "chamber folk",
+   "folk rock",
+   "blues",
+   "baroque pop",
+   "folk pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/34291a49-8df9-304e-bd39-16b11d829d5f/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1967",
+  "checked": "2026-09-19"
+ },
+ "Leprous::The Congregation": {
+  "status": "ok",
+  "mbid": "3e4645a3-310e-4dd1-8300-1c7271d2edae",
+  "genres": [
+   "progressive metal",
+   "rock",
+   "progressive rock",
+   "heavy metal",
+   "avant-garde metal"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/3e4645a3-310e-4dd1-8300-1c7271d2edae/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2015",
+  "checked": "2026-09-19"
+ },
+ "leroy::Grave Robbing": {
+  "status": "ok",
+  "mbid": "925e176d-8904-41df-b00f-4e1ac71d7d57",
+  "genres": [
+   "edm",
+   "plunderphonics",
+   "mashcore",
+   "hyperpop",
+   "digicore",
+   "dariacore"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/925e176d-8904-41df-b00f-4e1ac71d7d57/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-19"
  }
 }

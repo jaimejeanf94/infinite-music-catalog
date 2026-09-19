@@ -66,6 +66,12 @@ jobs:
         if: ${{ env.SUPABASE_URL != '' }}
         run: node scripts/import.mjs
 
+      # Reports only; never fails the run. The database's unique index catches
+      # exact collisions, but a misspelled artist is a different key everywhere
+      # and becomes a second album silently.
+      - name: Look for near-duplicates
+        run: node scripts/find-duplicates.mjs
+
       - name: Commit the backup
         run: |
           git config user.name "github-actions[bot]"
