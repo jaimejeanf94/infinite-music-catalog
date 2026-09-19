@@ -13911,5 +13911,326 @@
   "cover_from": null,
   "genres": [],
   "tried": "2026-09-19"
+ },
+ "Captain Beefheart and His Magic Band::Safe as Milk": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Captain Beyond::Captain Beyond": {
+  "status": "ok",
+  "mbid": "ab6098e5-98a8-315c-a338-07734d4ccf2a",
+  "genres": [
+   "rock",
+   "hard rock",
+   "progressive rock",
+   "psychedelic rock",
+   "heavy psych"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/ab6098e5-98a8-315c-a338-07734d4ccf2a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1972",
+  "checked": "2026-09-19"
+ },
+ "Car Seat Headrest::Twin Fantasy": {
+  "status": "ok",
+  "mbid": "eeab54c6-ad8d-40c9-b595-87bae6a42397",
+  "genres": [
+   "rock",
+   "indie rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/eeab54c6-ad8d-40c9-b595-87bae6a42397/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2018",
+  "checked": "2026-09-19"
+ },
+ "Car Seat Headrest::Teens of Denial": {
+  "status": "ok",
+  "mbid": "7413db7e-163c-4e48-bd8e-c41fd466b2c1",
+  "genres": [
+   "indie rock",
+   "power pop",
+   "bedroom pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/7413db7e-163c-4e48-bd8e-c41fd466b2c1/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2016",
+  "checked": "2026-09-19"
+ },
+ "Car Seat Headrest::How to Leave Town": {
+  "status": "ok",
+  "mbid": "6be86963-c612-457e-b505-3cb53ef60794",
+  "genres": [
+   "rock",
+   "electronic",
+   "pop",
+   "experimental",
+   "indie rock",
+   "lo-fi"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/6be86963-c612-457e-b505-3cb53ef60794/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2014",
+  "checked": "2026-09-19"
+ },
+ "Car Seat Headrest::Nervous Young Man": {
+  "status": "ok",
+  "mbid": "436db946-be9b-4e81-8ded-57a0f00738da",
+  "genres": [
+   "rock",
+   "pop",
+   "indie rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/436db946-be9b-4e81-8ded-57a0f00738da/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2013",
+  "checked": "2026-09-19"
+ },
+ "Car Seat Headrest::Monomania": {
+  "status": "ok",
+  "mbid": "7700eb6e-30e3-42fd-8ae8-c5ea1c08d962",
+  "genres": [
+   "rock",
+   "indie rock",
+   "lo-fi"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/7700eb6e-30e3-42fd-8ae8-c5ea1c08d962/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2012",
+  "checked": "2026-09-19"
+ },
+ "Caravan::If I Could Do It All Over Again, I'd Do It All Over You": {
+  "status": "ok",
+  "mbid": "8cf5e0fc-2728-3269-9ab9-64e9e38f5633",
+  "genres": [
+   "canterbury scene",
+   "progressive rock",
+   "rock",
+   "pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/8cf5e0fc-2728-3269-9ab9-64e9e38f5633/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1970",
+  "checked": "2026-09-19"
+ },
+ "Caravan::In the Land of Grey and Pink": {
+  "status": "ok",
+  "mbid": "291c5ab1-5c4e-3898-993c-0416f9b38a65",
+  "genres": [
+   "progressive rock",
+   "canterbury scene",
+   "psychedelic rock",
+   "rock",
+   "jazz"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/291c5ab1-5c4e-3898-993c-0416f9b38a65/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1971",
+  "checked": "2026-09-19"
+ },
+ "Carcass::Heartwork": {
+  "status": "ok",
+  "mbid": "0c151ec8-7252-33b8-bef9-a889872ce10d",
+  "genres": [
+   "death metal",
+   "rock",
+   "melodic death metal",
+   "metal",
+   "grindcore",
+   "heavy metal"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/0c151ec8-7252-33b8-bef9-a889872ce10d/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1993",
+  "checked": "2026-09-19"
+ },
+ "Carcass::Necroticism: Descanting the Insalubrious": {
+  "status": "ok",
+  "mbid": "8fb7386e-efb6-3c55-8ee1-c80d14267080",
+  "genres": [
+   "death metal",
+   "rock",
+   "grindcore",
+   "metal"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/8fb7386e-efb6-3c55-8ee1-c80d14267080/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1991",
+  "checked": "2026-09-19"
+ },
+ "Carissa's Wierd::Songs About Leaving": {
+  "status": "ok",
+  "mbid": "b8e69326-6882-3821-95ee-7609d9398ffd",
+  "genres": [
+   "rock",
+   "slowcore",
+   "indie rock",
+   "folk rock",
+   "lo-fi",
+   "chamber pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/b8e69326-6882-3821-95ee-7609d9398ffd/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2002",
+  "checked": "2026-09-19"
+ },
+ "Carly Rae Jepsen::EMOTION: Side B": {
+  "status": "ok",
+  "mbid": "9ff8a8fe-6aa7-473a-ae93-8488051e3f2d",
+  "genres": [
+   "dance-pop",
+   "pop",
+   "synth-pop",
+   "electropop",
+   "sophisti-pop",
+   "synthwave",
+   "electronic",
+   "pop rock",
+   "teen pop",
+   "alternative r&b"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/9ff8a8fe-6aa7-473a-ae93-8488051e3f2d/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2015",
+  "checked": "2026-09-19"
+ },
+ "Carly Rae Jepsen::EMOTION": {
+  "status": "ok",
+  "mbid": "9ff8a8fe-6aa7-473a-ae93-8488051e3f2d",
+  "genres": [
+   "dance-pop",
+   "pop",
+   "synth-pop",
+   "electropop",
+   "sophisti-pop",
+   "synthwave",
+   "electronic",
+   "pop rock",
+   "teen pop",
+   "alternative r&b"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/9ff8a8fe-6aa7-473a-ae93-8488051e3f2d/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2015",
+  "checked": "2026-09-19"
+ },
+ "Carole King::Tapestry": {
+  "status": "ok",
+  "mbid": "6e4f39e6-3403-39d7-81c6-8e61a990d509",
+  "genres": [
+   "folk rock",
+   "rock",
+   "pop rock",
+   "folk pop",
+   "pop",
+   "soft rock",
+   "singer-songwriter"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/6e4f39e6-3403-39d7-81c6-8e61a990d509/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1971",
+  "checked": "2026-09-19"
+ },
+ "Caroline Polachek::Desire, I Want To Turn Into You": {
+  "status": "ok",
+  "mbid": "20bbd8b3-35fa-4a29-9a94-13f4f01bf9ca",
+  "genres": [
+   "pop",
+   "art pop",
+   "indie pop",
+   "downtempo",
+   "uk garage",
+   "electronic",
+   "leftfield",
+   "alternative pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/20bbd8b3-35fa-4a29-9a94-13f4f01bf9ca/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-19"
+ },
+ "Caroline Polachek::Pang": {
+  "status": "ok",
+  "mbid": "8c471a20-f7fe-4ccd-bfd8-045cde85ad18",
+  "genres": [
+   "downtempo",
+   "electronic",
+   "pop",
+   "alternative pop",
+   "ambient pop",
+   "art pop",
+   "alternative r&b",
+   "indie pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/8c471a20-f7fe-4ccd-bfd8-045cde85ad18/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2019",
+  "checked": "2026-09-19"
+ },
+ "Carpenter Brut::Trilogy": {
+  "status": "ok",
+  "mbid": "0eb6c30d-3480-40d3-b210-0e1f9fb70b19",
+  "genres": [
+   "darksynth",
+   "electro house",
+   "synthwave",
+   "horror synth",
+   "french electro",
+   "electronic"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/0eb6c30d-3480-40d3-b210-0e1f9fb70b19/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2015",
+  "checked": "2026-09-19"
+ },
+ "Casiopea::Mint Jams": {
+  "status": "ok",
+  "mbid": "12dcc366-1eed-39e1-8fbc-5a827c77a7d3",
+  "genres": [
+   "jazz fusion",
+   "instrumental",
+   "jazz",
+   "jazz-funk",
+   "contemporary jazz",
+   "instrumental jazz"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/12dcc366-1eed-39e1-8fbc-5a827c77a7d3/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1982",
+  "checked": "2026-09-19"
+ },
+ "Casiopea::Casiopea": {
+  "status": "ok",
+  "mbid": "54c48ef6-04c6-4460-a509-2e1f573f010a",
+  "genres": [
+   "rock",
+   "folk",
+   "indie rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/54c48ef6-04c6-4460-a509-2e1f573f010a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2016",
+  "checked": "2026-09-19"
  }
 }
