@@ -1,74 +1,54 @@
 # Where things stand
 
-_Last updated when the machine was shut down. Delete this file once the
-backfill is finished; it describes a moment, not the project._
+_A snapshot, not documentation. Delete it once the site is live._
 
-## Enrichment
+Full step-by-step with explanations: https://claude.ai/artifact/ES3wevTTiCCqYZLbw9FcWv
 
-**1,460 of 4,476 albums done** — 91% matched, 88% with genres, 95% with
-artwork. Stopped cleanly, `data/enrichment.json` is valid and committed.
+## Done
 
-To carry on, from the project root:
+- **Repo is public**: https://github.com/jaimejeanf94/infinite-music-catalog
+  30 commits, Issues/Wiki off, no personal email in the history.
+- **Supabase project created**, Data API on, automatic RLS on.
+- **4,422 albums** (multi-disc releases merged from 4,476).
+- **Enrichment running**: ~2,400 done. A sweep job is queued behind it.
+
+## If the backfill stopped
 
 ```sh
+cd ~/infinite-music-catalog
 nohup node scripts/enrich.mjs >> data/enrich-run.log 2>&1 &
 nohup sh scripts/after-backfill.sh > data/retry-run.log 2>&1 &
-```
-
-The first works through the remaining ~3,000 (about four hours). The second
-waits for it and then sweeps every album that failed or matched without
-genres. Both resume from where they stopped and need no attention.
-
-Optional, to stop the Mac idling to sleep while they run:
-
-```sh
 caffeinate -i -w $(pgrep -f after-backfill | head -1) &
 ```
 
-To see the app while they run: `python3 -m http.server 8777` from the project
-root, then <http://localhost:8777/app/index.html>.
+Check it: `tail -3 data/enrich-run.log`
 
-## When the backfill finishes
+## Next, in order
 
-**Review the fuzzy-sourced covers.** Around 80 albums get artwork from Deezer or
-iTunes rather than the Cover Art Archive, which means it was matched on text
-rather than by id — those are the ones that could be wrong. To list them:
+1. **Run `db/schema.sql`** in the Supabase SQL editor, then verify RLS is on:
+   ```sql
+   select relname, relrowsecurity from pg_class
+   where relnamespace = 'public'::regnamespace
+     and relname in ('albums','rolls','plays');
+   ```
+   All three must be `true`.
+2. **Authentication → Users → Add user** (your email + a strong password).
+3. **Authentication → Sign In / Providers → Email**: turn sign-ups **off**.
+4. **Wait for the enrichment to finish**, then import `data/albums.csv` via
+   Table Editor, and `node scripts/import.mjs` to push genres and artwork.
+5. **Paste the URL and publishable key** into `app/config.js`.
+6. **Run `db/public_hardening.sql`** with your UID, then prove it: signed out,
+   `await db.deleteAlbum(1)` in the console must fail.
+7. **Deploy to Vercel** — root directory `app`, no build command.
+8. **Add the four Actions secrets** so the nightly job runs on GitHub.
 
-```sh
-python3 -c "
-import json; d=json.load(open('data/enrichment.json'))
-for k,v in d.items():
-    if v.get('cover_from') in ('deezer','itunes'):
-        print(f\"[{v['cover_from']:6}] {k.replace('::',' — ')[:60]}\")"
-```
+Steps 3 and 6 are the two that matter for security. The rest can be fixed later.
 
-Do not simply delete them and re-run: the fallbacks only fire when the Cover
-Art Archive has nothing, so a retry returns the same image or none at all, and
-`--retry` selects on match status rather than cover source anyway.
+## Also waiting
 
-Worth knowing before you start: about 80% of those have **no MusicBrainz id at
-all** — mostly Korean and Japanese artists, plus typos like "Gorilaz" and
-"Dogrels". For those, fixing the artist or album name is the real repair, and
-the cover follows. Only the handful that *do* have an id are cases where
-MusicBrainz knew the record but had no picture.
-
-## Next real step
-
-Two commands only you can run. Everything cloud-side is blocked on them:
-
-```sh
-git config --global user.name "Jaime Jean"
-git config --global user.email "jaimejeanf94@gmail.com"
-gh auth login
-```
-
-Then `gh repo create infinite-music-catalog --private --source=. --push`, and
-section 8 of the README covers Supabase and Vercel from there.
-
-## Still true and worth remembering
-
-- `db/schema.sql` and `db/public_hardening.sql` have **never been run against a
-  live database**. The Supabase agent skills installed in `.agents/skills` will
-  check them when you get there.
-- The app currently runs in local mode: ratings save to the browser only, and
-  do not reach any database.
+- **Review the fuzzy-sourced covers** once enrichment ends — about 80 albums
+  got artwork from Deezer or iTunes rather than matched by id.
+- **4 near-duplicates to fix**: Gorilaz/Gorillaz, Steve/Steven Wilson,
+  Freddie Gibs/Gibbs, "Essential Joe Satrini". Run
+  `node scripts/find-duplicates.mjs` to see them. Fixing means delete and
+  re-add — there is no rename in the app yet, and the typo'd rows hold scores.

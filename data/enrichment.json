@@ -34821,5 +34821,621 @@
   "cover_from": "coverartarchive",
   "mb_year": "2013",
   "checked": "2026-09-19"
+ },
+ "Little Simz::NO THANK YOU": {
+  "status": "ok",
+  "mbid": "f8ab53bd-395c-4763-98ca-0c19ab059e64",
+  "genres": [
+   "hip hop",
+   "jazz rap",
+   "gospel",
+   "conscious hip hop",
+   "orchestral",
+   "neo soul"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/f8ab53bd-395c-4763-98ca-0c19ab059e64/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2022",
+  "checked": "2026-09-19"
+ },
+ "Little Simz::Sometimes I May Be an Introvert": {
+  "status": "ok",
+  "mbid": "c625c5fc-1f29-467d-9fc0-5b208c7ed5bc",
+  "genres": [
+   "hip hop",
+   "pop rap"
+  ],
+  "genre_source": "artist",
+  "cover_url": null,
+  "cover_from": null,
+  "mb_year": "2021",
+  "checked": "2026-09-19"
+ },
+ "Little Simz::Grey Area": {
+  "status": "ok",
+  "mbid": "c41347b7-c93c-42d8-825b-529c7de0bed2",
+  "genres": [
+   "hip hop",
+   "soul",
+   "neo soul",
+   "jazz rap",
+   "conscious hip hop",
+   "hardcore hip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/c41347b7-c93c-42d8-825b-529c7de0bed2/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2019",
+  "checked": "2026-09-19"
+ },
+ "Little Simz::Lotus": {
+  "status": "ok",
+  "mbid": "749672ae-a51d-4cf5-920c-beaeab147bb6",
+  "genres": [
+   "hip hop",
+   "post-punk",
+   "funk",
+   "soul",
+   "neo soul",
+   "afrobeat",
+   "alternative hip hop",
+   "jazz rap",
+   "conscious hip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/749672ae-a51d-4cf5-920c-beaeab147bb6/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2025",
+  "checked": "2026-09-19"
+ },
+ "Little Women::Throat": {
+  "status": "ok",
+  "mbid": "80150717-fad9-402c-9db6-510274ab7b1d",
+  "genres": [
+   "rock",
+   "jazz",
+   "jazz rock",
+   "avant-garde"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/80150717-fad9-402c-9db6-510274ab7b1d/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2010",
+  "checked": "2026-09-19"
+ },
+ "Liturgy::93696": {
+  "status": "ok",
+  "mbid": "ebb1e04f-8237-4906-9148-96f4336a191f",
+  "genres": [
+   "black metal",
+   "experimental",
+   "avant-garde metal",
+   "rock",
+   "progressive metal",
+   "glitch",
+   "totalism",
+   "choral symphony"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/ebb1e04f-8237-4906-9148-96f4336a191f/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-19"
+ },
+ "Liturgy::H.A.Q.Q": {
+  "status": "ok",
+  "mbid": "0e803f31-45d1-47c2-a3b4-f64616f12e06",
+  "genres": [
+   "black metal",
+   "experimental",
+   "rock",
+   "electronic",
+   "glitch",
+   "avant-garde metal",
+   "avant-garde"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/0e803f31-45d1-47c2-a3b4-f64616f12e06/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2019",
+  "checked": "2026-09-19"
+ },
+ "Liturgy::Aesthetica": {
+  "status": "ok",
+  "mbid": "1462ded7-2cd7-4ae0-b290-c6612220f048",
+  "genres": [
+   "black metal",
+   "avant-garde metal",
+   "dark wave",
+   "ebm",
+   "electro-industrial",
+   "math rock",
+   "noise rock",
+   "totalism"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/1462ded7-2cd7-4ae0-b290-c6612220f048/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2011",
+  "checked": "2026-09-19"
+ },
+ "Live::Throwing Copper": {
+  "status": "ok",
+  "mbid": "9f31404b-49d0-365e-935d-cb040b762abf",
+  "genres": [
+   "alternative rock",
+   "rock",
+   "post-grunge",
+   "pop rock",
+   "blues",
+   "hard rock",
+   "alternative metal"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/9f31404b-49d0-365e-935d-cb040b762abf/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1994",
+  "checked": "2026-09-19"
+ },
+ "Liz Phair::Exile in Guyville": {
+  "status": "ok",
+  "mbid": "c186db82-9988-367e-8486-2e38e9b6c8db",
+  "genres": [
+   "indie rock",
+   "rock",
+   "alternative rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/c186db82-9988-367e-8486-2e38e9b6c8db/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1993",
+  "checked": "2026-09-19"
+ },
+ "Lizzo::Cuz I Love You (Deluxe)": {
+  "status": "ok",
+  "mbid": "b0b9a346-658c-48b4-97ee-8cd49c19c2e6",
+  "genres": [
+   "pop",
+   "hip hop",
+   "neo soul",
+   "r&b"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/b0b9a346-658c-48b4-97ee-8cd49c19c2e6/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2019",
+  "checked": "2026-09-19"
+ },
+ "Local Natives::Gorilla Manor": {
+  "status": "ok",
+  "mbid": "851a8aa2-d1ae-4d9b-bd41-a455b7e18fc8",
+  "genres": [
+   "indie rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/851a8aa2-d1ae-4d9b-bd41-a455b7e18fc8/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2009",
+  "checked": "2026-09-19"
+ },
+ "Logic::Ultra 85": {
+  "status": "ok",
+  "mbid": "6d6dd661-9933-4e13-91ff-32132b8d4e49",
+  "genres": [
+   "hip hop",
+   "pop rap",
+   "boom bap",
+   "east coast hip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/6d6dd661-9933-4e13-91ff-32132b8d4e49/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2024",
+  "checked": "2026-09-19"
+ },
+ "Lonnie Holley::Oh Me Oh My": {
+  "status": "ok",
+  "mbid": "4615a111-0d2c-49fa-8d59-69a5833df7fb",
+  "genres": [
+   "soul",
+   "folk",
+   "blues"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/4615a111-0d2c-49fa-8d59-69a5833df7fb/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-19"
+ },
+ "Loona Odd Eye Circle::Mix & Match": {
+  "status": "ok",
+  "mbid": "8be9e8a1-054d-4c2e-b2f2-9c3dd57351c7",
+  "genres": [
+   "dance-pop",
+   "k-pop",
+   "future bass",
+   "electropop",
+   "contemporary r&b"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/8be9e8a1-054d-4c2e-b2f2-9c3dd57351c7/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-19"
+ },
+ "Lorde::Melodrama": {
+  "status": "ok",
+  "mbid": "668e80e0-b35e-4471-9788-0a3d797fe42c",
+  "genres": [
+   "synth-pop",
+   "indie pop",
+   "electronic",
+   "pop",
+   "electro",
+   "art pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/668e80e0-b35e-4471-9788-0a3d797fe42c/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-19"
+ },
+ "Lorde::Pure Heroine": {
+  "status": "ok",
+  "mbid": "8e8a1db7-1d43-44d3-9796-fd69f12730cb",
+  "genres": [
+   "pop",
+   "synth-pop",
+   "indie pop",
+   "dance",
+   "indietronica",
+   "art pop",
+   "electronic",
+   "electropop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/8e8a1db7-1d43-44d3-9796-fd69f12730cb/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2013",
+  "checked": "2026-09-19"
+ },
+ "Lorde::Tennis Court": {
+  "status": "ok",
+  "mbid": "4bd1726c-5240-4f6d-8e7c-5aa659c16bc3",
+  "genres": [
+   "pop",
+   "indie pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/4bd1726c-5240-4f6d-8e7c-5aa659c16bc3/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2012",
+  "checked": "2026-09-19"
+ },
+ "Lorde::The Love Club": {
+  "status": "ok",
+  "mbid": "259c789f-2e96-4153-b5fa-a66f4948ca00",
+  "genres": [
+   "pop",
+   "synth-pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/259c789f-2e96-4153-b5fa-a66f4948ca00/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2012",
+  "checked": "2026-09-19"
+ },
+ "Lorde::Virgin": {
+  "status": "ok",
+  "mbid": "a3734ef9-80a8-40e0-8718-9eb39860ff4a",
+  "genres": [
+   "pop",
+   "indie pop",
+   "alternative pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/a3734ef9-80a8-40e0-8718-9eb39860ff4a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2025",
+  "checked": "2026-09-19"
+ },
+ "Lorelle Meets the Obsolete::De facto": {
+  "status": "ok",
+  "mbid": "dc2be14e-9579-4f64-b23f-b5cb4b155848",
+  "genres": [
+   "rock",
+   "psychedelic rock",
+   "dream pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/dc2be14e-9579-4f64-b23f-b5cb4b155848/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2019",
+  "checked": "2026-09-19"
+ },
+ "Los Campesinos!::Hold On Now, Youngster...": {
+  "status": "ok",
+  "mbid": "dda17bae-1003-3aed-a99b-e7a47bc21610",
+  "genres": [
+   "rock",
+   "indie rock",
+   "folk rock",
+   "indie pop",
+   "pop rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/dda17bae-1003-3aed-a99b-e7a47bc21610/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2008",
+  "checked": "2026-09-19"
+ },
+ "Los Cogelones::Hijos del Sol": {
+  "status": "ok",
+  "mbid": "b4b63a35-2735-4a49-ba0b-d08738402d28",
+  "genres": [],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/b4b63a35-2735-4a49-ba0b-d08738402d28/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2020",
+  "checked": "2026-09-19"
+ },
+ "Los Espíritus::Aguardiante": {
+  "status": "ok",
+  "mbid": "09b5c8e3-1b29-49f2-a8df-569c9705d4f5",
+  "genres": [
+   "blues",
+   "indie rock",
+   "rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/09b5c8e3-1b29-49f2-a8df-569c9705d4f5/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-19"
+ },
+ "Los Jaivas::Alturas de Machu Pichu": {
+  "status": "ok",
+  "mbid": "cb1a3247-849c-3696-8afe-c96fe834d729",
+  "genres": [
+   "progressive rock",
+   "progressive folk",
+   "rock andino",
+   "rock",
+   "latin",
+   "folk rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/cb1a3247-849c-3696-8afe-c96fe834d729/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1981",
+  "checked": "2026-09-19"
+ },
+ "Los Jaivas::Los Jaivas (El Indio)": {
+  "status": "ok",
+  "mbid": "aaed3b34-5c32-35b2-baaa-59adb7994693",
+  "genres": [
+   "rock",
+   "progressive rock",
+   "folk rock",
+   "rock andino"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/aaed3b34-5c32-35b2-baaa-59adb7994693/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1975",
+  "checked": "2026-09-19"
+ },
+ "Los Mundos::Calor Central": {
+  "status": "ok",
+  "mbid": "b16b70d3-27c3-41ad-aa62-ee40f674277d",
+  "genres": [
+   "rock",
+   "shoegaze",
+   "punk",
+   "stoner rock",
+   "psychedelic rock",
+   "space rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/b16b70d3-27c3-41ad-aa62-ee40f674277d/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2019",
+  "checked": "2026-09-19"
+ },
+ "Los Mundos::Ciudades Flotantes": {
+  "status": "ok",
+  "mbid": "db171d14-c95a-4b3b-9a7a-59fd0ad4dbdc",
+  "genres": [
+   "rock",
+   "psychedelic rock",
+   "psychedelic"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/db171d14-c95a-4b3b-9a7a-59fd0ad4dbdc/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2018",
+  "checked": "2026-09-19"
+ },
+ "Los Mundos::Las Montañas": {
+  "status": "partial",
+  "cover_url": "https://cdn-images.dzcdn.net/images/cover/895d18c4c7a734dd69b6b411bb33bcdb/1000x1000-000000-80-0-0.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Los Prisioneros::Corazones": {
+  "status": "ok",
+  "mbid": "c50ba999-f67f-39da-ab4a-c77a618ddb37",
+  "genres": [
+   "pop",
+   "house",
+   "new wave",
+   "synth-pop",
+   "rap rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/c50ba999-f67f-39da-ab4a-c77a618ddb37/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1990",
+  "checked": "2026-09-19"
+ },
+ "Los Prisioneros::Pateando Piedras": {
+  "status": "ok",
+  "mbid": "7595e654-b376-3ca9-9672-820a266dd0b3",
+  "genres": [
+   "rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/7595e654-b376-3ca9-9672-820a266dd0b3/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1986",
+  "checked": "2026-09-19"
+ },
+ "Lou Reed::The Blue Mask": {
+  "status": "ok",
+  "mbid": "99f7c49e-cc46-3f29-95f1-93008fd9307e",
+  "genres": [
+   "rock",
+   "alternative rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/99f7c49e-cc46-3f29-95f1-93008fd9307e/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1982",
+  "checked": "2026-09-19"
+ },
+ "Lou Reed::Coney Island Baby": {
+  "status": "ok",
+  "mbid": "c517ee05-356e-3944-b13f-8d505a4012cb",
+  "genres": [
+   "rock",
+   "pop rock",
+   "glam rock",
+   "soft rock",
+   "art rock",
+   "classic rock",
+   "rock and roll",
+   "glam"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/c517ee05-356e-3944-b13f-8d505a4012cb/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1975",
+  "checked": "2026-09-19"
+ },
+ "Lou Reed::Berlin": {
+  "status": "ok",
+  "mbid": "c6190069-644f-3b41-92aa-1e771e451036",
+  "genres": [
+   "rock",
+   "art rock",
+   "hard rock",
+   "glam rock",
+   "rock and roll",
+   "proto-punk",
+   "classic rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/c6190069-644f-3b41-92aa-1e771e451036/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1973",
+  "checked": "2026-09-19"
+ },
+ "Lou Reed::Transformer": {
+  "status": "ok",
+  "mbid": "6c8345df-f822-33af-b64a-eff2e46941b9",
+  "genres": [
+   "glam rock",
+   "rock",
+   "art rock",
+   "pop rock",
+   "glam",
+   "proto-punk",
+   "hard rock",
+   "glam metal",
+   "blues"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/6c8345df-f822-33af-b64a-eff2e46941b9/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1972",
+  "checked": "2026-09-19"
+ },
+ "Louis Armstrong::Portrait of the Artist as a Young Man (1923 - 1932)": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Louis Cole::Time": {
+  "status": "ok",
+  "mbid": "cd12a9a7-efb7-403c-9a83-707d9521e0ec",
+  "genres": [
+   "electronic",
+   "pop",
+   "jazz",
+   "electro",
+   "soul",
+   "synth-pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/cd12a9a7-efb7-403c-9a83-707d9521e0ec/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2018",
+  "checked": "2026-09-19"
+ },
+ "Louis Jordan::Five Guys Named Moe: Original Decca Recordings Vol. 2": {
+  "status": "ok",
+  "mbid": "03160611-97bc-4a71-a8b4-0ec56d62e17b",
+  "genres": [
+   "jazz",
+   "new orleans r&b",
+   "r&b",
+   "swing"
+  ],
+  "genre_source": "artist",
+  "cover_url": null,
+  "cover_from": null,
+  "mb_year": null,
+  "checked": "2026-09-19"
+ },
+ "Louis Prima::The Wildest!": {
+  "status": "ok",
+  "mbid": "2f643039-2fbc-3ed6-a283-97f90ecdd401",
+  "genres": [
+   "jazz",
+   "blues",
+   "swing",
+   "vocal jazz",
+   "jump blues",
+   "traditional pop",
+   "r&b"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/2f643039-2fbc-3ed6-a283-97f90ecdd401/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1956",
+  "checked": "2026-09-19"
+ },
+ "Love::Forever Changes": {
+  "status": "ok",
+  "mbid": "c7035bc6-6101-326f-992c-401d451c1716",
+  "genres": [
+   "psychedelic rock",
+   "rock",
+   "folk rock",
+   "baroque pop",
+   "psychedelic pop",
+   "psychedelic",
+   "psychedelic folk",
+   "pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/c7035bc6-6101-326f-992c-401d451c1716/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1967",
+  "checked": "2026-09-19"
  }
 }
