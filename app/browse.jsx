@@ -20,7 +20,37 @@ function Stat({ label, value }) {
   return <div className="stat"><b>{value}</b><span>{label}</span></div>;
 }
 
-function Detail({ album, owner, onPatch, onPlay, onDelete, onClose }) {
+// Genre is what you browse by; style is what the record actually is. Clicking a
+// genre filters; a style is not a filter -- half of them sit on one album -- so
+// it runs a search instead.
+function GenreLines({ album, index, onGenre }) {
+  const { genre, style } = Genres.splitGenres(album.genres, index);
+  if (!genre.length && !style.length) return null;
+  return (
+    <div className="taxo">
+      {genre.length > 0 && (
+        <div className="taxo__row">
+          <span className="taxo__label">Genre</span>
+          <div className="genres">
+            {genre.map((g) => (
+              <button key={g} className="genre genre--link" onClick={() => onGenre?.(g)}>{g}</button>
+            ))}
+          </div>
+        </div>
+      )}
+      {style.length > 0 && (
+        <div className="taxo__row">
+          <span className="taxo__label">Style</span>
+          <div className="genres">
+            {style.map((g) => <span key={g} className="genre genre--style">{g}</span>)}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function Detail({ album, owner, onPatch, onPlay, onDelete, onClose, index, onGenre }) {
   // Two taps rather than a browser confirm dialog: the first arms it, the
   // second does it, and clicking anywhere else disarms.
   const [armed, setArmed] = React.useState(false);
@@ -47,11 +77,7 @@ function Detail({ album, owner, onPatch, onPlay, onDelete, onClose }) {
           <h2 className="card__title">{album.title}</h2>
           <div className="card__meta">{album.year || "—"}</div>
 
-          {album.genres?.length > 0 && (
-            <div className="genres">
-              {album.genres.map((g) => <span key={g} className="genre">{g}</span>)}
-            </div>
-          )}
+          <GenreLines album={album} index={index} onGenre={onGenre} />
 
           <div className="scores">
             {BROWSE_SCORES.map((s) => (
@@ -318,13 +344,10 @@ function BrowseView({ albums, owner, onPatch, onPlay, onAdd, onDelete, onRestore
     pool: albums.filter((a) => a.in_pool).length,
   }), [albums]);
 
-  // Only genres that actually appear, commonest first -- a 2,000-entry
-  // dropdown of every genre MusicBrainz knows would be useless.
-  const genreOptions = React.useMemo(() => {
-    const counts = new Map();
-    for (const a of albums) for (const g of a.genres || []) counts.set(g, (counts.get(g) || 0) + 1);
-    return [...counts.entries()].sort((x, y) => y[1] - x[1] || x[0].localeCompare(y[0]));
-  }, [albums]);
+  // Genres are computed from the collection itself -- see app/genres.js.
+  const index = React.useMemo(() => Genres.buildIndex(albums), [albums]);
+  const genreOptions = React.useMemo(
+    () => Genres.genreOptions(albums, index), [albums, index]);
 
   const list = React.useMemo(() => {
     const needle = q.trim().toLowerCase();
@@ -338,7 +361,7 @@ function BrowseView({ albums, owner, onPatch, onPlay, onAdd, onDelete, onRestore
     if (filter === "unscored") out = out.filter((a) => a.score == null);
     if (filter === "scored")   out = out.filter((a) => a.score != null);
     if (filter === "out")      out = out.filter((a) => !a.in_pool);
-    if (genre) out = out.filter((a) => (a.genres || []).includes(genre));
+    if (genre) out = out.filter((a) => Genres.splitGenres(a.genres, index).genre.includes(genre));
 
     const by = {
       artist: (a, b) => a.artist.localeCompare(b.artist) || a.title.localeCompare(b.title),
@@ -347,7 +370,7 @@ function BrowseView({ albums, owner, onPatch, onPlay, onAdd, onDelete, onRestore
       score:  (a, b) => (b.score ?? -1) - (a.score ?? -1) || a.artist.localeCompare(b.artist),
     }[sort];
     return [...out].sort(by);
-  }, [albums, q, filter, sort, genre]);
+  }, [albums, q, filter, sort, genre, index]);
 
   React.useEffect(() => setShown(CHUNK), [q, filter, sort, genre]);
 
@@ -453,6 +476,7 @@ function BrowseView({ albums, owner, onPatch, onPlay, onAdd, onDelete, onRestore
 
       {live && (
         <Detail album={live} owner={owner} onPatch={onPatch} onPlay={onPlay}
+                index={index} onGenre={(g) => { setParam("genre", g); setOpen(null); }}
                 onDelete={(id) => { onDelete(id); setDeleted(null); setOpen(null); }}
                 onClose={() => setOpen(null)} />
       )}

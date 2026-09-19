@@ -86,18 +86,34 @@ deleted; filter by genre; sort four ways. All of it lives in the URL, so a view
 can be bookmarked and shared and Back undoes a filter. Tiles render 60 at a time
 and grow as you scroll, because 4,476 at once crawls.
 
-**Genre is a combobox, not a dropdown.** At 620 albums enriched there were
-already 216 distinct genres, and half of them covered two albums or fewer —
-`third stream`, `pigfuck`, `pagan black metal`. A list that long is unscannable,
-and most of it is too specific to browse for. So the list opens ranked by how
-much of *your* collection each genre covers, and typing reaches the tail:
-"post" gives post-rock (25) through post-punk revival (1).
+**Genre and style are separate things.** Genre is what you browse by; style is
+what the record actually is. Deafheaven's *Lonely People With Power* is genre
+`black metal`, style `post-metal, blackgaze`. Genres filter and are clickable;
+styles only describe, because half of them sit on two albums or fewer.
 
-There is deliberately no genre/subgenre hierarchy. MusicBrainz's list is flat,
-so one would mean hand-maintaining ~600 mappings that are wrong at the edges
-anyway — `blackgaze` belongs under metal *and* shoegaze. Frequency in your own
-collection separates broad from specific for free, and keeps doing it as the
-catalogue grows.
+The split is computed from your collection rather than imported, because no
+source provides a usable one. MusicBrainz tags are a flat list of 2,200 names
+with no hierarchy. Discogs *does* have genre and style as separate fields, but
+files every kind of metal, shoegaze and post-punk under "Rock" — too coarse to
+browse by. Rate Your Music has the best taxonomy and no public API; its
+robots.txt prohibits automated access outright.
+
+So `app/genres.js` applies three rules:
+
+1. A tag is a **genre** if enough albums here carry it (~1.2% of the
+   collection). The bar is relative, so `post-rock`, `idm` and `krautrock` stay
+   genres instead of collapsing into "rock".
+2. A few tags sit on so many albums they say nothing when anything better is
+   present — `rock` is on Nails' grindcore record. Those are dropped when the
+   album has something specific, and kept when it does not, which is why
+   Pavement is still `rock, indie rock`.
+3. An album left with nothing then gets a family inferred from its tags.
+   MusicBrainz has no plain `metal` tag, so Nails would otherwise have no genre
+   at all. It now reads genre `metal`, style `grindcore, powerviolence`.
+
+Everything else is a style. The genre filter is a combobox rather than a
+dropdown — 69 genres, opened ranked by how much of the collection each covers,
+and typing reaches the rest.
 
 - **+ Add album** — artist and title required, year and an initial score
   optional. Duplicates are refused by the database and caught in the form first,

@@ -144,11 +144,15 @@ function RollView({ albums, owner, onPatch, onPlay, onRoll }) {
             {album.score == null && <span className="badge badge--dim">unrated</span>}
           </div>
 
-          {album.genres?.length > 0 && (
-            <div className="genres">
-              {album.genres.map((g) => <span key={g} className="genre">{g}</span>)}
-            </div>
-          )}
+          {album.genres?.length > 0 && (() => {
+            const { genre, style } = Genres.splitGenres(album.genres, Genres.buildIndex(albums));
+            return (
+              <div className="genres">
+                {genre.map((g) => <span key={g} className="genre">{g}</span>)}
+                {style.map((g) => <span key={g} className="genre genre--style">{g}</span>)}
+              </div>
+            );
+          })()}
 
           <div className="scores">
             {SCORES.map((s, i) => (

@@ -389,3 +389,19 @@ button, a, input, select, textarea, .tile { touch-action: manipulation; }
   position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
   overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
 }
+
+/* Genre reads as a label you can act on; style reads as description. */
+.taxo { display: flex; flex-direction: column; gap: 8px; }
+.taxo__row { display: flex; align-items: baseline; gap: 10px; }
+.taxo__label {
+  font-family: var(--mono); font-size: 10px; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--ink-dim);
+  flex: 0 0 42px;
+}
+.genre--link { cursor: pointer; }
+.genre--link:hover { border-color: var(--accent); color: var(--ink); }
+.genre--style {
+  background: transparent;
+  border-style: dashed;
+  color: var(--ink-dim);
+}
