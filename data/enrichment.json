@@ -5889,5 +5889,485 @@
   "cover_from": "coverartarchive",
   "mb_year": "2010",
   "checked": "2026-09-19"
+ },
+ "Ad Nauseam::Imperative Imperceptible Impulse": {
+  "status": "ok",
+  "mbid": "d253179e-cc1c-430d-8a2a-66a5759a8ddd",
+  "genres": [
+   "death metal",
+   "avant-garde metal",
+   "dissonant death metal"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/d253179e-cc1c-430d-8a2a-66a5759a8ddd/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2021",
+  "checked": "2026-09-19"
+ },
+ "Adeem the Artist::White Trash Revelry": {
+  "status": "ok",
+  "mbid": "527de82e-b3bc-4d58-8c77-902348565641",
+  "genres": [
+   "country",
+   "folk"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/527de82e-b3bc-4d58-8c77-902348565641/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2022",
+  "checked": "2026-09-19"
+ },
+ "Adrianne Lenker::i won’t let go of your hand": {
+  "status": "ok",
+  "mbid": "20e556ae-7c59-43bc-a788-e345122a389f",
+  "genres": [],
+  "cover_url": "https://coverartarchive.org/release-group/20e556ae-7c59-43bc-a788-e345122a389f/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2024",
+  "checked": "2026-09-19"
+ },
+ "Adrianne Lenker::Bright Future": {
+  "status": "ok",
+  "mbid": "60db66ba-34f8-4a1d-b91a-67e85cfcb269",
+  "genres": [
+   "americana",
+   "singer-songwriter",
+   "indie folk"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/60db66ba-34f8-4a1d-b91a-67e85cfcb269/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2024",
+  "checked": "2026-09-19"
+ },
+ "Adrianne Lenker::instrumentals": {
+  "status": "ok",
+  "mbid": "d15533d6-2ee7-4574-9f7c-ff792e75f0dc",
+  "genres": [
+   "ambient",
+   "folk",
+   "contemporary folk"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/d15533d6-2ee7-4574-9f7c-ff792e75f0dc/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2020",
+  "checked": "2026-09-19"
+ },
+ "Adrianne Lenker::songs": {
+  "status": "ok",
+  "mbid": "5ff627e4-b8a0-43af-8ee2-4d84adf4541f",
+  "genres": [
+   "folk",
+   "singer-songwriter",
+   "contemporary folk"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/5ff627e4-b8a0-43af-8ee2-4d84adf4541f/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2020",
+  "checked": "2026-09-19"
+ },
+ "Aerosmith::Rocks": {
+  "status": "ok",
+  "mbid": "775d9a2d-effc-35c8-b80a-f9a4e4206d27",
+  "genres": [
+   "hard rock",
+   "rock",
+   "blues rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/775d9a2d-effc-35c8-b80a-f9a4e4206d27/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1976",
+  "checked": "2026-09-19"
+ },
+ "Aerosmith::Toys In The Attic": {
+  "status": "ok",
+  "mbid": "d03bb6b1-d7b4-38ea-974e-847cbb31dca4",
+  "genres": [
+   "hard rock",
+   "rock",
+   "blues rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/d03bb6b1-d7b4-38ea-974e-847cbb31dca4/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1975",
+  "checked": "2026-09-19"
+ },
+ "Aesop Rock::Integrated Tech Solutions": {
+  "status": "ok",
+  "mbid": "4bcbcfa4-d977-4f17-9f03-aeac6f08f164",
+  "genres": [
+   "hip hop",
+   "abstract hip hop",
+   "conscious hip hop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/4bcbcfa4-d977-4f17-9f03-aeac6f08f164/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-19"
+ },
+ "Aesop Rock::The Impossible Kid": {
+  "status": "ok",
+  "mbid": "fff783b6-8190-477c-b526-2fec492b98f9",
+  "genres": [
+   "hip hop",
+   "conscious hip hop",
+   "electronic"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/fff783b6-8190-477c-b526-2fec492b98f9/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2016",
+  "checked": "2026-09-19"
+ },
+ "Aesop Rock::None Shall Pass": {
+  "status": "ok",
+  "mbid": "9c879c63-606d-375f-aaf7-3618d94655b5",
+  "genres": [
+   "hip hop",
+   "conscious hip hop",
+   "turntablism"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/9c879c63-606d-375f-aaf7-3618d94655b5/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2007",
+  "checked": "2026-09-19"
+ },
+ "Aesop Rock::Labor Days": {
+  "status": "ok",
+  "mbid": "43f0606f-38ce-3d7c-891b-3e089cc150e0",
+  "genres": [
+   "hip hop",
+   "conscious hip hop",
+   "alternative hip hop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/43f0606f-38ce-3d7c-891b-3e089cc150e0/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2001",
+  "checked": "2026-09-19"
+ },
+ "AFI::Sing the Sorrow": {
+  "status": "ok",
+  "mbid": "bbaed6d5-f299-3893-994b-17a29cbe08cb",
+  "genres": [
+   "punk",
+   "pop punk",
+   "alternative punk"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/bbaed6d5-f299-3893-994b-17a29cbe08cb/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2003",
+  "checked": "2026-09-19"
+ },
+ "Africa Hitech::93 Million Miles": {
+  "status": "ok",
+  "mbid": "20918143-9832-4d1d-a044-11d1bd9a6ddf",
+  "genres": [
+   "electronic",
+   "dubstep",
+   "idm"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/20918143-9832-4d1d-a044-11d1bd9a6ddf/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2011",
+  "checked": "2026-09-19"
+ },
+ "Afrika Bambaataa # The Soul Sonic Force::Planet Rock: The Album": {
+  "status": "ok",
+  "mbid": "ef56f58a-8dfd-39ea-8a79-7f69d4fcd87c",
+  "genres": [
+   "electro",
+   "electronic"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/ef56f58a-8dfd-39ea-8a79-7f69d4fcd87c/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1982",
+  "checked": "2026-09-19"
+ },
+ "AFX::Orphaned Deejay Selek": {
+  "status": "ok",
+  "mbid": "a9cc53f3-079d-445d-8727-53e1d1f95694",
+  "genres": [
+   "techno",
+   "electronic"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/a9cc53f3-079d-445d-8727-53e1d1f95694/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2015",
+  "checked": "2026-09-19"
+ },
+ "Against All Logic::2017-2019": {
+  "status": "ok",
+  "mbid": "55b7054c-b28d-4bb7-ace7-a0646775b0e8",
+  "genres": [
+   "electronic",
+   "pop",
+   "house"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/55b7054c-b28d-4bb7-ace7-a0646775b0e8/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2020",
+  "checked": "2026-09-19"
+ },
+ "Against All Logic::2012-2017": {
+  "status": "ok",
+  "mbid": "20f7f4bb-c9cb-424e-9106-cbd41a00e18f",
+  "genres": [
+   "electronic",
+   "house",
+   "experimental"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/20f7f4bb-c9cb-424e-9106-cbd41a00e18f/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2018",
+  "checked": "2026-09-19"
+ },
+ "AGAINST ME!::Transgender Dysphoria Blues": {
+  "status": "ok",
+  "mbid": "e7f72fbd-9510-4eaf-b56a-820ec95a7c03",
+  "genres": [
+   "punk rock",
+   "punk",
+   "rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/e7f72fbd-9510-4eaf-b56a-820ec95a7c03/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2014",
+  "checked": "2026-09-19"
+ },
+ "Against Me!::Is Reinventing Axl Rose": {
+  "status": "ok",
+  "mbid": "dedca491-6f16-3041-acb7-5ff6dfe1b8f6",
+  "genres": [
+   "punk rock",
+   "rock",
+   "folk"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/dedca491-6f16-3041-acb7-5ff6dfe1b8f6/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2002",
+  "checked": "2026-09-19"
+ },
+ "Agalloch::Faustian Echoes EP": {
+  "status": "ok",
+  "mbid": "5dfc5215-6632-402f-96f5-006532675ead",
+  "genres": [
+   "black metal",
+   "atmospheric black metal",
+   "metal"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/5dfc5215-6632-402f-96f5-006532675ead/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2012",
+  "checked": "2026-09-19"
+ },
+ "Agalloch::Marrow of the Spirit": {
+  "status": "ok",
+  "mbid": "9c515bcd-7587-45a5-a7ec-f6120ba006c9",
+  "genres": [
+   "atmospheric black metal",
+   "black metal",
+   "post-metal"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/9c515bcd-7587-45a5-a7ec-f6120ba006c9/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2010",
+  "checked": "2026-09-19"
+ },
+ "Agalloch::The White EP": {
+  "status": "ok",
+  "mbid": "ba1b0247-3222-3bca-98b8-f5b41dfcdf62",
+  "genres": [
+   "neofolk",
+   "dark folk",
+   "instrumental"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/ba1b0247-3222-3bca-98b8-f5b41dfcdf62/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2008",
+  "checked": "2026-09-19"
+ },
+ "Agent Orange::Living in Darkness": {
+  "status": "ok",
+  "mbid": "8864e056-f46b-3e38-97aa-949d292fb506",
+  "genres": [
+   "rock",
+   "punk",
+   "punk rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/8864e056-f46b-3e38-97aa-949d292fb506/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1981",
+  "checked": "2026-09-19"
+ },
+ "Air::Late Night Tales (Air)": {
+  "status": "partial",
+  "cover_url": "https://cdn-images.dzcdn.net/images/cover/f0391e07e73a9b2434871bea95a0f0b5/1000x1000-000000-80-0-0.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Air::Talkie Walkie": {
+  "status": "ok",
+  "mbid": "c636f6e8-0fe6-3470-b5af-b31a0ebed0bb",
+  "genres": [
+   "electronic",
+   "downtempo",
+   "electronica"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/c636f6e8-0fe6-3470-b5af-b31a0ebed0bb/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2004",
+  "checked": "2026-09-19"
+ },
+ "Air::The Virgin Suicides": {
+  "status": "ok",
+  "mbid": "80aa8257-7bc5-39c0-87e1-95941e4c746c",
+  "genres": [
+   "electronic",
+   "ambient pop",
+   "downtempo"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/80aa8257-7bc5-39c0-87e1-95941e4c746c/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2000",
+  "checked": "2026-09-19"
+ },
+ "Air::Moon Safari": {
+  "status": "ok",
+  "mbid": "b0bf2b77-b8cf-32f6-8893-9741d757b400",
+  "genres": [
+   "downtempo",
+   "electronic",
+   "ambient"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/b0bf2b77-b8cf-32f6-8893-9741d757b400/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1998",
+  "checked": "2026-09-19"
+ },
+ "AJJ::Knife man": {
+  "status": "partial",
+  "cover_url": "https://cdn-images.dzcdn.net/images/cover/09bb15585a3eadc2653820a814b0cda9/1000x1000-000000-80-0-0.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Ajj::People That Can Eat People Are The Luckiest People in the World": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Akira Yamaoka::Silent Hill 2": {
+  "status": "partial",
+  "cover_url": "https://cdn-images.dzcdn.net/images/cover/c093c59eb82c1e0737eec25c53cda00f/1000x1000-000000-80-0-0.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Al Green::Call Me": {
+  "status": "ok",
+  "mbid": "edafb37c-f392-3765-9dbd-80616dcb2ad7",
+  "genres": [
+   "soul",
+   "smooth soul",
+   "funk"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/edafb37c-f392-3765-9dbd-80616dcb2ad7/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1973",
+  "checked": "2026-09-19"
+ },
+ "Al Green::I'm Still in Love with You": {
+  "status": "ok",
+  "mbid": "4a40960b-44b3-313c-8540-cde054d41bd9",
+  "genres": [
+   "soul",
+   "southern soul",
+   "smooth soul"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/4a40960b-44b3-313c-8540-cde054d41bd9/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1972",
+  "checked": "2026-09-19"
+ },
+ "Al Green::Let's Stay Together": {
+  "status": "ok",
+  "mbid": "eed9ffe2-5731-3b9a-9906-01728a083d1d",
+  "genres": [
+   "soul",
+   "southern soul",
+   "smooth soul"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/eed9ffe2-5731-3b9a-9906-01728a083d1d/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1972",
+  "checked": "2026-09-19"
+ },
+ "Al Green::Greatest Hits (Al Green)": {
+  "status": "ok",
+  "mbid": "b674c21d-d4ff-46c1-9f7a-fa6e4d13edea",
+  "genres": [
+   "soul"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/b674c21d-d4ff-46c1-9f7a-fa6e4d13edea/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1986",
+  "checked": "2026-09-19"
+ },
+ "Alabama Shakes::Sound & Color": {
+  "status": "ok",
+  "mbid": "8898b8fb-057f-4887-8c69-7f3632529d87",
+  "genres": [
+   "rock",
+   "blues rock",
+   "alternative rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/8898b8fb-057f-4887-8c69-7f3632529d87/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2015",
+  "checked": "2026-09-19"
+ },
+ "Alabama Shakes::Boys & Girls": {
+  "status": "ok",
+  "mbid": "83024532-0142-4ac5-b473-e38681350db0",
+  "genres": [
+   "southern rock",
+   "rock",
+   "soul"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/83024532-0142-4ac5-b473-e38681350db0/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2012",
+  "checked": "2026-09-19"
+ },
+ "Alain Goraguer::La Planète Sauvage": {
+  "status": "ok",
+  "mbid": "f85554c5-2680-3d72-8ed0-dc797e38f094",
+  "genres": [
+   "electronic",
+   "jazz",
+   "experimental"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/f85554c5-2680-3d72-8ed0-dc797e38f094/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1973",
+  "checked": "2026-09-19"
+ },
+ "Alan Vega::It": {
+  "status": "ok",
+  "mbid": "614007c1-7808-4dec-8789-2e98bbb359e3",
+  "genres": [
+   "rock",
+   "industrial"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/614007c1-7808-4dec-8789-2e98bbb359e3/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-19"
+ },
+ "Alanis Morissette::Supposed Former Infactuation": {
+  "status": "partial",
+  "cover_url": "https://cdn-images.dzcdn.net/images/cover/a129d2d2e2d64088d983c1afb226d67f/1000x1000-000000-80-0-0.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-09-19"
  }
 }

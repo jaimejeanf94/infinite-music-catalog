@@ -37,7 +37,7 @@ function Detail({ album, owner, onPatch, onPlay, onDelete, onClose }) {
   return (
     <div className="sheet" onClick={onClose}>
       <div className="sheet__inner" onClick={(e) => e.stopPropagation()}>
-        <button className="sheet__x" onClick={onClose}>×</button>
+        <button className="sheet__x" onClick={onClose} aria-label="Close">×</button>
         <div className="sheet__art">
           <CoverArt album={album} size={260} canPersist={owner}
                     onResolved={(id, url) => onPatch(id, { cover_url: url }, true)} />
@@ -159,7 +159,7 @@ function AddAlbum({ albums, onAdd, onClose }) {
   return (
     <div className="sheet" onClick={onClose}>
       <form className="sheet__inner sheet__inner--sm" onClick={(e) => e.stopPropagation()} onSubmit={submit}>
-        <button type="button" className="sheet__x" onClick={onClose}>×</button>
+        <button type="button" className="sheet__x" onClick={onClose} aria-label="Close">×</button>
         <h2 className="card__title">Add an album</h2>
         <p className="muted">Genres and artwork are filled in by the next enrichment run.</p>
 

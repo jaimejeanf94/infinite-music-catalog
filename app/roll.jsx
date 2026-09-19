@@ -183,7 +183,7 @@ function RollView({ albums, owner, onPatch, onPlay, onRoll }) {
         </div>
       </div>
 
-      {flash && <div className="flash">{flash}</div>}
+      {flash && <div className="flash" role="status" aria-live="polite">{flash}</div>}
 
       {history.length > 1 && (
         <div className="recent">

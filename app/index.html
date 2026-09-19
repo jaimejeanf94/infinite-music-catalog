@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#121110" />
 <title>Infinite Music Catalog</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -49,7 +50,7 @@ function SignIn({ onDone }) {
   return (
     <div className="sheet" onClick={onDone}>
       <form className="sheet__inner sheet__inner--sm" onClick={(e) => e.stopPropagation()} onSubmit={submit}>
-        <button type="button" className="sheet__x" onClick={onDone}>×</button>
+        <button type="button" className="sheet__x" onClick={onDone} aria-label="Close">×</button>
         <h2 className="card__title">Sign in</h2>
         <p className="muted">Signing in unlocks rating, notes and the listening log.</p>
         <label className="field"><span>Email</span>
@@ -181,7 +182,7 @@ function App() {
 
       {showSignIn && <SignIn onDone={() => setShowSignIn(false)} />}
       {error && (
-        <div className="toast" onClick={() => setError("")}>
+        <div className="toast" role="alert" aria-live="assertive" onClick={() => setError("")}>
           {error} <span className="muted">(tap to dismiss)</span>
         </div>
       )}

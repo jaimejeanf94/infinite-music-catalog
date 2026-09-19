@@ -124,6 +124,8 @@ function CoverArt({ album, size = 150, canPersist, onResolved }) {
       className="art"
       src={url}
       alt=""
+      width={size}
+      height={size}
       loading="lazy"
       onError={() => { setUrl(null); setFailed(true); }}
     />

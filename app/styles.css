@@ -1,6 +1,7 @@
 /* Infinite Hipster — dark, dense, thumb-friendly. One stylesheet, no framework. */
 
 :root {
+  color-scheme: dark;   /* native scrollbars, inputs and form controls follow */
   /* Constructivist archive: ink, bone, signal red. The covers supply every
      other colour on the page, so the interface stays to three. */
   --bg: #121110;
@@ -208,7 +209,7 @@ main { max-width: 1100px; margin: 0 auto; padding: 20px 16px 40px; }
 .search {
   flex: 1 1 260px; background: transparent;
   border: 0; border-bottom: 1px solid var(--line);
-  border-radius: 0; padding: 10px 2px; outline: none;
+  border-radius: 0; padding: 10px 2px;
   font-family: var(--body); font-size: 17px; color: var(--ink);
 }
 .search::placeholder { color: var(--ink-dim); }
@@ -220,7 +221,10 @@ main { max-width: 1100px; margin: 0 auto; padding: 20px 16px 40px; }
   font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase;
 }
 .chip--on { background: var(--panel-2); color: var(--ink); border-color: #3a3a44; }
-.sort { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 10px; }
+.sort {
+  background: var(--panel); color: var(--ink);   /* both, or Windows dark mode hides the text */
+  border: 1px solid var(--line); border-radius: var(--radius); padding: 10px;
+}
 .count { color: var(--ink-dim); font-size: 13px; margin-bottom: 14px; }
 
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 16px 16px; padding-bottom: 24px; }
@@ -270,8 +274,8 @@ main { max-width: 1100px; margin: 0 auto; padding: 20px 16px 40px; }
 }
 .field { display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: var(--ink-dim); }
 .field input, .field textarea {
-  background: var(--panel-2); border: 1px solid var(--line); border-radius: 8px;
-  padding: 10px; color: var(--ink); outline: none; resize: vertical; font-size: 15px;
+  background: var(--panel-2); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 10px; color: var(--ink); resize: vertical; font-size: 15px;
 }
 .field input:focus, .field textarea:focus { border-color: var(--accent); }
 
@@ -315,9 +319,35 @@ main { max-width: 1100px; margin: 0 auto; padding: 20px 16px 40px; }
 .restore-row {
   display: flex; align-items: center; gap: 12px;
   background: var(--panel); border: 1px solid var(--line);
-  border-radius: 10px; padding: 10px 12px;
+  border-radius: var(--radius); padding: 10px 12px;
 }
 .restore-art { width: 48px; height: 48px; flex: none; }
 .restore-txt { display: flex; flex-direction: column; min-width: 0; flex: 1; }
 .restore-txt b { font-size: 14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .restore-txt em { font-style: normal; font-size: 12px; color: var(--ink-dim); }
+
+
+/* ── keyboard and touch ─────────────────────────────────────────────────────
+   The scoring flow is built for the keyboard, so focus has to be visible.
+   :focus-visible rather than :focus, so a mouse click does not leave a ring
+   behind. Declared last, after the rules that clear outlines. */
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Removes the ~300ms delay Safari waits to see if a tap was a double-tap.
+   At four thousand albums to rate, that adds up. */
+button, a, input, select, textarea, .tile { touch-action: manipulation; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
