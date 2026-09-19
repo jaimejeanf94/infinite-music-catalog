@@ -197,18 +197,26 @@ function App() {
           <a className={"nav__a" + (route === "roll" ? " nav__a--on" : "")} href="#/roll">Roll</a>
         </nav>
         {db.mode === "local" && <span className="tag" title="Ratings are saved in this browser only">local</span>}
+        {params.get("as") === "visitor" && (
+          <a className="tag tag--preview" href={`#/${route}`} title="Leave the visitor preview">
+            viewing as visitor ×
+          </a>
+        )}
         <a className="brand" href="#/browse">Infinite Music Catalog</a>
         {db.mode === "local" ? null : user
           ? <button className="btn btn--quiet btn--sm" onClick={() => db.signOut()}>Sign out</button>
           : <button className="btn btn--quiet btn--sm" onClick={() => setShowSignIn(true)}>Sign in</button>}
       </header>
 
+      {/* Append ?as=visitor to any view to see exactly what a signed-out
+          visitor sees, without signing out. Owner-only: it can merely take
+          abilities away, never grant them. */}
       <main>
         {route === "browse"
-          ? <BrowseView albums={albums} owner={!!user} onPatch={onPatch} onPlay={onPlay}
+          ? <BrowseView albums={albums} owner={!!user && params.get("as") !== "visitor"} onPatch={onPatch} onPlay={onPlay}
                         onAdd={onAdd} onDelete={onDelete} onRestore={onRestore}
                         params={params} setParams={setParams} />
-          : <RollView albums={albums} owner={!!user} onPatch={onPatch} onPlay={onPlay} onRoll={onRoll} />}
+          : <RollView albums={albums} owner={!!user && params.get("as") !== "visitor"} onPatch={onPatch} onPlay={onPlay} onRoll={onRoll} />}
       </main>
 
       {showSignIn && <SignIn onDone={() => setShowSignIn(false)} />}

@@ -43,7 +43,15 @@ begin
       t || '_write', t, owner_id, owner_id);
   end loop;
 
-  -- Reads: the catalogue stays public, but what you played and when does not.
+  -- Reads: the catalogue stays public, but a deleted album is not part of it.
+  -- The app hides them, but hiding is not a rule -- anyone could ask the API
+  -- directly. Signed in, you still see them, which is what makes Restore work.
+  execute format('drop policy if exists %I on public.albums', 'albums_read');
+  execute format(
+    'create policy %I on public.albums for select to anon, authenticated '
+    || 'using (deleted_at is null or (select auth.uid()) = %L)',
+    'albums_read', owner_id);
+
   -- Listening history is the one genuinely personal thing in the database.
   foreach t in array array['rolls', 'plays'] loop
     execute format('drop policy if exists %I on public.%I', t || '_read', t);

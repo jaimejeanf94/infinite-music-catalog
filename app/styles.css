@@ -431,3 +431,7 @@ button, a, input, select, textarea, .tile { touch-action: manipulation; }
   font-size: clamp(22px, 2.4vw, 36px);
   line-height: 1.04;
 }
+
+.readonly-note { margin: 0; color: var(--ink); font-size: 15px; white-space: pre-wrap; }
+
+.tag--preview { background: var(--accent); color: #fff; border-color: var(--accent); text-decoration: none; }

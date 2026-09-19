@@ -152,26 +152,27 @@ function RollView({ albums, owner, onPatch, onPlay, onRoll }) {
             />
           )}
 
-          <div className="scores">
-            {SCORES.map((s, i) => (
-              <button
-                key={s}
-                className={"score" + (album.score === s ? " score--on" : "")}
-                onClick={() => score(s)}
-                disabled={!owner}
-                title={`Key ${i + 1}`}
-              >
-                {s}
-              </button>
-            ))}
-          </div>
+          {owner && (
+            <div className="scores">
+              {SCORES.map((s, i) => (
+                <button
+                  key={s}
+                  className={"score" + (album.score === s ? " score--on" : "")}
+                  onClick={() => score(s)}
+                  title={`Key ${i + 1}`}
+                >
+                  {s}
+                </button>
+              ))}
+            </div>
+          )}
 
           <div className="row">
             <button className="btn btn--primary" onClick={spin}>Roll again ␣</button>
-            <button className="btn" onClick={played} disabled={!owner}>Played it (p)</button>
-            <button className="btn btn--quiet" onClick={drop} disabled={!owner}>
-              Not for the pool (x)
-            </button>
+            {owner && <button className="btn" onClick={played}>Played it (p)</button>}
+            {owner && (
+              <button className="btn btn--quiet" onClick={drop}>Not for the pool (x)</button>
+            )}
           </div>
 
           <div className="row row--links">

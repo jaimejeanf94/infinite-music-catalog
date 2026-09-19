@@ -39,6 +39,15 @@ work on the app without touching live data.
 `db/schema.sql`, not by hiding the key in `config.js` — that key is designed to
 be public.
 
+Visitors get a genuine read-only view: no score buttons (the score shows as a
+badge), no notes box, no cover field, no add or delete, no Deleted filter. They
+can browse, search, filter and roll, and follow the streaming links. The rules
+in the database reject a write regardless, so the hiding is for clarity rather
+than for safety — a visitor is never shown a control that would fail.
+
+Append `?as=visitor` to any view to see exactly what they see without signing
+out: `#/browse?as=visitor`. It can only take abilities away, never grant them.
+
 ---
 
 ## 2. Run it locally

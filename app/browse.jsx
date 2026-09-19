@@ -79,65 +79,71 @@ function Detail({ album, owner, onPatch, onPlay, onDelete, onClose, index, onGen
 
           <GenreLines album={album} index={index} onGenre={onGenre} />
 
-          <div className="scores">
-            {BROWSE_SCORES.map((s) => (
-              <button
-                key={s}
-                className={"score" + (album.score === s ? " score--on" : "")}
-                disabled={!owner}
-                onClick={() => onPatch(album.id, { score: album.score === s ? null : s })}
-              >
-                {s}
-              </button>
-            ))}
-          </div>
+          {owner ? (
+            <div className="scores">
+              {BROWSE_SCORES.map((s) => (
+                <button
+                  key={s}
+                  className={"score" + (album.score === s ? " score--on" : "")}
+                  onClick={() => onPatch(album.id, { score: album.score === s ? null : s })}
+                >
+                  {s}
+                </button>
+              ))}
+            </div>
+          ) : album.score != null ? (
+            <div className="card__meta"><span className="badge">{album.score}</span> rated</div>
+          ) : null}
 
-          <label className="field">
-            <span>Cover image {album.cover_locked && <b>— yours, kept</b>}</span>
-            <input
-              id={`cover-${album.id}`}
-              defaultValue={album.cover_url || ""}
-              disabled={!owner}
-              placeholder="Paste an image URL to override"
-              onBlur={(e) => {
-                const url = e.target.value.trim();
-                if (url === (album.cover_url || "")) return;
-                // Locking it stops the nightly enrichment replacing your choice.
-                onPatch(album.id, { cover_url: url || null, cover_locked: !!url });
-              }}
-            />
-          </label>
+          {/* A visitor sees a note that exists, but not an empty box inviting
+              them to write one they cannot save. */}
+          {owner ? (
+            <>
+              <label className="field">
+                <span>Cover image {album.cover_locked && <b>— yours, kept</b>}</span>
+                <input
+                  id={`cover-${album.id}`}
+                  defaultValue={album.cover_url || ""}
+                  placeholder="Paste an image URL to override"
+                  onBlur={(e) => {
+                    const url = e.target.value.trim();
+                    if (url === (album.cover_url || "")) return;
+                    onPatch(album.id, { cover_url: url || null, cover_locked: !!url });
+                  }}
+                />
+              </label>
 
-          <label className="field">
-            <span>Notes</span>
-            <textarea
-              rows="3" value={notes} disabled={!owner}
-              onChange={(e) => setNotes(e.target.value)}
-              onBlur={() => notes !== (album.notes || "") && onPatch(album.id, { notes })}
-              placeholder="What did you think?"
-            />
-          </label>
+              <label className="field">
+                <span>Notes</span>
+                <textarea
+                  rows="3" value={notes}
+                  onChange={(e) => setNotes(e.target.value)}
+                  onBlur={() => notes !== (album.notes || "") && onPatch(album.id, { notes })}
+                  placeholder="What did you think?"
+                />
+              </label>
 
-          <div className="row">
-            <button className="btn" disabled={!owner} onClick={() => onPlay(album.id)}>
-              Log a play
-            </button>
-            <button className="btn btn--quiet" disabled={!owner}
-                    onClick={() => onPatch(album.id, { in_pool: !album.in_pool })}>
-              {album.in_pool ? "Remove from pool" : "Back in the pool"}
-            </button>
-            <button className={"btn btn--danger" + (armed ? " btn--armed" : "")}
-                    disabled={!owner}
-                    onClick={() => (armed ? onDelete(album.id) : setArmed(true))}>
-              {armed ? "Tap again to delete" : "Delete"}
-            </button>
-          </div>
-          {armed && (
-            <p className="muted" style={{ fontSize: 13, margin: 0 }}>
-              Removes it from the shelf for good. To stop it coming up on rolls
-              without deleting it, use “Remove from pool”.
-            </p>
-          )}
+              <div className="row">
+                <button className="btn" onClick={() => onPlay(album.id)}>Log a play</button>
+                <button className="btn btn--quiet"
+                        onClick={() => onPatch(album.id, { in_pool: !album.in_pool })}>
+                  {album.in_pool ? "Remove from pool" : "Back in the pool"}
+                </button>
+                <button className={"btn btn--danger" + (armed ? " btn--armed" : "")}
+                        onClick={() => (armed ? onDelete(album.id) : setArmed(true))}>
+                  {armed ? "Tap again to delete" : "Delete"}
+                </button>
+              </div>
+              {armed && (
+                <p className="muted" style={{ fontSize: 13, margin: 0 }}>
+                  Removes it from the shelf for good. To stop it coming up on rolls
+                  without deleting it, use “Remove from pool”.
+                </p>
+              )}
+            </>
+          ) : album.notes ? (
+            <div className="field"><span>Notes</span><p className="readonly-note">{album.notes}</p></div>
+          ) : null}
 
           <div className="row row--links">
             <a className="link" target="_blank" rel="noreferrer"
@@ -402,7 +408,7 @@ function BrowseView({ albums, owner, onPatch, onPlay, onAdd, onDelete, onRestore
         />
         <div className="chips">
           {[["all", "All"], ["unscored", "Unrated"], ["scored", "Rated"],
-            ["out", "Out of pool"], ["deleted", "Deleted"]]
+            ["out", "Out of pool"], ...(owner ? [["deleted", "Deleted"]] : [])]
             .map(([id, label]) => (
               <button key={id} className={"chip" + (filter === id ? " chip--on" : "")}
                       onClick={() => setParam("filter", id === "all" ? "" : id)}>{label}</button>
