@@ -19,6 +19,11 @@ create table if not exists public.albums (
   in_pool    boolean not null default true,   -- the sheet's RSP column
   notes      text,
   cover_url  text,
+  -- MusicBrainz release-group id: the album's stable identity. Artwork and
+  -- genres are looked up by this rather than by searching the title again,
+  -- which is what stopped covers landing on the wrong record.
+  mbid       uuid,
+  genres     text[] not null default '{}',
   scored_at  timestamptz,
   created_at timestamptz not null default now()
 );
@@ -29,6 +34,7 @@ create unique index if not exists albums_artist_title_key
 
 create index if not exists albums_pool_idx on public.albums (in_pool) where in_pool;
 create index if not exists albums_unscored_idx on public.albums (id) where score is null;
+create index if not exists albums_genres_idx on public.albums using gin (genres);
 
 -- ── rolls ───────────────────────────────────────────────────────────────────
 -- Every spin of the randomizer, so you can see what it has been feeding you

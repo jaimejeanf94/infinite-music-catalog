@@ -57,6 +57,12 @@ const LocalDB = {
       `Could not read data/albums.csv (${res.status}). Start the server from the ` +
       `project root, not from inside app/.`
     );
+    // Genres and artwork live in their own file (see scripts/enrich.mjs) so
+    // that re-running clean.py cannot wipe them. Missing is fine -- the app
+    // just shows no genres until the enrichment pass has run.
+    const enrichment = await fetch("../data/enrichment.json")
+      .then((r) => (r.ok ? r.json() : {}))
+      .catch(() => ({}));
     const [header, ...rows] = parseCsv(await res.text());
     const col = Object.fromEntries(header.map((h, i) => [h.trim(), i]));
     const edits = load(LS_EDITS, {});
@@ -64,6 +70,7 @@ const LocalDB = {
       .filter((r) => r[col.artist])
       .map((r, i) => {
         const id = i + 1;
+        const extra = enrichment[`${r[col.artist]}::${r[col.title]}`] || {};
         return {
           id,
           artist: r[col.artist],
@@ -72,7 +79,8 @@ const LocalDB = {
           score: r[col.score] ? Number(r[col.score]) : null,
           in_pool: r[col.in_pool] !== "false",
           notes: null,
-          cover_url: null,
+          genres: extra.genres || [],
+          cover_url: extra.cover_url || null,
           ...(edits[id] || {}),
         };
       });

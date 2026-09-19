@@ -1,0 +1,63 @@
+name: Refresh catalogue
+
+# The data flow, run by GitHub on a schedule:
+#   sheet -> clean -> enrich a batch -> commit -> push to Supabase
+#
+# Enrichment is deliberately batched. MusicBrainz allows one request a second,
+# so the whole collection is about 75 minutes; 300 albums is roughly 7, which
+# keeps each run short and works through the backlog over a couple of weeks.
+# Run `node scripts/enrich.mjs` locally once if you want it done tonight.
+
+on:
+  schedule:
+    - cron: "0 7 * * *"      # 07:00 UTC daily — 01:00 in Mexico City
+  workflow_dispatch:          # and a "Run workflow" button in the Actions tab
+    inputs:
+      batch:
+        description: "How many albums to enrich this run"
+        default: "300"
+
+permissions:
+  contents: write             # needed to commit the refreshed data back
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Pull the latest sheet export
+        run: |
+          curl -sfL -o data/raw_sheet.csv \
+            "https://docs.google.com/spreadsheets/d/${{ vars.SHEET_ID }}/gviz/tq?tqx=out:csv&sheet=Infinite+Hipster+Eclectic+CDs"
+          wc -l data/raw_sheet.csv
+
+      - name: Clean it
+        run: python3 data/clean.py
+
+      - name: Enrich a batch
+        run: node scripts/enrich.mjs --limit=${{ inputs.batch || 300 }}
+
+      - name: Commit anything that changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          # Nothing changed is a normal outcome, not a failure.
+          git diff --staged --quiet || git commit -m "Refresh catalogue data [skip ci]"
+          git push
+
+      # Only runs once the Supabase secrets exist, so the workflow is useful
+      # before the database does.
+      - name: Push to Supabase
+        if: ${{ env.SUPABASE_URL != '' }}
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          IMC_EMAIL: ${{ secrets.IMC_EMAIL }}
+          IMC_PASSWORD: ${{ secrets.IMC_PASSWORD }}
+        run: node scripts/import.mjs

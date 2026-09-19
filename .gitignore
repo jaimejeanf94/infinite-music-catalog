@@ -7,3 +7,6 @@ node_modules/
 # local secrets — nothing in this project needs them, but just in case
 .env
 .env.local
+
+# enrichment run logs — the data itself is committed, the noise is not
+data/enrich-run.log

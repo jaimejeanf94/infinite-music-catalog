@@ -21,7 +21,7 @@ async function fetchAllAlbums() {
   for (let from = 0; ; from += PAGE) {
     const { data, error } = await sb
       .from("albums")
-      .select("id, artist, title, year, score, in_pool, notes, cover_url")
+      .select("id, artist, title, year, score, in_pool, notes, cover_url, genres, mbid")
       .order("artist", { ascending: true })
       .order("title", { ascending: true })
       .range(from, from + PAGE - 1);

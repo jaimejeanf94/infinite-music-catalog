@@ -30,6 +30,12 @@ function Detail({ album, owner, onPatch, onPlay, onClose }) {
           <h2 className="card__title">{album.title}</h2>
           <div className="card__meta">{album.year || "—"}</div>
 
+          {album.genres?.length > 0 && (
+            <div className="genres">
+              {album.genres.map((g) => <span key={g} className="genre">{g}</span>)}
+            </div>
+          )}
+
           <div className="scores">
             {BROWSE_SCORES.map((s) => (
               <button
@@ -83,6 +89,7 @@ function BrowseView({ albums, owner, onPatch, onPlay }) {
   const [q, setQ] = React.useState("");
   const [filter, setFilter] = React.useState("all");
   const [sort, setSort] = React.useState("artist");
+  const [genre, setGenre] = React.useState("");
   const [shown, setShown] = React.useState(CHUNK);
   const [open, setOpen] = React.useState(null);
 
@@ -91,6 +98,14 @@ function BrowseView({ albums, owner, onPatch, onPlay }) {
     scored: albums.filter((a) => a.score != null).length,
     pool: albums.filter((a) => a.in_pool).length,
   }), [albums]);
+
+  // Only genres that actually appear, commonest first -- a 2,000-entry
+  // dropdown of every genre MusicBrainz knows would be useless.
+  const genreOptions = React.useMemo(() => {
+    const counts = new Map();
+    for (const a of albums) for (const g of a.genres || []) counts.set(g, (counts.get(g) || 0) + 1);
+    return [...counts.entries()].sort((x, y) => y[1] - x[1] || x[0].localeCompare(y[0]));
+  }, [albums]);
 
   const list = React.useMemo(() => {
     const needle = q.trim().toLowerCase();
@@ -104,6 +119,7 @@ function BrowseView({ albums, owner, onPatch, onPlay }) {
     if (filter === "unscored") out = out.filter((a) => a.score == null);
     if (filter === "scored")   out = out.filter((a) => a.score != null);
     if (filter === "out")      out = out.filter((a) => !a.in_pool);
+    if (genre) out = out.filter((a) => (a.genres || []).includes(genre));
 
     const by = {
       artist: (a, b) => a.artist.localeCompare(b.artist) || a.title.localeCompare(b.title),
@@ -112,9 +128,9 @@ function BrowseView({ albums, owner, onPatch, onPlay }) {
       score:  (a, b) => (b.score ?? -1) - (a.score ?? -1) || a.artist.localeCompare(b.artist),
     }[sort];
     return [...out].sort(by);
-  }, [albums, q, filter, sort]);
+  }, [albums, q, filter, sort, genre]);
 
-  React.useEffect(() => setShown(CHUNK), [q, filter, sort]);
+  React.useEffect(() => setShown(CHUNK), [q, filter, sort, genre]);
 
   // Grow the list as it is scrolled rather than rendering thousands of tiles.
   React.useEffect(() => {
@@ -149,6 +165,14 @@ function BrowseView({ albums, owner, onPatch, onPlay }) {
                       onClick={() => setFilter(id)}>{label}</button>
             ))}
         </div>
+        {genreOptions.length > 0 && (
+          <select className="sort" value={genre} onChange={(e) => setGenre(e.target.value)}>
+            <option value="">All genres</option>
+            {genreOptions.map(([g, n]) => (
+              <option key={g} value={g}>{g} ({n})</option>
+            ))}
+          </select>
+        )}
         <select className="sort" value={sort} onChange={(e) => setSort(e.target.value)}>
           <option value="artist">Artist A–Z</option>
           <option value="title">Album A–Z</option>

@@ -144,6 +144,12 @@ function RollView({ albums, owner, onPatch, onPlay, onRoll }) {
             {album.score == null && <span className="badge badge--dim">unrated</span>}
           </div>
 
+          {album.genres?.length > 0 && (
+            <div className="genres">
+              {album.genres.map((g) => <span key={g} className="genre">{g}</span>)}
+            </div>
+          )}
+
           <div className="scores">
             {SCORES.map((s, i) => (
               <button

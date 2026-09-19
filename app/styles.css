@@ -229,3 +229,15 @@ main { max-width: 1100px; margin: 0 auto; padding: 20px 16px 40px; }
   font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
   padding: 3px 8px; border-radius: 999px;
 }
+
+/* Genre chips — from the MusicBrainz enrichment pass (scripts/enrich.mjs). */
+.genres { display: flex; flex-wrap: wrap; gap: 6px; }
+.genre {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ink-dim);
+  background: var(--panel-2);
+  border: 1px solid var(--line);
+  padding: 3px 9px;
+  border-radius: 999px;
+}

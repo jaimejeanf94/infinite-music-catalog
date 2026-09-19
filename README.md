@@ -139,7 +139,69 @@ gh repo create infinite-music-catalog --private --source=. --push
 
 ---
 
-## 4. Keeping up with the sheet
+## 4. Genres and artwork
+
+`scripts/enrich.mjs` gives every album a stable identity and the data that hangs
+off it. It needs no account and no keys:
+
+```sh
+node scripts/enrich.mjs              # the whole collection, ~75 minutes
+node scripts/enrich.mjs --limit=50   # a batch
+node scripts/enrich.mjs --retry      # re-attempt previous failures
+```
+
+Results land in `data/enrichment.json`, keyed by artist and title, and the app
+merges them. It is resumable — stop it whenever, it picks up where it left off.
+
+### Why it is built this way
+
+The first version searched iTunes by text and took the first result. iTunes
+**always** returns something, so albums it had never heard of quietly got other
+bands' covers, and nothing checked the artist even matched.
+
+Now each album is identified once against MusicBrainz, which returns nothing
+rather than a wrong guess and scores the matches it does make. A match is only
+accepted when the score is at least 85 **and** the artist name agrees. From
+there everything keys off the release-group id: artwork comes from the Cover Art
+Archive *by id*, so it cannot drift onto the wrong record. iTunes survives only
+as a fallback for albums the Archive has no image for, and its answer is now
+checked against the artist name before being accepted.
+
+MusicBrainz genres are also far better suited to this collection than iTunes'
+handful of buckets — `blackgaze`, `third stream`, `hyperpop` rather than
+`Rock`, `Jazz`, `Electronic`. Free-text tags like "artist on cover" are filtered
+against MusicBrainz's list of 2,202 real genres, cached in `data/mb-genres.json`.
+
+Two useful side effects:
+
+- **Albums MusicBrainz cannot find are usually typos in the sheet.** The first
+  run flagged "Freddie Gibs & Madlib" (it is Gibbs).
+- **Year disagreements are reported, never applied** — the sheet may hold the
+  pressing you own rather than the first release, so that is your call.
+
+---
+
+## 5. The automated data flow
+
+`.github/workflows/refresh.yml` runs daily on GitHub and does what you would do
+by hand: pull the sheet, clean it, enrich a batch of 300, commit whatever
+changed, and push to Supabase. There is also a **Run workflow** button in the
+Actions tab.
+
+Committing the data back means `git log` becomes the history of your catalogue —
+you can see exactly when an album gained a cover or changed genre.
+
+Two things to set up in the repo once it exists:
+
+- **Settings → Secrets and variables → Actions → Variables:** add `SHEET_ID`
+  with your spreadsheet id.
+- **…→ Secrets:** add `SUPABASE_URL`, `SUPABASE_KEY`, `IMC_EMAIL` and
+  `IMC_PASSWORD`. Until those exist the workflow still runs, and simply skips
+  the Supabase step.
+
+---
+
+## 6. Keeping up with the sheet
 
 Added albums to the Google Sheet and want them here?
 
@@ -156,7 +218,7 @@ at the top of that file.
 
 ---
 
-## 5. Running the scripts
+## 7. Running the scripts
 
 They read credentials from the environment, so nothing sensitive lands in the
 repo:
@@ -168,7 +230,6 @@ export IMC_EMAIL="you@example.com"
 export IMC_PASSWORD="..."
 
 node scripts/import.mjs      # load or top up the albums table
-node scripts/covers.mjs      # fetch missing album art (~25 min for 4,500)
 node scripts/test-roller.mjs # check the randomiser's odds
 ```
 
@@ -176,7 +237,7 @@ No `npm install` needed — the scripts use plain `fetch`.
 
 ---
 
-## 6. How the randomiser works
+## 8. How the randomiser works
 
 The sheet weighted albums by **tier**, not individually: each score owns a fixed
 share of the odds and splits it among its members.
@@ -225,4 +286,7 @@ and checks the results against this table.
 | `db/schema.sql` | Tables, indexes, security rules |
 | `data/clean.py` | Sheet export → `albums.csv`, with the repairs documented |
 | `data/raw_sheet.csv` | Untouched snapshot of the sheet |
-| `scripts/` | Import, cover backfill, roller tests |
+| `scripts/enrich.mjs` | Genres, artwork and MusicBrainz ids — needs no account |
+| `data/enrichment.json` | What that pass found, keyed by artist + title |
+| `.github/workflows/refresh.yml` | The scheduled data flow |
+| `scripts/` | Import, enrichment, roller tests |
