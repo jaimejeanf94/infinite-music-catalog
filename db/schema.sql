@@ -43,8 +43,13 @@ create unique index if not exists albums_artist_title_key
   on public.albums (lower(artist), lower(title));
 
 create index if not exists albums_pool_idx on public.albums (in_pool) where in_pool and deleted_at is null;
-create index if not exists albums_live_idx on public.albums (id) where deleted_at is null;
-create index if not exists albums_unscored_idx on public.albums (id) where score is null;
+-- The app's one unavoidable query is every live album in artist/title order,
+-- so the index matches it exactly. (An index on (id) would have been wasted:
+-- the primary key already has one.)
+create index if not exists albums_live_idx
+  on public.albums (artist, title) where deleted_at is null;
+-- No index for "unrated": the app loads the collection once and filters in the
+-- browser, so nothing queries on it, and an unused index only slows writes.
 create index if not exists albums_genres_idx on public.albums using gin (genres);
 
 -- ── rolls ───────────────────────────────────────────────────────────────────
@@ -58,6 +63,9 @@ create table if not exists public.rolls (
   rolled_at timestamptz not null default now()
 );
 create index if not exists rolls_recent_idx on public.rolls (rolled_at desc);
+-- Postgres does not index a foreign key for you. Without this, deleting an
+-- album makes the cascade scan and lock the whole table.
+create index if not exists rolls_album_idx on public.rolls (album_id);
 
 -- ── plays ───────────────────────────────────────────────────────────────────
 -- A listening log. Separate from rolls because you also play albums you went
@@ -69,6 +77,7 @@ create table if not exists public.plays (
   source    text not null default 'manual' check (source in ('roll', 'manual'))
 );
 create index if not exists plays_recent_idx on public.plays (played_at desc);
+create index if not exists plays_album_idx on public.plays (album_id);
 
 -- ── keep scored_at honest ───────────────────────────────────────────────────
 create or replace function public.touch_scored_at() returns trigger

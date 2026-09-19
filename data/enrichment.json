@@ -5487,5 +5487,407 @@
   "cover_from": null,
   "genres": [],
   "tried": "2026-09-19"
+ },
+ "2 Many DJ's::A Tribute To Compass Point": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "2 Many DJ's::Hardcore Or Die": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "2 Many DJ's::Blue": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "2 Many DJ's::Celestial Voyage Pt. 1": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "2 Many DJ's::The Vortex": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "2 Many DJ's::Librarian Girl": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "2 Many DJ's::Celestial Voyage Pt. 2": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "2 Many DJ's::Jack In the Box": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "2 Many DJ's::D&SCO": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Pulcinella & La Perla::Tatekieto": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "2 Many DJ's::2ManyDJs Live at Kompass": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "2 Many DJ's::2ManyDJs Live at Primavera": {
+  "status": "ok",
+  "mbid": "34411893-7a92-495b-9b0e-c224da959d88",
+  "genres": [],
+  "cover_url": "https://coverartarchive.org/release-group/34411893-7a92-495b-9b0e-c224da959d88/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2022",
+  "checked": "2026-09-19"
+ },
+ "Titanic::Hagen": {
+  "status": "ok",
+  "mbid": "34e731e8-7102-4747-aa8c-698e6a939247",
+  "genres": [],
+  "cover_url": "https://coverartarchive.org/release-group/34e731e8-7102-4747-aa8c-698e6a939247/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2025",
+  "checked": "2026-09-19"
+ },
+ "2 Many DJ's::Under The Covers 2": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "2 Many DJ's::Under The Covers 3": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "2 Many DJ's::As Heard On Radio Soulwax Pt. 2": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "2Pac::All Eyez on Me": {
+  "status": "ok",
+  "mbid": "e2621417-9236-36b4-9f9e-376c416dc4b0",
+  "genres": [
+   "gangsta rap",
+   "hip hop",
+   "g-funk"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/e2621417-9236-36b4-9f9e-376c416dc4b0/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1996",
+  "checked": "2026-09-19"
+ },
+ "2Pac::Me Against the World": {
+  "status": "ok",
+  "mbid": "cfc98a2a-6aaa-3dda-a01d-e034e56c4fec",
+  "genres": [
+   "hip hop",
+   "gangsta rap",
+   "g-funk"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/cfc98a2a-6aaa-3dda-a01d-e034e56c4fec/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1995",
+  "checked": "2026-09-19"
+ },
+ "65daysofstatic::Wild Light": {
+  "status": "ok",
+  "mbid": "fc86c45e-a580-45bd-9fb2-c880d2532017",
+  "genres": [
+   "post-rock",
+   "electronic",
+   "rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/fc86c45e-a580-45bd-9fb2-c880d2532017/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2013",
+  "checked": "2026-09-19"
+ },
+ "808 State::Ninety": {
+  "status": "ok",
+  "mbid": "e600e8fe-df72-33ee-9bcc-131175187453",
+  "genres": [
+   "electronic",
+   "techno",
+   "house"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/e600e8fe-df72-33ee-9bcc-131175187453/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1989",
+  "checked": "2026-09-19"
+ },
+ "A Place To Bury Strangers::Exploding Head": {
+  "status": "ok",
+  "mbid": "7d2eea0d-eb5b-4308-b833-7af4f69cf6bf",
+  "genres": [
+   "shoegaze",
+   "rock",
+   "noise"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/7d2eea0d-eb5b-4308-b833-7af4f69cf6bf/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2009",
+  "checked": "2026-09-19"
+ },
+ "Sochi::Sochimix": {
+  "status": "partial",
+  "cover_url": "https://cdn-images.dzcdn.net/images/cover/b9a48cc0b2e2e7520c8a32cefb0e2f79/1000x1000-000000-80-0-0.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "A Tribe Called Quest::We Got it From Here… Thank You 4 your Services": {
+  "status": "ok",
+  "mbid": "b445860f-edd9-4160-841c-fccf5533ecbd",
+  "genres": [
+   "jazz rap",
+   "east coast hip hop",
+   "hip hop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/b445860f-edd9-4160-841c-fccf5533ecbd/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2016",
+  "checked": "2026-09-19"
+ },
+ "A Tribe Called Quest::The Anthology": {
+  "status": "ok",
+  "mbid": "28516e36-1728-3584-b705-3d903b39dd05",
+  "genres": [
+   "hip hop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/28516e36-1728-3584-b705-3d903b39dd05/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1999",
+  "checked": "2026-09-19"
+ },
+ "A Tribe Called Quest::Midnight Marauders": {
+  "status": "ok",
+  "mbid": "c2afedfb-034a-3683-ad47-e4404cd7c485",
+  "genres": [
+   "hip hop",
+   "jazz rap",
+   "boom bap"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/c2afedfb-034a-3683-ad47-e4404cd7c485/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1993",
+  "checked": "2026-09-19"
+ },
+ "A Tribe Called Quest::People's Instinctive Travels and the Paths of Rythm": {
+  "status": "ok",
+  "mbid": "02adb8a7-496c-3a9a-a324-662df73fdba5",
+  "genres": [
+   "hip hop",
+   "jazz rap",
+   "east coast hip hop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/02adb8a7-496c-3a9a-a324-662df73fdba5/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1990",
+  "checked": "2026-09-19"
+ },
+ "A Tribe Called Quest::The Low End Theory": {
+  "status": "ok",
+  "mbid": "c3733436-fcba-3c08-b082-d548df5c5139",
+  "genres": [
+   "hip hop",
+   "jazz rap",
+   "east coast hip hop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/c3733436-fcba-3c08-b082-d548df5c5139/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1991",
+  "checked": "2026-09-19"
+ },
+ "A Winged Victory for the Sullen::A Winged Victory for the Sullen": {
+  "status": "ok",
+  "mbid": "7c8ec4a1-ed83-4fa8-9ba7-72360e60a927",
+  "genres": [
+   "modern classical",
+   "ambient",
+   "post-rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/7c8ec4a1-ed83-4fa8-9ba7-72360e60a927/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2011",
+  "checked": "2026-09-19"
+ },
+ "Aaliyah::One in a Million": {
+  "status": "ok",
+  "mbid": "776a71f8-2071-3743-aab4-83436df1b366",
+  "genres": [
+   "contemporary r&b",
+   "pop",
+   "hip hop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/776a71f8-2071-3743-aab4-83436df1b366/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1996",
+  "checked": "2026-09-19"
+ },
+ "Aaliyah::Aaliyah": {
+  "status": "ok",
+  "mbid": "3a86f3a6-2fa7-34b7-8ffc-6714cbbd46ac",
+  "genres": [
+   "contemporary r&b",
+   "pop",
+   "pop soul"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/3a86f3a6-2fa7-34b7-8ffc-6714cbbd46ac/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2001",
+  "checked": "2026-09-19"
+ },
+ "Ab-Soul::Control System": {
+  "status": "ok",
+  "mbid": "6cf892a6-042f-4c0b-b37b-528c0bf1d5dd",
+  "genres": [
+   "hip hop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/6cf892a6-042f-4c0b-b37b-528c0bf1d5dd/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2012",
+  "checked": "2026-09-19"
+ },
+ "ABBA::Gold: Greatest Hits CD1": {
+  "status": "ok",
+  "mbid": "dd205538-ecdb-446b-ae83-8a1c2e48c022",
+  "genres": [],
+  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/60/f8/a6/60f8a6bc-e875-238d-f2f8-f34a6034e6d2/14UMGIM07615.rgb.jpg/600x600bb.jpg",
+  "cover_from": "itunes",
+  "mb_year": "2002",
+  "checked": "2026-09-19"
+ },
+ "ABBA::Gold: Greatest Hits CD2": {
+  "status": "ok",
+  "mbid": "dd205538-ecdb-446b-ae83-8a1c2e48c022",
+  "genres": [],
+  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/60/f8/a6/60f8a6bc-e875-238d-f2f8-f34a6034e6d2/14UMGIM07615.rgb.jpg/600x600bb.jpg",
+  "cover_from": "itunes",
+  "mb_year": "2002",
+  "checked": "2026-09-19"
+ },
+ "ABBA::Voules-Vouz": {
+  "status": "partial",
+  "cover_url": "https://cdn-images.dzcdn.net/images/cover/f313d9969203ea1735144a35ef26fa49/1000x1000-000000-80-0-0.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "ABC::The Lexicon of Love": {
+  "status": "ok",
+  "mbid": "5bc5e6a3-4c24-33c3-9022-4b815d0c48d5",
+  "genres": [
+   "pop",
+   "new wave",
+   "electronic"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/5bc5e6a3-4c24-33c3-9022-4b815d0c48d5/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1982",
+  "checked": "2026-09-19"
+ },
+ "AC/DC::Back To Black (AC/DC)": {
+  "status": "ok",
+  "mbid": "d3bc1a64-7561-3787-b680-0003aa50f8f1",
+  "genres": [
+   "hard rock",
+   "rock",
+   "arena rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/d3bc1a64-7561-3787-b680-0003aa50f8f1/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1980",
+  "checked": "2026-09-19"
+ },
+ "AC/DC::Highway to Hell": {
+  "status": "ok",
+  "mbid": "f85647ec-a69b-3b0a-ad04-bb6076c4dcf1",
+  "genres": [
+   "hard rock",
+   "rock",
+   "blues rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/f85647ec-a69b-3b0a-ad04-bb6076c4dcf1/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1979",
+  "checked": "2026-09-19"
+ },
+ "Acid Bath::Paegan Terrorism Tactics": {
+  "status": "ok",
+  "mbid": "36f521fa-fc3a-3d4b-9eb3-53753f575546",
+  "genres": [
+   "sludge metal",
+   "rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/36f521fa-fc3a-3d4b-9eb3-53753f575546/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1996",
+  "checked": "2026-09-19"
+ },
+ "Acid Bath::When The Kite Strings Pop": {
+  "status": "ok",
+  "mbid": "8df242f8-232c-3235-91ec-d682786aba50",
+  "genres": [
+   "sludge metal",
+   "rock",
+   "metal"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/8df242f8-232c-3235-91ec-d682786aba50/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1994",
+  "checked": "2026-09-19"
+ },
+ "Actress::Splazsh": {
+  "status": "ok",
+  "mbid": "0b18dcf5-6c3c-4113-b1e3-8d0a3d7b7a22",
+  "genres": [
+   "techno",
+   "electronic"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/0b18dcf5-6c3c-4113-b1e3-8d0a3d7b7a22/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2010",
+  "checked": "2026-09-19"
  }
 }

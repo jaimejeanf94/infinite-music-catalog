@@ -34,8 +34,12 @@ begin
   foreach t in array array['albums', 'rolls', 'plays'] loop
     execute format('drop policy if exists %I on public.%I', t || '_write', t);
     execute format(
+      -- (select auth.uid()) rather than auth.uid(): wrapped in a subquery
+      -- Postgres evaluates it once and caches it, instead of calling it for
+      -- every row the policy examines. Supabase documents 100x on large
+      -- tables, and every read of albums passes through a policy.
       'create policy %I on public.%I for all to authenticated '
-      || 'using (auth.uid() = %L) with check (auth.uid() = %L)',
+      || 'using ((select auth.uid()) = %L) with check ((select auth.uid()) = %L)',
       t || '_write', t, owner_id, owner_id);
   end loop;
 
@@ -44,7 +48,7 @@ begin
   foreach t in array array['rolls', 'plays'] loop
     execute format('drop policy if exists %I on public.%I', t || '_read', t);
     execute format(
-      'create policy %I on public.%I for select to authenticated using (auth.uid() = %L)',
+      'create policy %I on public.%I for select to authenticated using ((select auth.uid()) = %L)',
       t || '_read', t, owner_id);
   end loop;
 end $$;
