@@ -55,6 +55,13 @@ jobs:
       - name: Enrich a batch
         run: node scripts/enrich.mjs --limit=${{ inputs.batch || 300 }}
 
+      # Albums that failed, or matched with no genres, get another go once
+      # their 14-day cooldown is up. Most nights this finds nothing and exits
+      # in seconds; occasionally MusicBrainz has gained a tag or a typo has
+      # been fixed in the app.
+      - name: Retry the gaps
+        run: node scripts/enrich.mjs --retry --limit=150
+
       - name: Push genres and artwork back
         if: ${{ env.SUPABASE_URL != '' }}
         run: node scripts/import.mjs

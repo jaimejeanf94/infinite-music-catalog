@@ -34,6 +34,11 @@ const GENRE_CACHE = new URL("mb-genres.json", DATA);
 const args = process.argv.slice(2);
 const LIMIT = Number(args.find((a) => a.startsWith("--limit="))?.split("=")[1] || Infinity);
 const RETRY = args.includes("--retry");
+// A permanent failure should not be re-attempted every single night: 250
+// albums MusicBrainz has never heard of would burn half an hour a run forever.
+// Anything looked at within this window is left alone, so a retry pass costs
+// nothing most nights and picks things up as the database gets tagged.
+const RETRY_AFTER_DAYS = Number(args.find((a) => a.startsWith("--retry-after="))?.split("=")[1] || 14);
 
 // MusicBrainz asks for no more than one request a second, and enforces it.
 // Going faster gets you 503s, not speed.
@@ -318,7 +323,12 @@ const pending = albums.filter((a) => {
   if (!rec) return true;
   // A matched album with no genres is worth another try too -- either the
   // artist fallback did not exist when it ran, or someone has tagged it since.
-  if (RETRY && (rec.status !== "ok" || !rec.genres?.length)) return true;
+  if (RETRY && (rec.status !== "ok" || !rec.genres?.length)) {
+    const last = rec.checked || rec.tried;
+    if (!last) return true;
+    const age = (Date.now() - Date.parse(last)) / 86400000;
+    return age >= RETRY_AFTER_DAYS;
+  }
   return false;
 }).slice(0, LIMIT);
 

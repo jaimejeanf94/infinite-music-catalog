@@ -11966,5 +11966,1017 @@
   "cover_from": "coverartarchive",
   "mb_year": "1998",
   "checked": "2026-09-19"
+ },
+ "Boredoms::Vision Creation Newsun": {
+  "status": "ok",
+  "mbid": "1c205925-2cfe-35c0-81de-d7ef17df9658",
+  "genres": [
+   "experimental rock",
+   "psychedelic rock",
+   "space rock",
+   "neo-psychedelia",
+   "rock",
+   "electronic",
+   "experimental"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/1c205925-2cfe-35c0-81de-d7ef17df9658/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1999",
+  "checked": "2026-09-19"
+ },
+ "Boris::Flood": {
+  "status": "ok",
+  "mbid": "321c2496-642f-35f0-9493-9f27a0c63223",
+  "genres": [
+   "drone",
+   "ambient",
+   "metal",
+   "post-rock",
+   "rock",
+   "noise"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/321c2496-642f-35f0-9493-9f27a0c63223/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2000",
+  "checked": "2026-09-19"
+ },
+ "Boris::Boris At Last - Feedback": {
+  "status": "ok",
+  "mbid": "58bb1463-4e62-32d6-b368-81ebc91de975",
+  "genres": [
+   "noise",
+   "post-metal",
+   "rock",
+   "electronic",
+   "metal",
+   "stoner rock",
+   "experimental",
+   "psychedelic rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/58bb1463-4e62-32d6-b368-81ebc91de975/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2003",
+  "checked": "2026-09-19"
+ },
+ "Boris::あくまのうた (Akuma no uta)": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Boris::Heavy Rocks": {
+  "status": "ok",
+  "mbid": "722abda0-0529-4912-84b6-bd6ede3efd11",
+  "genres": [
+   "rock",
+   "heavy metal",
+   "punk",
+   "experimental",
+   "hard rock",
+   "stoner metal",
+   "experimental rock",
+   "noise rock",
+   "sludge metal"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/722abda0-0529-4912-84b6-bd6ede3efd11/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2022",
+  "checked": "2026-09-19"
+ },
+ "Boris::Amplifier Worship": {
+  "status": "ok",
+  "mbid": "8b81ade4-21d9-30ba-b04f-94cc3adbfed2",
+  "genres": [
+   "sludge metal",
+   "doom metal",
+   "noise",
+   "drone metal",
+   "rock",
+   "alternative rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/8b81ade4-21d9-30ba-b04f-94cc3adbfed2/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1998",
+  "checked": "2026-09-19"
+ },
+ "Boris::Pink": {
+  "status": "ok",
+  "mbid": "6c8b3082-65a6-367c-b35f-140ede4ac855",
+  "genres": [
+   "garage punk",
+   "stoner metal",
+   "noise rock",
+   "ambient",
+   "metal",
+   "stoner rock",
+   "hard rock",
+   "psychedelic",
+   "rock",
+   "heavy metal"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/6c8b3082-65a6-367c-b35f-140ede4ac855/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2005",
+  "checked": "2026-09-19"
+ },
+ "Boris & Merzbow::Rock Dream": {
+  "status": "ok",
+  "mbid": "55b1383d-7138-39ff-a617-1131ff78d85c",
+  "genres": [
+   "rock",
+   "electronic",
+   "noise",
+   "punk",
+   "doom metal",
+   "psychedelic rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/55b1383d-7138-39ff-a617-1131ff78d85c/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2007",
+  "checked": "2026-09-19"
+ },
+ "Botch::We Are the Romans": {
+  "status": "ok",
+  "mbid": "3984e26f-6f28-3d27-8b9d-06441e9db67f",
+  "genres": [
+   "mathcore",
+   "rock",
+   "hardcore punk"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/3984e26f-6f28-3d27-8b9d-06441e9db67f/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1999",
+  "checked": "2026-09-19"
+ },
+ "Bowery Electric::Beat": {
+  "status": "ok",
+  "mbid": "ab1b6a2e-5a1f-3844-a1ec-7e283427fc2e",
+  "genres": [
+   "ambient",
+   "electronic",
+   "trip hop",
+   "rock",
+   "shoegaze",
+   "experimental",
+   "drone"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/ab1b6a2e-5a1f-3844-a1ec-7e283427fc2e/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1996",
+  "checked": "2026-09-19"
+ },
+ "boygenius::The Record": {
+  "status": "ok",
+  "mbid": "1339f18d-220a-4405-8ae9-e52993b1ef70",
+  "genres": [
+   "indie rock",
+   "indie folk",
+   "folk",
+   "singer-songwriter"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/1339f18d-220a-4405-8ae9-e52993b1ef70/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-19"
+ },
+ "boygenius::boygenius EP": {
+  "status": "ok",
+  "mbid": "93ac0ca3-6e5c-4a97-98ed-c17c1defffca",
+  "genres": [
+   "folk",
+   "rock",
+   "pop",
+   "singer-songwriter",
+   "indie rock",
+   "americana",
+   "indie folk"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/93ac0ca3-6e5c-4a97-98ed-c17c1defffca/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2018",
+  "checked": "2026-09-19"
+ },
+ "Brand New::Science Fiction": {
+  "status": "ok",
+  "mbid": "3105cdad-9f5d-4c9b-a7c1-cf26f2d7e502",
+  "genres": [
+   "alternative rock",
+   "emo",
+   "indie rock",
+   "post-hardcore",
+   "art rock",
+   "rock",
+   "punk",
+   "punk rock",
+   "pop punk",
+   "alternative punk"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/3105cdad-9f5d-4c9b-a7c1-cf26f2d7e502/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-19"
+ },
+ "Brand New::Daisy": {
+  "status": "ok",
+  "mbid": "857a42ee-8c55-4784-a702-e9e79e737ca3",
+  "genres": [
+   "rock",
+   "alternative rock",
+   "indie rock",
+   "emo",
+   "art rock",
+   "post-hardcore",
+   "noise rock",
+   "midwest emo"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/857a42ee-8c55-4784-a702-e9e79e737ca3/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2009",
+  "checked": "2026-09-19"
+ },
+ "Brand New::The Devil And God Are Raging Inside Me": {
+  "status": "ok",
+  "mbid": "1be8a707-2fe2-3a79-ae44-332cec741ad6",
+  "genres": [
+   "rock",
+   "alternative rock",
+   "indie rock",
+   "emo",
+   "art rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/1be8a707-2fe2-3a79-ae44-332cec741ad6/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2006",
+  "checked": "2026-09-19"
+ },
+ "Brand New::Deja Entendu": {
+  "status": "ok",
+  "mbid": "6917ec0c-3d53-3835-bd9d-d079d70c1ce0",
+  "genres": [
+   "emo",
+   "alternative rock",
+   "rock",
+   "pop punk",
+   "punk",
+   "alternative punk",
+   "punk rock",
+   "pop rock",
+   "emo pop",
+   "midwest emo"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/6917ec0c-3d53-3835-bd9d-d079d70c1ce0/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2003",
+  "checked": "2026-09-19"
+ },
+ "Brandy::Never Say Never": {
+  "status": "ok",
+  "mbid": "60dc638c-2fb0-3d82-89c2-eb4c1ca2fd0f",
+  "genres": [
+   "contemporary r&b",
+   "pop",
+   "soul",
+   "r&b",
+   "pop rock",
+   "hip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/60dc638c-2fb0-3d82-89c2-eb4c1ca2fd0f/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1998",
+  "checked": "2026-09-19"
+ },
+ "Brave Little Abacus::Okumay": {
+  "status": "ok",
+  "mbid": "5e1dddb6-3293-4b63-9f39-bab7633052eb",
+  "genres": [
+   "rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/5e1dddb6-3293-4b63-9f39-bab7633052eb/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2012",
+  "checked": "2026-09-19"
+ },
+ "Brave Little Abacus::Just Got Back From the Discomfort—We're Alright": {
+  "status": "ok",
+  "mbid": "b8f62c80-6559-4985-80fc-9031acbfd84d",
+  "genres": [
+   "math rock",
+   "experimental rock",
+   "post-hardcore",
+   "midwest emo",
+   "rock",
+   "emo"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/b8f62c80-6559-4985-80fc-9031acbfd84d/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2010",
+  "checked": "2026-09-19"
+ },
+ "Brave Little Abacus::Masked Dancers: Concern in So Many Things You Forget Where You Are": {
+  "status": "ok",
+  "mbid": "9ea8746d-48a6-423d-87e2-81f531c6ccbd",
+  "genres": [
+   "emo",
+   "experimental rock",
+   "indie rock",
+   "math rock"
+  ],
+  "genre_source": "artist",
+  "cover_url": "https://coverartarchive.org/release-group/9ea8746d-48a6-423d-87e2-81f531c6ccbd/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2009",
+  "checked": "2026-09-19"
+ },
+ "Brian Eno::Apollo: Atmospheres and Sountracks": {
+  "status": "ok",
+  "mbid": "03fe7fe6-2d96-3b40-816d-885b5118107e",
+  "genres": [
+   "ambient",
+   "electronic",
+   "experimental",
+   "space ambient"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/03fe7fe6-2d96-3b40-816d-885b5118107e/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1983",
+  "checked": "2026-09-19"
+ },
+ "Brian Eno::Ambient 4: On Land": {
+  "status": "ok",
+  "mbid": "dc8ebaf6-2524-3c62-9c11-9155fa460f42",
+  "genres": [
+   "ambient",
+   "electronic",
+   "experimental",
+   "avant-garde"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/dc8ebaf6-2524-3c62-9c11-9155fa460f42/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1982",
+  "checked": "2026-09-19"
+ },
+ "Brian Eno::Ambient 1: Music for Airports": {
+  "status": "ok",
+  "mbid": "5fdd6ba8-83c1-3a87-b378-d5f61dec5ddd",
+  "genres": [
+   "ambient",
+   "electronic",
+   "instrumental",
+   "progressive"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/5fdd6ba8-83c1-3a87-b378-d5f61dec5ddd/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1978",
+  "checked": "2026-09-19"
+ },
+ "Brian Eno::Before And After Science": {
+  "status": "ok",
+  "mbid": "6f9e2641-f79b-32f2-a752-f7212e9040e4",
+  "genres": [
+   "art rock",
+   "rock",
+   "ambient",
+   "experimental"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/6f9e2641-f79b-32f2-a752-f7212e9040e4/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1977",
+  "checked": "2026-09-19"
+ },
+ "Brian Eno::Another Green World": {
+  "status": "ok",
+  "mbid": "7d5a684e-73a3-325c-a59c-34c9a941d8d6",
+  "genres": [
+   "ambient",
+   "art rock",
+   "experimental",
+   "rock",
+   "electronic"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/7d5a684e-73a3-325c-a59c-34c9a941d8d6/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1975",
+  "checked": "2026-09-19"
+ },
+ "Brian Eno::Here Come the Warm Jets": {
+  "status": "ok",
+  "mbid": "90d9be4c-30be-3e28-949a-66ee22c3a63a",
+  "genres": [
+   "art rock",
+   "glam rock",
+   "rock",
+   "progressive rock",
+   "glam",
+   "psychedelic rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/90d9be4c-30be-3e28-949a-66ee22c3a63a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1973",
+  "checked": "2026-09-19"
+ },
+ "Brian Eno::Taking Tiger Mountain (By Strategy)": {
+  "status": "ok",
+  "mbid": "bdde0830-6795-3a52-aaff-a5daf64184c8",
+  "genres": [
+   "art rock",
+   "glam rock",
+   "rock",
+   "art pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/bdde0830-6795-3a52-aaff-a5daf64184c8/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1974",
+  "checked": "2026-09-19"
+ },
+ "Brian Eno::Discreet Music": {
+  "status": "ok",
+  "mbid": "8aa4a5d9-808e-3aa9-9088-890efa7214b4",
+  "genres": [
+   "ambient",
+   "classical",
+   "rock",
+   "electronic",
+   "modern classical"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/8aa4a5d9-808e-3aa9-9088-890efa7214b4/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1975",
+  "checked": "2026-09-19"
+ },
+ "Brian Eno & David Byrne::My Life in the Bush of Ghosts": {
+  "status": "ok",
+  "mbid": "428cc768-268a-405e-ba51-0d7cf61b1fff",
+  "genres": [
+   "rock",
+   "electronic",
+   "experimental",
+   "art rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/428cc768-268a-405e-ba51-0d7cf61b1fff/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1980",
+  "checked": "2026-09-19"
+ },
+ "Brian Eno & Harold Budd::The Pearl": {
+  "status": "ok",
+  "mbid": "6c364112-e9fb-373c-9f1d-364b427f64c3",
+  "genres": [
+   "ambient",
+   "electronic",
+   "experimental rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/6c364112-e9fb-373c-9f1d-364b427f64c3/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1984",
+  "checked": "2026-09-19"
+ },
+ "Brian Eno & Harold Budd::Ambient 2: The Plateaux of Mirror": {
+  "status": "ok",
+  "mbid": "02c0fc3b-9c3c-34e4-abed-bb6cd04fa1fc",
+  "genres": [
+   "ambient",
+   "electronic"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/02c0fc3b-9c3c-34e4-abed-bb6cd04fa1fc/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1980",
+  "checked": "2026-09-19"
+ },
+ "Brian Wilson::Smile": {
+  "status": "ok",
+  "mbid": "7eea3a40-7c24-34f9-aa48-958edb5145c5",
+  "genres": [
+   "pop",
+   "rock",
+   "psychedelic rock",
+   "classic rock",
+   "pop rock",
+   "chamber pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/7eea3a40-7c24-34f9-aa48-958edb5145c5/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2004",
+  "checked": "2026-09-19"
+ },
+ "Bridgit Mendler::Nemesis": {
+  "status": "ok",
+  "mbid": "3ceb4df3-e687-4783-8382-0132705763b6",
+  "genres": [
+   "electronic",
+   "pop",
+   "jazz",
+   "indie pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/3ceb4df3-e687-4783-8382-0132705763b6/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2016",
+  "checked": "2026-09-19"
+ },
+ "Bring Me the Horizon::POST HUMAN: SURVIVAL HORROR": {
+  "status": "ok",
+  "mbid": "2d1d9561-4c16-41d4-8234-dfe30c6334eb",
+  "genres": [
+   "alternative metal",
+   "metalcore",
+   "rock",
+   "heavy metal",
+   "nu metal",
+   "electronic"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/2d1d9561-4c16-41d4-8234-dfe30c6334eb/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2020",
+  "checked": "2026-09-19"
+ },
+ "Britney Spears::Greatest Hits: My Prerogative": {
+  "status": "ok",
+  "mbid": "35f4c727-8b32-3457-a2e7-42a697dd39c2",
+  "genres": [
+   "pop",
+   "dance-pop",
+   "electronic",
+   "house",
+   "hip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/35f4c727-8b32-3457-a2e7-42a697dd39c2/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2004",
+  "checked": "2026-09-19"
+ },
+ "Brittany Howard::What Now": {
+  "status": "ok",
+  "mbid": "164fc46f-f349-4708-a676-c93f686b761a",
+  "genres": [
+   "progressive soul",
+   "funk rock",
+   "neo-psychedelia",
+   "neo soul",
+   "psychedelic soul"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/164fc46f-f349-4708-a676-c93f686b761a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2024",
+  "checked": "2026-09-19"
+ },
+ "Brittany Howard::Jamie": {
+  "status": "ok",
+  "mbid": "4577df3e-7447-43d2-a426-8ab74be0951f",
+  "genres": [
+   "funk",
+   "neo soul",
+   "blues rock",
+   "contemporary r&b",
+   "electronic rock",
+   "funk rock",
+   "indie rock",
+   "pop",
+   "progressive soul",
+   "psychedelic rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/4577df3e-7447-43d2-a426-8ab74be0951f/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2019",
+  "checked": "2026-09-19"
+ },
+ "Broadcast::Tender Buttons": {
+  "status": "ok",
+  "mbid": "c1e95023-7208-359a-9056-ab94385c39bc",
+  "genres": [
+   "rock",
+   "electronic",
+   "pop",
+   "indie rock",
+   "synth-pop",
+   "leftfield",
+   "dream pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/c1e95023-7208-359a-9056-ab94385c39bc/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2005",
+  "checked": "2026-09-19"
+ },
+ "Broadcast::Haha Sound": {
+  "status": "ok",
+  "mbid": "38a3b1fa-90dc-3dae-9984-af0e0c616226",
+  "genres": [
+   "electronic",
+   "downtempo",
+   "experimental",
+   "rock",
+   "neo-psychedelia",
+   "indietronica",
+   "space age pop",
+   "avant-garde pop",
+   "leftfield"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/38a3b1fa-90dc-3dae-9984-af0e0c616226/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2003",
+  "checked": "2026-09-19"
+ },
+ "Broadcast::The Noise Made By People": {
+  "status": "ok",
+  "mbid": "f575e0d0-aba9-3ad3-bd2c-ca453898ea9d",
+  "genres": [
+   "electronic",
+   "rock",
+   "pop",
+   "indie rock",
+   "dream pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/f575e0d0-aba9-3ad3-bd2c-ca453898ea9d/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2000",
+  "checked": "2026-09-19"
+ },
+ "Broadcast::Work and Non Work": {
+  "status": "ok",
+  "mbid": "7b018b8c-a9db-30b9-ab03-89f7c404664a",
+  "genres": [
+   "electronic",
+   "downtempo",
+   "pop",
+   "experimental",
+   "indie rock",
+   "indie pop",
+   "leftfield",
+   "dream pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/7b018b8c-a9db-30b9-ab03-89f7c404664a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1997",
+  "checked": "2026-09-19"
+ },
+ "Brockhampton::ROADRUNNER: NEW LIGHT, NEW MACHINE": {
+  "status": "ok",
+  "mbid": "d6013e76-f2fd-4bc7-a632-254ba91f2e69",
+  "genres": [
+   "hip hop",
+   "pop rap",
+   "alternative hip hop",
+   "west coast hip hop",
+   "underground hip hop",
+   "contemporary r&b",
+   "conscious hip hop",
+   "hardcore hip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/d6013e76-f2fd-4bc7-a632-254ba91f2e69/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2021",
+  "checked": "2026-09-19"
+ },
+ "Brockhampton::Iridescence": {
+  "status": "ok",
+  "mbid": "54a385ba-1bc0-448a-bc59-b85914355060",
+  "genres": [
+   "experimental",
+   "hip hop",
+   "pop rap",
+   "experimental hip hop",
+   "industrial hip hop",
+   "hardcore hip hop",
+   "progressive",
+   "contemporary r&b",
+   "conscious hip hop",
+   "art pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/54a385ba-1bc0-448a-bc59-b85914355060/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2018",
+  "checked": "2026-09-19"
+ },
+ "Brockhampton::Saturation": {
+  "status": "ok",
+  "mbid": "dbce2564-724f-412b-8503-2cfb06729f9d",
+  "genres": [
+   "experimental",
+   "hip hop",
+   "pop rap",
+   "experimental hip hop",
+   "west coast hip hop",
+   "contemporary r&b",
+   "hardcore hip hop",
+   "alternative r&b"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/dbce2564-724f-412b-8503-2cfb06729f9d/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-19"
+ },
+ "Brockhampton::Saturation II": {
+  "status": "ok",
+  "mbid": "5417e003-d352-4a69-b4dc-6cc85e9edac2",
+  "genres": [
+   "west coast hip hop",
+   "pop",
+   "experimental",
+   "hip hop",
+   "pop rap",
+   "experimental hip hop",
+   "hardcore hip hop",
+   "alternative r&b"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/5417e003-d352-4a69-b4dc-6cc85e9edac2/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-19"
+ },
+ "Brockhampton::Saturation III": {
+  "status": "ok",
+  "mbid": "90f67573-cb0b-4208-b714-2f21454a363a",
+  "genres": [
+   "west coast hip hop",
+   "pop rap",
+   "progressive",
+   "psychedelic",
+   "alternative hip hop",
+   "experimental hip hop",
+   "hardcore hip hop",
+   "alternative r&b"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/90f67573-cb0b-4208-b714-2f21454a363a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-19"
+ },
+ "Broken Social Scene::Hug of Thunder": {
+  "status": "ok",
+  "mbid": "02c033c9-f660-48cb-9927-531a02a6bd9a",
+  "genres": [
+   "indie rock",
+   "rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/02c033c9-f660-48cb-9927-531a02a6bd9a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-19"
+ },
+ "Broken Social Scene::Broken Social Scene": {
+  "status": "ok",
+  "mbid": "16b2e095-9c48-30a3-9c10-227e717c6456",
+  "genres": [
+   "indie rock",
+   "rock",
+   "alternative rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/16b2e095-9c48-30a3-9c10-227e717c6456/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2004",
+  "checked": "2026-09-19"
+ },
+ "Broken Social Scene::You Forgot It In People": {
+  "status": "ok",
+  "mbid": "65731979-ad24-3497-8c8b-541be4aa2fae",
+  "genres": [
+   "indie rock",
+   "rock",
+   "experimental",
+   "post-rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/65731979-ad24-3497-8c8b-541be4aa2fae/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2002",
+  "checked": "2026-09-19"
+ },
+ "Brother Ali::Shadows on the Sun": {
+  "status": "ok",
+  "mbid": "9ba82e68-bb2b-3e52-951a-a13944a67782",
+  "genres": [
+   "hip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/9ba82e68-bb2b-3e52-951a-a13944a67782/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2003",
+  "checked": "2026-09-19"
+ },
+ "Bruce Dickinson::The Chemical Wedding": {
+  "status": "ok",
+  "mbid": "b8375a4d-4993-3fd3-9ae6-59880ebc4189",
+  "genres": [
+   "metal",
+   "rock",
+   "heavy metal",
+   "hard rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/b8375a4d-4993-3fd3-9ae6-59880ebc4189/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1998",
+  "checked": "2026-09-19"
+ },
+ "Bruce Springsteen::Greatest Hits CD1": {
+  "status": "ok",
+  "mbid": "f722b0db-3035-3b4b-b499-57e42d4219c7",
+  "genres": [
+   "rock",
+   "folk rock",
+   "pop rock",
+   "heartland rock",
+   "classic rock",
+   "pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/f722b0db-3035-3b4b-b499-57e42d4219c7/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1995",
+  "checked": "2026-09-19"
+ },
+ "Bruce Springsteen::Greatest Hits CD2": {
+  "status": "ok",
+  "mbid": "f722b0db-3035-3b4b-b499-57e42d4219c7",
+  "genres": [
+   "rock",
+   "folk rock",
+   "pop rock",
+   "heartland rock",
+   "classic rock",
+   "pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/f722b0db-3035-3b4b-b499-57e42d4219c7/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1995",
+  "checked": "2026-09-19"
+ },
+ "Bruce Springsteen::Born in the U.S.A": {
+  "status": "ok",
+  "mbid": "3c39a076-8e52-38f2-8076-260d0672fb23",
+  "genres": [
+   "rock",
+   "heartland rock",
+   "pop rock",
+   "folk rock",
+   "aor",
+   "garage rock",
+   "classic rock",
+   "rock and roll"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/3c39a076-8e52-38f2-8076-260d0672fb23/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1984",
+  "checked": "2026-09-19"
+ },
+ "Bruce Springsteen::Nebraska": {
+  "status": "ok",
+  "mbid": "324aee0c-36ec-35c1-9c93-b67a1d428037",
+  "genres": [
+   "rock",
+   "folk rock",
+   "singer-songwriter",
+   "americana",
+   "contemporary folk",
+   "folk",
+   "lo-fi",
+   "blues",
+   "country rock",
+   "heartland rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/324aee0c-36ec-35c1-9c93-b67a1d428037/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1982",
+  "checked": "2026-09-19"
+ },
+ "Bruce Springsteen::The River": {
+  "status": "ok",
+  "mbid": "8a6f6ede-b60a-3cad-b3b9-cfb57e9e1dbd",
+  "genres": [
+   "rock",
+   "folk rock",
+   "rock and roll",
+   "heartland rock",
+   "roots rock",
+   "singer-songwriter",
+   "pop rock",
+   "arena rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/8a6f6ede-b60a-3cad-b3b9-cfb57e9e1dbd/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1980",
+  "checked": "2026-09-19"
+ },
+ "Bruce Springsteen::Darkness on the Edge of Town": {
+  "status": "ok",
+  "mbid": "b613123b-a234-3f48-9c45-e05bf4e6b9e7",
+  "genres": [
+   "rock",
+   "heartland rock",
+   "pop rock",
+   "piano rock",
+   "singer-songwriter",
+   "folk rock",
+   "rock and roll",
+   "hard rock",
+   "classic rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/b613123b-a234-3f48-9c45-e05bf4e6b9e7/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1978",
+  "checked": "2026-09-19"
+ },
+ "Bruce Springsteen::Born to Run": {
+  "status": "ok",
+  "mbid": "39b22944-7503-3937-8bba-09b17281cc6a",
+  "genres": [
+   "rock",
+   "heartland rock",
+   "singer-songwriter",
+   "folk rock",
+   "piano rock",
+   "progressive",
+   "pop rock",
+   "rock and roll",
+   "brill building"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/39b22944-7503-3937-8bba-09b17281cc6a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1975",
+  "checked": "2026-09-19"
+ },
+ "Bruce Springsteen::The Wild, The Innocent, & The E Street Shuffle": {
+  "status": "ok",
+  "mbid": "4b443e66-52a7-3cc9-a522-0dc64a6a51dc",
+  "genres": [
+   "rock",
+   "folk rock",
+   "jazz rock",
+   "heartland rock",
+   "singer-songwriter",
+   "progressive pop",
+   "rock and roll"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/4b443e66-52a7-3cc9-a522-0dc64a6a51dc/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1973",
+  "checked": "2026-09-19"
+ },
+ "Bruno Pernadas::Those Who Throw Objects at the Crocodiles Will Be Asked to Retrieve Them": {
+  "status": "ok",
+  "mbid": "807dad28-6fae-49e8-aadc-6ffe015f1e85",
+  "genres": [
+   "pop",
+   "jazz pop",
+   "progressive pop",
+   "art pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/807dad28-6fae-49e8-aadc-6ffe015f1e85/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2016",
+  "checked": "2026-09-19"
  }
 }

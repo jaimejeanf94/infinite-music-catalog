@@ -10,3 +10,4 @@ node_modules/
 
 # enrichment run logs — the data itself is committed, the noise is not
 data/enrich-run.log
+data/retry-run.log
