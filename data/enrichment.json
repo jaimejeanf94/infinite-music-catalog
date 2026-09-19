@@ -7600,5 +7600,494 @@
   "cover_from": "coverartarchive",
   "mb_year": "2015",
   "checked": "2026-09-19"
+ },
+ "Arca::Zen": {
+  "status": "partial",
+  "cover_url": "https://cdn-images.dzcdn.net/images/cover/758ccd25e7a5d725bcaf6294a566ddf2/1000x1000-000000-80-0-0.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Arcade Fire::Reflektor": {
+  "status": "ok",
+  "mbid": "3dc9ee80-0768-490d-9e43-534796da3076",
+  "genres": [
+   "indie rock",
+   "new wave",
+   "alternative dance"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/3dc9ee80-0768-490d-9e43-534796da3076/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2013",
+  "checked": "2026-09-19"
+ },
+ "Arcade Fire::The Suburbs": {
+  "status": "ok",
+  "mbid": "bf306022-c851-449d-a619-7864caddf5c7",
+  "genres": [
+   "indie rock",
+   "rock",
+   "indie pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/bf306022-c851-449d-a619-7864caddf5c7/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2010",
+  "checked": "2026-09-19"
+ },
+ "Arcade Fire::Neon Bible": {
+  "status": "ok",
+  "mbid": "c091b282-aa91-3bc0-9c95-938db1f1f930",
+  "genres": [
+   "indie rock",
+   "art rock",
+   "chamber pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/c091b282-aa91-3bc0-9c95-938db1f1f930/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2007",
+  "checked": "2026-09-19"
+ },
+ "Arcade Fire::Funeral": {
+  "status": "ok",
+  "mbid": "05affa96-5959-32da-8d75-1c9eb985ca59",
+  "genres": [
+   "indie rock",
+   "chamber pop",
+   "art pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/05affa96-5959-32da-8d75-1c9eb985ca59/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2004",
+  "checked": "2026-09-19"
+ },
+ "Arcade Fire and Owen Pallett::Her Original Motion Picture Score": {
+  "status": "partial",
+  "cover_url": "https://cdn-images.dzcdn.net/images/cover/e69e9d3be642bb4ae67e645a5f9cfd3e/1000x1000-000000-80-0-0.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Archers of Loaf::Icky Mettle": {
+  "status": "ok",
+  "mbid": "1a366c4d-abb2-4b1f-8301-ba02d562fa98",
+  "genres": [
+   "indie rock",
+   "noise pop",
+   "slacker rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/1a366c4d-abb2-4b1f-8301-ba02d562fa98/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1993",
+  "checked": "2026-09-19"
+ },
+ "Architects::All Our Gods Have Abandoned Us": {
+  "status": "ok",
+  "mbid": "aaf1877b-1c16-404e-991d-096b75ee9807",
+  "genres": [
+   "metalcore",
+   "djent",
+   "metal"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/aaf1877b-1c16-404e-991d-096b75ee9807/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2016",
+  "checked": "2026-09-19"
+ },
+ "Architects::Lost Forever // Lost Together": {
+  "status": "ok",
+  "mbid": "b07d09d3-d8f9-44a2-9c14-5fc1897cf9dd",
+  "genres": [
+   "metalcore",
+   "metal"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/b07d09d3-d8f9-44a2-9c14-5fc1897cf9dd/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2014",
+  "checked": "2026-09-19"
+ },
+ "Arctic Monkeys::The Car": {
+  "status": "ok",
+  "mbid": "249d7049-7d56-497b-abfe-464e3c535daf",
+  "genres": [
+   "rock",
+   "indie rock",
+   "alternative rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/249d7049-7d56-497b-abfe-464e3c535daf/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2022",
+  "checked": "2026-09-19"
+ },
+ "Arctic Monkeys::A.M": {
+  "status": "ok",
+  "mbid": "a348ba2f-f8b3-4686-b928-e63d8d94d543",
+  "genres": [
+   "alternative rock",
+   "indie rock",
+   "rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/a348ba2f-f8b3-4686-b928-e63d8d94d543/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2013",
+  "checked": "2026-09-19"
+ },
+ "Arctic Monkeys::Humbug": {
+  "status": "ok",
+  "mbid": "23b7e9e9-8820-4a49-b44f-a7a60e0a7e81",
+  "genres": [
+   "indie rock",
+   "rock",
+   "pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/23b7e9e9-8820-4a49-b44f-a7a60e0a7e81/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2009",
+  "checked": "2026-09-19"
+ },
+ "Arctic Monkeys::Favourite Worst Nightmare": {
+  "status": "ok",
+  "mbid": "f113fa38-7908-3ec9-8145-d2455e78a8b2",
+  "genres": [
+   "indie rock",
+   "alternative rock",
+   "post-punk revival"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/f113fa38-7908-3ec9-8145-d2455e78a8b2/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2007",
+  "checked": "2026-09-19"
+ },
+ "Arctic Monkeys::Whatever People Say I Am, That's What I'm Not": {
+  "status": "ok",
+  "mbid": "6c9c4985-3628-3070-b956-b538f30c9bea",
+  "genres": [
+   "indie rock",
+   "rock",
+   "garage rock revival"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/6c9c4985-3628-3070-b956-b538f30c9bea/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2005",
+  "checked": "2026-09-19"
+ },
+ "Ari Lennox::age/sex/location": {
+  "status": "ok",
+  "mbid": "f236ef7d-a9db-41c9-b813-f421c329863c",
+  "genres": [
+   "contemporary r&b",
+   "neo soul",
+   "smooth soul"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/f236ef7d-a9db-41c9-b813-f421c329863c/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2022",
+  "checked": "2026-09-19"
+ },
+ "Ariana Grande::thank u, next": {
+  "status": "ok",
+  "mbid": "485d3241-ef02-49a4-88df-a03eaa86d9cd",
+  "genres": [
+   "pop",
+   "trap",
+   "electropop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/485d3241-ef02-49a4-88df-a03eaa86d9cd/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2019",
+  "checked": "2026-09-19"
+ },
+ "Ariel Pink::Dedicated to Bobby Jameson": {
+  "status": "ok",
+  "mbid": "5db2a448-b0a0-45d1-ab3b-d02a333bb754",
+  "genres": [
+   "rock",
+   "pop",
+   "indie rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/5db2a448-b0a0-45d1-ab3b-d02a333bb754/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-19"
+ },
+ "Ariel Pink::Pom Pom": {
+  "status": "ok",
+  "mbid": "70fd887f-0b0c-432a-a238-18cf25f12bed",
+  "genres": [
+   "indie pop",
+   "rock",
+   "pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/70fd887f-0b0c-432a-a238-18cf25f12bed/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2014",
+  "checked": "2026-09-19"
+ },
+ "Ariel Pink's Haunted Graffiti::Before Today": {
+  "status": "ok",
+  "mbid": "a7ba0972-7ab4-4e11-8d0d-edfc0caada77",
+  "genres": [
+   "pop",
+   "rock",
+   "hypnagogic pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/a7ba0972-7ab4-4e11-8d0d-edfc0caada77/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2010",
+  "checked": "2026-09-19"
+ },
+ "Armand Hammer::Parafin": {
+  "status": "partial",
+  "cover_url": "https://cdn-images.dzcdn.net/images/cover/c727b509784155661fd1ec5f7aec5dc0/1000x1000-000000-80-0-0.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Armand Hammer & The Alchemist::Haram": {
+  "status": "ok",
+  "mbid": "a51b1ed7-ca58-4fbb-8f8f-59d008a4eb76",
+  "genres": [
+   "hip hop",
+   "east coast hip hop",
+   "experimental hip hop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/a51b1ed7-ca58-4fbb-8f8f-59d008a4eb76/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2021",
+  "checked": "2026-09-19"
+ },
+ "Armand Hammer, billy woods & E U C L I D::We Buy Diabetic Test Strips": {
+  "status": "ok",
+  "mbid": "ae1cbb57-d124-40b2-8c54-4c17b2432aa8",
+  "genres": [
+   "hip hop",
+   "experimental hip hop",
+   "abstract hip hop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/ae1cbb57-d124-40b2-8c54-4c17b2432aa8/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-19"
+ },
+ "Arrested Development::3 Years, 5 Months & 2 Days in the Life Of…": {
+  "status": "ok",
+  "mbid": "ede793b4-4976-3b7a-ba3b-fde6801de64c",
+  "genres": [
+   "hip hop",
+   "boom bap",
+   "conscious hip hop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/ede793b4-4976-3b7a-ba3b-fde6801de64c/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1992",
+  "checked": "2026-09-19"
+ },
+ "Art Bakely & The Jazz Messengers::Free for All": {
+  "status": "ok",
+  "mbid": "605de14e-dcca-3328-b16d-64cc62cecfe0",
+  "genres": [
+   "jazz",
+   "hard bop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/605de14e-dcca-3328-b16d-64cc62cecfe0/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1964",
+  "checked": "2026-09-19"
+ },
+ "Art Bakely & The Jazz Messengers::Mosaic": {
+  "status": "ok",
+  "mbid": "aac05e6c-4c7e-31da-ba7e-e5b70d288ef3",
+  "genres": [
+   "jazz",
+   "hard bop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/aac05e6c-4c7e-31da-ba7e-e5b70d288ef3/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1960",
+  "checked": "2026-09-19"
+ },
+ "Art Blakey & The Jazz Messengers::Moanin'": {
+  "status": "ok",
+  "mbid": "f8bae2e8-0ada-42f4-afcc-dccab0539033",
+  "genres": [
+   "jazz",
+   "hard bop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/f8bae2e8-0ada-42f4-afcc-dccab0539033/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2001",
+  "checked": "2026-09-19"
+ },
+ "Arthur Verocai::Arthur Verocai": {
+  "status": "ok",
+  "mbid": "a48fe1e7-a088-3797-b4e8-3dfe45766faf",
+  "genres": [
+   "jazz",
+   "mpb",
+   "funk"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/a48fe1e7-a088-3797-b4e8-3dfe45766faf/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1972",
+  "checked": "2026-09-19"
+ },
+ "Artificial Brain::Artificial Brain": {
+  "status": "ok",
+  "mbid": "6529dc5d-08fb-44e7-a707-5a26bb24a5a6",
+  "genres": [
+   "death metal",
+   "black metal",
+   "technical death metal"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/6529dc5d-08fb-44e7-a707-5a26bb24a5a6/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2022",
+  "checked": "2026-09-19"
+ },
+ "Artillery::By Inheritance": {
+  "status": "ok",
+  "mbid": "39411430-2313-35ec-819d-d3542e6f57a6",
+  "genres": [
+   "thrash metal",
+   "rock",
+   "heavy metal"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/39411430-2313-35ec-819d-d3542e6f57a6/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1990",
+  "checked": "2026-09-19"
+ },
+ "Asap Rocky::Live. Love. Asap": {
+  "status": "partial",
+  "cover_url": "https://cdn-images.dzcdn.net/images/cover/53431264c289f50774a41dbf444ac6a6/1000x1000-000000-80-0-0.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Ashenspire::Hostile Architecture": {
+  "status": "ok",
+  "mbid": "8b61e906-e2b0-464c-8b3c-316c1d86e907",
+  "genres": [
+   "progressive metal",
+   "metal",
+   "black metal"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/8b61e906-e2b0-464c-8b3c-316c1d86e907/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2022",
+  "checked": "2026-09-19"
+ },
+ "Asobi Seksu::Citrus": {
+  "status": "ok",
+  "mbid": "066fe83f-0921-3189-b076-28ae83478a8a",
+  "genres": [
+   "shoegaze",
+   "rock",
+   "indie rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/066fe83f-0921-3189-b076-28ae83478a8a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2006",
+  "checked": "2026-09-19"
+ },
+ "At The Gates::Slaughter of the Soul": {
+  "status": "ok",
+  "mbid": "675e453b-43c5-3c05-9ac8-dc526471e583",
+  "genres": [
+   "melodic death metal",
+   "death metal",
+   "metal"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/675e453b-43c5-3c05-9ac8-dc526471e583/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1995",
+  "checked": "2026-09-19"
+ },
+ "Atheist::Unquestionable Presence": {
+  "status": "ok",
+  "mbid": "7be973f8-991d-35ce-91ff-e2c525fe0d9c",
+  "genres": [
+   "death metal",
+   "technical death metal",
+   "rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/7be973f8-991d-35ce-91ff-e2c525fe0d9c/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1991",
+  "checked": "2026-09-19"
+ },
+ "Atlas Sounds::Parallax": {
+  "status": "ok",
+  "mbid": "bcbc740e-0cc6-4c22-88d5-e3c3076f0ab5",
+  "genres": [
+   "rock",
+   "electronic",
+   "indie rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/bcbc740e-0cc6-4c22-88d5-e3c3076f0ab5/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2011",
+  "checked": "2026-09-19"
+ },
+ "Atlas Sounds::Logos": {
+  "status": "ok",
+  "mbid": "174c7861-4ff2-4851-9aae-9b1894381fa2",
+  "genres": [
+   "rock",
+   "electronic"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/174c7861-4ff2-4851-9aae-9b1894381fa2/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2009",
+  "checked": "2026-09-19"
+ },
+ "Atmosphere::God Loves Ugly": {
+  "status": "ok",
+  "mbid": "37d5cc05-af2e-3dea-bfab-e325b2533104",
+  "genres": [
+   "hip hop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/37d5cc05-af2e-3dea-bfab-e325b2533104/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2002",
+  "checked": "2026-09-19"
+ },
+ "Atoms For Peace::Amok": {
+  "status": "ok",
+  "mbid": "8fce1d86-c5fb-44b7-939c-53554d5a40eb",
+  "genres": [
+   "idm",
+   "rock",
+   "electronic"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/8fce1d86-c5fb-44b7-939c-53554d5a40eb/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2013",
+  "checked": "2026-09-19"
+ },
+ "Augustus Pablo::King Tubbys Meets Rockers Uptown": {
+  "status": "ok",
+  "mbid": "8426fa46-01c5-3343-97f5-0551822542ed",
+  "genres": [
+   "dub",
+   "reggae",
+   "roots reggae"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/8426fa46-01c5-3343-97f5-0551822542ed/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1976",
+  "checked": "2026-09-19"
+ },
+ "Austra::Feel It Break": {
+  "status": "ok",
+  "mbid": "4ddef6f3-bce0-4227-8c58-c7675c55fea1",
+  "genres": [
+   "electronic",
+   "rock",
+   "synth-pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/4ddef6f3-bce0-4227-8c58-c7675c55fea1/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2011",
+  "checked": "2026-09-19"
  }
 }

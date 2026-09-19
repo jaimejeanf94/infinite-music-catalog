@@ -287,10 +287,15 @@ for (const [i, album] of pending.entries()) {
       if (rescue) covered++;
       noMatch++;
     } else {
+      // Every tag that is a real genre, not just the top three. Which of them
+      // to show is a presentation choice the app makes at render time, and
+      // storing only three would freeze that decision into the data -- undoing
+      // it later means re-running the whole six-hour pass. Ten is well past
+      // what any album actually carries, and costs a few dozen bytes.
       const genres = (rg.tags || [])
         .filter((t) => GENRES.has(t.name.toLowerCase()))
         .sort((a, b) => b.count - a.count)
-        .slice(0, 3)
+        .slice(0, 10)
         .map((t) => t.name);
 
       const cover = await coverFor(rg.id, album.artist, album.title);
