@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Infinite Music Catalog</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+
+<!-- No build step: React, Babel and the Supabase client all load from a CDN,
+     and the .jsx files below are compiled in the browser. Same approach as
+     Diego's vinyl app -- edit a file, refresh, done. -->
+<script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin></script>
+<script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+
+<script src="config.js"></script>
+<script src="supabase-client.js"></script>
+<script src="local-source.js"></script>
+<script src="roller.js"></script>
+<script type="text/babel" src="cover-art.jsx"></script>
+<script type="text/babel" src="roll.jsx"></script>
+<script type="text/babel" src="browse.jsx"></script>
+</head>
+<body>
+<div id="root"></div>
+
+<script type="text/babel" data-presets="env,react">
+const { useState, useEffect, useCallback } = React;
+
+function SignIn({ onDone }) {
+  const [email, setEmail] = useState("");
+  const [pw, setPw] = useState("");
+  const [err, setErr] = useState("");
+  const [busy, setBusy] = useState(false);
+
+  const submit = async (e) => {
+    e.preventDefault();
+    setBusy(true); setErr("");
+    const { error } = await db.signIn(email, pw);
+    setBusy(false);
+    if (error) return setErr(error.message);
+    onDone();
+  };
+
+  return (
+    <div className="sheet" onClick={onDone}>
+      <form className="sheet__inner sheet__inner--sm" onClick={(e) => e.stopPropagation()} onSubmit={submit}>
+        <button type="button" className="sheet__x" onClick={onDone}>×</button>
+        <h2 className="card__title">Sign in</h2>
+        <p className="muted">Signing in unlocks rating, notes and the listening log.</p>
+        <label className="field"><span>Email</span>
+          <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
+        </label>
+        <label className="field"><span>Password</span>
+          <input type="password" value={pw} onChange={(e) => setPw(e.target.value)} required />
+        </label>
+        {err && <div className="err">{err}</div>}
+        <button className="btn btn--primary" disabled={busy}>{busy ? "…" : "Sign in"}</button>
+      </form>
+    </div>
+  );
+}
+
+function App() {
+  const [albums, setAlbums] = useState([]);
+  const [status, setStatus] = useState("loading");
+  const [error, setError] = useState("");
+  const [user, setUser] = useState(null);
+  const [showSignIn, setShowSignIn] = useState(false);
+  const [route, setRoute] = useState(() => location.hash.replace(/^#\/?/, "") || "roll");
+
+  useEffect(() => {
+    const onHash = () => setRoute(location.hash.replace(/^#\/?/, "") || "roll");
+    window.addEventListener("hashchange", onHash);
+    return () => window.removeEventListener("hashchange", onHash);
+  }, []);
+
+  useEffect(() => {
+    db.currentUser().then(setUser);
+    const off = db.onAuthChange(setUser);
+    db.albums()
+      .then((rows) => { setAlbums(rows); setStatus(rows.length ? "ready" : "empty"); })
+      .catch((e) => { setError(e.message || String(e)); setStatus("error"); });
+    return off;
+  }, []);
+
+  // Optimistic: the UI moves now, the database catches up. If the write fails
+  // (usually "signed out"), put the old value back and say so.
+  const onPatch = useCallback((id, patch, quiet) => {
+    let before;
+    setAlbums((rows) => rows.map((a) => {
+      if (a.id !== id) return a;
+      before = a;
+      return { ...a, ...patch };
+    }));
+    db.updateAlbum(id, patch).catch((e) => {
+      setAlbums((rows) => rows.map((a) => (a.id === id && before ? before : a)));
+      if (!quiet) setError(e.message || String(e));
+    });
+  }, []);
+
+  const onPlay = useCallback((id) => {
+    db.logPlay(id, "manual").catch((e) => setError(e.message || String(e)));
+  }, []);
+
+  const onRoll = useCallback((album, mode) => {
+    // Only the owner can write history, and a failed log should never
+    // interrupt a roll, so this one stays silent.
+    db.logRoll(album.id, mode).catch(() => {});
+  }, []);
+
+  if (status === "loading") return <div className="boot"><h1>Infinite Music Catalog</h1><p className="muted">Loading the collection…</p></div>;
+
+  if (status === "error") return (
+    <div className="boot">
+      <h1>Could not load</h1>
+      <p className="err">{error}</p>
+      <p className="muted">Check that db/schema.sql ran and that config.js has the right project URL.</p>
+    </div>
+  );
+
+  if (status === "empty") return (
+    <div className="boot">
+      <h1>No albums yet</h1>
+      <p className="muted">The database is connected but empty — import
+      <code>data/albums.csv</code> into the <code>albums</code> table and refresh.</p>
+    </div>
+  );
+
+  return (
+    <>
+      <header className="top">
+        <a className="brand" href="#/roll">Infinite Music Catalog</a>
+        {db.mode === "local" && <span className="tag" title="Ratings are saved in this browser only">local</span>}
+        <nav className="nav">
+          <a className={"nav__a" + (route === "roll" ? " nav__a--on" : "")} href="#/roll">Roll</a>
+          <a className={"nav__a" + (route === "browse" ? " nav__a--on" : "")} href="#/browse">Browse</a>
+        </nav>
+        {db.mode === "local" ? null : user
+          ? <button className="btn btn--quiet btn--sm" onClick={() => db.signOut()}>Sign out</button>
+          : <button className="btn btn--quiet btn--sm" onClick={() => setShowSignIn(true)}>Sign in</button>}
+      </header>
+
+      <main>
+        {route === "browse"
+          ? <BrowseView albums={albums} owner={!!user} onPatch={onPatch} onPlay={onPlay} />
+          : <RollView albums={albums} owner={!!user} onPatch={onPatch} onPlay={onPlay} onRoll={onRoll} />}
+      </main>
+
+      {showSignIn && <SignIn onDone={() => setShowSignIn(false)} />}
+      {error && (
+        <div className="toast" onClick={() => setError("")}>
+          {error} <span className="muted">(tap to dismiss)</span>
+        </div>
+      )}
+    </>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+</script>
+</body>
+</html>
