@@ -54,6 +54,22 @@ function Detail({ album, owner, onPatch, onPlay, onDelete, onClose }) {
           </div>
 
           <label className="field">
+            <span>Cover image {album.cover_locked && <b>— yours, kept</b>}</span>
+            <input
+              id={`cover-${album.id}`}
+              defaultValue={album.cover_url || ""}
+              disabled={!owner}
+              placeholder="Paste an image URL to override"
+              onBlur={(e) => {
+                const url = e.target.value.trim();
+                if (url === (album.cover_url || "")) return;
+                // Locking it stops the nightly enrichment replacing your choice.
+                onPatch(album.id, { cover_url: url || null, cover_locked: !!url });
+              }}
+            />
+          </label>
+
+          <label className="field">
             <span>Notes</span>
             <textarea
               rows="3" value={notes} disabled={!owner}

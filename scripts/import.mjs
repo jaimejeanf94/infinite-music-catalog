@@ -76,14 +76,18 @@ for (let i = 0; i < fresh.length; i += BATCH) {
 }
 // Albums already in the database still need their enrichment kept current --
 // a cover that was missing last week may exist now.
-const known = await api.select("albums?select=id,artist,title,mbid,cover_url&deleted_at=is.null&limit=10000");
+const known = await api.select(
+  "albums?select=id,artist,title,mbid,cover_url,cover_locked&deleted_at=is.null&limit=10000");
 let refreshed = 0;
 for (const row of known) {
   const extra = enrichment[`${row.artist}::${row.title}`];
   if (!extra || extra.status !== "ok") continue;
   const patch = {};
   if (extra.mbid && extra.mbid !== row.mbid) patch.mbid = extra.mbid;
-  if (extra.cover_url && extra.cover_url !== row.cover_url) patch.cover_url = extra.cover_url;
+  // A cover you picked yourself is never replaced.
+  if (!row.cover_locked && extra.cover_url && extra.cover_url !== row.cover_url) {
+    patch.cover_url = extra.cover_url;
+  }
   if (extra.genres?.length) patch.genres = extra.genres;
   if (!Object.keys(patch).length) continue;
   await api.update("albums", `id=eq.${row.id}`, patch);

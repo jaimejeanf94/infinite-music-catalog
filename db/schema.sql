@@ -27,6 +27,9 @@ create table if not exists public.albums (
   -- Where the album came from. Albums added in the app are not in the
   -- spreadsheet, and the nightly sheet import must not treat them as strays.
   source     text not null default 'sheet' check (source in ('sheet', 'app')),
+  -- Set when you choose a cover yourself. The nightly enrichment leaves those
+  -- alone; without this it would overwrite your choice every night.
+  cover_locked boolean not null default false,
   -- Deleting is a tombstone, not a removal. The sheet is read-only to us, so a
   -- hard delete would simply be re-imported the next night. The row stays,
   -- flagged, and both the app and the importer skip it.
