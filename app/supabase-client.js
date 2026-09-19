@@ -21,7 +21,8 @@ async function fetchAllAlbums() {
   for (let from = 0; ; from += PAGE) {
     const { data, error } = await sb
       .from("albums")
-      .select("id, artist, title, year, score, in_pool, notes, cover_url, genres, mbid")
+      .select("id, artist, title, year, score, in_pool, notes, cover_url, genres, mbid, source")
+      .is("deleted_at", null)
       .order("artist", { ascending: true })
       .order("title", { ascending: true })
       .range(from, from + PAGE - 1);
@@ -75,6 +76,24 @@ const supabaseDb = {
   // ── writes (owner only — RLS rejects these when signed out) ─────────────
   // One updater for every album edit. The whitelist keeps a stray key in a
   // patch from reaching the database and erroring the whole write.
+  // Albums you add yourself. `source` marks them so the nightly sheet import
+  // leaves them alone.
+  async addAlbum({ artist, title, year, score }) {
+    const { data, error } = await sb.from("albums")
+      .insert({ artist, title, year: year || null, score: score || null, source: "app" })
+      .select("id, artist, title, year, score, in_pool, notes, cover_url, genres, mbid, source")
+      .single();
+    if (error) throw error;
+    return data;
+  },
+
+  // A tombstone rather than a delete -- see db/schema.sql for why.
+  async deleteAlbum(id) {
+    const { error } = await sb.from("albums")
+      .update({ deleted_at: new Date().toISOString() }).eq("id", id);
+    if (error) throw error;
+  },
+
   async updateAlbum(id, patch) {
     const ALLOWED = ["score", "in_pool", "notes", "cover_url"];
     const clean = {};

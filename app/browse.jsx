@@ -7,7 +7,11 @@ function Stat({ label, value }) {
   return <div className="stat"><b>{value}</b><span>{label}</span></div>;
 }
 
-function Detail({ album, owner, onPatch, onPlay, onClose }) {
+function Detail({ album, owner, onPatch, onPlay, onDelete, onClose }) {
+  // Two taps rather than a browser confirm dialog: the first arms it, the
+  // second does it, and clicking anywhere else disarms.
+  const [armed, setArmed] = React.useState(false);
+  React.useEffect(() => setArmed(false), [album.id]);
   const [notes, setNotes] = React.useState(album.notes || "");
   React.useEffect(() => setNotes(album.notes || ""), [album.id]);
 
@@ -67,7 +71,18 @@ function Detail({ album, owner, onPatch, onPlay, onClose }) {
                     onClick={() => onPatch(album.id, { in_pool: !album.in_pool })}>
               {album.in_pool ? "Remove from pool" : "Back in the pool"}
             </button>
+            <button className={"btn btn--danger" + (armed ? " btn--armed" : "")}
+                    disabled={!owner}
+                    onClick={() => (armed ? onDelete(album.id) : setArmed(true))}>
+              {armed ? "Tap again to delete" : "Delete"}
+            </button>
           </div>
+          {armed && (
+            <p className="muted" style={{ fontSize: 13, margin: 0 }}>
+              Removes it from the shelf for good. To stop it coming up on rolls
+              without deleting it, use “Remove from pool”.
+            </p>
+          )}
 
           <div className="row row--links">
             <a className="link" target="_blank" rel="noreferrer"
@@ -85,13 +100,81 @@ function Detail({ album, owner, onPatch, onPlay, onClose }) {
   );
 }
 
-function BrowseView({ albums, owner, onPatch, onPlay }) {
+function AddAlbum({ albums, onAdd, onClose }) {
+  const [artist, setArtist] = React.useState("");
+  const [title, setTitle] = React.useState("");
+  const [year, setYear] = React.useState("");
+  const [score, setScore] = React.useState(null);
+  const [busy, setBusy] = React.useState(false);
+  const [err, setErr] = React.useState("");
+
+  // The database refuses duplicates outright; catching it here explains the
+  // problem instead of surfacing a constraint violation.
+  const clash = albums.find(
+    (a) => a.artist.trim().toLowerCase() === artist.trim().toLowerCase() &&
+           a.title.trim().toLowerCase() === title.trim().toLowerCase());
+
+  const submit = async (e) => {
+    e.preventDefault();
+    if (!artist.trim() || !title.trim() || clash) return;
+    setBusy(true); setErr("");
+    try {
+      await onAdd({ artist: artist.trim(), title: title.trim(), year: year ? Number(year) : null, score });
+      onClose();
+    } catch (e2) {
+      setErr(e2.message || String(e2));
+      setBusy(false);
+    }
+  };
+
+  return (
+    <div className="sheet" onClick={onClose}>
+      <form className="sheet__inner sheet__inner--sm" onClick={(e) => e.stopPropagation()} onSubmit={submit}>
+        <button type="button" className="sheet__x" onClick={onClose}>×</button>
+        <h2 className="card__title">Add an album</h2>
+        <p className="muted">Genres and artwork are filled in by the next enrichment run.</p>
+
+        <label className="field"><span>Artist</span>
+          <input id="add-artist" value={artist} onChange={(e) => setArtist(e.target.value)}
+                 autoFocus required />
+        </label>
+        <label className="field"><span>Album</span>
+          <input id="add-title" value={title} onChange={(e) => setTitle(e.target.value)} required />
+        </label>
+        <label className="field"><span>Year (optional)</span>
+          <input id="add-year" value={year} onChange={(e) => setYear(e.target.value.replace(/\D/g, "").slice(0, 4))}
+                 inputMode="numeric" placeholder="2026" />
+        </label>
+
+        <div className="field">
+          <span>Score it now? (optional)</span>
+          <div className="scores">
+            {BROWSE_SCORES.map((sc) => (
+              <button type="button" key={sc}
+                      className={"score" + (score === sc ? " score--on" : "")}
+                      onClick={() => setScore(score === sc ? null : sc)}>{sc}</button>
+            ))}
+          </div>
+        </div>
+
+        {clash && <div className="err">Already in the collection — {clash.artist} — {clash.title}</div>}
+        {err && <div className="err">{err}</div>}
+        <button className="btn btn--primary" disabled={busy || !!clash}>
+          {busy ? "Adding…" : "Add to the shelf"}
+        </button>
+      </form>
+    </div>
+  );
+}
+
+function BrowseView({ albums, owner, onPatch, onPlay, onAdd, onDelete }) {
   const [q, setQ] = React.useState("");
   const [filter, setFilter] = React.useState("all");
   const [sort, setSort] = React.useState("artist");
   const [genre, setGenre] = React.useState("");
   const [shown, setShown] = React.useState(CHUNK);
   const [open, setOpen] = React.useState(null);
+  const [adding, setAdding] = React.useState(false);
 
   const stats = React.useMemo(() => ({
     total: albums.length,
@@ -173,6 +256,11 @@ function BrowseView({ albums, owner, onPatch, onPlay }) {
             ))}
           </select>
         )}
+        {owner && (
+          <button className="btn btn--primary btn--sm" onClick={() => setAdding(true)}>
+            + Add album
+          </button>
+        )}
         <select className="sort" value={sort} onChange={(e) => setSort(e.target.value)}>
           <option value="artist">Artist A–Z</option>
           <option value="title">Album A–Z</option>
@@ -206,7 +294,12 @@ function BrowseView({ albums, owner, onPatch, onPlay }) {
 
       {live && (
         <Detail album={live} owner={owner} onPatch={onPatch} onPlay={onPlay}
+                onDelete={(id) => { onDelete(id); setOpen(null); }}
                 onClose={() => setOpen(null)} />
+      )}
+
+      {adding && (
+        <AddAlbum albums={albums} onAdd={onAdd} onClose={() => setAdding(false)} />
       )}
     </div>
   );

@@ -1,0 +1,503 @@
+{
+ "Beth Gibbons::Lives Outgrown": {
+  "status": "ok",
+  "mbid": "eaa72e4a-0e22-471f-bc92-97fd5d93d7d3",
+  "genres": [
+   "singer-songwriter",
+   "art rock",
+   "psychedelic folk"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/eaa72e4a-0e22-471f-bc92-97fd5d93d7d3/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2024",
+  "checked": "2026-09-19"
+ },
+ "Bob Marley::Legend": {
+  "status": "partial",
+  "cover_url": "https://cdn-images.dzcdn.net/images/cover/c43e3b1d83e0107dfff7e4238096fe5b/1000x1000-000000-80-0-0.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Bon Iver::For Emma, Forever Ago": {
+  "status": "ok",
+  "mbid": "187935b5-a0a4-3e6f-9684-48b67a5190a1",
+  "genres": [
+   "indie folk",
+   "folk",
+   "folk rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/187935b5-a0a4-3e6f-9684-48b67a5190a1/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2007",
+  "checked": "2026-09-19"
+ },
+ "Caribou::Our Love": {
+  "status": "ok",
+  "mbid": "f90aafb2-e44b-452e-b0a1-69030fddae6b",
+  "genres": [
+   "electronic",
+   "experimental",
+   "idm"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/f90aafb2-e44b-452e-b0a1-69030fddae6b/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2014",
+  "checked": "2026-09-19"
+ },
+ "Coldplay::Viva La Vida or Death and All His Friends": {
+  "status": "ok",
+  "mbid": "a1084754-8bb5-3ebc-bbd2-6a27d48e798a",
+  "genres": [
+   "alternative rock",
+   "pop rock",
+   "rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/a1084754-8bb5-3ebc-bbd2-6a27d48e798a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2008",
+  "checked": "2026-09-19"
+ },
+ "Deafheaven::Lonely People With Power": {
+  "status": "ok",
+  "mbid": "f88055a1-f78c-4344-8765-e4ec22eb8bf8",
+  "genres": [
+   "black metal",
+   "post-metal",
+   "blackgaze"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/f88055a1-f78c-4344-8765-e4ec22eb8bf8/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2025",
+  "checked": "2026-09-19"
+ },
+ "Denzel Curry::ZUU": {
+  "status": "ok",
+  "mbid": "03961b3f-23aa-4331-91dc-5598a3f3b0e6",
+  "genres": [
+   "hip hop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/03961b3f-23aa-4331-91dc-5598a3f3b0e6/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2019",
+  "checked": "2026-09-19"
+ },
+ "Father John Misty::I Love You, Honeybear": {
+  "status": "ok",
+  "mbid": "87c49a7f-04e5-4fe4-b904-86db4388d311",
+  "genres": [
+   "folk rock",
+   "rock",
+   "indie rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/87c49a7f-04e5-4fe4-b904-86db4388d311/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2015",
+  "checked": "2026-09-19"
+ },
+ "Floating Points, Pharoah Sanders::Promises": {
+  "status": "ok",
+  "mbid": "970f689d-1778-4953-b3ed-48d057625724",
+  "genres": [
+   "jazz",
+   "electronic",
+   "third stream"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/970f689d-1778-4953-b3ed-48d057625724/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2020",
+  "checked": "2026-09-19"
+ },
+ "Flotation Toy Warning::Bluffer's guide to the flight deck": {
+  "status": "ok",
+  "mbid": "8c730cbd-1f88-36cc-a058-7c6e2e1cb88d",
+  "genres": [
+   "rock",
+   "electronic",
+   "downtempo"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/8c730cbd-1f88-36cc-a058-7c6e2e1cb88d/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2004",
+  "checked": "2026-09-19"
+ },
+ "Franz Ferdinand::Franz Ferdinand": {
+  "status": "ok",
+  "mbid": "c145ca26-2556-3780-828f-82729de51f7b",
+  "genres": [
+   "indie rock",
+   "new wave",
+   "art rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/c145ca26-2556-3780-828f-82729de51f7b/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2004",
+  "checked": "2026-09-19"
+ },
+ "Freddie Gibs & Madlib::Piñata": {
+  "status": "ok",
+  "mbid": "6b9a9e04-abd7-4666-86ba-bb220ef4c3b2",
+  "genres": [
+   "hip hop",
+   "gangsta rap"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/6b9a9e04-abd7-4666-86ba-bb220ef4c3b2/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2014",
+  "checked": "2026-09-19"
+ },
+ "Godspeed You Black Emperor::Lift Your Skinny Fists Like Antennas to Heaven": {
+  "status": "ok",
+  "mbid": "3822abb6-ca53-3ae1-a4ec-7718cb321e9b",
+  "genres": [
+   "post-rock",
+   "experimental",
+   "instrumental"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/3822abb6-ca53-3ae1-a4ec-7718cb321e9b/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2000",
+  "checked": "2026-09-19"
+ },
+ "Have a Nice Life::Deathconsciousness": {
+  "status": "ok",
+  "mbid": "bb449522-eefd-3d7e-b712-b2cf7e9de0b1",
+  "genres": [
+   "shoegaze",
+   "post-punk",
+   "gothic rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/bb449522-eefd-3d7e-b712-b2cf7e9de0b1/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2008",
+  "checked": "2026-09-19"
+ },
+ "Gorilaz::The Mountain": {
+  "status": "partial",
+  "cover_url": "https://cdn-images.dzcdn.net/images/cover/fb86decc775f4140fdc5c9433ac1170d/1000x1000-000000-80-0-0.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "underscores::U": {
+  "status": "ok",
+  "mbid": "cec81633-5419-4f92-b0ac-6e9c508a042f",
+  "genres": [
+   "electropop",
+   "edm",
+   "dance-pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/cec81633-5419-4f92-b0ac-6e9c508a042f/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2026",
+  "checked": "2026-09-19"
+ },
+ "Imperial Triumphant::Goldstar": {
+  "status": "ok",
+  "mbid": "f4267ec6-6d8f-474d-9ccd-0d177858f39c",
+  "genres": [
+   "metal",
+   "avant-garde metal",
+   "dissonant death metal"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/f4267ec6-6d8f-474d-9ccd-0d177858f39c/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2025",
+  "checked": "2026-09-19"
+ },
+ "Infinity Knives & Brian Ennals::A City Drowned in God's Black Tears": {
+  "status": "ok",
+  "mbid": "edd7c3bf-7b41-47a0-a916-71a569b34c9c",
+  "genres": [
+   "hip hop",
+   "experimental",
+   "doom metal"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/edd7c3bf-7b41-47a0-a916-71a569b34c9c/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2025",
+  "checked": "2026-09-19"
+ },
+ "James Blake::Friends That Break Your Heart": {
+  "status": "ok",
+  "mbid": "dddf4559-2271-4fb7-90ba-8ae7b4a61af3",
+  "genres": [
+   "pop",
+   "leftfield",
+   "electronic"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/dddf4559-2271-4fb7-90ba-8ae7b4a61af3/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2021",
+  "checked": "2026-09-19"
+ },
+ "John Coltrane::A Love Supreme": {
+  "status": "ok",
+  "mbid": "77cf47ba-58cd-3f3d-a5f9-79bf89860421",
+  "genres": [
+   "jazz",
+   "free jazz",
+   "post-bop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/77cf47ba-58cd-3f3d-a5f9-79bf89860421/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1965",
+  "checked": "2026-09-19"
+ },
+ "John Coltrane::Blue Train": {
+  "status": "ok",
+  "mbid": "12349ce8-2087-3d16-93da-70cd65621774",
+  "genres": [
+   "jazz",
+   "hard bop",
+   "instrumental jazz"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/12349ce8-2087-3d16-93da-70cd65621774/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1958",
+  "checked": "2026-09-19"
+ },
+ "Jon Hopkins::Immunity": {
+  "status": "ok",
+  "mbid": "1c58a37a-24dc-493d-a40e-227ba1523d35",
+  "genres": [
+   "idm",
+   "electronic",
+   "ambient"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/1c58a37a-24dc-493d-a40e-227ba1523d35/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2013",
+  "checked": "2026-09-19"
+ },
+ "Kendrick Lamar::To Pimp a Butterfly": {
+  "status": "ok",
+  "mbid": "d9103c72-3807-4378-9ce7-b6f3e8fdd547",
+  "genres": [
+   "west coast hip hop",
+   "conscious hip hop",
+   "hip hop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/d9103c72-3807-4378-9ce7-b6f3e8fdd547/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2015",
+  "checked": "2026-09-19"
+ },
+ "Kendrick Lamar::Good Kid M.A.A.D City": {
+  "status": "ok",
+  "mbid": "499c19c8-0dab-4824-884b-6191d145e95b",
+  "genres": [
+   "hip hop",
+   "west coast hip hop",
+   "conscious hip hop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/499c19c8-0dab-4824-884b-6191d145e95b/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2012",
+  "checked": "2026-09-19"
+ },
+ "Kero Kero Bonito::Time 'n' Place": {
+  "status": "ok",
+  "mbid": "864f8c44-b234-4519-8f36-ccd2aeaa25fe",
+  "genres": [
+   "rock",
+   "pop",
+   "indie rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/864f8c44-b234-4519-8f36-ccd2aeaa25fe/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2018",
+  "checked": "2026-09-19"
+ },
+ "King Gizzard & The Lizard Wizard::PetroDragonic Apocalypse; or, Dawn of the Eternal Night: An Anihilation of Planet Earth and the Beginning of Merciless Damnation": {
+  "status": "ok",
+  "mbid": "381a758e-82bf-403f-85ea-b4f97ed1e0b7",
+  "genres": [
+   "progressive metal",
+   "thrash metal",
+   "stoner metal"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/381a758e-82bf-403f-85ea-b4f97ed1e0b7/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-19"
+ },
+ "Linkin Park::Reanimation": {
+  "status": "ok",
+  "mbid": "bd0fa028-36ce-3e0e-81f2-e7d2b3e058c1",
+  "genres": [
+   "breakbeat",
+   "rock",
+   "alternative metal"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/bd0fa028-36ce-3e0e-81f2-e7d2b3e058c1/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2002",
+  "checked": "2026-09-19"
+ },
+ "Mount Eerie::A Crow Looked At Me": {
+  "status": "ok",
+  "mbid": "ef53005d-918f-49c1-9e65-4c595d5939ae",
+  "genres": [
+   "rock",
+   "folk",
+   "experimental"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/ef53005d-918f-49c1-9e65-4c595d5939ae/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-19"
+ },
+ "Muse::Black Holes and Revelations": {
+  "status": "ok",
+  "mbid": "af2e8e23-e9c3-4e67-8ad8-66387c5898fd",
+  "genres": [
+   "alternative rock",
+   "rock",
+   "progressive rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/af2e8e23-e9c3-4e67-8ad8-66387c5898fd/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2006",
+  "checked": "2026-09-19"
+ },
+ "Nick Cave & The Bad Seeds::Skeleton Tree": {
+  "status": "ok",
+  "mbid": "49339024-c6b4-4345-b521-6349463513cb",
+  "genres": [
+   "rock",
+   "alternative rock",
+   "ambient"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/49339024-c6b4-4345-b521-6349463513cb/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2016",
+  "checked": "2026-09-19"
+ },
+ "Nick Cave & The Bad Seeds::Abattoir Blues": {
+  "status": "ok",
+  "mbid": "f0ffb9ec-fcb5-3e03-9a1b-3f018472d831",
+  "genres": [
+   "alternative rock",
+   "rock",
+   "indie rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/f0ffb9ec-fcb5-3e03-9a1b-3f018472d831/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2004",
+  "checked": "2026-09-19"
+ },
+ "Opeth::Blackwater Park": {
+  "status": "ok",
+  "mbid": "1f4a9f6f-9621-3e46-977d-8503e8386768",
+  "genres": [
+   "progressive metal",
+   "death metal",
+   "metal"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/1f4a9f6f-9621-3e46-977d-8503e8386768/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2001",
+  "checked": "2026-09-19"
+ },
+ "Parquet Courts::Wide Awake": {
+  "status": "ok",
+  "mbid": "053742a1-ac6a-4a0d-ad40-d1d3b904d5c9",
+  "genres": [
+   "indie rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/053742a1-ac6a-4a0d-ad40-d1d3b904d5c9/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2018",
+  "checked": "2026-09-19"
+ },
+ "Pavement::Quarantine the Past: The Best of Pavement (First Half)": {
+  "status": "ok",
+  "mbid": "ba717738-9d62-46a8-a19d-efcf095c6767",
+  "genres": [
+   "rock",
+   "indie rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/ba717738-9d62-46a8-a19d-efcf095c6767/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2010",
+  "checked": "2026-09-19"
+ },
+ "Pavement::Quarantine the Past: The Best of Pavement (Second Half)": {
+  "status": "ok",
+  "mbid": "ba717738-9d62-46a8-a19d-efcf095c6767",
+  "genres": [
+   "rock",
+   "indie rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/ba717738-9d62-46a8-a19d-efcf095c6767/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2010",
+  "checked": "2026-09-19"
+ },
+ "Pavement::Crooked Rain, Crooked Rain": {
+  "status": "ok",
+  "mbid": "4f348977-6f44-39f9-b243-071927ecc6a4",
+  "genres": [
+   "rock",
+   "lo-fi",
+   "indie rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/4f348977-6f44-39f9-b243-071927ecc6a4/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1994",
+  "checked": "2026-09-19"
+ },
+ "Poppy::CHOKE": {
+  "status": "ok",
+  "mbid": "75ed226d-ee9f-4c45-99e5-afdcd75392bf",
+  "genres": [
+   "nu metal",
+   "electropop",
+   "post-hardcore"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/75ed226d-ee9f-4c45-99e5-afdcd75392bf/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2019",
+  "checked": "2026-09-19"
+ },
+ "Portishead::Third (Portishead)": {
+  "status": "ok",
+  "mbid": "163339ab-813b-3d29-bba8-e1d5acf63cab",
+  "genres": [
+   "trip hop",
+   "electronic",
+   "downtempo"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/163339ab-813b-3d29-bba8-e1d5acf63cab/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2008",
+  "checked": "2026-09-19"
+ },
+ "Sleep::Dopesmoker": {
+  "status": "ok",
+  "mbid": "481b2458-b722-47af-88fd-80e9496afe28",
+  "genres": [
+   "doom metal",
+   "stoner metal",
+   "metal"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/481b2458-b722-47af-88fd-80e9496afe28/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2003",
+  "checked": "2026-09-19"
+ },
+ "Songs: Ohia::The Magnolia Electric Co.": {
+  "status": "ok",
+  "mbid": "135d0421-2a60-36ca-97a1-c3f91203b74c",
+  "genres": [
+   "country rock",
+   "indie rock",
+   "rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/135d0421-2a60-36ca-97a1-c3f91203b74c/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2003",
+  "checked": "2026-09-19"
+ }
+}

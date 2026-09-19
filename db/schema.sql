@@ -24,6 +24,13 @@ create table if not exists public.albums (
   -- which is what stopped covers landing on the wrong record.
   mbid       uuid,
   genres     text[] not null default '{}',
+  -- Where the album came from. Albums added in the app are not in the
+  -- spreadsheet, and the nightly sheet import must not treat them as strays.
+  source     text not null default 'sheet' check (source in ('sheet', 'app')),
+  -- Deleting is a tombstone, not a removal. The sheet is read-only to us, so a
+  -- hard delete would simply be re-imported the next night. The row stays,
+  -- flagged, and both the app and the importer skip it.
+  deleted_at timestamptz,
   scored_at  timestamptz,
   created_at timestamptz not null default now()
 );
@@ -32,7 +39,8 @@ create table if not exists public.albums (
 create unique index if not exists albums_artist_title_key
   on public.albums (lower(artist), lower(title));
 
-create index if not exists albums_pool_idx on public.albums (in_pool) where in_pool;
+create index if not exists albums_pool_idx on public.albums (in_pool) where in_pool and deleted_at is null;
+create index if not exists albums_live_idx on public.albums (id) where deleted_at is null;
 create index if not exists albums_unscored_idx on public.albums (id) where score is null;
 create index if not exists albums_genres_idx on public.albums using gin (genres);
 

@@ -93,37 +93,142 @@ async function loadGenreList() {
 }
 
 // ── matching ────────────────────────────────────────────────────────────────
-// Bracketed transliterations and "(CD 2)" style suffixes hurt the search more
-// than they help, so try the cleaned form first and the raw form second.
+// Measured against the real collection: every album MusicBrainz "could not
+// find" was actually a malformed query, not a gap in the database. Typos
+// ("Freddie Gibs"), missing punctuation ("Godspeed You Black Emperor"), your
+// own disc splits ("1967-1970 Disc 1"), bracketed editions ("[2018 Mix]") and
+// 90-character subtitles all defeated an exact search. Progressively relaxing
+// the query recovered 11 of 14.
 function queryShapes(artist, title) {
-  const cleanArtist = artist.replace(/\[.*?\]/g, "").trim();
-  const cleanTitle = title.replace(/\((?:cd|disc|disk)\s*\d+\)/gi, "").trim();
-  const shapes = [[cleanArtist, cleanTitle]];
-  if (cleanTitle !== title || cleanArtist !== artist) shapes.push([artist, title]);
-  return shapes;
+  const out = [];
+  const push = (a, t) => {
+    if (!a || !t) return;
+    const k = `${a}|${t}`;
+    if (!out.some((o) => `${o[0]}|${o[1]}` === k)) out.push([a, t]);
+  };
+
+  const a0 = artist.trim();
+  const a1 = a0.replace(/\[.*?\]/g, "").replace(/[!?.]/g, "").trim();
+
+  push(a0, title.trim());
+
+  const t1 = title
+    .replace(/\b(disc|disk|cd)\s*\d+\b/gi, "")      // "1967-1970 Disc 1"
+    .replace(/\[.*?\]/g, "")                         // "[2018 Mix]"
+    .replace(/\((?:first|second)\s+half\)/gi, "")    // your own halves
+    .replace(/\b(ep|lp)\b\s*$/i, "")                 // "Blood Bank EP"
+    .trim().replace(/[:;,\-–]\s*$/, "").trim();
+  push(a1, t1);
+
+  // A parenthetical that just repeats the artist: "Third (Portishead)"
+  const t2 = t1.replace(/\(([^)]*)\)/g, (m, inner) => (sameArtist(artist, inner) ? "" : m)).trim();
+  push(a1, t2);
+
+  const t3 = t2.replace(/\(.*?\)/g, "").trim();
+  push(a1, t3);
+
+  // Drop a long subtitle: "PetroDragonic Apocalypse; or, Dawn of the..."
+  const t4 = t3.split(/\s*[;:]\s*/)[0].trim();
+  push(a1, t4);
+
+  return out.slice(0, 5);
 }
 
-function artistAgrees(mine, theirs) {
+// Edit distance, capped -- only used to forgive a typo or two in the sheet.
+function editDistance(a, b) {
+  const m = a.length, n = b.length;
+  if (Math.abs(m - n) > 3) return 99;
+  let prev = Array.from({ length: n + 1 }, (_, i) => i);
+  for (let i = 1; i <= m; i++) {
+    const cur = [i];
+    for (let j = 1; j <= n; j++) {
+      cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i-1] === b[j-1] ? 0 : 1));
+    }
+    prev = cur;
+  }
+  return prev[n];
+}
+
+// "Freddie Gibs" should match "Freddie Gibbs"; "Gorilaz" should match
+// "Gorillaz". Tolerance scales with length so short names stay strict.
+function sameArtist(mine, theirs) {
   const a = norm(mine), b = norm(theirs);
   if (!a || !b) return false;
-  return a === b || a.includes(b) || b.includes(a);
+  if (a === b || a.includes(b) || b.includes(a)) return true;
+  const allowed = Math.min(2, Math.max(1, Math.floor(Math.min(a.length, b.length) / 8)));
+  return editDistance(a, b) <= allowed;
+}
+
+const artistAgrees = sameArtist;
+
+// Relaxing the query recovers awkward titles, but on its own it also lets the
+// wrong record win: "PetroDragonic Apocalypse" matched a live album recorded
+// two years after the one in the collection. So candidates are ranked rather
+// than taken first-come, and live/remix/compilation editions are pushed down
+// unless the title you wrote actually asks for one.
+function candidateScore(rg, wantTitle, wantArtist) {
+  const credited = rg["artist-credit"]?.map((c) => c.name).join(" ") || "";
+  if (!sameArtist(wantArtist, credited)) return -1;
+
+  const a = norm(wantTitle), b = norm(rg.title || "");
+  if (!a || !b) return -1;
+
+  let score = 0;
+  if (a === b) score += 100;
+  else if (b.includes(a) || a.includes(b)) score += 70 - Math.abs(a.length - b.length) / 4;
+  else {
+    const d = editDistance(a, b);
+    if (d > Math.max(3, a.length / 6)) return -1;   // a different album
+    score += 60 - d * 8;
+  }
+
+  const secondary = (rg["secondary-types"] || []).map((x) => x.toLowerCase());
+  const asked = /\b(live|remix|demo|compilation|best of|deluxe)\b/i.test(wantTitle);
+  if (secondary.length && !asked) score -= 45;
+  if (rg["primary-type"] === "Album" && !secondary.length) score += 10;
+  score += (rg.score || 0) / 20;
+  return score;
+}
+
+function bestOf(groups, title, artist) {
+  let best = null, bestScore = 0;
+  for (const rg of groups || []) {
+    const sc = candidateScore(rg, title, artist);
+    if (sc > bestScore) { best = rg; bestScore = sc; }
+  }
+  return bestScore >= 40 ? best : null;
 }
 
 async function findReleaseGroup(artist, title) {
   for (const [a, t] of queryShapes(artist, title)) {
     const q = encodeURIComponent(`artist:"${a.replace(/"/g, "")}" AND releasegroup:"${t.replace(/"/g, "")}"`);
-    const json = await mbFetch(`/release-group/?query=${q}&fmt=json&limit=3`);
-    const groups = json["release-groups"] || [];
-
-    for (const rg of groups) {
-      const credited = rg["artist-credit"]?.map((c) => c.name).join(" ") || "";
-      // A high score alone is not enough -- MusicBrainz scores the text, not
-      // whether it is the right band. Both must agree.
-      if (rg.score >= 85 && artistAgrees(artist, credited)) return rg;
-    }
+    const json = await mbFetch(`/release-group/?query=${q}&fmt=json&limit=8`);
+    const hit = bestOf(json["release-groups"], title, artist);
+    if (hit) return hit;
     await sleep(MB_GAP);
   }
-  return null;
+
+  // Last resort: an unquoted search, still ranked and still verified on both
+  // artist and title -- otherwise this is exactly how wrong covers get in.
+  const [a, t] = queryShapes(artist, title).at(-1);
+  const json = await mbFetch(`/release-group/?query=${encodeURIComponent(`${a} ${t}`)}&fmt=json&limit=10`);
+  const hit = bestOf(json["release-groups"], t, artist);
+  await sleep(MB_GAP);
+  return hit;
+}
+
+// Deezer needs no key and is far more forgiving of a misspelled artist, so it
+// picks up the handful MusicBrainz still cannot place. It gives artwork but no
+// genres, which is why it is a fallback and not the primary source.
+async function deezerCover(artist, title) {
+  try {
+    const res = await fetch(
+      `https://api.deezer.com/search/album?q=${encodeURIComponent(`${artist} ${title}`)}&limit=1`);
+    if (!res.ok) return null;
+    const hit = (await res.json()).data?.[0];
+    if (!hit?.cover_xl || !sameArtist(artist, hit.artist?.name)) return null;
+    return { url: hit.cover_xl, from: "deezer" };
+  } catch { return null; }
 }
 
 async function coverFor(mbid, artist, title) {
@@ -138,9 +243,9 @@ async function coverFor(mbid, artist, title) {
     if (!it.ok) return null;
     const hit = (await it.json()).results?.[0];
     if (!hit?.artworkUrl100) return null;
-    if (!artistAgrees(artist, hit.artistName)) return null;   // the check that was missing
+    if (!sameArtist(artist, hit.artistName)) return null;   // the check that was missing
     return { url: hit.artworkUrl100.replace("100x100bb", "600x600bb"), from: "itunes" };
-  } catch { return null; }
+  } catch { return await deezerCover(artist, title); }
 }
 
 // ── main ────────────────────────────────────────────────────────────────────
@@ -170,7 +275,16 @@ for (const [i, album] of pending.entries()) {
     const rg = await findReleaseGroup(album.artist, album.title);
 
     if (!rg) {
-      store[key(album)] = { status: "nomatch", tried: new Date().toISOString().slice(0, 10) };
+      // No identity, but Deezer may still have the sleeve.
+      const rescue = await deezerCover(album.artist, album.title);
+      store[key(album)] = {
+        status: rescue ? "partial" : "nomatch",
+        cover_url: rescue?.url || null,
+        cover_from: rescue?.from || null,
+        genres: [],
+        tried: new Date().toISOString().slice(0, 10),
+      };
+      if (rescue) covered++;
       noMatch++;
     } else {
       const genres = (rg.tags || [])

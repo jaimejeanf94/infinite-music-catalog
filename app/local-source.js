@@ -12,6 +12,13 @@
 const LS_EDITS = "imc:local:edits";
 const LS_ROLLS = "imc:local:rolls";
 const LS_PLAYS = "imc:local:plays";
+const LS_ADDED = "imc:local:added";
+const LS_GONE  = "imc:local:deleted";
+const LS_SEQ   = "imc:local:seq";
+
+// Albums added in the app get ids from well above the CSV's row numbers, so
+// the two can never collide as the spreadsheet grows.
+const ADDED_ID_BASE = 1000000;
 
 const load = (key, fallback) => {
   try { return JSON.parse(localStorage.getItem(key)) ?? fallback; }
@@ -66,7 +73,10 @@ const LocalDB = {
     const [header, ...rows] = parseCsv(await res.text());
     const col = Object.fromEntries(header.map((h, i) => [h.trim(), i]));
     const edits = load(LS_EDITS, {});
-    return rows
+    const gone = new Set(load(LS_GONE, []));
+    const added = load(LS_ADDED, []);
+
+    const fromSheet = rows
       .filter((r) => r[col.artist])
       .map((r, i) => {
         const id = i + 1;
@@ -81,9 +91,54 @@ const LocalDB = {
           notes: null,
           genres: extra.genres || [],
           cover_url: extra.cover_url || null,
+          source: "sheet",
           ...(edits[id] || {}),
         };
-      });
+      })
+      .filter((a) => !gone.has(a.id));
+
+    return [
+      ...fromSheet,
+      ...added.filter((a) => !gone.has(a.id)).map((a) => ({ ...a, ...(edits[a.id] || {}) })),
+    ];
+  },
+
+  async addAlbum({ artist, title, year, score }) {
+    const added = load(LS_ADDED, []);
+    // A counter that only ever goes up. Deriving the next id from the current
+    // list would reuse an id after the last addition was deleted, and the new
+    // album would be filtered straight back out by that id's tombstone.
+    const seq = load(LS_SEQ, 0);
+    save(LS_SEQ, seq + 1);
+    const id = ADDED_ID_BASE + seq;
+    const album = {
+      id,
+      artist, title,
+      year: year || null,
+      score: score || null,
+      in_pool: true,
+      notes: null,
+      genres: [],
+      cover_url: null,
+      source: "app",
+    };
+    added.push(album);
+    save(LS_ADDED, added);
+    return album;
+  },
+
+  async deleteAlbum(id) {
+    const added = load(LS_ADDED, []);
+    const trimmed = added.filter((a) => a.id !== id);
+    if (trimmed.length !== added.length) {
+      // Added here, so it can simply go -- no tombstone needed.
+      save(LS_ADDED, trimmed);
+      return;
+    }
+    // An album from the sheet cannot be removed from the CSV, so record the id
+    // and filter it out on load -- the same tombstone idea the database uses.
+    const gone = load(LS_GONE, []);
+    if (!gone.includes(id)) { gone.push(id); save(LS_GONE, gone); }
   },
 
   async updateAlbum(id, patch) {

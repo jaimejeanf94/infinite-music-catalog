@@ -56,6 +56,9 @@ const albums = rows.filter((r) => r[col.artist]).map((r) => {
 const token = await signIn();
 const api = rest(token);
 
+// Deliberately includes tombstoned albums: an album deleted in the app is
+// still in the spreadsheet, and skipping it here is what stops tonight's
+// import putting it straight back.
 const existing = new Set(
   (await api.select("albums?select=artist,title&limit=10000"))
     .map((a) => `${a.artist.toLowerCase()}::${a.title.toLowerCase()}`)
@@ -73,7 +76,7 @@ for (let i = 0; i < fresh.length; i += BATCH) {
 }
 // Albums already in the database still need their enrichment kept current --
 // a cover that was missing last week may exist now.
-const known = await api.select("albums?select=id,artist,title,mbid,cover_url&limit=10000");
+const known = await api.select("albums?select=id,artist,title,mbid,cover_url&deleted_at=is.null&limit=10000");
 let refreshed = 0;
 for (const row of known) {
   const extra = enrichment[`${row.artist}::${row.title}`];

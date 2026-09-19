@@ -181,44 +181,39 @@ Two useful side effects:
 
 ---
 
-## 5. The automated data flow
+## 5. The data flow
 
-`.github/workflows/refresh.yml` runs daily on GitHub and does what you would do
-by hand: pull the sheet, clean it, enrich a batch of 300, commit whatever
-changed, and push to Supabase. There is also a **Run workflow** button in the
-Actions tab.
+**Postgres is the source of truth.** The Google Sheet was the seed, not the
+engine, and the app is now where albums are added, rated and removed.
 
-Committing the data back means `git log` becomes the history of your catalogue —
-you can see exactly when an album gained a cover or changed genre.
+`.github/workflows/refresh.yml` runs nightly on GitHub:
 
-Two things to set up in the repo once it exists:
+1. `export.mjs` writes the database out to `data/albums.csv`
+2. `enrich.mjs` works through 300 albums still missing genres or artwork
+3. `import.mjs` pushes that enrichment back to the database
+4. the CSV is committed
 
-- **Settings → Secrets and variables → Actions → Variables:** add `SHEET_ID`
-  with your spreadsheet id.
-- **…→ Secrets:** add `SUPABASE_URL`, `SUPABASE_KEY`, `IMC_EMAIL` and
-  `IMC_PASSWORD`. Until those exist the workflow still runs, and simply skips
-  the Supabase step.
+Step 4 is the point: `git log data/albums.csv` becomes a dated history of the
+collection, and restoring a bad week is
+`git checkout <commit> -- data/albums.csv && node scripts/import.mjs`.
 
----
+Set four secrets under **Settings → Secrets and variables → Actions**:
+`SUPABASE_URL`, `SUPABASE_KEY`, `IMC_EMAIL`, `IMC_PASSWORD`.
 
-## 6. Keeping up with the sheet
+### Why the sheet was retired
 
-Added albums to the Google Sheet and want them here?
+Once the app could add and delete, keeping both meant two writable sources with
+only one-way sync — we cannot write back to Google Sheets without OAuth, so the
+sheet would have drifted wrong and stayed wrong. A weekly CSV in git is a better
+backup than the spreadsheet was: versioned, diffable, and restorable to any
+night.
 
-```sh
-curl -sL -o data/raw_sheet.csv \
-  "https://docs.google.com/spreadsheets/d/1gj8PoQlBt-P5jZqCZ3WLn2_xjRn5FTrAdOp0bSIsmYM/gviz/tq?tqx=out:csv&sheet=Infinite+Hipster+Eclectic+CDs"
-python3 data/clean.py
-node scripts/import.mjs      # only inserts albums that are not there yet
-```
-
-`clean.py` prints everything it drops and why. It currently repairs two rows
-missing an artist and three albums duplicated with a wrong year — see the tables
-at the top of that file.
+The original export is kept at `data/raw_sheet.csv`, and `data/clean.py` is the
+one-time migration that produced the first `albums.csv`. Neither runs any more.
 
 ---
 
-## 7. Running the scripts
+## 6. Running the scripts
 
 They read credentials from the environment, so nothing sensitive lands in the
 repo:
@@ -229,7 +224,9 @@ export SUPABASE_KEY="sb_publishable_..."
 export IMC_EMAIL="you@example.com"
 export IMC_PASSWORD="..."
 
-node scripts/import.mjs      # load or top up the albums table
+node scripts/export.mjs      # database -> data/albums.csv (the backup)
+node scripts/enrich.mjs      # genres, artwork, MusicBrainz ids
+node scripts/import.mjs      # push local data and enrichment to the database
 node scripts/test-roller.mjs # check the randomiser's odds
 ```
 
@@ -237,7 +234,7 @@ No `npm install` needed — the scripts use plain `fetch`.
 
 ---
 
-## 8. How the randomiser works
+## 7. How the randomiser works
 
 The sheet weighted albums by **tier**, not individually: each score owns a fixed
 share of the odds and splits it among its members.
@@ -284,8 +281,9 @@ and checks the results against this table.
 | `app/local-source.js` | The no-account fallback |
 | `app/config.js` | Your Supabase URL and key — the only file to edit by hand |
 | `db/schema.sql` | Tables, indexes, security rules |
-| `data/clean.py` | Sheet export → `albums.csv`, with the repairs documented |
-| `data/raw_sheet.csv` | Untouched snapshot of the sheet |
+| `scripts/export.mjs` | Database → `albums.csv`, the nightly backup |
+| `data/clean.py` | One-time migration from the sheet (no longer run) |
+| `data/raw_sheet.csv` | Untouched snapshot of the original sheet |
 | `scripts/enrich.mjs` | Genres, artwork and MusicBrainz ids — needs no account |
 | `data/enrichment.json` | What that pass found, keyed by artist + title |
 | `.github/workflows/refresh.yml` | The scheduled data flow |

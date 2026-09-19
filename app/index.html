@@ -107,6 +107,27 @@ function App() {
     db.logPlay(id, "manual").catch((e) => setError(e.message || String(e)));
   }, []);
 
+  const onAdd = useCallback(async (fields) => {
+    const created = await db.addAlbum(fields);
+    setAlbums((rows) => [...rows, created].sort(
+      (a, b) => a.artist.localeCompare(b.artist) || a.title.localeCompare(b.title)));
+  }, []);
+
+  const onDelete = useCallback((id) => {
+    let removed;
+    setAlbums((rows) => rows.filter((a) => {
+      if (a.id !== id) return true;
+      removed = a;
+      return false;
+    }));
+    db.deleteAlbum(id).catch((e) => {
+      // Put it back if the database refused.
+      if (removed) setAlbums((rows) => [...rows, removed].sort(
+        (a, b) => a.artist.localeCompare(b.artist) || a.title.localeCompare(b.title)));
+      setError(e.message || String(e));
+    });
+  }, []);
+
   const onRoll = useCallback((album, mode) => {
     // Only the owner can write history, and a failed log should never
     // interrupt a roll, so this one stays silent.
@@ -147,7 +168,8 @@ function App() {
 
       <main>
         {route === "browse"
-          ? <BrowseView albums={albums} owner={!!user} onPatch={onPatch} onPlay={onPlay} />
+          ? <BrowseView albums={albums} owner={!!user} onPatch={onPatch} onPlay={onPlay}
+                        onAdd={onAdd} onDelete={onDelete} />
           : <RollView albums={albums} owner={!!user} onPatch={onPatch} onPlay={onPlay} onRoll={onRoll} />}
       </main>
 
