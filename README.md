@@ -145,13 +145,19 @@ gh repo create infinite-music-catalog --private --source=. --push
 off it. It needs no account and no keys:
 
 ```sh
-node scripts/enrich.mjs              # the whole collection, ~75 minutes
+node scripts/enrich.mjs              # the whole collection, ~6 hours
 node scripts/enrich.mjs --limit=50   # a batch
 node scripts/enrich.mjs --retry      # re-attempt previous failures
 ```
 
 Results land in `data/enrichment.json`, keyed by artist and title, and the app
 merges them. It is resumable — stop it whenever, it picks up where it left off.
+
+Measured at **4.8 seconds an album**, so about six hours for the full 4,476.
+That is slower than one request a second because an album that does not match
+on the first query is retried with progressively looser ones, and each of those
+is another request against MusicBrainz's one-per-second limit. Albums that match
+immediately take about 1.5 seconds; the awkward ones take seven.
 
 ### Why it is built this way
 

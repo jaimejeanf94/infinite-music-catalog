@@ -2205,5 +2205,477 @@
   "cover_from": "coverartarchive",
   "mb_year": "2001",
   "checked": "2026-09-19"
+ },
+ "Nails::Every Bridge Burning": {
+  "status": "ok",
+  "mbid": "201d598e-1d04-4dc4-a837-22ad3872510e",
+  "genres": [],
+  "cover_url": "https://coverartarchive.org/release-group/201d598e-1d04-4dc4-a837-22ad3872510e/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2024",
+  "checked": "2026-09-19"
+ },
+ "Nick Cave & The Bad Seeds::Lovely Creatures: The Best of Nick Cave and The Bad Seeds (CD1)": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Nick Cave & The Bad Seeds::Lovely Creatures: The Best of Nick Cave and The Bad Seeds (CD2)": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Nick Cave & The Bad Seeds::Lovely Creatures: The Best of Nick Cave and The Bad Seeds (CD3)": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Opeth::Still Life": {
+  "status": "ok",
+  "mbid": "b2896060-c317-32d7-9224-d530ce503871",
+  "genres": [
+   "progressive metal",
+   "death metal",
+   "rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/b2896060-c317-32d7-9224-d530ce503871/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1999",
+  "checked": "2026-09-19"
+ },
+ "Psychedelic Porn Crumpets::Carpe Diem, Moonman": {
+  "status": "ok",
+  "mbid": "79526cc2-2bc2-4494-aa95-3faee8e91d10",
+  "genres": [
+   "psychedelic rock",
+   "neo-psychedelia",
+   "progressive rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/79526cc2-2bc2-4494-aa95-3faee8e91d10/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2025",
+  "checked": "2026-09-19"
+ },
+ "Saya Gray::SAYA": {
+  "status": "ok",
+  "mbid": "c44a46d5-d745-49d9-930f-18f76b7fb017",
+  "genres": [],
+  "cover_url": "https://coverartarchive.org/release-group/c44a46d5-d745-49d9-930f-18f76b7fb017/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2025",
+  "checked": "2026-09-19"
+ },
+ "Sophie::Oil Of Every Pearl's Un-Insides": {
+  "status": "ok",
+  "mbid": "e11aa3a6-9820-483c-98f8-603b5823178b",
+  "genres": [
+   "deconstructed club",
+   "pop",
+   "post-industrial"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/e11aa3a6-9820-483c-98f8-603b5823178b/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2018",
+  "checked": "2026-09-19"
+ },
+ "Swans::Birthing": {
+  "status": "ok",
+  "mbid": "ad7a340c-006c-4aee-a94b-da016eed124d",
+  "genres": [
+   "rock",
+   "post-rock",
+   "experimental rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/ad7a340c-006c-4aee-a94b-da016eed124d/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2025",
+  "checked": "2026-09-19"
+ },
+ "The Beatles::Hey Jude": {
+  "status": "ok",
+  "mbid": "4d507176-894b-34eb-b3c5-1079550831fc",
+  "genres": [
+   "pop rock",
+   "rock",
+   "pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/4d507176-894b-34eb-b3c5-1079550831fc/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1968",
+  "checked": "2026-09-19"
+ },
+ "The Beatles::Please Please Me": {
+  "status": "ok",
+  "mbid": "de208292-8db5-3aed-a14a-b37a84d8c521",
+  "genres": [
+   "rock",
+   "pop",
+   "pop rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/de208292-8db5-3aed-a14a-b37a84d8c521/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1963",
+  "checked": "2026-09-19"
+ },
+ "The John Coltrane Quartet::Africa/Brass": {
+  "status": "ok",
+  "mbid": "0da774d3-40be-3971-bb40-68361009a3b4",
+  "genres": [
+   "jazz",
+   "free jazz",
+   "post-bop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/0da774d3-40be-3971-bb40-68361009a3b4/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1961",
+  "checked": "2026-09-19"
+ },
+ "The Microphones::Microphones in 2020": {
+  "status": "ok",
+  "mbid": "f5699280-d709-4e53-b9c5-fa98d9371714",
+  "genres": [
+   "rock",
+   "experimental",
+   "indie rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/f5699280-d709-4e53-b9c5-fa98d9371714/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2020",
+  "checked": "2026-09-19"
+ },
+ "The Smile::Wall Of Eyes": {
+  "status": "ok",
+  "mbid": "87f4d5ae-5e94-4768-b8ee-f52fbabfbaa6",
+  "genres": [
+   "art rock",
+   "rock",
+   "post-rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/87f4d5ae-5e94-4768-b8ee-f52fbabfbaa6/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2024",
+  "checked": "2026-09-19"
+ },
+ "Thee Silver Mt. Zion Memorial Orchestra & Tra-La-La Band::Horses in the Sky": {
+  "status": "ok",
+  "mbid": "ffc54820-0fbf-3454-8bd1-3fe9dc6f754c",
+  "genres": [
+   "post-rock",
+   "experimental",
+   "rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/ffc54820-0fbf-3454-8bd1-3fe9dc6f754c/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2005",
+  "checked": "2026-09-19"
+ },
+ "Tyler, The Creator::CHROMAKOPIA": {
+  "status": "ok",
+  "mbid": "ae229bdd-2179-440c-bc78-acf0952914d4",
+  "genres": [
+   "hip hop",
+   "neo soul",
+   "hardcore hip hop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/ae229bdd-2179-440c-bc78-acf0952914d4/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2024",
+  "checked": "2026-09-19"
+ },
+ "Underworld::Dubnobasswithmyheadman": {
+  "status": "ok",
+  "mbid": "3fa924b2-aae8-3ab6-b2d3-f647a8a8e8f6",
+  "genres": [
+   "electronic",
+   "techno",
+   "progressive house"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/3fa924b2-aae8-3ab6-b2d3-f647a8a8e8f6/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1993",
+  "checked": "2026-09-19"
+ },
+ "파란노을 [Parannoul]::White Ceiling / Black Dots Wandering Around": {
+  "status": "partial",
+  "cover_url": "https://cdn-images.dzcdn.net/images/cover/a85d8364652cac6b2afd92da0c1252eb/1000x1000-000000-80-0-0.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "万能青年旅店 (Omnipotent Youth Society)::万能青年旅店 (Omnipotent Youth Society)": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "2 Many DJ's::Dave": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Bill Evans::You Must Believe in Spring": {
+  "status": "ok",
+  "mbid": "0cf4e31e-14a0-3c31-bcc3-9cad55817aac",
+  "genres": [
+   "jazz",
+   "post-bop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/0cf4e31e-14a0-3c31-bcc3-9cad55817aac/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1981",
+  "checked": "2026-09-19"
+ },
+ "Michael Jackson::Dangerous": {
+  "status": "ok",
+  "mbid": "d6b52521-0dfa-390f-970f-790174c22752",
+  "genres": [
+   "pop",
+   "new jack swing",
+   "rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/d6b52521-0dfa-390f-970f-790174c22752/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1991",
+  "checked": "2026-09-19"
+ },
+ "Youth Lagoon::Heaven is a Junyard": {
+  "status": "ok",
+  "mbid": "7e8398de-4d8f-4032-bfc4-3db67a456399",
+  "genres": [
+   "dream pop",
+   "rock",
+   "electronic"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/7e8398de-4d8f-4032-bfc4-3db67a456399/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-19"
+ },
+ "Danger Mouse & Black Thought::Cheat Codes": {
+  "status": "ok",
+  "mbid": "3d4b56c0-0abf-4bea-a12e-99def53e306f",
+  "genres": [
+   "hip hop",
+   "conscious hip hop",
+   "abstract hip hop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/3d4b56c0-0abf-4bea-a12e-99def53e306f/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2022",
+  "checked": "2026-09-19"
+ },
+ "Susanne Sundfør::blómi": {
+  "status": "ok",
+  "mbid": "6a368350-ce7c-4537-8360-40ef26b09d65",
+  "genres": [
+   "pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/6a368350-ce7c-4537-8360-40ef26b09d65/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-19"
+ },
+ "The Caretaker::Everywhere at The End of Time - Stage 5": {
+  "status": "ok",
+  "mbid": "c46cbca0-97ee-43cd-ab63-b02d27adb38a",
+  "genres": [
+   "ambient",
+   "electronic",
+   "dark ambient"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/c46cbca0-97ee-43cd-ab63-b02d27adb38a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2018",
+  "checked": "2026-09-19"
+ },
+ "The Caretaker::Everywhere at The End of Time - Stage 2": {
+  "status": "ok",
+  "mbid": "dc5fcc43-accf-4e10-83da-6a784ef0b988",
+  "genres": [
+   "electronic",
+   "classical",
+   "ambient"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/dc5fcc43-accf-4e10-83da-6a784ef0b988/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-19"
+ },
+ "U2::Achtung Baby": {
+  "status": "ok",
+  "mbid": "744c7a1b-ac79-35c4-bd92-7e2c6a24c8d8",
+  "genres": [
+   "rock",
+   "pop rock",
+   "alternative rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/744c7a1b-ac79-35c4-bd92-7e2c6a24c8d8/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1991",
+  "checked": "2026-09-19"
+ },
+ "Aesop Rock::Black Hole Superette": {
+  "status": "ok",
+  "mbid": "c34d3356-a0f8-4d42-8b37-053629a18cae",
+  "genres": [
+   "hip hop",
+   "experimental hip hop",
+   "abstract hip hop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/c34d3356-a0f8-4d42-8b37-053629a18cae/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2025",
+  "checked": "2026-09-19"
+ },
+ "Freddie Gibbs & The Alchemist::Alfredo 2": {
+  "status": "ok",
+  "mbid": "71a56463-11cf-4c0d-96cf-75c9acf53191",
+  "genres": [
+   "hip hop",
+   "gangsta rap",
+   "mafioso rap"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/71a56463-11cf-4c0d-96cf-75c9acf53191/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2025",
+  "checked": "2026-09-19"
+ },
+ "Ben Frost::By The Throat": {
+  "status": "ok",
+  "mbid": "bd38c7cc-45b8-44bc-8f14-3864ce56051a",
+  "genres": [
+   "electronic",
+   "experimental",
+   "drone"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/bd38c7cc-45b8-44bc-8f14-3864ce56051a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2009",
+  "checked": "2026-09-19"
+ },
+ "Beth Gibbons & Rustin Man::Out of Season": {
+  "status": "ok",
+  "mbid": "20c64f88-7893-3ff1-8ec2-ff53ac7fcf33",
+  "genres": [
+   "downtempo",
+   "electronic",
+   "rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/20c64f88-7893-3ff1-8ec2-ff53ac7fcf33/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2002",
+  "checked": "2026-09-19"
+ },
+ "Billie Eilish::Happier than Ever": {
+  "status": "ok",
+  "mbid": "3ac5236a-3bd8-44c6-ab60-69b013594ae6",
+  "genres": [
+   "pop",
+   "alternative pop",
+   "ambient pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/3ac5236a-3bd8-44c6-ab60-69b013594ae6/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2021",
+  "checked": "2026-09-19"
+ },
+ "Caribou::The Milk Of Human Kindness": {
+  "status": "ok",
+  "mbid": "96cd9651-89b3-337b-bd25-92229eef444c",
+  "genres": [
+   "electronic",
+   "rock",
+   "krautrock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/96cd9651-89b3-337b-bd25-92229eef444c/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2005",
+  "checked": "2026-09-19"
+ },
+ "Charli XCX::Charli": {
+  "status": "ok",
+  "mbid": "dc396430-1e1c-4f0b-8b05-d69603d7fb12",
+  "genres": [
+   "electropop",
+   "synth-pop",
+   "bubblegum bass"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/dc396430-1e1c-4f0b-8b05-d69603d7fb12/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2019",
+  "checked": "2026-09-19"
+ },
+ "Charli XCX::Pop 2": {
+  "status": "ok",
+  "mbid": "bc8868e9-dda3-477d-ab89-b62d82cd7ea7",
+  "genres": [
+   "bubblegum bass",
+   "electropop",
+   "hyperpop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/bc8868e9-dda3-477d-ab89-b62d82cd7ea7/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-19"
+ },
+ "Chat Pile::Remove Your Skin Please": {
+  "status": "ok",
+  "mbid": "94cdacdc-55e7-460f-9b26-79fabcf11305",
+  "genres": [
+   "noise rock",
+   "sludge metal",
+   "metal"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/94cdacdc-55e7-460f-9b26-79fabcf11305/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2019",
+  "checked": "2026-09-19"
+ },
+ "d4vd::WITHERED": {
+  "status": "ok",
+  "mbid": "b45ace46-81cd-4832-93a4-62baaefe6893",
+  "genres": [
+   "pop",
+   "indie pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/b45ace46-81cd-4832-93a4-62baaefe6893/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2025",
+  "checked": "2026-09-19"
+ },
+ "Daphni::Sizzling EP": {
+  "status": "ok",
+  "mbid": "86283929-0644-41f5-ad4e-45c1582b949f",
+  "genres": [
+   "electronic",
+   "disco",
+   "tech house"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/86283929-0644-41f5-ad4e-45c1582b949f/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2019",
+  "checked": "2026-09-19"
+ },
+ "Ethel Cain::Willoughby Tucker, I'll Always Love You": {
+  "status": "ok",
+  "mbid": "b812527c-30ac-4f38-82ce-85b971727248",
+  "genres": [
+   "singer-songwriter",
+   "slowcore",
+   "ambient"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/b812527c-30ac-4f38-82ce-85b971727248/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2025",
+  "checked": "2026-09-19"
  }
 }
