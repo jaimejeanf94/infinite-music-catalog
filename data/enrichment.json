@@ -23898,5 +23898,917 @@
   "cover_from": "coverartarchive",
   "mb_year": "2009",
   "checked": "2026-09-19"
+ },
+ "Foo Fighters::There Is Nothing Left To Lose": {
+  "status": "ok",
+  "mbid": "1cfc9a17-1fdb-30dd-83ca-dce93c481492",
+  "genres": [
+   "alternative rock",
+   "rock",
+   "post-grunge",
+   "hard rock",
+   "power pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/1cfc9a17-1fdb-30dd-83ca-dce93c481492/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1999",
+  "checked": "2026-09-19"
+ },
+ "Foodman::oiss EP": {
+  "status": "ok",
+  "mbid": "6727680b-5ae7-4814-9d87-d4159591a3c8",
+  "genres": [
+   "electronic",
+   "footwork",
+   "juke",
+   "ghettotech"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/6727680b-5ae7-4814-9d87-d4159591a3c8/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2014",
+  "checked": "2026-09-19"
+ },
+ "Forest Swords::Compassion": {
+  "status": "ok",
+  "mbid": "bb6fed96-95a7-46b3-aca7-9e1c748dbd43",
+  "genres": [
+   "electronic",
+   "downtempo",
+   "ambient",
+   "experimental",
+   "idm",
+   "psychedelic",
+   "leftfield",
+   "avant-garde",
+   "dub techno"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/bb6fed96-95a7-46b3-aca7-9e1c748dbd43/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-19"
+ },
+ "Forest Swords::Engraving": {
+  "status": "ok",
+  "mbid": "b64e0192-1809-484e-94d4-68734029c9ad",
+  "genres": [
+   "experimental"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/b64e0192-1809-484e-94d4-68734029c9ad/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2013",
+  "checked": "2026-09-19"
+ },
+ "Foster the People::Torches": {
+  "status": "ok",
+  "mbid": "535748f7-5b3d-4a2a-8f9c-bd8baa587239",
+  "genres": [
+   "alternative rock",
+   "indie pop",
+   "rock",
+   "electronic",
+   "indie rock",
+   "neo-psychedelia",
+   "pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/535748f7-5b3d-4a2a-8f9c-bd8baa587239/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2011",
+  "checked": "2026-09-19"
+ },
+ "Four Tet::Three": {
+  "status": "ok",
+  "mbid": "364c7a46-1812-4a2b-b979-a6c6c992cef8",
+  "genres": [
+   "electronic"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/364c7a46-1812-4a2b-b979-a6c6c992cef8/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2024",
+  "checked": "2026-09-19"
+ },
+ "Four Tet::There is Love on You": {
+  "status": "ok",
+  "mbid": "36e5c63b-be92-4717-acfe-a70e58e448c8",
+  "genres": [
+   "idm",
+   "electronic",
+   "microhouse"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/36e5c63b-be92-4717-acfe-a70e58e448c8/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2010",
+  "checked": "2026-09-19"
+ },
+ "Four Tet::Rounds": {
+  "status": "ok",
+  "mbid": "cf688036-4ffa-36f5-ab81-9c7efecf63cd",
+  "genres": [
+   "electronic",
+   "downtempo",
+   "leftfield",
+   "idm",
+   "trip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/cf688036-4ffa-36f5-ab81-9c7efecf63cd/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2003",
+  "checked": "2026-09-19"
+ },
+ "Four Tet::Pause": {
+  "status": "ok",
+  "mbid": "99ab4330-20f8-3b30-8bee-856f034d9418",
+  "genres": [
+   "electronic",
+   "downtempo",
+   "experimental",
+   "trip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/99ab4330-20f8-3b30-8bee-856f034d9418/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2001",
+  "checked": "2026-09-19"
+ },
+ "foxtails::fawn": {
+  "status": "ok",
+  "mbid": "519b1d01-07f0-40c7-8131-72c55617fa38",
+  "genres": [
+   "screamo",
+   "post-punk",
+   "emo"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/519b1d01-07f0-40c7-8131-72c55617fa38/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2022",
+  "checked": "2026-09-19"
+ },
+ "Foxygen::We Are the 21st Century Ambassadors of Peace & Magic": {
+  "status": "ok",
+  "mbid": "e14ac953-238c-4dda-9b80-b2e0b8397cec",
+  "genres": [
+   "rock",
+   "pop",
+   "alternative rock",
+   "indie rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/e14ac953-238c-4dda-9b80-b2e0b8397cec/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2013",
+  "checked": "2026-09-19"
+ },
+ "Foxygen::Take the Kids off Broadway EP": {
+  "status": "ok",
+  "mbid": "e016ecce-b797-434c-b5af-ccec28b35788",
+  "genres": [
+   "rock",
+   "pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/e016ecce-b797-434c-b5af-ccec28b35788/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2012",
+  "checked": "2026-09-19"
+ },
+ "Franco::The Very best of the Rumba Giant of Zaire": {
+  "status": "ok",
+  "mbid": "077566aa-d998-3293-b631-98081c93bfe8",
+  "genres": [
+   "soukous",
+   "congolese rumba"
+  ],
+  "genre_source": "artist",
+  "cover_url": "https://coverartarchive.org/release-group/077566aa-d998-3293-b631-98081c93bfe8/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2000",
+  "checked": "2026-09-19"
+ },
+ "Franco Battiato::La voce del padrone": {
+  "status": "ok",
+  "mbid": "8a50a533-81c0-38d8-a0a9-8f78fd009ff3",
+  "genres": [
+   "pop",
+   "rock",
+   "electronic",
+   "synth-pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/8a50a533-81c0-38d8-a0a9-8f78fd009ff3/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1981",
+  "checked": "2026-09-19"
+ },
+ "Françoise Hardy::La question": {
+  "status": "ok",
+  "mbid": "d9a059c0-2642-361b-baa4-1716447a4d49",
+  "genres": [
+   "pop",
+   "chanson française",
+   "bossa nova",
+   "latin",
+   "chamber folk"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/d9a059c0-2642-361b-baa4-1716447a4d49/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1971",
+  "checked": "2026-09-19"
+ },
+ "Frank Ocean::Blond": {
+  "status": "ok",
+  "mbid": "0da340a0-6ad7-4fc2-a272-6f94393a7831",
+  "genres": [
+   "neo soul",
+   "art pop",
+   "alternative r&b",
+   "contemporary r&b"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/0da340a0-6ad7-4fc2-a272-6f94393a7831/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2016",
+  "checked": "2026-09-19"
+ },
+ "Frank Ocean::Channel Orange": {
+  "status": "ok",
+  "mbid": "f8f4167d-897c-4b25-a171-638374d1dfa4",
+  "genres": [
+   "contemporary r&b",
+   "alternative r&b",
+   "pop",
+   "r&b"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/f8f4167d-897c-4b25-a171-638374d1dfa4/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2012",
+  "checked": "2026-09-19"
+ },
+ "Frank Ocean::Nostagia, Ultra": {
+  "status": "ok",
+  "mbid": "c2dde373-d47b-45a9-8b7e-0a9f5f011ed4",
+  "genres": [
+   "contemporary r&b",
+   "alternative r&b"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/c2dde373-d47b-45a9-8b7e-0a9f5f011ed4/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2011",
+  "checked": "2026-09-19"
+ },
+ "Frank Sinatra::In The Wee Small Hours": {
+  "status": "ok",
+  "mbid": "5a5d9938-38a9-3f32-b03b-8f14f62b880a",
+  "genres": [
+   "vocal jazz",
+   "traditional pop",
+   "jazz",
+   "ballad",
+   "orchestral",
+   "big band",
+   "swing"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/5a5d9938-38a9-3f32-b03b-8f14f62b880a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1955",
+  "checked": "2026-09-19"
+ },
+ "Frank Zappa::The Grand Wazoo": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Frank Zappa::Hot Rats": {
+  "status": "ok",
+  "mbid": "3f974fbd-9db8-3dff-9466-b9ae6fd9146c",
+  "genres": [
+   "progressive rock",
+   "jazz rock",
+   "rock",
+   "jazz fusion",
+   "jazz",
+   "classic rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/3f974fbd-9db8-3dff-9466-b9ae6fd9146c/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1969",
+  "checked": "2026-09-19"
+ },
+ "Frankie Knuckles::Boiler Room London DJ Set": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Franz Ferdinand::Tonight: Franz Ferdinand": {
+  "status": "ok",
+  "mbid": "1b4f4b3c-ca01-37b7-af1d-3e37989f86ad",
+  "genres": [
+   "indie rock",
+   "alternative dance",
+   "dance-punk",
+   "rock",
+   "electronic",
+   "synth-pop",
+   "post-punk revival",
+   "new rave",
+   "alternative rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/1b4f4b3c-ca01-37b7-af1d-3e37989f86ad/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2009",
+  "checked": "2026-09-19"
+ },
+ "Frightened Rabbit::The Midnight Organ Fight": {
+  "status": "ok",
+  "mbid": "4bf978f8-0408-37f0-961f-a492bad0159c",
+  "genres": [
+   "indie rock",
+   "rock",
+   "folk rock",
+   "indie folk",
+   "acoustic rock",
+   "pop rock",
+   "chamber pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/4bf978f8-0408-37f0-961f-a492bad0159c/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2008",
+  "checked": "2026-09-19"
+ },
+ "Friko::Where we've been, Where we go from here": {
+  "status": "ok",
+  "mbid": "febc2922-299e-427f-a29e-683ff19c4c26",
+  "genres": [
+   "indie rock",
+   "noise pop",
+   "chamber pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/febc2922-299e-427f-a29e-683ff19c4c26/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2024",
+  "checked": "2026-09-19"
+ },
+ "Fripp & Eno::Evening Star": {
+  "status": "ok",
+  "mbid": "55b52d50-a2e4-3147-abb4-7bc1537c1e06",
+  "genres": [
+   "ambient",
+   "electronic",
+   "drone"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/55b52d50-a2e4-3147-abb4-7bc1537c1e06/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1975",
+  "checked": "2026-09-19"
+ },
+ "Fu Manchu::Eatin´Dust": {
+  "status": "ok",
+  "mbid": "7e7c61d9-72b1-3f9b-ab66-218b636eba7a",
+  "genres": [
+   "rock",
+   "stoner rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/7e7c61d9-72b1-3f9b-ab66-218b636eba7a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1999",
+  "checked": "2026-09-19"
+ },
+ "Fu Manchu::The Action is Go": {
+  "status": "ok",
+  "mbid": "fa028de2-1d6a-3898-bcaf-ebdef860d6f9",
+  "genres": [
+   "rock",
+   "stoner rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/fa028de2-1d6a-3898-bcaf-ebdef860d6f9/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1997",
+  "checked": "2026-09-19"
+ },
+ "Fuck Buttons::Slow Focus": {
+  "status": "ok",
+  "mbid": "77a52eec-07c6-477a-9c9e-f0de4c473d61",
+  "genres": [
+   "electronic",
+   "pop rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/77a52eec-07c6-477a-9c9e-f0de4c473d61/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2013",
+  "checked": "2026-09-19"
+ },
+ "Fuck Buttons::Tarot Sport": {
+  "status": "ok",
+  "mbid": "ae8add31-2b86-4757-adbf-9c1b34e0635b",
+  "genres": [
+   "electronic",
+   "rock",
+   "experimental"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/ae8add31-2b86-4757-adbf-9c1b34e0635b/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2009",
+  "checked": "2026-09-19"
+ },
+ "Fucked Up::David Comes To Life": {
+  "status": "ok",
+  "mbid": "31fcb4ca-5845-4673-bdcc-594fd807d046",
+  "genres": [
+   "rock",
+   "punk"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/31fcb4ca-5845-4673-bdcc-594fd807d046/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2011",
+  "checked": "2026-09-19"
+ },
+ "Fucked Up::The Chemistry of Common Life": {
+  "status": "ok",
+  "mbid": "74d943d8-077c-33c8-b518-7f9f9524416c",
+  "genres": [
+   "rock",
+   "post-rock",
+   "punk",
+   "experimental",
+   "hardcore punk",
+   "post-hardcore"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/74d943d8-077c-33c8-b518-7f9f9524416c/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2008",
+  "checked": "2026-09-19"
+ },
+ "Fugazi::Fugazi": {
+  "status": "ok",
+  "mbid": "5be01c92-bb45-326c-9634-badf08f9ad7f",
+  "genres": [
+   "post-hardcore",
+   "rock",
+   "alternative rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/5be01c92-bb45-326c-9634-badf08f9ad7f/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1988",
+  "checked": "2026-09-19"
+ },
+ "Fugazi::The Argument": {
+  "status": "ok",
+  "mbid": "7b1cb5fb-7ba5-3472-a687-1cb8f2d896e7",
+  "genres": [
+   "post-hardcore",
+   "rock",
+   "punk",
+   "indie rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/7b1cb5fb-7ba5-3472-a687-1cb8f2d896e7/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2001",
+  "checked": "2026-09-19"
+ },
+ "Fugazi::Red Medicine": {
+  "status": "ok",
+  "mbid": "5b6401e0-54a3-3b91-9dac-b289ef456de1",
+  "genres": [
+   "post-hardcore",
+   "rock",
+   "punk",
+   "indie rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/5b6401e0-54a3-3b91-9dac-b289ef456de1/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1995",
+  "checked": "2026-09-19"
+ },
+ "Fugazi::In on The Kill Taker": {
+  "status": "ok",
+  "mbid": "3e65d48b-804d-3e6b-8d52-558ee8e1850c",
+  "genres": [
+   "post-hardcore",
+   "rock",
+   "alternative rock",
+   "punk",
+   "punk rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/3e65d48b-804d-3e6b-8d52-558ee8e1850c/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1993",
+  "checked": "2026-09-19"
+ },
+ "Fugazi::Steady Diet of Nothing": {
+  "status": "ok",
+  "mbid": "80b98ced-1d30-3e5d-8172-245c16b56fa6",
+  "genres": [
+   "post-hardcore",
+   "rock",
+   "punk",
+   "punk rock",
+   "alternative punk"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/80b98ced-1d30-3e5d-8172-245c16b56fa6/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1991",
+  "checked": "2026-09-19"
+ },
+ "Fugazi::Repeater": {
+  "status": "ok",
+  "mbid": "c7c2de8e-3c98-3923-a4d9-54c4295d20b4",
+  "genres": [
+   "post-hardcore",
+   "rock",
+   "post-punk",
+   "punk",
+   "alternative punk",
+   "punk rock",
+   "indie rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/c7c2de8e-3c98-3923-a4d9-54c4295d20b4/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1990",
+  "checked": "2026-09-19"
+ },
+ "Fugazi::13 Songs": {
+  "status": "ok",
+  "mbid": "e65e574d-6129-3798-84d9-5952876ad210",
+  "genres": [
+   "post-hardcore",
+   "rock",
+   "post-punk",
+   "punk",
+   "punk rock",
+   "indie rock",
+   "emo",
+   "hardcore punk",
+   "alternative punk"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/e65e574d-6129-3798-84d9-5952876ad210/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1989",
+  "checked": "2026-09-19"
+ },
+ "Fugees::The Score": {
+  "status": "ok",
+  "mbid": "dd2203dd-a149-316b-ad7f-a303dc4fc459",
+  "genres": [
+   "hip hop",
+   "contemporary r&b",
+   "boom bap",
+   "conscious hip hop",
+   "alternative hip hop",
+   "east coast hip hop",
+   "dancehall",
+   "pop soul",
+   "reggae",
+   "pop rap"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/dd2203dd-a149-316b-ad7f-a303dc4fc459/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1996",
+  "checked": "2026-09-19"
+ },
+ "Funkadelic::One Nation Under a Groove": {
+  "status": "ok",
+  "mbid": "9d084107-b712-3599-ab62-ac76fe3756b5",
+  "genres": [
+   "funk",
+   "rock",
+   "funk rock",
+   "p-funk",
+   "soul"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/9d084107-b712-3599-ab62-ac76fe3756b5/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1978",
+  "checked": "2026-09-19"
+ },
+ "Funkadelic::Standing on the Verge of Getting It On": {
+  "status": "ok",
+  "mbid": "2aca4ebe-fd78-3222-930d-b521a82e3e51",
+  "genres": [
+   "p-funk",
+   "funk rock",
+   "funk",
+   "rock",
+   "psychedelic rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/2aca4ebe-fd78-3222-930d-b521a82e3e51/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1974",
+  "checked": "2026-09-19"
+ },
+ "Funkadelic::Maggot Brain": {
+  "status": "ok",
+  "mbid": "a334e612-e736-3b4f-82b4-c4dfb774983c",
+  "genres": [
+   "funk",
+   "hard rock",
+   "funk rock",
+   "acid rock",
+   "p-funk",
+   "psychedelic soul",
+   "rock",
+   "soul",
+   "psychedelic rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/a334e612-e736-3b4f-82b4-c4dfb774983c/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1971",
+  "checked": "2026-09-19"
+ },
+ "Funkadelic::Free Your Mind... and Your Ass Will Follow": {
+  "status": "ok",
+  "mbid": "9e010e17-8f75-36b4-91e0-806da39177b1",
+  "genres": [
+   "p-funk",
+   "funk",
+   "funk rock",
+   "psychedelic rock",
+   "acid rock",
+   "psychedelic soul",
+   "rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/9e010e17-8f75-36b4-91e0-806da39177b1/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1970",
+  "checked": "2026-09-19"
+ },
+ "Funkadelic::Funkadelic": {
+  "status": "ok",
+  "mbid": "ba6de9b7-828e-35d4-adc5-ea71bdab836b",
+  "genres": [
+   "p-funk",
+   "funk rock",
+   "rock",
+   "funk",
+   "soul",
+   "psychedelic rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/ba6de9b7-828e-35d4-adc5-ea71bdab836b/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1970",
+  "checked": "2026-09-19"
+ },
+ "Furia::Martwa polska jesień": {
+  "status": "ok",
+  "mbid": "cbd580e9-f784-3440-9799-0f50cc836d7e",
+  "genres": [
+   "black metal",
+   "rock",
+   "avant-garde"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/cbd580e9-f784-3440-9799-0f50cc836d7e/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2007",
+  "checked": "2026-09-19"
+ },
+ "Future::Monster": {
+  "status": "ok",
+  "mbid": "cea00e8a-ed12-4baf-b3c6-2e60225b07c9",
+  "genres": [
+   "hip hop",
+   "trap"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/cea00e8a-ed12-4baf-b3c6-2e60225b07c9/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2014",
+  "checked": "2026-09-19"
+ },
+ "Future Islands::Singles": {
+  "status": "ok",
+  "mbid": "82b000c5-b4ca-4c6d-8ea1-68622dda00c8",
+  "genres": [
+   "synth-pop",
+   "indie rock",
+   "electronic",
+   "indie pop",
+   "rock",
+   "pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/82b000c5-b4ca-4c6d-8ea1-68622dda00c8/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2014",
+  "checked": "2026-09-19"
+ },
+ "Fuzz::Fuzz": {
+  "status": "ok",
+  "mbid": "ba64ea4a-4a28-47ba-a209-e803899fc655",
+  "genres": [
+   "rock",
+   "heavy metal",
+   "heavy psych"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/ba64ea4a-4a28-47ba-a209-e803899fc655/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2013",
+  "checked": "2026-09-19"
+ },
+ "G.L.O.S.S::Trans Day of Revenge": {
+  "status": "ok",
+  "mbid": "d3e31a6b-fa31-4cf5-97a4-748799cd2f43",
+  "genres": [
+   "punk",
+   "punk rock",
+   "rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/d3e31a6b-fa31-4cf5-97a4-748799cd2f43/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2016",
+  "checked": "2026-09-19"
+ },
+ "Gal Costa::Gal (1969)": {
+  "status": "ok",
+  "mbid": "08c54d03-3d33-44be-91dd-a23f3f396818",
+  "genres": [
+   "mpb",
+   "latin"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/08c54d03-3d33-44be-91dd-a23f3f396818/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1992",
+  "checked": "2026-09-19"
+ },
+ "Gal Costa::Gal Costa": {
+  "status": "ok",
+  "mbid": "2df16c69-a343-3c95-a9a9-c9a7c9db2bb7",
+  "genres": [
+   "rock",
+   "experimental",
+   "mpb",
+   "psychedelic rock",
+   "avant-garde",
+   "latin"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/2df16c69-a343-3c95-a9a9-c9a7c9db2bb7/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1969",
+  "checked": "2026-09-19"
+ },
+ "Galaxie 500::This is Our Music": {
+  "status": "ok",
+  "mbid": "4162ce38-f5d0-32e8-8f69-d5e49a9c71a8",
+  "genres": [
+   "alternative rock",
+   "rock",
+   "indie rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/39/19/6a/39196a53-c1f3-c4b5-eda4-0d5b07712529/mzi.gmreurii.tif/600x600bb.jpg",
+  "cover_from": "itunes",
+  "mb_year": "1990",
+  "checked": "2026-09-19"
+ },
+ "Galaxie 500::On Fire": {
+  "status": "ok",
+  "mbid": "d25e7bfe-2f10-3413-a8a2-d166784f4994",
+  "genres": [
+   "alternative rock",
+   "dream pop",
+   "rock",
+   "psychedelic",
+   "slowcore",
+   "indie rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/d25e7bfe-2f10-3413-a8a2-d166784f4994/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1989",
+  "checked": "2026-09-19"
+ },
+ "Galaxie 500::Today": {
+  "status": "ok",
+  "mbid": "f40da875-567e-363a-89f6-9a4687c4756e",
+  "genres": [
+   "rock",
+   "alternative rock",
+   "indie rock",
+   "dream pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/f40da875-567e-363a-89f6-9a4687c4756e/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1988",
+  "checked": "2026-09-19"
+ },
+ "Gang Gang Dance::Eye Contact": {
+  "status": "ok",
+  "mbid": "978d401e-6875-40bf-a3b2-d98ed15a143f",
+  "genres": [
+   "rock",
+   "electronic",
+   "pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/978d401e-6875-40bf-a3b2-d98ed15a143f/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2011",
+  "checked": "2026-09-19"
+ },
+ "Gang Gang Dance::Saint Dymphna": {
+  "status": "ok",
+  "mbid": "7e96d72f-4b43-38f7-83d3-58487318b849",
+  "genres": [
+   "experimental",
+   "rock",
+   "electronic",
+   "pop",
+   "psychedelic rock",
+   "experimental rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/7e96d72f-4b43-38f7-83d3-58487318b849/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2008",
+  "checked": "2026-09-19"
+ },
+ "Gang of Four::Entertainment!": {
+  "status": "ok",
+  "mbid": "d0493944-992b-3534-9174-8320c1879837",
+  "genres": [
+   "post-punk",
+   "punk",
+   "dance-punk",
+   "rock",
+   "punk rock",
+   "art punk"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/d0493944-992b-3534-9174-8320c1879837/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1979",
+  "checked": "2026-09-19"
+ },
+ "Gang of Youths::Go Farther in Lightness": {
+  "status": "ok",
+  "mbid": "1ea97022-27ba-4bf5-8ab5-4ae76836e1c1",
+  "genres": [
+   "rock",
+   "indie rock",
+   "alternative rock",
+   "post-punk"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/1ea97022-27ba-4bf5-8ab5-4ae76836e1c1/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-19"
+ },
+ "Gang Starr::Moment of Truth": {
+  "status": "ok",
+  "mbid": "248b3e39-8504-3253-97be-e6afdf6c22fa",
+  "genres": [
+   "hip hop",
+   "jazz rap",
+   "east coast hip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/248b3e39-8504-3253-97be-e6afdf6c22fa/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1998",
+  "checked": "2026-09-19"
  }
 }

@@ -28,6 +28,30 @@ caffeinate -i -w $(pgrep -f after-backfill | head -1) &
 To see the app while they run: `python3 -m http.server 8777` from the project
 root, then <http://localhost:8777/app/index.html>.
 
+## When the backfill finishes
+
+**Review the fuzzy-sourced covers.** Around 80 albums get artwork from Deezer or
+iTunes rather than the Cover Art Archive, which means it was matched on text
+rather than by id — those are the ones that could be wrong. To list them:
+
+```sh
+python3 -c "
+import json; d=json.load(open('data/enrichment.json'))
+for k,v in d.items():
+    if v.get('cover_from') in ('deezer','itunes'):
+        print(f\"[{v['cover_from']:6}] {k.replace('::',' — ')[:60]}\")"
+```
+
+Do not simply delete them and re-run: the fallbacks only fire when the Cover
+Art Archive has nothing, so a retry returns the same image or none at all, and
+`--retry` selects on match status rather than cover source anyway.
+
+Worth knowing before you start: about 80% of those have **no MusicBrainz id at
+all** — mostly Korean and Japanese artists, plus typos like "Gorilaz" and
+"Dogrels". For those, fixing the artist or album name is the real repair, and
+the cover follows. Only the handful that *do* have an id are cases where
+MusicBrainz knew the record but had no picture.
+
 ## Next real step
 
 Two commands only you can run. Everything cloud-side is blocked on them:
