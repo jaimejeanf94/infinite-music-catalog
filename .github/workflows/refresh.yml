@@ -10,6 +10,11 @@ name: Refresh catalogue
 #
 # Enrichment is batched because MusicBrainz allows one request a second: the
 # full collection is ~75 minutes, 300 albums is about seven.
+#
+# This runs on GitHub's machines, not yours -- the schedule fires whether or
+# not your computer is on. To do the whole backfill here instead of locally,
+# use "Run workflow" with a batch of 5000; a job may run for up to six hours,
+# so ~75 minutes is comfortable.
 
 on:
   schedule:
@@ -17,7 +22,7 @@ on:
   workflow_dispatch:
     inputs:
       batch:
-        description: "How many albums to enrich this run"
+        description: "How many albums to enrich this run (use 5000 for a full backfill)"
         default: "300"
 
 permissions:
@@ -38,13 +43,17 @@ jobs:
         with:
           node-version: "22"
 
+      # Both database steps are skipped until the Supabase secrets exist, so
+      # enrichment can run on GitHub's machines before the database does.
       - name: Back the database up to CSV
+        if: ${{ env.SUPABASE_URL != '' }}
         run: node scripts/export.mjs
 
       - name: Enrich a batch
         run: node scripts/enrich.mjs --limit=${{ inputs.batch || 300 }}
 
       - name: Push genres and artwork back
+        if: ${{ env.SUPABASE_URL != '' }}
         run: node scripts/import.mjs
 
       - name: Commit the backup

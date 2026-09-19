@@ -1500,5 +1500,240 @@
   "cover_from": "coverartarchive",
   "mb_year": "2010",
   "checked": "2026-09-19"
+ },
+ "Natalia Lafourcade::Cancionera": {
+  "status": "ok",
+  "mbid": "8b4859fb-c847-4926-8766-426883273e0c",
+  "genres": [
+   "singer-songwriter",
+   "bolero",
+   "latin"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/8b4859fb-c847-4926-8766-426883273e0c/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2025",
+  "checked": "2026-09-19"
+ },
+ "Nick Cave & The Bad Seeds::No More Shall We Part": {
+  "status": "partial",
+  "cover_url": "https://cdn-images.dzcdn.net/images/cover/1bf4f255483ba23cfd31dd699ae439d4/1000x1000-000000-80-0-0.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Nick Cave & The Bad Seeds::Let Love In": {
+  "status": "ok",
+  "mbid": "f369d4bf-71f1-31f5-9e01-ffdbf15acdbe",
+  "genres": [
+   "alternative rock",
+   "post-punk",
+   "rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/f369d4bf-71f1-31f5-9e01-ffdbf15acdbe/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1994",
+  "checked": "2026-09-19"
+ },
+ "Opeth::Damnation": {
+  "status": "ok",
+  "mbid": "2864ec02-5e6a-36d8-9960-ccd959b9a618",
+  "genres": [
+   "progressive rock",
+   "rock",
+   "post-rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/2864ec02-5e6a-36d8-9960-ccd959b9a618/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2003",
+  "checked": "2026-09-19"
+ },
+ "Os Mutantes::A Divina Comédia ou Ando Meio Desligado": {
+  "status": "ok",
+  "mbid": "79e9593d-3d7e-3dfd-8126-794b76d803e8",
+  "genres": [
+   "psychedelic rock",
+   "rock",
+   "psychedelic pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/79e9593d-3d7e-3dfd-8126-794b76d803e8/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1970",
+  "checked": "2026-09-19"
+ },
+ "Panda Bear::Sinister Grift": {
+  "status": "ok",
+  "mbid": "f02f15c0-3dcd-4463-bcdf-c87838fd27d4",
+  "genres": [
+   "neo-psychedelia",
+   "psychedelic pop",
+   "dub"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/f02f15c0-3dcd-4463-bcdf-c87838fd27d4/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2025",
+  "checked": "2026-09-19"
+ },
+ "Parquet Courts::Human Performance": {
+  "status": "ok",
+  "mbid": "3353a8a0-a5ab-4970-b34e-090afcc2bba7",
+  "genres": [
+   "indie rock",
+   "rock",
+   "post-punk"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/3353a8a0-a5ab-4970-b34e-090afcc2bba7/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2016",
+  "checked": "2026-09-19"
+ },
+ "Pavement::Slanted and Enchanted": {
+  "status": "ok",
+  "mbid": "869f9eac-2a40-3a41-80a3-6bf2297a7cbc",
+  "genres": [
+   "rock",
+   "indie rock",
+   "alternative rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/869f9eac-2a40-3a41-80a3-6bf2297a7cbc/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1992",
+  "checked": "2026-09-19"
+ },
+ "Pavement::Watery, Domestic": {
+  "status": "ok",
+  "mbid": "3fb4d4da-26ed-37fd-af8d-3a4488f8e166",
+  "genres": [
+   "indie rock",
+   "rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/3fb4d4da-26ed-37fd-af8d-3a4488f8e166/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1992",
+  "checked": "2026-09-19"
+ },
+ "Poppy::EAT (NXT Soundtrack)": {
+  "status": "ok",
+  "mbid": "6c68736b-cedb-44bc-ac13-c28751e08525",
+  "genres": [],
+  "cover_url": null,
+  "cover_from": null,
+  "mb_year": "2021",
+  "checked": "2026-09-19"
+ },
+ "Portishead::Dummy": {
+  "status": "ok",
+  "mbid": "48140466-cff6-3222-bd55-63c27e43190d",
+  "genres": [
+   "trip hop",
+   "electronic",
+   "downtempo"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/48140466-cff6-3222-bd55-63c27e43190d/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1994",
+  "checked": "2026-09-19"
+ },
+ "Quelle Chris::Guns": {
+  "status": "ok",
+  "mbid": "f65fa67a-7f89-4746-b87e-ae2b0e56f33e",
+  "genres": [
+   "hip hop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/f65fa67a-7f89-4746-b87e-ae2b0e56f33e/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2019",
+  "checked": "2026-09-19"
+ },
+ "Sampha::Process": {
+  "status": "ok",
+  "mbid": "9dde8e62-7159-415f-9a54-74f170e2a4aa",
+  "genres": [
+   "contemporary r&b",
+   "electronic",
+   "soul"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/9dde8e62-7159-415f-9a54-74f170e2a4aa/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-19"
+ },
+ "The Beatles::Rubber Soul": {
+  "status": "ok",
+  "mbid": "dca03435-8adb-30a5-ba82-5a162267ff38",
+  "genres": [
+   "rock",
+   "folk rock",
+   "pop rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/dca03435-8adb-30a5-ba82-5a162267ff38/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1965",
+  "checked": "2026-09-19"
+ },
+ "The Microphones::It Was Hot, We Stayed in the Water": {
+  "status": "ok",
+  "mbid": "2cbcc27b-5480-3bb1-b45a-e698616930d9",
+  "genres": [
+   "indie rock",
+   "lo-fi",
+   "indie folk"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/2cbcc27b-5480-3bb1-b45a-e698616930d9/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2000",
+  "checked": "2026-09-19"
+ },
+ "The Silver Mt. Zion Memorial Orchestra & Tra-La-La Band::Born into Trouble as the Sparks Fly Upward": {
+  "status": "ok",
+  "mbid": "9495fb7c-8120-3477-bec8-92b98c95cb07",
+  "genres": [
+   "rock",
+   "post-rock",
+   "experimental"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/9495fb7c-8120-3477-bec8-92b98c95cb07/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2001",
+  "checked": "2026-09-19"
+ },
+ "Tyler, The Creator::CALL ME IF YOU GET LOST: The Estate Cell": {
+  "status": "ok",
+  "mbid": "c65de046-7a48-4269-b4e5-4db0ed328f47",
+  "genres": [
+   "hip hop",
+   "west coast hip hop",
+   "neo soul"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/c65de046-7a48-4269-b4e5-4db0ed328f47/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2021",
+  "checked": "2026-09-19"
+ },
+ "Tyler, The Creator::CALL ME IF YOU GET LOST": {
+  "status": "ok",
+  "mbid": "c65de046-7a48-4269-b4e5-4db0ed328f47",
+  "genres": [
+   "hip hop",
+   "west coast hip hop",
+   "neo soul"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/c65de046-7a48-4269-b4e5-4db0ed328f47/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2021",
+  "checked": "2026-09-19"
+ },
+ "Underworld::1992-2012 - CD1": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Underworld::1992-2012 - CD2": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
  }
 }
