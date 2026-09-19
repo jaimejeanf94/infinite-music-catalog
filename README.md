@@ -177,6 +177,35 @@ No account, no keys. Results land in `data/enrichment.json`, keyed by artist and
 title, and both the app and `import.mjs` merge them. Resumable — stop it
 whenever, it picks up where it left off.
 
+**The retry pass runs itself.** `--retry` re-attempts albums that failed and
+albums that matched but carry no genres, with a 14-day cooldown per album so
+the ones MusicBrainz genuinely lacks are not re-queried every night. The nightly
+workflow runs it after each batch, and `scripts/after-backfill.sh` waits for a
+local backfill to exit and sweeps immediately. Nothing to remember.
+
+### When a match fails
+
+The query is relaxed in stages, and each stage only runs because the last one
+failed, so the ~88% that match first time pay nothing:
+
+1. The title as written, then with disc markers, bracketed editions and
+   subtitles stripped.
+2. An unquoted search, accepted only when artist *and* title agree.
+3. **Anchored on the artist instead.** MusicBrainz's artist search is fuzzy, so
+   "Gorilaz" still finds Gorillaz — then the title is matched against that one
+   band's discography rather than the whole database, which is what makes a
+   loose match safe. This recovers misspelled artists: "Freddie Gibs",
+   "Mr. Morales".
+4. Still nothing: Deezer is asked for artwork alone, and the album is recorded
+   as a no-match — which doubles as a spelling report.
+
+Albums MusicBrainz has but nobody tagged (~5%) fall back to the **artist's** own
+tags, recorded as `genre_source: "artist"` since those describe a career rather
+than a record.
+
+Non-Latin titles are the one case nothing recovers: text queries and edit
+distance are both meaningless across scripts.
+
 **Measured at 4.8 seconds an album.** Not one request a second: an album that
 misses its first query is retried with progressively looser ones, and each retry
 is another request against MusicBrainz's limit. Albums that match immediately
