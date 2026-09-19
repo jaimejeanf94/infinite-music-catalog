@@ -6369,5 +6369,245 @@
   "cover_from": "deezer",
   "genres": [],
   "tried": "2026-09-19"
+ },
+ "Air France::No Way Down": {
+  "status": "ok",
+  "mbid": "ddca433f-ee3f-3b9a-86b2-a654ae9e27f5",
+  "genres": [
+   "electronic",
+   "pop",
+   "disco"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/ddca433f-ee3f-3b9a-86b2-a654ae9e27f5/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2008",
+  "checked": "2026-09-19"
+ },
+ "Alanis Morissette::Jagged Little Pill": {
+  "status": "ok",
+  "mbid": "ee3d18ed-d6a8-37c7-a964-41bbdb6d59f1",
+  "genres": [
+   "rock",
+   "alternative rock",
+   "post-grunge"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/ee3d18ed-d6a8-37c7-a964-41bbdb6d59f1/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1995",
+  "checked": "2026-09-19"
+ },
+ "Alcest::Kodama": {
+  "status": "ok",
+  "mbid": "99d51091-53ee-4ed7-b5ef-afc0df92b1fe",
+  "genres": [
+   "blackgaze",
+   "post-metal",
+   "shoegaze"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/99d51091-53ee-4ed7-b5ef-afc0df92b1fe/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2016",
+  "checked": "2026-09-19"
+ },
+ "Alcest::Souvenirs d'un autre monde": {
+  "status": "ok",
+  "mbid": "bd1d028d-fa98-3fe6-b61c-18a0a990cb7e",
+  "genres": [
+   "blackgaze",
+   "shoegaze",
+   "post-metal"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/bd1d028d-fa98-3fe6-b61c-18a0a990cb7e/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2007",
+  "checked": "2026-09-19"
+ },
+ "Alcest::Écailles de Lune": {
+  "status": "ok",
+  "mbid": "9cdee313-b6c0-41e2-b513-91d46fc6837a",
+  "genres": [
+   "blackgaze",
+   "shoegaze",
+   "post-metal"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/9cdee313-b6c0-41e2-b513-91d46fc6837a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2010",
+  "checked": "2026-09-19"
+ },
+ "Aldous Harding::Warm Chris": {
+  "status": "ok",
+  "mbid": "0e5fc317-a896-4463-b498-010d80ab6645",
+  "genres": [
+   "rock",
+   "pop",
+   "indie rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/0e5fc317-a896-4463-b498-010d80ab6645/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2022",
+  "checked": "2026-09-19"
+ },
+ "Aldous Harding::Designer": {
+  "status": "ok",
+  "mbid": "189a9252-59e5-4395-b745-f690915cf213",
+  "genres": [
+   "rock",
+   "pop",
+   "alternative rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/189a9252-59e5-4395-b745-f690915cf213/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2019",
+  "checked": "2026-09-19"
+ },
+ "Alex Anwandter::Latinoamericana": {
+  "status": "ok",
+  "mbid": "fe26a80a-24bc-4c1b-b9d5-c4cb8ed725dc",
+  "genres": [],
+  "cover_url": "https://coverartarchive.org/release-group/fe26a80a-24bc-4c1b-b9d5-c4cb8ed725dc/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2018",
+  "checked": "2026-09-19"
+ },
+ "Alex Cameron::Miami Memory": {
+  "status": "ok",
+  "mbid": "08f25199-41f1-4615-a75e-6f8a9de33dec",
+  "genres": [
+   "synth-pop",
+   "rock",
+   "pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/08f25199-41f1-4615-a75e-6f8a9de33dec/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2019",
+  "checked": "2026-09-19"
+ },
+ "Alex Cameron::Forced Witness": {
+  "status": "ok",
+  "mbid": "43f7ce86-9448-4914-a867-5220b4a7555d",
+  "genres": [
+   "synth-pop",
+   "new wave",
+   "heartland rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/43f7ce86-9448-4914-a867-5220b4a7555d/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-19"
+ },
+ "Alex G::God Save The Animals": {
+  "status": "ok",
+  "mbid": "26e50192-3b06-4556-952c-36d86c4253e3",
+  "genres": [
+   "indie rock",
+   "alternative rock",
+   "indie pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/26e50192-3b06-4556-952c-36d86c4253e3/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2022",
+  "checked": "2026-09-19"
+ },
+ "Alex G::Race": {
+  "status": "ok",
+  "mbid": "1b6f453c-0889-473e-b6cf-6bb559928f25",
+  "genres": [
+   "rock",
+   "pop",
+   "lo-fi"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/1b6f453c-0889-473e-b6cf-6bb559928f25/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2011",
+  "checked": "2026-09-19"
+ },
+ "Alex Turner::Submarine": {
+  "status": "ok",
+  "mbid": "724f9cf9-b495-49b7-a728-c6fef6ef635f",
+  "genres": [
+   "indie folk",
+   "indie pop",
+   "rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/724f9cf9-b495-49b7-a728-c6fef6ef635f/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2011",
+  "checked": "2026-09-19"
+ },
+ "Algiers::The Underside of Power": {
+  "status": "ok",
+  "mbid": "4df4d199-19c9-450d-bf32-35115788a9f1",
+  "genres": [
+   "rock",
+   "electronic",
+   "post-punk"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/4df4d199-19c9-450d-bf32-35115788a9f1/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-19"
+ },
+ "Ali Farka Toure::Savana": {
+  "status": "partial",
+  "cover_url": "https://cdn-images.dzcdn.net/images/cover/cb2a4a4139c2a6f40ce8bf1f99dcc0f0/1000x1000-000000-80-0-0.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Alice Coltrane::Journey in Satchidananda": {
+  "status": "ok",
+  "mbid": "cf154081-2678-3778-95cf-cd31c4ea5dfe",
+  "genres": [
+   "jazz",
+   "avant-garde jazz",
+   "free jazz"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/cf154081-2678-3778-95cf-cd31c4ea5dfe/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1971",
+  "checked": "2026-09-19"
+ },
+ "Alice in Chains::Alice in Chains": {
+  "status": "ok",
+  "mbid": "5918ad2b-91e7-4edd-b8e9-dfb57afa0f80",
+  "genres": [],
+  "cover_url": "https://coverartarchive.org/release-group/5918ad2b-91e7-4edd-b8e9-dfb57afa0f80/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1989",
+  "checked": "2026-09-19"
+ },
+ "Alice in Chains::Unplugged": {
+  "status": "partial",
+  "cover_url": "https://cdn-images.dzcdn.net/images/cover/1dd96fe2b1ab3ed2b750fad203de61ee/1000x1000-000000-80-0-0.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Alice in Chains::Jar Of Files": {
+  "status": "ok",
+  "mbid": "3b6b7688-c97b-3d11-9334-3158468074f7",
+  "genres": [
+   "grunge",
+   "alternative rock",
+   "rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/3b6b7688-c97b-3d11-9334-3158468074f7/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1994",
+  "checked": "2026-09-19"
+ },
+ "Alice in Chains::Dirt": {
+  "status": "ok",
+  "mbid": "92d8f0c4-8c64-3bee-bee1-812a70e77efa",
+  "genres": [
+   "grunge",
+   "alternative metal",
+   "alternative rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/92d8f0c4-8c64-3bee-bee1-812a70e77efa/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1992",
+  "checked": "2026-09-19"
  }
 }

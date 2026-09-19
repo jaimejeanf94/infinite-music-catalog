@@ -2,33 +2,46 @@
 
 A randomiser and rating tool for a 4,476-album listening list that outgrew its
 spreadsheet. Roll an album, rate it in one keystroke, and browse the whole
-collection by artist, year or score.
+collection by artist, year, score or genre.
 
-The data started life in the Google Sheet tab *Infinite Hipster Eclectic CDs*.
-That sheet stays the historical record; this app is where the ratings happen now.
-
----
-
-## How it fits together
-
-```
-data/albums.csv ──> Supabase (Postgres)  <──> app/  ──> Vercel
-   the catalog          the live data         the UI     the URL
-```
-
-- **No build step.** React, Babel and the Supabase client load from a CDN and
-  the `.jsx` files compile in the browser. Edit a file, refresh, see the change.
-- **Two data sources, one interface.** `app/supabase-client.js` talks to the
-  cloud; `app/local-source.js` reads the CSV and saves to `localStorage`. If
-  `config.js` has no Supabase keys, local mode takes over automatically and the
-  rest of the app never notices.
-- **Anyone can read, only you can write.** Enforced by Row Level Security in
-  `db/schema.sql`, not by hiding the key in `config.js` — that key is meant to
-  be public.
+| | |
+|---|---|
+| Albums | 4,476 (2,197 artists, 1953–2026) |
+| Rated | 403 at migration — the other 91% is the point of the app |
+| In the random pool | 4,377 |
+| Cost to run | nothing; every service is on a free tier |
 
 ---
 
-## 1. Run it locally
+## 1. How it fits together
+
+```
+Supabase (Postgres)  ←→  app/  ─────→  Vercel
+   source of truth       the UI       the URL
+        │
+        ├── export.mjs ──→ data/albums.csv ──→ committed to git (the backup)
+        └── enrich.mjs ──→ data/enrichment.json (genres, artwork, ids)
+```
+
+Three things to understand and the rest follows:
+
+**No build step.** React, Babel and the Supabase client load from a CDN and the
+`.jsx` files compile in the browser. Edit a file, refresh, see the change. There
+is no `npm install` anywhere in this project, and no `node_modules`.
+
+**Two data sources behind one interface.** `app/supabase-client.js` talks to the
+cloud; `app/local-source.js` reads the CSV and saves to `localStorage`. If
+`config.js` has no Supabase keys, local mode takes over automatically and the
+rest of the app never notices. That is your development environment — you can
+work on the app without touching live data.
+
+**Anyone can read, only you can write.** Enforced by Row Level Security in
+`db/schema.sql`, not by hiding the key in `config.js` — that key is designed to
+be public.
+
+---
+
+## 2. Run it locally
 
 From the project root:
 
@@ -36,16 +49,22 @@ From the project root:
 python3 -m http.server 8777
 ```
 
-Open <http://localhost:8777/app/index.html>. A `LOCAL` badge in the header means
-it is reading `data/albums.csv` and saving ratings to this browser only.
+Open <http://localhost:8777/app/index.html>. A `LOCAL` badge means it is reading
+`data/albums.csv` and saving to this browser only.
 
 Serve from the **project root**, not from inside `app/` — the page reaches up to
-`../data/albums.csv`.
+`../data/`.
 
-Rated a few albums locally and want to keep them? Open the browser console and
-run `db.exportEdits()` — it prints SQL you can paste into Supabase later.
+Rated things in local mode and want to keep them? `db.exportEdits()` in the
+browser console prints SQL you can paste into Supabase.
 
-### Keyboard shortcuts on the Roll screen
+---
+
+## 3. The two screens
+
+### Roll — the randomiser
+
+Built for speed: one album, one keystroke, next.
 
 | Key | Does |
 |-----|------|
@@ -55,94 +74,68 @@ run `db.exportEdits()` — it prints SQL you can paste into Supabase later.
 | `p` | Log a play |
 | `x` | Drop it from the random pool |
 
----
+Three modes. **Weighted** is the day-to-day roll (section 7). **Unrated** draws
+only from albums with no score — the mode for working through the backlog.
+**Uniform** gives every album in the pool equal odds. Switching mode rolls
+immediately rather than leaving the last album on screen.
 
-## 2. Put it in the cloud
+### Browse — the shelf
 
-### a. Create the Supabase project
+Search across artist, album and year; filter by rated / unrated / out of pool /
+deleted; filter by genre; sort four ways. Tiles render 60 at a time and grow as
+you scroll, because 4,476 at once crawls.
 
-1. Sign up at [supabase.com](https://supabase.com) and create a project. Any
-   region near you is fine; save the database password somewhere safe even
-   though this app never uses it directly.
-2. **SQL Editor → New query.** Paste all of `db/schema.sql`, press Run. That
-   creates the `albums`, `rolls` and `plays` tables and the security rules.
-3. **Authentication → Users → Add user.** Create one user with your email and a
-   password. This is the only account that will ever exist.
-4. **Authentication → Sign In / Providers → Email.** Turn *Allow new users to
-   sign up* **off**. Now "signed in" and "you" mean the same thing, which is
-   what the security rules rely on.
-
-### b. Load the albums
-
-**Table Editor → `albums` → Insert → Import data from CSV**, and give it
-`data/albums.csv`. Leave the `id` column out; the database fills it in.
-
-It should report 4,476 rows. (Prefer the terminal? `node scripts/import.mjs`
-does the same thing — see *Running the scripts* below.)
-
-### c. Point the app at it
-
-**Project Settings → API.** Copy the *Project URL* and the *anon / publishable*
-key into `app/config.js`:
-
-```js
-window.IH_CONFIG = {
-  SUPABASE_URL: "https://xxxxxxxx.supabase.co",
-  SUPABASE_KEY: "sb_publishable_...",
-};
-```
-
-Refresh <http://localhost:8777/app/index.html>. The `LOCAL` badge disappears and
-a **Sign in** button appears — that is the cloud talking. Sign in with the user
-from step (a)(3) and rate something to confirm writes work.
-
-### d. Deploy to Vercel
-
-1. Push to GitHub first (next section).
-2. At [vercel.com](https://vercel.com), *Add New → Project*, import the repo.
-3. Framework preset **Other**, root directory **`app`**, no build command.
-4. Deploy. You get a `https://….vercel.app` URL, and every future `git push`
-   redeploys it automatically.
-
-Nothing secret ships in the bundle: the publishable key is designed to be
-public, and the security rules are what protect the data.
+- **+ Add album** — artist and title required, year and an initial score
+  optional. Duplicates are refused by the database and caught in the form first,
+  so it tells you which album clashes.
+- **Delete** — two taps, no browser dialog. Never destructive (section 5).
+- **Cover image** — paste a URL in the detail sheet to override the artwork.
+  That sets `cover_locked` and the nightly run stops touching it.
 
 ---
 
-## 3. Git and GitHub
+## 4. The data model
 
-One-time identity setup, so commits are stamped with your name:
-
-```sh
-git config --global user.name "Your Name"
-git config --global user.email "you@example.com"
+```sql
+albums    artist, title, year, score, in_pool, notes, genres, mbid,
+          cover_url, cover_locked, source, deleted_at
+rolls     album_id, mode, outcome, rolled_at      -- what the randomiser served
+plays     album_id, source, played_at             -- what you actually listened to
 ```
 
-The everyday loop:
+`score` is `NULL` until you rate it, and stays distinct from 100 on purpose —
+see section 7. `source` records whether an album came from the original
+spreadsheet or was added in the app. `in_pool` is the sheet's old `RSP` column:
+false means it never comes up on a roll, without being deleted.
 
-```sh
-git status                   # what changed
-git add -A                   # stage everything
-git commit -m "Add notes"    # save a snapshot locally
-git push                     # send it to GitHub
-```
+### What overwrites what
 
-Creating the GitHub side, once:
-
-```sh
-gh auth login                                   # sign in to GitHub
-gh repo create infinite-music-catalog --private --source=. --push
-```
-
-`--private` keeps it to you; swap in `--public` to share. `--source=.` means
-"use this folder", and `--push` uploads the commits you already made.
+| Field | Written by | Touched by the nightly run? |
+|---|---|---|
+| artist, title, year | you | **never** |
+| score, notes, in_pool | you | **never** |
+| genres, mbid | enrichment | yes — refreshed |
+| cover_url | enrichment, or you | **yours is kept** (`cover_locked`) |
+| deleted_at | you | never resurrected |
 
 ---
 
-## 4. Genres and artwork
+## 5. Deleting is never destructive
 
-`scripts/enrich.mjs` gives every album a stable identity and the data that hangs
-off it. It needs no account and no keys:
+Nothing is removed from the database. Deleting sets `deleted_at` and the row
+stays where it was — a timestamp rather than a boolean, so you also know when.
+
+Everything respects it: the app hides it, `export.mjs` leaves it out of the CSV,
+and `import.mjs` deliberately still counts it as present so the nightly run
+cannot bring it back.
+
+To undo, open **Browse → Deleted** and press Restore. Score, notes and artwork
+come back, because they never went anywhere. Local mode behaves identically,
+with the tombstone as a list of ids in `localStorage`.
+
+---
+
+## 6. Genres and artwork
 
 ```sh
 node scripts/enrich.mjs              # the whole collection, ~6 hours
@@ -150,97 +143,172 @@ node scripts/enrich.mjs --limit=50   # a batch
 node scripts/enrich.mjs --retry      # re-attempt previous failures
 ```
 
-Results land in `data/enrichment.json`, keyed by artist and title, and the app
-merges them. It is resumable — stop it whenever, it picks up where it left off.
+No account, no keys. Results land in `data/enrichment.json`, keyed by artist and
+title, and both the app and `import.mjs` merge them. Resumable — stop it
+whenever, it picks up where it left off.
 
-Measured at **4.8 seconds an album**, so about six hours for the full 4,476.
-That is slower than one request a second because an album that does not match
-on the first query is retried with progressively looser ones, and each of those
-is another request against MusicBrainz's one-per-second limit. Albums that match
-immediately take about 1.5 seconds; the awkward ones take seven.
+**Measured at 4.8 seconds an album.** Not one request a second: an album that
+misses its first query is retried with progressively looser ones, and each retry
+is another request against MusicBrainz's limit. Albums that match immediately
+take ~1.5s; awkward ones take seven.
 
-### Why it is built this way
+### Why it works this way
 
-The first version searched iTunes by text and took the first result. iTunes
-**always** returns something, so albums it had never heard of quietly got other
-bands' covers, and nothing checked the artist even matched.
+The first version searched iTunes and took result number one. iTunes **always**
+returns something, so albums it had never heard of quietly got other bands'
+covers, and nothing checked the artist matched.
 
 Now each album is identified once against MusicBrainz, which returns nothing
-rather than a wrong guess and scores the matches it does make. A match is only
-accepted when the score is at least 85 **and** the artist name agrees. From
-there everything keys off the release-group id: artwork comes from the Cover Art
-Archive *by id*, so it cannot drift onto the wrong record. iTunes survives only
-as a fallback for albums the Archive has no image for, and its answer is now
-checked against the artist name before being accepted.
+rather than a wrong guess. A match needs a score of 85+ **and** artist-name
+agreement, and candidates are ranked so live, remix and compilation editions
+lose to the studio album unless your title asks for one. Artwork then comes from
+the Cover Art Archive **by id**, so it cannot drift onto the wrong record.
 
-MusicBrainz genres are also far better suited to this collection than iTunes'
-handful of buckets — `blackgaze`, `third stream`, `hyperpop` rather than
-`Rock`, `Jazz`, `Electronic`. Free-text tags like "artist on cover" are filtered
-against MusicBrainz's list of 2,202 real genres, cached in `data/mb-genres.json`.
+Deezer is a fallback for the handful MusicBrainz cannot place — it tolerates
+misspelled artists. iTunes is the last resort, and its answer is now
+artist-checked before use.
 
-Two useful side effects:
+Genres come from MusicBrainz tags filtered against its 2,202 canonical genres
+(cached in `data/mb-genres.json`), which is how you get `blackgaze` and
+`third stream` rather than `Rock` and `Jazz`.
 
-- **Albums MusicBrainz cannot find are usually typos in the sheet.** The first
-  run flagged "Freddie Gibs & Madlib" (it is Gibbs).
-- **Year disagreements are reported, never applied** — the sheet may hold the
-  pressing you own rather than the first release, so that is your call.
+**Measured against three sources** on the twelve albums that actually broke:
+MusicBrainz 10/12, Discogs 6/12, Deezer 4/12. Neither alternative found anything
+MusicBrainz could not, so neither is in the pipeline.
 
----
+Two side effects worth knowing:
 
-## 5. Deleting is never destructive
-
-Nothing is ever removed from the database. Deleting sets `deleted_at`, and the
-row stays exactly where it was — a timestamp rather than a boolean, so you also
-know *when* it happened.
-
-Everything respects it: the app hides it, `export.mjs` leaves it out of the CSV,
-and `import.mjs` deliberately still counts it as present so the nightly run
-cannot bring it back.
-
-To undo a mistake, open **Browse → Deleted** and press Restore. Album art,
-score and notes all come back with it, because they never went anywhere.
-
-The same applies in local mode, where the tombstone is a list of ids in
-`localStorage` rather than a column.
+- **Albums nothing can find are usually typos in your data.** The no-match list
+  is a spelling report — it caught "Freddie Gibs" and "Gorilaz".
+- **Year disagreements are reported, never applied.** Your entry may be the
+  pressing you own rather than the first release.
 
 ---
 
-## 6. The data flow
+## 7. How the randomiser works
 
-**Postgres is the source of truth.** The Google Sheet was the seed, not the
-engine, and the app is now where albums are added, rated and removed.
+Albums are weighted by **tier**, not individually: each score owns a fixed slice
+of the odds and splits it evenly among its members.
 
-`.github/workflows/refresh.yml` runs nightly on GitHub:
+| Tier | Share of rolls | Albums | Odds for one album |
+|---|---|---|---|
+| 100 | 18.75% | 59 | 0.318% |
+| 95 | 11.25% | 27 | 0.417% |
+| 90 | 11.25% | 61 | 0.184% |
+| 85 | 9.75% | 60 | 0.163% |
+| 80 | 9.75% | 74 | 0.132% |
+| 75 | 7.13% | 58 | 0.123% |
+| 70 | 7.13% | 60 | 0.119% |
+| unrated | 25% | 3,978 | 0.006% |
 
-1. `export.mjs` writes the database out to `data/albums.csv`
-2. `enrich.mjs` works through 300 albums still missing genres or artwork
-3. `import.mjs` pushes that enrichment back to the database
-4. the CSV is committed
+A quirk that follows from the design: a 95 has better per-album odds than a 100,
+because only 27 albums divide the 95 slice against 59 dividing the 100 slice.
+
+**One change from the spreadsheet.** There, the 100 tier also held every unrated
+album, so a genuine 100 was diluted to the odds of something never played. They
+are separate tiers here, and a real 100 now comes up ~50× more often than any
+one unrated album. The slider on the Roll screen moves the unrated share; at its
+25% default the overall balance matches the sheet.
+
+**The randomness is cryptographic.** `Math.random()` is a pseudo-random
+generator with no guarantee of unpredictability, so the roller draws from
+`crypto.getRandomValues()` — the operating system's entropy pool — 256 values at
+a time, each divided by 2³² to give a float in [0, 1).
+
+```sh
+node scripts/test-roller.mjs
+```
+
+rolls 200,000 times against the real collection and checks every figure in that
+table, confirms two runs differ, and spreads 100,000 raw draws across ten
+buckets. Run it after touching the randomiser.
+
+---
+
+## 8. Going live
+
+### a. Supabase
+
+1. Create a project at [supabase.com](https://supabase.com).
+2. **SQL Editor → New query**, paste all of `db/schema.sql`, Run.
+3. **Authentication → Users → Add user** — your email and a password. This is
+   the only account that will ever exist.
+4. **Authentication → Sign In / Providers → Email** — turn *Allow new users to
+   sign up* **off**. The security rules depend on it.
+5. **Table Editor → `albums` → Import data from CSV** — `data/albums.csv`.
+   Leave `id` out; the database fills it in. Or `node scripts/import.mjs`.
+6. **Project Settings → API** — copy the Project URL and the *anon /
+   publishable* key into `app/config.js`.
+
+Refresh: the `LOCAL` badge disappears and a Sign in button replaces it.
+
+> None of this SQL has been run against a live database yet. It is written to
+> fail loudly rather than silently, and `db/public_hardening.sql` ends with two
+> verification queries. Check them rather than assuming.
+
+### b. GitHub
+
+```sh
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+gh auth login
+gh repo create infinite-music-catalog --private --source=. --push
+```
+
+Then add four secrets under **Settings → Secrets and variables → Actions**:
+`SUPABASE_URL`, `SUPABASE_KEY`, `IMC_EMAIL`, `IMC_PASSWORD`.
+
+### c. Vercel
+
+*Add New → Project*, import the repo, framework **Other**, root directory
+**`app`**, no build command. Every future `git push` redeploys.
+
+### d. Before making anything public
+
+Run `db/public_hardening.sql` with your user id pasted in. Today, writes are
+allowed for any *signed-in* user, which is safe only because sign-ups are off —
+one checkbox between your collection and anyone who wants to edit it. The
+hardening file names exactly one user id, and closes read access on `rolls` and
+`plays`, which are the only personal data here.
+
+Then prove it: open the deployed site **signed out** and run
+`await db.updateAlbum(1, { score: 70 })` in the console. It must fail.
+
+---
+
+## 9. The nightly flow
+
+`.github/workflows/refresh.yml` runs at 07:00 UTC on GitHub's servers — your
+computer can be closed:
+
+1. `export.mjs` — database → `data/albums.csv`
+2. `enrich.mjs --limit=300` — ~25 minutes while there is a backlog, about a
+   minute once caught up
+3. `import.mjs` — pushes genres and artwork back
+4. commits the CSV
 
 Step 4 is the point: `git log data/albums.csv` becomes a dated history of the
 collection, and restoring a bad week is
 `git checkout <commit> -- data/albums.csv && node scripts/import.mjs`.
 
-Set four secrets under **Settings → Secrets and variables → Actions**:
-`SUPABASE_URL`, `SUPABASE_KEY`, `IMC_EMAIL`, `IMC_PASSWORD`.
+Both database steps are skipped when the Supabase secrets are absent, so the
+workflow is useful before the database exists. There is a **Run workflow**
+button in the Actions tab; a full backfill needs two runs of 2,500, since a job
+is capped at six hours.
 
-### Why the sheet was retired
+### Why the spreadsheet was retired
 
-Once the app could add and delete, keeping both meant two writable sources with
+Once the app could add and delete, keeping it meant two writable sources with
 only one-way sync — we cannot write back to Google Sheets without OAuth, so the
-sheet would have drifted wrong and stayed wrong. A weekly CSV in git is a better
-backup than the spreadsheet was: versioned, diffable, and restorable to any
-night.
-
-The original export is kept at `data/raw_sheet.csv`, and `data/clean.py` is the
-one-time migration that produced the first `albums.csv`. Neither runs any more.
+sheet would have drifted wrong and stayed wrong. The original export is kept at
+`data/raw_sheet.csv` and `data/clean.py` is the one-time migration that produced
+the first `albums.csv`. Neither runs any more.
 
 ---
 
-## 7. Running the scripts
+## 10. Running the scripts
 
-They read credentials from the environment, so nothing sensitive lands in the
-repo:
+Credentials come from the environment, so nothing sensitive is committed:
 
 ```sh
 export SUPABASE_URL="https://xxxxxxxx.supabase.co"
@@ -248,47 +316,25 @@ export SUPABASE_KEY="sb_publishable_..."
 export IMC_EMAIL="you@example.com"
 export IMC_PASSWORD="..."
 
-node scripts/export.mjs      # database -> data/albums.csv (the backup)
-node scripts/enrich.mjs      # genres, artwork, MusicBrainz ids
-node scripts/import.mjs      # push local data and enrichment to the database
-node scripts/test-roller.mjs # check the randomiser's odds
+node scripts/export.mjs      # database -> albums.csv (the backup)
+node scripts/enrich.mjs      # genres, artwork, MusicBrainz ids (no account)
+node scripts/import.mjs      # push albums and enrichment to the database
+node scripts/test-roller.mjs # check the randomiser's odds (no account)
 ```
-
-No `npm install` needed — the scripts use plain `fetch`.
 
 ---
 
-## 8. How the randomiser works
+## 11. Design
 
-The sheet weighted albums by **tier**, not individually: each score owns a fixed
-share of the odds and splits it among its members.
+The look is a committed direction rather than a default: bone-cream on ink,
+signal red, condensed signage type set large, monospace for every piece of data,
+hairline rules, square corners. The covers supply every other colour.
 
-| Score | Share of rolls | Albums | Effect |
-|-------|----------------|--------|--------|
-| 100 | 25% | 59 | ~19× a coin-flip pick |
-| 95 | 15% | 27 | ~25× |
-| 90 | 15% | 61 | ~11× |
-| 85 | 13% | 60 | ~10× |
-| 80 | 13% | 74 | ~8× |
-| 75 | 9.5% | 58 | ~7× |
-| 70 | 9.5% | 60 | ~7× |
-
-**One change from the sheet.** There, the 100 tier also held all 4,076 unrated
-albums, so a genuine 100 was diluted to the same odds as something you had never
-played. Here, unrated albums are their own tier with their own share — the
-slider on the Roll screen, 25% by default, which reproduces the sheet's overall
-balance. A real 100 now comes up about 50× more often than any one unrated album.
-
-Three modes:
-
-- **Weighted** — the table above. Your day-to-day roll.
-- **Unrated** — only albums with no score, for working through the backlog.
-- **Uniform** — every album in the pool equally likely.
-
-Albums with `in_pool = false` (the sheet's `RSP = No`) never come up in any mode.
-
-`node scripts/test-roller.mjs` rolls 200,000 times against the real collection
-and checks the results against this table.
+Four agent skills are installed **project-locally** under `.agents/skills`
+(symlinked into `.claude/skills`), so no other project on the machine sees them:
+`frontend-design` and `web-design-guidelines` from Vercel, `supabase` and
+`supabase-postgres-best-practices` from Supabase. They are guidance, not code.
+The Supabase pair exist because the SQL here has never been run.
 
 ---
 
@@ -298,17 +344,17 @@ and checks the results against this table.
 |------|-----------|
 | `app/index.html` | Shell, routing, sign-in, optimistic saves |
 | `app/roll.jsx` | The randomiser screen |
-| `app/browse.jsx` | Search, filters, grid, album detail |
-| `app/cover-art.jsx` | iTunes lookups, throttling, generated fallback art |
+| `app/browse.jsx` | Search, filters, grid, detail, add/delete/restore |
+| `app/cover-art.jsx` | Artwork by id, verified fallback, generated art |
 | `app/roller.js` | The weighting logic, kept plain so it can be tested |
 | `app/supabase-client.js` | Every call to the cloud, in one place |
 | `app/local-source.js` | The no-account fallback |
 | `app/config.js` | Your Supabase URL and key — the only file to edit by hand |
 | `db/schema.sql` | Tables, indexes, security rules |
-| `scripts/export.mjs` | Database → `albums.csv`, the nightly backup |
-| `data/clean.py` | One-time migration from the sheet (no longer run) |
-| `data/raw_sheet.csv` | Untouched snapshot of the original sheet |
-| `scripts/enrich.mjs` | Genres, artwork and MusicBrainz ids — needs no account |
-| `data/enrichment.json` | What that pass found, keyed by artist + title |
-| `.github/workflows/refresh.yml` | The scheduled data flow |
-| `scripts/` | Import, enrichment, roller tests |
+| `db/public_hardening.sql` | Run before making the repo or site public |
+| `scripts/enrich.mjs` | Genres, artwork, MusicBrainz ids |
+| `scripts/export.mjs` | Database → CSV, the nightly backup |
+| `scripts/import.mjs` | CSV and enrichment → database |
+| `scripts/test-roller.mjs` | 200,000 rolls against the real collection |
+| `data/enrichment.json` | What enrichment found, keyed by artist + title |
+| `data/raw_sheet.csv` | Untouched snapshot of the original spreadsheet |
