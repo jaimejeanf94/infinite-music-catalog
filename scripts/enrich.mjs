@@ -214,7 +214,65 @@ async function findReleaseGroup(artist, title) {
   const json = await mbFetch(`/release-group/?query=${encodeURIComponent(`${a} ${t}`)}&fmt=json&limit=10`);
   const hit = bestOf(json["release-groups"], t, artist);
   await sleep(MB_GAP);
-  return hit;
+  if (hit) return hit;
+
+  // Everything keyed on the title has failed; try keying on the artist.
+  try {
+    return await viaArtist(artist, title);
+  } catch {
+    return null;
+  }
+}
+
+// Last resort when every query shape has failed. Anchoring on the artist is
+// what rescues a typo: MusicBrainz's artist search is fuzzy, so "Gorilaz" still
+// lands on Gorillaz, and the title is then matched against that one band's
+// discography rather than the whole database -- a far smaller haystack, so a
+// loose title match is safe here in a way it would not be globally.
+//
+// Recovered "Freddie Gibs", "Gorilaz" and "Mr. Morales" in testing. Only runs
+// on albums that have already failed, so it costs nothing on the 88% that do
+// not need it.
+async function viaArtist(artist, title) {
+  const found = await mbFetch(`/artist/?query=${encodeURIComponent(artist)}&fmt=json&limit=3`);
+  for (const a of (found.artists || []).slice(0, 2)) {
+    if (!sameArtist(artist, a.name)) continue;
+    await sleep(MB_GAP);
+    const rgs = await mbFetch(
+      `/release-group?artist=${a.id}&inc=tags+artist-credits&fmt=json&limit=100`);
+
+    let best = null, bestDist = 99;
+    for (const rg of rgs["release-groups"] || []) {
+      const d = editDistance(norm(title), norm(rg.title));
+      if (d < bestDist) { bestDist = d; best = rg; }
+    }
+    // Tolerance scales with title length: a long title can absorb a word
+    // being different, a three-letter one cannot.
+    if (best && bestDist <= Math.max(3, norm(title).length / 5)) return best;
+  }
+  return null;
+}
+
+// About 5% of albums match on MusicBrainz but carry no genre tags at all --
+// nobody got round to tagging that release. The artist almost always is
+// tagged, and the release-group response already carries the artist's id, so
+// this is a direct lookup rather than another search.
+//
+// Artist tags describe a career, not a record: the Beatles come back "rock,
+// pop, pop rock, merseybeat", which is true of the band and only roughly true
+// of any one album. So the source is recorded, and the app can treat them as
+// broad genres rather than styles.
+async function artistGenres(rg, genreList) {
+  const id = rg["artist-credit"]?.[0]?.artist?.id;
+  if (!id) return [];
+  try {
+    const json = await mbFetch(`/artist/${id}?inc=tags&fmt=json`);
+    return (json.tags || [])
+      .filter((t) => genreList.has(t.name.toLowerCase()))
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 5)
+      .map((t) => t.name);
+  } catch { return []; }
 }
 
 // Deezer needs no key and is far more forgiving of a misspelled artist, so it
@@ -258,7 +316,9 @@ const key = (a) => `${a.artist}::${a.title}`;
 const pending = albums.filter((a) => {
   const rec = store[key(a)];
   if (!rec) return true;
-  if (RETRY && rec.status !== "ok") return true;
+  // A matched album with no genres is worth another try too -- either the
+  // artist fallback did not exist when it ran, or someone has tagged it since.
+  if (RETRY && (rec.status !== "ok" || !rec.genres?.length)) return true;
   return false;
 }).slice(0, LIMIT);
 
@@ -298,13 +358,23 @@ for (const [i, album] of pending.entries()) {
         .slice(0, 10)
         .map((t) => t.name);
 
+      // Fall back to the artist's own tags when the release has none.
+      let genreSource = "release";
+      let genreList = genres;
+      if (!genreList.length) {
+        await sleep(MB_GAP);
+        genreList = await artistGenres(rg, GENRES);
+        if (genreList.length) genreSource = "artist";
+      }
+
       const cover = await coverFor(rg.id, album.artist, album.title);
       const mbYear = rg["first-release-date"]?.slice(0, 4) || null;
 
       store[key(album)] = {
         status: "ok",
         mbid: rg.id,
-        genres,
+        genres: genreList,
+        genre_source: genreSource,
         cover_url: cover?.url || null,
         cover_from: cover?.from || null,
         mb_year: mbYear,
@@ -312,7 +382,7 @@ for (const [i, album] of pending.entries()) {
       };
       ok++;
       if (cover) covered++;
-      if (genres.length) withGenres++;
+      if (genreList.length) withGenres++;
       // Disagreements are reported, never applied -- the sheet's year might be
       // the pressing you own rather than the first release.
       if (mbYear && album.year && mbYear !== album.year) {
