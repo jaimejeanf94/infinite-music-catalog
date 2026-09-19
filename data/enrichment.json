@@ -6609,5 +6609,502 @@
   "cover_from": "coverartarchive",
   "mb_year": "1992",
   "checked": "2026-09-19"
+ },
+ "Alice in Chains::Facelift": {
+  "status": "ok",
+  "mbid": "7d026b9c-9159-34b5-a40d-14f134718394",
+  "genres": [
+   "grunge",
+   "alternative metal",
+   "heavy metal"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/7d026b9c-9159-34b5-a40d-14f134718394/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1990",
+  "checked": "2026-09-19"
+ },
+ "Allie X::Girl With No Face": {
+  "status": "ok",
+  "mbid": "8a06d419-25a8-4ee6-a73c-5df5c217f22b",
+  "genres": [
+   "dance-pop",
+   "new wave",
+   "synth-pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/8a06d419-25a8-4ee6-a73c-5df5c217f22b/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2024",
+  "checked": "2026-09-19"
+ },
+ "Almendra::Almendra": {
+  "status": "ok",
+  "mbid": "0859aa08-fbb3-300b-b8f6-eff1410b1b54",
+  "genres": [
+   "rock",
+   "progressive rock",
+   "folk"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/0859aa08-fbb3-300b-b8f6-eff1410b1b54/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1969",
+  "checked": "2026-09-19"
+ },
+ "Alt-J::An Awesome Wave": {
+  "status": "ok",
+  "mbid": "0d8562eb-7f72-427b-8a0b-984cc5ee7766",
+  "genres": [
+   "alternative rock",
+   "indie rock",
+   "rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/0d8562eb-7f72-427b-8a0b-984cc5ee7766/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2012",
+  "checked": "2026-09-19"
+ },
+ "Altar Plagues::Teethed Glory and Injury": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Alvvays::Blue Rev": {
+  "status": "ok",
+  "mbid": "0e68df76-a5fc-4d70-9ff6-e71e2ad83330",
+  "genres": [
+   "indie pop",
+   "noise pop",
+   "shoegaze"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/0e68df76-a5fc-4d70-9ff6-e71e2ad83330/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2022",
+  "checked": "2026-09-19"
+ },
+ "Alvvays::Alvvays": {
+  "status": "ok",
+  "mbid": "6e53a449-47b8-46e9-be4d-d818d3d64d70",
+  "genres": [
+   "indie pop",
+   "rock",
+   "jangle pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/6e53a449-47b8-46e9-be4d-d818d3d64d70/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2013",
+  "checked": "2026-09-19"
+ },
+ "Alvvays::Antisocialites": {
+  "status": "ok",
+  "mbid": "1f0a3090-ae8c-4fbd-9b70-b4371961ef11",
+  "genres": [
+   "indie pop",
+   "rock",
+   "pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/1f0a3090-ae8c-4fbd-9b70-b4371961ef11/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-19"
+ },
+ "AM::Flowervillain II": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Amaarae::Fountain Baby": {
+  "status": "ok",
+  "mbid": "b3b5da6a-74e4-4478-8acf-bdcbcaa8f9df",
+  "genres": [
+   "alternative r&b",
+   "alté",
+   "electronic"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/b3b5da6a-74e4-4478-8acf-bdcbcaa8f9df/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-19"
+ },
+ "Amber Mark::Three Dimensions Deep": {
+  "status": "ok",
+  "mbid": "bd65e6f3-4498-45e8-9779-6a82a5f84cff",
+  "genres": [
+   "contemporary r&b",
+   "soul"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/bd65e6f3-4498-45e8-9779-6a82a5f84cff/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2022",
+  "checked": "2026-09-19"
+ },
+ "American Football::American Football": {
+  "status": "ok",
+  "mbid": "f98334d4-5eb5-48b2-820b-faa8db645c10",
+  "genres": [
+   "rock",
+   "math rock",
+   "indie rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/f98334d4-5eb5-48b2-820b-faa8db645c10/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2016",
+  "checked": "2026-09-19"
+ },
+ "Amon Düül II::Yeti": {
+  "status": "ok",
+  "mbid": "9dc1970e-6e6c-3143-b775-a54197d2c38d",
+  "genres": [
+   "krautrock",
+   "rock",
+   "psychedelic rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/9dc1970e-6e6c-3143-b775-a54197d2c38d/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1970",
+  "checked": "2026-09-19"
+ },
+ "Amon Düül II::Phallus Dei": {
+  "status": "ok",
+  "mbid": "a094de41-518b-3e71-8f67-cb20b51065bd",
+  "genres": [
+   "krautrock",
+   "rock",
+   "electronic"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/a094de41-518b-3e71-8f67-cb20b51065bd/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1969",
+  "checked": "2026-09-19"
+ },
+ "Amon Tobin::Supermodified": {
+  "status": "ok",
+  "mbid": "b940d672-89bb-340f-89cd-4a92820e3135",
+  "genres": [
+   "electronic",
+   "leftfield",
+   "downtempo"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/b940d672-89bb-340f-89cd-4a92820e3135/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2000",
+  "checked": "2026-09-19"
+ },
+ "Amon Tobin::Permutation": {
+  "status": "ok",
+  "mbid": "aa65edf4-9f38-38de-bab1-c85c993449ef",
+  "genres": [
+   "downtempo",
+   "electronic",
+   "leftfield"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/aa65edf4-9f38-38de-bab1-c85c993449ef/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1998",
+  "checked": "2026-09-19"
+ },
+ "Amon Tobin::Bricolage": {
+  "status": "ok",
+  "mbid": "c1f40fac-2abd-3f0c-a635-26d166766b46",
+  "genres": [
+   "drum and bass",
+   "leftfield",
+   "trip hop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/c1f40fac-2abd-3f0c-a635-26d166766b46/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1997",
+  "checked": "2026-09-19"
+ },
+ "Amy Winehouse::Back To Black (Amy Winehouse)": {
+  "status": "ok",
+  "mbid": "6eac2e57-ee50-36f8-b0c4-c4c847a2c098",
+  "genres": [
+   "soul",
+   "pop",
+   "r&b"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/6eac2e57-ee50-36f8-b0c4-c4c847a2c098/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2006",
+  "checked": "2026-09-19"
+ },
+ "Amy Winehouse::Frank": {
+  "status": "ok",
+  "mbid": "9a9d41e9-2080-3293-8676-9e26f44a05b1",
+  "genres": [
+   "soul",
+   "pop",
+   "jazz"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/9a9d41e9-2080-3293-8676-9e26f44a05b1/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2003",
+  "checked": "2026-09-19"
+ },
+ "AmyReal & Clumsy Duckling::The Adventures of Pad Chennington and the Androgynous Swagchild": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-19"
+ },
+ "Ana Frango Eléctrico::Me Chama De Gato Que Eu Sou Soa": {
+  "status": "ok",
+  "mbid": "374fec8d-7202-45a3-a2d4-74f3f75308af",
+  "genres": [
+   "jazz",
+   "mpb",
+   "funk"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/374fec8d-7202-45a3-a2d4-74f3f75308af/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-19"
+ },
+ "Ana Frango Eléctrico::Little Electric Chicken Heart": {
+  "status": "ok",
+  "mbid": "0a9b11a6-75b7-4826-adeb-504753c46bc4",
+  "genres": [
+   "chamber pop",
+   "rock",
+   "pop"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/0a9b11a6-75b7-4826-adeb-504753c46bc4/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2019",
+  "checked": "2026-09-19"
+ },
+ "Anathema::Distant Satellites": {
+  "status": "ok",
+  "mbid": "170bd638-00f6-4992-8e42-2dbd41f6b023",
+  "genres": [
+   "alternative rock",
+   "rock",
+   "progressive rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/170bd638-00f6-4992-8e42-2dbd41f6b023/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2014",
+  "checked": "2026-09-19"
+ },
+ "Anathema::Weather Systems": {
+  "status": "ok",
+  "mbid": "17ec88d1-4009-4360-9c1c-1498394b383a",
+  "genres": [
+   "rock",
+   "progressive rock",
+   "alternative rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/17ec88d1-4009-4360-9c1c-1498394b383a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2012",
+  "checked": "2026-09-19"
+ },
+ "Anathema::Judgement": {
+  "status": "ok",
+  "mbid": "e1e0a4a1-4188-3c9b-bd7c-5e795200acd9",
+  "genres": [
+   "alternative rock",
+   "doom metal",
+   "rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/e1e0a4a1-4188-3c9b-bd7c-5e795200acd9/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1999",
+  "checked": "2026-09-19"
+ },
+ "Anathema::Alternative 4": {
+  "status": "ok",
+  "mbid": "dcd35970-42f8-3525-9def-1648bcd13292",
+  "genres": [
+   "alternative rock",
+   "rock",
+   "gothic metal"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/dcd35970-42f8-3525-9def-1648bcd13292/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1998",
+  "checked": "2026-09-19"
+ },
+ "And So I Watch You From Afar::All Hail Bright Futures": {
+  "status": "ok",
+  "mbid": "956537f3-8162-4442-a14b-85d1c652fb68",
+  "genres": [
+   "rock",
+   "indie rock",
+   "pop rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/956537f3-8162-4442-a14b-85d1c652fb68/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2012",
+  "checked": "2026-09-19"
+ },
+ "Anderson .Paak::Oxnard": {
+  "status": "ok",
+  "mbid": "bb14008a-b20c-4857-ad95-c181ca2d014d",
+  "genres": [
+   "hip hop",
+   "funk",
+   "r&b"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/bb14008a-b20c-4857-ad95-c181ca2d014d/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2018",
+  "checked": "2026-09-19"
+ },
+ "Anderson .Paak::Malibu": {
+  "status": "ok",
+  "mbid": "4be291f2-4faf-4fe5-b60f-4515e08ada99",
+  "genres": [
+   "hip hop",
+   "r&b",
+   "alternative r&b"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/4be291f2-4faf-4fe5-b60f-4515e08ada99/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2016",
+  "checked": "2026-09-19"
+ },
+ "Andrew Bird::Break It Yourself": {
+  "status": "ok",
+  "mbid": "97fe2ba8-1c28-45ec-a8ba-38b7e4893e3d",
+  "genres": [
+   "rock",
+   "indie rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/97fe2ba8-1c28-45ec-a8ba-38b7e4893e3d/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2012",
+  "checked": "2026-09-19"
+ },
+ "Andrew Bird::Armchair Apocrypha": {
+  "status": "ok",
+  "mbid": "496c5117-b89d-31e2-87ce-00b8fc96d341",
+  "genres": [
+   "pop",
+   "rock",
+   "indie rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/496c5117-b89d-31e2-87ce-00b8fc96d341/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2007",
+  "checked": "2026-09-19"
+ },
+ "Andrew Bird::The Mysterious Production of Eggs": {
+  "status": "ok",
+  "mbid": "d16539c7-5126-3e40-9e67-1a732d1cb18d",
+  "genres": [
+   "indie rock",
+   "baroque pop",
+   "neofolk"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/d16539c7-5126-3e40-9e67-1a732d1cb18d/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2005",
+  "checked": "2026-09-19"
+ },
+ "Andrew Hill::Point of Departure": {
+  "status": "ok",
+  "mbid": "d7931540-f35c-3978-9bd8-6e77ab66334d",
+  "genres": [
+   "jazz",
+   "post-bop",
+   "avant-garde jazz"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/d7931540-f35c-3978-9bd8-6e77ab66334d/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1965",
+  "checked": "2026-09-19"
+ },
+ "Andrew Jackson Jihad::Can't Maintain": {
+  "status": "ok",
+  "mbid": "49bedc1f-2f24-497e-a9b4-27cdea01d0a8",
+  "genres": [
+   "indie rock",
+   "anti-folk",
+   "folk punk"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/49bedc1f-2f24-497e-a9b4-27cdea01d0a8/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2009",
+  "checked": "2026-09-19"
+ },
+ "Andy Stott::Never the Right Time": {
+  "status": "ok",
+  "mbid": "966c30c1-1ce4-496d-9c84-0fb9f53527aa",
+  "genres": [
+   "electronic",
+   "downtempo",
+   "ambient"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/966c30c1-1ce4-496d-9c84-0fb9f53527aa/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2021",
+  "checked": "2026-09-19"
+ },
+ "Andy Stott::It Should Be Us": {
+  "status": "ok",
+  "mbid": "7d4b59b0-0698-423d-b2be-1155927d4b7b",
+  "genres": [
+   "techno",
+   "electronic",
+   "downtempo"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/7d4b59b0-0698-423d-b2be-1155927d4b7b/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2019",
+  "checked": "2026-09-19"
+ },
+ "Andy Stott::Luxury problems": {
+  "status": "ok",
+  "mbid": "db2fa4bf-d3fe-446a-95d8-f60eaddc16b3",
+  "genres": [
+   "techno",
+   "electronic"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/db2fa4bf-d3fe-446a-95d8-f60eaddc16b3/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2012",
+  "checked": "2026-09-19"
+ },
+ "Andy Stott::Passed Me By / We Stay Together": {
+  "status": "ok",
+  "mbid": "f642139f-c32d-4f86-b34a-eab53250dfae",
+  "genres": [
+   "electronic",
+   "techno"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/f642139f-c32d-4f86-b34a-eab53250dfae/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2011",
+  "checked": "2026-09-19"
+ },
+ "Angel Olsen::Forever Means": {
+  "status": "ok",
+  "mbid": "403ec7b9-f291-474b-8354-6a66dadf5b22",
+  "genres": [
+   "rock",
+   "alternative rock",
+   "indie rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/403ec7b9-f291-474b-8354-6a66dadf5b22/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-19"
+ },
+ "Angel Olsen::Big Time": {
+  "status": "ok",
+  "mbid": "c66ca7b3-aad2-41e9-9826-b2675fe21545",
+  "genres": [
+   "indie rock",
+   "rock"
+  ],
+  "cover_url": "https://coverartarchive.org/release-group/c66ca7b3-aad2-41e9-9826-b2675fe21545/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2022",
+  "checked": "2026-09-19"
  }
 }

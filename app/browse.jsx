@@ -196,11 +196,22 @@ function AddAlbum({ albums, onAdd, onClose }) {
   );
 }
 
-function BrowseView({ albums, owner, onPatch, onPlay, onAdd, onDelete, onRestore }) {
-  const [q, setQ] = React.useState("");
-  const [filter, setFilter] = React.useState("all");
-  const [sort, setSort] = React.useState("artist");
-  const [genre, setGenre] = React.useState("");
+function BrowseView({ albums, owner, onPatch, onPlay, onAdd, onDelete, onRestore,
+                     params, setParams }) {
+  // The URL is the source of truth for these four, so a filtered view can be
+  // bookmarked and shared, and Back undoes a filter instead of leaving the app.
+  const q = params.get("q") || "";
+  const filter = params.get("filter") || "all";
+  const sort = params.get("sort") || "artist";
+  const genre = params.get("genre") || "";
+
+  // Typing replaces the current entry; picking a filter pushes a new one. Back
+  // should step through the filters you chose, not through every keystroke.
+  const setParam = (key, value, { push = true } = {}) => {
+    const next = new URLSearchParams(params);
+    if (value) next.set(key, value); else next.delete(key);
+    setParams(next, { push });
+  };
   const [shown, setShown] = React.useState(CHUNK);
   const [open, setOpen] = React.useState(null);
   const [adding, setAdding] = React.useState(false);
@@ -274,18 +285,18 @@ function BrowseView({ albums, owner, onPatch, onPlay, onAdd, onDelete, onRestore
       <div className="toolbar">
         <input
           className="search" value={q} placeholder="Search artist, album or year…"
-          onChange={(e) => setQ(e.target.value)}
+          onChange={(e) => setParam("q", e.target.value, { push: false })}
         />
         <div className="chips">
           {[["all", "All"], ["unscored", "Unrated"], ["scored", "Rated"],
             ["out", "Out of pool"], ["deleted", "Deleted"]]
             .map(([id, label]) => (
               <button key={id} className={"chip" + (filter === id ? " chip--on" : "")}
-                      onClick={() => setFilter(id)}>{label}</button>
+                      onClick={() => setParam("filter", id === "all" ? "" : id)}>{label}</button>
             ))}
         </div>
         {genreOptions.length > 0 && (
-          <select className="sort" value={genre} onChange={(e) => setGenre(e.target.value)}>
+          <select className="sort" value={genre} onChange={(e) => setParam("genre", e.target.value)}>
             <option value="">All genres</option>
             {genreOptions.map(([g, n]) => (
               <option key={g} value={g}>{g} ({n})</option>
@@ -297,7 +308,7 @@ function BrowseView({ albums, owner, onPatch, onPlay, onAdd, onDelete, onRestore
             + Add album
           </button>
         )}
-        <select className="sort" value={sort} onChange={(e) => setSort(e.target.value)}>
+        <select className="sort" value={sort} onChange={(e) => setParam("sort", e.target.value === "artist" ? "" : e.target.value)}>
           <option value="artist">Artist A–Z</option>
           <option value="title">Album A–Z</option>
           <option value="year">Newest first</option>

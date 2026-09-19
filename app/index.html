@@ -66,18 +66,47 @@ function SignIn({ onDone }) {
   );
 }
 
+// The hash carries both the screen and its state: #/browse?filter=unscored&q=slowdive
+// Written with history.replaceState/pushState rather than by assigning
+// location.hash, so typing in the search box does not leave one history entry
+// per keystroke -- and so we control which changes Back should undo.
+function parseHash() {
+  const raw = (location.hash || "").replace(/^#\/?/, "");
+  const [path, qs] = raw.split("?");
+  return { route: path || "roll", params: new URLSearchParams(qs || "") };
+}
+
+function writeHash(route, params, { push } = {}) {
+  const qs = params.toString();
+  const url = `#/${route}${qs ? "?" + qs : ""}`;
+  if (url === location.hash) return;
+  history[push ? "pushState" : "replaceState"](null, "", url);
+}
+
 function App() {
   const [albums, setAlbums] = useState([]);
   const [status, setStatus] = useState("loading");
   const [error, setError] = useState("");
   const [user, setUser] = useState(null);
   const [showSignIn, setShowSignIn] = useState(false);
-  const [route, setRoute] = useState(() => location.hash.replace(/^#\/?/, "") || "roll");
+  const [loc, setLoc] = useState(parseHash);
+  const { route, params } = loc;
 
   useEffect(() => {
-    const onHash = () => setRoute(location.hash.replace(/^#\/?/, "") || "roll");
-    window.addEventListener("hashchange", onHash);
-    return () => window.removeEventListener("hashchange", onHash);
+    // popstate covers Back and Forward between pushState entries; hashchange
+    // covers a link or a pasted URL.
+    const sync = () => setLoc(parseHash());
+    window.addEventListener("hashchange", sync);
+    window.addEventListener("popstate", sync);
+    return () => {
+      window.removeEventListener("hashchange", sync);
+      window.removeEventListener("popstate", sync);
+    };
+  }, []);
+
+  const setParams = useCallback((next, opts) => {
+    writeHash(parseHash().route, next, opts);
+    setLoc(parseHash());
   }, []);
 
   useEffect(() => {
@@ -176,7 +205,8 @@ function App() {
       <main>
         {route === "browse"
           ? <BrowseView albums={albums} owner={!!user} onPatch={onPatch} onPlay={onPlay}
-                        onAdd={onAdd} onDelete={onDelete} onRestore={onRestore} />
+                        onAdd={onAdd} onDelete={onDelete} onRestore={onRestore}
+                        params={params} setParams={setParams} />
           : <RollView albums={albums} owner={!!user} onPatch={onPatch} onPlay={onPlay} onRoll={onRoll} />}
       </main>
 
