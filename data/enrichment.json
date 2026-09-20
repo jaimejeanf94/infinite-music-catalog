@@ -593,10 +593,12 @@
    "psychedelic pop"
   ],
   "genre_source": "artist",
-  "cover_url": "https://coverartarchive.org/release-group/d2f8e542-d2e0-4a3a-925a-e94eabcf8c87/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d2f8e542-d2e0-4a3a-925a-e94eabcf8c87.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2000",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/d2f8e542-d2e0-4a3a-925a-e94eabcf8c87/front-500",
+  "cover_cached": "2026-09-20"
  },
  "The Beatles::Sgt. Pepper's Lonely Hearts Club Band": {
   "status": "ok",
@@ -2504,10 +2506,12 @@
    "metalcore"
   ],
   "genre_source": "artist",
-  "cover_url": "https://coverartarchive.org/release-group/201d598e-1d04-4dc4-a837-22ad3872510e/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/201d598e-1d04-4dc4-a837-22ad3872510e.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2024",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/201d598e-1d04-4dc4-a837-22ad3872510e/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Opeth::Still Life": {
   "status": "ok",
@@ -2548,10 +2552,12 @@
    "electronic"
   ],
   "genre_source": "artist",
-  "cover_url": "https://coverartarchive.org/release-group/c44a46d5-d745-49d9-930f-18f76b7fb017/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c44a46d5-d745-49d9-930f-18f76b7fb017.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2025",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/c44a46d5-d745-49d9-930f-18f76b7fb017/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Sophie::Oil Of Every Pearl's Un-Insides": {
   "status": "ok",
@@ -3069,10 +3075,12 @@
    "post-dubstep"
   ],
   "genre_source": "artist",
-  "cover_url": "https://coverartarchive.org/release-group/7775af5e-3229-47b2-a649-6311609b6e00/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7775af5e-3229-47b2-a649-6311609b6e00.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2014",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/7775af5e-3229-47b2-a649-6311609b6e00/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Geordie Greep::The New Sound": {
   "status": "ok",
@@ -7825,10 +7833,12 @@
    "midwest emo"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/8e40a68c-58e8-3c92-a763-645fda2ce8a7/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8e40a68c-58e8-3c92-a763-645fda2ce8a7.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1999",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/8e40a68c-58e8-3c92-a763-645fda2ce8a7/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Amon Düül II::Yeti": {
   "status": "ok",
@@ -10484,10 +10494,12 @@
    "rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/06344dd3-ac44-47b0-b11f-e007220867e2/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/06344dd3-ac44-47b0-b11f-e007220867e2.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2014",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/06344dd3-ac44-47b0-b11f-e007220867e2/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Beastie Boys::Beastie Boys Anthology: The Sounds of Science": {
   "status": "partial",
@@ -11777,10 +11789,12 @@
    "soft rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/503ff741-7014-329c-85f0-c78672d654cb/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/503ff741-7014-329c-85f0-c78672d654cb.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1997",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/503ff741-7014-329c-85f0-c78672d654cb/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Billy Joel::52nd Street": {
   "status": "ok",
@@ -13460,10 +13474,12 @@
    "folk"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/634c723f-d20c-3033-9de0-95c409ec05a2/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/634c723f-d20c-3033-9de0-95c409ec05a2.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1967",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/634c723f-d20c-3033-9de0-95c409ec05a2/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Bob Dylan::Blonde on Blonde": {
   "status": "ok",
@@ -22766,10 +22782,12 @@
    "leftfield"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/1eb01551-f703-45de-b9da-abd76f678901/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1eb01551-f703-45de-b9da-abd76f678901.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2015",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/1eb01551-f703-45de-b9da-abd76f678901/front-500",
+  "cover_cached": "2026-09-20"
  },
  "DJ Koze::Amygdala": {
   "status": "ok",
@@ -25782,10 +25800,12 @@
    "pop"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/2b2fcef4-3d3d-39f0-af72-141c8e553f0b/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2b2fcef4-3d3d-39f0-af72-141c8e553f0b.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2006",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/2b2fcef4-3d3d-39f0-af72-141c8e553f0b/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Fatboy Slim::Palookaville": {
   "status": "ok",
@@ -33542,13 +33562,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/a7f852ba-08bc-36f1-92f3-4dc127f4b70a/front-500",
   "cover_cached": "2026-09-20"
  },
- "Jay-Z and Kanye West::Watch the Throne  (Deluxe Version)": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
- },
  "Jazmin Sullivan::Heaux Tales": {
   "status": "ok",
   "mbid": "912cb15a-5f34-46cd-b59b-ab1912ab6e45",
@@ -35933,16 +35946,6 @@
   "checked": "2026-09-19",
   "cover_source_url": "https://coverartarchive.org/release-group/4dee98f6-c6cd-4ea1-b02c-3300f8fa90dd/front-500",
   "cover_cached": "2026-09-20"
- },
- "KA::Honor Killed Samurai": {
-  "status": "ok",
-  "mbid": "18841f68-20be-42ab-8f2a-e38c86dfd337",
-  "genres": [],
-  "genre_source": "release",
-  "cover_url": null,
-  "cover_from": null,
-  "mb_year": "2012",
-  "checked": "2026-09-20"
  },
  "Ka::The Knights Gambit": {
   "status": "ok",
@@ -38723,13 +38726,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/003bca6c-ca70-3c20-81d2-3f615b583fbf/front-500",
   "cover_cached": "2026-09-20"
  },
- "Liars::The Threw Us All On Top and Stuck a Momentum On Top": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
- },
  "Life Without Buildings::Any Other City": {
   "status": "ok",
   "mbid": "b6ec1503-cc55-348c-9086-858bb71d0696",
@@ -40178,10 +40174,12 @@
    "dixieland"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/9d4e50bf-a607-38b3-9ba9-aacb53818b3b/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9d4e50bf-a607-38b3-9ba9-aacb53818b3b.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1994",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/9d4e50bf-a607-38b3-9ba9-aacb53818b3b/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Louis Cole::Time": {
   "status": "ok",
@@ -42708,13 +42706,6 @@
   "checked": "2026-09-19",
   "cover_source_url": "https://coverartarchive.org/release-group/4cf3ffd2-3ede-36fa-b519-c6786ca98705/front-500",
   "cover_cached": "2026-09-20"
- },
- "Medeski, Martin and Wood::Combustication": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
  },
  "Megadeth::Rust in Peace": {
   "status": "ok",
@@ -49691,13 +49682,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/a12b1e53-3426-3510-866e-0650e98d5894/front-500",
   "cover_cached": "2026-09-20"
  },
- "Paul McCartney::Ram (Remaster)": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
- },
  "Paul McCartney & Wings::Band On the Run": {
   "status": "ok",
   "mbid": "2b678170-1c4e-3e61-b18c-f889fc1537b3",
@@ -52880,10 +52864,12 @@
    "classic rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/69ce61c8-127f-3809-95d8-62fdf3ae1347/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/69ce61c8-127f-3809-95d8-62fdf3ae1347.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1981",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/69ce61c8-127f-3809-95d8-62fdf3ae1347/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Queen::A Night At The Opera": {
   "status": "ok",
@@ -55944,10 +55930,12 @@
    "latin"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/70e9b248-7f12-4613-907a-93fbde657555/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/70e9b248-7f12-4613-907a-93fbde657555.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1995",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/70e9b248-7f12-4613-907a-93fbde657555/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Santogold::Santogold": {
   "status": "ok",
@@ -57446,20 +57434,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/9747bcfe-7c42-35ac-8c3e-7ecac9f1227b/front-500",
   "cover_cached": "2026-09-20"
  },
- "Siouxsee & The Banshees::Juju": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
- },
- "Siouxsee & The Banshees::The Scream": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
- },
  "Siouxsie and the Banshees::Tinderbox": {
   "status": "ok",
   "mbid": "9575d8eb-3d5f-4028-af88-0492e17b4898",
@@ -57534,13 +57508,6 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/179b14ab-25c6-3b3b-bb03-1e894e475a1d/front-500",
   "cover_cached": "2026-09-20"
- },
- "Sixteen Horsepower::Sackcloth 'n' Ashes": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
  },
  "Skee Mask::Compro": {
   "status": "ok",
@@ -58224,13 +58191,6 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/bf413a18-f7cb-4aa4-94a0-42addebb8eb7/front-500",
   "cover_cached": "2026-09-20"
- },
- "Sly and The Family Stone::There's a Riot Goin' On": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
  },
  "Small Faces::Ogdens' Nut Gone Flake": {
   "status": "ok",
@@ -61250,13 +61210,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/69cadaa8-c952-3122-92d8-c4f41da065ac/front-500",
   "cover_cached": "2026-09-20"
  },
- "Super Mario 64::Koji Kondo 近藤浩治": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
- },
  "Supergrass::I Should Coco": {
   "status": "ok",
   "mbid": "6e796029-272d-3fe2-8ad0-d8a10ef80a66",
@@ -62652,13 +62605,6 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/fc164cde-a62d-3011-9ac8-b969a92b83cf/front-500",
   "cover_cached": "2026-09-20"
- },
- "Texas Flood::Stevie Ray Vaughan and Double Trouble": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
  },
  "Thantifaxath::Sacred White Noise": {
   "status": "ok",
@@ -65433,13 +65379,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/68a97464-1449-331a-b32c-89e0b4658aa9/front-500",
   "cover_cached": "2026-09-20"
  },
- "The Jesus & Mary Chain::Psychocandy": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
- },
  "The Jesus And Mary Chain::Darklands": {
   "status": "ok",
   "mbid": "cda63ecb-5777-37e2-8aa6-32f5c93e0f9f",
@@ -65898,20 +65837,6 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/21c7323a-88c3-3800-92c4-b09715d79811/front-500",
   "cover_cached": "2026-09-20"
- },
- "The Lord of the Rings: The Return of the King::The Lord of the Rings: The Return of the King": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
- },
- "The Lord of the Rings: The Two Towers::The Lord of the Rings: The Two Towers": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
  },
  "The Magic Numbers::The Magic Numbers": {
   "status": "ok",
@@ -70363,13 +70288,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/cda5bef0-b906-31e2-b7b0-1578f1583bbd/front-500",
   "cover_cached": "2026-09-20"
  },
- "Timbre Timbre::Hot Dreams": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
- },
  "Time Hecker::No Highs": {
   "status": "ok",
   "mbid": "c03e8bff-a92e-4f38-8de0-ac5e42bfb219",
@@ -72145,13 +72063,6 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/914c0c6e-2502-498c-8146-ceec017a6836/front-500",
   "cover_cached": "2026-09-20"
- },
- "Twin Shadow::Self-Titled": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
  },
  "Two Shell::Icons EP": {
   "status": "ok",
@@ -76398,13 +76309,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/08935b2f-dc6e-4af2-a9be-ca4ac28285f0/front-500",
   "cover_cached": "2026-09-20"
  },
- "Zach Bryan::Self-Titled": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
- },
  "Zappa::Joe's Garage": {
   "status": "ok",
   "mbid": "48767842-216a-43a8-8d3f-ce30e91fe139",
@@ -77381,10 +77285,12 @@
    "latin"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/3ce95abe-66f2-4e21-a365-0a4766e33e30/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3ce95abe-66f2-4e21-a365-0a4766e33e30.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1999",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/3ce95abe-66f2-4e21-a365-0a4766e33e30/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Exodus::Bonded By Blood": {
   "status": "ok",
@@ -77616,10 +77522,12 @@
   "mbid": "9b8e99da-1bf5-433c-bc0b-675a9026c780",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/9b8e99da-1bf5-433c-bc0b-675a9026c780/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9b8e99da-1bf5-433c-bc0b-675a9026c780.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2025",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/9b8e99da-1bf5-433c-bc0b-675a9026c780/front-500",
+  "cover_cached": "2026-09-20"
  },
  "IDLES::Joy as an Act of Resistance.": {
   "status": "ok",
@@ -77635,10 +77543,12 @@
    "punk"
   ],
   "genre_source": "release",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/45003bef-d379-441d-b246-358f0b78985c.jpg",
+  "cover_from": "coverartarchive",
   "mb_year": "2018",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release/0e7b387d-c6e1-4877-9826-4080e3a890eb/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Jean Michel Jarre::Oxygène": {
   "status": "ok",
@@ -77650,10 +77560,12 @@
    "synth-pop"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/a84ecb83-9622-3f9a-9759-154505443ca8/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a84ecb83-9622-3f9a-9759-154505443ca8.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1976",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release/c35acbfd-9915-458f-8219-7a774c172b64/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Jim O’Rourke::Eureka": {
   "status": "ok",
@@ -77671,10 +77583,12 @@
    "art rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/e459ba30-68aa-36a1-b367-04db87a29842/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e459ba30-68aa-36a1-b367-04db87a29842.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1999",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release/5e585f90-33fe-4ba9-b1bd-22cb845a4b8c/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Jim O’Rourke::Insignificance": {
   "status": "ok",
@@ -77686,10 +77600,12 @@
    "pop rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/4a1126a2-8233-36ae-a579-539e0b7fb392/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4a1126a2-8233-36ae-a579-539e0b7fb392.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2001",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release/faf128ef-28d4-3ce0-be28-6e58388521da/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Kenny Beats::LOUIE": {
   "status": "ok",
@@ -77698,10 +77614,12 @@
    "instrumental hip hop"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/d00b8ff3-b524-4539-a314-05dc51855502/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d00b8ff3-b524-4539-a314-05dc51855502.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2022",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release/70a93327-0581-4a1e-90fb-d24eef528678/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Lindstrøm::Where You Go I Go Too": {
   "status": "ok",
@@ -77712,10 +77630,12 @@
    "disco"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/a9d4840a-f7ba-3fa3-b768-658b02c65de2/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a9d4840a-f7ba-3fa3-b768-658b02c65de2.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2008",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release/432dd14b-0622-3dfb-ad71-be10ddd81b8e/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Little Simz::Sometimes I Might Be Introvert": {
   "status": "ok",
@@ -77727,10 +77647,12 @@
    "jazz rap"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/e95de3f4-84db-4d24-8d06-fd970576a6ef/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e95de3f4-84db-4d24-8d06-fd970576a6ef.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2021",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release/e36fa449-19f3-46cf-9c24-01a262a6194c/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Soda Stereo::Sueño Stereo": {
   "status": "ok",
@@ -77743,10 +77665,12 @@
    "latin"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/65b80d3a-f8a4-392f-b7ba-41864534247c/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/65b80d3a-f8a4-392f-b7ba-41864534247c.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1995",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release/a31d4873-367f-3c28-92bd-299e6dd818b4/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Röyksopp::Melody A.M.": {
   "status": "ok",
@@ -77763,9 +77687,319 @@
    "trip hop"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/95d72e72-55b2-3408-8d76-cce7abad3836/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/95d72e72-55b2-3408-8d76-cce7abad3836.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2001",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release/9e63ec78-75b7-48ff-9938-c591a075b23c/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Stevie Ray Vaughan and Double Trouble::Texas Flood": {
+  "status": "ok",
+  "mbid": "ee31030f-a226-309b-b29c-3b51deb771df",
+  "genres": [
+   "blues rock",
+   "blues",
+   "rock",
+   "texas blues",
+   "electric texas blues",
+   "rock and roll",
+   "electric blues"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ee31030f-a226-309b-b29c-3b51deb771df.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1983",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/ee31030f-a226-309b-b29c-3b51deb771df/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Jay-Z and Kanye West::Watch the Throne": {
+  "status": "ok",
+  "mbid": "a96597aa-93b4-4e14-9e6e-03892ab24979",
+  "genres": [
+   "hip hop",
+   "pop rap",
+   "alternative hip hop",
+   "chipmunk soul"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a96597aa-93b4-4e14-9e6e-03892ab24979.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2011",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release/d31a0150-f2f2-4bbe-be29-d05abb436d73/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Ka::Honor Killed the Samurai": {
+  "status": "ok",
+  "mbid": "a87472bc-03fb-4d9a-8721-f54128c82e14",
+  "genres": [
+   "hip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a87472bc-03fb-4d9a-8721-f54128c82e14.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2016",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release/218df76b-d436-4ef6-9675-408021c63fd9/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Liars::They Threw Us All in a Trench and Stuck a Monument on Top": {
+  "status": "ok",
+  "mbid": "aa8fc6c9-726f-3210-b3c6-f70f5d61fe6c",
+  "genres": [
+   "lo-fi",
+   "rock",
+   "alternative rock",
+   "post-punk revival",
+   "experimental",
+   "post-punk",
+   "indie rock",
+   "art rock",
+   "experimental rock",
+   "dance-punk"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/aa8fc6c9-726f-3210-b3c6-f70f5d61fe6c.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2001",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release/e0667db5-f3a5-3df7-ab86-b5d492542263/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Medeski Martin & Wood::Combustication": {
+  "status": "ok",
+  "mbid": "5d166cfe-8918-3ad9-847c-8aaf6875c548",
+  "genres": [
+   "jazz",
+   "electronic",
+   "rock",
+   "acid jazz",
+   "jazz-funk",
+   "trip hop",
+   "illbient"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5d166cfe-8918-3ad9-847c-8aaf6875c548.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1998",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release/551a0976-0ea1-4c1b-ad60-2813c1f27b8e/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Paul & Linda McCartney::Ram": {
+  "status": "ok",
+  "mbid": "434d4068-8404-359a-9585-3376d3d1680d",
+  "genres": [
+   "rock",
+   "pop rock",
+   "blues rock",
+   "folk pop",
+   "art pop",
+   "pop",
+   "baroque pop",
+   "classic rock",
+   "soft rock",
+   "psychedelic pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/434d4068-8404-359a-9585-3376d3d1680d.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1971",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release/066b3a52-f3f6-4a03-bf0d-f9f603690ae1/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Siouxsie and the Banshees::Juju": {
+  "status": "ok",
+  "mbid": "844bfb05-2b51-35e2-8063-1c8e6746c781",
+  "genres": [
+   "post-punk",
+   "new wave",
+   "gothic rock",
+   "rock",
+   "gothic"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/844bfb05-2b51-35e2-8063-1c8e6746c781.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1981",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release/3d8e6ee7-b4f9-4dc6-bb7a-2ea5e53d5d01/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Siouxsie and the Banshees::The Scream": {
+  "status": "ok",
+  "mbid": "67f24412-60c9-36f3-a1dc-e48e56098802",
+  "genres": [
+   "post-punk",
+   "rock",
+   "new wave",
+   "gothic rock",
+   "punk",
+   "punk rock",
+   "gothic",
+   "art rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/67f24412-60c9-36f3-a1dc-e48e56098802.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1978",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release/931c93b1-fb73-43b3-b330-43229c468ff7/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "16 Horsepower::Sackcloth ’n’ Ashes": {
+  "status": "ok",
+  "mbid": "ce3c6103-3436-3441-9219-0447e8977e20",
+  "genres": [
+   "gothic country",
+   "rock",
+   "alternative rock",
+   "country",
+   "alternative country",
+   "folk",
+   "americana"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ce3c6103-3436-3441-9219-0447e8977e20.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1995",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release/d1845192-7bff-4792-834a-9b02e28d5a17/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Sly & the Family Stone::There’s a Riot Goin’ On": {
+  "status": "ok",
+  "mbid": "d8b8448a-2634-3e92-ac86-cf55e018f825",
+  "genres": [
+   "funk",
+   "psychedelic soul",
+   "progressive soul",
+   "soul",
+   "deep funk"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d8b8448a-2634-3e92-ac86-cf55e018f825.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1971",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release/ffce7f9d-4a98-396d-bab7-97e52930cab9/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Koji Kondo::Super Mario 64": {
+  "status": "ok",
+  "mbid": "6bc3131d-094c-4dcd-9bb8-93ba224e9915",
+  "genres": [
+   "chiptune"
+  ],
+  "genre_source": "artist",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6bc3131d-094c-4dcd-9bb8-93ba224e9915.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1996",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release/04b39469-2df1-4645-aa5f-88a6f7656996/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "The Jesus and Mary Chain::Psychocandy": {
+  "status": "ok",
+  "mbid": "7534461f-d5ed-3ab0-b5a8-48d7f9b49c70",
+  "genres": [
+   "rock",
+   "noise pop",
+   "post-punk",
+   "alternative rock",
+   "shoegaze",
+   "indie rock",
+   "pop rock",
+   "noise rock",
+   "noise"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7534461f-d5ed-3ab0-b5a8-48d7f9b49c70.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1985",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release/c7c3c572-9114-4e7b-9dc8-68cf99372825/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Howard Shore::The Lord of the Rings: The Return of the King": {
+  "status": "ok",
+  "mbid": "f5fd971c-a1a2-33da-95b0-473e0176df83",
+  "genres": [
+   "orchestral",
+   "cinematic classical",
+   "modern classical",
+   "classical",
+   "pop",
+   "electronic"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release/11a17959-a43f-410a-b526-bd218792a435/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2003",
+  "checked": "2026-09-20"
+ },
+ "Howard Shore::The Lord of the Rings: The Two Towers": {
+  "status": "ok",
+  "mbid": "d8b7ff94-0781-307c-9a9b-04e6a55fc234",
+  "genres": [
+   "classical",
+   "modern classical",
+   "electronic"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release/99014854-e53c-4ec2-a099-f7b0fe3781b4/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2002",
+  "checked": "2026-09-20"
+ },
+ "Timber Timbre::Hot Dreams": {
+  "status": "ok",
+  "mbid": "322b1851-bd2f-4ac8-80c2-8d0310d3362b",
+  "genres": [
+   "rock",
+   "indie rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/322b1851-bd2f-4ac8-80c2-8d0310d3362b.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2014",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release/4d4241d2-cd7e-46b2-a26e-e401cf0b9f61/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Twin Shadow::Twin Shadow": {
+  "status": "ok",
+  "mbid": "456556a2-99e9-41cd-bc73-baf8355da5dd",
+  "genres": [
+   "synth-pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/456556a2-99e9-41cd-bc73-baf8355da5dd.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2021",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release/6bc1cd28-8256-47cd-bc26-e58dc69e0cec/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Zach Bryan::Zach Bryan": {
+  "status": "ok",
+  "mbid": "4feeb990-b122-4300-96e9-e8193f33c351",
+  "genres": [
+   "country",
+   "folk",
+   "singer-songwriter",
+   "country rock",
+   "americana",
+   "indie folk",
+   "heartland rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/4feeb990-b122-4300-96e9-e8193f33c351/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
   "checked": "2026-09-20"
  }
 }

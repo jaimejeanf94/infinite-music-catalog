@@ -131,6 +131,49 @@ async function itunesCover(artist, title) {
   return null;
 }
 
+// The Archive stores art against a RELEASE, not a release-group, and the
+// group only shows a front image when one of its releases has been flagged as
+// representative. Plenty of albums have a perfectly good sleeve on a specific
+// pressing that the group-level lookup never sees.
+async function archiveByRelease(mbid) {
+  let releases;
+  try {
+    const json = await mbFetch(`/release-group/${mbid}?inc=releases&fmt=json`);
+    releases = (json.releases || []).slice(0, 8);
+  } catch { return null; }
+  await sleep(1100);
+  for (const rel of releases) {
+    try {
+      const url = `${CAA}/release/${rel.id}/front-500`;
+      const head = await fetch(url, { method: "HEAD" });
+      if (head.ok) return { url, from: "coverartarchive", as: `release ${rel.title}` };
+    } catch { /* next */ }
+    await sleep(200);
+  }
+  return null;
+}
+
+// MusicBrainz links many release-groups to Wikidata, which usually carries the
+// sleeve on Commons. It is a curated source, so no extra verification is
+// needed: the link says this image belongs to this record.
+async function wikidataCover(mbid) {
+  try {
+    const json = await mbFetch(`/release-group/${mbid}?inc=url-rels&fmt=json`);
+    await sleep(1100);
+    const rel = (json.relations || []).find((r) => /wikidata/.test(r.url?.resource || ""));
+    if (!rel) return null;
+    const qid = rel.url.resource.split("/").pop();
+    const wd = await (await fetch(`https://www.wikidata.org/wiki/Special:EntityData/${qid}.json`)).json();
+    const claims = wd.entities?.[qid]?.claims?.P18;          // P18 = image
+    const file = claims?.[0]?.mainsnak?.datavalue?.value;
+    if (!file) return null;
+    return {
+      url: `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(file)}?width=600`,
+      from: "wikimedia", as: file,
+    };
+  } catch { return null; }
+}
+
 // ── is the row simply back to front? ───────────────────────────────────────
 async function swapped(artist, title) {
   try {
@@ -170,8 +213,14 @@ for (const [i, a] of targets.entries()) {
   const key = `${a.artist}::${a.title}`;
   const rec = store[key] || {};
 
-  let art = await deezerCover(a.artist, a.title);
-  await sleep(300);
+  // Cheapest and most trustworthy first. The two keyed on the mbid need no
+  // artist check -- the id already says which record this is.
+  let art = null;
+  if (rec.mbid) {
+    art = await archiveByRelease(rec.mbid);
+    if (!art) art = await wikidataCover(rec.mbid);
+  }
+  if (!art) { art = await deezerCover(a.artist, a.title); await sleep(300); }
   if (!art) { art = await itunesCover(a.artist, a.title); await sleep(300); }
 
   if (art) {
