@@ -34,6 +34,8 @@ const GENRE_CACHE = new URL("mb-genres.json", DATA);
 const args = process.argv.slice(2);
 const LIMIT = Number(args.find((a) => a.startsWith("--limit="))?.split("=")[1] || Infinity);
 const RETRY = args.includes("--retry");
+// Drop records whose album is no longer in albums.csv (see below).
+const PRUNE = args.includes("--prune");
 // A permanent failure should not be re-attempted every single night: 250
 // albums MusicBrainz has never heard of would burn half an hour a run forever.
 // Anything looked at within this window is left alone, so a retry pass costs
@@ -317,6 +319,27 @@ const albums = rows.filter((r) => r[0]).map((r) => ({ artist: r[0], title: r[1],
 
 const store = existsSync(OUT) ? JSON.parse(readFileSync(OUT, "utf8")) : {};
 const key = (a) => `${a.artist}::${a.title}`;
+
+// Renaming an album in the app cannot touch this file -- the browser has no
+// access to it -- so the record under the old name is left behind, and nothing
+// ever collects it. One per rename, forever, in a file committed nightly.
+//
+// Safe because it is self-healing in the other direction too: an album whose
+// record is dropped by mistake simply has no record, and the next run enriches
+// it again. That also covers restoring a deleted album, since albums.csv only
+// carries the live ones.
+if (PRUNE) {
+  const live = new Set(albums.map(key));
+  const dead = Object.keys(store).filter((k) => !live.has(k));
+  for (const k of dead) delete store[k];
+  if (dead.length) {
+    writeFileSync(OUT, JSON.stringify(store, null, 1));
+    console.log(`pruned ${dead.length} record${dead.length > 1 ? "s" : ""} for albums that no longer exist:`);
+    for (const k of dead.slice(0, 5)) console.log(`  ${k.replace("::", " — ")}`);
+    if (dead.length > 5) console.log(`  … and ${dead.length - 5} more`);
+    console.log("");
+  }
+}
 
 const pending = albums.filter((a) => {
   const rec = store[key(a)];

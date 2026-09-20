@@ -79,8 +79,12 @@ jobs:
             echo "nothing confident enough to apply tonight"
           fi
 
+      # --prune collects records left behind by a rename done in the app: the
+      # browser cannot touch enrichment.json, so the record under the old name
+      # survives with nothing pointing at it. This runs after the export above,
+      # so it prunes against what the database actually holds.
       - name: Enrich a batch
-        run: node scripts/enrich.mjs --limit=${{ inputs.batch || 300 }}
+        run: node scripts/enrich.mjs --prune --limit=${{ inputs.batch || 300 }}
 
       # Albums that failed, or matched with no genres, get another go once
       # their 14-day cooldown is up. Most nights this finds nothing and exits
