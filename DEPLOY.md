@@ -19,22 +19,23 @@ Supabase dashboard → **Storage** → **New bucket**
 Public makes *reads* keyless and CDN-served, which is the whole point. It does
 not make writes public — step 2 handles that.
 
-## 2. Storage policies — **you**
+## 2. Storage policies — **terminal**, then **you**
 
-Get your user id. Supabase → **SQL Editor**:
-
-```sql
-select id, email from auth.users;
+```sh
+set -a && source .env && set +a
+node scripts/fill-sql.mjs
 ```
 
-Open `db/storage.sql`, replace all four `PASTE_YOUR_UID_HERE` with that id, and
-run the file in the SQL editor. It ends with a query listing the four policies
-it created — expect exactly four.
+That reads your user id out of your own access token — no dashboard lookup —
+and writes `db/local/storage.sql` and `db/local/public_hardening.sql` with it
+filled in. `db/local/` is gitignored, so the id cannot reach the public repo.
 
-> Your UID is not a secret (RLS compares it against a signed token, so knowing
-> it grants nothing), but this repo is public. If you would rather it not be
-> published, run the SQL without committing the filled-in file:
-> `git update-index --skip-worktree db/storage.sql`
+Paste `db/local/storage.sql` into Supabase → **SQL Editor** and run it. It ends
+with a query listing the policies it created — expect exactly four.
+
+> The id is not a credential: RLS compares it against a cryptographically
+> signed token, so knowing it grants nobody anything. This just keeps it out of
+> a public repo for no cost.
 
 ## 3. Cache the covers — **terminal**
 
@@ -53,8 +54,8 @@ step that removes the 1.2–3.1s wait per cover.
 Currently any *authenticated* user can write. With sign-ups off that is only
 you, so this is hardening rather than a hole, but do it before sharing the link.
 
-Replace `PASTE_YOUR_UID_HERE` in `db/public_hardening.sql` with the same id and
-run it in the SQL editor.
+Paste `db/local/public_hardening.sql` (step 2 already generated it) into the
+SQL editor and run it.
 
 Also confirm sign-ups are off: **Authentication** → **Sign In / Providers** →
 Email → **Allow new users to sign up: OFF**. Without this, a stranger can
