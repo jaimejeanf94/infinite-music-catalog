@@ -13,19 +13,32 @@ const MODES = [
   { id: "unscored", label: "Unrated",   hint: "Only albums you have never scored" },
 ];
 
-function RollView({ albums, owner, onPatch, onRoll }) {
-  const [mode, setMode] = React.useState(
-    () => localStorage.getItem("ih:mode") || "uniform"
-  );
-  const [share, setShare] = React.useState(
-    () => Number(localStorage.getItem("ih:share") ?? 25)
-  );
+function RollView({ albums, owner, onPatch, onRoll, params, setParams }) {
+  // The mode lives in the URL, the way the shelf's filters do. It used to sit
+  // in localStorage, which meant a browser that had ever picked a mode kept it
+  // forever -- so changing the default changed nothing for anyone who had
+  // already used the app, and the address bar said nothing about what you were
+  // looking at. A bare #/roll is now always Uniform, and a link carries its
+  // mode to whoever opens it.
+  const setParam = (key, value, { push = true } = {}) => {
+    const next = new URLSearchParams(params);
+    if (value) next.set(key, value); else next.delete(key);
+    setParams(next, { push });
+  };
+
+  const mode = MODES.some((m) => m.id === params.get("mode"))
+    ? params.get("mode")
+    : "uniform";
+  const setMode = (id) => setParam("mode", id === "uniform" ? "" : id);
+
+  const share = Number.isFinite(Number(params.get("share")))
+                && params.get("share") !== null
+    ? Math.min(100, Math.max(0, Number(params.get("share"))))
+    : 25;
+  const setShare = (n) => setParam("share", String(n), { push: false });
   const [current, setCurrent] = React.useState(null);
   const [history, setHistory] = React.useState([]);   // most recent first
   const [flash, setFlash] = React.useState(null);
-
-  React.useEffect(() => localStorage.setItem("ih:mode", mode), [mode]);
-  React.useEffect(() => localStorage.setItem("ih:share", share), [share]);
 
   // The album in `current` is a snapshot; re-read it from the live list so a
   // score set here shows up immediately on the card.
