@@ -123,6 +123,12 @@ jobs:
       - name: Check the genre roots
         run: node scripts/genre-report.mjs
 
+      # Everything the run could not decide on its own, collected for the
+      # maintenance screen. Reads only -- each item is a judgement someone has
+      # to make, which is exactly why it is still outstanding.
+      - name: Collect what still needs a person
+        run: node scripts/health-report.mjs
+
       - name: Choose today's five
         run: node scripts/daily-picks.mjs --force
 
@@ -130,7 +136,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/albums.csv data/enrichment.json app/daily.json
+          git add data/albums.csv data/enrichment.json app/daily.json app/health.json
           git add data/rename-suggestions.json \
                   data/rename-suggestions-review.json 2>/dev/null || true
           # Nothing changed is a normal outcome, not a failure.

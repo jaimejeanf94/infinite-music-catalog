@@ -25,6 +25,7 @@
 <script src="genres.js"></script>
 <script type="text/babel" src="cover-art.jsx"></script>
 <script type="text/babel" src="home.jsx"></script>
+<script type="text/babel" src="admin.jsx"></script>
 <script type="text/babel" src="roll.jsx"></script>
 <script type="text/babel" src="browse.jsx"></script>
 </head>
@@ -195,6 +196,10 @@ function App() {
           <a className={"nav__a" + (route === "home" ? " nav__a--on" : "")} href="#/">Home</a>
           <a className={"nav__a" + (route === "browse" ? " nav__a--on" : "")} href="#/browse">Shelf</a>
           <a className={"nav__a nav__a--last" + (route === "roll" ? " nav__a--on" : "")} href="#/roll">Roll</a>
+          {!!user && params.get("as") !== "visitor" && (
+            <a className={"nav__a nav__a--admin" + (route === "admin" ? " nav__a--on" : "")}
+               href="#/admin">Fix</a>
+          )}
         </nav>
         {db.mode === "local" && <span className="tag" title="Ratings are saved in this browser only">local</span>}
         {params.get("as") === "visitor" && (
@@ -216,7 +221,14 @@ function App() {
           visitor sees, without signing out. Owner-only: it can merely take
           abilities away, never grant them. */}
       <main>
-        {route === "home"
+        {/* Owner only. Signing out or the visitor preview sends you back to
+            the shelf rather than showing an empty maintenance screen. */}
+        {route === "admin"
+          ? (!!user && params.get("as") !== "visitor"
+              ? <AdminView onGo={(to, extra) => setParams(new URLSearchParams(extra || {}),
+                                                          { push: true, route: to })} />
+              : <div className="empty">Sign in to see this.</div>)
+          : route === "home"
           ? <HomeView albums={albums}
                       onGo={(to, extra) => setParams(new URLSearchParams(extra || {}),
                                                      { push: true, route: to })} />

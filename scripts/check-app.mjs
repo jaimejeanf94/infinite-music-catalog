@@ -13,7 +13,7 @@
 import { readFileSync } from "node:fs";
 
 const BABEL = "https://unpkg.com/@babel/standalone@7.29.0/babel.min.js";
-const FILES = ["app/home.jsx", "app/roll.jsx", "app/browse.jsx", "app/cover-art.jsx"];
+const FILES = ["app/admin.jsx", "app/home.jsx", "app/roll.jsx", "app/browse.jsx", "app/cover-art.jsx"];
 
 let Babel;
 try {

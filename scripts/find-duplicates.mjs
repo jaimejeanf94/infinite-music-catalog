@@ -87,11 +87,13 @@ function parseCsv(text) {
   return rows;
 }
 
-const [header, ...lines] = parseCsv(readFileSync(new URL("../data/albums.csv", import.meta.url), "utf8"));
-const col = Object.fromEntries(header.map((h, i) => [h.trim(), i]));
-const albums = lines
-  .filter((r) => r[col.artist])
-  .map((r) => {
+// Exported so the health report can use the same detection rather than
+// growing a second copy of it that drifts.
+export function loadAlbums() {
+  const [header, ...lines] = parseCsv(
+    readFileSync(new URL("../data/albums.csv", import.meta.url), "utf8"));
+  const col = Object.fromEntries(header.map((h, i) => [h.trim(), i]));
+  return lines.filter((r) => r[col.artist]).map((r) => {
     const artist = r[col.artist], title = r[col.title];
     return {
       artist, title,
@@ -101,6 +103,9 @@ const albums = lines
       work: norm(artist) + "|" + workOf(title),
     };
   });
+}
+
+export function findDuplicates(albums) {
 
 // ── 1. blocking ────────────────────────────────────────────────────────────
 const blocks = new Map();
@@ -137,6 +142,17 @@ for (const bucket of blocks.values()) {
     }
   }
 }
+  return { flagged, compared, albums };
+}
+
+// Only print when run directly. Importing this for its detection should not
+// dump a report into the middle of somebody else's output.
+const RUN_DIRECTLY = process.argv[1] && import.meta.url.endsWith(
+  process.argv[1].replace(/^.*[/\\]/, ""));
+if (RUN_DIRECTLY) report();
+
+function report() {
+const { flagged, compared, albums } = findDuplicates(loadAlbums());
 
 flagged.sort((a, b) => a.d - b.d);
 console.log(`${albums.length} albums, ${compared.toLocaleString()} pairs compared`);
@@ -147,3 +163,4 @@ for (const { d, x, y } of flagged) {
   console.log(`     ${y.artist} — ${y.title}${y.year ? ` (${y.year})` : ""}${y.score ? `  [${y.score}]` : ""}\n`);
 }
 if (!flagged.length) console.log("  nothing suspicious — every near-match is a deliberate multi-part set");
+}
