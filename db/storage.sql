@@ -26,7 +26,7 @@ create policy "only the owner writes covers"
   to authenticated
   with check (
     bucket_id = 'covers'
-    and (select auth.uid()) = 'PASTE_YOUR_UID_HERE'::uuid
+    and (select auth.uid()) = '6a852cdc-f1fd-4009-965f-188941f72d10'::uuid
   );
 
 drop policy if exists "only the owner replaces covers" on storage.objects;
@@ -35,7 +35,7 @@ create policy "only the owner replaces covers"
   to authenticated
   using (
     bucket_id = 'covers'
-    and (select auth.uid()) = 'PASTE_YOUR_UID_HERE'::uuid
+    and (select auth.uid()) = '6a852cdc-f1fd-4009-965f-188941f72d10'::uuid
   );
 
 drop policy if exists "only the owner deletes covers" on storage.objects;
@@ -44,7 +44,7 @@ create policy "only the owner deletes covers"
   to authenticated
   using (
     bucket_id = 'covers'
-    and (select auth.uid()) = 'PASTE_YOUR_UID_HERE'::uuid
+    and (select auth.uid()) = '6a852cdc-f1fd-4009-965f-188941f72d10'::uuid
   );
 
 -- Check it took. Expect exactly the four policies above.

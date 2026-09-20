@@ -20,7 +20,7 @@
 -- It looks like: 8c8e5aeb-af65-4fef-ae01-84ef12592237
 do $$
 declare
-  owner_text text := 'PASTE_YOUR_USER_UID_HERE';
+  owner_text text := '6a852cdc-f1fd-4009-965f-188941f72d10';
   owner_id   uuid;
   t          text;
 begin
