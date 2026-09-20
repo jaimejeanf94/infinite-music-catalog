@@ -1,56 +1,78 @@
-# Where things stand
+# Where this is up to
 
-_A snapshot, not documentation. Delete it once the site is live._
+Snapshot for picking the work back up. Delete it once the list at the bottom
+is empty — `README.md` is the permanent manual, this is just the bookmark.
 
-Full step-by-step with explanations: https://claude.ai/artifact/ES3wevTTiCCqYZLbw9FcWv
+_Last updated: 2026-09-19_
 
-## Done
+## State
 
-- **Repo is public**: https://github.com/jaimejeanf94/infinite-music-catalog
-  Issues/Wiki off, no personal email in the history, only you can write.
-- **Supabase project created**, Data API on, automatic RLS on.
-- **4,422 albums** (multi-disc releases merged from 4,476).
-- **Enrichment ~90% done**: 3980 processed, 3690 matched,
-  3624 with genres, 3783 with artwork. A sweep job is queued behind it to retry
-  whatever failed.
+- **4,420 albums**, 395 rated, 4,321 in the pool.
+- Enrichment backfill **finished**: 94.6% have artwork, 92.6% matched a
+  MusicBrainz release-group, 91% have genres.
+- Repo is public at <https://github.com/jaimejeanf94/infinite-music-catalog>,
+  clean tree, everything pushed.
+- Supabase project exists and the tables were created, but **no data imported
+  yet** and `db/schema.sql` has still never been run end to end against it.
+- The app runs locally in `LOCAL` mode off `data/albums.csv`:
+  `python3 -m http.server 8777` from the project root, then
+  <http://localhost:8777/app/index.html>.
 
-## If the backfill stopped
+## Fixed this session
+
+- **Covers appeared on the wrong albums.** Local edits were stored keyed by row
+  number in `albums.csv`; `merge-discs.py` then collapsed 96 rows into 42 and
+  every cached cover re-attached itself to whatever album slid into the slot.
+  Edits, tombstones and the SQL export now key on `artist::title`. Storage keys
+  moved to `:v2`; the old data is still under the v1 key, ignored.
+- **24 misspelt names corrected** — 22 renamed, 2 merged (Gorilaz/Gorillaz kept
+  the score of 100, Maroja/Maruja). Re-matched on the corrected names: 21 of 22
+  now resolve to a real release-group and gained genres they never had.
+
+## Running in the background
+
+`scripts/suggest-renames.mjs` is scanning the 325 albums MusicBrainz could not
+match, writing to the scratchpad. If the machine was restarted it is gone and
+can simply be re-run:
 
 ```sh
-cd ~/infinite-music-catalog
-nohup node scripts/enrich.mjs >> data/enrich-run.log 2>&1 &
-nohup sh scripts/after-backfill.sh > data/retry-run.log 2>&1 &
-caffeinate -i -w $(pgrep -f after-backfill | head -1) &
+node scripts/suggest-renames.mjs --out=suggested.json
 ```
 
-Check it: `tail -3 data/enrich-run.log`
+It takes about 50 minutes (MusicBrainz allows one call a second). Review the
+output, then feed it to `node scripts/rename.mjs --file suggested.json --refresh`.
 
 ## Next, in order
 
-1. **Run `db/schema.sql`** in the Supabase SQL editor, then verify RLS is on:
+1. **Cache the covers** (biggest visible win — the shelf currently waits
+   1.2–3.1s per image on archive.org redirects):
+   - Supabase dashboard → Storage → New bucket, name `covers`, **Public ON**
+   - Run `db/storage.sql` with your UID pasted in
+   - `export SUPABASE_URL=… SUPABASE_KEY=… IMC_EMAIL=… IMC_PASSWORD=…`
+   - `node scripts/cache-covers.mjs --dry-run` then without the flag
+   - ~4,180 covers, ~340 MB, inside the free storage allowance
+2. **Run `db/schema.sql`** in the Supabase SQL editor, then verify:
    ```sql
    select relname, relrowsecurity from pg_class
    where relnamespace = 'public'::regnamespace
      and relname in ('albums','rolls','plays');
    ```
-   All three must be `true`.
-2. **Authentication → Users → Add user** (your email + a strong password).
-3. **Authentication → Sign In / Providers → Email**: turn sign-ups **off**.
-4. **Wait for the enrichment to finish**, then import `data/albums.csv` via
-   Table Editor, and `node scripts/import.mjs` to push genres and artwork.
-5. **Paste the URL and publishable key** into `app/config.js`.
-6. **Run `db/public_hardening.sql`** with your UID, then prove it: signed out,
-   `await db.deleteAlbum(1)` in the console must fail.
+   All three must come back `true`.
+3. **Create the Supabase user**, then turn sign-ups OFF.
+4. **`node scripts/import.mjs`** to push albums + enrichment.
+5. **Paste the Supabase URL and publishable key** into `app/config.js`
+   (2 placeholders left).
+6. **Run `db/public_hardening.sql`** with your UID, then check a signed-out
+   `await db.deleteAlbum(1)` is refused.
 7. **Deploy to Vercel** — root directory `app`, no build command.
-8. **Add the four Actions secrets** so the nightly job runs on GitHub.
+8. **Add four Actions secrets**: `SUPABASE_URL`, `SUPABASE_KEY`, `IMC_EMAIL`,
+   `IMC_PASSWORD`.
 
-Steps 3 and 6 are the two that matter for security. The rest can be fixed later.
+## Known, not yet fixed
 
-## Also waiting
-
-- **Review the fuzzy-sourced covers** once enrichment ends — about 80 albums
-  got artwork from Deezer or iTunes rather than matched by id.
-- **4 near-duplicates to fix**: Gorilaz/Gorillaz, Steve/Steven Wilson,
-  Freddie Gibs/Gibbs, "Essential Joe Satrini". Run
-  `node scripts/find-duplicates.mjs` to see them. Fixing means delete and
-  re-add — there is no rename in the app yet, and the typo'd rows hold scores.
+- **27 albums share a cover with another album** — same-artist over-matching,
+  e.g. *Black Sabbath Vol. 4* wearing *Black Sabbath*'s sleeve, *EMOTION Side B*
+  wearing *EMOTION*'s. Roughly half are legitimately identical artwork.
+- **139 albums MusicBrainz has never heard of** — the `suggest-renames` scan
+  above is working through how many of those are really misspellings.
+- Offered but never built: inline editing of artist/title in the app.
