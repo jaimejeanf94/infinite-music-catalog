@@ -78,6 +78,23 @@ export function rest(token) {
       if (!res.ok) throw new Error(`GET ${path} -> ${res.status} ${await res.text()}`);
       return res.json();
     },
+    // PostgREST caps a response at its max-rows setting -- 1,000 by default --
+    // and says so only in the Content-Range header, not as an error. Asking
+    // for limit=10000 quietly returns 1,000, which is how a table of 4,400
+    // albums looks fully read when three quarters of it was never fetched.
+    // Page until a short page comes back.
+    async selectAll(path, page = 1000) {
+      const out = [];
+      for (let from = 0; ; from += page) {
+        const sep = path.includes("?") ? "&" : "?";
+        const res = await fetch(`${base}/${path}${sep}offset=${from}&limit=${page}`, { headers });
+        if (!res.ok) throw new Error(`GET ${path} -> ${res.status} ${await res.text()}`);
+        const batch = await res.json();
+        out.push(...batch);
+        if (batch.length < page) return out;
+      }
+    },
+
     async insert(table, rows) {
       const res = await fetch(`${base}/${table}`, {
         method: "POST",

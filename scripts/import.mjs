@@ -60,7 +60,7 @@ const api = rest(token);
 // still in the spreadsheet, and skipping it here is what stops tonight's
 // import putting it straight back.
 const existing = new Set(
-  (await api.select("albums?select=artist,title&limit=10000"))
+  (await api.selectAll("albums?select=artist,title&order=id.asc"))
     .map((a) => `${a.artist.toLowerCase()}::${a.title.toLowerCase()}`)
 );
 const fresh = albums.filter(
@@ -76,8 +76,8 @@ for (let i = 0; i < fresh.length; i += BATCH) {
 }
 // Albums already in the database still need their enrichment kept current --
 // a cover that was missing last week may exist now.
-const known = await api.select(
-  "albums?select=id,artist,title,mbid,cover_url,cover_locked&deleted_at=is.null&limit=10000");
+const known = await api.selectAll(
+  "albums?select=id,artist,title,mbid,genres,cover_url,cover_locked&deleted_at=is.null&order=id.asc");
 let refreshed = 0;
 for (const row of known) {
   const extra = enrichment[`${row.artist}::${row.title}`];
@@ -93,7 +93,12 @@ for (const row of known) {
   if (!row.cover_locked && extra.cover_url && extra.cover_url !== row.cover_url) {
     patch.cover_url = extra.cover_url;
   }
-  if (extra.genres?.length) patch.genres = extra.genres;
+  // Compare before patching. Writing the same array back every night is
+  // 4,000 pointless requests, and it makes the run's output say thousands of
+  // albums changed when nothing did.
+  const theirs = (row.genres || []).join("\u0000");
+  const mine = (extra.genres || []).join("\u0000");
+  if (extra.genres?.length && mine !== theirs) patch.genres = extra.genres;
   if (!Object.keys(patch).length) continue;
   await api.update("albums", `id=eq.${row.id}`, patch);
   refreshed++;
