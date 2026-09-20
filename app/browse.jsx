@@ -463,6 +463,9 @@ function BrowseView({ albums, owner, onPatch, onPlay, onAdd, onDelete, onRestore
     }
     if (filter === "unscored") out = out.filter((a) => a.score == null);
     if (filter === "scored")   out = out.filter((a) => a.score != null);
+    // No chip for this any more -- being out of the pool is a property of an
+    // album, not a way anyone wanted to browse. The URL still honours it, so
+    // an existing ?filter=out link keeps working.
     if (filter === "out")      out = out.filter((a) => !a.in_pool);
     if (genre) out = out.filter((a) => Genres.splitGenres(a.genres, index).genre.includes(genre));
 
@@ -530,7 +533,7 @@ function BrowseView({ albums, owner, onPatch, onPlay, onAdd, onDelete, onRestore
         />
         <div className="chips">
           {[["all", "All"], ["unscored", "Unrated"], ["scored", "Rated"],
-            ["out", "Out of pool"], ...(owner ? [["deleted", "Deleted"]] : [])]
+            ...(owner ? [["deleted", "Deleted"]] : [])]
             .map(([id, label]) => (
               <button key={id} className={"chip" + (filter === id ? " chip--on" : "")}
                       onClick={() => setParam("filter", id === "all" ? "" : id)}>{label}</button>

@@ -491,3 +491,16 @@ button, a, input, select, textarea, .tile { touch-action: manipulation; }
 @media (prefers-reduced-motion: reduce) {
   .progress__fill { transition: none; }
 }
+
+/* The first mode is the default; the two after it are deliberate choices, so
+   they sit apart rather than reading as three equal options. */
+.mode--first-optional { margin-left: 28px; }
+.mode--first-optional::before {
+  content: ""; position: absolute; left: -15px; top: 20%; bottom: 20%;
+  width: 1px; background: var(--line, #2c2c35);
+}
+.modes .mode { position: relative; }
+@media (max-width: 560px) {
+  .mode--first-optional { margin-left: 16px; }
+  .mode--first-optional::before { left: -9px; }
+}

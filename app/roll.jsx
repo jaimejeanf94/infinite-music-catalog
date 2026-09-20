@@ -4,14 +4,18 @@
 const SCORES = [70, 75, 80, 85, 90, 95, 100];
 
 const MODES = [
+  // Uniform leads and is the default. With 9% of the collection rated, a
+  // weighted roll spends most of its odds on one enormous "unrated" tier, so
+  // it behaves almost like uniform anyway while looking like it knows
+  // something. The other two are deliberate choices, set apart below.
+  { id: "uniform",  label: "Uniform",   hint: "Every album an equal shot" },
   { id: "weighted", label: "Weighted",  hint: "Favours what you rated highly" },
   { id: "unscored", label: "Unrated",   hint: "Only albums you have never scored" },
-  { id: "uniform",  label: "Uniform",   hint: "Every album an equal shot" },
 ];
 
 function RollView({ albums, owner, onPatch, onPlay, onRoll }) {
   const [mode, setMode] = React.useState(
-    () => localStorage.getItem("ih:mode") || "weighted"
+    () => localStorage.getItem("ih:mode") || "uniform"
   );
   const [share, setShare] = React.useState(
     () => Number(localStorage.getItem("ih:share") ?? 25)
@@ -106,10 +110,11 @@ function RollView({ albums, owner, onPatch, onPlay, onRoll }) {
     <div className="roll">
       <div className="roll__controls">
         <div className="modes">
-          {MODES.map((m) => (
+          {MODES.map((m, i) => (
             <button
               key={m.id}
-              className={"mode" + (mode === m.id ? " mode--on" : "")}
+              className={"mode" + (mode === m.id ? " mode--on" : "") +
+                         (i === 1 ? " mode--first-optional" : "")}
               onClick={() => setMode(m.id)}
               title={m.hint}
             >
