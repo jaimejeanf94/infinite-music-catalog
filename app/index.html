@@ -202,9 +202,11 @@ function App() {
             viewing as visitor ×
           </a>
         )}
-        {/* On home the masthead already is the wordmark, so the running head
-            would just repeat it two inches above itself. */}
-        {route !== "home" && <a className="brand" href="#/">Infinite Music Catalog</a>}
+        {/* The running head is on every screen, including home where the
+            masthead repeats it. A chrome that rearranges itself between pages
+            is a worse problem than saying the name twice: the sign-out button
+            moves, and the bar stops reading as one fixed thing. */}
+        <a className="brand" href="#/">Infinite Music Catalog</a>
         {db.mode === "local" ? null : user
           ? <button className="btn btn--quiet btn--sm" onClick={() => db.signOut()}>Sign out</button>
           : <button className="btn btn--quiet btn--sm" onClick={() => setShowSignIn(true)}>Sign in</button>}
