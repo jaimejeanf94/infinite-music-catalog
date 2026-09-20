@@ -135,6 +135,11 @@ async function fromDiscogs(artist, title) {
 }
 
 // ── Last.fm — unmoderated, so the canonical filter does the work ─────────
+// Last.fm returns tags three different ways: an array for several, a bare
+// object for one, and the empty string for none. Anything that assumes an
+// array crashes on the third.
+const tagList = (t) => (Array.isArray(t) ? t : t && typeof t === "object" ? [t] : []);
+
 async function lastfmCall(params) {
   if (!LASTFM_KEY) return null;
   try {
@@ -148,13 +153,13 @@ async function lastfmAlbum(artist, title) {
   const j = await lastfmCall(`method=album.getinfo&artist=${encodeURIComponent(artist)}&album=${encodeURIComponent(title)}&autocorrect=1`);
   if (!j?.album) return null;
   if (!sameArtist(artist, j.album.artist || "") || !titleAgrees(title, j.album.name || "")) return null;
-  const g = keep((j.album.tags?.tag || []).map((t) => t.name));
+  const g = keep(tagList(j.album.tags?.tag).map((t) => t.name));
   return g.length ? { genres: g, source: "lastfm" } : null;
 }
 
 async function lastfmArtist(artist) {
   const j = await lastfmCall(`method=artist.gettoptags&artist=${encodeURIComponent(artist)}&autocorrect=1`);
-  const g = keep((j?.toptags?.tag || []).map((t) => t.name));
+  const g = keep(tagList(j?.toptags?.tag).map((t) => t.name));
   return g.length ? { genres: g, source: "lastfm-artist" } : null;
 }
 
@@ -190,6 +195,11 @@ if (!targets.length) process.exit(0);
 
 const found = [], stuck = [];
 const bySource = {};
+const save = () => {
+  const tmp = new URL("enrichment.json.tmp", DATA);
+  writeFileSync(tmp, JSON.stringify(store, null, 1));
+  renameSync(tmp, ENRICH);
+};
 
 for (const [i, a] of targets.entries()) {
   const key = `${a.artist}::${a.title}`;
@@ -211,6 +221,14 @@ for (const [i, a] of targets.entries()) {
   if (hit) {
     found.push({ key, a, hit });
     bySource[hit.source] = (bySource[hit.source] || 0) + 1;
+    // Write as we go. Saving only at the end means a crash costs every answer
+    // found so far, which is exactly what happened the first time this ran.
+    if (!DRY) {
+      const rec = store[key] || (store[key] = { status: "partial" });
+      rec.genres = hit.genres;
+      rec.genre_source = hit.source;
+      if (found.length % 10 === 0) save();
+    }
   } else stuck.push(a);
 
   if ((i + 1) % 10 === 0)
@@ -226,13 +244,6 @@ for (const s of stuck.slice(0, 30)) console.log(`  ${s.artist} — ${s.title}`);
 
 if (DRY) { console.log("\n--dry-run — nothing written"); process.exit(0); }
 
-for (const f of found) {
-  const rec = store[f.key] || (store[f.key] = { status: "partial" });
-  rec.genres = f.hit.genres;
-  rec.genre_source = f.hit.source;
-}
-const tmp = new URL("enrichment.json.tmp", DATA);
-writeFileSync(tmp, JSON.stringify(store, null, 1));
-renameSync(tmp, ENRICH);
+save();
 console.log(`\n${found.length} records updated`);
 console.log(`now run:  node scripts/import.mjs`);
