@@ -21,6 +21,9 @@
 // against the artist name before being accepted.
 
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import {
+  norm, editDistance, sameArtist, artistAgrees, bestOf, lucene,
+} from "./lib/match.mjs";
 
 const UA = "InfiniteMusicCatalog/1.0 (https://github.com/jaimejean/infinite-music-catalog)";
 const MB = "https://musicbrainz.org/ws/2";
@@ -47,7 +50,6 @@ const RETRY_AFTER_DAYS = Number(args.find((a) => a.startsWith("--retry-after="))
 const MB_GAP = 1100;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-const norm = (s) => (s || "").toLowerCase().normalize("NFKD").replace(/[^a-z0-9]/g, "");
 
 async function mbFetch(path, tries = 3) {
   for (let i = 0; i < tries; i++) {
@@ -142,75 +144,17 @@ function queryShapes(artist, title) {
 }
 
 // Edit distance, capped -- only used to forgive a typo or two in the sheet.
-function editDistance(a, b) {
-  const m = a.length, n = b.length;
-  if (Math.abs(m - n) > 3) return 99;
-  let prev = Array.from({ length: n + 1 }, (_, i) => i);
-  for (let i = 1; i <= m; i++) {
-    const cur = [i];
-    for (let j = 1; j <= n; j++) {
-      cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i-1] === b[j-1] ? 0 : 1));
-    }
-    prev = cur;
-  }
-  return prev[n];
-}
-
-// "Freddie Gibs" should match "Freddie Gibbs"; "Gorilaz" should match
-// "Gorillaz". Tolerance scales with length so short names stay strict.
-function sameArtist(mine, theirs) {
-  const a = norm(mine), b = norm(theirs);
-  if (!a || !b) return false;
-  if (a === b || a.includes(b) || b.includes(a)) return true;
-  const allowed = Math.min(2, Math.max(1, Math.floor(Math.min(a.length, b.length) / 8)));
-  return editDistance(a, b) <= allowed;
-}
-
-const artistAgrees = sameArtist;
 
 // Relaxing the query recovers awkward titles, but on its own it also lets the
 // wrong record win: "PetroDragonic Apocalypse" matched a live album recorded
 // two years after the one in the collection. So candidates are ranked rather
 // than taken first-come, and live/remix/compilation editions are pushed down
 // unless the title you wrote actually asks for one.
-function candidateScore(rg, wantTitle, wantArtist) {
-  const credited = rg["artist-credit"]?.map((c) => c.name).join(" ") || "";
-  if (!sameArtist(wantArtist, credited)) return -1;
-
-  const a = norm(wantTitle), b = norm(rg.title || "");
-  if (!a || !b) return -1;
-
-  let score = 0;
-  if (a === b) score += 100;
-  else if (b.includes(a) || a.includes(b)) score += 70 - Math.abs(a.length - b.length) / 4;
-  else {
-    const d = editDistance(a, b);
-    if (d > Math.max(3, a.length / 6)) return -1;   // a different album
-    score += 60 - d * 8;
-  }
-
-  const secondary = (rg["secondary-types"] || []).map((x) => x.toLowerCase());
-  const asked = /\b(live|remix|demo|compilation|best of|deluxe)\b/i.test(wantTitle);
-  if (secondary.length && !asked) score -= 45;
-  if (rg["primary-type"] === "Album" && !secondary.length) score += 10;
-  score += (rg.score || 0) / 20;
-  return score;
-}
-
-function bestOf(groups, title, artist) {
-  let best = null, bestScore = 0;
-  for (const rg of groups || []) {
-    const sc = candidateScore(rg, title, artist);
-    if (sc > bestScore) { best = rg; bestScore = sc; }
-  }
-  return bestScore >= 40 ? best : null;
-}
-
-async function findReleaseGroup(artist, title) {
+async function findReleaseGroup(artist, title, sheetYear) {
   for (const [a, t] of queryShapes(artist, title)) {
-    const q = encodeURIComponent(`artist:"${a.replace(/"/g, "")}" AND releasegroup:"${t.replace(/"/g, "")}"`);
+    const q = encodeURIComponent(`artist:"${lucene(a)}" AND releasegroup:"${lucene(t)}"`);
     const json = await mbFetch(`/release-group/?query=${q}&fmt=json&limit=8`);
-    const hit = bestOf(json["release-groups"], title, artist);
+    const hit = bestOf(json["release-groups"], title, artist, sheetYear);
     if (hit) return hit;
     await sleep(MB_GAP);
   }
@@ -219,7 +163,7 @@ async function findReleaseGroup(artist, title) {
   // artist and title -- otherwise this is exactly how wrong covers get in.
   const [a, t] = queryShapes(artist, title).at(-1);
   const json = await mbFetch(`/release-group/?query=${encodeURIComponent(`${a} ${t}`)}&fmt=json&limit=10`);
-  const hit = bestOf(json["release-groups"], t, artist);
+  const hit = bestOf(json["release-groups"], t, artist, sheetYear);
   await sleep(MB_GAP);
   if (hit) return hit;
 
@@ -365,7 +309,7 @@ let ok = 0, noMatch = 0, covered = 0, withGenres = 0, yearFixes = [];
 
 for (const [i, album] of pending.entries()) {
   try {
-    const rg = await findReleaseGroup(album.artist, album.title);
+    const rg = await findReleaseGroup(album.artist, album.title, album.year);
 
     if (!rg) {
       // No identity, but Deezer may still have the sleeve.
