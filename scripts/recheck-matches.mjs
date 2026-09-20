@@ -33,6 +33,19 @@ const args = process.argv.slice(2);
 const DRY = args.includes("--dry-run");
 const LIMIT = Number(args.find((a) => a.startsWith("--limit="))?.split("=")[1] || Infinity);
 const GAP = Number(args.find((a) => a.startsWith("--gap="))?.split("=")[1] || 15);
+// --skip takes a file of "artist::title" lines, one per line, blank lines and
+// # comments ignored. A year gap is a good detector but not a verdict: an
+// archival release like Neil Young's Hitchhiker was recorded in 1976 and
+// released in 2017, so the shelf's year pulls the match away from the right
+// answer. Those need a person, not a rule.
+const SKIP = new Set();
+const skipFile = args.find((a) => a.startsWith("--skip="))?.split("=")[1];
+if (skipFile) {
+  for (const line of readFileSync(skipFile, "utf8").split(/\r?\n/)) {
+    const t = line.trim();
+    if (t && !t.startsWith("#")) SKIP.add(t);
+  }
+}
 
 const MB_GAP = 1100;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -83,6 +96,7 @@ const suspects = rows
   .filter((a) => {
     const rec = store[`${a.artist}::${a.title}`];
     if (!rec?.mbid || !rec.mb_year || !a.year) return false;
+    if (SKIP.has(`${a.artist}::${a.title}`)) return false;
     return Math.abs(Number(rec.mb_year) - Number(a.year)) >= GAP;
   })
   .slice(0, LIMIT);
@@ -151,6 +165,11 @@ for (const c of changed) {
   rec.mbid = c.to.mbid;
   rec.mb_year = c.to.year;
   if (cover) { rec.cover_url = cover; rec.cover_from = "coverartarchive"; }
+  // The genres belong to the record we just moved away from. Clearing them
+  // both removes the wrong data and makes the album eligible for the retry
+  // pass, which refetches tags for whatever mbid is now stored.
+  rec.genres = [];
+  delete rec.genre_source;
   rec.rechecked = new Date().toISOString().slice(0, 10);
   wrote++;
 }
