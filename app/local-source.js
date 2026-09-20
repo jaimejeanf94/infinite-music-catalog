@@ -205,6 +205,12 @@ const LocalDB = {
     if (!gone.includes(key)) { gone.push(key); save(LS_GONE, gone); }
   },
 
+  // There is no bucket without an account. Paste a URL instead, or set one
+  // with scripts/rename.mjs' sibling tooling once Supabase is configured.
+  async uploadCover() {
+    throw new Error("Uploading needs Supabase — paste an image URL instead.");
+  },
+
   async updateAlbum(id, patch) {
     const key = KEY_BY_ID.get(id);
     if (!key) { console.warn(`updateAlbum: no album loaded with id ${id}`); return; }

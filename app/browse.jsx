@@ -66,6 +66,29 @@ function Detail({ album, owner, onPatch, onPlay, onDelete, onClose, index, onGen
   const [draft, setDraft] = React.useState(blank);
   React.useEffect(() => { setEditingName(false); setDraft(blank()); }, [album.id]);
 
+  const [uploading, setUploading] = React.useState(false);
+  const [uploadError, setUploadError] = React.useState(null);
+  React.useEffect(() => setUploadError(null), [album.id]);
+
+  async function uploadCover(e) {
+    const file = e.target.files?.[0];
+    e.target.value = "";                 // so the same file can be retried
+    if (!file) return;
+    if (!file.type.startsWith("image/")) return setUploadError("That is not an image.");
+    if (file.size > 5 * 1024 * 1024) return setUploadError("Too large — keep it under 5 MB.");
+    setUploadError(null);
+    setUploading(true);
+    try {
+      const url = await window.db.uploadCover(album.id, file);
+      // cover_locked so the nightly run never replaces a cover you chose.
+      onPatch(album.id, { cover_url: url, cover_locked: true });
+    } catch (err) {
+      setUploadError(err.message || "Upload failed.");
+    } finally {
+      setUploading(false);
+    }
+  }
+
   function saveName(e) {
     e.preventDefault();
     const artist = draft.artist.trim();
@@ -172,6 +195,24 @@ function Detail({ album, owner, onPatch, onPlay, onDelete, onClose, index, onGen
                   }}
                 />
               </label>
+
+              {canRename && (
+                <label className="field">
+                  <span>…or upload one</span>
+                  <input
+                    type="file"
+                    accept="image/*"
+                    className="file"
+                    disabled={uploading}
+                    onChange={uploadCover}
+                  />
+                  <small className="hint" aria-live="polite">
+                    {uploading ? "Uploading…"
+                      : uploadError ? uploadError
+                      : "For covers no source has, or sites that block hotlinking."}
+                  </small>
+                </label>
+              )}
 
               <label className="field">
                 <span>Notes</span>

@@ -111,6 +111,25 @@ const supabaseDb = {
     if (error) throw error;
   },
 
+  // Some covers no source will ever have -- a small label, a Bandcamp-only
+  // release, a Japanese pressing. And many sites that do have the image serve
+  // it behind Cloudflare, which answers a hotlink with a 403 challenge rather
+  // than a picture, so pasting their URL can never work. Uploading puts the
+  // file in our own public bucket instead: one fast host, no referer checks,
+  // and it cannot rot when someone else reorganises their site.
+  async uploadCover(id, file) {
+    const ext = ((file.name || "").split(".").pop() || "jpg")
+      .toLowerCase().replace(/[^a-z0-9]/g, "").slice(0, 4) || "jpg";
+    const path = `manual/${id}.${ext}`;
+    const { error } = await sb.storage.from("covers")
+      .upload(path, file, { upsert: true, contentType: file.type || "image/jpeg" });
+    if (error) throw error;
+    const { data } = sb.storage.from("covers").getPublicUrl(path);
+    // Replacing a cover reuses the path, so without this the browser shows
+    // the old picture from cache.
+    return `${data.publicUrl}?v=${Date.now()}`;
+  },
+
   async updateAlbum(id, patch) {
     // artist and title are editable here but not in local mode: in Postgres
     // the album's id is the identity and genres/mbid/cover_url are columns on
