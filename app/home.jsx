@@ -70,33 +70,37 @@ function HomeView({ albums, onGo }) {
 
   return (
     <div className="home">
+      {/* The publication is the masthead; "today's five" is a section head
+          under it. The other way round demotes the thing you actually opened
+          and shouts the label of one section within it. */}
       <header className="masthead">
         <h1 className="masthead__title">
-          Today&rsquo;s<br />Five
+          Infinite<br />Music<br />Catalog
         </h1>
         <div className="masthead__side">
           <p className="masthead__date">{dateline}</p>
-          <p className="masthead__blurb">
-            Five records off the shelf, chosen fresh each night. Three you have
-            never rated, two you already know.
-          </p>
           <p className="masthead__count">
-            <b>{albums.length.toLocaleString()}</b> albums ·{" "}
-            <b>{rated.toLocaleString()}</b> rated · {pct}%
+            <b>{albums.length.toLocaleString()}</b> albums
+            <br /><b>{rated.toLocaleString()}</b> rated &middot; {pct}%
+            <br /><b>{(albums.length - rated).toLocaleString()}</b> to go
           </p>
         </div>
       </header>
 
+      <div className="sectionhead">
+        <h2>Today&rsquo;s five</h2>
+        <span className="sectionhead__rule" aria-hidden="true" />
+      </div>
+
       {stale && (
         <p className="home__stale" role="status">
-          Last refreshed {dateline} — tonight&rsquo;s run will pick five more.
+          Picked {dateline}.
         </p>
       )}
 
       {failed && (
         <p className="home__empty">
-          No picks yet. Run <code>node scripts/daily-picks.mjs</code>, or wait
-          for tonight&rsquo;s job.
+          No picks yet — <code>node scripts/daily-picks.mjs</code>
         </p>
       )}
 
@@ -113,15 +117,13 @@ function HomeView({ albums, onGo }) {
         <button className="door" onClick={() => onGo("browse")}>
           <span className="door__k">01</span>
           <span className="door__t">The shelf</span>
-          <span className="door__d">
-            Every record, searchable, sortable, filterable by genre.
-          </span>
+          <span className="door__d">{albums.length.toLocaleString()} albums</span>
         </button>
         <button className="door" onClick={() => onGo("roll")}>
           <span className="door__k">02</span>
           <span className="door__t">Roll</span>
           <span className="door__d">
-            One album at a time, drawn at random. Rate it and roll again.
+            {(albums.length - rated).toLocaleString()} still unrated
           </span>
         </button>
       </nav>

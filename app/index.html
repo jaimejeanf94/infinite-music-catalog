@@ -202,7 +202,9 @@ function App() {
             viewing as visitor ×
           </a>
         )}
-        <a className="brand" href="#/">Infinite Music Catalog</a>
+        {/* On home the masthead already is the wordmark, so the running head
+            would just repeat it two inches above itself. */}
+        {route !== "home" && <a className="brand" href="#/">Infinite Music Catalog</a>}
         {db.mode === "local" ? null : user
           ? <button className="btn btn--quiet btn--sm" onClick={() => db.signOut()}>Sign out</button>
           : <button className="btn btn--quiet btn--sm" onClick={() => setShowSignIn(true)}>Sign in</button>}
