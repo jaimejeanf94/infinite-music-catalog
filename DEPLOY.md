@@ -49,6 +49,11 @@ node scripts/import.mjs                     # push the new URLs to the database
 Safe to interrupt and re-run — it skips anything already cached. This is the
 step that removes the 1.2–3.1s wait per cover.
 
+You only run this by hand once, for the existing 4,000-odd covers. After steps
+1 and 2 are done, the nightly job caches any new artwork by itself, before it
+pushes to the database. Until the bucket exists that step prints a note and
+skips, so it is safe to leave in place.
+
 ## 4. Lock writes to your account — **you**
 
 Currently any *authenticated* user can write. With sign-ups off that is only

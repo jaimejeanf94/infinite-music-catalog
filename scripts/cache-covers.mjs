@@ -26,6 +26,10 @@ const args = process.argv.slice(2);
 const LIMIT = Number(args.find((a) => a.startsWith("--limit="))?.split("=")[1] || Infinity);
 const BUCKET = args.find((a) => a.startsWith("--bucket="))?.split("=")[1] || "covers";
 const DRY = args.includes("--dry-run");
+// For the nightly job: a bucket that does not exist yet means "not set up",
+// not "broken". Without this the workflow would fail every night until the
+// bucket is created by hand.
+const IF_CONFIGURED = args.includes("--if-configured");
 
 // archive.org is slow per request but does not mind a few at once, and the
 // whole job is latency-bound. Six is enough to matter without hammering them.
@@ -80,6 +84,10 @@ const token = await signIn();
 const store_ = storage(token);
 
 if (!(await store_.bucketExists(BUCKET))) {
+  if (IF_CONFIGURED) {
+    console.log(`No "${BUCKET}" bucket yet — skipping. See DEPLOY.md step 1.`);
+    process.exit(0);
+  }
   console.error(
     `No storage bucket called "${BUCKET}".\n\n` +
     `Create it in the Supabase dashboard: Storage -> New bucket\n` +
@@ -144,4 +152,4 @@ if (failures.length) {
   for (const f of failures.slice(0, 20)) console.log(`  ${f}`);
   if (failures.length > 20) console.log(`  … and ${failures.length - 20} more`);
 }
-console.log(`\nnow run:  node scripts/import.mjs   # push the new URLs to the database`);
+if (done) console.log(`\nnow run:  node scripts/import.mjs   # push the new URLs to the database`);

@@ -89,6 +89,15 @@ jobs:
       - name: Retry the gaps
         run: node scripts/enrich.mjs --retry --limit=150
 
+      # Artwork found tonight points at coverartarchive.org, which is a lookup
+      # that redirects twice and takes 1.2-3.1s. Copy anything new into
+      # Storage before the import, so one import pushes the fast URLs along
+      # with everything else. Already-cached covers are skipped, so on a normal
+      # night this is a handful of albums.
+      - name: Cache any new artwork
+        if: ${{ env.SUPABASE_URL != '' }}
+        run: node scripts/cache-covers.mjs --if-configured --limit=200
+
       - name: Push genres and artwork back
         if: ${{ env.SUPABASE_URL != '' }}
         run: node scripts/import.mjs
