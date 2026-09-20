@@ -41,7 +41,8 @@ const AFTER_DAYS = Number(args.find((a) => a.startsWith("--after="))?.split("=")
 
 const MB_GAP = 1100;                       // MusicBrainz allows one call a second
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-const norm = (s) => (s || "").toLowerCase().normalize("NFKD").replace(/[^a-z0-9]/g, "");
+// Letters and digits in any script -- see the note in lib/match.mjs.
+const norm = (s) => (s || "").toLowerCase().normalize("NFKD").replace(/[^\p{L}\p{N}]/gu, "");
 // A sequence marker is the one thing distance is blind to: "Part II" is a
 // hair away from "Part One" and "Vol. 2" from "Vol. 3", but they are different
 // records. Digits alone are not enough -- Roman numerals and number words say

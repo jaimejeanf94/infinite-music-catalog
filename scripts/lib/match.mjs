@@ -5,7 +5,15 @@
 // one copy matters: the two would drift, and then a recheck would "fix" albums
 // into a state the next nightly run undoes.
 
-export const norm = (s) => (s || "").toLowerCase().normalize("NFKD").replace(/[^a-z0-9]/g, "");
+// Keep letters and digits in ANY script, not just ASCII. The old rule was
+// /[^a-z0-9]/, which deleted every Japanese, Korean, Chinese and Cyrillic
+// character -- so "宇宙 日本 世田谷" normalised to the empty string and every
+// comparison against it was rejected before it began. MusicBrainz had those
+// albums all along; this code threw the answer away. NFKD still splits
+// accents off Latin letters, and \p{M} drops the marks, so "Björk" is still
+// "bjork".
+export const norm = (s) =>
+  (s || "").toLowerCase().normalize("NFKD").replace(/[^\p{L}\p{N}]/gu, "");
 
 export function editDistance(a, b) {
   const m = a.length, n = b.length;
