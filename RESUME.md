@@ -7,10 +7,12 @@ Full step-by-step with explanations: https://claude.ai/artifact/ES3wevTTiCCqYZLb
 ## Done
 
 - **Repo is public**: https://github.com/jaimejeanf94/infinite-music-catalog
-  30 commits, Issues/Wiki off, no personal email in the history.
+  Issues/Wiki off, no personal email in the history, only you can write.
 - **Supabase project created**, Data API on, automatic RLS on.
 - **4,422 albums** (multi-disc releases merged from 4,476).
-- **Enrichment running**: ~2,400 done. A sweep job is queued behind it.
+- **Enrichment ~90% done**: 3980 processed, 3690 matched,
+  3624 with genres, 3783 with artwork. A sweep job is queued behind it to retry
+  whatever failed.
 
 ## If the backfill stopped
 
