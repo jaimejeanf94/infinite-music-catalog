@@ -63,9 +63,33 @@ const existing = new Set(
   (await api.selectAll("albums?select=artist,title&order=id.asc"))
     .map((a) => `${a.artist.toLowerCase()}::${a.title.toLowerCase()}`)
 );
-const fresh = albums.filter(
-  (a) => !existing.has(`${a.artist.toLowerCase()}::${a.title.toLowerCase()}`)
+// A renamed album is a new name for a row that already exists, so matching on
+// the name alone would insert it a second time and leave the original behind.
+// That happens whenever albums.csv is older than the database -- a rename made
+// in the app since the last export, for instance. The nightly run avoids it by
+// exporting first, but nothing stops a hand-run import from being stale.
+//
+// The MusicBrainz id is the better identity: it survives a rename, because it
+// names the record rather than the spelling.
+const knownMbids = new Set(
+  (await api.selectAll("albums?select=mbid&mbid=not.is.null&order=id.asc"))
+    .map((a) => a.mbid)
 );
+
+const renamed = [];
+const fresh = albums.filter((a) => {
+  if (existing.has(`${a.artist.toLowerCase()}::${a.title.toLowerCase()}`)) return false;
+  if (a.mbid && knownMbids.has(a.mbid)) { renamed.push(a); return false; }
+  return true;
+});
+if (renamed.length) {
+  console.log(
+    `${renamed.length} album(s) already in the database under a different name ` +
+    `-- not inserting:`);
+  for (const a of renamed.slice(0, 5)) console.log(`  ${a.artist} — ${a.title}`);
+  if (renamed.length > 5) console.log(`  … and ${renamed.length - 5} more`);
+  console.log(`(albums.csv is older than the database — run export.mjs first)`);
+}
 
 console.log(`${albums.length} in CSV, ${existing.size} already in the database, ${fresh.length} to insert`);
 
