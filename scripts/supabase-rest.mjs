@@ -45,9 +45,16 @@ export function storage(token) {
   return {
     publicUrl: (bucket, path) => `${base}/object/public/${bucket}/${path}`,
 
+    // GET /bucket/<name> reads storage.buckets, which a normal signed-in user
+    // has no rights on, so it answers "Bucket not found" for a bucket that is
+    // sitting right there. Ask the public object endpoint instead: a missing
+    // object inside a real bucket says NoSuchKey, a missing bucket says
+    // NoSuchBucket. No auth needed either, since the bucket is public.
     async bucketExists(bucket) {
-      const res = await fetch(`${base}/bucket/${bucket}`, { headers: auth });
-      return res.ok;
+      const res = await fetch(`${base}/object/public/${bucket}/__probe_does_not_exist__`);
+      if (res.ok) return true;
+      const body = await res.text().catch(() => "");
+      return !/nosuchbucket|bucket not found/i.test(body);
     },
 
     // x-upsert makes a re-run overwrite rather than fail, which is what you
