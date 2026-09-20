@@ -67871,5 +67871,21 @@
   "cover_from": "coverartarchive",
   "mb_year": "1992",
   "checked": "2026-09-20"
+ },
+ "Interpol::This Mirror Weighs a Ton": {
+  "status": "ok",
+  "mbid": "5a2717f1-cc28-42d7-aea6-00a7bb2c4355",
+  "genres": [
+   "post-rock",
+   "art rock",
+   "post-punk revival",
+   "dream pop",
+   "space rock revival"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/5a2717f1-cc28-42d7-aea6-00a7bb2c4355/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2026",
+  "checked": "2026-09-20"
  }
 }

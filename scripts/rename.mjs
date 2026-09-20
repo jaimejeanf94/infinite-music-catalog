@@ -38,6 +38,12 @@ const flag = (name) => {
 };
 const DRY = argv.includes("--dry-run");
 const REFRESH = argv.includes("--refresh");
+// Without --db this script touches only local files and needs no account, as
+// the rest of the offline tooling does. With it, the same rename is applied to
+// Postgres -- which matters because import.mjs matches rows on artist+title,
+// so a CSV-only rename would look like a brand new album and be inserted
+// alongside the one it was meant to correct.
+const DB = argv.includes("--db");
 
 // enrich.mjs reads albums.csv once at startup and rewrites enrichment.json
 // wholesale every few albums. Renaming underneath it would be silently undone
@@ -228,6 +234,35 @@ console.log(
 if (dropped && !DRY) console.log(`\nnow run:  node scripts/enrich.mjs   # fills the ${dropped} gaps`);
 
 if (DRY) process.exit(0);
+
+// ── carry the renames into Postgres, when asked ─────────────────────────────
+if (DB) {
+  if (planned.some((p) => p.merge)) {
+    console.error(
+      "--db does not do merges: collapsing two database rows means deciding\n" +
+      "what happens to their rolls and plays. Do those by hand."
+    );
+    process.exit(1);
+  }
+  const { requireEnv, signIn, rest } = await import("./supabase-rest.mjs");
+  requireEnv();
+  const api = rest(await signIn());
+
+  // Fetch the ids once and match in memory, rather than building a PostgREST
+  // filter per album -- album titles contain commas, quotes and parentheses,
+  // all of which mean something in a filter.
+  const rows = await api.selectAll("albums?select=id,artist,title&order=id.asc");
+  const idOf = new Map(rows.map((r) => [`${r.artist}::${r.title}`, r.id]));
+
+  let patched = 0, absent = 0;
+  for (const p of planned) {
+    const id = idOf.get(p.from);
+    if (!id) { absent++; continue; }        // not in the database yet; the CSV is enough
+    await api.update("albums", `id=eq.${id}`, { artist: p.ta, title: p.tt });
+    patched++;
+  }
+  console.log(`database: ${patched} rows renamed` + (absent ? `, ${absent} not found there` : ""));
+}
 
 // Write to a sibling then rename, so an interrupted run cannot leave a
 // half-written catalog behind.

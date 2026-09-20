@@ -52,6 +52,33 @@ jobs:
         if: ${{ env.SUPABASE_URL != '' }}
         run: node scripts/export.mjs
 
+      # enrich.mjs already finds the right record for a misspelled album --
+      # viaArtist() searches inside the artist's own discography -- but it
+      # stores the result under the wrong name and throws the correction away.
+      # This turns that into a rename, before enrichment runs, so the corrected
+      # name is what gets matched below.
+      #
+      # Only the confident tier is applied. suggest-renames holds back anything
+      # that changes a sequence number (Pt. 2 is one edit from Pt. 1), gains or
+      # loses a whole word (a different release), drops a credited artist
+      # (MusicBrainz credits one, the shelf may list two), or is merely house
+      # style. Those land in data/rename-suggestions-review.json for a human.
+      #
+      # --db carries the rename into Postgres as well: import.mjs matches rows
+      # on artist and title, so a CSV-only rename would be inserted as a new
+      # album beside the one it was correcting.
+      - name: Correct misspelled names
+        if: ${{ env.SUPABASE_URL != '' }}
+        run: |
+          node scripts/suggest-renames.mjs --limit=60 \
+            --out=data/rename-suggestions.json
+          if [ -s data/rename-suggestions.json ] && \
+             [ "$(tr -d '[:space:]' < data/rename-suggestions.json)" != "[]" ]; then
+            node scripts/rename.mjs --file data/rename-suggestions.json --refresh --db
+          else
+            echo "nothing confident enough to apply tonight"
+          fi
+
       - name: Enrich a batch
         run: node scripts/enrich.mjs --limit=${{ inputs.batch || 300 }}
 
@@ -77,6 +104,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/albums.csv data/enrichment.json
+          git add data/rename-suggestions.json \
+                  data/rename-suggestions-review.json 2>/dev/null || true
           # Nothing changed is a normal outcome, not a failure.
           git diff --staged --quiet || git commit -m "Nightly backup and enrichment [skip ci]"
           git push
