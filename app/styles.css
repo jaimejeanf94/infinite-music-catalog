@@ -522,7 +522,7 @@ button, a, input, select, textarea, .tile { touch-action: manipulation; }
 }
 .masthead__title {
   margin: 0; font-family: var(--display);
-  font-size: clamp(54px, 9.5vw, 132px); line-height: 0.78;
+  font-size: clamp(38px, 6.2vw, 86px); line-height: 0.82;
   letter-spacing: -0.015em; text-transform: uppercase; color: var(--ink);
 }
 .masthead__side { padding-bottom: 10px; }
