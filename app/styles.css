@@ -504,3 +504,161 @@ button, a, input, select, textarea, .tile { touch-action: manipulation; }
   .mode--first-optional { margin-left: 16px; }
   .mode--first-optional::before { left: -9px; }
 }
+
+/* ═══ HOME ══════════════════════════════════════════════════════════════════
+   A broadsheet front page. The masthead is deliberately lopsided -- a heavy
+   slab of display type on the left, the dateline and the numbers set small
+   against it -- because a symmetrical hero is the one layout every generated
+   page already has. The lead record is printed large, the other four run
+   beneath it like columns. */
+
+.home { max-width: 1180px; margin: 0 auto; padding: 0 0 72px; }
+
+.masthead {
+  display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  gap: 32px 56px; align-items: end;
+  padding: 44px 0 30px; margin-bottom: 38px;
+  border-bottom: 2px solid var(--ink);
+}
+.masthead__title {
+  margin: 0; font-family: var(--display);
+  font-size: clamp(64px, 12.5vw, 168px); line-height: 0.80;
+  letter-spacing: -0.015em; text-transform: uppercase; color: var(--ink);
+  text-wrap: balance;
+}
+.masthead__side { padding-bottom: 10px; }
+.masthead__date {
+  margin: 0 0 14px; font-family: var(--mono); font-size: 12px;
+  letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent);
+}
+.masthead__blurb {
+  margin: 0 0 16px; font-family: var(--body); font-size: 17px;
+  line-height: 1.55; color: var(--ink-dim); max-width: 42ch; text-wrap: pretty;
+}
+.masthead__count {
+  margin: 0; font-family: var(--mono); font-size: 12px;
+  letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-dim);
+  font-variant-numeric: tabular-nums;
+}
+.masthead__count b { color: var(--ink); font-weight: 700; }
+
+.home__stale, .home__empty {
+  margin: 0 0 30px; font-family: var(--mono); font-size: 12px;
+  letter-spacing: 0.06em; color: var(--ink-dim);
+}
+.home__empty code { color: var(--ink); background: var(--panel-2); padding: 2px 6px; }
+
+/* ── the five ─────────────────────────────────────────────────────────── */
+.dailies {
+  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 30px 26px;
+}
+.daily { animation: riseIn 520ms cubic-bezier(.2,.7,.3,1) both; }
+.daily--lead { grid-column: 1 / -1; }
+
+.daily__hit {
+  display: grid; gap: 14px; width: 100%; text-align: left;
+  background: none; border: 0; padding: 0; cursor: pointer; color: inherit;
+  font: inherit;
+}
+.daily--lead .daily__hit {
+  grid-template-columns: minmax(0, 420px) minmax(0, 1fr);
+  gap: 44px; align-items: center;
+}
+.daily__hit:focus-visible { outline: 2px solid var(--accent); outline-offset: 6px; }
+
+.daily__no {
+  font-family: var(--mono); font-size: 11px; letter-spacing: 0.22em;
+  color: var(--ink-dim); order: -1;
+}
+.daily--lead .daily__no { display: none; }
+
+.daily__art { display: block; overflow: hidden; background: var(--panel-2); }
+.daily__art img {
+  display: block; width: 100%; height: auto; aspect-ratio: 1;
+  object-fit: cover;
+  transition: transform 520ms cubic-bezier(.2,.7,.3,1),
+              filter 520ms cubic-bezier(.2,.7,.3,1);
+  filter: saturate(0.92);
+}
+.daily__hit:hover .daily__art img,
+.daily__hit:focus-visible .daily__art img { transform: scale(1.04); filter: saturate(1.1); }
+
+.daily__text { display: block; min-width: 0; }
+.daily__artist {
+  display: block; font-family: var(--mono); font-size: 11px;
+  letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent);
+  margin-bottom: 6px; overflow-wrap: anywhere;
+}
+.daily__title {
+  display: block; font-family: var(--display); text-transform: uppercase;
+  font-size: 20px; line-height: 1.02; letter-spacing: -0.005em; color: var(--ink);
+  overflow-wrap: anywhere; text-wrap: balance;
+}
+.daily--lead .daily__artist { font-size: 13px; margin-bottom: 14px; }
+.daily--lead .daily__title { font-size: clamp(38px, 5.4vw, 82px); }
+
+.daily__meta {
+  display: flex; align-items: center; gap: 10px; margin-top: 8px;
+  font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em;
+  color: var(--ink-dim); font-variant-numeric: tabular-nums;
+}
+.daily__score {
+  background: var(--accent); color: #fff; font-weight: 700;
+  padding: 1px 7px; letter-spacing: 0.06em;
+}
+.daily__genres {
+  display: block; margin-top: 8px; font-family: var(--body);
+  font-size: 14px; color: var(--ink-dim); overflow-wrap: anywhere;
+}
+.daily--lead .daily__genres { font-size: 17px; margin-top: 14px; }
+
+@keyframes riseIn {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: none; }
+}
+
+/* ── the two doors ────────────────────────────────────────────────────── */
+.doors {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0; margin-top: 64px; border-top: 2px solid var(--ink);
+}
+.door {
+  display: block; text-align: left; padding: 30px 30px 34px;
+  background: none; border: 0; border-right: 1px solid var(--line);
+  cursor: pointer; color: inherit; font: inherit;
+  transition: background 220ms ease;
+}
+.door:last-child { border-right: 0; }
+.door:hover { background: var(--panel); }
+.door:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.door__k {
+  display: block; font-family: var(--mono); font-size: 11px;
+  letter-spacing: 0.22em; color: var(--accent); margin-bottom: 12px;
+}
+.door__t {
+  display: block; font-family: var(--display); text-transform: uppercase;
+  font-size: clamp(30px, 4vw, 46px); line-height: 1; color: var(--ink);
+}
+.door__d {
+  display: block; margin-top: 12px; font-family: var(--body);
+  font-size: 15px; line-height: 1.5; color: var(--ink-dim); max-width: 34ch;
+}
+
+.nav__a--last { margin-left: auto; }
+
+@media (max-width: 900px) {
+  .masthead { grid-template-columns: 1fr; align-items: start; gap: 22px; }
+  .dailies { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .daily--lead .daily__hit { grid-template-columns: 1fr; gap: 20px; }
+  .doors { grid-template-columns: 1fr; }
+  .door { border-right: 0; border-bottom: 1px solid var(--line); }
+}
+@media (max-width: 560px) {
+  .dailies { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .daily { animation: none; }
+  .daily__art img, .door { transition: none; }
+  .daily__hit:hover .daily__art img { transform: none; }
+}

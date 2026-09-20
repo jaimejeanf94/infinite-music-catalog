@@ -1,0 +1,76 @@
+{
+ "date": "2026-09-20",
+ "picks": [
+  {
+   "artist": "death's dynamic shroud",
+   "title": "You Like Music",
+   "year": 2024,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8d4251c0-83c0-4c4d-8de6-d2f7d666de2b.jpg",
+   "genres": [
+    "idm",
+    "deconstructed club",
+    "jersey club"
+   ]
+  },
+  {
+   "artist": "Paul White ft. Danny Brown",
+   "title": "Accelerator",
+   "year": 2017,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/381f4540-f0df-4a04-bb28-b4ad3f9be53d.jpg",
+   "genres": [
+    "electronic",
+    "hip hop",
+    "electronica"
+   ]
+  },
+  {
+   "artist": "Little Brother",
+   "title": "The Minstrel Show",
+   "year": 2005,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/44c8f2cb-6082-3021-8da8-f12ace7c3c98.jpg",
+   "genres": [
+    "hip hop",
+    "alternative pop"
+   ]
+  },
+  {
+   "artist": "Bon Iver",
+   "title": "SABLE, fABLE",
+   "year": 2025,
+   "score": 85,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4843294e-a8ab-4a39-864b-36faa09a2dd8.jpg",
+   "genres": [
+    "art pop",
+    "indie folk",
+    "pop soul"
+   ]
+  },
+  {
+   "artist": "Morbid Angel",
+   "title": "Altars of Madness",
+   "year": 1989,
+   "score": 75,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e5be441e-53ec-376a-b261-426e8f06e144.jpg",
+   "genres": [
+    "death metal",
+    "metal",
+    "rock"
+   ]
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-09-20",
+   "keys": [
+    "death's dynamic shroud::You Like Music",
+    "Paul White ft. Danny Brown::Accelerator",
+    "Little Brother::The Minstrel Show",
+    "Bon Iver::SABLE, fABLE",
+    "Morbid Angel::Altars of Madness"
+   ]
+  }
+ ]
+}
