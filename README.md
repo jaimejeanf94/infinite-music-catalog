@@ -439,7 +439,19 @@ node scripts/suggest-renames.mjs  # work out what a misspelt album really is
 node scripts/cache-covers.mjs     # copy artwork into Supabase Storage
 ```
 
-### Correcting a name
+### Correcting a name in the app
+
+Once the app is on Supabase, open an album and use **Edit name** on the detail
+sheet. There the album's id is the identity and `mbid`, `genres` and
+`cover_url` are columns on its row, so a rename is an ordinary update with
+nothing to keep in step. The next nightly run sees a name it has no enrichment
+record for and re-matches it, which refreshes the genres and artwork.
+
+In local mode the button is replaced by a pointer to the script, because
+`enrichment.json` is keyed by `artist::title` and a rename has to move both
+halves at once.
+
+### Correcting a name from the command line
 
 A title is an identity: `data/enrichment.json` is keyed by `artist::title`, and
 so are the app's local edits. Editing `albums.csv` by hand orphans that album's

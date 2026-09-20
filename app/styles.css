@@ -435,3 +435,25 @@ button, a, input, select, textarea, .tile { touch-action: manipulation; }
 .readonly-note { margin: 0; color: var(--ink); font-size: 15px; white-space: pre-wrap; }
 
 .tag--preview { background: var(--accent); color: #fff; border-color: var(--accent); text-decoration: none; }
+
+/* ── renaming an album ──────────────────────────────────────────────────── */
+/* Sits where the artist and title normally are, so the sheet does not jump
+   when it opens. The year is narrow because four digits never need more. */
+.rename { display: flex; flex-direction: column; gap: 12px; margin-bottom: 20px; }
+.rename__year { max-width: 120px; }
+.rename__actions { display: flex; gap: 8px; margin-top: 2px; }
+.rename__note {
+  margin: 0; font-size: 12px; line-height: 1.5; color: var(--ink-dim); max-width: 46ch;
+}
+
+/* A text button that reads as a link but behaves as a button, so it keeps
+   keyboard focus and does not pretend to be navigation. */
+.linkish {
+  background: none; border: 0; padding: 0; cursor: pointer;
+  font: inherit; letter-spacing: inherit; color: var(--accent);
+  text-decoration: underline; text-underline-offset: 3px;
+}
+.linkish:hover { color: #f4663f; }
+.linkish:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+.hint { color: var(--ink-dim); opacity: 0.7; text-transform: none; letter-spacing: 0.02em; }

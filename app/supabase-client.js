@@ -34,6 +34,7 @@ async function fetchAllAlbums() {
 
 const supabaseDb = {
   configured: CONFIGURED,
+  mode: "cloud",
 
   // ── auth ────────────────────────────────────────────────────────────────
   // One account, sign-ups disabled: being signed in IS being the owner.
@@ -111,7 +112,14 @@ const supabaseDb = {
   },
 
   async updateAlbum(id, patch) {
-    const ALLOWED = ["score", "in_pool", "notes", "cover_url", "cover_locked"];
+    // artist and title are editable here but not in local mode: in Postgres
+    // the album's id is the identity and genres/mbid/cover_url are columns on
+    // the row, so a rename is an ordinary update with nothing to keep in
+    // step. Locally those live in enrichment.json keyed by artist::title, and
+    // a rename has to move both halves -- that is what scripts/rename.mjs is
+    // for.
+    const ALLOWED = ["artist", "title", "year",
+                     "score", "in_pool", "notes", "cover_url", "cover_locked"];
     const clean = {};
     for (const k of ALLOWED) if (k in patch) clean[k] = patch[k];
     if (!Object.keys(clean).length) return;

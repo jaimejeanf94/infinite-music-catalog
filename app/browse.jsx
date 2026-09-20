@@ -58,6 +58,28 @@ function Detail({ album, owner, onPatch, onPlay, onDelete, onClose, index, onGen
   const [notes, setNotes] = React.useState(album.notes || "");
   React.useEffect(() => setNotes(album.notes || ""), [album.id]);
 
+  // Renaming is a cloud-mode action. See the note on the whitelist in
+  // supabase-client.js for why local mode sends you to the script instead.
+  const canRename = window.db?.mode !== "local";
+  const blank = () => ({ artist: album.artist, title: album.title, year: album.year || "" });
+  const [editingName, setEditingName] = React.useState(false);
+  const [draft, setDraft] = React.useState(blank);
+  React.useEffect(() => { setEditingName(false); setDraft(blank()); }, [album.id]);
+
+  function saveName(e) {
+    e.preventDefault();
+    const artist = draft.artist.trim();
+    const title = draft.title.trim();
+    if (!artist || !title) return;          // never leave an album unnameable
+    const year = draft.year ? Number(draft.year) : null;
+    const patch = {};
+    if (artist !== album.artist) patch.artist = artist;
+    if (title !== album.title) patch.title = title;
+    if (year !== (album.year ?? null)) patch.year = year;
+    if (Object.keys(patch).length) onPatch(album.id, patch);
+    setEditingName(false);
+  }
+
   React.useEffect(() => {
     const onKey = (e) => e.key === "Escape" && onClose();
     window.addEventListener("keydown", onKey);
@@ -73,9 +95,47 @@ function Detail({ album, owner, onPatch, onPlay, onDelete, onClose, index, onGen
                     onResolved={(id, url) => onPatch(id, { cover_url: url }, true)} />
         </div>
         <div className="sheet__body">
-          <div className="card__artist">{album.artist}</div>
-          <h2 className="card__title">{album.title}</h2>
-          <div className="card__meta">{album.year || "—"}</div>
+          {editingName ? (
+            <form className="rename" onSubmit={saveName}>
+              <label className="field">
+                <span>Artist</span>
+                <input value={draft.artist} autoFocus spellCheck={false}
+                       onChange={(e) => setDraft({ ...draft, artist: e.target.value })} />
+              </label>
+              <label className="field">
+                <span>Album</span>
+                <input value={draft.title} spellCheck={false}
+                       onChange={(e) => setDraft({ ...draft, title: e.target.value })} />
+              </label>
+              <label className="field rename__year">
+                <span>Year</span>
+                <input value={draft.year} inputMode="numeric" spellCheck={false}
+                       onChange={(e) => setDraft({ ...draft, year: e.target.value.replace(/\D/g, "").slice(0, 4) })} />
+              </label>
+              <div className="rename__actions">
+                <button type="submit" className="btn">Save Name</button>
+                <button type="button" className="btn btn--quiet"
+                        onClick={() => { setDraft(blank()); setEditingName(false); }}>Cancel</button>
+              </div>
+              <p className="rename__note">
+                Renaming re-matches this album on the next nightly run, which
+                refreshes its genres and artwork.
+              </p>
+            </form>
+          ) : (
+            <>
+              <div className="card__artist">{album.artist}</div>
+              <h2 className="card__title">{album.title}</h2>
+              <div className="card__meta">
+                {album.year || "—"}
+                {owner && (canRename ? (
+                  <button className="linkish" onClick={() => setEditingName(true)}>Edit name</button>
+                ) : (
+                  <span className="hint">local mode — rename with scripts/rename.mjs</span>
+                ))}
+              </div>
+            </>
+          )}
 
           <GenreLines album={album} index={index} onGenre={onGenre} />
 
