@@ -120,5 +120,21 @@ jobs:
           git add data/rename-suggestions.json \
                   data/rename-suggestions-review.json 2>/dev/null || true
           # Nothing changed is a normal outcome, not a failure.
-          git diff --staged --quiet || git commit -m "Nightly backup and enrichment [skip ci]"
-          git push
+          if git diff --staged --quiet; then
+            echo "nothing changed tonight"
+            exit 0
+          fi
+          git commit -m "Nightly backup and enrichment [skip ci]"
+
+          # The run takes about ten minutes, so a push during that window
+          # leaves this commit behind the remote and the push is rejected.
+          # These files are generated from the database, so on a conflict the
+          # copy this run just produced is the right one -- during a rebase
+          # "theirs" means the commit being replayed, which is ours.
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            echo "push rejected (attempt $attempt) — rebasing onto the new main"
+            git pull --rebase -X theirs origin main || { git rebase --abort || true; exit 1; }
+          done
+          echo "could not push after 3 attempts"
+          exit 1

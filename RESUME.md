@@ -71,6 +71,27 @@ output, then feed it to `node scripts/rename.mjs --file suggested.json --refresh
 
 ## Known, not yet fixed
 
+- **A large year gap means the wrong release-group was matched**, not a wrong
+  year. Checked three of the worst:
+
+  | Album | Matched instead | |
+  |---|---|---|
+  | The Beatles — A Hard Day's Night | *The Alternate A Hard Day's Night* (2004) | |
+  | Art Blakey — Moanin' | a **Live** release-group (2001) | |
+  | American Football — American Football | the **2016** album, not the 1999 debut | |
+
+  MusicBrainz holds the right record in each case — `A Hard Day's Night`
+  (1964‑06‑26, Album/Soundtrack) is in the search results, just not the one
+  `candidateScore` picked. So these albums have the wrong **cover and genres**
+  too, not only the wrong year.
+
+  371 albums disagree on year, 52 by 15 years or more, so that list is a
+  ready-made detector for bad matches. Fixing the scoring — prefer a plain
+  Album, and the earliest first-release-date among equal matches — would
+  correct all three at once. The year stays report-only until then: applying
+  it would have written 2004 onto *A Hard Day's Night*.
+
+
 - **27 albums share a cover with another album** — same-artist over-matching,
   e.g. *Black Sabbath Vol. 4* wearing *Black Sabbath*'s sleeve, *EMOTION Side B*
   wearing *EMOTION*'s. Roughly half are legitimately identical artwork.
