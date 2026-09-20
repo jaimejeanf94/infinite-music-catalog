@@ -2012,10 +2012,16 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/54f748e5f33fd2a2.jpg",
   "cover_from": "deezer",
-  "genres": [],
+  "genres": [
+   "post-punk",
+   "noise rock",
+   "punk",
+   "garage punk"
+  ],
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/ae5cabf2f03530fbcc3ca4589150035a/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20"
+  "cover_cached": "2026-09-20",
+  "genre_source": "researched"
  },
  "Neon Indian::Vegan INTL. Night School": {
   "status": "ok",
@@ -6329,10 +6335,15 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/06a67eeaced6b5dd.jpg",
   "cover_from": "deezer",
-  "genres": [],
+  "genres": [
+   "j-pop",
+   "art pop",
+   "jazz"
+  ],
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/610701e9df3b8b3b0b2d8d95af1716c9/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20"
+  "cover_cached": "2026-09-20",
+  "genre_source": "researched"
  },
  "…And You Will Know Us by the Trail of Dead::Source Tags & Codes": {
   "status": "ok",
@@ -6611,8 +6622,15 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
+  "genres": [
+   "tropicanibalismo",
+   "bullerengue",
+   "champeta",
+   "funk",
+   "jazz"
+  ],
+  "tried": "2026-09-20",
+  "genre_source": "researched"
  },
  "2 Many DJ's::2ManyDJs Live at Kompass": {
   "status": "nomatch",
@@ -9141,11 +9159,16 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e3c273dca1ad0c2e.jpg",
   "cover_from": "deezer",
-  "genres": [],
+  "genres": [
+   "ambient",
+   "modern classical",
+   "electronic"
+  ],
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/e69e9d3be642bb4ae67e645a5f9cfd3e/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "rename_checked": "2026-09-20"
+  "rename_checked": "2026-09-20",
+  "genre_source": "researched"
  },
  "Archers of Loaf::Icky Mettle": {
   "status": "ok",
@@ -22018,9 +22041,14 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [],
+  "genres": [
+   "blues rock",
+   "soul",
+   "rock"
+  ],
   "tried": "2026-09-20",
-  "rename_checked": "2026-09-20"
+  "rename_checked": "2026-09-20",
+  "genre_source": "researched"
  },
  "Deltron 3030::Deltron 3030": {
   "status": "ok",
@@ -22620,14 +22648,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/fd07981b-fe56-3218-8df6-bcbe6992c96e/front-500",
   "cover_cached": "2026-09-20"
  },
- "Die Urkatastrophe::Die Urkatastrophe": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20"
- },
  "Digable Planets::Blowout Comb": {
   "status": "ok",
   "mbid": "ee79e536-de20-3af0-9ae8-b529503a8c3e",
@@ -23190,9 +23210,13 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [],
+  "genres": [
+   "hip hop",
+   "turntablism"
+  ],
   "tried": "2026-09-20",
-  "rename_checked": "2026-09-20"
+  "rename_checked": "2026-09-20",
+  "genre_source": "researched"
  },
  "DJ Screw::Endonesia": {
   "status": "ok",
@@ -31711,9 +31735,13 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [],
+  "genres": [
+   "indie folk",
+   "experimental"
+  ],
   "tried": "2026-09-20",
-  "rename_checked": "2026-09-20"
+  "rename_checked": "2026-09-20",
+  "genre_source": "researched"
  },
  "Holy Fawn::Death Spells": {
   "status": "ok",
@@ -35928,8 +35956,11 @@
  "The Faith/ The Void::The Faith/ The Void": {
   "status": "ok",
   "mbid": "ddaecd8e-a582-47ab-b3ed-2f68ad233132",
-  "genres": [],
-  "genre_source": "release",
+  "genres": [
+   "hardcore punk",
+   "punk"
+  ],
+  "genre_source": "researched",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ddaecd8e-a582-47ab-b3ed-2f68ad233132.jpg",
   "cover_from": "itunes",
   "mb_year": "2026",
@@ -37054,8 +37085,12 @@
  "Keiichi Okabe 岡部啓一 & Keigo Hoashi 帆足圭吾::NieR:Automata": {
   "status": "ok",
   "mbid": "ae4a9bb9-ce67-4321-8908-a3d03d7e2191",
-  "genres": [],
-  "genre_source": "release",
+  "genres": [
+   "orchestral",
+   "modern classical",
+   "ambient"
+  ],
+  "genre_source": "researched",
   "cover_url": null,
   "cover_from": null,
   "mb_year": null,
@@ -37574,13 +37609,6 @@
   "checked": "2026-09-19",
   "cover_source_url": "https://coverartarchive.org/release-group/d66265fa-f8e3-3b79-ab11-23eddd92f3ce/front-500",
   "cover_cached": "2026-09-20"
- },
- "Kino Кино::Кино (Чёрный альбом)": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
  },
  "Kinoko Teikoku::eureka": {
   "status": "partial",
@@ -61832,8 +61860,13 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
+  "genres": [
+   "electronic",
+   "progressive rock",
+   "ambient"
+  ],
+  "tried": "2026-09-20",
+  "genre_source": "researched"
  },
  "Swain::Negative Spaces": {
   "status": "ok",
@@ -62814,8 +62847,13 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
+  "genres": [
+   "city pop",
+   "j-pop",
+   "soft rock"
+  ],
+  "tried": "2026-09-20",
+  "genre_source": "researched"
  },
  "Tatsuro Yamashita 山下達郎::For You": {
   "status": "nomatch",
@@ -72280,16 +72318,12 @@
   "status": "ok",
   "mbid": "911d4a85-3710-4784-8533-b4c657658f39",
   "genres": [
-   "punk blues",
-   "rock",
-   "post-punk",
-   "psychedelic rock",
-   "experimental rock",
-   "neo-psychedelia",
+   "noise rock",
    "art punk",
-   "noise rock"
+   "garage rock",
+   "experimental rock"
   ],
-  "genre_source": "release",
+  "genre_source": "researched",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/911d4a85-3710-4784-8533-b4c657658f39.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2019",
@@ -73617,15 +73651,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/85d94dcd-6043-4b02-994d-162da6f6df51/front-500",
   "cover_cached": "2026-09-20"
  },
- "Various Artists::Whiplash (Original Motion Picture Soundtack)": {
-  "status": "nomatch",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2fb1a1afe9e1df36.jpg",
-  "cover_from": "itunes",
-  "genres": [],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ed/c1/38/edc1388b-eaf1-cc8b-f67e-7ccdadc8495f/780163591422.jpg/600x600bb.jpg",
-  "cover_cached": "2026-09-20"
- },
  "Various Artists::After Dark 2": {
   "status": "ok",
   "mbid": "ce38d0d9-6dfb-4149-af70-ca8812995864",
@@ -73771,8 +73796,13 @@
  "Various Artists::Starmix vol.2": {
   "status": "ok",
   "mbid": "86c7acbf-905a-4c00-93cb-5186e11347ea",
-  "genres": [],
-  "genre_source": "release",
+  "genres": [
+   "eurodance",
+   "dance-pop",
+   "house",
+   "electronic"
+  ],
+  "genre_source": "researched",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/86c7acbf-905a-4c00-93cb-5186e11347ea.jpg",
   "cover_from": "itunes",
   "mb_year": "1999",
@@ -73815,8 +73845,13 @@
  "Various Artists::Starmix vol.1": {
   "status": "ok",
   "mbid": "86c7acbf-905a-4c00-93cb-5186e11347ea",
-  "genres": [],
-  "genre_source": "release",
+  "genres": [
+   "eurodance",
+   "dance-pop",
+   "house",
+   "electronic"
+  ],
+  "genre_source": "researched",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/86c7acbf-905a-4c00-93cb-5186e11347ea.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1999",
@@ -77006,10 +77041,14 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/004dced311cbd288.jpg",
   "cover_from": "deezer",
-  "genres": [],
+  "genres": [
+   "shoegaze",
+   "rock"
+  ],
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/53e13ef43a94aeb33979fbe96bcf966f/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20"
+  "cover_cached": "2026-09-20",
+  "genre_source": "researched"
  },
  "파란노을 [Parannoul]::Sky Hundred": {
   "status": "ok",
@@ -77035,8 +77074,13 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
+  "genres": [
+   "electronic",
+   "progressive rock",
+   "synth-pop"
+  ],
+  "tried": "2026-09-20",
+  "genre_source": "researched"
  },
  "椎名林檎 [Sheena Ringo]::Shoso Strip": {
   "status": "partial",
@@ -77066,17 +77110,28 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/183647538e73306e.jpg",
   "cover_from": "deezer",
-  "genres": [],
+  "genres": [
+   "jazz",
+   "pop",
+   "singer-songwriter"
+  ],
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/a8b1190b6fc2e734555b186da1815a88/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20"
+  "cover_cached": "2026-09-20",
+  "genre_source": "researched"
  },
  "芸能山城組 [Geinoh Yamashirogumi]::Symphonic Suite AKIRA": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
+  "genres": [
+   "gamelan",
+   "experimental",
+   "electronic",
+   "modern classical"
+  ],
+  "tried": "2026-09-20",
+  "genre_source": "researched"
  },
  "青葉市子 [Ichiko Aoba]::Windswept Adan": {
   "status": "partial",
@@ -77097,19 +77152,29 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5271eafaeaa2f0fb.jpg",
   "cover_from": "deezer",
-  "genres": [],
+  "genres": [
+   "folk",
+   "singer-songwriter",
+   "ambient"
+  ],
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/94828538dd24de9bb66b52bb66765e2a/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20"
+  "cover_cached": "2026-09-20",
+  "genre_source": "researched"
  },
  "青葉市子 [Ichiko Aoba]::qp": {
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9e69d40fb1a474e0.jpg",
   "cover_from": "deezer",
-  "genres": [],
+  "genres": [
+   "folk",
+   "singer-songwriter",
+   "ambient"
+  ],
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/070be56ce085e6288a51cf3802ac0863/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20"
+  "cover_cached": "2026-09-20",
+  "genre_source": "researched"
  },
  "青葉市子 [Ichiko Aoba]::0": {
   "status": "partial",
@@ -77127,22 +77192,37 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
+  "genres": [
+   "folk",
+   "singer-songwriter",
+   "ambient"
+  ],
+  "tried": "2026-09-20",
+  "genre_source": "researched"
  },
  "青葉市子 [Ichiko Aoba]::檻髪 (Origami)": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
+  "genres": [
+   "folk",
+   "singer-songwriter",
+   "ambient"
+  ],
+  "tried": "2026-09-20",
+  "genre_source": "researched"
  },
  "青葉市子 [Ichiko Aoba]::剃刀乙女 (Kamisori Otome)": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
+  "genres": [
+   "folk",
+   "singer-songwriter",
+   "ambient"
+  ],
+  "tried": "2026-09-20",
+  "genre_source": "researched"
  },
  "Youth Lagoon::The Year of Hibernation": {
   "status": "ok",
@@ -78604,14 +78684,11 @@
   "cover_from": null,
   "genres": [
    "house",
-   "chicago house",
-   "deep house",
-   "electronic",
-   "dance"
+   "deep house"
   ],
   "tried": "2026-09-20",
   "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "researched"
  },
  "Hideki Naganuma 長沼英樹::Jet Set Radio Future (ジェットセットラジオフューチャー)": {
   "status": "ok",
@@ -78663,9 +78740,13 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [],
+  "genres": [
+   "chiptune",
+   "electronic"
+  ],
   "tried": "2026-09-20",
-  "rename_checked": "2026-09-20"
+  "rename_checked": "2026-09-20",
+  "genre_source": "researched"
  },
  "John Tabalot::Fin": {
   "status": "nomatch",
@@ -78704,8 +78785,11 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
+  "genres": [
+   "black metal"
+  ],
+  "tried": "2026-09-20",
+  "genre_source": "researched"
  },
  "Louis Jordan::Five Guys Named Moe: Original Decca Recordings Vol. 2": {
   "status": "ok",
@@ -78778,8 +78862,13 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
+  "genres": [
+   "chiptune",
+   "ambient",
+   "electronic"
+  ],
+  "tried": "2026-09-20",
+  "genre_source": "researched"
  },
  "Panchiko::Kicking Cars": {
   "status": "ok",
@@ -78839,8 +78928,13 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
+  "genres": [
+   "deep house",
+   "house",
+   "electronic"
+  ],
+  "tried": "2026-09-20",
+  "genre_source": "researched"
  },
  "Shibusashirazu Orchestra::Shibuboshi (渋星)": {
   "status": "nomatch",
@@ -78876,22 +78970,23 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
+  "genres": [
+   "experimental hip hop",
+   "abstract hip hop"
+  ],
+  "tried": "2026-09-20",
+  "genre_source": "researched"
  },
  "SLUG BAIT::HALLUCINEAGENEOLOGY": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
- },
- "STBRKT::STBRKT": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
+  "genres": [
+   "electronic",
+   "experimental"
+  ],
+  "tried": "2026-09-20",
+  "genre_source": "researched"
  },
  "The Gerogerigegege::燃えない灰 [Moenai Hai]": {
   "status": "ok",
@@ -78935,8 +79030,13 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
+  "genres": [
+   "tropicália",
+   "mpb",
+   "psychedelic rock"
+  ],
+  "tried": "2026-09-20",
+  "genre_source": "researched"
  },
  "Universe Nekoko::Kimi No Youni Ikiretara": {
   "status": "nomatch",
@@ -78969,8 +79069,11 @@
  "Various Artists::African Connection, Vol. 1: Zaire Choc!": {
   "status": "ok",
   "mbid": "9824dcf8-a6ae-4d74-a9ac-85c4550b9494",
-  "genres": [],
-  "genre_source": "release",
+  "genres": [
+   "congolese rumba",
+   "soukous"
+  ],
+  "genre_source": "researched",
   "cover_url": null,
   "cover_from": null,
   "mb_year": "1988",
@@ -78979,8 +79082,11 @@
  "Various Artists::Guitar Paradise of East Africa": {
   "status": "ok",
   "mbid": "276e7ac5-e044-4469-a57e-68b624afb104",
-  "genres": [],
-  "genre_source": "release",
+  "genres": [
+   "benga",
+   "soukous"
+  ],
+  "genre_source": "researched",
   "cover_url": null,
   "cover_from": null,
   "mb_year": "1990",
@@ -78990,8 +79096,12 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
+  "genres": [
+   "soukous",
+   "afrobeat"
+  ],
+  "tried": "2026-09-20",
+  "genre_source": "researched"
  },
  "Wilco::Whole Lotta Love": {
   "status": "nomatch",
@@ -79004,29 +79114,47 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
+  "genres": [
+   "j-pop",
+   "electronic",
+   "bossa nova"
+  ],
+  "tried": "2026-09-20",
+  "genre_source": "researched"
  },
  "가장 보통의 존재::Sister's Barbershop 언니네이발관": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
+  "genres": [
+   "indie rock",
+   "indie pop"
+  ],
+  "tried": "2026-09-20",
+  "genre_source": "researched"
  },
  "ミドリ [Midori]::Hello Everyone. Nice to Meet you. We are Midori": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
+  "genres": [
+   "punk",
+   "jazz",
+   "experimental rock"
+  ],
+  "tried": "2026-09-20",
+  "genre_source": "researched"
  },
  "惘闻 [Wang Wen]::冀西南林路行 (Inside The Cable Temple)": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
+  "genres": [
+   "post-rock",
+   "instrumental rock"
+  ],
+  "tried": "2026-09-20",
+  "genre_source": "researched"
  },
  "椎名林檎 [Sheena Ringo]::加爾基 精液 栗ノ花 (Kalk Samen Kuri no Hana)": {
   "status": "ok",
@@ -79155,5 +79283,83 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/760f9d8c-3465-497f-9186-a63b1270d9fb/front-500",
   "cover_cached": "2026-09-20"
+ },
+ "Angelo Badalamenti & David Lynch::Mulholland Drive": {
+  "status": "ok",
+  "mbid": "32530b76-bb42-3b3f-80e7-35f1c5de6f0a",
+  "genres": [
+   "rock",
+   "jazz",
+   "smooth jazz",
+   "electronic",
+   "classical",
+   "alternative rock",
+   "ambient",
+   "experimental"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/32530b76-bb42-3b3f-80e7-35f1c5de6f0a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2001",
+  "checked": "2026-09-20"
+ },
+ "Kanonenfieber::Die Urkatastrophe": {
+  "status": "ok",
+  "mbid": "324a25c1-a132-4fed-82c9-432cc2618d61",
+  "genres": [
+   "black metal",
+   "metal",
+   "death metal",
+   "blackened death metal",
+   "melodic death metal",
+   "melodic black metal",
+   "atmospheric black metal"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/324a25c1-a132-4fed-82c9-432cc2618d61/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2024",
+  "checked": "2026-09-20"
+ },
+ "Кино::Чёрный альбом": {
+  "status": "ok",
+  "mbid": "ade86acf-8b9f-35ca-a4fa-3bd32b196513",
+  "genres": [
+   "new wave",
+   "rock",
+   "post-punk"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/ade86acf-8b9f-35ca-a4fa-3bd32b196513/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1990",
+  "checked": "2026-09-20"
+ },
+ "SBTRKT::SBTRKT": {
+  "status": "ok",
+  "mbid": "1bdd4873-d334-47c7-85ab-1ce38e37cb69",
+  "genres": [
+   "electronic",
+   "dubstep",
+   "future garage"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/1bdd4873-d334-47c7-85ab-1ce38e37cb69/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2011",
+  "checked": "2026-09-20"
+ },
+ "Justin Hurwitz::Whiplash: Original Motion Picture Soundtrack": {
+  "status": "ok",
+  "mbid": "e0b56cbe-df98-4ab7-a5d6-d2f62b35eb34",
+  "genres": [
+   "big band",
+   "jazz"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/e0b56cbe-df98-4ab7-a5d6-d2f62b35eb34/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2014",
+  "checked": "2026-09-20"
  }
 }
