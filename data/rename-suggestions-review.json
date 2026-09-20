@@ -1,12 +1,30 @@
 [
  {
-  "from": "Cecil Taylor::At the Café Montmartré",
-  "to": "Cecil Taylor::Live at the Cafe Montmartre",
+  "from": "Angelo Badalamenti & David Lynch::Mulholland Dr.",
+  "to": "Angelo Badalamenti::Mulholland Drive",
   "_pass": "artist",
-  "_titleRatio": 0.17,
+  "_titleRatio": 0.05,
+  "_artistRatio": 0.05,
+  "_mbid": "32530b76-bb42-3b3f-80e7-35f1c5de6f0a",
+  "_why": "the title gains \"drive\" — likely a different release; drops a credited artist (2 names -> 1)"
+ },
+ {
+  "from": "Beastie Boys::Beastie Boys Anthology: The Sounds of Science",
+  "to": "Beastie Boys::Anthology: The Sounds of Science",
+  "_pass": "artist",
+  "_titleRatio": 0.13,
   "_artistRatio": 0,
-  "_mbid": "d83fa8fe-437b-47ae-901f-57147d4bc867",
-  "_why": "the title gains \"cafe\" — likely a different release; looser than the confident band"
+  "_mbid": "c28843ed-6233-36e1-b98f-3ff0bbc62ecf",
+  "_why": "the title loses \"beastie boys\" — likely a different release"
+ },
+ {
+  "from": "Blood Incantation::Absolute Everywhere",
+  "to": "Blood Incantation::Absolute Elsewhere",
+  "_pass": "artist",
+  "_titleRatio": 0.222,
+  "_artistRatio": 0,
+  "_mbid": "25267682-bdfc-435a-b6a7-89c266f7d0e8",
+  "_why": "the title gains \"elsewhere\" and loses \"everywhere\" — likely a different release; looser than the confident band"
  },
  {
   "from": "Corea::Los peores 7 km de mi vida",
@@ -18,24 +36,6 @@
   "_why": "looser than the confident band"
  },
  {
-  "from": "Creedence Clearwater Revival::Chronicle",
-  "to": "Creedence Clearwater Revival::Chronicle, Volume Two",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "387d6c56-fa1c-3990-b4ba-24482ab714a9",
-  "_why": "sequence number changed (Pt. 2 / Vol. 3 / Part One)"
- },
- {
-  "from": "DJ Koze::DJ Kicks",
-  "to": "DJ Koze::DJ-Kicks: DJ Koze",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "1eb01551-f703-45de-b9da-abd76f678901",
-  "_why": "the title gains \"koze\" — likely a different release"
- },
- {
   "from": "DJ Screw::3 'n the Morning: Part II [Blue]",
   "to": "DJ Screw::3 ’n the Mornin’, Part One",
   "_pass": "artist",
@@ -45,48 +45,12 @@
   "_why": "the title loses \"blue\" — likely a different release; sequence number changed (Pt. 2 / Vol. 3 / Part One); the distinctive words differ, only the boilerplate matches; looser than the confident band"
  },
  {
-  "from": "E+E::El sueño del Forastero",
-  "to": "E+E::E+E presenta: El sueño del forastero",
+  "from": "Drudkh::Кров у наших криницях (Blood in Our Wells)",
+  "to": "Drudkh::Кров у наших криницях",
   "_pass": "artist",
   "_titleRatio": 0.05,
   "_artistRatio": 0,
-  "_mbid": "7082a247-e0ad-4681-b24e-a20e339551d8",
-  "_why": "the title gains \"presenta\" — likely a different release"
- },
- {
-  "from": "Femi & Malibu::United in Fmales 23-10-2018",
-  "to": "Malibu::United in Flames 23/10/2018",
-  "_pass": "artist",
-  "_titleRatio": 0.091,
-  "_artistRatio": 0.05,
-  "_mbid": "f9a898a2-c339-4206-9961-26ce51afd6a6",
-  "_why": "drops a credited artist (2 names -> 1)"
- },
- {
-  "from": "Frank Zappa::The Grand Wazoo",
-  "to": "Frank Zappa::The Grand Wazoo Orchestra",
-  "_pass": "title",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "bc217ea7-ec6b-31ee-92ef-9479c8285824",
-  "_why": "the title gains \"orchestra\" — likely a different release"
- },
- {
-  "from": "Hanz Zimmer::Interstellar: Original Motion Picture Soundtrack",
-  "to": "Hans Zimmer::Tears of the Sun: Original Motion Picture Soundtrack",
-  "_pass": "artist",
-  "_titleRatio": 0.227,
-  "_artistRatio": 0.1,
-  "_mbid": "14f0a27f-b41f-3b4d-91dc-e9884db0d676",
-  "_why": "the title gains \"tears\" and loses \"interstellar\" — likely a different release; the distinctive words differ, only the boilerplate matches; looser than the confident band"
- },
- {
-  "from": "Harmonium::Si on avait besoin d'une cinquième saison",
-  "to": "Harmonium::Harmonium / Si on avait besoin d’une cinquième saison",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "8c304a5d-5e3d-4ecd-8343-a3a3b4a7e9d4",
-  "_why": "the title gains \"harmonium\" — likely a different release"
+  "_mbid": "2beb8a9b-0e83-305c-abef-4e2d4b70751d",
+  "_why": "the title loses \"blood wells\" — likely a different release"
  }
 ]

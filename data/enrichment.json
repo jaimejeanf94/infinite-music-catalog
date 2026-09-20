@@ -2082,7 +2082,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Bon Iver::SABLE, fABLE": {
   "status": "ok",
@@ -2730,7 +2731,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Bill Evans::You Must Believe in Spring": {
   "status": "ok",
@@ -3048,7 +3050,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Floating Points::Cascade": {
   "status": "ok",
@@ -4719,7 +4722,8 @@
   "genres": [],
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/e4fdd9d30a5354a8a9a766b0263e7a08/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20"
+  "cover_cached": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Laurie Anderson::Big Science": {
   "status": "ok",
@@ -6001,7 +6005,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "César y su Jardín::Corre y Suelta a los Perros": {
   "status": "ok",
@@ -6066,7 +6071,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Dillóm::Por Cesarea": {
   "status": "ok",
@@ -6162,7 +6168,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "lovesliescrushing::Bloweyelashwish": {
   "status": "ok",
@@ -6235,7 +6242,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Joe Jackson::Night And Day": {
   "status": "ok",
@@ -6299,7 +6307,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "2 Many DJ's::As Produced By Soulwax 2020-2022": {
   "status": "ok",
@@ -6346,14 +6355,16 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "2 Many DJ's::Blue": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "2 Many DJ's::Celestial Voyage Pt. 1": {
   "status": "ok",
@@ -6402,7 +6413,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "2 Many DJ's::D&SCO": {
   "status": "ok",
@@ -6430,7 +6442,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "2 Many DJ's::2ManyDJs Live at Primavera": {
   "status": "ok",
@@ -6477,7 +6490,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "2Pac::All Eyez on Me": {
   "status": "ok",
@@ -7789,7 +7803,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Amaarae::Fountain Baby": {
   "status": "ok",
@@ -7950,7 +7965,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Ana Frango Eléctrico::Me Chama De Gato Que Eu Sou Soa": {
   "status": "ok",
@@ -8328,8 +8344,25 @@
   "cover_cached": "2026-09-20"
  },
  "Angelo Badalamenti & David Lynch::Mulholland Dr.": {
-  "status": "error",
-  "error": "MusicBrainz 503"
+  "status": "ok",
+  "mbid": "32530b76-bb42-3b3f-80e7-35f1c5de6f0a",
+  "genres": [
+   "rock",
+   "jazz",
+   "smooth jazz",
+   "electronic",
+   "classical",
+   "alternative rock",
+   "ambient",
+   "experimental"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/32530b76-bb42-3b3f-80e7-35f1c5de6f0a.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2001",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/32530b76-bb42-3b3f-80e7-35f1c5de6f0a/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Angels of Light::How I Loved You": {
   "status": "ok",
@@ -8563,7 +8596,8 @@
   "genres": [],
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/b86d778a2614f8b253d26e49abc14c09/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20"
+  "cover_cached": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Antônio Carlos Jobim::Wave": {
   "status": "ok",
@@ -8885,7 +8919,8 @@
   "genres": [],
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/e69e9d3be642bb4ae67e645a5f9cfd3e/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20"
+  "cover_cached": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Archers of Loaf::Icky Mettle": {
   "status": "ok",
@@ -10508,7 +10543,8 @@
   "genres": [],
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/22fd1ee592234a8ca1e46ba56c1d3be1/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20"
+  "cover_cached": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Beastie Boys::Hello Nasty": {
   "status": "ok",
@@ -10888,7 +10924,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Belle and Sebastian::Girls in Peacetime Want to Dance": {
   "status": "ok",
@@ -11139,7 +11176,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Beth Orton::Weather Alive": {
   "status": "ok",
@@ -11403,7 +11441,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Big K.R.I.T.::4eva Is A Mighty Long Time": {
   "status": "ok",
@@ -11515,7 +11554,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Big Star::Radio City": {
   "status": "ok",
@@ -13009,7 +13049,8 @@
   "genres": [],
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/1e6f6130ca0ccbdd0cde4dc2b05e6df9/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20"
+  "cover_cached": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Blur::13": {
   "status": "ok",
@@ -13869,7 +13910,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Boris::Heavy Rocks": {
   "status": "ok",
@@ -15948,14 +15990,16 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Captain Beefheart and His Magic Band::Safe as Milk": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Captain Beyond::Captain Beyond": {
   "status": "ok",
@@ -16966,7 +17010,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Chicago Transit Authority::Chicago Transit Authority": {
   "status": "ok",
@@ -18383,7 +18428,8 @@
   "genres": [],
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/fee3aa1ca1d680385cc2b93ad9d7e4f4/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20"
+  "cover_cached": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Converge::Love Is Not Enough": {
   "status": "ok",
@@ -18438,7 +18484,8 @@
   "genres": [],
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/a76ed3b0f09cc6a15e5a6e6603634b54/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20"
+  "cover_cached": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Cornelius::Point": {
   "status": "ok",
@@ -20924,7 +20971,8 @@
   "genres": [],
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/5161fcb913384cf32e52a253df53d0aa/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20"
+  "cover_cached": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Death Grips::The Powers That B": {
   "status": "ok",
@@ -21647,7 +21695,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Deltron 3030::Deltron 3030": {
   "status": "ok",
@@ -22252,7 +22301,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Digable Planets::Blowout Comb": {
   "status": "ok",
@@ -22812,7 +22862,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "DJ Screw::Endonesia": {
   "status": "ok",
@@ -22848,7 +22899,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "DJ Screw::Bigtyme Vol II: All Screwed Up": {
   "status": "ok",
@@ -22979,7 +23031,8 @@
   "genres": [],
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/b5e58b0ee29786fd98ea929e5e8edafa/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20"
+  "cover_cached": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Djo::Twenty Twenty": {
   "status": "ok",
@@ -23016,7 +23069,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "DMX::It's Dark and Hell Is Hot": {
   "status": "ok",
@@ -23522,14 +23576,16 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Drudkh::Кров у наших криницях (Blood in Our Wells)": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Duran Duran::Rio": {
   "status": "ok",
@@ -24102,7 +24158,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "El-p::Cancer for Cure": {
   "status": "ok",
@@ -25965,7 +26022,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Fear Factory::Demanufacture": {
   "status": "ok",
@@ -26370,7 +26428,8 @@
   "genres": [],
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/8e9aff8ee1ad2f731e0e58b922bff370/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20"
+  "cover_cached": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Fishmans::Long Season": {
   "status": "ok",
@@ -29069,7 +29128,8 @@
   "genres": [],
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/37d2d702e8b11eb599ba364974353094/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20"
+  "cover_cached": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Girls::Album": {
   "status": "ok",
@@ -29433,7 +29493,8 @@
   "genres": [],
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/8b059917e2f6d500cffb7dce368c72b7/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20"
+  "cover_cached": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Gorillaz::Plastic beach": {
   "status": "ok",
@@ -30722,7 +30783,8 @@
   "genres": [],
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/e4fdd9d30a5354a8a9a766b0263e7a08/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20"
+  "cover_cached": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Helado Negro::Phasor": {
   "status": "ok",
@@ -31106,7 +31168,8 @@
   "genres": [],
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/753119529fba74573b70d6a840aec9ad/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20"
+  "cover_cached": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Hiroshi Yoshimura::Music For Nine Post Cards": {
   "status": "partial",
@@ -31115,7 +31178,8 @@
   "genres": [],
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/2c4b23512a00a9b5d6d40931c2ad0687/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20"
+  "cover_cached": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Hiroshi Yoshimura::Green": {
   "status": "partial",
@@ -31124,7 +31188,8 @@
   "genres": [],
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/a6f36deea5c6789e17c85fba36a634e6/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20"
+  "cover_cached": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "HMLTD::West of Eden": {
   "status": "ok",
@@ -31212,7 +31277,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Holy Fawn::Death Spells": {
   "status": "ok",
@@ -31778,7 +31844,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "IDLES::CRAWLER": {
   "status": "ok",
@@ -32889,7 +32956,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Cluster::Zuckerseit": {
   "status": "ok",
@@ -34389,7 +34457,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Joe Satriani::Super Colossal": {
   "status": "ok",
@@ -52338,7 +52407,8 @@
   "genres": [],
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/30c77f5c5fb27b02fa83011850911ed4/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20"
+  "cover_cached": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Public Enemy::Fear of a Black Planet": {
   "status": "ok",
@@ -76925,7 +76995,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Basement Jaxx::Remedy": {
   "status": "ok",
@@ -77693,14 +77764,16 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Frankie Knuckles::Boiler Room London DJ Set": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Hideki Naganuma 長沼英樹::Jet Set Radio Future (ジェットセットラジオフューチャー)": {
   "status": "ok",
@@ -77753,14 +77826,16 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "John Tabalot::Fin": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20"
  },
  "Koji Kondo 近藤浩治::ゼルダの伝説: ムジュラの仮面 (The Legend of Zelda: Majora's Mask)": {
   "status": "ok",
@@ -77866,13 +77941,6 @@
   "cover_from": null,
   "mb_year": "2001",
   "checked": "2026-09-20"
- },
- "Rakim & Eric B.::Follow the Leader": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
  },
  "schnozz::berdleycore Chapter Zero": {
   "status": "nomatch",
@@ -78023,13 +78091,6 @@
   "genres": [],
   "tried": "2026-09-20"
  },
- "Wilco::Whole Lotta Love": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
- },
  "Yuu Miyake 三宅優::塊魂サウンドトラック「塊フォルテッシモ魂」 (Katamari Damacy Soundtrack: Katamari Fortissimo Damacy)": {
   "status": "nomatch",
   "cover_url": null,
@@ -78112,7 +78173,7 @@
   "cover_source_url": "https://coverartarchive.org/release/7f133856-4061-4d4b-a2ea-b65854cfd975/front-500",
   "cover_cached": "2026-09-20"
  },
- "Arvo Pärt::Tabula Rasa": {
+ "Arvo Part::Tabula Rasa": {
   "status": "ok",
   "mbid": "21525fce-629f-393a-a34c-2f41ef78508d",
   "genres": [
@@ -78123,7 +78184,23 @@
   "cover_from": "coverartarchive",
   "mb_year": "1984",
   "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release/bbbc9fa7-829c-31a9-a9b4-11b51ebd9ebb/front-500",
+  "cover_source_url": "https://coverartarchive.org/release-group/21525fce-629f-393a-a34c-2f41ef78508d/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Wilco::The Whole Love": {
+  "status": "ok",
+  "mbid": "760f9d8c-3465-497f-9186-a63b1270d9fb",
+  "genres": [
+   "rock",
+   "alternative rock",
+   "indie rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/760f9d8c-3465-497f-9186-a63b1270d9fb.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2011",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/760f9d8c-3465-497f-9186-a63b1270d9fb/front-500",
   "cover_cached": "2026-09-20"
  }
 }
