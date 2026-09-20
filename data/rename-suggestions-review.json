@@ -1,155 +1,92 @@
 [
  {
-  "from": "2 Many DJ's::A Tribute To Compass Point",
-  "to": "2manydjs::2manydjs presents A Tribute to Compass Point",
+  "from": "Cecil Taylor::At the Café Montmartré",
+  "to": "Cecil Taylor::Live at the Cafe Montmartre",
   "_pass": "artist",
-  "_titleRatio": 0.13,
+  "_titleRatio": 0.17,
   "_artistRatio": 0,
-  "_mbid": "1a960397-0f3d-4121-a53a-3b029b5ee26d",
-  "_why": "the title gains \"2manydjs presents\" — likely a different release; sequence number changed (Pt. 2 / Vol. 3 / Part One)"
+  "_mbid": "d83fa8fe-437b-47ae-901f-57147d4bc867",
+  "_why": "the title gains \"cafe\" — likely a different release; looser than the confident band"
  },
  {
-  "from": "2 Many DJ's::A Tribute to Keith Forsey",
-  "to": "2manydjs::2manydjs present A Tribute to Keith Forsey",
+  "from": "Corea::Los peores 7 km de mi vida",
+  "to": "Corea::Los peores 7 peores km de mi vida",
   "_pass": "artist",
-  "_titleRatio": 0.13,
+  "_titleRatio": 0.231,
   "_artistRatio": 0,
-  "_mbid": "270ea2ef-3d76-489b-9d9d-a832aa35d937",
-  "_why": "the title gains \"2manydjs present\" — likely a different release; sequence number changed (Pt. 2 / Vol. 3 / Part One)"
- },
- {
-  "from": "2 Many DJ's::Under The Covers 2",
-  "to": "2manydjs::Under The Covers Vol. 2",
-  "_pass": "artist",
-  "_titleRatio": 0.247,
-  "_artistRatio": 0,
-  "_mbid": "8f6749d9-063a-4648-a6f2-93fe187d24ba",
+  "_mbid": "c607f574-ca13-32e3-8ea4-078fd646076b",
   "_why": "looser than the confident band"
  },
  {
-  "from": "Ajj::People That Can Eat People Are The Luckiest People in the World",
-  "to": "AJJ::People Who Can Eat People Are the Luckiest People in the World",
+  "from": "Creedence Clearwater Revival::Chronicle",
+  "to": "Creedence Clearwater Revival::Chronicle, Volume Two",
   "_pass": "artist",
-  "_titleRatio": 0.058,
+  "_titleRatio": 0.13,
   "_artistRatio": 0,
-  "_mbid": "676033ea-5ba2-3b8c-95d4-8679cdbc0249",
-  "_why": "the title loses \"that\" — likely a different release"
- },
- {
-  "from": "Akira Yamaoka::Silent Hill 2",
-  "to": "Akira Yamaoka::Silent Hill",
-  "_pass": "artist",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "b0a1513e-078d-3ed1-a0fd-c93e70f84170",
+  "_mbid": "387d6c56-fa1c-3990-b4ba-24482ab714a9",
   "_why": "sequence number changed (Pt. 2 / Vol. 3 / Part One)"
  },
  {
-  "from": "Alice in Chains::Unplugged",
-  "to": "Alice in Chains::Dirt / MTV Unplugged",
+  "from": "DJ Koze::DJ Kicks",
+  "to": "DJ Koze::DJ-Kicks: DJ Koze",
   "_pass": "artist",
   "_titleRatio": 0.13,
   "_artistRatio": 0,
-  "_mbid": "c64bb896-e04b-43df-9c84-8a81e85a8f0b",
-  "_why": "the title gains \"dirt\" — likely a different release"
+  "_mbid": "1eb01551-f703-45de-b9da-abd76f678901",
+  "_why": "the title gains \"koze\" — likely a different release"
  },
  {
-  "from": "Angelo Badalamenti & David Lynch::Mulholland Dr.",
-  "to": "Angelo Badalamenti::Mulholland Drive",
+  "from": "DJ Screw::3 'n the Morning: Part II [Blue]",
+  "to": "DJ Screw::3 ’n the Mornin’, Part One",
+  "_pass": "artist",
+  "_titleRatio": 0.273,
+  "_artistRatio": 0,
+  "_mbid": "3359314f-4d06-3d15-9e68-42c192e4eb0b",
+  "_why": "the title loses \"blue\" — likely a different release; sequence number changed (Pt. 2 / Vol. 3 / Part One); the distinctive words differ, only the boilerplate matches; looser than the confident band"
+ },
+ {
+  "from": "E+E::El sueño del Forastero",
+  "to": "E+E::E+E presenta: El sueño del forastero",
   "_pass": "artist",
   "_titleRatio": 0.05,
-  "_artistRatio": 0.05,
-  "_mbid": "32530b76-bb42-3b3f-80e7-35f1c5de6f0a",
-  "_why": "the title gains \"drive\" — likely a different release; drops a credited artist (2 names -> 1)"
- },
- {
-  "from": "Animal Collective::Spirit They're Gone, Spirit They've Vanished",
-  "to": "Animal Collective::Spirit They’re Gone Spirit They’ve Vanished / Danse Manatee",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
   "_artistRatio": 0,
-  "_mbid": "bb5426ab-6924-321a-8504-dc6f3cdf852b",
-  "_why": "the title gains \"danse manatee\" — likely a different release"
+  "_mbid": "7082a247-e0ad-4681-b24e-a20e339551d8",
+  "_why": "the title gains \"presenta\" — likely a different release"
  },
  {
-  "from": "Asian Glow & Parannoul::Paraglow",
-  "to": "Asian Glow::Paraglow",
+  "from": "Femi & Malibu::United in Fmales 23-10-2018",
+  "to": "Malibu::United in Flames 23/10/2018",
   "_pass": "artist",
-  "_titleRatio": 0,
+  "_titleRatio": 0.091,
   "_artistRatio": 0.05,
-  "_mbid": "4bda47b2-52a1-429f-a1e3-1549b84f11a4",
+  "_mbid": "f9a898a2-c339-4206-9961-26ce51afd6a6",
   "_why": "drops a credited artist (2 names -> 1)"
  },
  {
-  "from": "Azealia Banks::1992",
-  "to": "Azealia Banks::1991",
-  "_pass": "artist",
-  "_titleRatio": 0.25,
-  "_artistRatio": 0,
-  "_mbid": "b296b523-bd66-480f-8a8f-c6d09a09846b",
-  "_why": "sequence number changed (Pt. 2 / Vol. 3 / Part One); looser than the confident band"
- },
- {
-  "from": "Basement Jazz::Remedy",
-  "to": "Basement Jaxx::Remedy",
-  "_pass": "artist",
-  "_titleRatio": 0,
-  "_artistRatio": 0.167,
-  "_mbid": "3ce95abe-66f2-4e21-a365-0a4766e33e30",
-  "_why": "looser than the confident band"
- },
- {
-  "from": "Beastie Boys::Beastie Boys Anthology: The Sounds of Science",
-  "to": "Beastie Boys::Anthology: The Sounds of Science",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "c28843ed-6233-36e1-b98f-3ff0bbc62ecf",
-  "_why": "the title loses \"beastie boys\" — likely a different release"
- },
- {
-  "from": "Billy Joel::Greatest Hits: Volume I",
-  "to": "Billy Joel::Greatest Hits, Volume I & Volume II",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "4a8f66b9-2ebf-3ebf-bd5e-ad19386e76c0",
-  "_why": "sequence number changed (Pt. 2 / Vol. 3 / Part One)"
- },
- {
-  "from": "Billy Joel::Greatest Hits: Volume II",
-  "to": "Billy Joel::Greatest Hits, Volume III",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "503ff741-7014-329c-85f0-c78672d654cb",
-  "_why": "sequence number changed (Pt. 2 / Vol. 3 / Part One)"
- },
- {
-  "from": "Blood Incantation::Absolute Everywhere",
-  "to": "Blood Incantation::Absolute Elsewhere",
-  "_pass": "artist",
-  "_titleRatio": 0.222,
-  "_artistRatio": 0,
-  "_mbid": "25267682-bdfc-435a-b6a7-89c266f7d0e8",
-  "_why": "the title gains \"elsewhere\" and loses \"everywhere\" — likely a different release; looser than the confident band"
- },
- {
-  "from": "Boards of Canada::Societas X Tape",
-  "to": "Boards of Canada::2019-06-23: Societas x Tape",
-  "_pass": "artist",
+  "from": "Frank Zappa::The Grand Wazoo",
+  "to": "Frank Zappa::The Grand Wazoo Orchestra",
+  "_pass": "title",
   "_titleRatio": 0.05,
   "_artistRatio": 0,
-  "_mbid": "1ed7559d-53a9-4513-8ee6-5c05bb0e725b",
-  "_why": "the title gains \"2019\" — likely a different release; sequence number changed (Pt. 2 / Vol. 3 / Part One)"
+  "_mbid": "bc217ea7-ec6b-31ee-92ef-9479c8285824",
+  "_why": "the title gains \"orchestra\" — likely a different release"
  },
  {
-  "from": "Bob Marley::Legend",
-  "to": "Bob Marley::Reggae Legend",
+  "from": "Hanz Zimmer::Interstellar: Original Motion Picture Soundtrack",
+  "to": "Hans Zimmer::Tears of the Sun: Original Motion Picture Soundtrack",
+  "_pass": "artist",
+  "_titleRatio": 0.227,
+  "_artistRatio": 0.1,
+  "_mbid": "14f0a27f-b41f-3b4d-91dc-e9884db0d676",
+  "_why": "the title gains \"tears\" and loses \"interstellar\" — likely a different release; the distinctive words differ, only the boilerplate matches; looser than the confident band"
+ },
+ {
+  "from": "Harmonium::Si on avait besoin d'une cinquième saison",
+  "to": "Harmonium::Harmonium / Si on avait besoin d’une cinquième saison",
   "_pass": "artist",
   "_titleRatio": 0.13,
   "_artistRatio": 0,
-  "_mbid": "cfde625e-0143-3beb-9eca-ffbac5a15f6f",
-  "_why": "the title gains \"reggae\" — likely a different release"
+  "_mbid": "8c304a5d-5e3d-4ecd-8343-a3a3b4a7e9d4",
+  "_why": "the title gains \"harmonium\" — likely a different release"
  }
 ]
