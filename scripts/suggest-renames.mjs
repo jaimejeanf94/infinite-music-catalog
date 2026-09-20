@@ -33,6 +33,11 @@ const ENRICH = new URL("enrichment.json", DATA);
 const args = process.argv.slice(2);
 const LIMIT = Number(args.find((a) => a.startsWith("--limit="))?.split("=")[1] || Infinity);
 const OUT = args.find((a) => a.startsWith("--out="))?.split("=")[1] || "renames.json";
+// Without a cooldown the nightly run cycles through the same unmatched albums
+// every few nights, repeating lookups that already came back with nothing.
+// Each album examined is stamped, and skipped until the stamp is this old. A
+// newly added album has no stamp, so it is always looked at on the next run.
+const AFTER_DAYS = Number(args.find((a) => a.startsWith("--after="))?.split("=")[1] || 30);
 
 const MB_GAP = 1100;                       // MusicBrainz allows one call a second
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -218,13 +223,33 @@ const store = existsSync(ENRICH) ? JSON.parse(readFileSync(ENRICH, "utf8")) : {}
 
 // Only albums nothing could be found for. One that matched already has a name
 // MusicBrainz agreed with.
-const targets = rows
+const today = new Date().toISOString().slice(0, 10);
+const staleEnough = (rec) => {
+  if (!rec?.rename_checked) return true;
+  const age = (Date.parse(today) - Date.parse(rec.rename_checked)) / 86400000;
+  return age >= AFTER_DAYS;
+};
+
+const unmatched = rows
   .filter((r) => r[0])
   .map((r) => ({ artist: r[0], title: r[1] }))
-  .filter((a) => !store[`${a.artist}::${a.title}`]?.mbid)
-  .slice(0, LIMIT);
+  .filter((a) => !store[`${a.artist}::${a.title}`]?.mbid);
+const due = unmatched.filter((a) => staleEnough(store[`${a.artist}::${a.title}`]));
+const targets = due.slice(0, LIMIT);
+const cooling = unmatched.length - due.length;   // checked recently
+const deferred = due.length - targets.length;    // due, but over tonight's limit
 
-console.log(`${targets.length} albums with no MusicBrainz match\n`);
+console.log(
+  `${unmatched.length} albums with no MusicBrainz match` +
+  `\n  ${targets.length} to look at tonight` +
+  (cooling ? `\n  ${cooling} looked at within the last ${AFTER_DAYS} days` : "") +
+  (deferred ? `\n  ${deferred} due but over tonight's limit — next run` : "") + "\n");
+if (!targets.length) {
+  writeFileSync(OUT, "[]");
+  writeFileSync(OUT.replace(/\.json$/, "-review.json"), "[]");
+  console.log("nothing due for another look");
+  process.exit(0);
+}
 
 const safe = [], review = [], nothing = [];
 let cosmetic = 0;
@@ -233,6 +258,14 @@ for (const [i, a] of targets.entries()) {
   let hit = await viaArtist(a.artist, a.title);
   await sleep(MB_GAP);
   if (!hit) { hit = await viaTitle(a.artist, a.title); await sleep(MB_GAP); }
+
+  // Stamp the moment the lookups are done, before any branch below can skip
+  // past it, and save periodically. Stamping only at the end means an
+  // interrupted run -- a CI timeout, a lost network -- repeats every lookup
+  // next time, which is what the cooldown exists to prevent.
+  const k = `${a.artist}::${a.title}`;
+  if (store[k]) store[k].rename_checked = today;
+  if ((i + 1) % 20 === 0) writeFileSync(ENRICH, JSON.stringify(store, null, 1));
 
   if (!hit) { nothing.push(a); }
   else if (norm(hit.artist) === norm(a.artist) && norm(hit.title) === norm(a.title)) {
@@ -300,6 +333,8 @@ for (const [i, a] of targets.entries()) {
   if ((i + 1) % 10 === 0 || i === targets.length - 1)
     console.log(`  ${i + 1}/${targets.length}  —  ${safe.length} confident, ${review.length} to review, ${nothing.length} no answer`);
 }
+
+writeFileSync(ENRICH, JSON.stringify(store, null, 1));
 
 writeFileSync(OUT, JSON.stringify(safe, null, 1));
 writeFileSync(OUT.replace(/\.json$/, "-review.json"), JSON.stringify(review, null, 1));

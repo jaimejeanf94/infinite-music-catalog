@@ -1,759 +1,12 @@
 [
  {
-  "from": "Bob Marley::Legend",
-  "to": "Bob Marley::Reggae Legends",
+  "from": "2 Many DJ's::A Tribute To Compass Point",
+  "to": "2manydjs::2manydjs presents A Tribute to Compass Point",
   "_pass": "artist",
   "_titleRatio": 0.13,
   "_artistRatio": 0,
-  "_mbid": "aaa9f6c7-f5ff-4eac-b449-1fd3744f7733",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "Asian Glow & Parannoul::Paraglow",
-  "to": "Asian Glow::Paraglow",
-  "_pass": "artist",
-  "_titleRatio": 0,
-  "_artistRatio": 0.05,
-  "_mbid": "4bda47b2-52a1-429f-a1e3-1549b84f11a4",
-  "_why": "drops a credited artist"
- },
- {
-  "from": "Blood Incantation::Absolute Everywhere",
-  "to": "Blood Incantation::Absolute Elsewhere",
-  "_pass": "artist",
-  "_titleRatio": 0.222,
-  "_artistRatio": 0,
-  "_mbid": "25267682-bdfc-435a-b6a7-89c266f7d0e8",
-  "_why": "title gains/loses a word; looser band"
- },
- {
-  "from": "2 Many DJ's::Dave",
-  "to": "2manydjs::Radio Soulwax presents DAVE",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "605ec58f-9eb9-4983-ae0f-931da4093ccd",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "Sophie::SOPHIE LIVESTREAM HEAV3N SUSPENDED",
-  "to": "SOPHIE::HEAV3N SUSPENDED",
-  "_pass": "artist",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "1b0a39e6-f557-478e-88f0-f3b4fb11c79f",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "Haru Nemuri::Lovetheism",
-  "to": "HARU::Mоя девочка модель",
-  "_pass": "artist",
-  "_titleRatio": 0.15,
-  "_artistRatio": 0.05,
-  "_mbid": "e2c4adf1-e862-439b-a4f8-e9e6c0c4d92c",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "John Coltrane & Duke Ellington::Duke Ellington & John Coltrane",
-  "to": "Duke Ellington::Duke Ellington & John Coltrane",
-  "_pass": "artist",
-  "_titleRatio": 0,
-  "_artistRatio": 0.05,
-  "_mbid": "4f64c4fc-1de9-3b28-970c-e86f78c631be",
-  "_why": "drops a credited artist"
- },
- {
-  "from": "John Coltrane & Milt Jackson::Bags & Trane",
-  "to": "John Coltrane::Bags & Trane",
-  "_pass": "artist",
-  "_titleRatio": 0,
-  "_artistRatio": 0.05,
-  "_mbid": "b2f17c9e-4038-37e2-a200-eeb5ac492e4f",
-  "_why": "drops a credited artist"
- },
- {
-  "from": "Weatherday & Asian Glow::Weather glow",
-  "to": "Asian Glow::Weatherglow",
-  "_pass": "artist",
-  "_titleRatio": 0,
-  "_artistRatio": 0.05,
-  "_mbid": "f07cc083-c3cb-4600-bf2e-37c6e79192cf",
-  "_why": "drops a credited artist; title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "Femi & Malibu::United in Fmales 23-10-2018",
-  "to": "Malibu::United in Flames 23/10/2018",
-  "_pass": "artist",
-  "_titleRatio": 0.091,
-  "_artistRatio": 0.05,
-  "_mbid": "f9a898a2-c339-4206-9961-26ce51afd6a6",
-  "_why": "drops a credited artist"
- },
- {
-  "from": "2 Many DJ's::BENELUX",
-  "to": "2manydjs::Radio Soulwax presents BENELUX",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "e7fa8bb4-cef0-4fa3-b08c-aa7980342146",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "2 Many DJ's::Blue",
-  "to": "2manydjs::Radio Soulwax presents Blue",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "55c31be7-2e9d-45eb-9362-c615cbd38cae",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "2 Many DJ's::Celestial Voyage Pt. 1",
-  "to": "2manydjs::Radio Soulwax presents Celestial Voyage, Pt. 1",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "a32762d7-7a49-4c27-beec-56c8fc1c29c1",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "2 Many DJ's::The Vortex",
-  "to": "2manydjs::Radio Soulwax Presents Into the Vortex",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "165d972f-5f5e-47a4-b14b-ab5f35378430",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "2 Many DJ's::Librarian Girl",
-  "to": "2manydjs::Radio Soulwax presents Librarian Girl",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "110943b7-91e2-448e-8366-3d7365d2bd9e",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "2 Many DJ's::Celestial Voyage Pt. 2",
-  "to": "2manydjs::Radio Soulwax Presents Celestial Voyage, Pt. 2",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "fd447b63-4f4a-4333-a236-3ee1ee3e3919",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "2 Many DJ's::Jack In the Box",
-  "to": "2manydjs::Radio Soulwax Presents JACK IN THE BOX",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "ae7337ee-b7b0-47fb-b05d-794a1d3498d5",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "2 Many DJ's::D&SCO",
-  "to": "2manydjs::Radio Soulwax Presents D&SCO",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "68841e10-a2db-4ef1-b59b-bb9efaea4c2e",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "2 Many DJ's::Under The Covers 2",
-  "to": "2manydjs::Under The Covers Vol. 2",
-  "_pass": "artist",
-  "_titleRatio": 0.247,
-  "_artistRatio": 0,
-  "_mbid": "8f6749d9-063a-4648-a6f2-93fe187d24ba",
-  "_why": "looser band"
- },
- {
-  "from": "Ajj::People That Can Eat People Are The Luckiest People in the World",
-  "to": "AJJ::People Who Can Eat People Are the Luckiest People in the World",
-  "_pass": "artist",
-  "_titleRatio": 0.058,
-  "_artistRatio": 0,
-  "_mbid": "676033ea-5ba2-3b8c-95d4-8679cdbc0249",
-  "_why": "title gains/loses a word"
- },
- {
-  "from": "Akira Yamaoka::Silent Hill 2",
-  "to": "Akira Yamaoka::SILENT HILL 2 Original Game Soundtrack",
-  "_pass": "artist",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "0512b548-54ff-48fe-b662-923a347ca68c",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "Alice in Chains::Unplugged",
-  "to": "Alice in Chains::Dirt / MTV Unplugged",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "c64bb896-e04b-43df-9c84-8a81e85a8f0b",
-  "_why": "title gains/loses a word"
- },
- {
-  "from": "Angelo Badalamenti::Twin Peaks: Fire Walk with Me",
-  "to": "Angelo Badalamenti::Twin Peaks: Fire Walk With Me: Music From the Motion Picture Soundtrack",
-  "_pass": "artist",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "ec7cf415-28cc-39ed-83ee-85bbca46980a",
-  "_why": "too far apart; looser band"
- },
- {
-  "from": "Angelo Badalamenti & David Lynch::Mulholland Dr.",
-  "to": "Angelo Badalamenti::Mulholland Drive",
-  "_pass": "artist",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0.05,
-  "_mbid": "32530b76-bb42-3b3f-80e7-35f1c5de6f0a",
-  "_why": "drops a credited artist; title gains/loses a word"
- },
- {
-  "from": "Animal Collective::Spirit They're Gone, Spirit They've Vanished",
-  "to": "Animal Collective::Spirit They’re Gone Spirit They’ve Vanished / Danse Manatee",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "bb5426ab-6924-321a-8504-dc6f3cdf852b",
-  "_why": "title gains/loses a word"
- },
- {
-  "from": "Arcade Fire and Owen Pallett::Her Original Motion Picture Score",
-  "to": "Owen Pallett::Her",
-  "_pass": "artist",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0.05,
-  "_mbid": "b062f1b9-6cbb-48a4-8d81-95f1a3d9e399",
-  "_why": "drops a credited artist; too far apart; looser band"
- },
- {
-  "from": "BADBADNOTGOOD::Late Night Tales (BADBADNOTGOOD)",
-  "to": "BADBADNOTGOOD::BADBADNOTGOOD",
-  "_pass": "artist",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "5adf8509-41eb-4bc8-be05-dd79e5031513",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "Basement Jazz::Remedy",
-  "to": "Basement Jaxx::Remedy",
-  "_pass": "artist",
-  "_titleRatio": 0,
-  "_artistRatio": 0.167,
-  "_mbid": "3ce95abe-66f2-4e21-a365-0a4766e33e30",
-  "_why": "looser band"
- },
- {
-  "from": "Beastie Boys::Beastie Boys Anthology: The Sounds of Science",
-  "to": "Beastie Boys::Anthology: The Sounds of Science",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "c28843ed-6233-36e1-b98f-3ff0bbc62ecf",
-  "_why": "title gains/loses a word"
- },
- {
-  "from": "Beyoncé::Homecoming",
-  "to": "Beyoncé::HOMECOMING: THE LIVE ALBUM",
-  "_pass": "artist",
-  "_titleRatio": 0.17,
-  "_artistRatio": 0,
-  "_mbid": "a32fb3f5-0c38-47cc-980c-44cc181c52de",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "Billy Joel::Greatest Hits: Volume I",
-  "to": "Billy Joel::Greatest Hits, Volume I & Volume II",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "4a8f66b9-2ebf-3ebf-bd5e-ad19386e76c0",
-  "_why": "sequence changed"
- },
- {
-  "from": "Billy Joel::Greatest Hits: Volume II",
-  "to": "Billy Joel::Greatest Hits, Volume III",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "503ff741-7014-329c-85f0-c78672d654cb",
-  "_why": "sequence changed"
- },
- {
-  "from": "Blur::The Best of Blur",
-  "to": "Blur::Blur",
-  "_pass": "artist",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "fdd6c833-3c96-33cb-9917-72e15bcd34bc",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "Boris::あくまのうた (Akuma no uta)",
-  "to": "Boris::NO",
-  "_pass": "artist",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "65f7aa68-c5d2-417e-ba4c-716d64d219b2",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "Cecil Taylor::At the Café Montmartré",
-  "to": "Cecil Taylor::Live at the Cafe Montmartre",
-  "_pass": "artist",
-  "_titleRatio": 0.17,
-  "_artistRatio": 0,
-  "_mbid": "d83fa8fe-437b-47ae-901f-57147d4bc867",
-  "_why": "title gains/loses a word"
- },
- {
-  "from": "Corea::Los peores 7 km de mi vida",
-  "to": "Corea::Los peores 7 peores km de mi vida",
-  "_pass": "artist",
-  "_titleRatio": 0.231,
-  "_artistRatio": 0,
-  "_mbid": "c607f574-ca13-32e3-8ea4-078fd646076b",
-  "_why": "looser band"
- },
- {
-  "from": "Death Grips::Steroids",
-  "to": "Death Grips::Steroids (Crouching Tiger Hidden Gabber Megamix)",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "2bb37665-1595-433d-8288-0d09cf6492c5",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "DJ Koze::DJ Kicks",
-  "to": "DJ Koze::DJ-Kicks: DJ Koze",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "1eb01551-f703-45de-b9da-abd76f678901",
-  "_why": "title gains/loses a word"
- },
- {
-  "from": "DJ Screw::3 'n the Morning: Part II [Blue]",
-  "to": "DJ Screw::3 ’n the Mornin’, Part One",
-  "_pass": "artist",
-  "_titleRatio": 0.273,
-  "_artistRatio": 0,
-  "_mbid": "3359314f-4d06-3d15-9e68-42c192e4eb0b",
-  "_why": "title gains/loses a word; sequence changed; looser band"
- },
- {
-  "from": "E+E::El sueño del Forastero",
-  "to": "E+E::E+E presenta: El sueño del forastero",
-  "_pass": "artist",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "7082a247-e0ad-4681-b24e-a20e339551d8",
-  "_why": "title gains/loses a word"
- },
- {
-  "from": "Eddie Vedder::Into The Wild",
-  "to": "Eddie Vedder::Into the Wild: Music for the Motion Picture",
-  "_pass": "artist",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "9fbbb26b-282f-36aa-9170-4b41e5fb73ef",
-  "_why": "too far apart; looser band"
- },
- {
-  "from": "Fatboy Slim::Why Try Harder",
-  "to": "Fatboy Slim::The Greatest Hits: Why Try Harder",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "2b2fcef4-3d3d-39f0-af72-141c8e553f0b",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "Frank Zappa::The Grand Wazoo",
-  "to": "Frank Zappa::The Grand Wazoo Orchestra",
-  "_pass": "title",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "bc217ea7-ec6b-31ee-92ef-9479c8285824",
-  "_why": "title gains/loses a word"
- },
- {
-  "from": "Hanz Zimmer::Interstellar: Original Motion Picture Soundtrack",
-  "to": "Hans Zimmer::Tears of the Sun: Original Motion Picture Soundtrack",
-  "_pass": "artist",
-  "_titleRatio": 0.227,
-  "_artistRatio": 0.1,
-  "_mbid": "14f0a27f-b41f-3b4d-91dc-e9884db0d676",
-  "_why": "title gains/loses a word; looser band"
- },
- {
-  "from": "Harmonium::Si on avait besoin d'une cinquième saison",
-  "to": "Harmonium::Harmonium / Si on avait besoin d’une cinquième saison",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "8c304a5d-5e3d-4ecd-8343-a3a3b4a7e9d4",
-  "_why": "title gains/loses a word"
- },
- {
-  "from": "James Holden::Balance 005",
-  "to": "James Holden::Balance 005: James Holden",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "cd6073bf-c804-3d33-9e43-ddd7a0f5b498",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "Jay-Z and Kanye West::Watch the Throne  (Deluxe Version)",
-  "to": "Ye::Watch the Throne",
-  "_pass": "artist",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0.05,
-  "_mbid": "a96597aa-93b4-4e14-9e6e-03892ab24979",
-  "_why": "drops a credited artist; too far apart; looser band"
- },
- {
-  "from": "Jean-Michelle Jarre::Oxygene",
-  "to": "Jean‐Michel Jarre::Oxygène",
-  "_pass": "artist",
-  "_titleRatio": 0,
-  "_artistRatio": 0.118,
-  "_mbid": "3055cd07-9b9d-34ed-b227-942ba6977174",
-  "_why": "title gains/loses a word"
- },
- {
-  "from": "Jimmy O Rourke::Insignificance",
-  "to": "Jim O’Rourke::Insignificance",
-  "_pass": "title",
-  "_titleRatio": 0,
-  "_artistRatio": 0.167,
-  "_mbid": "4a1126a2-8233-36ae-a579-539e0b7fb392",
-  "_why": "looser band"
- },
- {
-  "from": "Justin Hurwitz::La La Land",
-  "to": "Justin Hurwitz::La La Land: Original Motion Picture Score",
-  "_pass": "artist",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "edb38144-d429-4582-9176-e972e7807525",
-  "_why": "too far apart; looser band"
- },
- {
-  "from": "Lamp::Lamp Genso",
-  "to": "LaMP::LaMP",
-  "_pass": "artist",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "8b382f42-e32f-4b78-8780-ebf143e82a9f",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "Lena Raine::Celeste",
-  "to": "Lena Raine::Celeste - Madeline's Grab Bag",
-  "_pass": "artist",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "0c257a36-4a59-4bc8-b19d-e8e7cf0969ab",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "Liars::The Threw Us All On Top and Stuck a Momentum On Top",
-  "to": "Liars::They Threw Us All in a Trench and Stuck a Monument on Top",
-  "_pass": "artist",
-  "_titleRatio": 0.267,
-  "_artistRatio": 0,
-  "_mbid": "aa8fc6c9-726f-3210-b3c6-f70f5d61fe6c",
-  "_why": "title gains/loses a word; looser band"
- },
- {
-  "from": "MASS OF THE FERMENTING DREGS::World is yours",
-  "to": "MASS OF THE FERMENTING DREGS::You / うたを歌えば",
-  "_pass": "artist",
-  "_titleRatio": 0.15,
-  "_artistRatio": 0,
-  "_mbid": "e18923ea-0b73-4b16-bfd5-cdb3db76dc7d",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "Miles Davis::A Tribute to Jack Johnson",
-  "to": "Miles Davis::Jack Johnson",
-  "_pass": "title",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "0ecf90fb-59ad-3194-b96b-57ad00e8bf1e",
-  "_why": "title gains/loses a word"
- },
- {
-  "from": "Milton Nascimento & Lo Borges::Clube Da Esquina",
-  "to": "Milton Nascimento::Clube da Esquina",
-  "_pass": "artist",
-  "_titleRatio": 0,
-  "_artistRatio": 0.05,
-  "_mbid": "b29e94e7-0b0b-3a66-ab06-e02f8fa5054f",
-  "_why": "drops a credited artist"
- },
- {
-  "from": "Misfits::Misfits",
-  "to": "Misfits::Famous Misfits of Filmland",
-  "_pass": "artist",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "74155492-bcaf-44aa-89b8-8f89c8d4e5a1",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "Mississippi John Hurt::Rediscovered (Mississippi John Hurt)",
-  "to": "Mississippi John Hurt::Rediscovered",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "9ce2fd8d-e240-3d8c-b8ad-65ecb6477d01",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "Paul McCartney::Ram (Remaster)",
-  "to": "Paul McCartney::RAM",
-  "_pass": "artist",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "434d4068-8404-359a-9585-3376d3d1680d",
-  "_why": "too far apart; looser band"
- },
- {
-  "from": "Pink Floyd::The Piper Gates of Dawn",
-  "to": "Pink Floyd::The Piper at the Gates of Dawn",
-  "_pass": "artist",
-  "_titleRatio": 0.208,
-  "_artistRatio": 0,
-  "_mbid": "6792b6d1-4e65-3c3c-9d20-d08aa1dcfc60",
-  "_why": "looser band"
- },
- {
-  "from": "slayr::Half Blood (BloodLuxe)",
-  "to": "slayr::Half Blood",
-  "_pass": "artist",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "d1d879d7-82b6-4b80-a5cd-2da75e74ae36",
-  "_why": "title gains/loses a word"
- },
- {
-  "from": "Jimmy Cliff::The Harder They Come",
-  "to": "Jimmy Cliff::The Harder They Come: The Definitive Collection",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "adb7b973-ccc7-3fa0-b038-09e19b05d4fe",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "Seatbelts::Cowboy Bebop",
-  "to": "SEATBELTS::COWBOY BEBOP (Soundtrack from the Netflix Series)",
-  "_pass": "title",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "30c42d97-0b90-4e37-89a1-41bc1a2006c0",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "Siouxsee & The Banshees::Juju",
-  "to": "Siouxsie and the Banshees::Juju",
-  "_pass": "artist",
-  "_titleRatio": 0,
-  "_artistRatio": 0.182,
-  "_mbid": "844bfb05-2b51-35e2-8063-1c8e6746c781",
-  "_why": "looser band"
- },
- {
-  "from": "Siouxsee & The Banshees::The Scream",
-  "to": "Siouxsie and the Banshees::The Scream",
-  "_pass": "artist",
-  "_titleRatio": 0,
-  "_artistRatio": 0.182,
-  "_mbid": "67f24412-60c9-36f3-a1dc-e48e56098802",
-  "_why": "looser band"
- },
- {
-  "from": "Slint::[untitled]",
-  "to": "Slint::Untitled (Albini rough mixes)",
-  "_pass": "artist",
-  "_titleRatio": 0.15,
-  "_artistRatio": 0,
-  "_mbid": "f167c246-842b-4e44-bac9-76a149cddd86",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "Tatsuro Yamashita 山下達郎::Big Wave",
-  "to": "Tats Yamashita::Big Wave",
-  "_pass": "title",
-  "_titleRatio": 0,
-  "_artistRatio": 0.188,
-  "_mbid": "646b0788-df08-4935-887c-edf5cb976840",
-  "_why": "looser band"
- },
- {
-  "from": "The Cars::Greatest Hits",
-  "to": "The Cars::Greatest Hits & More",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "27742d41-8cba-49c8-bacf-54a3f09eb515",
-  "_why": "title gains/loses a word"
- },
- {
-  "from": "The Dukes of Stratosphear::Chips From the Chocolate Fireball",
-  "to": "The Dukes of Stratosphear::Chips From the Chocolate Fireball (An Anthology)",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "4142c6c7-e14c-3be2-81b6-30ca172b0e9c",
-  "_why": "title gains/loses a word"
- },
- {
-  "from": "The Rolling Stones::More Hot Rocks",
-  "to": "The Rolling Stones::More Hot Rocks (Big Hits & Fazed Cookies)",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "2b4b4a03-bc47-3b3a-a2ed-0d121513d17d",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "The Smashing Pumpkins::Rotten Apples: The Smashing Pumpkins Greatest Hits",
-  "to": "The Smashing Pumpkins::Greatest Hits",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "629f866b-c8d1-3985-9da7-a648e8a3aaab",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "Erlend Øye::DJ Kicks",
-  "to": "Erlend Øye::DJ‐Kicks: Erlend Øye",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "9e5767c8-8667-3ee9-809e-ebdab3333d13",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "The White Stripes::Greatest Hits",
-  "to": "The White Stripes::The White Stripes Greatest Hits",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "605d10c5-704a-4cea-b871-caed694d391f",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "Timbre Timbre::Hot Dreams",
-  "to": "Timber Timbre::Hot Dreams",
-  "_pass": "title",
-  "_titleRatio": 0,
-  "_artistRatio": 0.167,
-  "_mbid": "8e1195d8-2711-46a4-b165-8b8b9a0d39c1",
-  "_why": "looser band"
- },
- {
-  "from": "Tom Zé, Os Mutantes, Nara Leão, Caetano Veloso, Gilberto Gil & Gal Costa::Tropicália ou Panis et Circencis",
-  "to": "Caetano Veloso::Cê",
-  "_pass": "artist",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0.05,
-  "_mbid": "6f51bce5-c1fa-3526-afa5-1d781b23ec58",
-  "_why": "drops a credited artist; title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "Trent Reznor & Atticus Ross::Gone Girl",
-  "to": "Trent Reznor::Gone Girl: Soundtrack From the Motion Picture",
-  "_pass": "artist",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0.05,
-  "_mbid": "b143021c-22ef-41f7-9160-f12753e941d2",
-  "_why": "drops a credited artist; too far apart; looser band"
- },
- {
-  "from": "Tricot::リピート (repeat)",
-  "to": "tricot::バキューンEP",
-  "_pass": "artist",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "ee924aa0-6531-4ce5-b11d-917d28f90ebb",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "Various Artists::Starmix vol.2",
-  "to": "Various Artists::Русская Балалайка (Серия 2)",
-  "_pass": "artist",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "0e1626f3-764a-402a-920d-5883489ac743",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "Various Artists::O Brother, Where Art Thou?",
-  "to": "Various Artists::O Brother, Where Art Thou? Music From a Film by Joel Coen & Ethan Coen",
-  "_pass": "title",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "6fb9820a-99cc-318f-bae4-44992f2b7ffa",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "Various Artists::Forrest Gump",
-  "to": "Various Artists::Forrest Gump: The Soundtrack",
-  "_pass": "title",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "6d79d579-213d-3172-a860-1cd9bde0ecd5",
-  "_why": "too far apart; looser band"
- },
- {
-  "from": "Various Artists::Repo Man",
-  "to": "Various Artists::Repo Man: Music From the Original Motion Picture Soundtrack",
-  "_pass": "title",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "e02530fb-93ff-395f-85e0-0fa0d1f4e919",
-  "_why": "too far apart; looser band"
- },
- {
-  "from": "Vince Guaraldi Trio::A Charlie Brown Christmas",
-  "to": "Vince Guaraldi Trio::Peanuts Selections from a Charlie Brown Christmas",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "51279c71-5098-4af7-ae75-ea682d91bae9",
-  "_why": "title gains/loses a word"
- },
- {
-  "from": "Weezer::The White Album (Weezer)",
-  "to": "Weezer::Weezer",
-  "_pass": "artist",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "171245fd-a5ff-4551-857c-710ce0967f8f",
-  "_why": "title gains/loses a word; too far apart; looser band"
- },
- {
-  "from": "Zoe::MTV Unplugged",
-  "to": "Zoé::MTV Unplugged: Música de fondo",
-  "_pass": "artist",
-  "_titleRatio": 0.17,
-  "_artistRatio": 0,
-  "_mbid": "3f3e7dd3-13e9-41c2-864a-b1a8457d53ef",
-  "_why": "title gains/loses a word; too far apart; looser band"
+  "_mbid": "1a960397-0f3d-4121-a53a-3b029b5ee26d",
+  "_why": "the title gains \"2manydjs presents\" — likely a different release; sequence number changed (Pt. 2 / Vol. 3 / Part One)"
  },
  {
   "from": "2 Many DJ's::A Tribute to Keith Forsey",
@@ -762,16 +15,70 @@
   "_titleRatio": 0.13,
   "_artistRatio": 0,
   "_mbid": "270ea2ef-3d76-489b-9d9d-a832aa35d937",
-  "_why": "title gains/loses a word; sequence changed"
+  "_why": "the title gains \"2manydjs present\" — likely a different release; sequence number changed (Pt. 2 / Vol. 3 / Part One)"
  },
  {
-  "from": "2 Many DJ's::A Tribute To Compass Point",
-  "to": "2manydjs::2manydjs presents A Tribute to Compass Point",
+  "from": "2 Many DJ's::Under The Covers 2",
+  "to": "2manydjs::Under The Covers Vol. 2",
+  "_pass": "artist",
+  "_titleRatio": 0.247,
+  "_artistRatio": 0,
+  "_mbid": "8f6749d9-063a-4648-a6f2-93fe187d24ba",
+  "_why": "looser than the confident band"
+ },
+ {
+  "from": "Ajj::People That Can Eat People Are The Luckiest People in the World",
+  "to": "AJJ::People Who Can Eat People Are the Luckiest People in the World",
+  "_pass": "artist",
+  "_titleRatio": 0.058,
+  "_artistRatio": 0,
+  "_mbid": "676033ea-5ba2-3b8c-95d4-8679cdbc0249",
+  "_why": "the title loses \"that\" — likely a different release"
+ },
+ {
+  "from": "Akira Yamaoka::Silent Hill 2",
+  "to": "Akira Yamaoka::Silent Hill",
+  "_pass": "artist",
+  "_titleRatio": 0.05,
+  "_artistRatio": 0,
+  "_mbid": "b0a1513e-078d-3ed1-a0fd-c93e70f84170",
+  "_why": "sequence number changed (Pt. 2 / Vol. 3 / Part One)"
+ },
+ {
+  "from": "Alice in Chains::Unplugged",
+  "to": "Alice in Chains::Dirt / MTV Unplugged",
   "_pass": "artist",
   "_titleRatio": 0.13,
   "_artistRatio": 0,
-  "_mbid": "1a960397-0f3d-4121-a53a-3b029b5ee26d",
-  "_why": "title gains/loses a word; sequence changed"
+  "_mbid": "c64bb896-e04b-43df-9c84-8a81e85a8f0b",
+  "_why": "the title gains \"dirt\" — likely a different release"
+ },
+ {
+  "from": "Angelo Badalamenti & David Lynch::Mulholland Dr.",
+  "to": "Angelo Badalamenti::Mulholland Drive",
+  "_pass": "artist",
+  "_titleRatio": 0.05,
+  "_artistRatio": 0.05,
+  "_mbid": "32530b76-bb42-3b3f-80e7-35f1c5de6f0a",
+  "_why": "the title gains \"drive\" — likely a different release; drops a credited artist (2 names -> 1)"
+ },
+ {
+  "from": "Animal Collective::Spirit They're Gone, Spirit They've Vanished",
+  "to": "Animal Collective::Spirit They’re Gone Spirit They’ve Vanished / Danse Manatee",
+  "_pass": "artist",
+  "_titleRatio": 0.13,
+  "_artistRatio": 0,
+  "_mbid": "bb5426ab-6924-321a-8504-dc6f3cdf852b",
+  "_why": "the title gains \"danse manatee\" — likely a different release"
+ },
+ {
+  "from": "Asian Glow & Parannoul::Paraglow",
+  "to": "Asian Glow::Paraglow",
+  "_pass": "artist",
+  "_titleRatio": 0,
+  "_artistRatio": 0.05,
+  "_mbid": "4bda47b2-52a1-429f-a1e3-1549b84f11a4",
+  "_why": "drops a credited artist (2 names -> 1)"
  },
  {
   "from": "Azealia Banks::1992",
@@ -780,7 +87,52 @@
   "_titleRatio": 0.25,
   "_artistRatio": 0,
   "_mbid": "b296b523-bd66-480f-8a8f-c6d09a09846b",
-  "_why": "sequence changed; looser band"
+  "_why": "sequence number changed (Pt. 2 / Vol. 3 / Part One); looser than the confident band"
+ },
+ {
+  "from": "Basement Jazz::Remedy",
+  "to": "Basement Jaxx::Remedy",
+  "_pass": "artist",
+  "_titleRatio": 0,
+  "_artistRatio": 0.167,
+  "_mbid": "3ce95abe-66f2-4e21-a365-0a4766e33e30",
+  "_why": "looser than the confident band"
+ },
+ {
+  "from": "Beastie Boys::Beastie Boys Anthology: The Sounds of Science",
+  "to": "Beastie Boys::Anthology: The Sounds of Science",
+  "_pass": "artist",
+  "_titleRatio": 0.13,
+  "_artistRatio": 0,
+  "_mbid": "c28843ed-6233-36e1-b98f-3ff0bbc62ecf",
+  "_why": "the title loses \"beastie boys\" — likely a different release"
+ },
+ {
+  "from": "Billy Joel::Greatest Hits: Volume I",
+  "to": "Billy Joel::Greatest Hits, Volume I & Volume II",
+  "_pass": "artist",
+  "_titleRatio": 0.13,
+  "_artistRatio": 0,
+  "_mbid": "4a8f66b9-2ebf-3ebf-bd5e-ad19386e76c0",
+  "_why": "sequence number changed (Pt. 2 / Vol. 3 / Part One)"
+ },
+ {
+  "from": "Billy Joel::Greatest Hits: Volume II",
+  "to": "Billy Joel::Greatest Hits, Volume III",
+  "_pass": "artist",
+  "_titleRatio": 0.13,
+  "_artistRatio": 0,
+  "_mbid": "503ff741-7014-329c-85f0-c78672d654cb",
+  "_why": "sequence number changed (Pt. 2 / Vol. 3 / Part One)"
+ },
+ {
+  "from": "Blood Incantation::Absolute Everywhere",
+  "to": "Blood Incantation::Absolute Elsewhere",
+  "_pass": "artist",
+  "_titleRatio": 0.222,
+  "_artistRatio": 0,
+  "_mbid": "25267682-bdfc-435a-b6a7-89c266f7d0e8",
+  "_why": "the title gains \"elsewhere\" and loses \"everywhere\" — likely a different release; looser than the confident band"
  },
  {
   "from": "Boards of Canada::Societas X Tape",
@@ -789,132 +141,15 @@
   "_titleRatio": 0.05,
   "_artistRatio": 0,
   "_mbid": "1ed7559d-53a9-4513-8ee6-5c05bb0e725b",
-  "_why": "title gains/loses a word; sequence changed"
+  "_why": "the title gains \"2019\" — likely a different release; sequence number changed (Pt. 2 / Vol. 3 / Part One)"
  },
  {
-  "from": "Bob Dylan::Greatest Hits Volume 3 (Bob Dylan)",
-  "to": "Bob Dylan::Bob Dylan",
-  "_pass": "artist",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "6ac612a5-e815-3fed-b341-8b3faa351df4",
-  "_why": "title gains/loses a word; too far apart; sequence changed; looser band"
- },
- {
-  "from": "Bob Dylan::Greatest Hits Volume 2 (Bob Dylan)",
-  "to": "Bob Dylan::Bob Dylan",
-  "_pass": "artist",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "6ac612a5-e815-3fed-b341-8b3faa351df4",
-  "_why": "title gains/loses a word; too far apart; sequence changed; looser band"
- },
- {
-  "from": "Bob Dylan::Greatest Hits Volume 1 (Bob Dylan)",
-  "to": "Bob Dylan::Bob Dylan",
-  "_pass": "artist",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "6ac612a5-e815-3fed-b341-8b3faa351df4",
-  "_why": "title gains/loses a word; too far apart; sequence changed; looser band"
- },
- {
-  "from": "Creedence Clearwater Revival::Chronicle",
-  "to": "Creedence Clearwater Revival::Chronicle: The 20 Greatest Hits",
+  "from": "Bob Marley::Legend",
+  "to": "Bob Marley::Reggae Legend",
   "_pass": "artist",
   "_titleRatio": 0.13,
   "_artistRatio": 0,
-  "_mbid": "0411d11f-d310-3425-8f46-a16243d15763",
-  "_why": "title gains/loses a word; too far apart; sequence changed; looser band"
- },
- {
-  "from": "DJ Screw::Endonesia",
-  "to": "DJ Screw::Diary of the Originator, Chapter 70: Endonesia",
-  "_pass": "title",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "e2acbb77-fa2e-4b5f-8242-7ac34ac6734f",
-  "_why": "title gains/loses a word; too far apart; sequence changed; looser band"
- },
- {
-  "from": "DJ Screw::Old School",
-  "to": "DJ Screw::Diary Of The Originator : Chapter 214 (Old School)",
-  "_pass": "artist",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "d0c54183-ff41-43f6-8721-2b7c9c446c5b",
-  "_why": "title gains/loses a word; too far apart; sequence changed; looser band"
- },
- {
-  "from": "Kyle Dixon & Michael Stein::Stranger Things, Vol 1",
-  "to": "Kyle Dixon & Michael Stein::Stranger Things 2",
-  "_pass": "artist",
-  "_titleRatio": 0.222,
-  "_artistRatio": 0,
-  "_mbid": "7508acf4-bdcb-477a-bf42-c4fd98017386",
-  "_why": "sequence changed; looser band"
- },
- {
-  "from": "Naked City::Naked City",
-  "to": "Naked City::Naked City Live, Volume 1: Knitting Factory 1989",
-  "_pass": "artist",
-  "_titleRatio": 0.17,
-  "_artistRatio": 0,
-  "_mbid": "87e1dff5-3fd9-348b-8caa-ab5902fcdcfb",
-  "_why": "title gains/loses a word; too far apart; sequence changed; looser band"
- },
- {
-  "from": "Placebo::Once More With Feeling",
-  "to": "Placebo::Once More With Feeling: Singles 1996–2004",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "8999013f-68e7-33bb-be0b-cdb8e39cb6c9",
-  "_why": "title gains/loses a word; sequence changed"
- },
- {
-  "from": "Psychedelic Porn Crumpets::High Visceral pt. 1",
-  "to": "Psychedelic Porn Crumpets::High Visceral {Part One}",
-  "_pass": "artist",
-  "_titleRatio": 0.263,
-  "_artistRatio": 0,
-  "_mbid": "0e2c33ee-4b7e-44f9-b490-75ec01fdc2bf",
-  "_why": "looser band"
- },
- {
-  "from": "Psychedelic Porn Crumpets::High Visceral pt. 2",
-  "to": "Psychedelic Porn Crumpets::High Visceral {Part One}",
-  "_pass": "artist",
-  "_titleRatio": 0.263,
-  "_artistRatio": 0,
-  "_mbid": "0e2c33ee-4b7e-44f9-b490-75ec01fdc2bf",
-  "_why": "sequence changed; looser band"
- },
- {
-  "from": "Tabu Ley Rochereau::Tabu Ley Rochereau: The Voice of Lightness Vol 1 Album 1",
-  "to": "Tabu Ley Rochereau::Tabu Ley",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "35485800-b362-3569-80ba-27618a27bf43",
-  "_why": "title gains/loses a word; too far apart; sequence changed; looser band"
- },
- {
-  "from": "Various Artists::Kankyo Ongaku: Japanese Ambient",
-  "to": "Various Artists::Kankyō Ongaku: Japanese Ambient, Environmental & New Age Music 1980–1990",
-  "_pass": "title",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "4f859690-c836-4f4e-8a1e-212b86224690",
-  "_why": "title gains/loses a word; too far apart; sequence changed; looser band"
- },
- {
-  "from": "Various Artists::Outro Tempo",
-  "to": "Various Artists::Outro Tempo II: Electronic and Contemporary Music From Brazil, 1984-1996",
-  "_pass": "title",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "b9b9379c-22d8-404f-9fff-b4d0b64d395b",
-  "_why": "title gains/loses a word; too far apart; sequence changed; looser band"
+  "_mbid": "cfde625e-0143-3beb-9eca-ffbac5a15f6f",
+  "_why": "the title gains \"reggae\" — likely a different release"
  }
 ]
