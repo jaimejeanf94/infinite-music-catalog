@@ -57,13 +57,14 @@ export function titleTier(rg, wantTitle) {
 // The ranking only bites when a plain studio release is sitting right next to
 // a repackaging of it.
 export const ASKS_FOR_REPACKAGING =
-  /\b(live|remix|demo|compilation|best of|greatest hits|anthology|unplugged|collection|singles|sessions|rarities|b-sides|deluxe)\b/i;
+  /\b(live|remix|demo|compilation|best of|greatest hits|anthology|unplugged|collection|singles|sessions|rarities|b-sides|deluxe|soundtrack|original score|ost)\b/i;
 
 export function typeRank(rg, wantTitle) {
   const sec = (rg["secondary-types"] || []).map((x) => x.toLowerCase());
   if (!sec.length) return 0;
   if (ASKS_FOR_REPACKAGING.test(wantTitle)) return 0;   // you asked for it
-  if (sec.length === 1 && sec[0] === "soundtrack") return 1;  // what the record is
+  if (sec.length === 1 && sec[0] === "soundtrack") return 1;  // what the record is,
+                                                             // not a repackaging of it
   return 2;
 }
 
