@@ -48,7 +48,8 @@ output, then feed it to `node scripts/rename.mjs --file suggested.json --refresh
    1.2–3.1s per image on archive.org redirects):
    - Supabase dashboard → Storage → New bucket, name `covers`, **Public ON**
    - Run `db/storage.sql` with your UID pasted in
-   - `export SUPABASE_URL=… SUPABASE_KEY=… IMC_EMAIL=… IMC_PASSWORD=…`
+   - `cp .env.example .env` and fill it in, then
+     `set -a && source .env && set +a`
    - `node scripts/cache-covers.mjs --dry-run` then without the flag
    - ~4,180 covers, ~340 MB, inside the free storage allowance
 2. **Run `db/schema.sql`** in the Supabase SQL editor, then verify:
@@ -60,8 +61,8 @@ output, then feed it to `node scripts/rename.mjs --file suggested.json --refresh
    All three must come back `true`.
 3. **Create the Supabase user**, then turn sign-ups OFF.
 4. **`node scripts/import.mjs`** to push albums + enrichment.
-5. **Paste the Supabase URL and publishable key** into `app/config.js`
-   (2 placeholders left).
+5. **`node scripts/write-config.mjs`** to generate `app/config.js` from the
+   same `.env` (it refuses a secret key, and never reads the password).
 6. **Run `db/public_hardening.sql`** with your UID, then check a signed-out
    `await db.deleteAlbum(1)` is refused.
 7. **Deploy to Vercel** — root directory `app`, no build command.
