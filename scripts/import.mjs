@@ -49,7 +49,12 @@ const albums = rows.filter((r) => r[col.artist]).map((r) => {
     in_pool: r[col.in_pool] !== "false",
     mbid: extra?.mbid || null,
     genres: extra?.genres || [],
-    cover_url: extra?.cover_url || null,
+    // A cover chosen by hand wins over anything enrichment found, and the
+    // flag comes back with it so a rebuilt row stays protected.
+    cover_locked: r[col.cover_locked] === "true",
+    cover_url: (r[col.cover_locked] === "true" && r[col.cover_url])
+      ? r[col.cover_url]
+      : (extra?.cover_url || r[col.cover_url] || null),
   };
 });
 

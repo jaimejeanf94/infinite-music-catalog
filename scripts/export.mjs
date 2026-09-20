@@ -14,7 +14,11 @@ import { requireEnv, signIn, rest } from "./supabase-rest.mjs";
 
 requireEnv();
 
-const COLUMNS = ["artist", "title", "year", "score", "in_pool", "genres", "mbid", "cover_url", "notes", "source"];
+// cover_locked travels with cover_url. Without it the backup records what
+// the cover is but not that it was chosen by hand, so a database rebuilt
+// from this file would have every manual cover unlocked -- and the next
+// enrichment run would replace them.
+const COLUMNS = ["artist", "title", "year", "score", "in_pool", "genres", "mbid", "cover_url", "cover_locked", "notes", "source"];
 
 const cell = (v) => {
   if (v == null) return "";
