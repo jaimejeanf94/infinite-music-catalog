@@ -13,7 +13,7 @@ const MODES = [
   { id: "unscored", label: "Unrated",   hint: "Only albums you have never scored" },
 ];
 
-function RollView({ albums, owner, onPatch, onPlay, onRoll }) {
+function RollView({ albums, owner, onPatch, onRoll }) {
   const [mode, setMode] = React.useState(
     () => localStorage.getItem("ih:mode") || "uniform"
   );
@@ -51,11 +51,17 @@ function RollView({ albums, owner, onPatch, onPlay, onRoll }) {
   // Changing mode should hand you an album from the new mode straight away,
   // rather than leaving the last one sitting there -- switching to Unrated and
   // still staring at something you rated 100 is confusing.
+  // The slider counts too: moving it changes the odds, so the album on screen
+  // was drawn under rules that no longer apply. It fires continuously while
+  // dragging, hence the wait -- re-rolling on every step of the drag would be
+  // unreadable.
   const firstRun = React.useRef(true);
   React.useEffect(() => {
     if (firstRun.current) { firstRun.current = false; return; }
-    if (albums.length) spin();
-  }, [mode]);
+    if (!albums.length) return;
+    const t = setTimeout(spin, 250);
+    return () => clearTimeout(t);
+  }, [mode, share]);
 
   const score = (value) => {
     if (!album || !owner) return;
@@ -71,8 +77,6 @@ function RollView({ albums, owner, onPatch, onPlay, onRoll }) {
       if (n >= 1 && n <= 7) { e.preventDefault(); return score(SCORES[n - 1]); }
       if (e.key === "0") { e.preventDefault(); return score(album?.score); }
       if (e.key === " " || e.key === "Enter") { e.preventDefault(); return spin(); }
-      if (e.key.toLowerCase() === "p") { e.preventDefault(); return played(); }
-      if (e.key.toLowerCase() === "x") { e.preventDefault(); return drop(); }
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
@@ -84,19 +88,10 @@ function RollView({ albums, owner, onPatch, onPlay, onRoll }) {
     return () => clearTimeout(t);
   }, [flash]);
 
-  const played = () => {
-    if (!album || !owner) return;
-    onPlay(album.id);
-    setFlash("Logged as played");
-  };
-
-  const drop = () => {
-    if (!album || !owner) return;
-    onPatch(album.id, { in_pool: false });
-    setFlash("Removed from the pool");
-    spin();
-  };
-
+  // "Played it" and "Not for the pool" used to sit beside Roll again. Rating
+  // an album already says you heard it, and taking one out of the pool is a
+  // rare, deliberate act that belongs on the album's own sheet rather than a
+  // keystroke away from the roll you are about to replace.
   if (!album) return <div className="empty">Shuffling…</div>;
 
   const searchUrl = (svc) => {
@@ -174,10 +169,6 @@ function RollView({ albums, owner, onPatch, onPlay, onRoll }) {
 
           <div className="row">
             <button className="btn btn--primary" onClick={spin}>Roll again ␣</button>
-            {owner && <button className="btn" onClick={played}>Played it (p)</button>}
-            {owner && (
-              <button className="btn btn--quiet" onClick={drop}>Not for the pool (x)</button>
-            )}
           </div>
 
           <div className="row row--links">
