@@ -162,6 +162,13 @@ false means it never comes up on a roll, without being deleted.
 | cover_url | enrichment, or you | **yours is kept** (`cover_locked`) |
 | deleted_at | you | never resurrected |
 
+Nothing is stored against an album's position in `albums.csv`. Row numbers are
+not identities — merging or re-sorting the file shifts every row below the
+change, and anything keyed that way silently re-attaches itself to whatever
+album slid into the slot. Local edits, tombstones and enrichment all key on
+`artist::title` instead, which is also why renaming goes through
+`scripts/rename.mjs` (section 10) rather than an editor.
+
 ---
 
 ## 5. Deleting is never destructive
@@ -393,7 +400,34 @@ node scripts/export.mjs      # database -> albums.csv (the backup)
 node scripts/enrich.mjs      # genres, artwork, MusicBrainz ids (no account)
 node scripts/import.mjs      # push albums and enrichment to the database
 node scripts/test-roller.mjs # check the randomiser's odds (no account)
+node scripts/rename.mjs      # correct a misspelt artist or title (no account)
 ```
+
+### Correcting a name
+
+A title is an identity: `data/enrichment.json` is keyed by `artist::title`, and
+so are the app's local edits. Editing `albums.csv` by hand orphans that album's
+cover and genres. Use the script, which moves both halves together:
+
+```sh
+node scripts/rename.mjs --from "Bjork::Medula" --to "Björk::Medúlla" --dry-run
+node scripts/rename.mjs --file renames.json --refresh
+```
+
+`--dry-run` prints the plan and writes nothing. `--refresh` throws the old
+enrichment away instead of carrying it, so the next `enrich.mjs` re-matches on
+the corrected name — worth it when the misspelling only ever got a fuzzy
+fallback, since a correct title finds a MusicBrainz release-group and brings
+genres with it.
+
+If you own **both** spellings, that is a merge, not a rename. Add
+`"merge": true` and the correctly-spelled row survives, taking whichever score
+and year actually exist; the duplicate is dropped. Without the flag a rename
+onto an existing album is refused, because silently collapsing two rows is how
+a rating goes missing.
+
+The script refuses to run while `enrich.mjs` is going: that job holds the whole
+enrichment store in memory and would overwrite the changes on its next save.
 
 ---
 
