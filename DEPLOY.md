@@ -1,5 +1,10 @@
 # Deploying
 
+> **Already done.** The app is live at
+> <https://infinite-music-catalog.vercel.app>, Supabase holds 4,400-odd
+> albums, all 4,193 covers are cached, and the nightly job runs at 07:00 UTC.
+> This is kept as the record of how, and for standing it up again.
+
 Everything here is a one-off. Once it is done, the app is public, the nightly
 job runs on GitHub's machines, and your laptop is no longer involved.
 

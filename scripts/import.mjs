@@ -3,7 +3,7 @@
 //   node scripts/import.mjs
 //
 // The dashboard's CSV importer does the same job; this exists for when you
-// have re-run clean.py and want the table rebuilt without clicking through the
+// have rebuilt data/albums.csv and want the table rebuilt without clicking the
 // UI. It skips albums already present (matched on artist + title), so running
 // it twice is safe.
 import { readFileSync, existsSync } from "node:fs";
@@ -33,7 +33,7 @@ const csv = readFileSync(new URL("../data/albums.csv", import.meta.url), "utf8")
 const [header, ...rows] = parseCsv(csv);
 const col = Object.fromEntries(header.map((h, i) => [h.trim(), i]));
 
-// Enrichment lives in its own file so re-running clean.py never clobbers it.
+// Enrichment lives in its own file so rewriting albums.csv never clobbers it.
 const enrichPath = new URL("../data/enrichment.json", import.meta.url);
 const enrichment = existsSync(enrichPath)
   ? JSON.parse(readFileSync(enrichPath, "utf8"))

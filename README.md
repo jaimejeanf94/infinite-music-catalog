@@ -58,11 +58,20 @@ From the project root:
 python3 -m http.server 8777
 ```
 
-Open <http://localhost:8777/app/index.html>. A `LOCAL` badge means it is reading
-`data/albums.csv` and saving to this browser only.
+Open <http://localhost:8777/app/index.html>.
 
-Serve from the **project root**, not from inside `app/` — the page reaches up to
-`../data/`.
+**This talks to the live database.** `app/config.js` holds the project keys, so
+a local server is the deployed app with a different address — rating an album
+here rates it for real, and so does a delete. There is no separate development
+copy.
+
+A `LOCAL` badge in the header means the opposite: `config.js` still has its
+placeholders, so the page is reading `data/albums.csv` and saving to that
+browser only. A fresh clone by someone else behaves that way. If you see that
+badge on your own machine, `config.js` has been reverted.
+
+Serve from the **project root**, not from inside `app/` — in local mode the
+page reaches up to `../data/`.
 
 Rated things in local mode and want to keep them? `db.exportEdits()` in the
 browser console prints SQL you can paste into Supabase.
@@ -201,7 +210,7 @@ whenever, it picks up where it left off.
 **The retry pass runs itself.** `--retry` re-attempts albums that failed and
 albums that matched but carry no genres, with a 14-day cooldown per album so
 the ones MusicBrainz genuinely lacks are not re-queried every night. The nightly
-workflow runs it after each batch, and `scripts/after-backfill.sh` waits for a
+workflow runs it after each batch, and the nightly job sweeps the gaps on a
 local backfill to exit and sweeps immediately. Nothing to remember.
 
 ### Why the covers are cached
@@ -341,6 +350,11 @@ buckets. Run it after touching the randomiser.
 
 ## 8. Going live
 
+> **Done.** The app is at <https://infinite-music-catalog.vercel.app>, reading
+> the `albums` table in Supabase. `DEPLOY.md` is the step-by-step, kept for
+> reference or for standing it up again. What follows is why each piece is the
+> way it is.
+
 ### a. Supabase
 
 1. Create a project at [supabase.com](https://supabase.com).
@@ -415,7 +429,7 @@ is capped at six hours.
 Once the app could add and delete, keeping it meant two writable sources with
 only one-way sync — we cannot write back to Google Sheets without OAuth, so the
 sheet would have drifted wrong and stayed wrong. The original export is kept at
-`data/raw_sheet.csv` and `data/clean.py` is the one-time migration that produced
+`migration/raw_sheet.csv` and `migration/clean.py` is the one-time migration that produced
 the first `albums.csv`. Neither runs any more.
 
 ---
@@ -512,4 +526,45 @@ The Supabase pair exist because the SQL here has never been run.
 | `scripts/import.mjs` | CSV and enrichment → database |
 | `scripts/test-roller.mjs` | 200,000 rolls against the real collection |
 | `data/enrichment.json` | What enrichment found, keyed by artist + title |
-| `data/raw_sheet.csv` | Untouched snapshot of the original spreadsheet |
+| `migration/` | How the data got here. Nothing in it runs any more |
+
+---
+
+## Known issues
+
+Real, reproduced, and not yet fixed. None of them break the app.
+
+### A large year gap means the wrong release-group
+
+`enrich.mjs` reports albums whose year disagrees with MusicBrainz — currently
+371, of which 52 differ by 15 years or more. Those large gaps are not wrong
+years. They are wrong matches:
+
+| Album | What was matched instead |
+|---|---|
+| The Beatles — A Hard Day's Night | *The Alternate A Hard Day's Night* (2004) |
+| Art Blakey — Moanin' | a **Live** release-group (2001) |
+| American Football — American Football | the **2016** album, not the 1999 debut |
+
+MusicBrainz holds the right record in every case — `A Hard Day's Night`
+(1964‑06‑26, Album/Soundtrack) is in the search results, just not the one
+`candidateScore` chose. So these albums have the wrong **cover and genres**
+too, not only the wrong year.
+
+The fix is in the scoring: prefer a plain Album, and among equally good title
+matches prefer the earliest first-release-date. Until then the year is
+reported and never applied — applying it would write 2004 onto *A Hard Day's
+Night*. The disagreement list is the best bad-match detector the pipeline has.
+
+### 27 albums share a cover with another album
+
+Same-artist over-matching, e.g. *Black Sabbath Vol. 4* wearing *Black
+Sabbath*'s sleeve, *EMOTION: Side B* wearing *EMOTION*'s. Roughly half are
+legitimately the same artwork, so this needs reading rather than a rule.
+
+### ~310 albums MusicBrainz has never heard of
+
+Genuinely obscure, or misspelt. `suggest-renames.mjs` works through 60 a night
+and writes anything uncertain to `data/rename-suggestions-review.json` for you
+to accept or ignore. It stamps each album it examines and leaves it alone for
+30 days, so the backlog drains in about five nights and then goes quiet.

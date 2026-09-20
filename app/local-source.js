@@ -9,7 +9,7 @@
 // in the CSV. Row numbers are not identities: merging or re-sorting albums.csv
 // shifts every row below the change, and edits keyed that way silently
 // re-attach themselves to whatever album slid into the slot. That is exactly
-// what merge-discs.py did -- 96 rows collapsed into 42 -- which put cached
+// what the disc merge did -- 96 rows collapsed into 42 -- which put cached
 // covers on unrelated albums. Ids are still row numbers, because the UI needs
 // something cheap to pass around, but nothing is ever *stored* against them.
 
@@ -99,7 +99,7 @@ const LocalDB = {
       `project root, not from inside app/.`
     );
     // Genres and artwork live in their own file (see scripts/enrich.mjs) so
-    // that re-running clean.py cannot wipe them. Missing is fine -- the app
+    // that rewriting albums.csv cannot wipe them. Missing is fine -- the app
     // just shows no genres until the enrichment pass has run.
     const enrichment = await fetch("../data/enrichment.json")
       .then((r) => (r.ok ? r.json() : {}))
