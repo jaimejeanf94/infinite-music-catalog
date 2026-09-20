@@ -16,9 +16,6 @@ function lift(id) {
   return LIFTS[(Math.imul(id, 2654435761) >>> 0) % LIFTS.length];
 }
 
-function Stat({ label, value }) {
-  return <div className="stat"><b>{value}</b><span>{label}</span></div>;
-}
 
 // Genre is what you browse by; style is what the record actually is. Clicking a
 // genre filters; a style is not a filter -- half of them sit on one album -- so
@@ -262,7 +259,6 @@ function Detail({ album, owner, onPatch, onPlay, onDelete, onClose, index, onGen
   );
 }
 
-
 // Genre filter. There are already 216 distinct genres and half of them sit on
 // two albums or fewer, so a dropdown is the wrong control: the list is too long
 // to scan and most of it is too specific to browse for. Instead the common ones
@@ -496,10 +492,35 @@ function BrowseView({ albums, owner, onPatch, onPlay, onAdd, onDelete, onRestore
 
   return (
     <div className="browse">
-      <div className="stats">
-        <Stat label="albums" value={stats.total.toLocaleString()} />
-        <Stat label="rated" value={`${stats.scored} · ${Math.round(stats.scored / stats.total * 100)}%`} />
-        <Stat label="in the pool" value={stats.pool.toLocaleString()} />
+      {/* The count of albums barely moves and the pool is 98% of it, so both
+          were noise. What is rated is the one figure that changes by using
+          the app, and the number left is what actually reads as progress --
+          a percentage this far from the end moves by 0.02 per album. */}
+      <div className="progress">
+        <div className="progress__head">
+          <span><b>{stats.scored.toLocaleString()}</b> rated</span>
+          <span className="progress__left">
+            {(stats.total - stats.scored).toLocaleString()} to go
+          </span>
+        </div>
+        <div className="progress__row">
+          <div
+            className="progress__track"
+            role="progressbar"
+            aria-valuemin={0}
+            aria-valuemax={stats.total}
+            aria-valuenow={stats.scored}
+            aria-label={`${stats.scored} of ${stats.total} albums rated`}
+          >
+            <div
+              className="progress__fill"
+              style={{ width: `${(stats.scored / stats.total) * 100}%` }}
+            />
+          </div>
+          <span className="progress__pct">
+            {Math.round((stats.scored / stats.total) * 100)}%
+          </span>
+        </div>
       </div>
 
       <div className="toolbar">

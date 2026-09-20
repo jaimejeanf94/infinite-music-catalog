@@ -195,16 +195,6 @@ main { max-width: 1100px; margin: 0 auto; padding: 20px 16px 40px; }
 .recent__txt em { font-style: normal; font-size: 12px; color: var(--ink-dim); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 /* ── browse ───────────────────────────────────────────────────────────── */
-.stats { display: flex; gap: 10px; margin-bottom: 18px; flex-wrap: wrap; }
-.stat {
-  border-left: 2px solid var(--accent);
-  padding: 2px 20px 2px 12px; display: flex; flex-direction: column; min-width: 104px;
-}
-.stat b { font-family: var(--display); font-size: 34px; font-weight: 800; line-height: 1; }
-.stat span {
-  font-family: var(--mono); font-size: 10px; color: var(--ink-dim);
-  letter-spacing: 0.14em; text-transform: uppercase; margin-top: 4px;
-}
 
 .toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 12px; }
 .search {
@@ -468,3 +458,36 @@ button, a, input, select, textarea, .tile { touch-action: manipulation; }
 .field input[type="file"]::file-selector-button:hover { background: #26262e; }
 .field input[type="file"]:disabled { opacity: 0.5; cursor: not-allowed; }
 .field small.hint { font-size: 11px; line-height: 1.5; }
+
+/* ── rating progress ────────────────────────────────────────────────────── */
+/* Replaces three columns of which only one moved. The count left is what
+   reads as progress: at 4,400 albums a percentage shifts by 0.02 per rating,
+   but "to go" drops by one every time. */
+.progress { margin: 0 0 28px; max-width: 560px; }
+.progress__head {
+  display: flex; justify-content: space-between; align-items: baseline; gap: 16px;
+  font-family: var(--mono); font-size: 12px; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--ink-dim);
+  font-variant-numeric: tabular-nums;
+}
+.progress__head b {
+  font-family: var(--display); font-size: 30px; font-weight: 700;
+  letter-spacing: 0; color: var(--ink); margin-right: 6px;
+}
+.progress__left { color: var(--ink-dim); opacity: 0.75; }
+.progress__row { display: flex; align-items: center; gap: 12px; margin-top: 8px; }
+.progress__track {
+  flex: 1; min-width: 0; height: 6px; background: var(--panel-2);
+  overflow: hidden;
+}
+.progress__fill {
+  height: 100%; background: var(--accent);
+  transition: width 400ms ease;
+}
+.progress__pct {
+  font-family: var(--mono); font-size: 12px; color: var(--ink-dim);
+  font-variant-numeric: tabular-nums; min-width: 34px; text-align: right;
+}
+@media (prefers-reduced-motion: reduce) {
+  .progress__fill { transition: none; }
+}
