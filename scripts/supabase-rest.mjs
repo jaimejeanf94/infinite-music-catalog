@@ -35,6 +35,35 @@ export async function signIn() {
   return json.access_token;
 }
 
+// Storage speaks a different API to the table REST endpoint, but takes the
+// same bearer token. Buckets marked public are served straight from the CDN,
+// so the read path needs no key at all.
+export function storage(token) {
+  const auth = { apikey: SUPABASE_KEY, Authorization: `Bearer ${token}` };
+  const base = `${SUPABASE_URL}/storage/v1`;
+
+  return {
+    publicUrl: (bucket, path) => `${base}/object/public/${bucket}/${path}`,
+
+    async bucketExists(bucket) {
+      const res = await fetch(`${base}/bucket/${bucket}`, { headers: auth });
+      return res.ok;
+    },
+
+    // x-upsert makes a re-run overwrite rather than fail, which is what you
+    // want when a previous run was interrupted part-way through a file.
+    async upload(bucket, path, bytes, contentType) {
+      const res = await fetch(`${base}/object/${bucket}/${path}`, {
+        method: "POST",
+        headers: { ...auth, "Content-Type": contentType, "x-upsert": "true" },
+        body: bytes,
+      });
+      if (!res.ok) throw new Error(`upload ${path} -> ${res.status} ${await res.text()}`);
+      return `${base}/object/public/${bucket}/${path}`;
+    },
+  };
+}
+
 export function rest(token) {
   const headers = {
     apikey: SUPABASE_KEY,

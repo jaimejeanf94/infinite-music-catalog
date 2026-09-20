@@ -204,6 +204,40 @@ the ones MusicBrainz genuinely lacks are not re-queried every night. The nightly
 workflow runs it after each batch, and `scripts/after-backfill.sh` waits for a
 local backfill to exit and sweeps immediately. Nothing to remember.
 
+### Why the covers are cached
+
+A `coverartarchive.org/release-group/<id>/front-500` URL is not a file, it is a
+lookup. It redirects to `archive.org`, which redirects again to whichever
+storage node holds the image. Measured on this collection:
+
+| Source | Redirects | Time | Size |
+|---|---|---|---|
+| Cover Art Archive | 2 | 1.2 – 3.1 s | 60 – 140 KB |
+| A normal CDN | 0 | 0.3 s | ~160 KB |
+
+The images are small. The cost is latency, not weight, which is why caching
+them fixes it and serving them smaller would not.
+
+`scripts/cache-covers.mjs` copies each one into a Supabase Storage bucket once
+and rewrites `cover_url` to point there. About 4,200 covers at ~83 KB is
+roughly **340 MB**, which fits the free storage allowance with room to spare —
+worth checking your current usage in the dashboard, since the limits move.
+
+The original URL is kept as `cover_source_url`, so a cached cover can always be
+re-fetched from the source. Re-running the script resumes: anything already
+pointing at Supabase is skipped.
+
+Set-up is two steps, both one-off:
+
+1. Supabase dashboard -> **Storage** -> **New bucket**, name `covers`, **Public
+   ON**. Public makes *reads* keyless and CDN-served; it does not make writes
+   public.
+2. Run `db/storage.sql` with your UID pasted in, which pins writes to your
+   account.
+
+The browse grid renders 60 tiles at a time and grows on scroll, so a page load
+asks for about a screenful of covers, never all 4,400.
+
 ### When a match fails
 
 The query is relaxed in stages, and each stage only runs because the last one
@@ -401,6 +435,8 @@ node scripts/enrich.mjs      # genres, artwork, MusicBrainz ids (no account)
 node scripts/import.mjs      # push albums and enrichment to the database
 node scripts/test-roller.mjs # check the randomiser's odds (no account)
 node scripts/rename.mjs      # correct a misspelt artist or title (no account)
+node scripts/suggest-renames.mjs  # work out what a misspelt album really is
+node scripts/cache-covers.mjs     # copy artwork into Supabase Storage
 ```
 
 ### Correcting a name
