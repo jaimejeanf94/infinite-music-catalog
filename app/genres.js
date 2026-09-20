@@ -22,10 +22,55 @@
 // Everything else becomes a STYLE: shown with the album, not offered as a filter,
 // because half of them sit on two albums or fewer.
 
-const GENRE_MIN_SHARE = 0.012;   // ~1.2% of the collection
-const MEGA_SHARE = 0.15;         // a tag this common carries no information
+// A fixed, short list of roots. These are the only names offered as genres.
+// Everything else is a style of one of them.
+//
+// Deriving the roots from frequency alone does not work: "rock" sits on 59% of
+// this shelf, so a purely statistical rule swallows punk, heavy metal and
+// post-punk as styles of it, while indietronica and neo-psychedelia survive as
+// "genres" purely because they overlap nothing large. So the roots are fixed
+// -- there are nineteen of them and they have not changed in fifty years --
+// and only the ATTACHMENT is computed, from what actually co-occurs here.
+//
+// That is what collapses the tagging noise. "electro", "electronica",
+// "electropop" and "synth-pop" are not four genres; they are four ways of
+// tagging records that are also tagged "electronic", and they belong under it.
+const ROOTS = [
+  // rock, split. "rock" alone sat on 59% of the shelf, which made it useless
+  // as a filter -- clicking it narrowed nothing. These are the scenes big
+  // enough to stand on their own here, and between them they claim two thirds
+  // of what used to be one undifferentiated pile.
+  "rock", "indie rock", "alternative rock", "folk rock", "post-rock",
+  "post-punk", "punk", "metal", "psychedelic rock", "progressive rock",
+  "new wave",
+  // everything else
+  "electronic", "ambient", "pop", "hip hop", "jazz", "folk", "blues",
+  "r&b", "funk", "disco", "latin", "country", "classical", "reggae",
+];
 
-// Families MusicBrainz never tags with the broad term.
+// Merges the collection's own tagging does not support, but which are right.
+// soul and r&b share only 42 albums of 125, so nothing computed would join
+// them -- this is a judgement about the music, so it is written down as one
+// rather than buried in a threshold.
+const ALIASES = {
+  "soul": "r&b",
+  "neo soul": "r&b",
+  "contemporary r&b": "r&b",
+  "alternative r&b": "r&b",
+};
+
+// Deliberately NOT a root. "experimental" sits on 478 albums: 65% of them are
+// also electronic and 57% are also rock, and exactly 4 carry it alone. It is
+// a modifier that spans every genre, not a genre, so it is a style.
+
+// A tag attaches to the root it shares the most albums with, provided it
+// shares at least this many of its own. Below that it is nobody's style and
+// stands alone.
+const ATTACH_SHARE = 0.4;
+const MIN_TO_ATTACH = 6;        // ignore tags too rare to say anything
+
+// Families MusicBrainz never tags with the broad term, used when an album
+// carries no root at all.
 const FAMILIES = [
   ["metal", /metal|grindcore|powerviolence|sludge|doom|mathcore|screamo/i],
   ["punk", /\bpunk\b|hardcore/i],
@@ -34,41 +79,63 @@ const FAMILIES = [
 
 function buildIndex(albums) {
   const freq = new Map();
-  let withGenres = 0;
+  const pairs = new Map();          // "a\u0000b" -> albums carrying both
   for (const a of albums) {
     if (!a.genres?.length) continue;
-    withGenres++;
-    for (const g of a.genres) freq.set(g, (freq.get(g) || 0) + 1);
+    const tags = [...new Set(a.genres.map((g) => g.toLowerCase()))].sort();
+    for (const g of tags) freq.set(g, (freq.get(g) || 0) + 1);
+    for (let i = 0; i < tags.length; i++)
+      for (let j = i + 1; j < tags.length; j++) {
+        const k = `${tags[i]}\u0000${tags[j]}`;
+        pairs.set(k, (pairs.get(k) || 0) + 1);
+      }
   }
-  const n = Math.max(withGenres, 1);
-  const min = Math.max(6, Math.round(n * GENRE_MIN_SHARE));
-  const qualifies = new Set();
-  const mega = new Set();
+  const together = (a, b) =>
+    pairs.get(a < b ? `${a}\u0000${b}` : `${b}\u0000${a}`) || 0;
+
+  const roots = ROOTS.filter((r) => freq.has(r));
+  const parent = new Map();
+  for (const [g, r] of Object.entries(ALIASES)) {
+    if (freq.has(g) && roots.includes(r)) parent.set(g, r);
+  }
   for (const [g, c] of freq) {
-    if (c >= min) qualifies.add(g);
-    if (c / n > MEGA_SHARE) mega.add(g);
+    if (roots.includes(g) || parent.has(g) || c < MIN_TO_ATTACH) continue;
+    // Among the roots that qualify, take the NARROWEST -- not the one it
+    // overlaps most. "heavy metal" shares 97% of its albums with rock and 49%
+    // with metal, so picking the biggest overlap sends every metal record to
+    // rock and leaves metal a root that collects nothing. The narrowest root
+    // that still covers the tag is the one that actually describes it.
+    const fits = roots.filter((r) => r !== g && together(g, r) >= c * ATTACH_SHARE);
+    if (fits.length) {
+      parent.set(g, fits.reduce((a, b) => (freq.get(a) <= freq.get(b) ? a : b)));
+    }
   }
-  return { freq, qualifies, mega };
+  return { freq, roots: new Set(roots), parent };
 }
 
 function splitGenres(tags, index) {
   if (!tags?.length) return { genre: [], style: [] };
-  const { qualifies, mega } = index;
+  const { roots, parent } = index;
+  const lower = [...new Set(tags.map((g) => g.toLowerCase()))];
 
-  const common = tags.filter((g) => qualifies.has(g));
-  const specific = common.filter((g) => !mega.has(g));
+  // The genres are whichever roots the album actually carries.
+  let genre = lower.filter((g) => roots.has(g) && !ALIASES[g])
+    .sort((a, b) => (index.freq.get(a) || 0) - (index.freq.get(b) || 0));
 
-  let genre;
-  if (specific.length) {
-    genre = specific;
-  } else {
-    const family = FAMILIES.find(([, re]) => tags.some((t) => re.test(t)));
-    genre = family ? [family[0]] : common;
+  // An album tagged only with styles still belongs somewhere: take the roots
+  // its styles point at. A shoegaze record tagged nothing but "shoegaze,
+  // dream pop" is a rock record, and should be findable as one.
+  if (!genre.length) {
+    genre = [...new Set(lower.map((g) => parent.get(g)).filter(Boolean))];
+  }
+  // Still nothing: fall back to the family patterns.
+  if (!genre.length) {
+    const family = FAMILIES.find(([, re]) => lower.some((t) => re.test(t)));
+    if (family) genre = [family[0]];
   }
 
   const chosen = new Set(genre);
-  // A mega tag is never a style either -- it is noise in both places.
-  const style = tags.filter((g) => !chosen.has(g) && !mega.has(g));
+  const style = lower.filter((g) => !chosen.has(g));
   return { genre, style };
 }
 

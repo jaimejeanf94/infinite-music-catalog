@@ -116,6 +116,13 @@ jobs:
       # root directory is app/, so committing it redeploys it. Nothing to fetch
       # from the database at page load, and the front page is complete the
       # moment it opens.
+      # Reports only. The genre/style split needs no nightly run -- genres.js
+      # computes it in the browser from the whole collection, so a new album is
+      # classified the moment it loads. What goes stale is the fixed list of
+      # ROOTS, and whether a style has outgrown it is a judgement, not a rule.
+      - name: Check the genre roots
+        run: node scripts/genre-report.mjs
+
       - name: Choose today's five
         run: node scripts/daily-picks.mjs --force
 
