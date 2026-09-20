@@ -2773,13 +2773,6 @@
   "mb_year": "2014",
   "checked": "2026-09-19"
  },
- "King Krule::SHHHHHHHH!": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-19"
- },
  "Knocked Loose::A Tear in the Fabric of Life": {
   "status": "ok",
   "mbid": "8a8a6cbb-a0a5-42b2-9003-f385638bb63d",
@@ -5422,13 +5415,6 @@
   "genres": [],
   "tried": "2026-09-19"
  },
- "2 Many DJ's::As Heard On Radio Soulwax Pt. 2": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-19"
- },
  "2Pac::All Eyez on Me": {
   "status": "ok",
   "mbid": "e2621417-9236-36b4-9f9e-376c416dc4b0",
@@ -6447,13 +6433,6 @@
   "cover_from": "coverartarchive",
   "mb_year": "2012",
   "checked": "2026-09-19"
- },
- "Altar Plagues::Teethed Glory and Injury": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-19"
  },
  "Alvvays::Blue Rev": {
   "status": "ok",
@@ -16901,13 +16880,6 @@
   "mb_year": "2019",
   "checked": "2026-09-19"
  },
- "Daniel Pemberton::Across the Spider'verse": {
-  "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/e18d332ae96159ea6f8143dddb64ef9f/1000x1000-000000-80-0-0.jpg",
-  "cover_from": "deezer",
-  "genres": [],
-  "tried": "2026-09-19"
- },
  "Daniel Rossen::You Belong There": {
   "status": "ok",
   "mbid": "a55ff0f6-90d4-4b32-968e-3c0718a12f2c",
@@ -22161,13 +22133,6 @@
   "cover_from": "coverartarchive",
   "mb_year": "2003",
   "checked": "2026-09-19"
- },
- "Explosions In The Sky::Those Who Tell the Trush Shall Die, Those Who Truth Shall Live Forever": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-19"
  },
  "Extremity::Extremely Fucking Dead": {
   "status": "ok",
@@ -38645,10 +38610,6 @@
   "mb_year": "1969",
   "checked": "2026-09-19"
  },
- "Miles Davis::Miles Smiles": {
-  "status": "error",
-  "error": "fetch failed"
- },
  "Miles Davis::Nefertiti": {
   "status": "error",
   "error": "fetch failed"
@@ -38742,10 +38703,6 @@
   "error": "fetch failed"
  },
  "Mississippi John Hurt::Rediscovered (Mississippi John Hurt)": {
-  "status": "error",
-  "error": "fetch failed"
- },
- "Missy Elliot::Supa Dupa Fly": {
   "status": "error",
   "error": "fetch failed"
  },
@@ -39557,13 +39514,6 @@
   "cover_from": "coverartarchive",
   "mb_year": "1999",
   "checked": "2026-09-19"
- },
- "Moses in Sumney::Black in Deep Red, 2014": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-19"
  },
  "Moses Sumney::Grae": {
   "status": "ok",
@@ -64229,20 +64179,6 @@
   "mb_year": null,
   "checked": "2026-09-20"
  },
- "Varios Artistas::Brainfeeder X": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
- },
- "Various Artists::Hotline Miami": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
- },
  "Various Artists::Hotline Miami 2: Wrong Number": {
   "status": "ok",
   "mbid": "51bf5516-af54-4668-b9a4-0bb1f36661f9",
@@ -65776,13 +65712,6 @@
   "cover_from": "coverartarchive",
   "mb_year": "2024",
   "checked": "2026-09-20"
- },
- "Willson Picket::A Man And A Half: The Best of Wilson Picket": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
  },
  "Wipers::Over the Edge": {
   "status": "ok",
@@ -67777,6 +67706,170 @@
   "cover_url": "https://coverartarchive.org/release-group/6fb334a7-c230-4cab-8b64-92e21c2a284e/front-500",
   "cover_from": "coverartarchive",
   "mb_year": "2022",
+  "checked": "2026-09-20"
+ },
+ "King Krule::SHHHHHHH!": {
+  "status": "ok",
+  "mbid": "69c75c05-2ddd-425e-816a-715b88f65e92",
+  "genres": [
+   "post-punk",
+   "neo-psychedelia"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/69c75c05-2ddd-425e-816a-715b88f65e92/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2024",
+  "checked": "2026-09-20"
+ },
+ "2manydjs::As Heard on Radio Soulwax, Part 2": {
+  "status": "ok",
+  "mbid": "f818f48f-5266-313d-b70a-df88c522fe3c",
+  "genres": [
+   "electronic",
+   "rock",
+   "pop",
+   "house",
+   "electro",
+   "breakbeat",
+   "new beat"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/f818f48f-5266-313d-b70a-df88c522fe3c/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2002",
+  "checked": "2026-09-20"
+ },
+ "Altar of Plagues::Teethed Glory & Injury": {
+  "status": "ok",
+  "mbid": "6d809bf6-4d98-4509-aa3b-587dcd82d081",
+  "genres": [
+   "black metal",
+   "rock",
+   "electronic",
+   "post-rock",
+   "experimental",
+   "post-metal",
+   "atmospheric black metal",
+   "blackgaze"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/6d809bf6-4d98-4509-aa3b-587dcd82d081/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2013",
+  "checked": "2026-09-20"
+ },
+ "Daniel Pemberton::Spider‐Man: Across the Spider‐Verse": {
+  "status": "ok",
+  "mbid": "7f6b0669-a989-4fd5-94cf-2ee639ad4329",
+  "genres": [
+   "modern classical"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/7f6b0669-a989-4fd5-94cf-2ee639ad4329/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-20"
+ },
+ "Explosions in the Sky::Those Who Tell the Truth Shall Die, Those Who Tell the Truth Shall Live Forever": {
+  "status": "ok",
+  "mbid": "5e9318ae-4670-3907-8c3b-19f9bc4be886",
+  "genres": [
+   "post-rock",
+   "rock",
+   "instrumental"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/5e9318ae-4670-3907-8c3b-19f9bc4be886/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2001",
+  "checked": "2026-09-20"
+ },
+ "Miles Davis Quintet::Miles Smiles": {
+  "status": "ok",
+  "mbid": "60fa4ab0-bf92-3184-80ca-6dcadbb5c748",
+  "genres": [
+   "jazz",
+   "hard bop",
+   "post-bop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/60fa4ab0-bf92-3184-80ca-6dcadbb5c748/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1967",
+  "checked": "2026-09-20"
+ },
+ "Missy Elliott::Supa Dupa Fly": {
+  "status": "ok",
+  "mbid": "45a68d94-6923-38c1-a6dd-4cfc1cdc193a",
+  "genres": [
+   "hip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/45a68d94-6923-38c1-a6dd-4cfc1cdc193a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1997",
+  "checked": "2026-09-20"
+ },
+ "Moses Sumney::Black in Deep Red, 2014": {
+  "status": "ok",
+  "mbid": "3f3849c9-02ca-4f43-a7f5-4c75b6c24e4f",
+  "genres": [
+   "rock",
+   "pop",
+   "singer-songwriter",
+   "art rock",
+   "gospel",
+   "neo soul",
+   "neofolk",
+   "art pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/3f3849c9-02ca-4f43-a7f5-4c75b6c24e4f/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2018",
+  "checked": "2026-09-20"
+ },
+ "Various Artists::Brainfeeder X": {
+  "status": "ok",
+  "mbid": "72ced35a-ea90-4692-8e91-b595fed5c1ce",
+  "genres": [
+   "electronic",
+   "jazz",
+   "hip hop",
+   "contemporary jazz"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/72ced35a-ea90-4692-8e91-b595fed5c1ce/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2018",
+  "checked": "2026-09-20"
+ },
+ "Various Artists::Hotline Miami Soundtrack": {
+  "status": "ok",
+  "mbid": "6fc8cc23-c86d-453d-a24a-c1e4353b194f",
+  "genres": [
+   "electronic",
+   "experimental",
+   "hip hop",
+   "new beat",
+   "synthwave"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/6fc8cc23-c86d-453d-a24a-c1e4353b194f/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2012",
+  "checked": "2026-09-20"
+ },
+ "Wilson Pickett::A Man and a Half: The Best of Wilson Pickett": {
+  "status": "ok",
+  "mbid": "65217356-e817-480d-8f1c-5fdbb4c2c442",
+  "genres": [
+   "soul"
+  ],
+  "genre_source": "artist",
+  "cover_url": "https://coverartarchive.org/release-group/65217356-e817-480d-8f1c-5fdbb4c2c442/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1992",
   "checked": "2026-09-20"
  }
 }

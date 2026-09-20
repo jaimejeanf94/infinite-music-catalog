@@ -37,7 +37,40 @@ const OUT = args.find((a) => a.startsWith("--out="))?.split("=")[1] || "renames.
 const MB_GAP = 1100;                       // MusicBrainz allows one call a second
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const norm = (s) => (s || "").toLowerCase().normalize("NFKD").replace(/[^a-z0-9]/g, "");
-const digits = (s) => (String(s).match(/\d/g) || []).join("");
+// A sequence marker is the one thing distance is blind to: "Part II" is a
+// hair away from "Part One" and "Vol. 2" from "Vol. 3", but they are different
+// records. Digits alone are not enough -- Roman numerals and number words say
+// the same thing -- so all three are collected and compared as a set.
+const NUM_WORDS = {
+  one: "1", two: "2", three: "3", four: "4", five: "5", six: "6",
+  seven: "7", eight: "8", nine: "9", ten: "10",
+  first: "1", second: "2", third: "3", fourth: "4", fifth: "5",
+  i: "1", ii: "2", iii: "3", iv: "4", v: "5", vi: "6",
+  vii: "7", viii: "8", ix: "9", x: "10",
+};
+function sequenceTokens(s) {
+  const out = new Set();
+  for (const m of String(s).toLowerCase().matchAll(/[a-z]+|\d+/g)) {
+    const t = m[0];
+    if (/^\d+$/.test(t)) out.add(String(Number(t)));
+    else if (NUM_WORDS[t]) out.add(NUM_WORDS[t]);
+  }
+  return out;
+}
+const sameSequence = (a, b) => {
+  const x = sequenceTokens(a), y = sequenceTokens(b);
+  if (x.size !== y.size) return false;
+  for (const t of x) if (!y.has(t)) return false;
+  return true;
+};
+
+// Titles that share heavy boilerplate ("Original Motion Picture Soundtrack",
+// "Live at ...") score well on ratio while differing in the only part that
+// identifies the record. Compare what is left once the shared words are gone.
+const BOILERPLATE = /\b(original|motion|picture|soundtrack|score|music|from|the|a|an|of|and|deluxe|edition|remaster(ed)?|expanded|anniversary|version|ost|vol|volume|part|pt|live|at)\b/gi;
+function distinctivePart(s) {
+  return String(s).toLowerCase().replace(BOILERPLATE, " ").replace(/[^a-z0-9]+/g, " ").trim();
+}
 
 // Deliberately without enrich.mjs's `if (Math.abs(m - n) > 3) return 99` bail.
 // That guard is a speed optimisation there, but it means a title missing a
@@ -63,12 +96,27 @@ const ratio = (a, b) => {
   const x = norm(a), y = norm(b);
   if (!x || !y) return 1;
   if (x === y) return 0;
-  if (x.includes(y) || y.includes(x)) return 0.05;   // a subtitle, not a typo
+  // Containment usually means a subtitle ("Homecoming" inside "Homecoming: The
+  // Live Album"), but only when the shorter string is substantial. "Legend" is
+  // inside "Reggae Legends", and a title normalising to a single letter -- as
+  // Cyrillic does, since everything but the Latin M is stripped -- is inside
+  // almost anything. Both scored a perfect 0.05 before this floor.
+  if (x.includes(y) || y.includes(x)) {
+    const short = Math.min(x.length, y.length);
+    const long = Math.max(x.length, y.length);
+    if (short >= 6 && short / long >= 0.5) return 0.05;
+    // otherwise fall through and measure it properly
+  }
   return editDistance(x, y) / Math.max(x.length, y.length);
 };
 
+// Two bands. MAX is how far the search will look at all; TIGHT is how close a
+// suggestion has to be to go through without being read first. Between them is
+// the review pile, which is where most real corrections turn out to sit.
 const TITLE_MAX = 0.28;     // "threecheersforrevenge" -> "...sweetrevenge" is 0.19
 const ARTIST_MAX = 0.22;
+const TITLE_TIGHT = 0.16;
+const ARTIST_TIGHT = 0.16;
 
 async function mbFetch(path, tries = 3) {
   for (let i = 0; i < tries; i++) {
@@ -179,6 +227,7 @@ const targets = rows
 console.log(`${targets.length} albums with no MusicBrainz match\n`);
 
 const safe = [], review = [], nothing = [];
+let cosmetic = 0;
 
 for (const [i, a] of targets.entries()) {
   let hit = await viaArtist(a.artist, a.title);
@@ -195,9 +244,56 @@ for (const [i, a] of targets.entries()) {
       _pass: hit.pass, _titleRatio: hit.titleRatio, _artistRatio: hit.artistRatio,
       _mbid: hit.mbid,
     };
-    // A changed digit is the one thing distance is blind to.
-    const digitShift = digits(a.title) !== digits(hit.title);
-    if (digitShift) { entry._why = "digits changed — check this is the same record"; review.push(entry); }
+    // MusicBrainz credits a release-group to its primary artist, so a record
+    // the sheet lists as a collaboration comes back under one name. That is a
+    // house rule, not a correction, and applying it would delete a name the
+    // collection deliberately recorded.
+    const names = (s) => s.split(/\s*(?:&|\band\b|,|\bwith\b|\bfeat\.?\b)\s*/i)
+                          .map(norm).filter(Boolean);
+    const mine = names(a.artist), theirs = names(hit.artist);
+    const lostSomeone = mine.length > theirs.length &&
+                        mine.some((n) => !theirs.some((t) => t.includes(n) || n.includes(t)));
+
+    // "X and Y" vs "X & Y", or a straight quote against a curly one, is not a
+    // correction at all. Renaming for it costs an enrichment refetch and gains
+    // nothing, so these are dropped rather than queued for review.
+    const house = (s) => norm(s.replace(/\band\b/gi, "&"));
+    if (house(a.artist) === house(hit.artist) && house(a.title) === house(hit.title)) {
+      cosmetic++;
+      continue;
+    }
+
+    // A typo changes letters inside words. Gaining or losing a whole word
+    // changes which release it is: "Unplugged" -> "Dirt / MTV Unplugged",
+    // "Greatest Hits" -> "Greatest Hits & More". Boilerplate is ignored, so
+    // picking up "Live at" or a remaster tag does not count.
+    const words = (s) => distinctivePart(s).split(/\s+/).filter((w) => w.length >= 4);
+    const unmatched = (from, to) =>
+      from.filter((w) => !to.some((v) => ratio(w, v) <= 0.34));
+    const wA = words(a.title), wB = words(hit.title);
+    const gained = unmatched(wB, wA), lost = unmatched(wA, wB);
+
+    // Three ways a low ratio still means the wrong record.
+    const reasons = [];
+    if (gained.length || lost.length) {
+      const bits = [];
+      if (gained.length) bits.push(`gains "${gained.join(" ")}"`);
+      if (lost.length) bits.push(`loses "${lost.join(" ")}"`);
+      reasons.push(`the title ${bits.join(" and ")} — likely a different release`);
+    }
+    if (lostSomeone) reasons.push(`drops a credited artist (${mine.length} names -> ${theirs.length})`);
+    if (!sameSequence(a.title, hit.title))
+      reasons.push("sequence number changed (Pt. 2 / Vol. 3 / Part One)");
+    // The distinctive words -- what is left after the boilerplate -- have to
+    // survive too, or "Interstellar: Original Motion Picture Soundtrack"
+    // matches "Tears of the Sun: Original Motion Picture Soundtrack".
+    const dA = distinctivePart(a.title), dB = distinctivePart(hit.title);
+    if (dA && dB && ratio(dA, dB) > 0.34)
+      reasons.push("the distinctive words differ, only the boilerplate matches");
+    if (hit.titleRatio > TITLE_TIGHT || hit.artistRatio > ARTIST_TIGHT)
+      reasons.push("looser than the confident band");
+
+    if (reasons.length) { entry._why = reasons.join("; "); review.push(entry); }
     else safe.push(entry);
   }
 
@@ -212,5 +308,6 @@ console.log(`\n=== confident (${safe.length}) -> ${OUT} ===`);
 for (const e of safe) console.log(`  ${e.from.replace("::", " — ")}\n    -> ${e.to.replace("::", " — ")}   [${e._pass} pass]`);
 console.log(`\n=== needs your eyes (${review.length}) -> ${OUT.replace(/\.json$/, "-review.json")} ===`);
 for (const e of review) console.log(`  ${e.from.replace("::", " — ")}\n    -> ${e.to.replace("::", " — ")}   [${e._why}]`);
-console.log(`\n${nothing.length} genuinely not in MusicBrainz\n`);
+console.log(`\n${nothing.length} genuinely not in MusicBrainz`);
+console.log(`${cosmetic} skipped as house style ("and" vs "&", quote characters)\n`);
 console.log(`review the file, then:  node scripts/rename.mjs --file ${OUT} --refresh --dry-run`);
