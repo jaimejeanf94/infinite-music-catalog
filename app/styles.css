@@ -645,7 +645,15 @@ button, a, input, select, textarea, .tile { touch-action: manipulation; }
   font-size: 15px; line-height: 1.5; color: var(--ink-dim); max-width: 34ch;
 }
 
-.nav__a--last { margin-left: auto; }
+/* Roll is the odd one out -- not a place you browse but a thing you do -- so
+   it sits after a rule rather than reading as the third of three equal tabs.
+   margin-left:auto does nothing here: .nav is only as wide as its contents
+   inside the flex header, so there is no free space to push into. */
+.nav__a--last { margin-left: 14px; padding-left: 20px; position: relative; }
+.nav__a--last::before {
+  content: ""; position: absolute; left: 0; top: 50%;
+  transform: translateY(-50%); height: 13px; width: 1px; background: var(--line);
+}
 
 @media (max-width: 900px) {
   .masthead { grid-template-columns: 1fr; align-items: start; gap: 22px; }
