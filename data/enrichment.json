@@ -77874,13 +77874,6 @@
   "genres": [],
   "tried": "2026-09-20"
  },
- "Röyskopp::Late Night Tales (Röyskopp)": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
- },
  "schnozz::berdleycore Chapter Zero": {
   "status": "nomatch",
   "cover_url": null,
@@ -77939,13 +77932,6 @@
   "tried": "2026-09-20"
  },
  "SLUG BAIT::HALLUCINEAGENEOLOGY": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
- },
- "Staatsorchester Stuttgart / Lithuanian Chamber Orchestra / The 12 Cellists of the Berlin Philharmonic Orchestra / Dennis Russell Davies / Saulius Sondeckis / Gidon Kremer / Keith Jarrett / Tatjana Grindenko / Alfred Schnittke::Tabula rasa": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
@@ -78083,10 +78069,12 @@
    "j-pop"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/e1dd240c-7bf2-3216-82c2-5f2d5d7707a5/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e1dd240c-7bf2-3216-82c2-5f2d5d7707a5.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2003",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/e1dd240c-7bf2-3216-82c2-5f2d5d7707a5/front-500",
+  "cover_cached": "2026-09-20"
  },
  "椎名林檎 × 斎藤ネコ::平成風俗 (Heisei fūzoku)": {
   "status": "ok",
@@ -78100,6 +78088,42 @@
   "mb_year": "2007",
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release/2f9f072f-9789-457c-bf33-736e628799b1/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Röyksopp::LateNightTales: Röyksopp": {
+  "status": "ok",
+  "mbid": "252eb3bd-6a11-4faa-988a-a4244aae8aa5",
+  "genres": [
+   "pop",
+   "downtempo",
+   "rock",
+   "electronic",
+   "jazz",
+   "easy listening",
+   "synth-pop",
+   "spoken word",
+   "soft rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/252eb3bd-6a11-4faa-988a-a4244aae8aa5.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2013",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release/7f133856-4061-4d4b-a2ea-b65854cfd975/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Arvo Pärt::Tabula Rasa": {
+  "status": "ok",
+  "mbid": "21525fce-629f-393a-a34c-2f41ef78508d",
+  "genres": [
+   "classical"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/21525fce-629f-393a-a34c-2f41ef78508d.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1984",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release/bbbc9fa7-829c-31a9-a9b4-11b51ebd9ebb/front-500",
   "cover_cached": "2026-09-20"
  }
 }
