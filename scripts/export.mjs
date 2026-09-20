@@ -18,7 +18,7 @@ requireEnv();
 // the cover is but not that it was chosen by hand, so a database rebuilt
 // from this file would have every manual cover unlocked -- and the next
 // enrichment run would replace them.
-const COLUMNS = ["artist", "title", "year", "score", "in_pool", "genres", "mbid", "cover_url", "cover_locked", "notes", "source"];
+const COLUMNS = ["artist", "title", "year", "score", "genres", "mbid", "cover_url", "cover_locked", "notes", "source"];
 
 const cell = (v) => {
   if (v == null) return "";

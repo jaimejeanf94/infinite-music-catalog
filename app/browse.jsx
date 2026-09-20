@@ -16,7 +16,6 @@ function lift(id) {
   return LIFTS[(Math.imul(id, 2654435761) >>> 0) % LIFTS.length];
 }
 
-
 // Genre is what you browse by; style is what the record actually is. Clicking a
 // genre filters; a style is not a filter -- half of them sit on one album -- so
 // it runs a search instead.
@@ -222,10 +221,6 @@ function Detail({ album, owner, onPatch, onDelete, onClose, index, onGenre }) {
               </label>
 
               <div className="row">
-                <button className="btn btn--quiet"
-                        onClick={() => onPatch(album.id, { in_pool: !album.in_pool })}>
-                  {album.in_pool ? "Remove from pool" : "Back in the pool"}
-                </button>
                 <button className={"btn btn--danger" + (armed ? " btn--armed" : "")}
                         onClick={() => (armed ? onDelete(album.id) : setArmed(true))}>
                   {armed ? "Tap again to delete" : "Delete"}
@@ -443,7 +438,6 @@ function BrowseView({ albums, owner, onPatch, onAdd, onDelete, onRestore,
   const stats = React.useMemo(() => ({
     total: albums.length,
     scored: albums.filter((a) => a.score != null).length,
-    pool: albums.filter((a) => a.in_pool).length,
   }), [albums]);
 
   // Genres are computed from the collection itself -- see app/genres.js.
@@ -462,10 +456,6 @@ function BrowseView({ albums, owner, onPatch, onAdd, onDelete, onRestore,
     }
     if (filter === "unscored") out = out.filter((a) => a.score == null);
     if (filter === "scored")   out = out.filter((a) => a.score != null);
-    // No chip for this any more -- being out of the pool is a property of an
-    // album, not a way anyone wanted to browse. The URL still honours it, so
-    // an existing ?filter=out link keeps working.
-    if (filter === "out")      out = out.filter((a) => !a.in_pool);
     if (genre) out = out.filter((a) => Genres.splitGenres(a.genres, index).genre.includes(genre));
 
     const by = {
@@ -590,7 +580,6 @@ function BrowseView({ albums, owner, onPatch, onAdd, onDelete, onRestore,
               <CoverArt album={a} size={150} canPersist={owner}
                         onResolved={(id, url) => onPatch(id, { cover_url: url }, true)} />
               {a.score != null && <span className="tile__score">{a.score}</span>}
-              {!a.in_pool && <span className="tile__out" title="Out of the pool" />}
             </div>
             <div className="tile__title">{a.title}</div>
             <div className="tile__artist">{a.artist}</div>

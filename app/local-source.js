@@ -128,7 +128,6 @@ const LocalDB = {
           title,
           year: r[col.year] ? Number(r[col.year]) : null,
           score: r[col.score] ? Number(r[col.score]) : null,
-          in_pool: r[col.in_pool] !== "false",
           notes: null,
           genres: extra.genres || [],
           source: "sheet",
@@ -182,7 +181,6 @@ const LocalDB = {
       artist, title,
       year: year || null,
       score: score || null,
-      in_pool: true,
       notes: null,
       genres: [],
       cover_url: null,
@@ -243,12 +241,11 @@ const LocalDB = {
     const edits = load(LS_EDITS, {});
     const lines = Object.entries(edits)
       .filter(([key, e]) => !key.startsWith("#") &&
-                            (e.score != null || e.notes || e.in_pool === false))
+                            (e.score != null || e.notes))
       .map(([key, e]) => {
         const [artist, title] = key.split("::");
         const sets = [];
         if ("score" in e) sets.push(`score = ${e.score == null ? "null" : e.score}`);
-        if ("in_pool" in e) sets.push(`in_pool = ${e.in_pool}`);
         if (e.notes) sets.push(`notes = ${q(e.notes)}`);
         return `update albums set ${sets.join(", ")} ` +
                `where artist = ${q(artist)} and title = ${q(title)};`;

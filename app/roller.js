@@ -68,7 +68,10 @@ function pickWeighted(pool, unscoredShare, rnd) {
 function roll(albums, opts = {}) {
   const { mode = "weighted", unscoredShare = 25, avoidIds = [], rnd = secureRandom } = opts;
 
-  let pool = albums.filter((a) => a.in_pool);
+  // Every album is eligible. There used to be an in_pool flag, inherited from
+  // the spreadsheet's RSP column, which silently kept 99 albums out of every
+  // roll for reasons nobody remembered choosing.
+  let pool = albums.slice();
   if (mode === "unscored") pool = pool.filter((a) => a.score == null);
   if (!pool.length) return null;
 

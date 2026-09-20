@@ -154,7 +154,6 @@ if (problems.length) {
 // ── apply ───────────────────────────────────────────────────────────────────
 const iYear = header.indexOf("year");
 const iScore = header.indexOf("score");
-const iPool = header.indexOf("in_pool");
 const drop = new Set();
 let movedEnrichment = 0, merged = 0, dropped = 0;
 
@@ -177,9 +176,6 @@ for (const p of planned) {
     }
     if (iYear > -1 && !t[iYear].trim() && f[iYear].trim()) {
       t[iYear] = f[iYear]; notes.push(`took year ${f[iYear]}`);
-    }
-    if (iPool > -1 && (f[iPool].trim() === "false" || t[iPool].trim() === "false")) {
-      t[iPool] = "false"; notes.push("out of pool");
     }
     lines[p.intoLine] = t.map(quote).join(",");
     drop.add(p.line);

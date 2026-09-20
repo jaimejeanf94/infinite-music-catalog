@@ -150,22 +150,21 @@ and typing reaches the rest.
 ## 4. The data model
 
 ```sql
-albums    artist, title, year, score, in_pool, notes, genres, mbid,
+albums    artist, title, year, score, notes, genres, mbid,
           cover_url, cover_locked, source, deleted_at
 rolls     album_id, mode, outcome, rolled_at      -- what the randomiser served
 ```
 
 `score` is `NULL` until you rate it, and stays distinct from 100 on purpose —
 see section 7. `source` records whether an album came from the original
-spreadsheet or was added in the app. `in_pool` is the sheet's old `RSP` column:
-false means it never comes up on a roll, without being deleted.
+spreadsheet or was added in the app. 
 
 ### What overwrites what
 
 | Field | Written by | Touched by the nightly run? |
 |---|---|---|
 | artist, title, year | you | **never** |
-| score, notes, in_pool | you | **never** |
+| score, notes | you | **never** |
 | genres, mbid | enrichment | yes — refreshed |
 | cover_url | enrichment, or you | **yours is kept** (`cover_locked`) |
 | deleted_at | you | never resurrected |

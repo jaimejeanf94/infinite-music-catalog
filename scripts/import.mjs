@@ -46,7 +46,6 @@ const albums = rows.filter((r) => r[col.artist]).map((r) => {
     title: r[col.title],
     year: r[col.year] ? Number(r[col.year]) : null,
     score: r[col.score] ? Number(r[col.score]) : null,
-    in_pool: r[col.in_pool] !== "false",
     mbid: extra?.mbid || null,
     genres: extra?.genres || [],
     // A cover chosen by hand wins over anything enrichment found, and the

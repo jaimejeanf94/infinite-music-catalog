@@ -33,7 +33,6 @@ const albums = lines.map((line, i) => {
     artist: c[0], title: c[1],
     year: c[2] ? +c[2] : null,
     score: c[3] ? +c[3] : null,
-    in_pool: c[4] === "true",
   };
 });
 
@@ -51,7 +50,7 @@ function distribution(opts) {
   return hits;
 }
 
-console.log(`collection: ${albums.length} albums, ${albums.filter(a=>a.in_pool).length} in pool\n`);
+console.log(`collection: ${albums.length} albums\n`);
 
 // ── weighted ────────────────────────────────────────────────────────────────
 console.log("MODE: weighted (unscoredShare = 25%)");
@@ -61,7 +60,7 @@ for (const score of [...Object.keys(BUCKET_SHARE).map(Number), "unscored"]) {
   const got = ((hits.get(score) || 0) / N) * 100;
   const want = score === "unscored" ? 25 : (BUCKET_SHARE[score] / 100) * scoredMass;
   const members = albums.filter((a) =>
-    a.in_pool && (score === "unscored" ? a.score == null : a.score === score)).length;
+    score === "unscored" ? a.score == null : a.score === score).length;
   const ok = Math.abs(got - want) < 0.6;
   if (!ok) fail.push(`weighted ${score}: got ${got.toFixed(2)}% want ${want.toFixed(2)}%`);
   console.log(
@@ -72,7 +71,7 @@ for (const score of [...Object.keys(BUCKET_SHARE).map(Number), "unscored"]) {
 
 // A real 100 must now beat an unscored album, which was the sheet's bug.
 const per = (k) => {
-  const n = albums.filter((a) => a.in_pool && (k === "unscored" ? a.score == null : a.score === k)).length;
+  const n = albums.filter((a) => (k === "unscored" ? a.score == null : a.score === k)).length;
   return (hits.get(k) || 0) / N / n;
 };
 const edge = per(100) / per("unscored");
@@ -88,18 +87,12 @@ if (leaked.length) fail.push("unscored mode leaked scored albums");
 console.log("\nMODE: uniform — every album equally likely");
 const u = distribution({ mode: "uniform" });
 const uUnscored = ((u.get("unscored") || 0) / N) * 100;
-const uWant = (albums.filter((a) => a.in_pool && a.score == null).length /
-               albums.filter((a) => a.in_pool).length) * 100;
+const uWant = (albums.filter((a) => a.score == null).length / albums.length) * 100;
 const uOk = Math.abs(uUnscored - uWant) < 1;
 console.log(`  unscored share: got ${uUnscored.toFixed(1)}%  want ${uWant.toFixed(1)}%  ${uOk ? "ok" : "FAIL"}`);
 if (!uOk) fail.push("uniform mode is not uniform");
 
 // ── pool + repeat rules ─────────────────────────────────────────────────────
-const excluded = new Set(albums.filter((a) => !a.in_pool).map((a) => a.id));
-let escapes = 0;
-for (let i = 0; i < 20_000; i++) if (excluded.has(roll(albums, {}).id)) escapes++;
-console.log(`\nout-of-pool albums returned: ${escapes} ${escapes ? "FAIL" : "ok"}`);
-if (escapes) fail.push("roller returned albums with in_pool = false");
 
 let repeats = 0, prev = null;
 for (let i = 0; i < 20_000; i++) {

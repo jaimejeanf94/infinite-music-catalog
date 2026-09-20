@@ -21,7 +21,7 @@ async function fetchAllAlbums() {
   for (let from = 0; ; from += PAGE) {
     const { data, error } = await sb
       .from("albums")
-      .select("id, artist, title, year, score, in_pool, notes, cover_url, genres, mbid, source, cover_locked")
+      .select("id, artist, title, year, score, notes, cover_url, genres, mbid, source, cover_locked")
       .is("deleted_at", null)
       .order("artist", { ascending: true })
       .order("title", { ascending: true })
@@ -72,7 +72,7 @@ const supabaseDb = {
   async addAlbum({ artist, title, year, score }) {
     const { data, error } = await sb.from("albums")
       .insert({ artist, title, year: year || null, score: score || null, source: "app" })
-      .select("id, artist, title, year, score, in_pool, notes, cover_url, genres, mbid, source, cover_locked")
+      .select("id, artist, title, year, score, notes, cover_url, genres, mbid, source, cover_locked")
       .single();
     if (error) throw error;
     return data;
@@ -82,7 +82,7 @@ const supabaseDb = {
   async deletedAlbums() {
     const { data, error } = await sb
       .from("albums")
-      .select("id, artist, title, year, score, in_pool, notes, cover_url, genres, mbid, source, deleted_at")
+      .select("id, artist, title, year, score, notes, cover_url, genres, mbid, source, deleted_at")
       .not("deleted_at", "is", null)
       .order("deleted_at", { ascending: false });
     if (error) throw error;
@@ -128,7 +128,7 @@ const supabaseDb = {
     // a rename has to move both halves -- that is what scripts/rename.mjs is
     // for.
     const ALLOWED = ["artist", "title", "year",
-                     "score", "in_pool", "notes", "cover_url", "cover_locked"];
+                     "score", "notes", "cover_url", "cover_locked"];
     const clean = {};
     for (const k of ALLOWED) if (k in patch) clean[k] = patch[k];
     if (!Object.keys(clean).length) return;

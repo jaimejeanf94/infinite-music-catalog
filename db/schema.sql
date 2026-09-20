@@ -16,7 +16,6 @@ create table if not exists public.albums (
   -- NULL = never scored. Kept distinct from 100 on purpose: the sheet lumped
   -- them together, which diluted the real 100s down to unscored odds.
   score      int     check (score in (70, 75, 80, 85, 90, 95, 100)),
-  in_pool    boolean not null default true,   -- the sheet's RSP column
   notes      text,
   cover_url  text,
   -- MusicBrainz release-group id: the album's stable identity. Artwork and
@@ -42,7 +41,6 @@ create table if not exists public.albums (
 create unique index if not exists albums_artist_title_key
   on public.albums (lower(artist), lower(title));
 
-create index if not exists albums_pool_idx on public.albums (in_pool) where in_pool and deleted_at is null;
 -- The app's one unavoidable query is every live album in artist/title order,
 -- so the index matches it exactly. (An index on (id) would have been wasted:
 -- the primary key already has one.)
