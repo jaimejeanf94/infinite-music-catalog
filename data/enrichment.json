@@ -25,10 +25,12 @@
    "jamaican ska"
   ],
   "genre_source": "artist",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3c/c2/0d/3cc20dcc-8f4e-f060-36dd-7de52a7ec8fe/12UMGIM14712.rgb.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/11b17b07-a2eb-451a-9a36-d972ebdc98df.jpg",
   "cover_from": "itunes",
   "mb_year": "2008",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3c/c2/0d/3cc20dcc-8f4e-f060-36dd-7de52a7ec8fe/12UMGIM14712.rgb.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Bon Iver::For Emma, Forever Ago": {
   "status": "ok",
@@ -1479,10 +1481,12 @@
    "disco"
   ],
   "genre_source": "artist",
-  "cover_url": "https://coverartarchive.org/release-group/7471cf49-f3b8-4400-89de-e384a56e1d51/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7471cf49-f3b8-4400-89de-e384a56e1d51.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2016",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/7471cf49-f3b8-4400-89de-e384a56e1d51/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Laura Marling::Once I Was an Eagle": {
   "status": "ok",
@@ -1707,10 +1711,12 @@
    "piano rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/13/54/56/135456fb-4061-84ad-f75a-90ec8b0bc612/5056167114802_1.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/82c9fedb-4475-378b-b850-6e119d6b1828.jpg",
   "cover_from": "itunes",
   "mb_year": "2001",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/13/54/56/135456fb-4061-84ad-f75a-90ec8b0bc612/5056167114802_1.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Nick Cave & The Bad Seeds::Let Love In": {
   "status": "ok",
@@ -1943,10 +1949,12 @@
  },
  "파란노을 [Parannoul]::To See the Next Part of the Dream": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/a47abbc73a5db7a2b3df94c5fc721c7b/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/606afebc3bc4128e.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/a47abbc73a5db7a2b3df94c5fc721c7b/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Triángulo de Amor Bizarro::Triángulo de Amor Bizarro": {
   "status": "ok",
@@ -1956,10 +1964,12 @@
    "post-punk"
   ],
   "genre_source": "artist",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d7/c4/3f/d7c43fb1-8ed6-5ba9-7e96-2a6715502f99/199806190487.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/19e297cb-5df3-4d2a-b30c-338772aadaac.jpg",
   "cover_from": "itunes",
   "mb_year": "2025",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d7/c4/3f/d7c43fb1-8ed6-5ba9-7e96-2a6715502f99/199806190487.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Charles Mingus::Blues & Roots": {
   "status": "ok",
@@ -1978,10 +1988,12 @@
  },
  "Nelson y Los Filisteos::Nunca Antes, Nunca Otra Vez": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/ae5cabf2f03530fbcc3ca4589150035a/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/54f748e5f33fd2a2.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/ae5cabf2f03530fbcc3ca4589150035a/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Neon Indian::Vegan INTL. Night School": {
   "status": "ok",
@@ -2041,10 +2053,12 @@
    "slacker rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/4bda47b2-52a1-429f-a1e3-1549b84f11a4/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4bda47b2-52a1-429f-a1e3-1549b84f11a4.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2022",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/4bda47b2-52a1-429f-a1e3-1549b84f11a4/front-500",
+  "cover_cached": "2026-09-20"
  },
  "billy woods::GOLLIWOG": {
   "status": "ok",
@@ -2397,10 +2411,12 @@
  },
  "Les Rallizes Dénudés::'77 Live": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/9748f090fcc6d1414d997ed340aa4695/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5d3e3a46fc7c9829.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/9748f090fcc6d1414d997ed340aa4695/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Linkin Park::Meteora": {
   "status": "ok",
@@ -2689,10 +2705,12 @@
  },
  "파란노을 [Parannoul]::White Ceiling / Black Dots Wandering Around": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/a85d8364652cac6b2afd92da0c1252eb/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f20451194313027e.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/a85d8364652cac6b2afd92da0c1252eb/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "万能青年旅店 (Omnipotent Youth Society)::万能青年旅店 (Omnipotent Youth Society)": {
   "status": "nomatch",
@@ -3432,10 +3450,12 @@
    "gothic rock"
   ],
   "genre_source": "artist",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/17/46/d6/1746d67e-8617-3626-08f4-e2ef7806d74d/5400863157920_cover.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4de5cd3d-b16f-318b-b06b-ddf086fe6aaa.jpg",
   "cover_from": "itunes",
   "mb_year": "1996",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/17/46/d6/1746d67e-8617-3626-08f4-e2ef7806d74d/5400863157920_cover.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Os Mutantes::Mutantes": {
   "status": "ok",
@@ -3463,10 +3483,12 @@
    "west coast hip hop"
   ],
   "genre_source": "artist",
-  "cover_url": "https://coverartarchive.org/release-group/019d93b6-a436-411f-a970-7da7ffe67c8a/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/019d93b6-a436-411f-a970-7da7ffe67c8a.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2025",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/019d93b6-a436-411f-a970-7da7ffe67c8a/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Pavement::Terror Twilight": {
   "status": "ok",
@@ -3586,10 +3608,12 @@
    "britpop"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/06281c4d-112d-33b0-a25b-df63b420eae7/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/06281c4d-112d-33b0-a25b-df63b420eae7.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1964",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/06281c4d-112d-33b0-a25b-df63b420eae7/front-500",
+  "cover_cached": "2026-09-20"
  },
  "The Cowboy Junkies::The Trinity Session": {
   "status": "ok",
@@ -3686,10 +3710,12 @@
    "shoegaze"
   ],
   "genre_source": "artist",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/10/9e/60109ee8-6c93-6b50-df1c-492aee431205/artwork.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9dbc28a2-7393-4827-b554-f99105996030.jpg",
   "cover_from": "itunes",
   "mb_year": "2024",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/10/9e/60109ee8-6c93-6b50-df1c-492aee431205/artwork.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Tyler, The Creator::Flower Boy": {
   "status": "ok",
@@ -3849,10 +3875,12 @@
    "hard rock"
   ],
   "genre_source": "artist",
-  "cover_url": "https://coverartarchive.org/release-group/0a40e56c-a1c2-3994-876c-eface3d253af/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/0a40e56c-a1c2-3994-876c-eface3d253af.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1997",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/0a40e56c-a1c2-3994-876c-eface3d253af/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Nourished By Time::Erotic Probiotic 2": {
   "status": "ok",
@@ -4207,10 +4235,12 @@
    "house"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/53020b40-0983-4670-9f3d-7e0767910e8e/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/53020b40-0983-4670-9f3d-7e0767910e8e.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2014",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/53020b40-0983-4670-9f3d-7e0767910e8e/front-500",
+  "cover_cached": "2026-09-20"
  },
  "JPEGMAFIA::EP2!": {
   "status": "ok",
@@ -4373,10 +4403,12 @@
    "conscious hip hop"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/46a8dfa0-bb9d-4a62-a0c7-8539c3557f9b/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/46a8dfa0-bb9d-4a62-a0c7-8539c3557f9b.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2014",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/46a8dfa0-bb9d-4a62-a0c7-8539c3557f9b/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Mac Miller::Watching Movies with the Sound Off": {
   "status": "ok",
@@ -4536,10 +4568,12 @@
    "dance-pop"
   ],
   "genre_source": "artist",
-  "cover_url": "https://coverartarchive.org/release-group/1b0a39e6-f557-478e-88f0-f3b4fb11c79f/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1b0a39e6-f557-478e-88f0-f3b4fb11c79f.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2020",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/1b0a39e6-f557-478e-88f0-f3b4fb11c79f/front-500",
+  "cover_cached": "2026-09-20"
  },
  "SOPHIE::Product": {
   "status": "ok",
@@ -4588,10 +4622,12 @@
  },
  "김뜻돌 [Meaningful Stone]::꿈에서 걸려온 전화 (A Call from My Dream)": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/fcd40265a11f2d5d54c977740ff993b0/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8c7704968b77e9d7.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/fcd40265a11f2d5d54c977740ff993b0/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "The Radio Dept.::Clinging To A Scheme": {
   "status": "ok",
@@ -4670,10 +4706,12 @@
  },
  "Haru Nemuri::Lovetheism": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/e4fdd9d30a5354a8a9a766b0263e7a08/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/fde4e606795395f1.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/e4fdd9d30a5354a8a9a766b0263e7a08/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Laurie Anderson::Big Science": {
   "status": "ok",
@@ -4981,10 +5019,12 @@
    "big band"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/caf2a0e9-2cb9-4b1d-9549-5e3b7201edaf/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/caf2a0e9-2cb9-4b1d-9549-5e3b7201edaf.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1987",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/caf2a0e9-2cb9-4b1d-9549-5e3b7201edaf/front-500",
+  "cover_cached": "2026-09-20"
  },
  "John Coltrane & Milt Jackson::Bags & Trane": {
   "status": "ok",
@@ -4994,10 +5034,12 @@
    "hard bop"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/f307972b-f870-428f-bd7d-0130c913f593/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f307972b-f870-428f-bd7d-0130c913f593.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2012",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/f307972b-f870-428f-bd7d-0130c913f593/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Kelly Lee Owens::Inner Song": {
   "status": "ok",
@@ -5258,10 +5300,12 @@
    "indie rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/579b3b46-f3dc-4ff2-989c-2b2838b7b502/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/579b3b46-f3dc-4ff2-989c-2b2838b7b502.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2013",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/579b3b46-f3dc-4ff2-989c-2b2838b7b502/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Pavement::Wowee Zowee": {
   "status": "ok",
@@ -5347,10 +5391,12 @@
    "pop rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/ce50ab64-52d6-3e8e-93a4-5e6358dbc849/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ce50ab64-52d6-3e8e-93a4-5e6358dbc849.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2006",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/ce50ab64-52d6-3e8e-93a4-5e6358dbc849/front-500",
+  "cover_cached": "2026-09-20"
  },
  "The Beatles::Help!": {
   "status": "ok",
@@ -5368,10 +5414,12 @@
    "britpop"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/0d44e1cb-c6e0-3453-8b68-4d2082f05421/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/0d44e1cb-c6e0-3453-8b68-4d2082f05421.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1965",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/0d44e1cb-c6e0-3453-8b68-4d2082f05421/front-500",
+  "cover_cached": "2026-09-20"
  },
  "The Cure::Boys Don't Cry": {
   "status": "ok",
@@ -5431,17 +5479,21 @@
    "slacker rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/f07cc083-c3cb-4600-bf2e-37c6e79192cf/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f07cc083-c3cb-4600-bf2e-37c6e79192cf.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2022",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/f07cc083-c3cb-4600-bf2e-37c6e79192cf/front-500",
+  "cover_cached": "2026-09-20"
  },
  "김뜻돌 [Meaningful Stone]::천사 인터뷰 (Angel interview)": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/b8dea7491da02880c5934a3172a20650/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6155b000bce0579d.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/b8dea7491da02880c5934a3172a20650/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Elbow::Leaders Of The Free World": {
   "status": "ok",
@@ -5568,10 +5620,12 @@
    "rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/a7562b15-0ee5-35cf-b9ce-38d892475521/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a7562b15-0ee5-35cf-b9ce-38d892475521.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1997",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/a7562b15-0ee5-35cf-b9ce-38d892475521/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Wilco::Wilco (The Album)": {
   "status": "ok",
@@ -5634,10 +5688,12 @@
   "mbid": "0f5f8a23-ab47-3120-b5a5-d058990cb09b",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/0f5f8a23-ab47-3120-b5a5-d058990cb09b/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/0f5f8a23-ab47-3120-b5a5-d058990cb09b.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2002",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/0f5f8a23-ab47-3120-b5a5-d058990cb09b/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Various Artists::The Roots of Chicha: Psychedelic Cumbias From Peru": {
   "status": "ok",
@@ -5658,10 +5714,12 @@
   "mbid": "0651e6c2-d35d-3be2-b9cf-2ac5bfd276b0",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/0651e6c2-d35d-3be2-b9cf-2ac5bfd276b0/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/0651e6c2-d35d-3be2-b9cf-2ac5bfd276b0.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2000",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/0651e6c2-d35d-3be2-b9cf-2ac5bfd276b0/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Teleradio Donoso::Baila y Llorar": {
   "status": "ok",
@@ -5817,30 +5875,36 @@
   "mbid": "3fbaaa39-b361-4fca-b4da-fdf780bb8a7c",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/42/e6/af/42e6af51-8979-8523-af9c-20bbb150c3d5/8429006474325.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3fbaaa39-b361-4fca-b4da-fdf780bb8a7c.jpg",
   "cover_from": "itunes",
   "mb_year": "2019",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/42/e6/af/42e6af51-8979-8523-af9c-20bbb150c3d5/8429006474325.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Porter::Moctezuma": {
   "status": "ok",
   "mbid": "d2512801-7142-4766-a50d-2c97437d1573",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/d2512801-7142-4766-a50d-2c97437d1573/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d2512801-7142-4766-a50d-2c97437d1573.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2014",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/d2512801-7142-4766-a50d-2c97437d1573/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Enjambre::Daltónico": {
   "status": "ok",
   "mbid": "cfd698ec-6395-4d34-9cf4-9ef514062024",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/cfd698ec-6395-4d34-9cf4-9ef514062024/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/cfd698ec-6395-4d34-9cf4-9ef514062024.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2010",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/cfd698ec-6395-4d34-9cf4-9ef514062024/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Diego Lorenzini::De Algo hay que morir": {
   "status": "ok",
@@ -5862,10 +5926,12 @@
   "mbid": "3da12246-7b82-48b6-8ab3-590c4dd93d19",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/3da12246-7b82-48b6-8ab3-590c4dd93d19/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3da12246-7b82-48b6-8ab3-590c4dd93d19.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2015",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/3da12246-7b82-48b6-8ab3-590c4dd93d19/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Alex Anwandter::Rebeldes": {
   "status": "ok",
@@ -5874,10 +5940,12 @@
    "singer-songwriter"
   ],
   "genre_source": "artist",
-  "cover_url": "https://coverartarchive.org/release-group/ff0451bc-065e-4044-8dc6-d6fecdcb0b60/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ff0451bc-065e-4044-8dc6-d6fecdcb0b60.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2011",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/ff0451bc-065e-4044-8dc6-d6fecdcb0b60/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Javiera Mena::Mena": {
   "status": "ok",
@@ -5899,10 +5967,12 @@
   "mbid": "7532648e-b6c9-416c-b5c7-0b2aacb3efbe",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/7532648e-b6c9-416c-b5c7-0b2aacb3efbe/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7532648e-b6c9-416c-b5c7-0b2aacb3efbe.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2018",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/7532648e-b6c9-416c-b5c7-0b2aacb3efbe/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Demoniac::So It Goes": {
   "status": "ok",
@@ -5930,10 +6000,12 @@
   "mbid": "2242d1bd-60b3-49c0-bfb6-e2b10495522f",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/2242d1bd-60b3-49c0-bfb6-e2b10495522f/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2242d1bd-60b3-49c0-bfb6-e2b10495522f.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2025",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/2242d1bd-60b3-49c0-bfb6-e2b10495522f/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Milo J::La Vida era Más Corta": {
   "status": "ok",
@@ -5944,10 +6016,12 @@
    "trap"
   ],
   "genre_source": "artist",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f5/a6/33/f5a63325-8bd8-7e36-8850-878e2522169e/196873615486.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/89d09f6b-75c1-41da-80f5-3af6fd11415a.jpg",
   "cover_from": "itunes",
   "mb_year": "2025",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f5/a6/33/f5a63325-8bd8-7e36-8850-878e2522169e/196873615486.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Candelabro::Deseo, carne y Voluntad": {
   "status": "ok",
@@ -6052,10 +6126,12 @@
   "mbid": "f8089164-f464-47fe-b2fd-bfe67e4c07cd",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/f8089164-f464-47fe-b2fd-bfe67e4c07cd/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f8089164-f464-47fe-b2fd-bfe67e4c07cd.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2025",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/f8089164-f464-47fe-b2fd-bfe67e4c07cd/front-500",
+  "cover_cached": "2026-09-20"
  },
  "2814::新しい日の誕生": {
   "status": "ok",
@@ -6066,10 +6142,12 @@
    "dreampunk"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/4882fea1-1427-4a14-9237-afc3bca4ada4/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4882fea1-1427-4a14-9237-afc3bca4ada4.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2015",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/4882fea1-1427-4a14-9237-afc3bca4ada4/front-500",
+  "cover_cached": "2026-09-20"
  },
  "3776::歳時記 (Saijiki)": {
   "status": "nomatch",
@@ -6095,10 +6173,12 @@
  },
  "矢野顕子 [Akiko Yano]::Tadaima": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/610701e9df3b8b3b0b2d8d95af1716c9/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/06a67eeaced6b5dd.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/610701e9df3b8b3b0b2d8d95af1716c9/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "…And You Will Know Us by the Trail of Dead::Source Tags & Codes": {
   "status": "ok",
@@ -6120,10 +6200,12 @@
   "mbid": "f584b1bd-0978-45c6-b1ce-b1369869f298",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/f584b1bd-0978-45c6-b1ce-b1369869f298/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f584b1bd-0978-45c6-b1ce-b1369869f298.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2022",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/f584b1bd-0978-45c6-b1ce-b1369869f298/front-500",
+  "cover_cached": "2026-09-20"
  },
  "100 gecs::10,000 gecs": {
   "status": "ok",
@@ -6169,10 +6251,12 @@
    "breakbeat"
   ],
   "genre_source": "artist",
-  "cover_url": "https://coverartarchive.org/release-group/6bbf1523-b4ba-4ec2-bfd7-4ad100d68c3a/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6bbf1523-b4ba-4ec2-bfd7-4ad100d68c3a.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2023",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/6bbf1523-b4ba-4ec2-bfd7-4ad100d68c3a/front-500",
+  "cover_cached": "2026-09-20"
  },
  "2 Many DJ's::2X2 (2)": {
   "status": "ok",
@@ -6181,10 +6265,12 @@
    "breakbeat"
   ],
   "genre_source": "artist",
-  "cover_url": "https://coverartarchive.org/release-group/6bbf1523-b4ba-4ec2-bfd7-4ad100d68c3a/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6bbf1523-b4ba-4ec2-bfd7-4ad100d68c3a.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2023",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/6bbf1523-b4ba-4ec2-bfd7-4ad100d68c3a/front-500",
+  "cover_cached": "2026-09-20"
  },
  "2 Many DJ's::2X2 (1)": {
   "status": "ok",
@@ -6193,10 +6279,12 @@
    "breakbeat"
   ],
   "genre_source": "artist",
-  "cover_url": "https://coverartarchive.org/release-group/6bbf1523-b4ba-4ec2-bfd7-4ad100d68c3a/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6bbf1523-b4ba-4ec2-bfd7-4ad100d68c3a.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2023",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/6bbf1523-b4ba-4ec2-bfd7-4ad100d68c3a/front-500",
+  "cover_cached": "2026-09-20"
  },
  "2 Many DJ's::BENELUX": {
   "status": "nomatch",
@@ -6212,10 +6300,12 @@
    "breakbeat"
   ],
   "genre_source": "artist",
-  "cover_url": "https://coverartarchive.org/release-group/35a2667c-71d8-4190-8318-80db4278cd31/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/35a2667c-71d8-4190-8318-80db4278cd31.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2022",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/35a2667c-71d8-4190-8318-80db4278cd31/front-500",
+  "cover_cached": "2026-09-20"
  },
  "2 Many DJ's::A Tribute to Keith Forsey": {
   "status": "ok",
@@ -6236,10 +6326,12 @@
    "breakbeat"
   ],
   "genre_source": "artist",
-  "cover_url": "https://coverartarchive.org/release-group/1a960397-0f3d-4121-a53a-3b029b5ee26d/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1a960397-0f3d-4121-a53a-3b029b5ee26d.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2016",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/1a960397-0f3d-4121-a53a-3b029b5ee26d/front-500",
+  "cover_cached": "2026-09-20"
  },
  "2 Many DJ's::Hardcore Or Die": {
   "status": "nomatch",
@@ -6262,10 +6354,12 @@
    "breakbeat"
   ],
   "genre_source": "artist",
-  "cover_url": "https://coverartarchive.org/release-group/a32762d7-7a49-4c27-beec-56c8fc1c29c1/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a32762d7-7a49-4c27-beec-56c8fc1c29c1.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2011",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/a32762d7-7a49-4c27-beec-56c8fc1c29c1/front-500",
+  "cover_cached": "2026-09-20"
  },
  "2 Many DJ's::Librarian Girl": {
   "status": "ok",
@@ -6274,10 +6368,12 @@
    "breakbeat"
   ],
   "genre_source": "artist",
-  "cover_url": "https://coverartarchive.org/release-group/110943b7-91e2-448e-8366-3d7365d2bd9e/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/110943b7-91e2-448e-8366-3d7365d2bd9e.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2011",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/110943b7-91e2-448e-8366-3d7365d2bd9e/front-500",
+  "cover_cached": "2026-09-20"
  },
  "2 Many DJ's::Celestial Voyage Pt. 2": {
   "status": "ok",
@@ -6286,10 +6382,12 @@
    "breakbeat"
   ],
   "genre_source": "artist",
-  "cover_url": "https://coverartarchive.org/release-group/fd447b63-4f4a-4333-a236-3ee1ee3e3919/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/fd447b63-4f4a-4333-a236-3ee1ee3e3919.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2011",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/fd447b63-4f4a-4333-a236-3ee1ee3e3919/front-500",
+  "cover_cached": "2026-09-20"
  },
  "2 Many DJ's::Jack In the Box": {
   "status": "nomatch",
@@ -6305,10 +6403,12 @@
    "breakbeat"
   ],
   "genre_source": "artist",
-  "cover_url": "https://coverartarchive.org/release-group/68841e10-a2db-4ef1-b59b-bb9efaea4c2e/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/68841e10-a2db-4ef1-b59b-bb9efaea4c2e.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2011",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/68841e10-a2db-4ef1-b59b-bb9efaea4c2e/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Pulcinella & La Perla::Tatekieto": {
   "status": "nomatch",
@@ -6331,20 +6431,24 @@
    "breakbeat"
   ],
   "genre_source": "artist",
-  "cover_url": "https://coverartarchive.org/release-group/34411893-7a92-495b-9b0e-c224da959d88/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/34411893-7a92-495b-9b0e-c224da959d88.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2022",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/34411893-7a92-495b-9b0e-c224da959d88/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Titanic::Hagen": {
   "status": "ok",
   "mbid": "34e731e8-7102-4747-aa8c-698e6a939247",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/f3/f8/1ef3f8d7-7f19-00d2-ec4d-523250786765/199350992865.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/34e731e8-7102-4747-aa8c-698e6a939247.jpg",
   "cover_from": "itunes",
   "mb_year": "2025",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/f3/f8/1ef3f8d7-7f19-00d2-ec4d-523250786765/199350992865.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "2 Many DJ's::Under The Covers 2": {
   "status": "ok",
@@ -6353,10 +6457,12 @@
    "breakbeat"
   ],
   "genre_source": "artist",
-  "cover_url": "https://coverartarchive.org/release-group/8f6749d9-063a-4648-a6f2-93fe187d24ba/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8f6749d9-063a-4648-a6f2-93fe187d24ba.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2011",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/8f6749d9-063a-4648-a6f2-93fe187d24ba/front-500",
+  "cover_cached": "2026-09-20"
  },
  "2 Many DJ's::Under The Covers 3": {
   "status": "nomatch",
@@ -6442,10 +6548,12 @@
  },
  "Sochi::Sochimix": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/b9a48cc0b2e2e7520c8a32cefb0e2f79/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/217fd13faf01df2f.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/b9a48cc0b2e2e7520c8a32cefb0e2f79/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "A Tribe Called Quest::We Got it From Here… Thank You 4 your Services": {
   "status": "ok",
@@ -6702,10 +6810,12 @@
    "indie folk"
   ],
   "genre_source": "artist",
-  "cover_url": "https://coverartarchive.org/release-group/20e556ae-7c59-43bc-a788-e345122a389f/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/20e556ae-7c59-43bc-a788-e345122a389f.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2024",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/20e556ae-7c59-43bc-a788-e345122a389f/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Adrianne Lenker::Bright Future": {
   "status": "ok",
@@ -7101,10 +7211,12 @@
    "punk rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/d14a09a6-ad29-4cad-96a7-c9d249edab39/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d14a09a6-ad29-4cad-96a7-c9d249edab39.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2011",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/d14a09a6-ad29-4cad-96a7-c9d249edab39/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Ajj::People That Can Eat People Are The Luckiest People in the World": {
   "status": "ok",
@@ -7122,10 +7234,12 @@
    "folk"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/676033ea-5ba2-3b8c-95d4-8679cdbc0249/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/676033ea-5ba2-3b8c-95d4-8679cdbc0249.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2007",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/676033ea-5ba2-3b8c-95d4-8679cdbc0249/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Akira Yamaoka::Silent Hill 2": {
   "status": "ok",
@@ -7139,10 +7253,12 @@
    "experimental"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/96467903-beb1-36e9-abd8-2b8127a68c84/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/96467903-beb1-36e9-abd8-2b8127a68c84.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2001",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/96467903-beb1-36e9-abd8-2b8127a68c84/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Al Green::Call Me": {
   "status": "ok",
@@ -7373,10 +7489,12 @@
    "singer-songwriter"
   ],
   "genre_source": "artist",
-  "cover_url": "https://coverartarchive.org/release-group/fe26a80a-24bc-4c1b-b9d5-c4cb8ed725dc/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/fe26a80a-24bc-4c1b-b9d5-c4cb8ed725dc.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2018",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/fe26a80a-24bc-4c1b-b9d5-c4cb8ed725dc/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Alex Cameron::Miami Memory": {
   "status": "ok",
@@ -7498,10 +7616,12 @@
    "metal"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/d2f5bcb9-a6e7-3d24-b2d6-95890b188c94/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d2f5bcb9-a6e7-3d24-b2d6-95890b188c94.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1995",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/d2f5bcb9-a6e7-3d24-b2d6-95890b188c94/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Alice in Chains::Unplugged": {
   "status": "ok",
@@ -7514,10 +7634,12 @@
    "alternative metal"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/fd9e039a-0a75-3b48-b7b5-66e66bd355fe/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/fd9e039a-0a75-3b48-b7b5-66e66bd355fe.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1996",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/fd9e039a-0a75-3b48-b7b5-66e66bd355fe/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Alice in Chains::Jar Of Files": {
   "status": "ok",
@@ -8173,10 +8295,12 @@
    "smooth jazz"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/ec7cf415-28cc-39ed-83ee-85bbca46980a/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ec7cf415-28cc-39ed-83ee-85bbca46980a.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1992",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/ec7cf415-28cc-39ed-83ee-85bbca46980a/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Angelo Badalamenti::Soundtrack from Twin Peaks": {
   "status": "ok",
@@ -8424,10 +8548,12 @@
  },
  "Anri::Timely!!": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/b86d778a2614f8b253d26e49abc14c09/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b758f1d7e0063c66.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/b86d778a2614f8b253d26e49abc14c09/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Antônio Carlos Jobim::Wave": {
   "status": "ok",
@@ -8744,10 +8870,12 @@
  },
  "Arcade Fire and Owen Pallett::Her Original Motion Picture Score": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/e69e9d3be642bb4ae67e645a5f9cfd3e/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e3c273dca1ad0c2e.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/e69e9d3be642bb4ae67e645a5f9cfd3e/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Archers of Loaf::Icky Mettle": {
   "status": "ok",
@@ -9498,10 +9626,12 @@
    "pop"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/e1fbdc3d-2aa4-345d-ae0e-40bfb1552431/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e1fbdc3d-2aa4-345d-ae0e-40bfb1552431.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1999",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/e1fbdc3d-2aa4-345d-ae0e-40bfb1552431/front-500",
+  "cover_cached": "2026-09-20"
  },
  "The Chicks::Home": {
   "status": "ok",
@@ -9517,10 +9647,12 @@
    "pop rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/0cc16c89-5a02-3fb8-b10b-f6a910c475e4/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/0cc16c89-5a02-3fb8-b10b-f6a910c475e4.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2002",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/0cc16c89-5a02-3fb8-b10b-f6a910c475e4/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Ayreon::The Source": {
   "status": "ok",
@@ -9612,10 +9744,12 @@
    "hip house"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/b296b523-bd66-480f-8a8f-c6d09a09846b/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b296b523-bd66-480f-8a8f-c6d09a09846b.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2012",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/b296b523-bd66-480f-8a8f-c6d09a09846b/front-500",
+  "cover_cached": "2026-09-20"
  },
  "B.B. King::Live at Thhe Regal": {
   "status": "ok",
@@ -9777,10 +9911,12 @@
    "jazz"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/440f6881-3dac-4708-b475-c1c12b68222a/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/440f6881-3dac-4708-b475-c1c12b68222a.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2017",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/440f6881-3dac-4708-b475-c1c12b68222a/front-500",
+  "cover_cached": "2026-09-20"
  },
  "BADBADNOTGOOD::III": {
   "status": "ok",
@@ -10355,10 +10491,12 @@
  },
  "Beastie Boys::Beastie Boys Anthology: The Sounds of Science": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/22fd1ee592234a8ca1e46ba56c1d3be1/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/01453a88b28ca513.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/22fd1ee592234a8ca1e46ba56c1d3be1/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Beastie Boys::Hello Nasty": {
   "status": "ok",
@@ -10801,10 +10939,12 @@
    "twee pop"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/8ad0c295-a1f4-3bd2-8abb-3659320c062e/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8ad0c295-a1f4-3bd2-8abb-3659320c062e.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2003",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/8ad0c295-a1f4-3bd2-8abb-3659320c062e/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Belle and Sebastian::The Boy with the Arab Strap": {
   "status": "ok",
@@ -10817,10 +10957,12 @@
    "dance-pop"
   ],
   "genre_source": "artist",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/2f/98/b0/2f98b0a0-2c61-8f13-3f70-30a6fa602862/744861031161.png/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1c90a953-e643-4ed2-830d-7e3dda6964eb.jpg",
   "cover_from": "itunes",
   "mb_year": "2020",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/2f/98/b0/2f98b0a0-2c61-8f13-3f70-30a6fa602862/744861031161.png/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Belle and Sebastian::Dog on Wheels": {
   "status": "ok",
@@ -10903,10 +11045,12 @@
    "garage rock revival"
   ],
   "genre_source": "artist",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c6/63/92/c66392e7-4d27-7f5f-1622-849157d88b31/198846349404.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d5758b2e-22ee-4bd8-b1ab-0536db797eee.jpg",
   "cover_from": "itunes",
   "mb_year": "2025",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c6/63/92/c66392e7-4d27-7f5f-1622-849157d88b31/198846349404.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Benjamine Clementine::At Least for Now": {
   "status": "ok",
@@ -10971,10 +11115,12 @@
    "rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/0c92c124-d1ee-479b-a886-c98258d36a7d/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/0c92c124-d1ee-479b-a886-c98258d36a7d.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2020",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/0c92c124-d1ee-479b-a886-c98258d36a7d/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Betcover!!::Yuki": {
   "status": "nomatch",
@@ -11147,10 +11293,12 @@
    "contemporary r&b"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/a32fb3f5-0c38-47cc-980c-44cc181c52de/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a32fb3f5-0c38-47cc-980c-44cc181c52de.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2019",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/a32fb3f5-0c38-47cc-980c-44cc181c52de/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Beyoncé::Lemonade": {
   "status": "ok",
@@ -11611,10 +11759,12 @@
    "ballad"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/4a8f66b9-2ebf-3ebf-bd5e-ad19386e76c0/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4a8f66b9-2ebf-3ebf-bd5e-ad19386e76c0.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1985",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/4a8f66b9-2ebf-3ebf-bd5e-ad19386e76c0/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Billy Joel::Greatest Hits: Volume II": {
   "status": "ok",
@@ -12594,10 +12744,12 @@
    "disco"
   ],
   "genre_source": "release",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/86/21/c4/8621c47c-19a2-ebca-a63a-45ae7017556f/14ULAIM00403.rgb.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8a5305ce-eef7-3257-b780-865deff919a1.jpg",
   "cover_from": "itunes",
   "mb_year": "1981",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/86/21/c4/8621c47c-19a2-ebca-a63a-45ae7017556f/14ULAIM00403.rgb.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Blondie::Eat to the Beat": {
   "status": "ok",
@@ -12838,10 +12990,12 @@
  },
  "Blur::The Best of Blur": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/1e6f6130ca0ccbdd0cde4dc2b05e6df9/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9774dc580f7c3d8f.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/1e6f6130ca0ccbdd0cde4dc2b05e6df9/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Blur::13": {
   "status": "ok",
@@ -13020,10 +13174,12 @@
    "hauntology"
   ],
   "genre_source": "artist",
-  "cover_url": "https://coverartarchive.org/release-group/1ed7559d-53a9-4513-8ee6-5c05bb0e725b/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1ed7559d-53a9-4513-8ee6-5c05bb0e725b.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2019",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/1ed7559d-53a9-4513-8ee6-5c05bb0e725b/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Boards Of Canada::Tomorrow's Harvest": {
   "status": "ok",
@@ -13048,10 +13204,12 @@
   "mbid": "646bff72-4c97-455a-a63e-930900bf32e7",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/fe/5d/d0/fe5dd0ed-79cf-e694-c454-26a585d3f548/dj.vfvsmugd.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/646bff72-4c97-455a-a63e-930900bf32e7.jpg",
   "cover_from": "itunes",
   "mb_year": "2005",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/fe/5d/d0/fe5dd0ed-79cf-e694-c454-26a585d3f548/dj.vfvsmugd.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Boards Of Canada::Geogaddi": {
   "status": "ok",
@@ -13192,10 +13350,12 @@
    "folk"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/634c723f-d20c-3033-9de0-95c409ec05a2/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/634c723f-d20c-3033-9de0-95c409ec05a2.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1967",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/634c723f-d20c-3033-9de0-95c409ec05a2/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Bob Dylan::Desire": {
   "status": "ok",
@@ -13249,10 +13409,12 @@
    "folk"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/634c723f-d20c-3033-9de0-95c409ec05a2/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/634c723f-d20c-3033-9de0-95c409ec05a2.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1967",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/634c723f-d20c-3033-9de0-95c409ec05a2/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Bob Dylan::John Wesley Harding": {
   "status": "ok",
@@ -13709,10 +13871,12 @@
    "noise rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/bcd1d972-2d7e-39d1-b802-b975b9f6c363/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/bcd1d972-2d7e-39d1-b802-b975b9f6c363.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2002",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/bcd1d972-2d7e-39d1-b802-b975b9f6c363/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Boris::Amplifier Worship": {
   "status": "ok",
@@ -15542,10 +15706,12 @@
    "instrumental rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/a2fa8db6-17b4-34da-88f6-a8204be451e3/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a2fa8db6-17b4-34da-88f6-a8204be451e3.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1975",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/a2fa8db6-17b4-34da-88f6-a8204be451e3/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Camel::Mirage": {
   "status": "ok",
@@ -16126,10 +16292,12 @@
    "progressive rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/98db9f50-f730-3c22-a20a-0c9fbb434cd5/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/98db9f50-f730-3c22-a20a-0c9fbb434cd5.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1979",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/98db9f50-f730-3c22-a20a-0c9fbb434cd5/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Cat Power::Moon Pix": {
   "status": "ok",
@@ -16264,10 +16432,12 @@
    "free improvisation"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/d83fa8fe-437b-47ae-901f-57147d4bc867/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d83fa8fe-437b-47ae-901f-57147d4bc867.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1963",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/d83fa8fe-437b-47ae-901f-57147d4bc867/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Celtic Frost::Monotheist": {
   "status": "ok",
@@ -17180,10 +17350,12 @@
   "mbid": "4f89254d-ad32-4f12-b7b6-7ab14e80218d",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/7f/58/fc/7f58fc51-81fa-5ce2-94ab-2e6b647d481c/5054526401457_1.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4f89254d-ad32-4f12-b7b6-7ab14e80218d.jpg",
   "cover_from": "itunes",
   "mb_year": "2018",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/7f/58/fc/7f58fc51-81fa-5ce2-94ab-2e6b647d481c/5054526401457_1.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Clarence Clarity::NO NOW": {
   "status": "ok",
@@ -17348,10 +17520,12 @@
   "mbid": "0e6efbcd-710c-4e40-9c5d-345a4af20fc1",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/0e6efbcd-710c-4e40-9c5d-345a4af20fc1/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/0e6efbcd-710c-4e40-9c5d-345a4af20fc1.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2014",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/0e6efbcd-710c-4e40-9c5d-345a4af20fc1/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Cloud Nothings::Here and Nowhere Else": {
   "status": "ok",
@@ -18127,10 +18301,12 @@
   "mbid": "a5d5028c-dbd2-4613-b40b-4b537b832cd6",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/a5d5028c-dbd2-4613-b40b-4b537b832cd6/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a5d5028c-dbd2-4613-b40b-4b537b832cd6.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2026",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/a5d5028c-dbd2-4613-b40b-4b537b832cd6/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Converge::Petitioning the Empty Sky": {
   "status": "ok",
@@ -18186,10 +18362,12 @@
  },
  "IDK::e.t.d.s": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/fee3aa1ca1d680385cc2b93ad9d7e4f4/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/21be7dd3922c7c0a.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/fee3aa1ca1d680385cc2b93ad9d7e4f4/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Converge::Love Is Not Enough": {
   "status": "ok",
@@ -18239,10 +18417,12 @@
  },
  "Corea::Los peores 7 km de mi vida": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/a76ed3b0f09cc6a15e5a6e6603634b54/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/55034ad17db83cea.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/a76ed3b0f09cc6a15e5a6e6603634b54/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Cornelius::Point": {
   "status": "ok",
@@ -18468,10 +18648,12 @@
    "swamp rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/387d6c56-fa1c-3990-b4ba-24482ab714a9/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/387d6c56-fa1c-3990-b4ba-24482ab714a9.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1986",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/387d6c56-fa1c-3990-b4ba-24482ab714a9/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Creedence Clearwater Revival::Cosmo's Factory": {
   "status": "ok",
@@ -20042,10 +20224,12 @@
    "electronic"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/1a3b20ad-34e8-3ad7-9fe5-bafdd473ad27/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1a3b20ad-34e8-3ad7-9fe5-bafdd473ad27.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1995",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/1a3b20ad-34e8-3ad7-9fe5-bafdd473ad27/front-500",
+  "cover_cached": "2026-09-20"
  },
  "De La Soul::The Grind Date": {
   "status": "ok",
@@ -20687,10 +20871,12 @@
    "experimental hip hop"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/2bb37665-1595-433d-8288-0d09cf6492c5/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2bb37665-1595-433d-8288-0d09cf6492c5.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2017",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/2bb37665-1595-433d-8288-0d09cf6492c5/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Death Grips::Bottomless Pit": {
   "status": "ok",
@@ -20717,10 +20903,12 @@
  },
  "Death Grips::Jenny Death": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/5161fcb913384cf32e52a253df53d0aa/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b8e1c93c1cd8c84e.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/5161fcb913384cf32e52a253df53d0aa/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Death Grips::The Powers That B": {
   "status": "ok",
@@ -22541,10 +22729,12 @@
   "mbid": "210277c2-7e38-4862-9e30-ac69de22ecc9",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/210277c2-7e38-4862-9e30-ac69de22ecc9/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/210277c2-7e38-4862-9e30-ac69de22ecc9.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1994",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/210277c2-7e38-4862-9e30-ac69de22ecc9/front-500",
+  "cover_cached": "2026-09-20"
  },
  "DJ Koze::Knock Knock": {
   "status": "ok",
@@ -22628,10 +22818,12 @@
    "southern hip hop"
   ],
   "genre_source": "artist",
-  "cover_url": "https://coverartarchive.org/release-group/d0c54183-ff41-43f6-8721-2b7c9c446c5b/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d0c54183-ff41-43f6-8721-2b7c9c446c5b.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1994",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/d0c54183-ff41-43f6-8721-2b7c9c446c5b/front-500",
+  "cover_cached": "2026-09-20"
  },
  "DJ Screw::3 'n the Morning: Part II [Blue]": {
   "status": "nomatch",
@@ -22764,10 +22956,12 @@
  },
  "Djeli Moussa Diawara::Djeli Moussa Diawara": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/b5e58b0ee29786fd98ea929e5e8edafa/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2952dca12e763f34.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/b5e58b0ee29786fd98ea929e5e8edafa/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Djo::Twenty Twenty": {
   "status": "ok",
@@ -23012,10 +23206,12 @@
   "mbid": "4f79f512-5793-48c7-9d9f-d1d6085e3b10",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/4f79f512-5793-48c7-9d9f-d1d6085e3b10/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4f79f512-5793-48c7-9d9f-d1d6085e3b10.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2020",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/4f79f512-5793-48c7-9d9f-d1d6085e3b10/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Down::NOLA": {
   "status": "ok",
@@ -23756,10 +23952,12 @@
    "acoustic rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/9fbbb26b-282f-36aa-9170-4b41e5fb73ef/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9fbbb26b-282f-36aa-9170-4b41e5fb73ef.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2007",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/9fbbb26b-282f-36aa-9170-4b41e5fb73ef/front-500",
+  "cover_cached": "2026-09-20"
  },
  "EDEN::End Credits": {
   "status": "ok",
@@ -25245,10 +25443,12 @@
   "mbid": "c2c6d4dd-c199-4cb9-962d-393a83e93d73",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/29/d8/c3/29d8c39e-9c9f-f4a4-7a91-ef1f2a43b77e/656605513263.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c2c6d4dd-c199-4cb9-962d-393a83e93d73.jpg",
   "cover_from": "itunes",
   "mb_year": "2014",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/29/d8/c3/29d8c39e-9c9f-f4a4-7a91-ef1f2a43b77e/656605513263.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "EXO::THE WAR": {
   "status": "ok",
@@ -26159,10 +26359,12 @@
  },
  "Fishmans::98.12.28 Otokotachi no Wakare": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/8e9aff8ee1ad2f731e0e58b922bff370/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/960260b0313ed071.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/8e9aff8ee1ad2f731e0e58b922bff370/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Fishmans::Long Season": {
   "status": "ok",
@@ -26328,10 +26530,12 @@
   "mbid": "49d67aa6-ed0e-4119-824e-11695f3021fd",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/49d67aa6-ed0e-4119-824e-11695f3021fd/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/49d67aa6-ed0e-4119-824e-11695f3021fd.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2013",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/49d67aa6-ed0e-4119-824e-11695f3021fd/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Fleet Foxes::Shore": {
   "status": "ok",
@@ -26455,10 +26659,12 @@
    "classic rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/d84bfe53-d7e6-326b-b639-e5c3951caa06/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d84bfe53-d7e6-326b-b639-e5c3951caa06.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1988",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/d84bfe53-d7e6-326b-b639-e5c3951caa06/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Fleetwood Mac::Tango in the Night": {
   "status": "ok",
@@ -27124,10 +27330,12 @@
    "jazz fusion"
   ],
   "genre_source": "artist",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/0c/ac/82/0cac82b1-7dcb-510a-764f-91ddfb74e228/12UMGIM15429.rgb.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/bc217ea7-ec6b-31ee-92ef-9479c8285824.jpg",
   "cover_from": "itunes",
   "mb_year": null,
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/0c/ac/82/0cac82b1-7dcb-510a-764f-91ddfb74e228/12UMGIM15429.rgb.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Frank Zappa::Hot Rats": {
   "status": "ok",
@@ -27883,10 +28091,12 @@
   "mbid": "8f479911-a612-4a49-9f4c-d0e0f51d5883",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/8f479911-a612-4a49-9f4c-d0e0f51d5883/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8f479911-a612-4a49-9f4c-d0e0f51d5883.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2024",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/8f479911-a612-4a49-9f4c-d0e0f51d5883/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Garbage::Garbage 2.0": {
   "status": "ok",
@@ -28855,10 +29065,12 @@
  },
  "Jai Paul::Leak 04-13 (Bait Ones)": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/37d2d702e8b11eb599ba364974353094/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7787bf5a0e962aae.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/37d2d702e8b11eb599ba364974353094/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Girls::Album": {
   "status": "ok",
@@ -28936,10 +29148,12 @@
    "electronic"
   ],
   "genre_source": "release",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/39/f4/4d/39f44da7-0719-8dce-e364-638e65de8f3e/mzi.cqhmbaoe.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/69725b29-bd6f-38b1-aedc-88ef233ed8a0.jpg",
   "cover_from": "itunes",
   "mb_year": "1977",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/39/f4/4d/39f44da7-0719-8dce-e364-638e65de8f3e/mzi.cqhmbaoe.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "EMA::Past Life Martyred Saints": {
   "status": "ok",
@@ -29215,10 +29429,12 @@
  },
  "Gorillaz::Song Machine, Season 1": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/8b059917e2f6d500cffb7dce368c72b7/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/764b41f500dd3c14.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/8b059917e2f6d500cffb7dce368c72b7/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Gorillaz::Plastic beach": {
   "status": "ok",
@@ -29510,13 +29726,6 @@
   "checked": "2026-09-19",
   "cover_source_url": "https://coverartarchive.org/release-group/d6f1ef7d-64e1-39fc-be5b-f2d57afa3a45/front-500",
   "cover_cached": "2026-09-20"
- },
- "Gravest Hits::The Cramps": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
  },
  "Green Day::American Idiot": {
   "status": "ok",
@@ -30297,10 +30506,12 @@
   "mbid": "8ee45ff6-b46c-4693-add2-69c3411135de",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dd/1d/78/dd1d783c-bc19-beb4-17e9-ceaf4403aa6a/886445726510.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8ee45ff6-b46c-4693-add2-69c3411135de.jpg",
   "cover_from": "itunes",
   "mb_year": "2016",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dd/1d/78/dd1d783c-bc19-beb4-17e9-ceaf4403aa6a/886445726510.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "miffle::Goodbye, World!": {
   "status": "ok",
@@ -30427,10 +30638,12 @@
    "modern classical"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/4513c7b9-854e-457f-81d6-3dbeb001beb8/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4513c7b9-854e-457f-81d6-3dbeb001beb8.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2014",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/4513c7b9-854e-457f-81d6-3dbeb001beb8/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Happy Mondays::Pills n' Thrills and Bellyaches": {
   "status": "ok",
@@ -30461,10 +30674,12 @@
    "folk rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/8c304a5d-5e3d-4ecd-8343-a3a3b4a7e9d4/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8c304a5d-5e3d-4ecd-8343-a3a3b4a7e9d4.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2001",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/8c304a5d-5e3d-4ecd-8343-a3a3b4a7e9d4/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Harold Budd::The Pavilion of Dreams": {
   "status": "ok",
@@ -30503,17 +30718,12 @@
  },
  "Haru Nemuri::Harutosyura": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/e4fdd9d30a5354a8a9a766b0263e7a08/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d3dbb1bdd2c208da.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
- },
- "Hatred for Mankind::Dragged Into Sunlight": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/e4fdd9d30a5354a8a9a766b0263e7a08/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Helado Negro::Phasor": {
   "status": "ok",
@@ -30906,10 +31116,12 @@
  },
  "Himiko Kikuchi::Flying Beagle": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/753119529fba74573b70d6a840aec9ad/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/35094bb66ad4123f.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/753119529fba74573b70d6a840aec9ad/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Hirokazu Tanaka & Keiichi Suzuki::Mother 2: ギーグの逆襲": {
   "status": "nomatch",
@@ -30920,17 +31132,21 @@
  },
  "Hiroshi Yoshimura::Music For Nine Post Cards": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/2c4b23512a00a9b5d6d40931c2ad0687/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e219e2b35ac44e7a.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/2c4b23512a00a9b5d6d40931c2ad0687/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Hiroshi Yoshimura::Green": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/a6f36deea5c6789e17c85fba36a634e6/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a3df331ec76d3423.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/a6f36deea5c6789e17c85fba36a634e6/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "HMLTD::West of Eden": {
   "status": "ok",
@@ -30954,10 +31170,12 @@
   "mbid": "d2e7ec41-086f-4b7b-9aab-0c80f1d90315",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/d2e7ec41-086f-4b7b-9aab-0c80f1d90315/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d2e7ec41-086f-4b7b-9aab-0c80f1d90315.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2018",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/d2e7ec41-086f-4b7b-9aab-0c80f1d90315/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Hobo Johnson::The Fall of Hobo Johnson": {
   "status": "ok",
@@ -32835,10 +33053,12 @@
    "trance"
   ],
   "genre_source": "release",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/83/0a/d6/830ad642-ee0d-e435-9f2b-608b014d67c6/EQGCD008S.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/cd6073bf-c804-3d33-9e43-ddd7a0f5b498.jpg",
   "cover_from": "itunes",
   "mb_year": "2003",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/83/0a/d6/830ad642-ee0d-e435-9f2b-608b014d67c6/EQGCD008S.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Jamila Woods::LEGACY! LEGACY!": {
   "status": "ok",
@@ -34163,10 +34383,12 @@
    "bebop"
   ],
   "genre_source": "artist",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9252bc85-5be5-4e05-ac2d-d667365eb0f6.jpg",
+  "cover_from": "deezer",
   "mb_year": "1989",
-  "checked": "2026-09-19"
+  "checked": "2026-09-19",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/f75a005d8f7d647629c984549b034456/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Jockstrap::I Love You Jennifer B": {
   "status": "ok",
@@ -34914,10 +35136,12 @@
   "mbid": "3be81d98-8e18-4cd6-8f7c-e8d0a1f75f5b",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/3be81d98-8e18-4cd6-8f7c-e8d0a1f75f5b/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3be81d98-8e18-4cd6-8f7c-e8d0a1f75f5b.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2009",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/3be81d98-8e18-4cd6-8f7c-e8d0a1f75f5b/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Jorge Ben::Africa Brasil": {
   "status": "ok",
@@ -35243,10 +35467,12 @@
   "mbid": "ddaecd8e-a582-47ab-b3ed-2f68ad233132",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2005/m03/d29/h07/s05.ixefuset.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ddaecd8e-a582-47ab-b3ed-2f68ad233132.jpg",
   "cover_from": "itunes",
   "mb_year": "2026",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2005/m03/d29/h07/s05.ixefuset.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Judas Priest::Painkiller": {
   "status": "ok",
@@ -35689,10 +35915,12 @@
    "musical"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/edb38144-d429-4582-9176-e972e7807525/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/edb38144-d429-4582-9176-e972e7807525.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2016",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/edb38144-d429-4582-9176-e972e7807525/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Justin Timberlake::FutureSex/LoveSounds": {
   "status": "ok",
@@ -36910,10 +37138,12 @@
  },
  "Kinoko Teikoku::eureka": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/1c8352a9fde32e9e019969032a07a603/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/83e1c6f51c87a983.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/1c8352a9fde32e9e019969032a07a603/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Kirin J Calinan::Bravado": {
   "status": "ok",
@@ -37011,10 +37241,12 @@
    "modern classical"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/eb30a8cf-587d-4737-81ab-0be91b7c31ab/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/eb30a8cf-587d-4737-81ab-0be91b7c31ab.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1998",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/eb30a8cf-587d-4737-81ab-0be91b7c31ab/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Koji Kondo 近藤浩治::ゼルダの伝説: ムジュラの仮面 (The Legend of Zelda: Majora's Mask)": {
   "status": "nomatch",
@@ -37295,10 +37527,12 @@
  },
  "Kyle Dixon & Michael Stein::Stranger Things, Vol 1": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/0c3b635d809633aaaa76c88eedca9090/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1976d36eb1fc9a43.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/0c3b635d809633aaaa76c88eedca9090/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Kyuss::Welcome to SKy Valley": {
   "status": "ok",
@@ -37538,10 +37772,12 @@
  },
  "Lamp::Lamp Genso": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/7072c41c8a9c6d6557d57f5670e9a154/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/dc22d53529f61e32.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/7072c41c8a9c6d6557d57f5670e9a154/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Lamp::恋人へ [For Lovers]": {
   "status": "nomatch",
@@ -38132,10 +38368,12 @@
    "chiptune"
   ],
   "genre_source": "release",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/87/af/6a/87af6a5a-af86-974e-67d6-14d57550a0ee/840093227690.png/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/0c257a36-4a59-4bc8-b19d-e8e7cf0969ab.jpg",
   "cover_from": "itunes",
   "mb_year": "2018",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/87/af/6a/87af6a5a-af86-974e-67d6-14d57550a0ee/840093227690.png/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Leo Kottke::6 & 12 Strings": {
   "status": "nomatch",
@@ -38871,10 +39109,12 @@
  },
  "Lily Chou-Chou::呼吸 (Kokyuu)": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/fc19a0767a4b2e13c885b8e596787f90/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/868ea8478b4e4370.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/fc19a0767a4b2e13c885b8e596787f90/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Linda Perhacs::Parallelograms": {
   "status": "ok",
@@ -39047,10 +39287,12 @@
    "rock and roll"
   ],
   "genre_source": "release",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a6/8b/65/a68b657c-cac6-68e6-3bde-b79d58fbc795/18UMGIM30762.rgb.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f2e0599e-222b-37a5-8544-2f68ce65fd66.jpg",
   "cover_from": "itunes",
   "mb_year": "1973",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a6/8b/65/a68b657c-cac6-68e6-3bde-b79d58fbc795/18UMGIM30762.rgb.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Underworld::1992-2012": {
   "status": "ok",
@@ -39134,10 +39376,12 @@
    "rock and roll"
   ],
   "genre_source": "release",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/2a/4a/e6/2a4ae63d-ada7-fa57-6f16-02eebcf72f95/18UMGIM29770.rgb.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5bb120e2-fe76-33cc-a4bb-8f56f2fd3d67.jpg",
   "cover_from": "itunes",
   "mb_year": "1973",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/2a/4a/e6/2a4ae63d-ada7-fa57-6f16-02eebcf72f95/18UMGIM29770.rgb.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "ABBA::Gold: Greatest Hits": {
   "status": "ok",
@@ -39365,10 +39609,12 @@
   "mbid": "d2bfe2a5-0b0d-4ad2-9aa6-c281b8f93d88",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/d2bfe2a5-0b0d-4ad2-9aa6-c281b8f93d88/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d2bfe2a5-0b0d-4ad2-9aa6-c281b8f93d88.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2013",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/d2bfe2a5-0b0d-4ad2-9aa6-c281b8f93d88/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Little Simz::NO THANK YOU": {
   "status": "ok",
@@ -39765,10 +40011,12 @@
   "mbid": "b4b63a35-2735-4a49-ba0b-d08738402d28",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/b4b63a35-2735-4a49-ba0b-d08738402d28/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b4b63a35-2735-4a49-ba0b-d08738402d28.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2020",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/b4b63a35-2735-4a49-ba0b-d08738402d28/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Los Espíritus::Aguardiante": {
   "status": "ok",
@@ -39859,10 +40107,12 @@
  },
  "Los Mundos::Las Montañas": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/895d18c4c7a734dd69b6b411bb33bcdb/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2ddf8c3a777efe5b.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/895d18c4c7a734dd69b6b411bb33bcdb/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Los Prisioneros::Corazones": {
   "status": "ok",
@@ -41799,24 +42049,30 @@
  },
  "Masayoshi Takanaka::Brasilian Skies": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/0245da6981524b45f615257ff8fbf36b/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/61ccacd891d282c2.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/0245da6981524b45f615257ff8fbf36b/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Masayoshi Takanaka::Seychelles": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/e7c6ff089705392c21f509aa3a3f0aee/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e9d45a2a8f0c98af.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/e7c6ff089705392c21f509aa3a3f0aee/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "MASS OF THE FERMENTING DREGS::World is yours": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/c595214ee53a87d0bf1ead263c8a1b4c/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/169baedc6a5cf401.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/c595214ee53a87d0bf1ead263c8a1b4c/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "MASS OF THE FERMENTING DREGS::MASS OF THE FERMENTING DREGS": {
   "status": "ok",
@@ -43723,10 +43979,12 @@
    "jazz fusion"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/0ecf90fb-59ad-3194-b96b-57ad00e8bf1e/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/0ecf90fb-59ad-3194-b96b-57ad00e8bf1e.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1971",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/0ecf90fb-59ad-3194-b96b-57ad00e8bf1e/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Miles Davis::Live-Evil": {
   "status": "ok",
@@ -44081,10 +44339,12 @@
    "punk rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/f0f25426-1907-48f2-9535-d16ef101e46b/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f0f25426-1907-48f2-9535-d16ef101e46b.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1986",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/f0f25426-1907-48f2-9535-d16ef101e46b/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Misfits::Beware": {
   "status": "ok",
@@ -44731,10 +44991,12 @@
  },
  "Momoko Kikuchi::Adventure": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/cac30c43c6a5c79bfad41ee765a3f3e4/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2da86975246ff5c8.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/cac30c43c6a5c79bfad41ee765a3f3e4/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Mon Laferte::Autopoiética": {
   "status": "ok",
@@ -45701,10 +45963,12 @@
    "grindcore"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/87e1dff5-3fd9-348b-8caa-ab5902fcdcfb/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/87e1dff5-3fd9-348b-8caa-ab5902fcdcfb.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2002",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/87e1dff5-3fd9-348b-8caa-ab5902fcdcfb/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Nala Sinephro::Endlessness": {
   "status": "ok",
@@ -45822,10 +46086,12 @@
  },
  "Natalia Lafourcade::Musas, Vol. 2": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/33890a570347f588b0a5d31480fc1d6c/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/179229bca6a2da81.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/33890a570347f588b0a5d31480fc1d6c/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Natalia Lafourcade::Musas": {
   "status": "ok",
@@ -47618,10 +47884,12 @@
    "chiptune"
   ],
   "genre_source": "artist",
-  "cover_url": "https://coverartarchive.org/release-group/7af34f1f-7c6f-4357-99e9-4b8e77818dc5/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7af34f1f-7c6f-4357-99e9-4b8e77818dc5.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2020",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/7af34f1f-7c6f-4357-99e9-4b8e77818dc5/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Nobuo Uematsu 植松伸夫::ファイナルファンタジーVI (Final Fantasy VI)": {
   "status": "ok",
@@ -47633,10 +47901,12 @@
    "electro"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/e24ed909-7757-38c4-822d-339dd19491b4/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e24ed909-7757-38c4-822d-339dd19491b4.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2000",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/e24ed909-7757-38c4-822d-339dd19491b4/front-500",
+  "cover_cached": "2026-09-20"
  },
  "NOFX::Punk In Drublic": {
   "status": "ok",
@@ -48131,13 +48401,6 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/78ef4b4c-b9f5-336b-a123-aef92c12e1ae/front-500",
   "cover_cached": "2026-09-20"
- },
- "Oktubre::Patricio Rey y sus Redonditos de Ricota": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
  },
  "Ol' Dirty Bastard::Return to the 36 Chambers: Dirty Version": {
   "status": "ok",
@@ -50632,10 +50895,12 @@
  },
  "Pink Floyd::The Piper Gates of Dawn": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/2ce3a33d1659ce59bccc5083a7fdf7c6/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7092a766c72406e7.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/2ce3a33d1659ce59bccc5083a7fdf7c6/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Pink Silfu'::GUMBO!": {
   "status": "ok",
@@ -51011,10 +51276,12 @@
    "country"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/8999013f-68e7-33bb-be0b-cdb8e39cb6c9/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8999013f-68e7-33bb-be0b-cdb8e39cb6c9.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2004",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/8999013f-68e7-33bb-be0b-cdb8e39cb6c9/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Placebo::Without You I'm Nothing": {
   "status": "ok",
@@ -51055,10 +51322,12 @@
  },
  "Policias y Ladrones::Flores": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/bf672dca888d6d495fcccb0457ed7e62/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b0ccbe088f0d938c.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/bf672dca888d6d495fcccb0457ed7e62/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Polvo::Today's Active Lifestyles": {
   "status": "ok",
@@ -51369,10 +51638,12 @@
    "electronic"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/742c0500-ea2a-4cf0-a9dc-2ac7e61de945/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/742c0500-ea2a-4cf0-a9dc-2ac7e61de945.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2019",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/742c0500-ea2a-4cf0-a9dc-2ac7e61de945/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Prefuse 73::One Word Extinguisher": {
   "status": "ok",
@@ -52244,17 +52515,21 @@
  },
  "Psychedelic Porn Crumpets::High Visceral pt. 1": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/5765e9faa0629e9b0475be88ce7ab5ab/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e543dee23f83c432.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/5765e9faa0629e9b0475be88ce7ab5ab/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Psychedelic Porn Crumpets::High Visceral pt. 2": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/5765e9faa0629e9b0475be88ce7ab5ab/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9d4b2ce3140d123a.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/5765e9faa0629e9b0475be88ce7ab5ab/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Bronski Beat::The Age of Consent": {
   "status": "ok",
@@ -52277,10 +52552,12 @@
  },
  "Flipper::Generic Album - Flipper": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/30c77f5c5fb27b02fa83011850911ed4/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e8d621ba1e61238f.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/30c77f5c5fb27b02fa83011850911ed4/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Public Enemy::Fear of a Black Planet": {
   "status": "ok",
@@ -52635,10 +52912,12 @@
    "dance-rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/152499ea-d489-386a-bfde-f632dcc950f3/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/152499ea-d489-386a-bfde-f632dcc950f3.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1991",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/152499ea-d489-386a-bfde-f632dcc950f3/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Queen::Greatest Hits": {
   "status": "ok",
@@ -53989,10 +54268,12 @@
    "reggae"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/adb7b973-ccc7-3fa0-b038-09e19b05d4fe/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/adb7b973-ccc7-3fa0-b038-09e19b05d4fe.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2005",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/adb7b973-ccc7-3fa0-b038-09e19b05d4fe/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Red Hot Chili Peppers::Stadium Arcadium": {
   "status": "ok",
@@ -55419,10 +55700,12 @@
  },
  "Ryo Fukui::Scenery": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/6c43fe68dcef0e6c5622149d08d5eb4f/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/63a555a9f2b03b8a.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/6c43fe68dcef0e6c5622149d08d5eb4f/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Ryuichi Sakamoto::async": {
   "status": "ok",
@@ -55462,27 +55745,24 @@
  },
  "Ryuichi Sakamoto::Thousand Knives Of": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/45782627dd14d9509875a710f4943789/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1a7fa10bc9f76118.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
- },
- "S.F. Sorrow::The Pretty Things": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/45782627dd14d9509875a710f4943789/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Sad Saturno::Destinados a Fallar": {
   "status": "ok",
   "mbid": "c360c9df-9017-4821-a6f0-53832062589f",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/fe/6a/29/fe6a2947-8a10-82f0-3e71-5e293576087f/634654377364.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c360c9df-9017-4821-a6f0-53832062589f.jpg",
   "cover_from": "itunes",
   "mb_year": "2017",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/fe/6a/29/fe6a2947-8a10-82f0-3e71-5e293576087f/634654377364.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Sade::Lovers Rock": {
   "status": "ok",
@@ -56233,10 +56513,12 @@
  },
  "Seatbelts::Cowboy Bebop Blue": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/cb8a9d4761890dbe2e906bc6d3eab414/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a35cde593aab70bd.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/cb8a9d4761890dbe2e906bc6d3eab414/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Seatbelts::Cowboy Bebop": {
   "status": "ok",
@@ -56249,10 +56531,12 @@
    "vocal jazz"
   ],
   "genre_source": "artist",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5a/bb/df/5abbdf28-bf0e-0530-e5f8-0f0ca3150e0a/195081633657.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/30c42d97-0b90-4e37-89a1-41bc1a2006c0.jpg",
   "cover_from": "itunes",
   "mb_year": "2021",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5a/bb/df/5abbdf28-bf0e-0530-e5f8-0f0ca3150e0a/195081633657.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Secret Guest::Traumprinz B2B DJ Metatron Live at Planet Uterus": {
   "status": "nomatch",
@@ -56605,17 +56889,21 @@
   "mbid": "efe3f386-4a95-4f14-a885-c754394f6972",
   "genres": [],
   "genre_source": "release",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/efe3f386-4a95-4f14-a885-c754394f6972.jpg",
+  "cover_from": "deezer",
   "mb_year": "2015",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/047359de08ef552d9d4bb03ab1db64f8/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Sheer Mag::Compilation": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/8f8b14f44a7d39b9294089c3ff8f5b38/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d2360e1b82a13536.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/8f8b14f44a7d39b9294089c3ff8f5b38/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Sheer Mag::Need To Feel your Love": {
   "status": "ok",
@@ -56676,17 +56964,21 @@
  },
  "Shinsei Kamattechan::つまんね [Tsumanne]": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/a470cd48c042ba84b10a2f7b7a47a0eb/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5270995e6792d5fb.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/a470cd48c042ba84b10a2f7b7a47a0eb/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Shiro Sagisu::The End of Evangelion": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/8ab52be3b0cf5d82316f9496a3cd77a0/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1396a68fcd7233b8.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/8ab52be3b0cf5d82316f9496a3cd77a0/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Shiro Sagisu::Neon Genesis Evangelion (Original Series Soundtrack)": {
   "status": "nomatch",
@@ -57686,10 +57978,12 @@
    "rock"
   ],
   "genre_source": "artist",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3a/d3/d3/3ad3d3c6-bebe-ac4c-53f2-29ce91854727/65825.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f167c246-842b-4e44-bac9-76a149cddd86.jpg",
   "cover_from": "itunes",
   "mb_year": "2026",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3a/d3/d3/3ad3d3c6-bebe-ac4c-53f2-29ce91854727/65825.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Slipknot::Vol. 3: The Subliminal Verses": {
   "status": "ok",
@@ -58364,10 +58658,12 @@
   "mbid": "be4ba53d-a22e-4a51-8bb5-ab424b4b04e4",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/43/19/a0/4319a068-ed40-59e9-806e-0ae47cf83c01/3616404224484_cover.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/be4ba53d-a22e-4a51-8bb5-ab424b4b04e4.jpg",
   "cover_from": "itunes",
   "mb_year": "2020",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/43/19/a0/4319a068-ed40-59e9-806e-0ae47cf83c01/3616404224484_cover.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Sonic Youth::Rather Ripped": {
   "status": "ok",
@@ -58873,10 +59169,12 @@
   "mbid": "d1f3cb91-635d-4ab3-b112-e9dfa232fb6f",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/56/07/8b/56078bf8-ea5f-8381-728f-a01f8201e49b/artwork.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d1f3cb91-635d-4ab3-b112-e9dfa232fb6f.jpg",
   "cover_from": "itunes",
   "mb_year": "2022",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/56/07/8b/56078bf8-ea5f-8381-728f-a01f8201e49b/artwork.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Special Interest::Endure": {
   "status": "ok",
@@ -59236,10 +59534,12 @@
  },
  "Squid::|": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/9eeb77b16df4bdc870246ef38314fa35/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7b1559025c4452ba.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/9eeb77b16df4bdc870246ef38314fa35/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Squid::Bright Green Field": {
   "status": "ok",
@@ -59388,13 +59688,6 @@
   "cover_cached": "2026-09-20"
  },
  "Staatsorchester Stuttgart / Lithuanian Chamber Orchestra / The 12 Cellists of the Berlin Philharmonic Orchestra / Dennis Russell Davies / Saulius Sondeckis / Gidon Kremer / Keith Jarrett / Tatjana Grindenko / Alfred Schnittke::Tabula rasa": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
- },
- "Stand Up::Jethro Tull": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
@@ -59804,10 +60097,12 @@
    "minimalism"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/4885c9c3-5026-3bc6-a5bc-1d7ac896dab1/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4885c9c3-5026-3bc6-a5bc-1d7ac896dab1.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1978",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/4885c9c3-5026-3bc6-a5bc-1d7ac896dab1/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Steve Roach::Dreamtime Return": {
   "status": "ok",
@@ -60878,13 +61173,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/12e88251-2cde-3bea-9cee-2d8c7fe65039/front-500",
   "cover_cached": "2026-09-20"
  },
- "Sunset Mission::Bohren & der Club of Gore": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
- },
  "Sunset Rubdown::Dragonslayer": {
   "status": "ok",
   "mbid": "5c7bf52c-9fea-3a46-be40-ce41169e0d72",
@@ -61182,20 +61470,24 @@
   "mbid": "e065edcd-57ed-40f8-a2c6-617d916c2e1c",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/d6/e8/6b/d6e86bea-b3d7-5ce3-c121-8bb10a6b48fe/4059251314752.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e065edcd-57ed-40f8-a2c6-617d916c2e1c.jpg",
   "cover_from": "itunes",
   "mb_year": "2015",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/d6/e8/6b/d6e86bea-b3d7-5ce3-c121-8bb10a6b48fe/4059251314752.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Swain::Howl": {
   "status": "ok",
   "mbid": "2e94281b-f3d9-40e9-a102-ea26e0338046",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/2e94281b-f3d9-40e9-a102-ea26e0338046/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2e94281b-f3d9-40e9-a102-ea26e0338046.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2015",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/2e94281b-f3d9-40e9-a102-ea26e0338046/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Swans::The Beggar": {
   "status": "ok",
@@ -61764,10 +62056,12 @@
    "soukous"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/35485800-b362-3569-80ba-27618a27bf43/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/35485800-b362-3569-80ba-27618a27bf43.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1984",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/35485800-b362-3569-80ba-27618a27bf43/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Taking Back Sunday::Louder Now": {
   "status": "ok",
@@ -62890,10 +63184,12 @@
  },
  "The Beach Boys::Sounds of Sumer": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/52560aed836bb5f629e89e67a68f41a6/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/da97ec1cafe88c86.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/52560aed836bb5f629e89e67a68f41a6/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "The Beach Boys::Endless Summer": {
   "status": "ok",
@@ -63386,10 +63682,12 @@
    "rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/27742d41-8cba-49c8-bacf-54a3f09eb515/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/27742d41-8cba-49c8-bacf-54a3f09eb515.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2008",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/27742d41-8cba-49c8-bacf-54a3f09eb515/front-500",
+  "cover_cached": "2026-09-20"
  },
  "The Cars::The Cars": {
   "status": "ok",
@@ -64346,10 +64644,12 @@
    "neo-psychedelia"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/4142c6c7-e14c-3be2-81b6-30ca172b0e9c/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4142c6c7-e14c-3be2-81b6-30ca172b0e9c.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1987",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/4142c6c7-e14c-3be2-81b6-30ca172b0e9c/front-500",
+  "cover_cached": "2026-09-20"
  },
  "The Fall::This Nation's Saving Grace": {
   "status": "ok",
@@ -64825,10 +65125,12 @@
   "mbid": "5230e044-dc45-49d7-9fae-973b7e706a9f",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/5230e044-dc45-49d7-9fae-973b7e706a9f/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5230e044-dc45-49d7-9fae-973b7e706a9f.jpg",
   "cover_from": "coverartarchive",
   "mb_year": null,
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/5230e044-dc45-49d7-9fae-973b7e706a9f/front-500",
+  "cover_cached": "2026-09-20"
  },
  "The Go! Team::Thunder, Lightning, Strike": {
   "status": "ok",
@@ -66873,10 +67175,12 @@
    "acid rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/2e325e3a-bbb5-39ed-982c-db484099bb2b/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2e325e3a-bbb5-39ed-982c-db484099bb2b.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1967",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/2e325e3a-bbb5-39ed-982c-db484099bb2b/front-500",
+  "cover_cached": "2026-09-20"
  },
  "The Replacements::Pleased To Meet Me": {
   "status": "ok",
@@ -67005,10 +67309,12 @@
    "rock and roll"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/6474dce0-f54d-36f5-9dc5-03a44e9f5d5b/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6474dce0-f54d-36f5-9dc5-03a44e9f5d5b.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2002",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/6474dce0-f54d-36f5-9dc5-03a44e9f5d5b/front-500",
+  "cover_cached": "2026-09-20"
  },
  "The Rolling Stones::Singles Collection: The London Years 1": {
   "status": "ok",
@@ -67144,10 +67450,12 @@
    "blues"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/2b4b4a03-bc47-3b3a-a2ed-0d121513d17d/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2b4b4a03-bc47-3b3a-a2ed-0d121513d17d.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1972",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/2b4b4a03-bc47-3b3a-a2ed-0d121513d17d/front-500",
+  "cover_cached": "2026-09-20"
  },
  "The Rolling Stones::Hot Rocks": {
   "status": "ok",
@@ -67593,10 +67901,12 @@
  },
  "The Smashing Pumpkins::Rotten Apples: The Smashing Pumpkins Greatest Hits": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/a3ca7ccf760c1466f8e338c3ff5c952c/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/55deb992e1e3a3c5.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/a3ca7ccf760c1466f8e338c3ff5c952c/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "The Smashing Pumpkins::Adore": {
   "status": "ok",
@@ -68425,10 +68735,12 @@
   "mbid": "61c15605-738f-4701-9eb4-eaad9a3aaa2f",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/61c15605-738f-4701-9eb4-eaad9a3aaa2f/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/61c15605-738f-4701-9eb4-eaad9a3aaa2f.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2013",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/61c15605-738f-4701-9eb4-eaad9a3aaa2f/front-500",
+  "cover_cached": "2026-09-20"
  },
  "The Undertones::The Undertones": {
   "status": "ok",
@@ -68493,10 +68805,12 @@
    "electronica"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/9e5767c8-8667-3ee9-809e-ebdab3333d13/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9e5767c8-8667-3ee9-809e-ebdab3333d13.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2004",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/9e5767c8-8667-3ee9-809e-ebdab3333d13/front-500",
+  "cover_cached": "2026-09-20"
  },
  "The United States of America::The United States of America": {
   "status": "ok",
@@ -69106,10 +69420,12 @@
    "garage rock revival"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/605d10c5-704a-4cea-b871-caed694d391f/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/605d10c5-704a-4cea-b871-caed694d391f.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2020",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/605d10c5-704a-4cea-b871-caed694d391f/front-500",
+  "cover_cached": "2026-09-20"
  },
  "The Who::Quadrophenia": {
   "status": "ok",
@@ -69170,10 +69486,12 @@
    "trance"
   ],
   "genre_source": "release",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a5/e7/70/a5e7703c-4e30-da7a-a319-2d3caef42c0e/23UM1IM04872.rgb.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9584e28b-66a7-3846-8d52-b3008a283539.jpg",
   "cover_from": "itunes",
   "mb_year": "1971",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a5/e7/70/a5e7703c-4e30-da7a-a319-2d3caef42c0e/23UM1IM04872.rgb.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "The Who::Live at Leeds": {
   "status": "ok",
@@ -69355,10 +69673,12 @@
  },
  "The Yardbirds::Roger the Engineer": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/e2c1a1b3f7b6bb017a05b7c26ab08feb/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/de5926243e136ffe.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/e2c1a1b3f7b6bb017a05b7c26ab08feb/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "The Zombies::Odessey & Oracle": {
   "status": "ok",
@@ -70236,10 +70556,12 @@
    "hip hop"
   ],
   "genre_source": "release",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/25c9cccc-d6cd-3253-9829-6774fc54a0a6.jpg",
+  "cover_from": "deezer",
   "mb_year": "1997",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/cf8524a45288aa646fc7a5a20a8a6e15/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Title Fight::Spring Songs EP": {
   "status": "ok",
@@ -70543,10 +70865,12 @@
    "southern rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/cb29784b-db64-3cce-b269-ce711862ca3a/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/cb29784b-db64-3cce-b269-ce711862ca3a.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1993",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/cb29784b-db64-3cce-b269-ce711862ca3a/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Tom Waits::Orphans: Brawlers, Bawlers & Bastards": {
   "status": "ok",
@@ -70878,10 +71202,12 @@
  },
  "Tomoko Aran::Fuyuu Kuukan": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/9dcaa875b04d7135574dd16a527f9157/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/0432acdce4876c64.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/9dcaa875b04d7135574dd16a527f9157/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Tony Allen::A Tribute to Art Blakey and the Messengers": {
   "status": "ok",
@@ -70902,10 +71228,12 @@
   "mbid": "ff3c6276-87ca-40b7-af6a-82a455847dc4",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c3/22/34/c322344d-8fdc-0d5b-aa61-0d7807092eb1/749846022110_cover.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ff3c6276-87ca-40b7-af6a-82a455847dc4.jpg",
   "cover_from": "itunes",
   "mb_year": "2016",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c3/22/34/c322344d-8fdc-0d5b-aa61-0d7807092eb1/749846022110_cover.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Tool::10,000 Days": {
   "status": "ok",
@@ -71369,10 +71697,12 @@
    "dark ambient"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/b143021c-22ef-41f7-9160-f12753e941d2/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b143021c-22ef-41f7-9160-f12753e941d2.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2014",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/b143021c-22ef-41f7-9160-f12753e941d2/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Trent Reznor & Atticus Ross::The Social Network": {
   "status": "ok",
@@ -72822,10 +73152,12 @@
    "kankyō ongaku"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/4f859690-c836-4f4e-8a1e-212b86224690/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4f859690-c836-4f4e-8a1e-212b86224690.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2019",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/4f859690-c836-4f4e-8a1e-212b86224690/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Various Artists::Mono No Aware": {
   "status": "ok",
@@ -72854,10 +73186,12 @@
    "latin"
   ],
   "genre_source": "release",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/6d/98/d2/6d98d226-4801-935e-0c6a-89d65918ecd2/0783024551498_cover.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/78ab3e47-6cbe-4887-8e31-364d25769db3.jpg",
   "cover_from": "itunes",
   "mb_year": "2017",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/6d/98/d2/6d98d226-4801-935e-0c6a-89d65918ecd2/0783024551498_cover.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Various Artists::Singles (Original Motion Picture Soundtrack)": {
   "status": "ok",
@@ -72894,10 +73228,12 @@
  },
  "Various Artists::Whiplash (Original Motion Picture Soundtack)": {
   "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2fb1a1afe9e1df36.jpg",
+  "cover_from": "itunes",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ed/c1/38/edc1388b-eaf1-cc8b-f67e-7ccdadc8495f/780163591422.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Various Artists::After Dark 2": {
   "status": "ok",
@@ -73034,30 +73370,36 @@
    "indie pop"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/58e8e2fd-2861-31fd-9971-e04fcc3e30fd/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/58e8e2fd-2861-31fd-9971-e04fcc3e30fd.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2003",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/58e8e2fd-2861-31fd-9971-e04fcc3e30fd/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Various Artists::Starmix vol.2": {
   "status": "ok",
   "mbid": "86c7acbf-905a-4c00-93cb-5186e11347ea",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/e4/ef/4d/e4ef4db0-651a-3584-3aa6-459a2c9262f1/cover.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/86c7acbf-905a-4c00-93cb-5186e11347ea.jpg",
   "cover_from": "itunes",
   "mb_year": "1999",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/e4/ef/4d/e4ef4db0-651a-3584-3aa6-459a2c9262f1/cover.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Various Artists::Girl Group Greats": {
   "status": "ok",
   "mbid": "5c013fb5-c3d5-3ed3-819d-86ea1aba9bb8",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/5c013fb5-c3d5-3ed3-819d-86ea1aba9bb8/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5c013fb5-c3d5-3ed3-819d-86ea1aba9bb8.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2001",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/5c013fb5-c3d5-3ed3-819d-86ea1aba9bb8/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Various Artists::O Brother, Where Art Thou?": {
   "status": "ok",
@@ -73070,20 +73412,24 @@
    "folk"
   ],
   "genre_source": "release",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6c/9b/66/6c9b6682-cdbd-7454-4f3b-69a9fcc74b5b/06UMGIM06980.rgb.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6fb9820a-99cc-318f-bae4-44992f2b7ffa.jpg",
   "cover_from": "itunes",
   "mb_year": "2000",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6c/9b/66/6c9b6682-cdbd-7454-4f3b-69a9fcc74b5b/06UMGIM06980.rgb.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Various Artists::Starmix vol.1": {
   "status": "ok",
   "mbid": "86c7acbf-905a-4c00-93cb-5186e11347ea",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/86c7acbf-905a-4c00-93cb-5186e11347ea/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/86c7acbf-905a-4c00-93cb-5186e11347ea.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1999",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/86c7acbf-905a-4c00-93cb-5186e11347ea/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Various Artists::The Music on My Head (African CD)": {
   "status": "nomatch",
@@ -73131,10 +73477,12 @@
    "southern rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/6d79d579-213d-3172-a860-1cd9bde0ecd5/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6d79d579-213d-3172-a860-1cd9bde0ecd5.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1994",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/6d79d579-213d-3172-a860-1cd9bde0ecd5/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Various Artists::Pulp Fiction": {
   "status": "ok",
@@ -73198,10 +73546,12 @@
    "mbaqanga"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/afa0750e-eee6-320f-845a-ad0ae891bd9b/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/afa0750e-eee6-320f-845a-ad0ae891bd9b.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1985",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/afa0750e-eee6-320f-845a-ad0ae891bd9b/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Various Artists::Repo Man": {
   "status": "ok",
@@ -73211,20 +73561,24 @@
    "punk"
   ],
   "genre_source": "release",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2c/c9/81/2cc981ff-df15-e2a5-96a4-a58869bf0608/14ULAIM01003.rgb.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e02530fb-93ff-395f-85e0-0fa0d1f4e919.jpg",
   "cover_from": "itunes",
   "mb_year": "1984",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2c/c9/81/2cc981ff-df15-e2a5-96a4-a58869bf0608/14ULAIM01003.rgb.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Various Artists::Saturday Night Fever": {
   "status": "ok",
   "mbid": "36abcdc8-6491-3288-96ae-e6d27421c19f",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/74/c1/73/74c17380-b75d-4d74-31d8-99f8e8b20c36/17UM1IM27905.rgb.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/36abcdc8-6491-3288-96ae-e6d27421c19f.jpg",
   "cover_from": "itunes",
   "mb_year": "1999",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/74/c1/73/74c17380-b75d-4d74-31d8-99f8e8b20c36/17UM1IM27905.rgb.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Various Artists::Nuggets: Original Artyfacts From the First Psychedelic Era 1965–1968": {
   "status": "ok",
@@ -73346,10 +73700,12 @@
  },
  "Viagra Boys::Jazz Welfare": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/81b045f8620fd9575f0d68c353deb8ad/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8d78f79ed5a3fc36.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/81b045f8620fd9575f0d68c353deb8ad/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Viagra Boys::Street Worms": {
   "status": "ok",
@@ -73408,10 +73764,12 @@
    "jazz"
   ],
   "genre_source": "artist",
-  "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e8/83/ea/e883eade-52e2-fa74-fd1e-a69c114ef9ae/12CMGIM34347.rgb.jpg/600x600bb.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/51279c71-5098-4af7-ae75-ea682d91bae9.jpg",
   "cover_from": "itunes",
   "mb_year": "2002",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e8/83/ea/e883eade-52e2-fa74-fd1e-a69c114ef9ae/12CMGIM34347.rgb.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Vince Staples::The Big Fish Theory": {
   "status": "ok",
@@ -73937,10 +74295,12 @@
  },
  "Weezer::The White Album (Weezer)": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/39381d55274f8fd48d6c07158c76ef25/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7e90955187b29765.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/39381d55274f8fd48d6c07158c76ef25/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Weezer::Everything Will Be Alright In The End": {
   "status": "ok",
@@ -75305,10 +75665,12 @@
   "mbid": "84396682-04a4-4517-bc75-8266ba8435c8",
   "genres": [],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/84396682-04a4-4517-bc75-8266ba8435c8/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/84396682-04a4-4517-bc75-8266ba8435c8.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1995",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/84396682-04a4-4517-bc75-8266ba8435c8/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Yeah Yeah Yeahs::Cool it Down": {
   "status": "ok",
@@ -75732,10 +76094,12 @@
  },
  "Yo Maté a Tu Perro::El Último Disco de Yo Maté a Tu Perro": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/57197939f58035d8e86ece90fc65fb80/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/15922df9d0bf51e0.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/57197939f58035d8e86ece90fc65fb80/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Yola::Stand For Myself": {
   "status": "ok",
@@ -75974,17 +76338,21 @@
    "trap"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/e3bdfd15-f368-4bd5-b0a6-21413f02a70c/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e3bdfd15-f368-4bd5-b0a6-21413f02a70c.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2018",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/e3bdfd15-f368-4bd5-b0a6-21413f02a70c/front-500",
+  "cover_cached": "2026-09-20"
  },
  "YURAGI::Nightlife": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/7ff9a3fc0b5c9401d497edbd73c29878/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8f36e5bbd45223bf.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/7ff9a3fc0b5c9401d497edbd73c29878/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "Yusef Lateef::Eastern Sounds": {
   "status": "ok",
@@ -76150,10 +76518,12 @@
    "alternative rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/3f3e7dd3-13e9-41c2-864a-b1a8457d53ef/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3f3e7dd3-13e9-41c2-864a-b1a8457d53ef.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2011",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/3f3e7dd3-13e9-41c2-864a-b1a8457d53ef/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Zurdok::Hombre Sintetizador": {
   "status": "ok",
@@ -76217,10 +76587,12 @@
  },
  "공중도둑 (Mid-Air Thief)::공중도덕 (Gongjoong Doduk)": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/ef5666cdec4c2b884a204c6d8bec9a93/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d9f7fd0d1567efa6.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/ef5666cdec4c2b884a204c6d8bec9a93/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "아버지 [father]::흰색 죽음": {
   "status": "ok",
@@ -76240,17 +76612,21 @@
  },
  "파란노을 [Parannoul]::After The Magic": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/0af9be50d65ef821f961797b0429ae2b/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b2cbe32297b2a4b5.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/0af9be50d65ef821f961797b0429ae2b/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "파란노을 [Parannoul]::After The Night": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/53e13ef43a94aeb33979fbe96bcf966f/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/004dced311cbd288.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/53e13ef43a94aeb33979fbe96bcf966f/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "파란노을 [Parannoul]::Sky Hundred": {
   "status": "ok",
@@ -76295,17 +76671,21 @@
  },
  "椎名林檎 [Sheena Ringo]::Shoso Strip": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/7f3d8c2859008d28143c57e10dec6899/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/aeffead8e10ee8d8.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/7f3d8c2859008d28143c57e10dec6899/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "椎名林檎 [Sheena Ringo]::Muzai Moratorium": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/998fe24a29474d982f666006703c1225/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/cec26bfc380759ed.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/998fe24a29474d982f666006703c1225/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "椎名林檎 × 斎藤ネコ::平成風俗 (Heisei fūzoku)": {
   "status": "nomatch",
@@ -76316,10 +76696,12 @@
  },
  "王若琳 [Joanna Wang]::破爛酒店 [Hotel La Rut]": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/a8b1190b6fc2e734555b186da1815a88/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/183647538e73306e.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/a8b1190b6fc2e734555b186da1815a88/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "芸能山城組 [Geinoh Yamashirogumi]::Symphonic Suite AKIRA": {
   "status": "nomatch",
@@ -76330,31 +76712,39 @@
  },
  "青葉市子 [Ichiko Aoba]::Windswept Adan": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/d888de60084644369238dba86790eb07/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1edb953b3ab4b1cb.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/d888de60084644369238dba86790eb07/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "青葉市子 [Ichiko Aoba]::マホロボシヤ (Mahoroboshiya)": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/94828538dd24de9bb66b52bb66765e2a/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5271eafaeaa2f0fb.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/94828538dd24de9bb66b52bb66765e2a/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "青葉市子 [Ichiko Aoba]::qp": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/070be56ce085e6288a51cf3802ac0863/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9e69d40fb1a474e0.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/070be56ce085e6288a51cf3802ac0863/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "青葉市子 [Ichiko Aoba]::0": {
   "status": "partial",
-  "cover_url": "https://cdn-images.dzcdn.net/images/cover/0f0bf00af59bde01e05664f7b6336cb6/1000x1000-000000-80-0-0.jpg",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b26d67f02f80c2b6.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-09-20"
+  "tried": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/0f0bf00af59bde01e05664f7b6336cb6/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
  },
  "青葉市子 [Ichiko Aoba]::うたびこ (Utabiko)": {
   "status": "nomatch",
@@ -76528,10 +76918,12 @@
    "electronic"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/bb5426ab-6924-321a-8504-dc6f3cdf852b/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/bb5426ab-6924-321a-8504-dc6f3cdf852b.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2003",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/bb5426ab-6924-321a-8504-dc6f3cdf852b/front-500",
+  "cover_cached": "2026-09-20"
  },
  "Arca::Xen": {
   "status": "ok",
@@ -77035,5 +77427,267 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/ed247591-9a60-3d95-906c-2d1eae52639b/front-500",
   "cover_cached": "2026-09-20"
+ },
+ "2 Many DJ's::Into The Vortex": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-09-20"
+ },
+ "Basement Jaxx::Remedy": {
+  "status": "ok",
+  "mbid": "3ce95abe-66f2-4e21-a365-0a4766e33e30",
+  "genres": [
+   "house",
+   "electronic",
+   "big beat",
+   "dance",
+   "electronica",
+   "deep house",
+   "breaks",
+   "leftfield",
+   "latin"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/3ce95abe-66f2-4e21-a365-0a4766e33e30/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1999",
+  "checked": "2026-09-20"
+ },
+ "Exodus::Bonded By Blood": {
+  "status": "ok",
+  "mbid": "08e23bf4-ab01-3d24-9a71-bfcbc1567fe3",
+  "genres": [
+   "thrash metal",
+   "metal",
+   "speed metal",
+   "rock",
+   "heavy metal"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/08e23bf4-ab01-3d24-9a71-bfcbc1567fe3.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1985",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/08e23bf4-ab01-3d24-9a71-bfcbc1567fe3/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Femi & Malibu::United in Flames 23-10-2018": {
+  "status": "ok",
+  "mbid": "e69a9388-de59-47b7-b732-287faff00cf0",
+  "genres": [
+   "ambient",
+   "ambient pop",
+   "ambient trance",
+   "chillout",
+   "electronic"
+  ],
+  "genre_source": "artist",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e69a9388-de59-47b7-b732-287faff00cf0.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/e69a9388-de59-47b7-b732-287faff00cf0/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Free::Tons Of Sobs": {
+  "status": "ok",
+  "mbid": "1e7a6215-85ec-3611-bfbb-9749c72b76b7",
+  "genres": [
+   "rock",
+   "blues rock",
+   "hard rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1e7a6215-85ec-3611-bfbb-9749c72b76b7.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1969",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/1e7a6215-85ec-3611-bfbb-9749c72b76b7/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "The Cramps::Gravest Hits": {
+  "status": "ok",
+  "mbid": "e65ea774-6bc3-3d58-b15e-c578f7f471d8",
+  "genres": [
+   "psychobilly",
+   "rock",
+   "punk",
+   "rockabilly",
+   "garage punk",
+   "garage rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e65ea774-6bc3-3d58-b15e-c578f7f471d8.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1979",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/e65ea774-6bc3-3d58-b15e-c578f7f471d8/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Guided by Voices::Bee Thousand": {
+  "status": "ok",
+  "mbid": "b30f876f-1fe6-34ef-b334-9c68af820daa",
+  "genres": [
+   "indie rock",
+   "rock",
+   "lo-fi"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b30f876f-1fe6-34ef-b334-9c68af820daa.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1994",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/b30f876f-1fe6-34ef-b334-9c68af820daa/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Dragged Into Sunlight::Hatred for Mankind": {
+  "status": "ok",
+  "mbid": "e667d128-e045-4dd1-b915-c0460dcb86a8",
+  "genres": [
+   "death metal",
+   "black metal",
+   "sludge metal",
+   "blackened death metal",
+   "brutal death metal",
+   "rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e667d128-e045-4dd1-b915-c0460dcb86a8.jpg",
+  "cover_from": "deezer",
+  "mb_year": "2009",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/1f1de5ea5a1b8ef66c640899a276d169/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
+ },
+ "Kylie Minogue::Light Years": {
+  "status": "ok",
+  "mbid": "128ed442-1e2e-35d3-954f-cdbce2a0207c",
+  "genres": [
+   "pop",
+   "dance-pop",
+   "electronic"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/128ed442-1e2e-35d3-954f-cdbce2a0207c.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2000",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/128ed442-1e2e-35d3-954f-cdbce2a0207c/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Patricio Rey y sus Redonditos de Ricota::Oktubre": {
+  "status": "ok",
+  "mbid": "8b916008-5ced-3e29-a69b-73ecd2fd915c",
+  "genres": [
+   "post-punk",
+   "rock",
+   "alternative rock",
+   "new wave",
+   "hard rock",
+   "latin rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8b916008-5ced-3e29-a69b-73ecd2fd915c.jpg",
+  "cover_from": "deezer",
+  "mb_year": "1986",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/86fa6b3e018ee5eb00aa162076aa8aef/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
+ },
+ "Poppy::EAT": {
+  "status": "ok",
+  "mbid": "6c68736b-cedb-44bc-ac13-c28751e08525",
+  "genres": [
+   "nu metal",
+   "electropop",
+   "alternative metal",
+   "art pop",
+   "dance-pop"
+  ],
+  "genre_source": "artist",
+  "cover_url": null,
+  "cover_from": null,
+  "mb_year": "2021",
+  "checked": "2026-09-20"
+ },
+ "Ramper::Solo Postres": {
+  "status": "ok",
+  "mbid": "f20023bd-5907-47e7-8ddb-27f731d2111e",
+  "genres": [],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f20023bd-5907-47e7-8ddb-27f731d2111e.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2024",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/f20023bd-5907-47e7-8ddb-27f731d2111e/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "The Pretty Things::S.F. Sorrow": {
+  "status": "ok",
+  "mbid": "93181a2a-e241-3856-be77-e3c6885884f6",
+  "genres": [
+   "psychedelic rock",
+   "rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/93181a2a-e241-3856-be77-e3c6885884f6.jpg",
+  "cover_from": "deezer",
+  "mb_year": "1968",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/9c61dc08c1729e9c021c1b5243e06c1a/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
+ },
+ "Jethro Tull::Stand Up": {
+  "status": "ok",
+  "mbid": "a97c5efa-7182-3162-b3f2-9f19dfc35d83",
+  "genres": [
+   "rock",
+   "classic rock",
+   "progressive rock",
+   "blues rock",
+   "folk rock",
+   "hard rock",
+   "british folk rock",
+   "blues",
+   "progressive",
+   "psychedelic"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a97c5efa-7182-3162-b3f2-9f19dfc35d83.jpg",
+  "cover_from": "deezer",
+  "mb_year": "1969",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/e5faec9f1b0e72985697a63ad7234a38/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
+ },
+ "Bohren & der Club of Gore::Sunset Mission": {
+  "status": "ok",
+  "mbid": "abdba787-b3cf-3d5b-a9c1-9c675dff56c0",
+  "genres": [
+   "dark jazz",
+   "jazz",
+   "electronic",
+   "dark ambient",
+   "contemporary jazz"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/abdba787-b3cf-3d5b-a9c1-9c675dff56c0.jpg",
+  "cover_from": "deezer",
+  "mb_year": "2000",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/d3be7da02605541998fc3ed7cee5a86d/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
+ },
+ "Todos Mis Amigos Estan Tristes::Carne": {
+  "status": "ok",
+  "mbid": "9b8e99da-1bf5-433c-bc0b-675a9026c780",
+  "genres": [],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/9b8e99da-1bf5-433c-bc0b-675a9026c780/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2025",
+  "checked": "2026-09-20"
  }
 }
