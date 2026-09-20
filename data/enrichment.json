@@ -31846,13 +31846,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/baa817a4-1987-44b7-bd0e-1d5eba738619/front-500",
   "cover_cached": "2026-09-20"
  },
- "Idles::Joy As An Act of Rebellion": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
- },
  "Idles::Brutalism": {
   "status": "ok",
   "mbid": "d9482256-62b0-4409-b60f-9f52ff00ea4b",
@@ -33608,13 +33601,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/31cf497b-5cf6-4663-8497-54a21fceb236/front-500",
   "cover_cached": "2026-09-20"
  },
- "Jean-Michelle Jarre::Oxygene": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
- },
  "Jeff Buckley::Grace": {
   "status": "ok",
   "mbid": "ea29c347-696f-3165-986d-7bad1394b178",
@@ -34247,20 +34233,6 @@
   "checked": "2026-09-19",
   "cover_source_url": "https://coverartarchive.org/release-group/4a12c3a5-5a5e-3e6f-aee9-1cfb2137da4c/front-500",
   "cover_cached": "2026-09-20"
- },
- "Jimmy O Rourke::Eureka": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
- },
- "Jimmy O Rourke::Insignificance": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
  },
  "Jlin::Black Origami": {
   "status": "ok",
@@ -36724,13 +36696,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/32cb822c-a14e-49ce-a169-f209c5f31e0f/front-500",
   "cover_cached": "2026-09-20"
  },
- "Kennie Beats::LOUIE": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
- },
  "Kenny Beats::Louise": {
   "status": "ok",
   "mbid": "d00b8ff3-b524-4539-a314-05dc51855502",
@@ -39134,13 +39099,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/0676bfd8-7c4c-39dc-b300-a0035853d9af/front-500",
   "cover_cached": "2026-09-20"
  },
- "Lindstorm::Where You Go I Will Go Too": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
- },
  "Lingua Ignota::Caligula": {
   "status": "ok",
   "mbid": "dc63b507-8401-45d9-bd87-b4d127cd0f20",
@@ -39634,19 +39592,6 @@
   "checked": "2026-09-19",
   "cover_source_url": "https://coverartarchive.org/release-group/f8ab53bd-395c-4763-98ca-0c19ab059e64/front-500",
   "cover_cached": "2026-09-20"
- },
- "Little Simz::Sometimes I May Be an Introvert": {
-  "status": "ok",
-  "mbid": "c625c5fc-1f29-467d-9fc0-5b208c7ed5bc",
-  "genres": [
-   "hip hop",
-   "pop rap"
-  ],
-  "genre_source": "artist",
-  "cover_url": null,
-  "cover_from": null,
-  "mb_year": "2021",
-  "checked": "2026-09-19"
  },
  "Little Simz::Grey Area": {
   "status": "ok",
@@ -53436,13 +53381,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/cf4383c2-30e2-38bd-be61-83bc32fe5f2a/front-500",
   "cover_cached": "2026-09-20"
  },
- "Radio Stereo::Sueño Stereo": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
- },
  "Radiohead::KID A MNESIA": {
   "status": "ok",
   "mbid": "6f25f9fb-e9e3-4c0d-8904-ecb8b46cd8aa",
@@ -55438,13 +55376,6 @@
   "cover_cached": "2026-09-20"
  },
  "Röyskopp::Late Night Tales (Röyskopp)": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
- },
- "Röyskopp::Melody A.M": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
@@ -77688,6 +77619,153 @@
   "cover_url": "https://coverartarchive.org/release-group/9b8e99da-1bf5-433c-bc0b-675a9026c780/front-500",
   "cover_from": "coverartarchive",
   "mb_year": "2025",
+  "checked": "2026-09-20"
+ },
+ "IDLES::Joy as an Act of Resistance.": {
+  "status": "ok",
+  "mbid": "45003bef-d379-441d-b246-358f0b78985c",
+  "genres": [
+   "punk rock",
+   "post-punk",
+   "post-hardcore",
+   "art punk",
+   "noise rock",
+   "rock",
+   "alternative rock",
+   "punk"
+  ],
+  "genre_source": "release",
+  "cover_url": null,
+  "cover_from": null,
+  "mb_year": "2018",
+  "checked": "2026-09-20"
+ },
+ "Jean Michel Jarre::Oxygène": {
+  "status": "ok",
+  "mbid": "a84ecb83-9622-3f9a-9759-154505443ca8",
+  "genres": [
+   "electronic",
+   "ambient",
+   "electro",
+   "synth-pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/a84ecb83-9622-3f9a-9759-154505443ca8/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1976",
+  "checked": "2026-09-20"
+ },
+ "Jim O’Rourke::Eureka": {
+  "status": "ok",
+  "mbid": "e459ba30-68aa-36a1-b367-04db87a29842",
+  "genres": [
+   "art pop",
+   "chamber pop",
+   "experimental",
+   "jazz pop",
+   "rock",
+   "electronic",
+   "post-rock",
+   "pop",
+   "indie rock",
+   "art rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/e459ba30-68aa-36a1-b367-04db87a29842/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1999",
+  "checked": "2026-09-20"
+ },
+ "Jim O’Rourke::Insignificance": {
+  "status": "ok",
+  "mbid": "4a1126a2-8233-36ae-a579-539e0b7fb392",
+  "genres": [
+   "alternative rock",
+   "indie rock",
+   "rock",
+   "pop rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/4a1126a2-8233-36ae-a579-539e0b7fb392/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2001",
+  "checked": "2026-09-20"
+ },
+ "Kenny Beats::LOUIE": {
+  "status": "ok",
+  "mbid": "d00b8ff3-b524-4539-a314-05dc51855502",
+  "genres": [
+   "instrumental hip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/d00b8ff3-b524-4539-a314-05dc51855502/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2022",
+  "checked": "2026-09-20"
+ },
+ "Lindstrøm::Where You Go I Go Too": {
+  "status": "ok",
+  "mbid": "a9d4840a-f7ba-3fa3-b768-658b02c65de2",
+  "genres": [
+   "electronic",
+   "deep house",
+   "disco"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/a9d4840a-f7ba-3fa3-b768-658b02c65de2/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2008",
+  "checked": "2026-09-20"
+ },
+ "Little Simz::Sometimes I Might Be Introvert": {
+  "status": "ok",
+  "mbid": "e95de3f4-84db-4d24-8d06-fd970576a6ef",
+  "genres": [
+   "hip hop",
+   "conscious hip hop",
+   "neo soul",
+   "jazz rap"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/e95de3f4-84db-4d24-8d06-fd970576a6ef/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2021",
+  "checked": "2026-09-20"
+ },
+ "Soda Stereo::Sueño Stereo": {
+  "status": "ok",
+  "mbid": "65b80d3a-f8a4-392f-b7ba-41864534247c",
+  "genres": [
+   "rock",
+   "alternative rock",
+   "pop rock",
+   "latin rock",
+   "latin"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/65b80d3a-f8a4-392f-b7ba-41864534247c/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1995",
+  "checked": "2026-09-20"
+ },
+ "Röyksopp::Melody A.M.": {
+  "status": "ok",
+  "mbid": "95d72e72-55b2-3408-8d76-cce7abad3836",
+  "genres": [
+   "downtempo",
+   "electronic",
+   "trance",
+   "electronica",
+   "electropop",
+   "leftfield",
+   "jazz",
+   "dance",
+   "trip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/95d72e72-55b2-3408-8d76-cce7abad3836/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2001",
   "checked": "2026-09-20"
  }
 }
