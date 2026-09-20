@@ -109,6 +109,17 @@ jobs:
       # Reports only; never fails the run. The database's unique index catches
       # exact collisions, but a misspelled artist is a different key everywhere
       # and becomes a second album silently.
+      # Export again. The first one ran before this job had done anything, so
+      # everything after it -- the backup committed to git, the duplicate
+      # check, the genre roots, the maintenance list, tonight's five -- was
+      # reading the database as it looked BEFORE tonight's renames,
+      # enrichment and artwork landed. The backup was permanently a day
+      # behind and the maintenance screen listed problems this run had
+      # already fixed.
+      - name: Re-export now the run has finished
+        if: ${{ env.SUPABASE_URL != '' }}
+        run: node scripts/export.mjs
+
       - name: Look for near-duplicates
         run: node scripts/find-duplicates.mjs
 
