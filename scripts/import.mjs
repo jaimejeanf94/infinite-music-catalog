@@ -81,7 +81,12 @@ const known = await api.select(
 let refreshed = 0;
 for (const row of known) {
   const extra = enrichment[`${row.artist}::${row.title}`];
-  if (!extra || extra.status !== "ok") continue;
+  // Not `status === "ok"`: an album MusicBrainz could not match still gets a
+  // cover from a fallback, and once cache-covers.mjs has rewritten that URL to
+  // Supabase Storage it has to reach the database like any other. Each field
+  // below is guarded on its own, so a record with nothing useful patches
+  // nothing.
+  if (!extra) continue;
   const patch = {};
   if (extra.mbid && extra.mbid !== row.mbid) patch.mbid = extra.mbid;
   // A cover you picked yourself is never replaced.
