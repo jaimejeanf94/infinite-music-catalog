@@ -31,7 +31,7 @@ begin
   owner_id := owner_text::uuid;
 
   -- Writes: one specific person, not "anyone holding an account".
-  foreach t in array array['albums', 'rolls', 'plays'] loop
+  foreach t in array array['albums', 'rolls'] loop
     execute format('drop policy if exists %I on public.%I', t || '_write', t);
     execute format(
       -- (select auth.uid()) rather than auth.uid(): wrapped in a subquery
@@ -53,7 +53,7 @@ begin
     'albums_read', owner_id);
 
   -- Listening history is the one genuinely personal thing in the database.
-  foreach t in array array['rolls', 'plays'] loop
+  foreach t in array array['rolls'] loop
     execute format('drop policy if exists %I on public.%I', t || '_read', t);
     execute format(
       'create policy %I on public.%I for select to authenticated using ((select auth.uid()) = %L)',
@@ -69,7 +69,7 @@ end $$;
 select relname as table_name, relrowsecurity as rls_enabled
 from pg_class
 where relnamespace = 'public'::regnamespace
-  and relname in ('albums', 'rolls', 'plays')
+  and relname in ('albums', 'rolls')
 order by relname;
 
 -- Expect exactly five policies. `albums_read` should be the only one open to

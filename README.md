@@ -153,7 +153,6 @@ and typing reaches the rest.
 albums    artist, title, year, score, in_pool, notes, genres, mbid,
           cover_url, cover_locked, source, deleted_at
 rolls     album_id, mode, outcome, rolled_at      -- what the randomiser served
-plays     album_id, source, played_at             -- what you actually listened to
 ```
 
 `score` is `NULL` until you rate it, and stays distinct from 100 on purpose —
@@ -397,7 +396,7 @@ Run `db/public_hardening.sql` with your user id pasted in. Today, writes are
 allowed for any *signed-in* user, which is safe only because sign-ups are off —
 one checkbox between your collection and anyone who wants to edit it. The
 hardening file names exactly one user id, and closes read access on `rolls` and
-`plays`, which are the only personal data here.
+`rolls`, which is the only personal data here.
 
 Then prove it: open the deployed site **signed out** and run
 `await db.updateAlbum(1, { score: 70 })` in the console. It must fail.

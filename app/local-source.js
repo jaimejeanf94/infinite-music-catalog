@@ -15,7 +15,6 @@
 
 const LS_EDITS = "imc:local:edits:v2";     // v1 was keyed by row number; ignored
 const LS_ROLLS = "imc:local:rolls";
-const LS_PLAYS = "imc:local:plays";
 const LS_ADDED = "imc:local:added";
 const LS_GONE  = "imc:local:deleted:v2";   // v1 likewise
 const LS_SEQ   = "imc:local:seq";
@@ -231,13 +230,7 @@ const LocalDB = {
     const hit = rolls.find((r) => r.id === id);
     if (hit) { hit.outcome = outcome; save(LS_ROLLS, rolls); }
   },
-  async logPlay(album_id, source = "manual") {
-    const plays = load(LS_PLAYS, []);
-    plays.unshift({ id: Date.now(), album_id, source, played_at: new Date().toISOString() });
-    save(LS_PLAYS, plays.slice(0, 1000));
-  },
   async recentRolls(limit = 40) { return load(LS_ROLLS, []).slice(0, limit); },
-  async recentPlays(limit = 40) { return load(LS_PLAYS, []).slice(0, limit); },
 
   // ── moving to Supabase later ────────────────────────────────────────────
   // Everything rated locally, as SQL you can paste into the Supabase editor

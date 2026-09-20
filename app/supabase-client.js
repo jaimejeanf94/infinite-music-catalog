@@ -64,16 +64,6 @@ const supabaseDb = {
     return data;
   },
 
-  async recentPlays(limit = 40) {
-    const { data, error } = await sb
-      .from("plays")
-      .select("id, album_id, played_at, source")
-      .order("played_at", { ascending: false })
-      .limit(limit);
-    if (error) throw error;
-    return data;
-  },
-
   // ── writes (owner only — RLS rejects these when signed out) ─────────────
   // One updater for every album edit. The whitelist keeps a stray key in a
   // patch from reaching the database and erroring the whole write.
@@ -154,10 +144,6 @@ const supabaseDb = {
   },
   async setRollOutcome(id, outcome) {
     const { error } = await sb.from("rolls").update({ outcome }).eq("id", id);
-    if (error) throw error;
-  },
-  async logPlay(album_id, source = "roll") {
-    const { error } = await sb.from("plays").insert({ album_id, source });
     if (error) throw error;
   },
 };

@@ -47,7 +47,7 @@ function GenreLines({ album, index, onGenre }) {
   );
 }
 
-function Detail({ album, owner, onPatch, onPlay, onDelete, onClose, index, onGenre }) {
+function Detail({ album, owner, onPatch, onDelete, onClose, index, onGenre }) {
   // Two taps rather than a browser confirm dialog: the first arms it, the
   // second does it, and clicking anywhere else disarms.
   const [armed, setArmed] = React.useState(false);
@@ -222,7 +222,6 @@ function Detail({ album, owner, onPatch, onPlay, onDelete, onClose, index, onGen
               </label>
 
               <div className="row">
-                <button className="btn" onClick={() => onPlay(album.id)}>Log a play</button>
                 <button className="btn btn--quiet"
                         onClick={() => onPatch(album.id, { in_pool: !album.in_pool })}>
                   {album.in_pool ? "Remove from pool" : "Back in the pool"}
@@ -415,7 +414,7 @@ function AddAlbum({ albums, onAdd, onClose }) {
   );
 }
 
-function BrowseView({ albums, owner, onPatch, onPlay, onAdd, onDelete, onRestore,
+function BrowseView({ albums, owner, onPatch, onAdd, onDelete, onRestore,
                      params, setParams }) {
   // The URL is the source of truth for these four, so a filtered view can be
   // bookmarked and shared, and Back undoes a filter instead of leaving the app.
@@ -606,7 +605,7 @@ function BrowseView({ albums, owner, onPatch, onPlay, onAdd, onDelete, onRestore
       )}
 
       {live && (
-        <Detail album={live} owner={owner} onPatch={onPatch} onPlay={onPlay}
+        <Detail album={live} owner={owner} onPatch={onPatch}
                 index={index} onGenre={(g) => { setParam("genre", g); setOpen(null); }}
                 onDelete={(id) => { onDelete(id); setDeleted(null); setOpen(null); }}
                 onClose={() => setOpen(null)} />
