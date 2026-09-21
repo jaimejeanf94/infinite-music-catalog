@@ -1,0 +1,60 @@
+name: Check the app
+
+# The app has no build step. React, Babel and the .jsx files load from a CDN
+# and compile in the browser, which means a syntax error is caught by nothing
+# before it reaches a visitor: it ships, and it arrives as a blank page with
+# the reason buried in the console.
+#
+# scripts/check-app.mjs runs the same Babel the page loads, against the same
+# files, and exits non-zero if any of them will not compile. This runs it on
+# every push and pull request that touches the app.
+#
+# Deliberately NOT part of refresh.yml. That job moves data on a schedule and
+# holds the Supabase secrets; a JSX error failing it would report the wrong
+# problem, and it would only notice once a night -- hours after the broken
+# page went live. This one holds no secrets and finishes in seconds.
+#
+# The path filter keeps it to the files the check actually reads. The nightly
+# job writes app/daily.json and app/health.json, which are data rather than
+# code, and its commit carries [skip ci] in any case.
+
+on:
+  push:
+    paths:
+      - "app/**.jsx"
+      - "app/index.html"
+      - "scripts/check-app.mjs"
+      - ".github/workflows/check.yml"
+  pull_request:
+    paths:
+      - "app/**.jsx"
+      - "app/index.html"
+      - "scripts/check-app.mjs"
+      - ".github/workflows/check.yml"
+
+jobs:
+  jsx:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      # check-app.mjs fetches Babel from unpkg, so it separates "your code is
+      # broken" (exit 1) from "I could not reach the CDN to find out" (exit 2).
+      # Only the first is your problem: a dead CDN leaves a warning on the run
+      # rather than a red X you would learn to ignore.
+      - name: Compile every .jsx the way the browser will
+        run: |
+          set +e
+          node scripts/check-app.mjs
+          code=$?
+          set -e
+          if [ "$code" = "0" ]; then exit 0; fi
+          if [ "$code" = "2" ]; then
+            echo "::warning::Could not reach the Babel CDN — the JSX was not checked this run."
+            exit 0
+          fi
+          exit "$code"
