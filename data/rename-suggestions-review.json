@@ -1,56 +1,47 @@
 [
  {
-  "from": "Angelo Badalamenti & David Lynch::Mulholland Dr.",
-  "to": "Angelo Badalamenti::Mulholland Drive",
+  "from": "DJ Screw::DJ Screw — 3 ’n the Mornin’, Part One",
+  "to": "DJ Screw::3 ’n the Mornin’, Part One",
   "_pass": "artist",
   "_titleRatio": 0.05,
-  "_artistRatio": 0.05,
-  "_mbid": "32530b76-bb42-3b3f-80e7-35f1c5de6f0a",
-  "_why": "the title gains \"drive\" — likely a different release; drops a credited artist (2 names -> 1)"
- },
- {
-  "from": "Beastie Boys::Beastie Boys Anthology: The Sounds of Science",
-  "to": "Beastie Boys::Anthology: The Sounds of Science",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
   "_artistRatio": 0,
-  "_mbid": "c28843ed-6233-36e1-b98f-3ff0bbc62ecf",
-  "_why": "the title loses \"beastie boys\" — likely a different release"
+  "_mbid": "3359314f-4d06-3d15-9e68-42c192e4eb0b",
+  "_why": "the title loses \"screw\" — likely a different release"
  },
  {
-  "from": "Blood Incantation::Absolute Everywhere",
-  "to": "Blood Incantation::Absolute Elsewhere",
+  "from": "Kyle Dixon & Michael Stein::Stranger Things, Vol 1",
+  "to": "Kyle Dixon & Michael Stein::Stranger Things 2",
   "_pass": "artist",
   "_titleRatio": 0.222,
   "_artistRatio": 0,
-  "_mbid": "25267682-bdfc-435a-b6a7-89c266f7d0e8",
-  "_why": "the title gains \"elsewhere\" and loses \"everywhere\" — likely a different release; looser than the confident band"
+  "_mbid": "7508acf4-bdcb-477a-bf42-c4fd98017386",
+  "_why": "sequence number changed (Pt. 2 / Vol. 3 / Part One); looser than the confident band"
  },
  {
-  "from": "Corea::Los peores 7 km de mi vida",
-  "to": "Corea::Los peores 7 peores km de mi vida",
+  "from": "Pink Floyd::The Piper Gates of Dawn",
+  "to": "Pink Floyd::The Piper at the Gates of Dawn",
   "_pass": "artist",
-  "_titleRatio": 0.231,
+  "_titleRatio": 0.208,
   "_artistRatio": 0,
-  "_mbid": "c607f574-ca13-32e3-8ea4-078fd646076b",
+  "_mbid": "6792b6d1-4e65-3c3c-9d20-d08aa1dcfc60",
   "_why": "looser than the confident band"
  },
  {
-  "from": "DJ Screw::3 'n the Morning: Part II [Blue]",
-  "to": "DJ Screw::3 ’n the Mornin’, Part One",
+  "from": "Psychedelic Porn Crumpets::High Visceral pt. 1",
+  "to": "Psychedelic Porn Crumpets::High Visceral {Part One}",
   "_pass": "artist",
-  "_titleRatio": 0.273,
+  "_titleRatio": 0.263,
   "_artistRatio": 0,
-  "_mbid": "3359314f-4d06-3d15-9e68-42c192e4eb0b",
-  "_why": "the title loses \"blue\" — likely a different release; sequence number changed (Pt. 2 / Vol. 3 / Part One); the distinctive words differ, only the boilerplate matches; looser than the confident band"
+  "_mbid": "0e2c33ee-4b7e-44f9-b490-75ec01fdc2bf",
+  "_why": "looser than the confident band"
  },
  {
-  "from": "Drudkh::Кров у наших криницях (Blood in Our Wells)",
-  "to": "Drudkh::Кров у наших криницях",
+  "from": "Psychedelic Porn Crumpets::High Visceral pt. 2",
+  "to": "Psychedelic Porn Crumpets::High Visceral {Part One}",
   "_pass": "artist",
-  "_titleRatio": 0.05,
+  "_titleRatio": 0.263,
   "_artistRatio": 0,
-  "_mbid": "2beb8a9b-0e83-305c-abef-4e2d4b70751d",
-  "_why": "the title loses \"blood wells\" — likely a different release"
+  "_mbid": "0e2c33ee-4b7e-44f9-b490-75ec01fdc2bf",
+  "_why": "sequence number changed (Pt. 2 / Vol. 3 / Part One); looser than the confident band"
  }
 ]

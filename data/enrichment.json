@@ -733,7 +733,8 @@
    "chillout"
   ],
   "tried": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "rename_checked": "2026-09-21"
  },
  "The Cardigans::First Band on the Moon": {
   "status": "ok",
@@ -2021,7 +2022,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/ae5cabf2f03530fbcc3ca4589150035a/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "researched"
+  "genre_source": "researched",
+  "rename_checked": "2026-09-21"
  },
  "Neon Indian::Vegan INTL. Night School": {
   "status": "ok",
@@ -2441,7 +2443,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/9748f090fcc6d1414d997ed340aa4695/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "discogs"
+  "genre_source": "discogs",
+  "rename_checked": "2026-09-21"
  },
  "Linkin Park::Meteora": {
   "status": "ok",
@@ -6548,7 +6551,8 @@
    "jazz"
   ],
   "tried": "2026-09-20",
-  "genre_source": "researched"
+  "genre_source": "researched",
+  "rename_checked": "2026-09-21"
  },
  "2 Many DJ's::2ManyDJs Live at Kompass": {
   "status": "nomatch",
@@ -6717,7 +6721,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/b9a48cc0b2e2e7520c8a32cefb0e2f79/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "rename_checked": "2026-09-21"
  },
  "A Tribe Called Quest::We Got it From Here… Thank You 4 your Services": {
   "status": "ok",
@@ -18584,23 +18589,6 @@
   "checked": "2026-09-19",
   "cover_source_url": "https://coverartarchive.org/release-group/2b47f95d-333a-4fa4-b1a3-41b424285b54/front-500",
   "cover_cached": "2026-09-20"
- },
- "Corea::Los peores 7 km de mi vida": {
-  "status": "partial",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/55034ad17db83cea.jpg",
-  "cover_from": "deezer",
-  "genres": [
-   "emo",
-   "noise",
-   "sound collage",
-   "electronic",
-   "rock"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/a76ed3b0f09cc6a15e5a6e6603634b54/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "discogs"
  },
  "Cornelius::Point": {
   "status": "ok",
@@ -37242,7 +37230,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/1c8352a9fde32e9e019969032a07a603/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "discogs"
+  "genre_source": "discogs",
+  "rename_checked": "2026-09-21"
  },
  "Kirin J Calinan::Bravado": {
   "status": "ok",
@@ -37632,7 +37621,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/0c3b635d809633aaaa76c88eedca9090/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "rename_checked": "2026-09-21"
  },
  "Kyuss::Welcome to SKy Valley": {
   "status": "ok",
@@ -37883,7 +37873,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/7072c41c8a9c6d6557d57f5670e9a154/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "lastfm"
+  "genre_source": "lastfm",
+  "rename_checked": "2026-09-21"
  },
  "Lamp::恋人へ [For Lovers]": {
   "status": "nomatch",
@@ -37899,7 +37890,8 @@
    "city pop"
   ],
   "tried": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "rename_checked": "2026-09-21"
  },
  "Lana del Rey::Did you know that there is a tunnel under Ocean Blvd": {
   "status": "ok",
@@ -38500,7 +38492,8 @@
    "instrumental"
   ],
   "tried": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "rename_checked": "2026-09-21"
  },
  "Leon Vynehall::Nothing is Still": {
   "status": "ok",
@@ -39219,7 +39212,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/fc19a0767a4b2e13c885b8e596787f90/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "rename_checked": "2026-09-21"
  },
  "Linda Perhacs::Parallelograms": {
   "status": "ok",
@@ -40202,7 +40196,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/895d18c4c7a734dd69b6b411bb33bcdb/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "discogs"
+  "genre_source": "discogs",
+  "rename_checked": "2026-09-21"
  },
  "Los Prisioneros::Corazones": {
   "status": "ok",
@@ -42103,7 +42098,8 @@
    "rock"
   ],
   "tried": "2026-09-20",
-  "genre_source": "discogs"
+  "genre_source": "discogs",
+  "rename_checked": "2026-09-21"
  },
  "Masayoshi Takanaka::AN INSATIABLE HIGH": {
   "status": "nomatch",
@@ -42114,7 +42110,8 @@
    "jazz"
   ],
   "tried": "2026-09-20",
-  "genre_source": "discogs"
+  "genre_source": "discogs",
+  "rename_checked": "2026-09-21"
  },
  "Masayoshi Takanaka::TAKANAKA": {
   "status": "ok",
@@ -42145,7 +42142,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/0245da6981524b45f615257ff8fbf36b/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "discogs"
+  "genre_source": "discogs",
+  "rename_checked": "2026-09-21"
  },
  "Masayoshi Takanaka::Seychelles": {
   "status": "partial",
@@ -42159,7 +42157,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/e7c6ff089705392c21f509aa3a3f0aee/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "discogs"
+  "genre_source": "discogs",
+  "rename_checked": "2026-09-21"
  },
  "MASS OF THE FERMENTING DREGS::World is yours": {
   "status": "partial",
@@ -42174,7 +42173,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/c595214ee53a87d0bf1ead263c8a1b4c/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "lastfm"
+  "genre_source": "lastfm",
+  "rename_checked": "2026-09-21"
  },
  "MASS OF THE FERMENTING DREGS::MASS OF THE FERMENTING DREGS": {
   "status": "ok",
@@ -45020,7 +45020,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/cac30c43c6a5c79bfad41ee765a3f3e4/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "discogs"
+  "genre_source": "discogs",
+  "rename_checked": "2026-09-21"
  },
  "Mon Laferte::Autopoiética": {
   "status": "ok",
@@ -45611,7 +45612,8 @@
    "jazz"
   ],
   "tried": "2026-09-20",
-  "genre_source": "discogs"
+  "genre_source": "discogs",
+  "rename_checked": "2026-09-21"
  },
  "Murmuüre::Murmuüre": {
   "status": "ok",
@@ -46112,7 +46114,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/33890a570347f588b0a5d31480fc1d6c/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "rename_checked": "2026-09-21"
  },
  "Natalia Lafourcade::Musas": {
   "status": "ok",
@@ -47258,7 +47261,8 @@
    "microhouse"
   ],
   "tried": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "rename_checked": "2026-09-21"
  },
  "Nicolas Jaar::Cenizas": {
   "status": "ok",
@@ -50790,7 +50794,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/2ce3a33d1659ce59bccc5083a7fdf7c6/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "rename_checked": "2026-09-21"
  },
  "Pink Silfu'::GUMBO!": {
   "status": "ok",
@@ -51222,7 +51227,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/bf672dca888d6d495fcccb0457ed7e62/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "lastfm"
+  "genre_source": "lastfm",
+  "rename_checked": "2026-09-21"
  },
  "Polvo::Today's Active Lifestyles": {
   "status": "ok",
@@ -52424,7 +52430,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/5765e9faa0629e9b0475be88ce7ab5ab/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "rename_checked": "2026-09-21"
  },
  "Psychedelic Porn Crumpets::High Visceral pt. 2": {
   "status": "partial",
@@ -52442,7 +52449,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/5765e9faa0629e9b0475be88ce7ab5ab/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "rename_checked": "2026-09-21"
  },
  "Bronski Beat::The Age of Consent": {
   "status": "ok",
@@ -55589,7 +55597,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/6c43fe68dcef0e6c5622149d08d5eb4f/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "discogs"
+  "genre_source": "discogs",
+  "rename_checked": "2026-09-21"
  },
  "Ryuichi Sakamoto::async": {
   "status": "ok",
@@ -55638,7 +55647,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/45782627dd14d9509875a710f4943789/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "discogs"
+  "genre_source": "discogs",
+  "rename_checked": "2026-09-21"
  },
  "Sad Saturno::Destinados a Fallar": {
   "status": "ok",
@@ -56398,7 +56408,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/cb8a9d4761890dbe2e906bc6d3eab414/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "rename_checked": "2026-09-21"
  },
  "Seatbelts::Cowboy Bebop": {
   "status": "ok",
@@ -56728,7 +56739,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/8f8b14f44a7d39b9294089c3ff8f5b38/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "discogs"
+  "genre_source": "discogs",
+  "rename_checked": "2026-09-21"
  },
  "Sheer Mag::Need To Feel your Love": {
   "status": "ok",
@@ -56795,7 +56807,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/a470cd48c042ba84b10a2f7b7a47a0eb/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "rename_checked": "2026-09-21"
  },
  "Shiro Sagisu::The End of Evangelion": {
   "status": "partial",
@@ -56808,7 +56821,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/8ab52be3b0cf5d82316f9496a3cd77a0/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "discogs"
+  "genre_source": "discogs",
+  "rename_checked": "2026-09-21"
  },
  "Shiro Sagisu::Neon Genesis Evangelion (Original Series Soundtrack)": {
   "status": "nomatch",
@@ -56818,7 +56832,8 @@
    "jazz"
   ],
   "tried": "2026-09-20",
-  "genre_source": "lastfm"
+  "genre_source": "lastfm",
+  "rename_checked": "2026-09-21"
  },
  "Shlohmo::Vacation EP": {
   "status": "ok",
@@ -59340,7 +59355,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/9eeb77b16df4bdc870246ef38314fa35/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "rename_checked": "2026-09-21"
  },
  "Squid::Bright Green Field": {
   "status": "ok",
@@ -62925,7 +62941,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/52560aed836bb5f629e89e67a68f41a6/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "rename_checked": "2026-09-21"
  },
  "The Beach Boys::Endless Summer": {
   "status": "ok",
@@ -66592,7 +66609,8 @@
    "rock"
   ],
   "tried": "2026-09-20",
-  "genre_source": "discogs"
+  "genre_source": "discogs",
+  "rename_checked": "2026-09-21"
  },
  "The Police::Every Breath You Take: The Singles": {
   "status": "ok",
@@ -67608,7 +67626,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/a3ca7ccf760c1466f8e338c3ff5c952c/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "discogs"
+  "genre_source": "discogs",
+  "rename_checked": "2026-09-21"
  },
  "The Smashing Pumpkins::Adore": {
   "status": "ok",
@@ -69316,7 +69335,8 @@
    "math rock"
   ],
   "tried": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "rename_checked": "2026-09-21"
  },
  "The World Is a Beautiful Place and I Am No Longer Afraid to Die::Whenever, If Ever": {
   "status": "nomatch",
@@ -69332,7 +69352,8 @@
    "math rock"
   ],
   "tried": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "rename_checked": "2026-09-21"
  },
  "The Wrens::The Meadowlands": {
   "status": "ok",
@@ -69405,7 +69426,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/e2c1a1b3f7b6bb017a05b7c26ab08feb/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "discogs"
+  "genre_source": "discogs",
+  "rename_checked": "2026-09-21"
  },
  "The Zombies::Odessey & Oracle": {
   "status": "ok",
@@ -70920,7 +70942,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/9dcaa875b04d7135574dd16a527f9157/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "rename_checked": "2026-09-21"
  },
  "Tony Allen::A Tribute to Art Blakey and the Messengers": {
   "status": "ok",
@@ -77975,7 +77998,8 @@
    "black metal"
   ],
   "tried": "2026-09-20",
-  "genre_source": "researched"
+  "genre_source": "researched",
+  "rename_checked": "2026-09-21"
  },
  "Louis Jordan::Five Guys Named Moe: Original Decca Recordings Vol. 2": {
   "status": "ok",
@@ -78027,7 +78051,8 @@
    "post-industrial"
   ],
   "tried": "2026-09-20",
-  "genre_source": "lastfm"
+  "genre_source": "lastfm",
+  "rename_checked": "2026-09-21"
  },
  "Misfits::Beware": {
   "status": "ok",
@@ -78054,7 +78079,8 @@
    "electronic"
   ],
   "tried": "2026-09-20",
-  "genre_source": "researched"
+  "genre_source": "researched",
+  "rename_checked": "2026-09-21"
  },
  "Panchiko::Kicking Cars": {
   "status": "ok",
@@ -78081,7 +78107,8 @@
    "complextro"
   ],
   "tried": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "rename_checked": "2026-09-21"
  },
  "schnozz::berdlycore chapter 1": {
   "status": "nomatch",
@@ -78091,7 +78118,8 @@
    "dariacore"
   ],
   "tried": "2026-09-20",
-  "genre_source": "lastfm"
+  "genre_source": "lastfm",
+  "rename_checked": "2026-09-21"
  },
  "schnozz::berdlycore chapter 2": {
   "status": "nomatch",
@@ -78101,7 +78129,8 @@
    "dariacore"
   ],
   "tried": "2026-09-20",
-  "genre_source": "lastfm"
+  "genre_source": "lastfm",
+  "rename_checked": "2026-09-21"
  },
  "Secret Guest::Traumprinz B2B DJ Metatron Live at Planet Uterus": {
   "status": "nomatch",
@@ -78113,7 +78142,8 @@
    "electronic"
   ],
   "tried": "2026-09-20",
-  "genre_source": "researched"
+  "genre_source": "researched",
+  "rename_checked": "2026-09-21"
  },
  "Shibusashirazu Orchestra::Shibuboshi (渋星)": {
   "status": "nomatch",
@@ -78128,7 +78158,8 @@
    "big band"
   ],
   "tried": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "rename_checked": "2026-09-21"
  },
  "Sluason Malone::A Quiet Farewell, Twenty Sixteen to Twent Eighteen": {
   "status": "nomatch",
@@ -78139,7 +78170,8 @@
    "abstract hip hop"
   ],
   "tried": "2026-09-20",
-  "genre_source": "researched"
+  "genre_source": "researched",
+  "rename_checked": "2026-09-21"
  },
  "SLUG BAIT::HALLUCINEAGENEOLOGY": {
   "status": "nomatch",
@@ -78150,7 +78182,8 @@
    "experimental"
   ],
   "tried": "2026-09-20",
-  "genre_source": "researched"
+  "genre_source": "researched",
+  "rename_checked": "2026-09-21"
  },
  "The Gerogerigegege::燃えない灰 [Moenai Hai]": {
   "status": "ok",
@@ -78188,7 +78221,8 @@
    "gangsta rap"
   ],
   "tried": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "rename_checked": "2026-09-21"
  },
  "Universe Nekoko::Kimi No Youni Ikiretara": {
   "status": "nomatch",
@@ -78333,34 +78367,55 @@
   "cover_cached": "2026-09-20"
  },
  "Beastie Boys::Anthology: The Sounds of Science": {
-  "status": "partial",
+  "status": "ok",
+  "mbid": "c28843ed-6233-36e1-b98f-3ff0bbc62ecf",
   "genres": [
    "hip hop",
+   "hardcore punk",
+   "rock",
    "punk",
-   "boom bap",
-   "pop rap",
-   "rock"
+   "alternative hip hop"
   ],
-  "genre_source": "discogs"
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/c28843ed-6233-36e1-b98f-3ff0bbc62ecf/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "1999",
+  "checked": "2026-09-21"
  },
  "Blood Incantation::Absolute Elsewhere": {
-  "status": "partial",
+  "status": "ok",
+  "mbid": "25267682-bdfc-435a-b6a7-89c266f7d0e8",
   "genres": [
    "death metal",
-   "ambient",
    "progressive metal",
+   "metal",
+   "progressive rock",
+   "ambient",
+   "progressive",
    "space rock",
-   "electronic",
-   "rock"
+   "berlin school"
   ],
-  "genre_source": "discogs"
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/25267682-bdfc-435a-b6a7-89c266f7d0e8.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2024",
+  "checked": "2026-09-21",
+  "cover_source_url": "https://coverartarchive.org/release-group/25267682-bdfc-435a-b6a7-89c266f7d0e8/front-500",
+  "cover_cached": "2026-09-21"
  },
  "DJ Screw::DJ Screw — 3 ’n the Mornin’, Part One": {
-  "status": "partial",
+  "status": "ok",
+  "mbid": "3359314f-4d06-3d15-9e68-42c192e4eb0b",
   "genres": [
    "hip hop"
   ],
-  "genre_source": "discogs"
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3359314f-4d06-3d15-9e68-42c192e4eb0b.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1994",
+  "checked": "2026-09-21",
+  "cover_source_url": "https://coverartarchive.org/release-group/3359314f-4d06-3d15-9e68-42c192e4eb0b/front-500",
+  "cover_cached": "2026-09-21"
  },
  "Arvo Part::Tabula Rasa": {
   "status": "ok",
@@ -78405,10 +78460,12 @@
    "atmospheric black metal"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/324a25c1-a132-4fed-82c9-432cc2618d61/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/324a25c1-a132-4fed-82c9-432cc2618d61.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2024",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/324a25c1-a132-4fed-82c9-432cc2618d61/front-500",
+  "cover_cached": "2026-09-21"
  },
  "Кино::Чёрный альбом": {
   "status": "ok",
@@ -78419,10 +78476,12 @@
    "post-punk"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/ade86acf-8b9f-35ca-a4fa-3bd32b196513/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ade86acf-8b9f-35ca-a4fa-3bd32b196513.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1990",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/ade86acf-8b9f-35ca-a4fa-3bd32b196513/front-500",
+  "cover_cached": "2026-09-21"
  },
  "SBTRKT::SBTRKT": {
   "status": "ok",
@@ -78433,10 +78492,12 @@
    "future garage"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/1bdd4873-d334-47c7-85ab-1ce38e37cb69/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1bdd4873-d334-47c7-85ab-1ce38e37cb69.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2011",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/1bdd4873-d334-47c7-85ab-1ce38e37cb69/front-500",
+  "cover_cached": "2026-09-21"
  },
  "Justin Hurwitz::Whiplash: Original Motion Picture Soundtrack": {
   "status": "ok",
@@ -78446,10 +78507,12 @@
    "jazz"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/e0b56cbe-df98-4ab7-a5d6-d2f62b35eb34/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e0b56cbe-df98-4ab7-a5d6-d2f62b35eb34.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2014",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/e0b56cbe-df98-4ab7-a5d6-d2f62b35eb34/front-500",
+  "cover_cached": "2026-09-21"
  },
  "Beth Gibbons & Rustin Man::Out of Season": {
   "status": "ok",
@@ -78539,10 +78602,12 @@
    "experimental"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/32530b76-bb42-3b3f-80e7-35f1c5de6f0a/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/32530b76-bb42-3b3f-80e7-35f1c5de6f0a.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2001",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/32530b76-bb42-3b3f-80e7-35f1c5de6f0a/front-500",
+  "cover_cached": "2026-09-21"
  },
  "Antônio Carlos Jobim & Elis Regina::Elis & Tom": {
   "status": "ok",
@@ -79153,7 +79218,8 @@
    "ambient"
   ],
   "tried": "2026-09-20",
-  "genre_source": "researched"
+  "genre_source": "researched",
+  "rename_checked": "2026-09-21"
  },
  "Tabu Ley Rochereau::Tabu Ley Rochereau: The Voice of Lightness Vol 1 Album 1": {
   "status": "ok",
@@ -79180,7 +79246,8 @@
    "soft rock"
   ],
   "tried": "2026-09-20",
-  "genre_source": "researched"
+  "genre_source": "researched",
+  "rename_checked": "2026-09-21"
  },
  "Tatsuro Yamashita 山下達郎::For You": {
   "status": "nomatch",
@@ -79197,7 +79264,8 @@
    "pop"
   ],
   "tried": "2026-09-20",
-  "genre_source": "discogs"
+  "genre_source": "discogs",
+  "rename_checked": "2026-09-21"
  },
  "Tatsuro Yamashita 山下達郎::Ride on Time": {
   "status": "ok",
@@ -79247,7 +79315,8 @@
    "psychedelic rock"
   ],
   "tried": "2026-09-20",
-  "genre_source": "researched"
+  "genre_source": "researched",
+  "rename_checked": "2026-09-21"
  },
  "Westside Gunn & Conway the Machine::Griselda Ghost": {
   "status": "ok",
@@ -79285,5 +79354,34 @@
   ],
   "tried": "2026-09-20",
   "genre_source": "researched"
+ },
+ "Corea::Los peores 7 peores km de mi vida": {
+  "status": "ok",
+  "mbid": "c607f574-ca13-32e3-8ea4-078fd646076b",
+  "genres": [
+   "screamo"
+  ],
+  "genre_source": "artist",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c607f574-ca13-32e3-8ea4-078fd646076b.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2004",
+  "checked": "2026-09-21",
+  "cover_source_url": "https://coverartarchive.org/release-group/c607f574-ca13-32e3-8ea4-078fd646076b/front-500",
+  "cover_cached": "2026-09-21"
+ },
+ "Hesse Kassel::Morir Saltando": {
+  "status": "ok",
+  "mbid": "9346c6ab-d09e-4a71-aa32-8d6e1bd44116",
+  "genres": [
+   "art rock",
+   "post-rock"
+  ],
+  "genre_source": "artist",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9346c6ab-d09e-4a71-aa32-8d6e1bd44116.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2026",
+  "checked": "2026-09-21",
+  "cover_source_url": "https://coverartarchive.org/release-group/9346c6ab-d09e-4a71-aa32-8d6e1bd44116/front-500",
+  "cover_cached": "2026-09-21"
  }
 }

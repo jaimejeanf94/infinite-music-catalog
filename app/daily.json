@@ -2,47 +2,47 @@
  "date": "2026-09-21",
  "picks": [
   {
-   "artist": "PUP",
-   "title": "Morbid Stuff",
-   "year": 2019,
+   "artist": "Pulp",
+   "title": "This is Hardcore",
+   "year": 1995,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/638e7589-40ba-4e1c-ac28-cbbf4d3f5fcf.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1ab343e8-490d-32a6-a6c8-1e56cf33c888.jpg",
    "genres": [
-    "punk",
-    "punk rock",
-    "indie rock"
+    "rock",
+    "britpop",
+    "alternative rock"
    ]
   },
   {
    "artist": "Sleater-Kinney",
-   "title": "One Beat",
-   "year": 2002,
+   "title": "No Cities To Love",
+   "year": 2015,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/55f3d073-ec82-3cb2-a1d8-0f47aa639ad2.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/aeacebc7-34fc-44ff-bde9-779e6fde7ade.jpg",
    "genres": [
+    "alternative rock",
     "indie rock",
-    "rock",
-    "garage rock"
+    "rock"
    ]
   },
   {
-   "artist": "Esoteric",
-   "title": "The Maniacal Vale",
-   "year": 2008,
+   "artist": "Basic Channel",
+   "title": "Quadrant Dub",
+   "year": 1994,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1c7442a5-430a-32b8-984c-50a588d906cd.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/08cd4c08-0233-3c3d-9acc-a4f7fb6beedd.jpg",
    "genres": [
-    "funeral doom metal",
-    "rock",
-    "death metal"
+    "dub techno",
+    "electronic",
+    "deep house"
    ]
   },
   {
    "artist": "The Beatles",
-   "title": "A Hard Day's Night",
-   "year": 1964,
-   "score": 80,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/06281c4d-112d-33b0-a25b-df63b420eae7.jpg",
+   "title": "1967-1970",
+   "year": 1973,
+   "score": 100,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f2e0599e-222b-37a5-8544-2f68ce65fd66.jpg",
    "genres": [
     "rock",
     "pop",
@@ -50,15 +50,15 @@
    ]
   },
   {
-   "artist": "Kaiser Chiefs",
-   "title": "off with Their Heads",
-   "year": 2008,
-   "score": 75,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/35ac4b90-7caa-3b6e-bcff-004a949ef598.jpg",
+   "artist": "John Coltrane & Duke Ellington",
+   "title": "Duke Ellington & John Coltrane",
+   "year": 1963,
+   "score": 70,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/caf2a0e9-2cb9-4b1d-9549-5e3b7201edaf.jpg",
    "genres": [
-    "indie rock",
-    "pop rock",
-    "rock"
+    "jazz",
+    "swing",
+    "big band"
    ]
   }
  ],
@@ -66,11 +66,11 @@
   {
    "date": "2026-09-21",
    "keys": [
-    "PUP::Morbid Stuff",
-    "Sleater-Kinney::One Beat",
-    "Esoteric::The Maniacal Vale",
-    "The Beatles::A Hard Day's Night",
-    "Kaiser Chiefs::off with Their Heads"
+    "Pulp::This is Hardcore",
+    "Sleater-Kinney::No Cities To Love",
+    "Basic Channel::Quadrant Dub",
+    "The Beatles::1967-1970",
+    "John Coltrane & Duke Ellington::Duke Ellington & John Coltrane"
    ]
   },
   {

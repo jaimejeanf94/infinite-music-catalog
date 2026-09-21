@@ -1,11 +1,11 @@
 {
- "generated": "2026-09-21T01:11:08.021Z",
+ "generated": "2026-09-21T04:00:36.138Z",
  "totals": {
-  "albums": 4414,
-  "rated": 396,
-  "withCover": 4414,
-  "withGenres": 4414,
-  "matched": 4268
+  "albums": 4415,
+  "rated": 397,
+  "withCover": 4415,
+  "withGenres": 4415,
+  "matched": 4273
  },
  "sections": [
   {
@@ -152,12 +152,12 @@
      "note": "shelf 2010 vs MusicBrainz 1995"
     },
     {
-     "artist": "John Coltrane & Duke Ellington",
+     "artist": "John Coltrane & Duke Ellington",
      "title": "Duke Ellington & John Coltrane",
      "note": "shelf 1963 vs MusicBrainz 1987"
     },
     {
-     "artist": "John Coltrane & Milt Jackson",
+     "artist": "John Coltrane & Milt Jackson",
      "title": "Bags & Trane",
      "note": "shelf 1961 vs MusicBrainz 2012"
     },
@@ -192,7 +192,7 @@
      "note": "shelf 2002 vs MusicBrainz 1980"
     },
     {
-     "artist": "Nobuo Uematsu 植松伸夫",
+     "artist": "Nobuo Uematsu 植松伸夫",
      "title": "Final Fantasy VII",
      "note": "shelf 1997 vs MusicBrainz 2020"
     },
@@ -218,7 +218,7 @@
     },
     {
      "artist": "Tabu Ley Rochereau",
-     "title": "Tabu Ley Rochereau: The Voice of Lightness Vol 1 Album 1",
+     "title": "Tabu Ley Rochereau: The Voice of Lightness Vol 1 Album 1",
      "note": "shelf 2007 vs MusicBrainz 1984"
     },
     {
@@ -422,7 +422,7 @@
      "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b1c5ea39-8f96-355b-bfe4-84a7805db75f.jpg"
     },
     {
-     "artist": "Tatsuro Yamashita 山下達郎",
+     "artist": "Tatsuro Yamashita 山下達郎",
      "title": "Big Wave",
      "note": "Big Wave  /  For You",
      "subject": "cover:https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/71/26/d8/7126d88b-7cf5-5ba5-7043-f1d26a8dd87f/jacket_MHXX00766B00Z_550.jpg/600x600bb.jpg"
@@ -532,27 +532,57 @@
    "title": "Name corrections held back",
    "why": "The nightly scan found these but would not apply them: a changed sequence number, a gained or lost word, or a dropped collaborator.",
    "action": "rename",
-   "count": 2,
+   "count": 5,
    "items": [
     {
-     "artist": "Corea",
-     "title": "Los peores 7 km de mi vida",
-     "note": "Corea — Los peores 7 peores km de mi vida   (looser than the confident band)",
+     "artist": "DJ Screw",
+     "title": "DJ Screw — 3 ’n the Mornin’, Part One",
+     "note": "DJ Screw — 3 ’n the Mornin’, Part One   (the title loses \"screw\" — likely a different release)",
      "suggest": {
-      "artist": "Corea",
-      "title": "Los peores 7 peores km de mi vida"
+      "artist": "DJ Screw",
+      "title": "3 ’n the Mornin’, Part One"
      },
-     "subject": "rename:Corea::Los peores 7 km de mi vida"
+     "subject": "rename:DJ Screw::DJ Screw — 3 ’n the Mornin’, Part One"
     },
     {
-     "artist": "Drudkh",
-     "title": "Кров у наших криницях (Blood in Our Wells)",
-     "note": "Drudkh — Кров у наших криницях   (the title loses \"blood wells\" — likely a different release)",
+     "artist": "Kyle Dixon & Michael Stein",
+     "title": "Stranger Things, Vol 1",
+     "note": "Kyle Dixon & Michael Stein — Stranger Things 2   (sequence number changed (Pt. 2 / Vol. 3 / Part One); looser than the confident band)",
      "suggest": {
-      "artist": "Drudkh",
-      "title": "Кров у наших криницях"
+      "artist": "Kyle Dixon & Michael Stein",
+      "title": "Stranger Things 2"
      },
-     "subject": "rename:Drudkh::Кров у наших криницях (Blood in Our Wells)"
+     "subject": "rename:Kyle Dixon & Michael Stein::Stranger Things, Vol 1"
+    },
+    {
+     "artist": "Pink Floyd",
+     "title": "The Piper Gates of Dawn",
+     "note": "Pink Floyd — The Piper at the Gates of Dawn   (looser than the confident band)",
+     "suggest": {
+      "artist": "Pink Floyd",
+      "title": "The Piper at the Gates of Dawn"
+     },
+     "subject": "rename:Pink Floyd::The Piper Gates of Dawn"
+    },
+    {
+     "artist": "Psychedelic Porn Crumpets",
+     "title": "High Visceral pt. 1",
+     "note": "Psychedelic Porn Crumpets — High Visceral {Part One}   (looser than the confident band)",
+     "suggest": {
+      "artist": "Psychedelic Porn Crumpets",
+      "title": "High Visceral {Part One}"
+     },
+     "subject": "rename:Psychedelic Porn Crumpets::High Visceral pt. 1"
+    },
+    {
+     "artist": "Psychedelic Porn Crumpets",
+     "title": "High Visceral pt. 2",
+     "note": "Psychedelic Porn Crumpets — High Visceral {Part One}   (sequence number changed (Pt. 2 / Vol. 3 / Part One); looser than the confident band)",
+     "suggest": {
+      "artist": "Psychedelic Porn Crumpets",
+      "title": "High Visceral {Part One}"
+     },
+     "subject": "rename:Psychedelic Porn Crumpets::High Visceral pt. 2"
     }
    ]
   },
