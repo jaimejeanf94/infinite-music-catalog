@@ -12,17 +12,23 @@ const CHUNK = 60;   // tiles rendered per "page" — 4.4k at once would crawl
 // using them directly would line the offsets up into vertical stripes once the
 // grid settled on a column count.
 //
-// Symmetric around zero, which the old range (0..20) was not. Because a
-// transform does not affect layout, a tile that only ever moved DOWN hung its
-// title past the bottom of its grid row -- and the row gap was 16px, so a 20px
-// lift put the text on the next row's artwork. Now tiles rise as often as they
-// fall, and the gap below is wide enough to swallow both.
-const LIFTS = [0, -8, 5, -4, 10, -10, 3];
+// These are MAGNITUDES, always positive. Which way a tile actually moves is
+// decided in CSS, by whether it sits on an odd or an even position in the
+// wall, so the row genuinely alternates down-up-down-up instead of taking
+// seven signed values from a hash -- that read as scatter, not as a zig-zag.
+// Keeping the amplitude here, keyed to the album, is what stops the
+// alternation looking mechanical: the wall zigs regularly and by a different
+// distance every time.
+//
+// The ceiling is 16px. A transform does not affect layout, so everything here
+// is borrowed from the row gap below: a tile pushed 16px down can meet one
+// pulled 16px up, and .grid has to cover the whole 32px and still leave air.
+const LIFTS = [16, 10, 14, 8, 15, 11, 13];
 
 // A little sideways drift as well, so the wall reads as a collage rather than
 // a grid that has slipped. Kept to a third of the column gap, so two
 // neighbours leaning towards each other still cannot touch.
-const DRIFTS = [0, 3, -2, 4, -4, 1, -3];
+const DRIFTS = [0, 4, -3, 5, -5, 2, -4];
 
 const slot = (id, table) =>
   table[(Math.imul(id, 2654435761) >>> 0) % table.length];

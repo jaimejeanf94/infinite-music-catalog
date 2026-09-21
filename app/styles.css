@@ -221,16 +221,29 @@ main { max-width: 1100px; margin: 0 auto; padding: 20px 16px 40px; }
 .count { color: var(--ink-dim); font-size: 13px; margin-bottom: 14px; }
 
 /* The row gap has to clear the stagger, not just look right. A tile can be
-   pushed 10px down and the one below it pulled 10px up, so 20px of this gap is
-   spoken for before any text is drawn -- at the old 16px the two overlapped,
-   which is how titles ended up printed across the next row's artwork. 40px
-   leaves 20px of real air in the worst case and reads as generous in the
-   common one. --jitter scales the whole effect down on narrow screens, where
-   the columns are 104px and the same offsets would look like a fault. */
+   pushed 16px down and the one below it pulled 16px up, so 32px of this gap is
+   spoken for before any text is drawn -- at the original 16px the two
+   overlapped, which is how titles ended up printed across the next row's
+   artwork. 52px leaves 20px of real air in the worst case.
+
+   (The worst case only happens when the column count is odd. With an even
+   number of columns a tile and the one directly below it share a parity, so
+   they lean the same way and keep their distance -- but auto-fill decides the
+   count from the viewport, so the gap has to assume the bad one.)
+
+   --jitter scales the whole effect down on narrow screens, where the columns
+   are 104px and the same offsets would look like a fault. */
 .grid {
   display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 40px 18px; padding-bottom: 24px; --jitter: 1;
+  gap: 52px 18px; padding-bottom: 24px; --jitter: 1;
 }
+
+/* The zig-zag itself. Direction comes from the tile's position in the wall so
+   that neighbours always disagree, which is what makes it read as alternating
+   rather than as noise; the distance comes from the album, so no two steps are
+   the same size. */
+.tile:nth-child(odd)  { --dir: -1; }
+.tile:nth-child(even) { --dir:  1; }
 .tile {
   background: none; border: 0; padding: 0; text-align: left;
   cursor: pointer; color: inherit; min-width: 0;
@@ -242,7 +255,7 @@ main { max-width: 1100px; margin: 0 auto; padding: 20px 16px 40px; }
   flex-direction: column;
   align-self: start;
   transform: translate(calc(var(--drift, 0px) * var(--jitter)),
-                       calc(var(--lift, 0px) * var(--jitter)));
+                       calc(var(--lift, 0px) * var(--dir, 1) * var(--jitter)));
 }
 .tile__art { position: relative; aspect-ratio: 1; margin-bottom: 11px; }
 .tile:hover .art { outline: 2px solid var(--accent); outline-offset: 0; }
@@ -304,7 +317,7 @@ main { max-width: 1100px; margin: 0 auto; padding: 20px 16px 40px; }
   .card__title { font-size: 24px; }
   .grid {
     grid-template-columns: repeat(auto-fill, minmax(104px, 1fr));
-    gap: 26px 12px; --jitter: 0.5;
+    gap: 32px 12px; --jitter: 0.5;
   }
   .tile__title { font-size: 13px; min-height: 2.5em; }
   .slider input { width: 100%; }
