@@ -60,6 +60,19 @@ const UA = "InfiniteMusicCatalog/1.0 (https://github.com/jaimejean/infinite-musi
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const today = new Date().toISOString().slice(0, 10);
 
+// One clock per service, so waits never stack. Each call waits only until its
+// own service's gap has passed since that service was last asked -- a call to
+// MusicBrainz does not wait on Apple, and vice versa. The waits used to be
+// written out after every call and again at the end of every album, which
+// asked each album to wait about three times longer than either limit
+// requires: the whole shelf took most of a night where it needs a few hours.
+const last = { apple: 0, musicbrainz: 0 };
+async function turn(service, gap) {
+  const wait = last[service] + gap - Date.now();
+  if (wait > 0) await sleep(wait);
+  last[service] = Date.now();
+}
+
 // enrich.mjs holds the whole store in memory and rewrites it wholesale, so it
 // would undo everything written here on its next save.
 if (!DRY) {
@@ -129,6 +142,7 @@ function rank(results, artist, title) {
 async function apple(path) {
   const url = `https://itunes.apple.com/${path}&country=${COUNTRY}`;
   for (let i = 0; i < 3; i++) {
+    await turn("apple", GAP);
     const res = await fetch(url);
     if (res.ok) return (await res.json()).results || [];
     // 403 and 429 both mean "slow down" here; back off and try again.
@@ -142,6 +156,7 @@ const search = (term, limit) =>
 
 async function mbFetch(path) {
   for (let i = 0; i < 3; i++) {
+    await turn("musicbrainz", MB_GAP);
     const res = await fetch(`https://musicbrainz.org/ws/2${path}`, { headers: { "User-Agent": UA } });
     if (res.ok) return res.json();
     if (res.status === 503 && i < 2) { await sleep(3000 * (i + 1)); continue; }
@@ -170,14 +185,19 @@ const tidy = (url) => url.replace(/\?.*$/, "");
 
 async function lookup(artist, title, mbid) {
   // ── by identity ──
+  // Every edition in one request -- the lookup takes a list of ids -- then the
+  // first, in MusicBrainz's order, that the store here carries. One call where
+  // an album with several editions used to cost one call each.
   const ids = mbid ? await idsFromMusicBrainz(mbid) : [];
-  if (mbid) await sleep(MB_GAP);
-  for (const id of ids.slice(0, 3)) {
-    const hit = (await apple(`lookup?id=${id}`))[0];
-    await sleep(GAP);
-    if (hit?.collectionViewUrl && Listen.isAppleAlbumUrl(tidy(hit.collectionViewUrl))) {
-      return { apple_status: "ok", apple_url: tidy(hit.collectionViewUrl),
-               apple_title: hit.collectionName, apple_via: "musicbrainz" };
+  if (ids.length) {
+    const carried = new Map((await apple(`lookup?id=${ids.slice(0, 25).join(",")}`))
+      .map((hit) => [String(hit.collectionId), hit]));
+    for (const id of ids) {
+      const hit = carried.get(id);
+      if (hit?.collectionViewUrl && Listen.isAppleAlbumUrl(tidy(hit.collectionViewUrl))) {
+        return { apple_status: "ok", apple_url: tidy(hit.collectionViewUrl),
+                 apple_title: hit.collectionName, apple_via: "musicbrainz" };
+      }
     }
   }
 
@@ -187,10 +207,7 @@ async function lookup(artist, title, mbid) {
   // push the record off the first page -- the title alone, with the artist
   // checked here rather than trusted to the search.
   let ranked = rank(await search(`${artist} ${title}`, 10), artist, title);
-  if (!ranked.length) {
-    await sleep(GAP);
-    ranked = rank(await search(title, 25), artist, title);
-  }
+  if (!ranked.length) ranked = rank(await search(title, 25), artist, title);
   const best = ranked[0];
 
   // MusicBrainz knows a link, but Mexico's store would not confirm it, and
@@ -278,7 +295,6 @@ for (const [i, a] of batch.entries()) {
   }
   if (!DRY && ((i + 1) % 20 === 0 || i === batch.length - 1)) save();
   if ((i + 1) % 50 === 0) console.log(`  ${i + 1}/${batch.length}`);
-  await sleep(GAP);
 }
 
 console.log(`\nlinked:       ${tally.ok}`);
