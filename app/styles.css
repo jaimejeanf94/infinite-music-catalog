@@ -1008,8 +1008,15 @@ button.hs__item:focus-visible { outline: 2px solid var(--accent); outline-offset
 .hs__act:focus-visible { opacity: 1; outline: 2px solid var(--accent); outline-offset: 1px; }
 .hs__act--go { color: var(--accent-text); border-color: var(--accent-text); }
 
-/* A settled row stays visible but recedes: you can see what you decided, and
-   undo it, without it competing with what is still open. */
+/* A settled row is out of the list by default; the line at the foot of the
+   list brings the section's settled rows back so a verdict can be undone.
+   Its control is always lit -- it is not a per-row verdict, so the rule that
+   keeps those recessive until hover does not apply to it. */
+.hs__reveal { padding: 10px 6px 4px; }
+.hs__reveal .hs__act { opacity: 1; }
+
+/* When they are shown, they recede: you can see what you decided, and undo
+   it, without it competing with what is still open. */
 .hs__row--settled .hs__item { opacity: 0.4; }
 .hs__row--flagged { border-left: 2px solid var(--warn); }
 .hs__row--flagged .hs__item { border-left-color: transparent; }

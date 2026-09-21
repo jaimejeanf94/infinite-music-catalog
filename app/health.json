@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-21T04:00:36.138Z",
+ "generated": "2026-09-21T06:59:03.976Z",
  "totals": {
   "albums": 4415,
   "rated": 397,
@@ -34,452 +34,461 @@
     {
      "artist": "Aliyah's Interlude",
      "title": "KUNTOLOGY 101 EP",
-     "note": "shelf 1998 vs MusicBrainz 2026"
+     "note": "shelf 1998 vs MusicBrainz 2026",
+     "suggest": {
+      "year": "2026"
+     },
+     "apply": "Use 2026"
     },
     {
      "artist": "Art Blakey & The Jazz Messengers",
      "title": "Moanin'",
-     "note": "shelf 1958 vs MusicBrainz 2001"
+     "note": "shelf 1958 vs MusicBrainz 2001",
+     "suggest": {
+      "year": "2001"
+     },
+     "apply": "Use 2001"
     },
     {
      "artist": "Belle and Sebastian",
      "title": "The Boy with the Arab Strap",
-     "note": "shelf 1998 vs MusicBrainz 2020"
+     "note": "shelf 1998 vs MusicBrainz 2020",
+     "suggest": {
+      "year": "2020"
+     },
+     "apply": "Use 2020"
     },
     {
      "artist": "billy woods",
      "title": "Aethiopes",
-     "note": "shelf 1998 vs MusicBrainz 2022"
+     "note": "shelf 1998 vs MusicBrainz 2022",
+     "suggest": {
+      "year": "2022"
+     },
+     "apply": "Use 2022"
     },
     {
      "artist": "Bob Dylan",
      "title": "Greatest Hits Volume 3 (Bob Dylan)",
-     "note": "shelf 1994 vs MusicBrainz 1967"
+     "note": "shelf 1994 vs MusicBrainz 1967",
+     "suggest": {
+      "year": "1967"
+     },
+     "apply": "Use 1967"
     },
     {
      "artist": "Bob Marley",
      "title": "Legend",
-     "note": "shelf 1980 vs MusicBrainz 2008"
+     "note": "shelf 1980 vs MusicBrainz 2008",
+     "suggest": {
+      "year": "2008"
+     },
+     "apply": "Use 2008"
     },
     {
      "artist": "Boredoms",
      "title": "Super ae",
-     "note": "shelf 2022 vs MusicBrainz 1998"
+     "note": "shelf 2022 vs MusicBrainz 1998",
+     "suggest": {
+      "year": "1998"
+     },
+     "apply": "Use 1998"
     },
     {
      "artist": "By Storm",
      "title": "My Ghosts Go Ghost",
-     "note": "shelf 1984 vs MusicBrainz 2026"
+     "note": "shelf 1984 vs MusicBrainz 2026",
+     "suggest": {
+      "year": "2026"
+     },
+     "apply": "Use 2026"
     },
     {
      "artist": "Cat Power",
      "title": "Moon Pix",
-     "note": "shelf 2022 vs MusicBrainz 1998"
+     "note": "shelf 2022 vs MusicBrainz 1998",
+     "suggest": {
+      "year": "1998"
+     },
+     "apply": "Use 1998"
     },
     {
      "artist": "Deep Purple",
      "title": "Made in Japan",
-     "note": "shelf 1972 vs MusicBrainz 2014"
+     "note": "shelf 1972 vs MusicBrainz 2014",
+     "suggest": {
+      "year": "2014"
+     },
+     "apply": "Use 2014"
     },
     {
      "artist": "Dire Straits",
      "title": "Greatest Hits",
-     "note": "shelf 1980 vs MusicBrainz 2008"
+     "note": "shelf 1980 vs MusicBrainz 2008",
+     "suggest": {
+      "year": "2008"
+     },
+     "apply": "Use 2008"
     },
     {
      "artist": "Eagles",
      "title": "Greatest Hits (Eagles)",
-     "note": "shelf 1976 vs MusicBrainz 2010"
+     "note": "shelf 1976 vs MusicBrainz 2010",
+     "suggest": {
+      "year": "2010"
+     },
+     "apply": "Use 2010"
     },
     {
      "artist": "Elvis Costello and the Attractions",
      "title": "Armed Forces",
-     "note": "shelf 1979 vs MusicBrainz 2002"
+     "note": "shelf 1979 vs MusicBrainz 2002",
+     "suggest": {
+      "year": "2002"
+     },
+     "apply": "Use 2002"
     },
     {
      "artist": "Fatboy Slim",
      "title": "Why Try Harder",
-     "note": "shelf 2023 vs MusicBrainz 2006"
+     "note": "shelf 2023 vs MusicBrainz 2006",
+     "suggest": {
+      "year": "2006"
+     },
+     "apply": "Use 2006"
     },
     {
      "artist": "Fela Kuti & Africa 70",
      "title": "Confusion",
-     "note": "shelf 1975 vs MusicBrainz 1990"
+     "note": "shelf 1975 vs MusicBrainz 1990",
+     "suggest": {
+      "year": "1990"
+     },
+     "apply": "Use 1990"
     },
     {
      "artist": "Fishmans",
      "title": "宇宙 日本 世田谷 [Uchū Nippon Setagaya]",
-     "note": "shelf 2020 vs MusicBrainz 1997"
+     "note": "shelf 2020 vs MusicBrainz 1997",
+     "suggest": {
+      "year": "1997"
+     },
+     "apply": "Use 1997"
     },
     {
      "artist": "Flotation Toy Warning",
      "title": "Bluffer's guide to the flight deck",
-     "note": "shelf 2024 vs MusicBrainz 2004"
+     "note": "shelf 2024 vs MusicBrainz 2004",
+     "suggest": {
+      "year": "2004"
+     },
+     "apply": "Use 2004"
     },
     {
      "artist": "Gal Costa",
      "title": "Gal (1969)",
-     "note": "shelf 1969 vs MusicBrainz 1992"
+     "note": "shelf 1969 vs MusicBrainz 1992",
+     "suggest": {
+      "year": "1992"
+     },
+     "apply": "Use 1992"
     },
     {
      "artist": "Harmonium",
      "title": "Si on avait besoin d'une cinquième saison",
-     "note": "shelf 1975 vs MusicBrainz 2001"
+     "note": "shelf 1975 vs MusicBrainz 2001",
+     "suggest": {
+      "year": "2001"
+     },
+     "apply": "Use 2001"
     },
     {
      "artist": "hemlocke springs",
      "title": "the apple tree under the sea",
-     "note": "shelf 1996 vs MusicBrainz 2026"
+     "note": "shelf 1996 vs MusicBrainz 2026",
+     "suggest": {
+      "year": "2026"
+     },
+     "apply": "Use 2026"
     },
     {
      "artist": "James Brown",
      "title": "Live at the Apollo",
-     "note": "shelf 1963 vs MusicBrainz 1995"
+     "note": "shelf 1963 vs MusicBrainz 1995",
+     "suggest": {
+      "year": "1995"
+     },
+     "apply": "Use 1995"
     },
     {
      "artist": "Jimmy Cliff",
      "title": "The Harder They Come",
-     "note": "shelf 1972 vs MusicBrainz 2005"
+     "note": "shelf 1972 vs MusicBrainz 2005",
+     "suggest": {
+      "year": "2005"
+     },
+     "apply": "Use 2005"
     },
     {
      "artist": "João Gilberto; Stan Getz",
      "title": "Getz/Gilberto",
-     "note": "shelf 1963 vs MusicBrainz 1989"
+     "note": "shelf 1963 vs MusicBrainz 1989",
+     "suggest": {
+      "year": "1989"
+     },
+     "apply": "Use 1989"
     },
     {
      "artist": "Joe Satriani",
      "title": "Essential Joe Satriani 2",
-     "note": "shelf 2010 vs MusicBrainz 1995"
+     "note": "shelf 2010 vs MusicBrainz 1995",
+     "suggest": {
+      "year": "1995"
+     },
+     "apply": "Use 1995"
     },
     {
      "artist": "John Coltrane & Duke Ellington",
      "title": "Duke Ellington & John Coltrane",
-     "note": "shelf 1963 vs MusicBrainz 1987"
+     "note": "shelf 1963 vs MusicBrainz 1987",
+     "suggest": {
+      "year": "1987"
+     },
+     "apply": "Use 1987"
     },
     {
      "artist": "John Coltrane & Milt Jackson",
      "title": "Bags & Trane",
-     "note": "shelf 1961 vs MusicBrainz 2012"
+     "note": "shelf 1961 vs MusicBrainz 2012",
+     "suggest": {
+      "year": "2012"
+     },
+     "apply": "Use 2012"
     },
     {
      "artist": "Masayoshi Takanaka",
      "title": "TAKANAKA",
-     "note": "shelf 1977 vs MusicBrainz 1992"
+     "note": "shelf 1977 vs MusicBrainz 1992",
+     "suggest": {
+      "year": "1992"
+     },
+     "apply": "Use 1992"
     },
     {
      "artist": "MC5",
      "title": "Kick Out The Jams",
-     "note": "shelf 1969 vs MusicBrainz 2012"
+     "note": "shelf 1969 vs MusicBrainz 2012",
+     "suggest": {
+      "year": "2012"
+     },
+     "apply": "Use 2012"
     },
     {
      "artist": "Metallica",
      "title": "The Black Album",
-     "note": "shelf 1991 vs MusicBrainz 2024"
+     "note": "shelf 1991 vs MusicBrainz 2024",
+     "suggest": {
+      "year": "2024"
+     },
+     "apply": "Use 2024"
     },
     {
      "artist": "Miles Davis",
      "title": "Miles Davis",
-     "note": "shelf 1974 vs MusicBrainz 1959"
+     "note": "shelf 1974 vs MusicBrainz 1959",
+     "suggest": {
+      "year": "1959"
+     },
+     "apply": "Use 1959"
     },
     {
      "artist": "Neil Young",
      "title": "Hitchhiker",
-     "note": "shelf 1976 vs MusicBrainz 2017"
+     "note": "shelf 1976 vs MusicBrainz 2017",
+     "suggest": {
+      "year": "2017"
+     },
+     "apply": "Use 2017"
     },
     {
      "artist": "Nirvana",
      "title": "Nirvana",
-     "note": "shelf 2002 vs MusicBrainz 1980"
+     "note": "shelf 2002 vs MusicBrainz 1980",
+     "suggest": {
+      "year": "1980"
+     },
+     "apply": "Use 1980"
     },
     {
      "artist": "Nobuo Uematsu 植松伸夫",
      "title": "Final Fantasy VII",
-     "note": "shelf 1997 vs MusicBrainz 2020"
+     "note": "shelf 1997 vs MusicBrainz 2020",
+     "suggest": {
+      "year": "2020"
+     },
+     "apply": "Use 2020"
     },
     {
      "artist": "Radiohead",
      "title": "OK Computer OKNOTOK",
-     "note": "shelf 2017 vs MusicBrainz 1997"
+     "note": "shelf 2017 vs MusicBrainz 1997",
+     "suggest": {
+      "year": "1997"
+     },
+     "apply": "Use 1997"
     },
     {
      "artist": "Santana",
      "title": "Santana",
-     "note": "shelf 1969 vs MusicBrainz 1995"
+     "note": "shelf 1969 vs MusicBrainz 1995",
+     "suggest": {
+      "year": "1995"
+     },
+     "apply": "Use 1995"
     },
     {
      "artist": "Seatbelts",
      "title": "Cowboy Bebop",
-     "note": "shelf 1998 vs MusicBrainz 2021"
+     "note": "shelf 1998 vs MusicBrainz 2021",
+     "suggest": {
+      "year": "2021"
+     },
+     "apply": "Use 2021"
     },
     {
      "artist": "Slint",
      "title": "[untitled]",
-     "note": "shelf 1994 vs MusicBrainz 2026"
+     "note": "shelf 1994 vs MusicBrainz 2026",
+     "suggest": {
+      "year": "2026"
+     },
+     "apply": "Use 2026"
     },
     {
      "artist": "Tabu Ley Rochereau",
      "title": "Tabu Ley Rochereau: The Voice of Lightness Vol 1 Album 1",
-     "note": "shelf 2007 vs MusicBrainz 1984"
+     "note": "shelf 2007 vs MusicBrainz 1984",
+     "suggest": {
+      "year": "1984"
+     },
+     "apply": "Use 1984"
     },
     {
      "artist": "The Beatles",
      "title": "The Beatles (White Album) [2018 Mix]",
-     "note": "shelf 1968 vs MusicBrainz 2000"
+     "note": "shelf 1968 vs MusicBrainz 2000",
+     "suggest": {
+      "year": "2000"
+     },
+     "apply": "Use 2000"
     },
     {
      "artist": "The Cars",
      "title": "Greatest Hits",
-     "note": "shelf 1985 vs MusicBrainz 2008"
+     "note": "shelf 1985 vs MusicBrainz 2008",
+     "suggest": {
+      "year": "2008"
+     },
+     "apply": "Use 2008"
     },
     {
      "artist": "The Faith/ The Void",
      "title": "The Faith/ The Void",
-     "note": "shelf 1982 vs MusicBrainz 2026"
+     "note": "shelf 1982 vs MusicBrainz 2026",
+     "suggest": {
+      "year": "2026"
+     },
+     "apply": "Use 2026"
     },
     {
      "artist": "The Flying Burrito Brothers",
      "title": "The Gilded Palace of Sin",
-     "note": "shelf 1969 vs MusicBrainz 1997"
+     "note": "shelf 1969 vs MusicBrainz 1997",
+     "suggest": {
+      "year": "1997"
+     },
+     "apply": "Use 1997"
     },
     {
      "artist": "The Prodigy",
      "title": "The Fat of the Land",
-     "note": "shelf 1997 vs MusicBrainz 2023"
+     "note": "shelf 1997 vs MusicBrainz 2023",
+     "suggest": {
+      "year": "2023"
+     },
+     "apply": "Use 2023"
     },
     {
      "artist": "The Shirelles",
      "title": "The Vert best of the Shirelles",
-     "note": "shelf 1994 vs MusicBrainz 1972"
+     "note": "shelf 1994 vs MusicBrainz 1972",
+     "suggest": {
+      "year": "1972"
+     },
+     "apply": "Use 1972"
     },
     {
      "artist": "The Tough Alliance",
      "title": "A New Chance",
-     "note": "shelf 1979 vs MusicBrainz 2007"
+     "note": "shelf 1979 vs MusicBrainz 2007",
+     "suggest": {
+      "year": "2007"
+     },
+     "apply": "Use 2007"
     },
     {
      "artist": "Turnstile",
      "title": "NEVER ENOUGH",
-     "note": "shelf 2003 vs MusicBrainz 2025"
+     "note": "shelf 2003 vs MusicBrainz 2025",
+     "suggest": {
+      "year": "2025"
+     },
+     "apply": "Use 2025"
     },
     {
      "artist": "Various Artists",
      "title": "Saturday Night Fever",
-     "note": "shelf 1977 vs MusicBrainz 1999"
+     "note": "shelf 1977 vs MusicBrainz 1999",
+     "suggest": {
+      "year": "1999"
+     },
+     "apply": "Use 1999"
     },
     {
      "artist": "Various Artists",
      "title": "Singles",
-     "note": "shelf 1992 vs MusicBrainz 2022"
+     "note": "shelf 1992 vs MusicBrainz 2022",
+     "suggest": {
+      "year": "2022"
+     },
+     "apply": "Use 2022"
     },
     {
      "artist": "Various Artists",
      "title": "Singles (Original Motion Picture Soundtrack)",
-     "note": "shelf 2017 vs MusicBrainz 1992"
+     "note": "shelf 2017 vs MusicBrainz 1992",
+     "suggest": {
+      "year": "1992"
+     },
+     "apply": "Use 1992"
     },
     {
      "artist": "Vince Guaraldi Trio",
      "title": "A Charlie Brown Christmas",
-     "note": "shelf 1965 vs MusicBrainz 2002"
+     "note": "shelf 1965 vs MusicBrainz 2002",
+     "suggest": {
+      "year": "2002"
+     },
+     "apply": "Use 2002"
     },
     {
      "artist": "Westside Cowboy",
      "title": "So Much Country ‘Till We Get There EP",
-     "note": "shelf 1996 vs MusicBrainz 2026"
-    }
-   ]
-  },
-  {
-   "id": "shared-cover",
-   "title": "Same cover on several albums",
-   "why": "Sometimes right -- a double album, two halves of one set -- and sometimes one album wearing another's sleeve.",
-   "action": "review",
-   "count": 31,
-   "items": [
-    {
-     "artist": "2 Many DJ's",
-     "title": "2X2 (1)",
-     "note": "2X2 (1)  /  2X2 (2)  /  2X2 (3)",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6bbf1523-b4ba-4ec2-bfd7-4ad100d68c3a.jpg"
-    },
-    {
-     "artist": "Axel Boman",
-     "title": "Luz",
-     "note": "Luz  /  Quest for Fire",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1da7b49d-ebcb-4b76-9bea-2c6d55f21318.jpg"
-    },
-    {
-     "artist": "Azealia Banks",
-     "title": "1991",
-     "note": "1991  /  1992",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b296b523-bd66-480f-8a8f-c6d09a09846b.jpg"
-    },
-    {
-     "artist": "Black Sabbath",
-     "title": "Black Sabbath",
-     "note": "Black Sabbath  /  Black Sabbath Vol. 4",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/826c9743-a3f0-3479-bf06-8df2e140ef1d.jpg"
-    },
-    {
-     "artist": "Café Tacvba",
-     "title": "Revés",
-     "note": "Revés  /  Yo Soy",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f6d307da-707f-4cff-ae2d-cbfafd9fed2c.jpg"
-    },
-    {
-     "artist": "Carly Rae Jepsen",
-     "title": "EMOTION",
-     "note": "EMOTION  /  EMOTION: Side B",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9ff8a8fe-6aa7-473a-ae93-8488051e3f2d.jpg"
-    },
-    {
-     "artist": "Chuck Berry",
-     "title": "The Great Twenty-Eight (1-14)",
-     "note": "The Great Twenty-Eight (1-14)  /  The Great Twenty-Eight (14-28)",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d7da8113-a582-3656-9412-74e17a9a447e.jpg"
-    },
-    {
-     "artist": "Colin Stetson",
-     "title": "New History Warfare Vol. 2",
-     "note": "New History Warfare Vol. 2  /  New History Warfare Vol. 2: Judges  /  New History Warfare Vol. 3: To See More Light",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/91074cab-f491-4aa0-9124-165fc2dc1b5e.jpg"
-    },
-    {
-     "artist": "Crystal Castles",
-     "title": "Crystal Castles",
-     "note": "Crystal Castles  /  Crystal Castles (Second One)",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9477d99c-1df7-4ae7-b08d-a2484c8e80f4.jpg"
-    },
-    {
-     "artist": "Deerhunter",
-     "title": "Microcastle",
-     "note": "Microcastle  /  Weird Era Cont.",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9437340a-d0a1-37a1-a7d9-6c308d3db215.jpg"
-    },
-    {
-     "artist": "Elliot Smith",
-     "title": "From a Basement on a Hill",
-     "note": "From a Basement on a Hill  /  From a Basement on the Hill",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/73c74665-e920-3bf1-bfcf-27d2fd7b9c09.jpg"
-    },
-    {
-     "artist": "Kenny Beats",
-     "title": "LOUIE",
-     "note": "LOUIE  /  Louise",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d00b8ff3-b524-4539-a314-05dc51855502.jpg"
-    },
-    {
-     "artist": "Madvillain",
-     "title": "Madvillainy",
-     "note": "Madvillainy  /  Madvillainy Instrumentals",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ab570ccb-b06b-3746-8147-4903163ba895.jpg"
-    },
-    {
-     "artist": "Mid-Air Thief",
-     "title": "Crumbling",
-     "note": "Crumbling  /  Crumbling",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6365c820-46ec-41ba-9421-3a200116ed5b.jpg"
-    },
-    {
-     "artist": "Nick Cave & The Bad Seeds",
-     "title": "Abattoir Blues",
-     "note": "Abattoir Blues  /  The Lyre Of Orpheus",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f0ffb9ec-fcb5-3e03-9a1b-3f018472d831.jpg"
-    },
-    {
-     "artist": "Os Mutantes",
-     "title": "Mutantes",
-     "note": "Mutantes  /  Os Mutantes",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f3578417-4c90-3891-a2cf-d1eab06cc084.jpg"
-    },
-    {
-     "artist": "Pet Shop Boys",
-     "title": "PopArt: The Hits (Art)",
-     "note": "PopArt: The Hits (Art)  /  PopArt: The Hits (Pop)",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c08663d5-e591-32d6-8c1e-24174c14dafc.jpg"
-    },
-    {
-     "artist": "Run the Jewels",
-     "title": "Run the Jewels",
-     "note": "Run the Jewels  /  Run the Jewels 4",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/cd690264-6a08-4af7-8a9c-6aef60962d5b.jpg"
-    },
-    {
-     "artist": "Soda Stereo",
-     "title": "Sueño estéreo",
-     "note": "Sueño estéreo  /  Sueño Stereo",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/65b80d3a-f8a4-392f-b7ba-41864534247c.jpg"
-    },
-    {
-     "artist": "Soft Machine",
-     "title": "Third",
-     "note": "Third  /  Third",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9fabbd9f-c6a2-3773-91ce-6ef937d47daa.jpg"
-    },
-    {
-     "artist": "Steve Wilson",
-     "title": "Insurgentes",
-     "note": "Insurgentes  /  Insurgentes",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b1c5ea39-8f96-355b-bfe4-84a7805db75f.jpg"
-    },
-    {
-     "artist": "Tatsuro Yamashita 山下達郎",
-     "title": "Big Wave",
-     "note": "Big Wave  /  For You",
-     "subject": "cover:https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/71/26/d8/7126d88b-7cf5-5ba5-7043-f1d26a8dd87f/jacket_MHXX00766B00Z_550.jpg/600x600bb.jpg"
-    },
-    {
-     "artist": "The Caretaker",
-     "title": "Everywhere at The End of Time",
-     "note": "Everywhere at The End of Time  /  Everywhere at The End of Time - Stage 6",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/02c208b5-985e-4c27-912e-d22d897faf64.jpg"
-    },
-    {
-     "artist": "The Cure",
-     "title": "Greatest Hits (1st Half)",
-     "note": "Greatest Hits (1st Half)  /  Greatest Hits (2nd Half)",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c2ae4c61-7620-43ce-b37f-9ff8f39cb9df.jpg"
-    },
-    {
-     "artist": "The Magnetic Fields",
-     "title": "50 Song Memoir 1",
-     "note": "50 Song Memoir 1  /  50 Song Memoir 2  /  50 Song Memoir 3  /  50 Song Memoir 4  /  50 Song Memoir 5",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/340817fa-49d5-4afb-b947-db4a9e7c9703.jpg"
-    },
-    {
-     "artist": "The Magnetic Fields",
-     "title": "69 Love Songs Vol. 1",
-     "note": "69 Love Songs Vol. 1  /  69 Love Songs Vol. 2  /  69 Love Songs Vol. 3",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5dfac852-1aed-35b2-93b6-e8f9c93fe521.jpg"
-    },
-    {
-     "artist": "The Rolling Stones",
-     "title": "Singles Collection: The London Years 1",
-     "note": "Singles Collection: The London Years 1  /  Singles Collection: The London Years 2  /  Singles Collection: The London Years 3",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e1306e14-ed09-48f1-88b7-90bf7c3c4f3f.jpg"
-    },
-    {
-     "artist": "Tindersticks",
-     "title": "Tindersticks",
-     "note": "Tindersticks  /  Tindersticks II",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ab3f9436-2168-3991-b179-97c851e97bb6.jpg"
-    },
-    {
-     "artist": "Tyler, The Creator",
-     "title": "CALL ME IF YOU GET LOST",
-     "note": "CALL ME IF YOU GET LOST  /  CALL ME IF YOU GET LOST: The Estate Cell",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c65de046-7a48-4269-b4e5-4db0ed328f47.jpg"
-    },
-    {
-     "artist": "Various Artists",
-     "title": "Dark Was The Night: That Disc",
-     "note": "Dark Was The Night: That Disc  /  Dark Was The Night: This Disc",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/75e19850-4cbd-3520-b6e8-4a5b0c3eaab8.jpg"
-    },
-    {
-     "artist": "Various Artists",
-     "title": "Starmix vol.1",
-     "note": "Starmix vol.1  /  Starmix vol.2",
-     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/86c7acbf-905a-4c00-93cb-5186e11347ea.jpg"
+     "note": "shelf 1996 vs MusicBrainz 2026",
+     "suggest": {
+      "year": "2026"
+     },
+     "apply": "Use 2026"
     }
    ]
   },
@@ -542,7 +551,8 @@
       "artist": "DJ Screw",
       "title": "3 ’n the Mornin’, Part One"
      },
-     "subject": "rename:DJ Screw::DJ Screw — 3 ’n the Mornin’, Part One"
+     "subject": "rename:DJ Screw::DJ Screw — 3 ’n the Mornin’, Part One",
+     "apply": "Rename"
     },
     {
      "artist": "Kyle Dixon & Michael Stein",
@@ -552,7 +562,8 @@
       "artist": "Kyle Dixon & Michael Stein",
       "title": "Stranger Things 2"
      },
-     "subject": "rename:Kyle Dixon & Michael Stein::Stranger Things, Vol 1"
+     "subject": "rename:Kyle Dixon & Michael Stein::Stranger Things, Vol 1",
+     "apply": "Rename"
     },
     {
      "artist": "Pink Floyd",
@@ -562,7 +573,8 @@
       "artist": "Pink Floyd",
       "title": "The Piper at the Gates of Dawn"
      },
-     "subject": "rename:Pink Floyd::The Piper Gates of Dawn"
+     "subject": "rename:Pink Floyd::The Piper Gates of Dawn",
+     "apply": "Rename"
     },
     {
      "artist": "Psychedelic Porn Crumpets",
@@ -572,7 +584,8 @@
       "artist": "Psychedelic Porn Crumpets",
       "title": "High Visceral {Part One}"
      },
-     "subject": "rename:Psychedelic Porn Crumpets::High Visceral pt. 1"
+     "subject": "rename:Psychedelic Porn Crumpets::High Visceral pt. 1",
+     "apply": "Rename"
     },
     {
      "artist": "Psychedelic Porn Crumpets",
@@ -582,7 +595,8 @@
       "artist": "Psychedelic Porn Crumpets",
       "title": "High Visceral {Part One}"
      },
-     "subject": "rename:Psychedelic Porn Crumpets::High Visceral pt. 2"
+     "subject": "rename:Psychedelic Porn Crumpets::High Visceral pt. 2",
+     "apply": "Rename"
     }
    ]
   },

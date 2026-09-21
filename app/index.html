@@ -132,9 +132,14 @@ function App() {
       before = a;
       return { ...a, ...patch };
     }));
-    db.updateAlbum(id, patch).catch((e) => {
+    // Resolves true/false rather than rejecting: every other caller fires this
+    // and forgets, so a rejection here would be an unhandled one. The Fix
+    // screen awaits the answer, because settling a suggestion whose write just
+    // failed would file the work as done and lose it.
+    return db.updateAlbum(id, patch).then(() => true, (e) => {
       setAlbums((rows) => rows.map((a) => (a.id === id && before ? before : a)));
       if (!quiet) setError(e.message || String(e));
+      return false;
     });
   }, []);
 

@@ -445,6 +445,24 @@ because it is a thing you do rather than a place you browse; Fix is always
 Sleeve Red, because it only appears when you are signed in and it always means
 work is waiting. The whole bar is sticky, 1px-ruled, and backdrop-blurred.
 
+### Maintenance verdicts
+
+Three mono micro-caps buttons on the right of a row, at opacity 0 until the row
+is hovered or something inside it takes focus — and lit outright under
+`(hover: none)`, because a control that only appears on hover does not exist on
+the phone this is read on. A flagged row keeps an Amber 2px rule at its left
+edge; a settled one drops to 40% and leaves the list, recoverable from a lit
+control at the list's foot.
+
+**The Button Names The Value Rule.** A control that writes something says what
+it will write — `Use 2001`, `Rename` — never `Apply`, `Confirm` or `OK`. The
+point of settling an item from a list is not having to open the record to find
+out what you just agreed to, and a verb-labelled button gives that back. It
+wears the accent outline of `.hs__act--go`, the one place a verdict control
+takes colour, and it is the only button in a row that outlives a verdict:
+flagging means *keep this in front of me*, which is not a reason to remove the
+control that would end it.
+
 ### The leaning tile
 
 The system's signature. A borderless button holding square artwork, a

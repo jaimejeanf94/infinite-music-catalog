@@ -88,28 +88,26 @@ add("year-gap", "Year is far off MusicBrainz",
   albums.filter((a) => {
     const y = Number(a.year), m = Number(rec(a).mb_year);
     return y && m && Math.abs(y - m) >= 15;
-  }).map((a) => ({ ...ref(a), note: `shelf ${a.year} vs MusicBrainz ${rec(a).mb_year}` })),
+  }).map((a) => ({
+    ...ref(a),
+    note: `shelf ${a.year} vs MusicBrainz ${rec(a).mb_year}`,
+    // Two of the three faults are fixed by taking MusicBrainz's year, and the
+    // third is fixed by dismissing. So the row can offer the fix outright and
+    // name the value it will write -- "Use 2001" is a decision you can make
+    // from the list; "Apply" would not be.
+    suggest: { year: String(rec(a).mb_year) },
+    apply: `Use ${rec(a).mb_year}`,
+  })),
   "recheck");
 
-// ── artwork shared between albums ──────────────────────────────────────────
-const byCover = new Map();
-for (const a of albums) {
-  if (!a.cover_url) continue;
-  if (!byCover.has(a.cover_url)) byCover.set(a.cover_url, []);
-  byCover.get(a.cover_url).push(a);
-}
-add("shared-cover", "Same cover on several albums",
-  "Sometimes right -- a double album, two halves of one set -- and sometimes "
-  + "one album wearing another's sleeve.",
-  [...byCover.values()].filter((g) => g.length > 1)
-    .map((g) => ({
-      ...ref(g[0]),
-      note: g.map((a) => a.title).join("  /  "),
-      // The sleeve is what is flagged, not either record wearing it, so the
-      // verdict survives one of them being renamed.
-      subject: `cover:${g[0].cover_url}`,
-    })),
-  "review");
+// "Same cover on several albums" used to be a section here, 31 rows long. It
+// was retired because no row in it could be diagnosed from the row: the note
+// listed the titles sharing one sleeve, but nothing on the page told you which
+// record the sleeve actually belonged to, and the honest answer for a double
+// album and for a mis-filed sleeve looks identical. Every one of the 31 was
+// either correct or unanswerable without opening both records and looking --
+// at which point the list had done none of the work. The query is in
+// db/queries.sql for when a specific sleeve is in doubt.
 
 // ── names ──────────────────────────────────────────────────────────────────
 const { flagged } = findDuplicates(loadAlbums());
@@ -153,6 +151,7 @@ add("rename-review", "Name corrections held back",
     // Mulholland Drive" must stay rejected, and applying it renames the row
     // out from under any album-keyed flag.
     subject: `rename:${r.from}`,
+    apply: "Rename",
   })), "rename");
 
 // ── genre shape ────────────────────────────────────────────────────────────

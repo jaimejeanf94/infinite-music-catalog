@@ -9,17 +9,28 @@
 // The list is app/health.json, written by the nightly run and shipped with the
 // app, so the page needs no query at load. What it does query is your verdicts
 // (db/review_flags.sql): a row you have settled stays settled, which is the
-// difference between a list that empties and one that shows you the same
-// thirty-one shared sleeves every morning for the rest of your life.
+// difference between a list that empties and one that keeps handing you the
+// same judgement every morning for the rest of your life.
 //
 // Two verdicts, because "not a problem" and "a problem I cannot fix right now"
 // want opposite treatment:
 //
-//   dismissed — checked, nothing wrong. Hidden, and uncounted.
-//   flagged   — something IS wrong. Pinned to the top, and still counted.
+//   dismissed — checked, nothing wrong. Leaves the list, and uncounted.
+//   flagged   — something IS wrong. Pinned to the top, still counted, and it
+//               keeps every fix the row was offering.
+//
+// A settled row leaves the list rather than greying out at the bottom of it.
+// The verdict is the end of that item, and a page that keeps every ended item
+// forever only grows -- burying the open work, which is the one thing this
+// page exists to show. The count stays on the section bar and a line at the
+// foot of the list brings them back, so Undo is never more than a click away.
 
 const norm = (s) => (s || "").trim().toLowerCase();
 const flagKey = (kind, subject) => `${kind}\u0000${subject}`;
+
+// A suggestion spelled out, for the hover on the button that will write it.
+const describe = (suggest) =>
+  Object.entries(suggest || {}).map(([k, v]) => `${k} → ${v}`).join(", ");
 
 // The stable identity of a maintenance item. Most rows are about one album, so
 // the album's id is the right key -- renaming it is frequently the fix, and a
@@ -34,6 +45,13 @@ function Row({ item, live, flag, kind, onOpen, onSet, onClear, onApply }) {
   const settled = flag?.state === "dismissed";
   const flagged = flag?.state === "revisit";
   const stop = (fn) => (e) => { e.stopPropagation(); fn(); };
+
+  // A row can carry its own fix: health-report.mjs attaches `suggest` (the
+  // patch) and `apply` (what the button says it will do). The button names the
+  // value rather than the verb -- "Use 2001", not "Apply" -- because the whole
+  // point of settling one of these from the list is not having to open the
+  // record to find out what you just agreed to.
+  const canApply = !!(item.suggest && item.apply && live);
 
   return (
     <li className={"hs__row" + (settled ? " hs__row--settled" : "") +
@@ -52,20 +70,24 @@ function Row({ item, live, flag, kind, onOpen, onSet, onClear, onApply }) {
       )}
 
       <span className="hs__acts">
+        {flag && <span className="hs__state">{settled ? "settled" : "flagged"}</span>}
+
+        {/* The fix outlives the flag. "Keep it in front of me" and "take away
+            the button that would end it" are opposite instructions, and the
+            row used to do both: flagging collapsed it to a bare Undo, so the
+            only route to the fix was undoing your own verdict first. A
+            flagged row now keeps its fix; only a settled one puts it away. */}
+        {!settled && canApply && (
+          <button className="hs__act hs__act--go" onClick={stop(onApply)}
+                  title={`Write it: ${describe(item.suggest)}`}>
+            {item.apply}
+          </button>
+        )}
+
         {flag ? (
-          <>
-            <span className="hs__state">{settled ? "settled" : "flagged"}</span>
-            <button className="hs__act" onClick={stop(onClear)}>Undo</button>
-          </>
+          <button className="hs__act" onClick={stop(onClear)}>Undo</button>
         ) : (
           <>
-            {/* Applying a held-back rename is the ordinary rename, run for
-                you -- the same update the album's own sheet performs. */}
-            {kind === "rename-review" && item.suggest && live && (
-              <button className="hs__act hs__act--go" onClick={stop(onApply)}>
-                Apply
-              </button>
-            )}
             <button className="hs__act" onClick={stop(() => onSet("dismissed"))}
                     title="Checked — nothing wrong here">
               {kind === "rename-review" ? "Reject" : "Fine"}
@@ -81,7 +103,7 @@ function Row({ item, live, flag, kind, onOpen, onSet, onClear, onApply }) {
   );
 }
 
-function Section({ section, rows, open, onToggle, ...rest }) {
+function Section({ section, rows, open, onToggle, touched, ...rest }) {
   // A section's count is what is still OPEN. Flagged rows count -- they are
   // unfinished work you chose to keep -- dismissed ones do not.
   const openRows = rows.filter((r) => r.flag?.state !== "dismissed");
@@ -89,7 +111,22 @@ function Section({ section, rows, open, onToggle, ...rest }) {
   const empty = openRows.length === 0 && settledCount === 0;
   const clear = openRows.length === 0;
 
-  const shown = [...rows].sort((a, b) => {
+  // Settled rows are out of the list unless you ask for them back. Per section
+  // and not persisted: wanting to see what you dismissed is a moment, not a
+  // preference, and it should not survive a reload of a page whose job is to
+  // show what is open.
+  const [showSettled, setShowSettled] = React.useState(false);
+  React.useEffect(() => { if (!open) setShowSettled(false); }, [open]);
+
+  // "Not eternally" is about verdicts you reached on some other morning, not
+  // the one you just reached. A row settled in THIS session stays where it is,
+  // greyed, so the click has a visible result and Undo is where your hand
+  // already is. Reload and it is gone with the rest of them.
+  const here = (r) => touched.has(flagKey(section.id, r.subject));
+  const visible = rows.filter((r) => r.flag?.state !== "dismissed" || here(r));
+  const hidden = rows.length - visible.length;
+
+  const shown = [...(showSettled ? rows : visible)].sort((a, b) => {
     const rank = (r) => (r.flag?.state === "revisit" ? 0 : r.flag ? 2 : 1);
     return rank(a) - rank(b);
   });
@@ -132,6 +169,16 @@ function Section({ section, rows, open, onToggle, ...rest }) {
               listed — settle these and the rest arrive in tomorrow&rsquo;s run.
             </li>
           )}
+          {(hidden > 0 || showSettled) && (
+            <li className="hs__reveal">
+              <button className="hs__act" aria-expanded={showSettled}
+                      onClick={() => setShowSettled(!showSettled)}>
+                {showSettled
+                  ? `Hide ${settledCount.toLocaleString()} settled`
+                  : `Show ${hidden.toLocaleString()} settled earlier`}
+              </button>
+            </li>
+          )}
         </ul>
       )}
     </section>
@@ -144,6 +191,19 @@ function AdminView({ albums, onPatch, onGo }) {
   const [open, setOpen] = React.useState(null);
   const [flags, setFlags] = React.useState(null);   // null until loaded
   const [flagErr, setFlagErr] = React.useState("");
+
+  // Every item you have given a verdict to since the page loaded. Used only to
+  // keep those rows on screen; it is never read back from anywhere, so a
+  // reload correctly forgets it.
+  const [touched, setTouched] = React.useState(() => new Set());
+
+  // What an applied suggestion overwrote, for as long as the page is open.
+  // Undo on an applied row has to put the album back, not merely re-open the
+  // item: 38 of the 51 year gaps are MusicBrainz matching a reissue, so the
+  // suggestion is often the wrong answer, and once it is written the gap
+  // closes and the row stops being reported at all. An Undo that left the
+  // wrong year in place would be a one-click way to lose a correct one.
+  const undos = React.useRef(new Map());
 
   React.useEffect(() => {
     fetch("./health.json", { cache: "no-cache" })
@@ -197,6 +257,7 @@ function AdminView({ albums, onPatch, onGo }) {
     if (state) next.set(key, { kind, subject, album_id, state });
     else next.delete(key);
     setFlags(next);                       // optimistic: the click should land
+    setTouched((t) => new Set(t).add(key));
     try {
       if (state) await window.db.setReviewFlag({ kind, subject, album_id, state });
       else await window.db.clearReviewFlag(kind, subject);
@@ -209,19 +270,35 @@ function AdminView({ albums, onPatch, onGo }) {
     }
   };
 
-  // Applying a held-back suggestion is just the rename the album's own sheet
-  // would do -- same onPatch, same update -- followed by settling the
-  // suggestion so tonight's run does not offer it again. The flag is keyed on
-  // the suggestion rather than the album precisely so it survives this.
-  const applyRename = async (kind, row) => {
+  // Applying a suggestion is just the edit the album's own sheet would do --
+  // same onPatch, same update -- followed by settling the item so tonight's
+  // run does not offer it again. The row supplies the patch, so one handler
+  // serves every section that carries one: a held-back rename writes artist
+  // and title, a year gap writes the year.
+  //
+  // Settling only on a confirmed write. onPatch moves the local row first and
+  // reports whether the database agreed; marking the item done on an optimism
+  // that then failed would file the work as finished and lose it.
+  const applyFix = async (kind, row) => {
     const { live, item, subject } = row;
     if (!live || !item.suggest) return;
-    try {
-      await onPatch(live.id, { artist: item.suggest.artist, title: item.suggest.title });
+    const before = {};
+    for (const k of Object.keys(item.suggest)) before[k] = live[k] ?? null;
+    if (await onPatch(live.id, item.suggest)) {
+      undos.current.set(flagKey(kind, subject), { id: live.id, before });
       await write(kind, subject, live.id, "dismissed");
-    } catch (e) {
-      setFlagErr(e?.message || "The rename did not save.");
     }
+  };
+
+  // Undo on a row whose suggestion you applied rewinds the album too.
+  const undo = async (kind, row) => {
+    const key = flagKey(kind, row.subject);
+    const back = undos.current.get(key);
+    if (back) {
+      if (!(await onPatch(back.id, back.before))) return;
+      undos.current.delete(key);
+    }
+    await write(kind, row.subject, row.live?.id ?? null, null);
   };
 
   const sections = health.sections.map((s) => ({ section: s, rows: rowsFor(s) }));
@@ -262,13 +339,13 @@ function AdminView({ albums, onPatch, onGo }) {
           section={section}
           rows={rows}
           open={open === section.id}
+          touched={touched}
           onToggle={(id) => setOpen(open === id ? null : id)}
           onOpen={(it) => onGo("browse", { q: it.title || it.artist })}
           onSet={(row) => (state) =>
             write(section.id, row.subject, row.live?.id ?? null, state)}
-          onClear={(row) => () =>
-            write(section.id, row.subject, row.live?.id ?? null, null)}
-          onApply={(row) => () => applyRename(section.id, row)}
+          onClear={(row) => () => undo(section.id, row)}
+          onApply={(row) => () => applyFix(section.id, row)}
         />
       ))}
     </div>

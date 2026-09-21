@@ -81,9 +81,13 @@ Three mechanisms a neighbouring "random album" tool could not truthfully claim:
   export → apply confident renames → enrich a batch → cache new artwork →
   import → re-export → reports → today's five → commit.
 - **Fix** is where that run hands over what it could not decide alone — a year
-  that could be yours or could be a reissue, a sleeve two albums share. Verdicts
-  are durable (`dismissed` hides and uncounts, `flagged` pins and still counts)
-  and stored in `review_flags`, so a settled row stays settled.
+  that could be yours or could be a reissue, a name it would not rename on its
+  own. Where a row carries a suggestion the page offers to write it, naming the
+  value rather than the verb ("Use 2001"), and an applied suggestion is
+  reversible for as long as the page stays open. Verdicts are durable
+  (`dismissed` uncounts and leaves the list, `flagged` pins, still counts, and
+  keeps the fix on offer) and stored in `review_flags`, so a settled row stays
+  settled — out of the list, not greyed at the bottom of it forever.
 - `git log data/albums.csv` is the collection's dated history; restoring a bad
   week is a checkout and an import.
 
