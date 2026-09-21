@@ -11,10 +11,23 @@ const CHUNK = 60;   // tiles rendered per "page" — 4.4k at once would crawl
 // The id is passed through a multiplicative hash first: ids run in sequence, so
 // using them directly would line the offsets up into vertical stripes once the
 // grid settled on a column count.
-const LIFTS = [0, 13, 6, 20, 3, 16, 9];
-function lift(id) {
-  return LIFTS[(Math.imul(id, 2654435761) >>> 0) % LIFTS.length];
-}
+//
+// Symmetric around zero, which the old range (0..20) was not. Because a
+// transform does not affect layout, a tile that only ever moved DOWN hung its
+// title past the bottom of its grid row -- and the row gap was 16px, so a 20px
+// lift put the text on the next row's artwork. Now tiles rise as often as they
+// fall, and the gap below is wide enough to swallow both.
+const LIFTS = [0, -8, 5, -4, 10, -10, 3];
+
+// A little sideways drift as well, so the wall reads as a collage rather than
+// a grid that has slipped. Kept to a third of the column gap, so two
+// neighbours leaning towards each other still cannot touch.
+const DRIFTS = [0, 3, -2, 4, -4, 1, -3];
+
+const slot = (id, table) =>
+  table[(Math.imul(id, 2654435761) >>> 0) % table.length];
+const lift = (id) => slot(id, LIFTS);
+const drift = (id) => slot(id, DRIFTS);
 
 // Genre is what you browse by; style is what the record actually is. Clicking a
 // genre filters; a style is not a filter -- half of them sit on one album -- so
@@ -46,50 +59,141 @@ function GenreLines({ album, index, onGenre }) {
   );
 }
 
-// A plain tag editor: the album's tags as chips you can remove, plus a box to
-// add one. Deliberately not a picker of existing genres -- the whole point is
-// the case where the right tag is not in the collection yet.
-function GenreEditor({ album, onSave }) {
-  const [draft, setDraft] = React.useState("");
-  const tags = album.genres || [];
+// The genre editor. Two deliberate restrictions, both because this writes
+// straight to the column the whole taxonomy is computed from:
+//
+//   Adding is a pick from what the collection already uses, never free text.
+//   Typing was how "electronica" got to exist alongside "electronic" in the
+//   first place, and one careless tag becomes a style nothing is filed under.
+//
+//   Removing asks twice, and says what it does and does not do. Taking
+//   "progressive metal" off one record does not remove it from the other 106
+//   that carry it -- the genre list is derived from the albums, so it only
+//   disappears when the last album carrying it lets go.
+function GenreEditor({ album, index, onSave }) {
+  const [query, setQuery] = React.useState("");
+  const [open, setOpen] = React.useState(false);
+  const [active, setActive] = React.useState(0);
+  const [arming, setArming] = React.useState(null);   // the tag awaiting a second click
+  const boxRef = React.useRef(null);
 
-  const commit = (raw) => {
-    // Comma or semicolon separated, so pasting "soukous; congolese rumba"
-    // works the way the CSV writes it.
-    const added = raw.split(/[;,]/).map((t) => t.trim().toLowerCase()).filter(Boolean);
-    if (!added.length) return setDraft("");
-    const next = [...new Set([...tags.map((t) => t.toLowerCase()), ...added])];
-    setDraft("");
-    if (next.length !== tags.length) onSave(next);
+  const tags = album.genres || [];
+  const has = new Set(tags.map((t) => t.toLowerCase()));
+
+  // Everything the collection already uses, commonest first, minus what this
+  // album already carries.
+  const matches = React.useMemo(() => {
+    const q = query.trim().toLowerCase();
+    return [...index.freq.entries()]
+      .filter(([g]) => !has.has(g) && (!q || g.includes(q)))
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 40);
+  }, [query, index, album.genres]);
+
+  React.useEffect(() => {
+    const away = (e) => { if (!boxRef.current?.contains(e.target)) setOpen(false); };
+    document.addEventListener("mousedown", away);
+    return () => document.removeEventListener("mousedown", away);
+  }, []);
+
+  // Arming a removal times out, so a chip cannot sit in a half-pressed state
+  // waiting to be clicked by accident ten minutes later.
+  React.useEffect(() => {
+    if (!arming) return;
+    const t = setTimeout(() => setArming(null), 4000);
+    return () => clearTimeout(t);
+  }, [arming]);
+
+  const add = (g) => {
+    setQuery(""); setOpen(false); setActive(0);
+    if (!has.has(g)) onSave([...tags, g]);
+  };
+
+  const remove = (t) => {
+    if (arming !== t) return setArming(t);
+    setArming(null);
+    onSave(tags.filter((x) => x !== t));
+  };
+
+  const onKey = (e) => {
+    if (e.key === "ArrowDown") { e.preventDefault(); setOpen(true); setActive((i) => Math.min(i + 1, matches.length - 1)); }
+    else if (e.key === "ArrowUp") { e.preventDefault(); setActive((i) => Math.max(i - 1, 0)); }
+    else if (e.key === "Enter" && open && matches[active]) { e.preventDefault(); add(matches[active][0]); }
+    else if (e.key === "Escape" && (open || query)) {
+      // Escape closes the list, not the sheet behind it. Without stopping it
+      // here the modal's own handler fires too and the whole album shuts.
+      e.stopPropagation();
+      setOpen(false); setQuery("");
+    }
   };
 
   return (
-    <div className="tags">
+    <div className="tags" ref={boxRef}>
       <div className="tags__chips">
         {tags.map((t) => (
-          <button key={t} className="tags__chip" title={`Remove ${t}`}
-                  onClick={() => onSave(tags.filter((x) => x !== t))}>
-            {t} <span aria-hidden="true">×</span>
+          <button
+            key={t}
+            className={"tags__chip" + (arming === t ? " tags__chip--arming" : "")}
+            onClick={() => remove(t)}
+            title={arming === t ? "Click again to remove it" : `Remove ${t} from this album`}
+          >
+            {t} <span aria-hidden="true">{arming === t ? "?" : "\u00d7"}</span>
           </button>
         ))}
         {!tags.length && <span className="tags__none">none</span>}
       </div>
-      <input
-        className="tags__input"
-        value={draft}
-        spellCheck={false}
-        placeholder="Add a genre, then Enter"
-        onChange={(e) => setDraft(e.target.value)}
-        onKeyDown={(e) => {
-          if (e.key === "Enter") { e.preventDefault(); commit(draft); }
-          // Backspace on an empty box removes the last tag, the way every
-          // other chip input behaves.
-          else if (e.key === "Backspace" && !draft && tags.length) {
-            onSave(tags.slice(0, -1));
-          }
-        }}
-        onBlur={() => commit(draft)}
-      />
+
+      {arming && (
+        <p className="tags__warn" role="status">
+          Remove <b>{arming}</b> from <i>{album.title}</i>? Click the tag again to
+          confirm. Other albums tagged {arming} keep it — the genre only leaves
+          the shelf when the last album carrying it does.
+        </p>
+      )}
+
+      <div className="combo combo--tags">
+        <input
+          className="combo__input"
+          type="text"
+          role="combobox"
+          aria-expanded={open}
+          aria-autocomplete="list"
+          aria-label="Add a genre this collection already uses"
+          placeholder="Add a genre…"
+          value={query}
+          spellCheck={false}
+          onChange={(e) => { setQuery(e.target.value); setOpen(true); setActive(0); }}
+          onFocus={() => setOpen(true)}
+          onKeyDown={onKey}
+        />
+        {open && (
+          <ul className="combo__list" role="listbox">
+            {matches.length === 0 && (
+              <li className="combo__empty">
+                {query.trim()
+                  ? <>Nothing here is tagged “{query.trim()}”. Only genres already in
+                     the collection can be added, so a typo cannot invent one.</>
+                  : "Every genre is already on this album."}
+              </li>
+            )}
+            {matches.map(([g, n], i) => (
+              <li key={g} role="option" aria-selected={i === active}>
+                <button
+                  className={"combo__opt" + (i === active ? " combo__opt--active" : "")}
+                  onMouseEnter={() => setActive(i)}
+                  onClick={() => add(g)}
+                >
+                  <span>
+                    {g}
+                    {index.roots.has(g) && <em className="tags__root">genre</em>}
+                  </span>
+                  <em>{n}</em>
+                </button>
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
     </div>
   );
 }
@@ -265,7 +369,7 @@ function Detail({ album, owner, onPatch, onDelete, onClose, index, onGenre }) {
                   into a genre and its styles on the next render. */}
               <label className="field">
                 <span>Genres</span>
-                <GenreEditor album={album}
+                <GenreEditor album={album} index={index}
                              onSave={(genres) => onPatch(album.id, { genres })} />
               </label>
 
@@ -634,13 +738,14 @@ function BrowseView({ albums, owner, onPatch, onAdd, onDelete, onRestore,
       <div className="grid" hidden={filter === "deleted"}>
         {list.slice(0, shown).map((a) => (
           <button key={a.id} className="tile" onClick={() => setOpen(a)}
-                  style={{ "--lift": lift(a.id) + "px" }}>
+                  style={{ "--lift": lift(a.id) + "px",
+                           "--drift": drift(a.id) + "px" }}>
             <div className="tile__art">
               <CoverArt album={a} size={150} canPersist={owner}
                         onResolved={(id, url) => onPatch(id, { cover_url: url }, true)} />
               {a.score != null && <span className="tile__score">{a.score}</span>}
             </div>
-            <div className="tile__title">{a.title}</div>
+            <div className="tile__title" title={a.title}>{a.title}</div>
             <div className="tile__artist">{a.artist}</div>
           </button>
         ))}
