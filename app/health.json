@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-21T14:55:49.667Z",
+ "generated": "2026-09-21T20:16:17.948Z",
  "totals": {
-  "albums": 4418,
-  "rated": 397,
-  "withCover": 4418,
-  "withGenres": 4418,
-  "matched": 4281,
-  "apple": 0
+  "albums": 4417,
+  "rated": 401,
+  "withCover": 4417,
+  "withGenres": 4417,
+  "matched": 4270,
+  "apple": 3643
  },
  "sections": [
   {
@@ -30,7 +30,7 @@
    "title": "Year is far off MusicBrainz",
    "why": "15 years or more apart. Could be your year, could be MusicBrainz matching a reissue. Check the two and dismiss it if the shelf is right.",
    "action": "recheck",
-   "count": 34,
+   "count": 33,
    "items": [
     {
      "artist": "Aliyah's Interlude",
@@ -151,18 +151,6 @@
       "year": 1969
      },
      "apply": "Use 1992"
-    },
-    {
-     "artist": "Harmonium",
-     "title": "Si on avait besoin d'une cinquième saison",
-     "note": "shelf 1975 vs MusicBrainz 2001",
-     "suggest": {
-      "year": 2001
-     },
-     "was": {
-      "year": 1975
-     },
-     "apply": "Use 2001"
     },
     {
      "artist": "James Brown",
@@ -476,7 +464,7 @@
    "title": "Name corrections held back",
    "why": "The nightly scan found these but would not apply them: a changed sequence number, a gained or lost word, or a dropped collaborator.",
    "action": "rename",
-   "count": 20,
+   "count": 10,
    "items": [
     {
      "artist": "Asian Glow & Parannoul",
@@ -490,36 +478,6 @@
      "was": {
       "artist": "Asian Glow & Parannoul",
       "title": "Paraglow"
-     },
-     "apply": "Rename"
-    },
-    {
-     "artist": "2 Many DJ's",
-     "title": "Under The Covers 2",
-     "note": "2manydjs — Under The Covers Vol. 2   (looser than the confident band)",
-     "suggest": {
-      "artist": "2manydjs",
-      "title": "Under The Covers Vol. 2"
-     },
-     "subject": "rename:2 Many DJ's::Under The Covers 2",
-     "was": {
-      "artist": "2 Many DJ's",
-      "title": "Under The Covers 2"
-     },
-     "apply": "Rename"
-    },
-    {
-     "artist": "Ajj",
-     "title": "People That Can Eat People Are The Luckiest People in the World",
-     "note": "AJJ — People Who Can Eat People Are the Luckiest People in the World   (the title loses \"that\" — likely a different release)",
-     "suggest": {
-      "artist": "AJJ",
-      "title": "People Who Can Eat People Are the Luckiest People in the World"
-     },
-     "subject": "rename:Ajj::People That Can Eat People Are The Luckiest People in the World",
-     "was": {
-      "artist": "Ajj",
-      "title": "People That Can Eat People Are The Luckiest People in the World"
      },
      "apply": "Rename"
     },
@@ -569,51 +527,6 @@
      "apply": "Rename"
     },
     {
-     "artist": "Cecil Taylor",
-     "title": "At the Café Montmartré",
-     "note": "Cecil Taylor — Live at the Cafe Montmartre   (the title gains \"cafe\" — likely a different release; looser than the confident band)",
-     "suggest": {
-      "artist": "Cecil Taylor",
-      "title": "Live at the Cafe Montmartre"
-     },
-     "subject": "rename:Cecil Taylor::At the Café Montmartré",
-     "was": {
-      "artist": "Cecil Taylor",
-      "title": "At the Café Montmartré"
-     },
-     "apply": "Rename"
-    },
-    {
-     "artist": "DJ Koze",
-     "title": "DJ Kicks",
-     "note": "DJ Koze — DJ-Kicks: DJ Koze   (the title gains \"koze\" — likely a different release)",
-     "suggest": {
-      "artist": "DJ Koze",
-      "title": "DJ-Kicks: DJ Koze"
-     },
-     "subject": "rename:DJ Koze::DJ Kicks",
-     "was": {
-      "artist": "DJ Koze",
-      "title": "DJ Kicks"
-     },
-     "apply": "Rename"
-    },
-    {
-     "artist": "E+E",
-     "title": "El sueño del Forastero",
-     "note": "E+E — E+E presenta: El sueño del forastero   (the title gains \"presenta\" — likely a different release)",
-     "suggest": {
-      "artist": "E+E",
-      "title": "E+E presenta: El sueño del forastero"
-     },
-     "subject": "rename:E+E::El sueño del Forastero",
-     "was": {
-      "artist": "E+E",
-      "title": "El sueño del Forastero"
-     },
-     "apply": "Rename"
-    },
-    {
      "artist": "Frank Zappa",
      "title": "The Grand Wazoo",
      "note": "Frank Zappa — The Grand Wazoo Orchestra   (the title gains \"orchestra\" — likely a different release)",
@@ -625,81 +538,6 @@
      "was": {
       "artist": "Frank Zappa",
       "title": "The Grand Wazoo"
-     },
-     "apply": "Rename"
-    },
-    {
-     "artist": "Harmonium",
-     "title": "Si on avait besoin d'une cinquième saison",
-     "note": "Harmonium — Harmonium / Si on avait besoin d’une cinquième saison   (the title gains \"harmonium\" — likely a different release)",
-     "suggest": {
-      "artist": "Harmonium",
-      "title": "Harmonium / Si on avait besoin d’une cinquième saison"
-     },
-     "subject": "rename:Harmonium::Si on avait besoin d'une cinquième saison",
-     "was": {
-      "artist": "Harmonium",
-      "title": "Si on avait besoin d'une cinquième saison"
-     },
-     "apply": "Rename"
-    },
-    {
-     "artist": "2 Many DJ's",
-     "title": "A Tribute to Keith Forsey",
-     "note": "2manydjs — 2manydjs present A Tribute to Keith Forsey   (the title gains \"2manydjs present\" — likely a different release; sequence number changed (Pt. 2 / Vol. 3 / Part One))",
-     "suggest": {
-      "artist": "2manydjs",
-      "title": "2manydjs present A Tribute to Keith Forsey"
-     },
-     "subject": "rename:2 Many DJ's::A Tribute to Keith Forsey",
-     "was": {
-      "artist": "2 Many DJ's",
-      "title": "A Tribute to Keith Forsey"
-     },
-     "apply": "Rename"
-    },
-    {
-     "artist": "2 Many DJ's",
-     "title": "A Tribute To Compass Point",
-     "note": "2manydjs — 2manydjs presents A Tribute to Compass Point   (the title gains \"2manydjs presents\" — likely a different release; sequence number changed (Pt. 2 / Vol. 3 / Part One))",
-     "suggest": {
-      "artist": "2manydjs",
-      "title": "2manydjs presents A Tribute to Compass Point"
-     },
-     "subject": "rename:2 Many DJ's::A Tribute To Compass Point",
-     "was": {
-      "artist": "2 Many DJ's",
-      "title": "A Tribute To Compass Point"
-     },
-     "apply": "Rename"
-    },
-    {
-     "artist": "Azealia Banks",
-     "title": "1992",
-     "note": "Azealia Banks — 1991   (sequence number changed (Pt. 2 / Vol. 3 / Part One); looser than the confident band)",
-     "suggest": {
-      "artist": "Azealia Banks",
-      "title": "1991"
-     },
-     "subject": "rename:Azealia Banks::1992",
-     "was": {
-      "artist": "Azealia Banks",
-      "title": "1992"
-     },
-     "apply": "Rename"
-    },
-    {
-     "artist": "Boards of Canada",
-     "title": "Societas X Tape",
-     "note": "Boards of Canada — 2019-06-23: Societas x Tape   (the title gains \"2019\" — likely a different release; sequence number changed (Pt. 2 / Vol. 3 / Part One))",
-     "suggest": {
-      "artist": "Boards of Canada",
-      "title": "2019-06-23: Societas x Tape"
-     },
-     "subject": "rename:Boards of Canada::Societas X Tape",
-     "was": {
-      "artist": "Boards of Canada",
-      "title": "Societas X Tape"
      },
      "apply": "Rename"
     },
@@ -785,8 +623,4009 @@
    "title": "Apple Music matches held back",
    "why": "Probably the right record, not certainly. Open it to check, then link it or reject it.",
    "action": "link",
-   "count": 0,
-   "items": []
+   "count": 311,
+   "items": [
+    {
+     "artist": "A Place To Bury Strangers",
+     "title": "Exploding Head",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1645072974",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1645072974",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Against All Logic",
+     "title": "2017-2019",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1496655403",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1496655403",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Against Me!",
+     "title": "Is Reinventing Axl Rose",
+     "note": "Apple Music has \"Reinventing Axl Rose\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/reinventing-axl-rose/1435510474",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/reinventing-axl-rose/1435510474",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Akira Yamaoka",
+     "title": "Silent Hill 2",
+     "note": "Apple Music has \"SILENT HILL 2 ORIGINAL SOUNDTRACK -2024-\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/silent-hill-2-original-soundtrack-2024/6795853099",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/silent-hill-2-original-soundtrack-2024/6795853099",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Al Green",
+     "title": "Greatest Hits (Al Green)",
+     "note": "Apple Music has \"Greatest Hits\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/greatest-hits/1203896404",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/greatest-hits/1203896404",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Alex Cameron",
+     "title": "Miami Memory",
+     "note": "Apple Music has \"Miami Memories - EP\" — the title is spelled differently",
+     "preview": "https://music.apple.com/mx/album/miami-memories-ep/1513479036",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/miami-memories-ep/1513479036",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Alice in Chains",
+     "title": "Unplugged",
+     "note": "Apple Music has \"MTV Unplugged (Live)\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/mtv-unplugged-live/388143873",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/mtv-unplugged-live/388143873",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Ana Frango Eléctrico",
+     "title": "Me Chama De Gato Que Eu Sou Soa",
+     "note": "Apple Music has \"Me Chama De Gato Que Eu Sou Sua\" — the title is spelled differently",
+     "preview": "https://music.apple.com/mx/album/me-chama-de-gato-que-eu-sou-sua/1700639465",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/me-chama-de-gato-que-eu-sou-sua/1700639465",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Andrew Jackson Jihad",
+     "title": "Can't Maintain",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/330494278",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/330494278",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Andy Stott",
+     "title": "Passed Me By / We Stay Together",
+     "note": "Apple Music has \"Passed Me By\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/passed-me-by/438282352",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/passed-me-by/438282352",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Ariel Pink",
+     "title": "Dedicated to Bobby Jameson",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1248976894",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1248976894",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Armand Hammer",
+     "title": "Paraffin",
+     "note": "Apple Music has \"Paraffin (feat. E L U C I D & billy woods)\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/paraffin-feat-e-l-u-c-i-d-billy-woods/1761256985",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/paraffin-feat-e-l-u-c-i-d-billy-woods/1761256985",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Bad Brains",
+     "title": "Bad Brains",
+     "note": "Apple Music has \"Bad Brains In Dub: Conducted by Kein Hass Da\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/bad-brains-in-dub-conducted-by-kein-hass-da/881657797",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/bad-brains-in-dub-conducted-by-kein-hass-da/881657797",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Beach Bunny",
+     "title": "Blame Game",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1537898980",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1537898980",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Beak>",
+     "title": ">>>",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1790739646",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1790739646",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Big K.R.I.T.",
+     "title": "4eva Is A Mighty Long Time",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1291119038",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1291119038",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Big K.R.I.T.",
+     "title": "K.R.I.T. Wuz Here",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1514127588",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1514127588",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Big K.R.I.T.",
+     "title": "Return of 4eva",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1582171740",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1582171740",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Bill Evans Trio",
+     "title": "Sunday at the Village Vanguard",
+     "note": "Apple Music has \"Sunday At the Village Vanguard (Keepnews Collection) [Live]\" — the title is longer or shorter than yours, and it is a live album",
+     "preview": "https://music.apple.com/mx/album/sunday-at-the-village-vanguard-keepnews-collection-live/1440926338",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/sunday-at-the-village-vanguard-keepnews-collection-live/1440926338",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Black Thought",
+     "title": "Streams of Thought Vol. 1",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1464346818",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1464346818",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Black Thought & Salaam Remi",
+     "title": "Streams of Thought Vol. 2",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1468716931",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1468716931",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Blink-182",
+     "title": "Greatest Hits (Blink-182)",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/311809589",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/311809589",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Blu",
+     "title": "\"The Color Blu(e)\"",
+     "note": "Apple Music has \"The Color Blu(e) Instrumentals\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/the-color-blu-e-instrumentals/1719909243",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/the-color-blu-e-instrumentals/1719909243",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Blu & Exile",
+     "title": "Give Me My Flowers While I Can Still Smell Them",
+     "note": "Apple Music has \"Give Me My Flowers While I Can Still Smell Them Instrumentals\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/give-me-my-flowers-while-i-can-still-smell-them-instrumentals/1021444977",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/give-me-my-flowers-while-i-can-still-smell-them-instrumentals/1021444977",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Blur",
+     "title": "The Best of Blur",
+     "note": "Apple Music has \"The Best Of\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/the-best-of/867694889",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/the-best-of/867694889",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Bo Burnham",
+     "title": "what.",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1590943409",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1590943409",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Bob Marley",
+     "title": "Legend",
+     "note": "Apple Music has \"Legend Remixed\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/legend-remixed/1442830055",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/legend-remixed/1442830055",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Bon Iver",
+     "title": "SABLE,",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1765298404",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1765298404",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Boris",
+     "title": "Heavy Rocks",
+     "note": "Apple Music has \"Heavy Rocks (2002)\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/heavy-rocks-2002/1854903721",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/heavy-rocks-2002/1854903721",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Botch",
+     "title": "We Are the Romans",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1587313486",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1587313486",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Brave Little Abacus",
+     "title": "Okumay",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1653419298",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1653419298",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Burial",
+     "title": "Kindred",
+     "note": "Apple Music has \"Kindred EP\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/kindred-ep/892543151",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/kindred-ep/892543151",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "C. Tangana",
+     "title": "El Madrileño",
+     "note": "Apple Music has \"El Madrileño (Live at NPR's Tiny Desk) - Single\" — the title is longer or shorter than yours, and it is a live album",
+     "preview": "https://music.apple.com/mx/album/el-madrile%C3%B1o-live-at-nprs-tiny-desk-single/1562779045",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/el-madrile%C3%B1o-live-at-nprs-tiny-desk-single/1562779045",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Café Tacvba",
+     "title": "Revés",
+     "note": "Apple Music has \"Re\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/re/36401122",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/re/36401122",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Cakes da Killa",
+     "title": "Muvaland",
+     "note": "Apple Music has \"Muvaland Vol. 2 - EP\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/muvaland-vol-2-ep/1833926984",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/muvaland-vol-2-ep/1833926984",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Camarón de la Isla",
+     "title": "La Leyenda del Tiempo",
+     "note": "Apple Music has \"La Leyenda del Tiempo (Remastered 2018) [feat. Paco de Lucía]\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/la-leyenda-del-tiempo-remastered-2018-feat-paco-de-luc%C3%ADa/1442730986",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/la-leyenda-del-tiempo-remastered-2018-feat-paco-de-luc%C3%ADa/1442730986",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Cat Power",
+     "title": "Moon Pix",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1023398873",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1023398873",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Charly Garcia",
+     "title": "Yendo de la Cama al Living",
+     "note": "Apple Music has \"Pubis Angelical / Yendo De La Cama Al Living\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/pubis-angelical-yendo-de-la-cama-al-living/1417536853",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/pubis-angelical-yendo-de-la-cama-al-living/1417536853",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Chief Keef",
+     "title": "Almighty So",
+     "note": "Apple Music has \"Almighty So 2\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/almighty-so-2/1750095820",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/almighty-so-2/1750095820",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Childish Gambino",
+     "title": "\"Awaken, My Love!\"",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1450975800",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1450975800",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Cindy Lee",
+     "title": "Diamond Jubilee",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1789248058",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1789248058",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Clarence Clarity",
+     "title": "NO NOW",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/945428682",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/945428682",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Cluster",
+     "title": "Zuckerseit",
+     "note": "Apple Music has \"Zuckerzeit\" — the title is spelled differently",
+     "preview": "https://music.apple.com/mx/album/zuckerzeit/1443282938",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/zuckerzeit/1443282938",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Colin Stetson",
+     "title": "New History Warfare Vol. 2",
+     "note": "Apple Music has \"New History Warfare, Vol 2: Judges\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/new-history-warfare-vol-2-judges/482631565",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/new-history-warfare-vol-2-judges/482631565",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Cookin Soul",
+     "title": "DOOM XMAS",
+     "note": "Apple Music has \"Doom Xmas (Beats)\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/doom-xmas-beats/1491969318",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/doom-xmas-beats/1491969318",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Courtney Barnett",
+     "title": "The Double EP: The Sea of Split Peas",
+     "note": "Apple Music has \"The Double EP: A Sea of Split Peas\" — the title is spelled differently",
+     "preview": "https://music.apple.com/mx/album/the-double-ep-a-sea-of-split-peas/1881404957",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/the-double-ep-a-sea-of-split-peas/1881404957",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Creedence Clearwater Revival",
+     "title": "Chronicle",
+     "note": "Apple Music has \"Chronicle: The 20 Greatest Hits\" — the title is longer or shorter than yours, and it is a compilation",
+     "preview": "https://music.apple.com/mx/album/chronicle-the-20-greatest-hits/1440955595",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/chronicle-the-20-greatest-hits/1440955595",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Daphni",
+     "title": "Sizzling EP",
+     "note": "Apple Music has \"Sizzling - EP\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/sizzling-ep/1466002233",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/sizzling-ep/1466002233",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Daughter",
+     "title": "The Wild Youth",
+     "note": "Apple Music has \"Wild Youth - EP\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/wild-youth-ep/1771706938",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/wild-youth-ep/1771706938",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Daughters",
+     "title": "Daughters",
+     "note": "Apple Music has \"All Sons & Daughters\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/all-sons-daughters/1791535529",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/all-sons-daughters/1791535529",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "David Bowie",
+     "title": "Changesbowie",
+     "note": "Apple Music has \"ChangesNowBowie\" — the title is spelled differently",
+     "preview": "https://music.apple.com/mx/album/changesnowbowie/1505418271",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/changesnowbowie/1505418271",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "David Bowie",
+     "title": "No Plan",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1191638191",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1191638191",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Dead Kennedys",
+     "title": "Give Me Convenience or Give Me Death",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/42263746",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/42263746",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "DEAN",
+     "title": "130 Mood: TRBL",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1094604739",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1094604739",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Deee-Lite",
+     "title": "Sampladelic Relics and Dancefloor Oddities",
+     "note": "Apple Music has \"Sampladelic Relics & Dancefloor Oddities (Remix Version)\" — the title is spelled differently",
+     "preview": "https://music.apple.com/mx/album/sampladelic-relics-dancefloor-oddities-remix-version/268497238",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/sampladelic-relics-dancefloor-oddities-remix-version/268497238",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Deftones",
+     "title": "Koi No Yokan",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/567302377",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/567302377",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Destroyer",
+     "title": "Labrynthitis",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1600504657",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1600504657",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Destroyer",
+     "title": "Poison's Season",
+     "note": "Apple Music has \"Poison Season\" — the title is spelled differently",
+     "preview": "https://music.apple.com/mx/album/poison-season/1839064951",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/poison-season/1839064951",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Devon Hendryx",
+     "title": "THE GHOST~POP TAPE",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1713244075",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1713244075",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Diamond Head",
+     "title": "Lightning to the Nations",
+     "note": "Apple Music has \"Lightning to the Nations 2020\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/lightning-to-the-nations-2020/1529297365",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/lightning-to-the-nations-2020/1529297365",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Dio",
+     "title": "Holy Diver",
+     "note": "Apple Music has \"Holy Diver: Live\" — the title is longer or shorter than yours, and it is a live album",
+     "preview": "https://music.apple.com/mx/album/holy-diver-live/1551599597",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/holy-diver-live/1551599597",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Disco Inferno",
+     "title": "Summer's Last Sound",
+     "note": "Apple Music has \"Summer's Last Sound/ Love Stepping Out\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/summers-last-sound-love-stepping-out/275326897",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/summers-last-sound-love-stepping-out/275326897",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "DJ Rashad",
+     "title": "Double Cup",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/700802256",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/700802256",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Django Reinhardt",
+     "title": "Best of Django Reinhardt",
+     "note": "Apple Music has \"The Best of Django Reinhardt\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/the-best-of-django-reinhardt/696823439",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/the-best-of-django-reinhardt/696823439",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "DOOM",
+     "title": "Born Like This",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1455366091",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1455366091",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Dylan Brady",
+     "title": "Needle Guy EP",
+     "note": "Apple Music has \"Needle Guy - EP\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/needle-guy-ep/1885063497",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/needle-guy-ep/1885063497",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "ecco2k",
+     "title": "E",
+     "note": "Apple Music has \"Pxe - EP\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/pxe-ep/1615962362",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/pxe-ep/1615962362",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Eels",
+     "title": "Electro-Shock Blues",
+     "note": "Apple Music has \"Electro Shock Blues Show (Live)\" — the title is longer or shorter than yours, and it is a live album",
+     "preview": "https://music.apple.com/mx/album/electro-shock-blues-show-live/1660486868",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/electro-shock-blues-show-live/1660486868",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Elliot Smith",
+     "title": "From a Basement on a Hill",
+     "note": "Apple Music has \"From a Basement On the Hill\" — the title is spelled differently",
+     "preview": "https://music.apple.com/mx/album/from-a-basement-on-the-hill/1442427103",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/from-a-basement-on-the-hill/1442427103",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Elmore James",
+     "title": "The Sky Is Crying: The History of Elmore James",
+     "note": "Apple Music has \"The Sky Is Crying\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/the-sky-is-crying/1840878032",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/the-sky-is-crying/1840878032",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Fall Out Boy",
+     "title": "Folie a Deux",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1443104883",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1443104883",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Fatboy Slim",
+     "title": "Between the Gutter and the Stars",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1141398714",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1141398714",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Fatboy Slim",
+     "title": "Why Try Harder",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/684775946",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/684775946",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Fatboy Slim",
+     "title": "You've Come a Long Way, Baby",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1138887546",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1138887546",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Father John Misty",
+     "title": "I Love You, Honeybear",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/933313513",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/933313513",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Fela Kuti & Africa 70",
+     "title": "Expensive Shit",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1535494161",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1535494161",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Fela Kuti & Africa 70",
+     "title": "Gentleman",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/595826556",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/595826556",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Fela Kuti & Africa 70",
+     "title": "Roforofo Fight",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/595824424",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/595824424",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Fever Ray",
+     "title": "Fever Ray",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/827807445",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/827807445",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Fishmans",
+     "title": "98.12.28 Otokotachi no Wakare",
+     "note": "Apple Music has \"98.12.28 Otokotachino Wakare (Live)\" — the title is longer or shorter than yours, and it is a live album",
+     "preview": "https://music.apple.com/mx/album/98-12-28-otokotachino-wakare-live/1416934392",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/98-12-28-otokotachino-wakare-live/1416934392",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "FKA twigs",
+     "title": "LP1",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/885796922",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/885796922",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Flipper",
+     "title": "Generic Album - Flipper",
+     "note": "Apple Music has \"Generic\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/generic/299826399",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/generic/299826399",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "FONTAINES D.C",
+     "title": "Skinty Fia",
+     "note": "Apple Music has \"Skinty Fia (Edit) - Single\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/skinty-fia-edit-single/1783179443",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/skinty-fia-edit-single/1783179443",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Foo Fighters",
+     "title": "Greatest Hits (Foo Fighters)",
+     "note": "Apple Music has \"Foo Fighters\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/foo-fighters/258512042",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/foo-fighters/258512042",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "foxtails",
+     "title": "fawn",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1592102979",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1592102979",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Franz Ferdinand",
+     "title": "Right Thoughts, Right Words, Right Action",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/672278601",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/672278601",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Freddie Gibs & Madlib",
+     "title": "Piñata",
+     "note": "Apple Music has \"Piñata Beats\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/pi%C3%B1ata-beats/1705348153",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/pi%C3%B1ata-beats/1705348153",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Fugazi",
+     "title": "Fugazi",
+     "note": "Apple Music has \"Fugazi (Live at Wilson Center, Washington DC, USA, 09/03/1987) FLS0001\" — the title is longer or shorter than yours, and it is a live album",
+     "preview": "https://music.apple.com/mx/album/fugazi-live-at-wilson-center-washington-dc-usa-09-03/1809213389",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/fugazi-live-at-wilson-center-washington-dc-usa-09-03/1809213389",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Funkadelic",
+     "title": "One Nation Under a Groove",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1180047913",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1180047913",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Gas",
+     "title": "Pop",
+     "note": "Apple Music has \"Sí\" — the title is spelled differently",
+     "preview": "https://music.apple.com/mx/album/s%C3%AD/251197275",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/s%C3%AD/251197275",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "GENA",
+     "title": "The Pleasure Is Yours",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1859936382",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1859936382",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Genesis Owusu",
+     "title": "Smiling with No Teeth",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1538031240",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1538031240",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Girlpool",
+     "title": "Powerplant",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1209998502",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1209998502",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Girls",
+     "title": "Album",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1208219493",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1208219493",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Godspeed You Black Emperor",
+     "title": "“NO TITLE AS OF 13 FEBRUARY 2024 28,340 DEAD”",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1760821166",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1760821166",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Godspeed You Black Emperor",
+     "title": "F♯ A♯ ∞",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/40884346",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/40884346",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Godspeed You Black Emperor",
+     "title": "Luciferian Towers",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1264190010",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1264190010",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "hemlocke springs",
+     "title": "the apple tree under the sea",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1846462383",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1846462383",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Ichiko Aoba",
+     "title": "Luminiscent Creatures",
+     "note": "Apple Music has \"Luminescent Creatures\" — the title is spelled differently",
+     "preview": "https://music.apple.com/mx/album/luminescent-creatures/1777069509",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/luminescent-creatures/1777069509",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "IDK",
+     "title": "e.t.d.s",
+     "note": "Apple Music has \"e.t.d.s. A Mixtape by .idk.\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/e-t-d-s-a-mixtape-by-idk/1872476970",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/e-t-d-s-a-mixtape-by-idk/1872476970",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Idles",
+     "title": "Brutalism",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1649222384",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1649222384",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "IDLES",
+     "title": "CRAWLER",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1570477692",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1570477692",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "IDLES",
+     "title": "Joy as an Act of Resistance.",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1391070525",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1391070525",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "IDLES",
+     "title": "Ultra Mono",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1517502945",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1517502945",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Iggy Pop",
+     "title": "Post Pop Depression",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1075985462",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1075985462",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Interpol",
+     "title": "Marauder",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1387627335",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1387627335",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Intoxicados",
+     "title": "No es Solo Rock N' Roll",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1443425137",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1443425137",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Janet Jackson",
+     "title": "Janet Jackson's Rhythm Nation 1814",
+     "note": "Apple Music has \"Rhythm Nation 1814\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/rhythm-nation-1814/1440838561",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/rhythm-nation-1814/1440838561",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Japandroid",
+     "title": "Celebration Rock",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/527058833",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/527058833",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Jay Som",
+     "title": "Anak Ko",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1463755446",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1463755446",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Jean Grae & Quelle Chris",
+     "title": "Everything's Fine",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1338940283",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1338940283",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Jeff Rosenstock",
+     "title": "We Cool?",
+     "note": "Apple Music has \"Are We Cool - Single\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/are-we-cool-single/1423662234",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/are-we-cool-single/1423662234",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Jens Lekman",
+     "title": "Night Falls Over Kortedala",
+     "note": "Apple Music has \"The Linden Trees Are Still In Blossom (Night Falls Over Kortedala)\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/the-linden-trees-are-still-in-blossom-night-falls/1612835772",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/the-linden-trees-are-still-in-blossom-night-falls/1612835772",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Jens Lekman",
+     "title": "Oh You're So Silent Jens",
+     "note": "Apple Music has \"The Cherry Trees Are Still In Blossom (Oh You're So Silent Jens)\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/the-cherry-trees-are-still-in-blossom-oh-youre-so-silent-jens/1612722300",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/the-cherry-trees-are-still-in-blossom-oh-youre-so-silent-jens/1612722300",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Jimmy Cliff",
+     "title": "The Harder They Come",
+     "note": "Apple Music has \"The Harder They Come: The Remixes - EP\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/the-harder-they-come-the-remixes-ep/1759012349",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/the-harder-they-come-the-remixes-ep/1759012349",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Jimmy Eat World",
+     "title": "Future",
+     "note": "Apple Music has \"Futures\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/futures/1454825406",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/futures/1454825406",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "John Michel & Anthony James",
+     "title": "Egotrip",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1812540525",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1812540525",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Jonny Greenwood",
+     "title": "There Will Be Blood",
+     "note": "Apple Music has \"There Will Be Blood (Music from the Motion Picture)\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/there-will-be-blood-music-from-the-motion-picture/269735676",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/there-will-be-blood-music-from-the-motion-picture/269735676",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Jonny Greenwood",
+     "title": "You Were Never Really Here",
+     "note": "Apple Music has \"You Were Never Really Here (Original Motion Picture Soundtrack)\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/you-were-never-really-here-original-motion-picture/1790725950",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/you-were-never-really-here-original-motion-picture/1790725950",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Kai Whiston",
+     "title": "Kai Whiston Bitch",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1438815005",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1438815005",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Kaiser Chiefs",
+     "title": "Your Truly, Angry Mob",
+     "note": "Apple Music has \"Yours Truly, Angry Mob (Deluxe)\" — the title is spelled differently",
+     "preview": "https://music.apple.com/mx/album/yours-truly-angry-mob-deluxe/1443919260",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/yours-truly-angry-mob-deluxe/1443919260",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Kate Bush",
+     "title": "Hound of Love",
+     "note": "Apple Music has \"Hounds of Love\" — the title is spelled differently",
+     "preview": "https://music.apple.com/mx/album/hounds-of-love/1675375084",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/hounds-of-love/1675375084",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Kate Bush",
+     "title": "The Whole Story",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/699621088",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/699621088",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "King Gizzard & The Lizard Wizard",
+     "title": "Fishing for Fishies",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1452800601",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1452800601",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "King Gizzard & The Lizard Wizard",
+     "title": "Infest the Rats' Nest",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1658988803",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1658988803",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "King Gizzard & The Lizard Wizard",
+     "title": "Nonagon Infinity",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1087182669",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1087182669",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "King Krule",
+     "title": "Man Alive!",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1490914724",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1490914724",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Krallice",
+     "title": "Crystallice Exhaustion",
+     "note": "Apple Music has \"Crystalline Exhaustion\" — the title is spelled differently",
+     "preview": "https://music.apple.com/mx/album/crystalline-exhaustion/1664461560",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/crystalline-exhaustion/1664461560",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Kreator",
+     "title": "Extreme Agression",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/682217649",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/682217649",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Kurt Vile",
+     "title": "Bottle It In",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1433713179",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1433713179",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Kurt Vile",
+     "title": "Walkin On a Pretty Daze",
+     "note": "Apple Music has \"Wakin On a Pretty Daze\" — the title is spelled differently",
+     "preview": "https://music.apple.com/mx/album/wakin-on-a-pretty-daze/1589250882",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/wakin-on-a-pretty-daze/1589250882",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Kyle Dixon & Michael Stein",
+     "title": "Stranger Things, Vol 1",
+     "note": "Apple Music has \"Stranger Things, Vol. 1 (A Netflix Original Series Soundtrack)\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/stranger-things-vol-1-a-netflix-original-series-soundtrack/1142771412",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/stranger-things-vol-1-a-netflix-original-series-soundtrack/1142771412",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Lamp",
+     "title": "恋人へ [For Lovers]",
+     "note": "Apple Music has \"恋人へ\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/%E6%81%8B%E4%BA%BA%E3%81%B8/1486281113",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/%E6%81%8B%E4%BA%BA%E3%81%B8/1486281113",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Laura Marling",
+     "title": "Song for Our Daughter",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1504725670",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1504725670",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Le Tigre",
+     "title": "Le Tigre",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1813861028",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1813861028",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Lena Raine",
+     "title": "Celeste",
+     "note": "Apple Music has \"Celeste Piano Collections\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/celeste-piano-collections/1449960195",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/celeste-piano-collections/1449960195",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "leroy",
+     "title": "Diaracore",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1674848769",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1674848769",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Les Savy Fav",
+     "title": "Rome (Written Upside Down) EP",
+     "note": "Apple Music has \"ROME (Written Upside Down) - EP\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/rome-written-upside-down-ep/1573611997",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/rome-written-upside-down-ep/1573611997",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Lianne Le Havas",
+     "title": "Lianne Le Havas",
+     "note": "Apple Music has \"Lianne La Havas\" — the title is spelled differently",
+     "preview": "https://music.apple.com/mx/album/lianne-la-havas/1545263511",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/lianne-la-havas/1545263511",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Lil B \"The BasedGod\"",
+     "title": "6 Kiss",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1374954199",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1374954199",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Lil Wayne",
+     "title": "The Carter II",
+     "note": "Apple Music has \"Tha Carter II\" — the title is spelled differently",
+     "preview": "https://music.apple.com/mx/album/tha-carter-ii/1443918957",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/tha-carter-ii/1443918957",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Lily Chou-Chou",
+     "title": "呼吸 (Kokyuu)",
+     "note": "Apple Music has \"Kokyuu\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/kokyuu/1297925080",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/kokyuu/1297925080",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Linkin Park",
+     "title": "Reanimation",
+     "note": "Apple Music has \"One Step Closer (100 gecs Reanimation) - Single\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/one-step-closer-100-gecs-reanimation-single/1545066949",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/one-step-closer-100-gecs-reanimation-single/1545066949",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Los Jaivas",
+     "title": "Alturas de Machu Pichu",
+     "note": "Apple Music has \"Alturas de Macchu Picchu\" — the title is spelled differently",
+     "preview": "https://music.apple.com/mx/album/alturas-de-macchu-picchu/1607400773",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/alturas-de-macchu-picchu/1607400773",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Lucy Dacus",
+     "title": "Historian",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1316844364",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1316844364",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Machine Girl",
+     "title": "…Because I’m Young Arrogant and Hate Everything You Stand For",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1312040404",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1312040404",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Machine Girl",
+     "title": "MRK90 MIX Vol 1",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1702749836",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1702749836",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Main Source",
+     "title": "Breaking Atoms",
+     "note": "Apple Music has \"Breaking Atoms (Instrumentals)\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/breaking-atoms-instrumentals/6808702338",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/breaking-atoms-instrumentals/6808702338",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Matana Roberts",
+     "title": "Coin Coin Chapter One: Gens De Couleur Libre",
+     "note": "Apple Music has \"Coin Coin Chapter One: Gens de Couleur Libres\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/coin-coin-chapter-one-gens-de-couleur-libres/482998388",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/coin-coin-chapter-one-gens-de-couleur-libres/482998388",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Max Tundra",
+     "title": "Mastered by the Guy at the Exchange",
+     "note": "Apple Music has \"Mastered By Guy At the Exchange\" — the title is spelled differently",
+     "preview": "https://music.apple.com/mx/album/mastered-by-guy-at-the-exchange/306623077",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/mastered-by-guy-at-the-exchange/306623077",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "McKinley Dixon",
+     "title": "Beloved! Paradise! Jazz?!",
+     "note": "Apple Music has \"Beloved! Paradise! Jazz!? (Kitchen Table Session) - Single\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/beloved-paradise-jazz-kitchen-table-session-single/1721061908",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/beloved-paradise-jazz-kitchen-table-session-single/1721061908",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Meat Puppets",
+     "title": "Meat Puppets II",
+     "note": "Apple Music has \"Meat Puppets Live\" — the title is spelled differently, and it is a live album",
+     "preview": "https://music.apple.com/mx/album/meat-puppets-live/285669928",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/meat-puppets-live/285669928",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Menomena",
+     "title": "I Am the Fun Blame Monster",
+     "note": "Apple Music has \"I Am the Fun Blame Monster! (Plus Nine B-Sides)\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/i-am-the-fun-blame-monster-plus-nine-b-sides/1536144131",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/i-am-the-fun-blame-monster-plus-nine-b-sides/1536144131",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Metallica",
+     "title": "Kill Em' All",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1100958822",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1100958822",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Metallica",
+     "title": "Master Of Puppets",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1275600311",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1275600311",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "MF Doom",
+     "title": "Operation: Doomsday",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1238866336",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1238866336",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Mica Levi",
+     "title": "Under the Skin OST",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/836460975",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/836460975",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Michael Mayer",
+     "title": "Immer",
+     "note": "Apple Music has \"Higher - EP\" — the title is spelled differently",
+     "preview": "https://music.apple.com/mx/album/higher-ep/1504710010",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/higher-ep/1504710010",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Miles Davis",
+     "title": "Miles Davis",
+     "note": "Apple Music has \"Miles\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/miles/1443218868",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/miles/1443218868",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Milo",
+     "title": "So The Flies Don't Come",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1031735048",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1031735048",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Mississippi John Hurt",
+     "title": "Rediscovered (Mississippi John Hurt)",
+     "note": "Apple Music has \"Rediscovered\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/rediscovered/712066780",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/rediscovered/712066780",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Mobb Deep",
+     "title": "Hell on Earth",
+     "note": "Apple Music has \"Front Lines (Hell On Earth) - Single\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/front-lines-hell-on-earth-single/1569683560",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/front-lines-hell-on-earth-single/1569683560",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Model/Actriz",
+     "title": "Dogbody",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1664269748",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1664269748",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Model/Actriz",
+     "title": "Pirouette",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1794340138",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1794340138",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Modest Mouse",
+     "title": "Interstate 8 ep",
+     "note": "Apple Music has \"Interstate 8\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/interstate-8/1566214199",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/interstate-8/1566214199",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Mogwai",
+     "title": "Central Belters",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1039971176",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1039971176",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Moor Mother & Billy Woods",
+     "title": "BRASS",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1545462351",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1545462351",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Mötorhead",
+     "title": "No Remorse",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/682182613",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/682182613",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Movements",
+     "title": "Feel Something",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1287698166",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1287698166",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Mulatu Astatke",
+     "title": "Éthiopiques 4: Ethio Jazz & Musique Instrumentale 1969-1974",
+     "note": "Apple Music has \"Éthiopiques, Vol. 4: Ethio Jazz & Musique Instrumentale (1969-1974)\" — the title is spelled differently",
+     "preview": "https://music.apple.com/mx/album/%C3%A9thiopiques-vol-4-ethio-jazz-musique-instrumentale/78928362",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/%C3%A9thiopiques-vol-4-ethio-jazz-musique-instrumentale/78928362",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Muse",
+     "title": "The 2nd Law",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/563015686",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/563015686",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "my bloody valentine",
+     "title": "Glider EP",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/302072507",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/302072507",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "My Chemical Romance",
+     "title": "The Black Parade: The B-Sides",
+     "note": "Apple Music has \"The Black Parade\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/the-black-parade/209388277",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/the-black-parade/209388277",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "My Dying Bride",
+     "title": "The Angel and the Dark River",
+     "note": "Apple Music has \"The Angel & The Dark River\" — the title is spelled differently",
+     "preview": "https://music.apple.com/mx/album/the-angel-the-dark-river/1189343249",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/the-angel-the-dark-river/1189343249",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Nação Zumbi & Chico Science",
+     "title": "Da Lama Ao Caos",
+     "note": "Apple Music has \"Da Lama Ao Caos (Cangaço Novo Original Motion Picture Soundtrack) - Single\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/da-lama-ao-caos-canga%C3%A7o-novo-original-motion-picture/1703805295",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/da-lama-ao-caos-canga%C3%A7o-novo-original-motion-picture/1703805295",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Naked City",
+     "title": "Naked City",
+     "note": "Apple Music has \"Naked City Live vol. 1: Knitting Factory 1989\" — the title is longer or shorter than yours, and it is a live album",
+     "preview": "https://music.apple.com/mx/album/naked-city-live-vol-1-knitting-factory-1989/1189673514",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/naked-city-live-vol-1-knitting-factory-1989/1189673514",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Natalia Lafourcade",
+     "title": "Musas",
+     "note": "Apple Music has \"Musas (feat. Los Macorinos)\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/musas-feat-los-macorinos/1222119855",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/musas-feat-los-macorinos/1222119855",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Neil Cicieraga",
+     "title": "Mouth Silence",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1685776732",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1685776732",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Neon Indian",
+     "title": "Vegan INTL. Night School",
+     "note": "Apple Music has \"VEGA INTL. Night School\" — the title is spelled differently",
+     "preview": "https://music.apple.com/mx/album/vega-intl-night-school/1031719959",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/vega-intl-night-school/1031719959",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Nine Inch Nails",
+     "title": "Add Violence",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1260014946",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1260014946",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Nine Inch Nails",
+     "title": "Hesitation Marks",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/655150306",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/655150306",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Nine Inch Nails",
+     "title": "Not The Actual Events",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1188499362",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1188499362",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Nobuo Uematsu 植松伸夫",
+     "title": "Final Fantasy VII",
+     "note": "Apple Music has \"FINAL FANTASY VII (Original Soundtrack)\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/final-fantasy-vii-original-soundtrack/61018952",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/final-fantasy-vii-original-soundtrack/61018952",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "NOFX",
+     "title": "Punk In Drublic",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/271953403",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/271953403",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "NoMeansNo",
+     "title": "Wrong",
+     "note": "Apple Music has \"One\" — the title is spelled differently",
+     "preview": "https://music.apple.com/mx/album/one/1860313118",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/one/1860313118",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Of Montreal",
+     "title": "Hissing Fauna, Are You the Destroyer?",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/211929971",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/211929971",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Open Mike Eagle",
+     "title": "A Special Episode Of",
+     "note": "Apple Music has \"A Special Episode - EP\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/a-special-episode-ep/1866866866",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/a-special-episode-ep/1866866866",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Paysage d'Hiver",
+     "title": "Winterkaelte",
+     "note": "Apple Music has \"Winterkälte\" — the title is spelled differently",
+     "preview": "https://music.apple.com/mx/album/winterk%C3%A4lte/1555250726",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/winterk%C3%A4lte/1555250726",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Pet Shop Boys",
+     "title": "PopArt: The Hits (Art)",
+     "note": "Apple Music has \"PopArt: The Hits\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/popart-the-hits/696083863",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/popart-the-hits/696083863",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Pet Shop Boys",
+     "title": "PopArt: The Hits (Pop)",
+     "note": "Apple Music has \"PopArt: The Hits\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/popart-the-hits/696083863",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/popart-the-hits/696083863",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Pete Rock & InI",
+     "title": "Center of Attention",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1210716593",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1210716593",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Petrol Girls",
+     "title": "Baby",
+     "note": "Apple Music has \"Baby, I Had an Abortion - Single\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/baby-i-had-an-abortion-single/1777847841",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/baby-i-had-an-abortion-single/1777847841",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Pink Floyd",
+     "title": "The Final Cut",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/15111696",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/15111696",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Porter Robinson",
+     "title": "SMILE! :D",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1740856393",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1740856393",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Powder",
+     "title": "Powder in Space (DJ Mix)",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1447522956",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1447522956",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Pretenders",
+     "title": "Pretenders",
+     "note": "Apple Music has \"Pretenders II\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/pretenders-ii/118128528",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/pretenders-ii/118128528",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Primal Scream",
+     "title": "Vanishing Point",
+     "note": "Apple Music has \"Vanishing Point (The Bunker Trilogy Mix)\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/vanishing-point-the-bunker-trilogy-mix/6811851041",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/vanishing-point-the-bunker-trilogy-mix/6811851041",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Prince",
+     "title": "[Love Symbol]",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1544288691",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1544288691",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Prince",
+     "title": "Dirty Mind",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1544296643",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1544296643",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Public Image Ltd.",
+     "title": "The Flowers of Romance",
+     "note": "Apple Music has \"Flowers of Romance (Remastered)\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/flowers-of-romance-remastered/714760124",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/flowers-of-romance-remastered/714760124",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "PUP",
+     "title": "Morbid Stuff",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1449065618",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1449065618",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Quadeca",
+     "title": "Scrapyard",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1729208217",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1729208217",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Queens Of The Stone Age",
+     "title": "Villains",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1244891728",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1244891728",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Quelle Chris",
+     "title": "Guns",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1451045430",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1451045430",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "R.E.M",
+     "title": "Out of Time",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1174461751",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1174461751",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Radiohead",
+     "title": "In Rainbows: From the Basement",
+     "note": "Apple Music has \"In Rainbows\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/in-rainbows/1109714933",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/in-rainbows/1109714933",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Rita Indiana",
+     "title": "Mandinga Times",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1528763897",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1528763897",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Roc Marciano",
+     "title": "Behold A Dark Horse",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1438546924",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1438546924",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Róisín Murphy",
+     "title": "Hit Parade",
+     "note": "Apple Music has \"Hit Parade Remixes\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/hit-parade-remixes/1744380935",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/hit-parade-remixes/1744380935",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Run the Jewels",
+     "title": "Run the Jewels 4",
+     "note": "Apple Music has \"Run The Jewels\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/run-the-jewels/1863305829",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/run-the-jewels/1863305829",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Run The Jewels",
+     "title": "Run The Jewels 2",
+     "note": "Apple Music has \"Run The Jewels\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/run-the-jewels/1863305829",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/run-the-jewels/1863305829",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Run The Jewels",
+     "title": "Run The Jewels 3",
+     "note": "Apple Music has \"Run The Jewels\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/run-the-jewels/1863305829",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/run-the-jewels/1863305829",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Ryuichi Sakamoto",
+     "title": "Thousand Knives Of",
+     "note": "Apple Music has \"Thousand Knives - EP\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/thousand-knives-ep/330744443",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/thousand-knives-ep/330744443",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Santogold",
+     "title": "Santogold",
+     "note": "Apple Music has \"Santigold\" — the title is spelled differently",
+     "preview": "https://music.apple.com/mx/album/santigold/278671865",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/santigold/278671865",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Savages",
+     "title": "Adore",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1048053274",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1048053274",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Savatage",
+     "title": "Gutter Ballet",
+     "note": "Apple Music has \"Gutter Ballet (Live 1990) - Single\" — the title is longer or shorter than yours, and it is a live album",
+     "preview": "https://music.apple.com/mx/album/gutter-ballet-live-1990-single/6766833128",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/gutter-ballet-live-1990-single/6766833128",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Savatage",
+     "title": "Hail of the Mountain King",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/466816947",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/466816947",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Sheer Mag",
+     "title": "Compilation",
+     "note": "Apple Music has \"COMPILATION (I, II, & III)\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/compilation-i-ii-iii/1854904194",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/compilation-i-ii-iii/1854904194",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Shinsei Kamattechan",
+     "title": "つまんね [Tsumanne]",
+     "note": "Apple Music has \"つまんね\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/%E3%81%A4%E3%81%BE%E3%82%93%E3%81%AD/408331115",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/%E3%81%A4%E3%81%BE%E3%82%93%E3%81%AD/408331115",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Shlohmo",
+     "title": "Laid Out EP",
+     "note": "Apple Music has \"Laid Out - EP\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/laid-out-ep/691922340",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/laid-out-ep/691922340",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Siouxsie and the Banshees",
+     "title": "Tinderbox",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/308851782",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/308851782",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Slayer",
+     "title": "Reign in Blood",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1440928291",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1440928291",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Sleep",
+     "title": "The Sciences",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1372708464",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1372708464",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Slint",
+     "title": "[untitled]",
+     "note": "Apple Music has \"untitled (albini rough mixes) - Single\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/untitled-albini-rough-mixes-single/6766346668",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/untitled-albini-rough-mixes-single/6766346668",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Snow Strippers",
+     "title": "April Mixtape 3",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1685951950",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1685951950",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "St. Vincent",
+     "title": "Actor",
+     "note": "Apple Music has \"Actor Out of Work - Single\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/actor-out-of-work-single/308989711",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/actor-out-of-work-single/308989711",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "St. Vincent",
+     "title": "St. Vincent",
+     "note": "Apple Music has \"Uneventful Days (St. Vincent Remix) - Single\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/uneventful-days-st-vincent-remix-single/1491419999",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/uneventful-days-st-vincent-remix-single/1491419999",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Steve Roach",
+     "title": "Dreamtime Return",
+     "note": "Apple Music has \"Dreamtime Return - 30th Anniversary Remastered Edition\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/dreamtime-return-30th-anniversary-remastered-edition/1348481379",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/dreamtime-return-30th-anniversary-remastered-edition/1348481379",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Stevie Ray Vaughan and Double Trouble",
+     "title": "Texas Flood",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/202748228",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/202748228",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Street Sects",
+     "title": "Rat Jacket EP",
+     "note": "Apple Music has \"Rat Jacket - EP\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/rat-jacket-ep/1289864373",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/rat-jacket-ep/1289864373",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Stromae",
+     "title": "Racine carrée",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/686571342",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/686571342",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Sufjan Stevens",
+     "title": "All Delighted People",
+     "note": "Apple Music has \"All Delighted People EP\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/all-delighted-people-ep/387458744",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/all-delighted-people-ep/387458744",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Sufjan Stevens",
+     "title": "Mystery of Love",
+     "note": "Apple Music has \"Mystery of Love (From \"Call Me By Your Name\") - Single\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/mystery-of-love-from-call-me-by-your-name-single/1318773796",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/mystery-of-love-from-call-me-by-your-name-single/1318773796",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Super Furry Animals",
+     "title": "Dark Days/ Light Years",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/310568758",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/310568758",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Super Furry Animals",
+     "title": "Guerilla",
+     "note": "Apple Music has \"Guerrilla\" — the title is spelled differently",
+     "preview": "https://music.apple.com/mx/album/guerrilla/1626519136",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/guerrilla/1626519136",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Super Furry Animals",
+     "title": "Radiation",
+     "note": "Apple Music has \"Radiator\" — the title is spelled differently",
+     "preview": "https://music.apple.com/mx/album/radiator/1626518856",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/radiator/1626518856",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Supergrass",
+     "title": "I Should Coco",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1053426626",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1053426626",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Swain",
+     "title": "Heavy Dancing",
+     "note": "Apple Music has \"Howl + Heavy Dancing\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/howl-heavy-dancing/1494699621",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/howl-heavy-dancing/1494699621",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Swain",
+     "title": "Howl",
+     "note": "Apple Music has \"Howl + Heavy Dancing\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/howl-heavy-dancing/1494699621",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/howl-heavy-dancing/1494699621",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Swain",
+     "title": "Negative Spaces",
+     "note": "Apple Music has \"Negative Space\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/negative-space/1494702734",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/negative-space/1494702734",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Swans",
+     "title": "Filth",
+     "note": "Apple Music has \"Filth / Body To Body, Job to Job\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/filth-body-to-body-job-to-job/911481206",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/filth-body-to-body-job-to-job/911481206",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "T. Rex",
+     "title": "Electric Warrior",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1440804752",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1440804752",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Terry Riley",
+     "title": "A Rainbow in Curved Air",
+     "note": "Apple Music has \"Riley: A Rainbow In Curved Air\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/riley-a-rainbow-in-curved-air/1755233999",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/riley-a-rainbow-in-curved-air/1755233999",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "The Alan Parsons Project",
+     "title": "Turn of a Friendly Cards",
+     "note": "Apple Music has \"The Turn of a Friendly Card (Sessions)\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/the-turn-of-a-friendly-card-sessions/1765464750",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/the-turn-of-a-friendly-card-sessions/1765464750",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "The Beatles",
+     "title": "The Beatles (White Album) [2018 Mix]",
+     "note": "Apple Music has \"1\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/1/1440833098",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1/1440833098",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "The Cars",
+     "title": "Greatest Hits",
+     "note": "Apple Music has \"Complete Greatest Hits\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/complete-greatest-hits/1088530786",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/complete-greatest-hits/1088530786",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "The Chemical Brothers",
+     "title": "Born in the Echoes",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1440859085",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1440859085",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "The Dillinger Escape Plan",
+     "title": "One of Us is the Killer",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/632948195",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/632948195",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "The Dillinger Escape Plan & Mike Patton",
+     "title": "Irony Is a Dead Scene",
+     "note": "Apple Music has \"Irony Is a Dead Scene (feat. Mike Patton) - EP\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/irony-is-a-dead-scene-feat-mike-patton-ep/1485006526",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/irony-is-a-dead-scene-feat-mike-patton-ep/1485006526",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "The Doors",
+     "title": "The Best of The Doors",
+     "note": "Apple Music has \"The Doors\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/the-doors/1622368510",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/the-doors/1622368510",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    }
+   ]
   },
   {
    "id": "apple-bad",
@@ -801,8 +4640,1509 @@
    "title": "No Apple Music link",
    "why": "Apple Music has nothing under this name. Paste the link on the album's page if it is there, or say it is not.",
    "action": "link",
-   "count": 0,
-   "items": []
+   "count": 453,
+   "items": [
+    {
+     "artist": "$ilkmoney",
+     "title": "I Don't Give A Fuck About This Rap Shit, Imma Just Drop Until I Don't Feel Like It Anymore",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "2 Many DJ's",
+     "title": "2ManyDJs Live at Kompass",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "2 Many DJ's",
+     "title": "BENELUX",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "2 Many DJ's",
+     "title": "Blue",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "2 Many DJ's",
+     "title": "Dave",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "2 Many DJ's",
+     "title": "Despacio",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "2 Many DJ's",
+     "title": "Hardcore Or Die",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "2 Many DJ's",
+     "title": "Into The Vortex",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "2 Many DJ's",
+     "title": "Jack In the Box",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "2 Many DJ's",
+     "title": "Under The Covers 3",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "3776",
+     "title": "歳時記 (Saijiki)",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "AC/DC",
+     "title": "Back To Black (AC/DC)",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Ad Nauseam",
+     "title": "Imperative Imperceptible Impulse",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Adrianne Lenker",
+     "title": "i won’t let go of your hand",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "AM",
+     "title": "Flowervillain II",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "AmyReal & Clumsy Duckling",
+     "title": "The Adventures of Pad Chennington and the Androgynous Swagchild",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Angelo Badalamenti & David Lynch",
+     "title": "Mulholland Drive",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Änglagård",
+     "title": "Hybris",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Anri",
+     "title": "Timely!!",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Arca",
+     "title": "Entrañas",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Arcade Fire and Owen Pallett",
+     "title": "Her Original Motion Picture Score",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Ariel Pink",
+     "title": "Pom Pom",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Arvo Part",
+     "title": "Tabula Rasa",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Au Pairs",
+     "title": "Playing With a Different Sex",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Backxwash",
+     "title": "God Has Nothing To Do With This Leave Him Out of It",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "BADBADNOTGOOD",
+     "title": "BBNG2",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Beastie Boys",
+     "title": "Anthology: The Sounds of Science",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Belle & Sebastian",
+     "title": "3.. 6.. 9 Seconds of Light",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Belle and Sebastian",
+     "title": "Dog on Wheels",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Belle And Sebastian",
+     "title": "The Life Pursuit",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Betcover!!",
+     "title": "Yuki",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Beth Orton",
+     "title": "Weather Alive",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Big Black",
+     "title": "Songs About Fucking",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Big Brother and The Holding Company",
+     "title": "Cheap Thrills",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Big K.R.I.T.",
+     "title": "4eva N a Day",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Big Star",
+     "title": "Third/Sister Lovers",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Black Kray",
+     "title": "700 Dagreez",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Black Kray",
+     "title": "Crack Cloud$ Over Arts Kitchen",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Blood Orange",
+     "title": "Negro Swan",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Blu & Real Bad Man",
+     "title": "Bad News",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Blu & Sirplus",
+     "title": "For Sale",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Bo Burnham",
+     "title": "Make Happy",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Bob Dylan",
+     "title": "Greatest Hits Volume 1 (Bob Dylan)",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Bob Dylan",
+     "title": "Greatest Hits Volume 2 (Bob Dylan)",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Bob Dylan",
+     "title": "Greatest Hits Volume 3 (Bob Dylan)",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Bobby Bland",
+     "title": "Two Steps from the Blues",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Bombay Bicycle Club",
+     "title": "I Had the Blues But I Shook Them Loose",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Boredoms",
+     "title": "Super ae",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Boredoms",
+     "title": "Vision Creation Newsun",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Boris",
+     "title": "あくまのうた (Akuma no uta)",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Boris & Merzbow",
+     "title": "Rock Dream",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Buckethead",
+     "title": "Hold Me Forever (In Memory of My Mom Nancy York Carroll)",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Buckethead",
+     "title": "Pike 13",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Buckethead",
+     "title": "Population Override",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Cacola",
+     "title": "Amy Rose",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Café Tacvba",
+     "title": "Yo Soy",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Cannibal Ox",
+     "title": "The Cold Vein",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Capital Steez",
+     "title": "AmeriKKKan Korruption",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Captain Beefheart and His Magic Band",
+     "title": "Safe as Milk",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Captain Beefheart and His Magic Band",
+     "title": "Trout Mask Replica",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Caravan",
+     "title": "If I Could Do It All Over Again, I'd Do It All Over You",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Carissa's Wierd",
+     "title": "Songs About Leaving",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Cerce",
+     "title": "Cerce EP",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Chelsea Wolfe",
+     "title": "Ἀποκάλυψις [Apokalypsis]",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Chris Travis",
+     "title": "Pizza and Codeine",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Chuck Berry",
+     "title": "The Great Twenty-Eight (1-14)",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Chuck Berry",
+     "title": "The Great Twenty-Eight (14-28)",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Chuck Person",
+     "title": "Eccojams Vol. 1",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Cibo Matto",
+     "title": "Viva! La Woman",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Clairo",
+     "title": "Live al Electric Lady",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Clockwork Indigo",
+     "title": "Clockwork Indigo",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Cloud Nothings",
+     "title": "Here and Nowhere Else",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Colosseum",
+     "title": "Valentyne Suit",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Comus",
+     "title": "First Utterance",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "CunninLynguists",
+     "title": "A Piece of Strange",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "CunninLynguists",
+     "title": "Oneirology",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Curtis Mayfield & The Impressions",
+     "title": "The Anthology 1961 - 1977",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "dalek",
+     "title": "Absence",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "dalek",
+     "title": "From Filthy Tongues of Gods and Griots",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Danger Mouse",
+     "title": "The Grey Album",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "David Bowie",
+     "title": "Blackstar",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "David Wise",
+     "title": "Donkey Kong Country 2: Diddy's Kong Quest",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "De la Soul",
+     "title": "Timeless: The Singles Collection",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Dead Congregation",
+     "title": "Graves of the Archangels",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Dead Kennedys",
+     "title": "In God We Trust, Inc.",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Dead Kennedys",
+     "title": "Plastic Surgery Disasters",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Dean Blunt",
+     "title": "Black Metal",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Dean Blunt",
+     "title": "Black Metal 2",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Death Grips",
+     "title": "Jenny Death",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Death Grips",
+     "title": "Niggas on the Moon",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Delaeny & Bonney",
+     "title": "The Originial Delaney & Bonnie",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Descendents",
+     "title": "Everything Sucks",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Diego Lorenzini",
+     "title": "De Algo hay que morir",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Dire Straits",
+     "title": "Greatest Hits",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "diSEMBOWELMENT",
+     "title": "Transcendence Into the Peripheral",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "DJ /rupture",
+     "title": "Uproot",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "DJ E",
+     "title": "Chuquimamani-Condori",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "DJ Jeffee",
+     "title": "Jungle Spliff",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "DJ Premier Worldwide Mix by soulchasers on #SoundCloud",
+     "title": "DJ Premier Worldwide Mix by soulchasers on #SoundCloud",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "DJ Screw",
+     "title": "3 ’n the Mornin’, Part One",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "DJ Screw",
+     "title": "Endonesia",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "DJ Screw",
+     "title": "Old School",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "DJ Sprinkles",
+     "title": "Midtown 120 Blues",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "DJ 光光光 [DJ Pica Pica Pica]",
+     "title": "Planetary Natural Love Gas Webbin' 199999",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Djeli Moussa Diawara",
+     "title": "Djeli Moussa Diawara",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "dltzk",
+     "title": "Frailty",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Dr. Octagon",
+     "title": "Octagoneocologyst",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Dragged Into Sunlight",
+     "title": "Hatred for Mankind",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Dropkick Murphys",
+     "title": "Greatest Hits",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Drudkh",
+     "title": "Кров у наших криницях (Blood in Our Wells)",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "E+E",
+     "title": "The Light That You Gave Me to See You",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Eagles",
+     "title": "Greatest Hits (Eagles)",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Earl Sweatshirt",
+     "title": "Solace",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Ekkaia",
+     "title": "Manos que Estrechan Planes de Muerte y Sometiemiento",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "El Shirota",
+     "title": "ESH002",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "El-p",
+     "title": "Cancer for Cure",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Elton John",
+     "title": "Greatest Hits 1970-2002 (CD1 ONLY)",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Elvis Costello and the Attractions",
+     "title": "Armed Forces",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Enola Gay",
+     "title": "Asia Menor",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Erlend Øye",
+     "title": "DJ Kicks",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Extremity",
+     "title": "Extremely Fucking Dead",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Failure",
+     "title": "Fantastic Planet",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Faye Wong",
+     "title": "浮躁 (Fúzào)",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Femi & Malibu",
+     "title": "United in Flames 23-10-2018",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Fishmans",
+     "title": "空中キャンプ (Kūchū Camp)",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Floating Points",
+     "title": "Dialogue Between Dreamers Pt. One",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Foodman",
+     "title": "oiss EP",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Foxygen",
+     "title": "Take the Kids off Broadway EP",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Franco",
+     "title": "The Very best of the Rumba Giant of Zaire",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Frank Ocean",
+     "title": "Nostagia, Ultra",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Frankie Knuckles",
+     "title": "Boiler Room London DJ Set",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Fripp & Eno",
+     "title": "Evening Star",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "G.L.O.S.S",
+     "title": "Trans Day of Revenge",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Gal Costa",
+     "title": "Gal (1969)",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Gang Gang Dance",
+     "title": "Saint Dymphna",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Gang Starr",
+     "title": "Daily Operation",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Gang Starr",
+     "title": "Heard to Earn",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Gang Starr",
+     "title": "Moment of Truth",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Garbage",
+     "title": "Garbage 2.0",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Ghostface Killah",
+     "title": "Ironman",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Gilla Band",
+     "title": "Most Normal",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Girl Talk",
+     "title": "All Day",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Girl Talk",
+     "title": "Feed the Animals",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Girl Talk",
+     "title": "Night Ripper",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Girl Talk & Freeway",
+     "title": "Broken Ankles EP",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Girlpool",
+     "title": "What Chaos is Imaginary",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Girls",
+     "title": "Father, Son, Holy Ghost",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Godspeed You Black Emperor",
+     "title": "Allelujah! Don't Bend! Ascend!",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Godspeed You Black Emperor",
+     "title": "Lift Your Skinny Fists Like Antennas to Heaven",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Godspeed You Black Emperor",
+     "title": "Slow Riot for New Zero Kanada",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Godspeed You Black Emperor",
+     "title": "Yanqui U.X.O",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Gorillaz",
+     "title": "Song Machine, Season 1",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Gris",
+     "title": "Il était une forêt...",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Haru Nemuri",
+     "title": "Harutosyura",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Haru Nemuri",
+     "title": "Lovetheism",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Have a Nice Life",
+     "title": "The Unnatural World",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Hercules And Love Affair",
+     "title": "Hercules And Love Affair",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Hieroglyphics",
+     "title": "3rd Eye Vision",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Himiko Kikuchi",
+     "title": "Flying Beagle",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Hirokazu Tanaka & Keiichi Suzuki",
+     "title": "Mother 2: ギーグの逆襲",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Hospital de México",
+     "title": "Hospital de México y los Robots de Observatorio",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Iglooghost",
+     "title": "Little Grids",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "In Flames",
+     "title": "The Jester Race",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Infinity Knives & Brian Ennals",
+     "title": "A City Drowned in God's Black Tears",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Interpol",
+     "title": "Our Love To Admire",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Iron & Wine",
+     "title": "The Shepherd's Dog",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Iron Maiden",
+     "title": "Best of the Beast",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Jai Paul",
+     "title": "Leak 04-13 (Bait Ones)",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "James Brown",
+     "title": "20-all Times Greats!",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "James Chance & Contortions",
+     "title": "Buy",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Jay Reatard",
+     "title": "Matador Singles '08",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Jean Dawson",
+     "title": "Pixel Bath",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Jeff Rossenstock",
+     "title": "POST-",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Jeff Rossenstock",
+     "title": "WORRY.",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "JER",
+     "title": "Bothered/Unbothered",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Jimi Hendrix",
+     "title": "The Ultimate Experience",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "João Gilberto; Stan Getz",
+     "title": "Getz/Gilberto",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Jockstrap",
+     "title": "I Love You Jennifer B",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Joe Satriani",
+     "title": "Essential Joe Satrini 1",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "John Cale & Lou Reed",
+     "title": "Songs for Drella",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "John Coltrane & Duke Ellington",
+     "title": "Duke Ellington & John Coltrane",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "John Coltrane & Milt Jackson",
+     "title": "Bags & Trane",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "John Fahey",
+     "title": "Fare Forward Voyagers (Soldier's Choice)",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "John Tabalot",
+     "title": "Fin",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "John Zorn",
+     "title": "Naked City",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Joni Mitchell",
+     "title": "For the Roses",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Joy Division",
+     "title": "Heart and Soul",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Joyce Manor",
+     "title": "Never Hungover Again",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Ka",
+     "title": "The Knights Gambit",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "KA",
+     "title": "Grief Pedigree",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Keiichi Okabe 岡部啓一 & Keigo Hoashi 帆足圭吾",
+     "title": "NieR:Automata",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Kids & Explosion",
+     "title": "Shit Computer",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Kill Bill: the Rapper",
+     "title": "Ramona",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "King Krule",
+     "title": "The Ooz",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Kirin J Calinan",
+     "title": "Bravado",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Koji Kondo",
+     "title": "Super Mario 64",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Koji Kondo",
+     "title": "The Legend of Zelda: Ocarina of Time",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Koji Kondo 近藤浩治",
+     "title": "ゼルダの伝説: ムジュラの仮面 (The Legend of Zelda: Majora's Mask)",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Kreator",
+     "title": "Coma of Souls",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Lamp",
+     "title": "Lamp Genso",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Late of The Pier",
+     "title": "Fantasy Black Channel",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "LCD Soundsystem",
+     "title": "The Long Goodbye: LCD Soundsystem Live At Madison Square Garden",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Led Zeppellin",
+     "title": "Remasters",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Leo Kottke",
+     "title": "6 & 12 Strings",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "leroy",
+     "title": "Dariacore 3... At least I think that's what it's called?",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "leroy",
+     "title": "Diaracore 2: Enter Here, Hall To The Left",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "leroy",
+     "title": "Grave Robbing",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Lil Ugly Mane",
+     "title": "The Weeping Worm",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Lil Ugly Mane",
+     "title": "Three Sided Tape Volume One",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Lil Ugly Mane",
+     "title": "Uneven Compromise",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Lil Wayne",
+     "title": "Da Drought 3",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Lil Wayne & DJ Drama",
+     "title": "Dedication 2",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Lingua Ignota",
+     "title": "Caligula",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Litourgiya",
+     "title": "Batushka",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Los Cogelones",
+     "title": "Hijos del Sol",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Los Espíritus",
+     "title": "Aguardiante",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Los Jaivas",
+     "title": "Los Jaivas (El Indio)",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Louis Armstrong",
+     "title": "Portrait of the Artist as a Young Man (1923 - 1932)",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Louis Jordan",
+     "title": "Five Guys Named Moe: Original Decca Recordings Vol. 2",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Lucy Dacus",
+     "title": "Home Video",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "M.I.A",
+     "title": "Matangi",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "M.I.A.",
+     "title": "Vicki Leekx",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "M.I.A. / Diplo",
+     "title": "Piracy Funds Terrorism, Vol. 1",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Mac-Hommy",
+     "title": "The G.A.T",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Madeon",
+     "title": "Pop Culture",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Manitoba",
+     "title": "Start Breaking My Heart",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Mario Galaxy Orchestra",
+     "title": "Super Mario Galaxy: Original Soundtrack",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Masayoshi Takanaka",
+     "title": "The Rainbow Goblins",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "MASS OF THE FERMENTING DREGS",
+     "title": "World is yours",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Maurizio",
+     "title": "MCD",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Meat Puppets",
+     "title": "Up on the Sun",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Metallica",
+     "title": "The Black Album",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Michael Hurley/The Unholy Modal Rounders/Jeffrey Frederick & The Clamtones",
+     "title": "Have Moicy!",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Mick Jenkins",
+     "title": "The Water[s]",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Midori Takada",
+     "title": "Through the Looking Glass",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Mighty Sparrow",
+     "title": "Volume One",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "MIKE",
+     "title": "Burning Desire!",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Milo",
+     "title": "Things That Happen At Night",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Ministry",
+     "title": "Psalm 69: The Way To Succeed and The Way To Suck Eggs",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Minor Threat",
+     "title": "Minor Threat",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Miranda!",
+     "title": "El Templo del Pop",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Misfits",
+     "title": "Beware",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Misfits",
+     "title": "Earth A.D./Wolfs Blood",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Misfits",
+     "title": "Walk Among Us",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Modest Mouse",
+     "title": "The Moon And Antarctica",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Moonsorrow",
+     "title": "V: Hävitetty",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Mos Def",
+     "title": "Black on Both Sides",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Mos Def",
+     "title": "The Ecstatic",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Motion City Soundtrack",
+     "title": "Commit This to Memory",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Mr Twin Sister",
+     "title": "Mr Twin Sister",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    }
+   ]
   },
   {
    "id": "no-root",
