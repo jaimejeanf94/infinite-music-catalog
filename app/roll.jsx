@@ -193,7 +193,7 @@ function RollView({ albums, owner, onPatch, onRoll, params, setParams }) {
           </div>
 
           <div className="row row--links">
-            <a className="link" href={apple.href} target="_blank" rel="noreferrer">
+            <a className="link" href={apple.href} target={apple.newTab ? "_blank" : undefined} rel="noreferrer">
               {apple.exact ? "Apple Music" : "Search Apple Music"}
             </a>
             <a className="link" href={spotify.href} target="_blank" rel="noreferrer">

@@ -467,7 +467,8 @@ function Detail({ album, owner, onPatch, onDelete, onClose, index, onGenre, onAr
           ) : null}
 
           <div className="row row--links">
-            <a className="link" target="_blank" rel="noreferrer" href={Listen.apple(album).href}>
+            <a className="link" rel="noreferrer" href={Listen.apple(album).href}
+               target={Listen.apple(album).newTab ? "_blank" : undefined}>
               {Listen.apple(album).exact ? "Apple Music" : "Search Apple Music"}
             </a>
             <a className="link" target="_blank" rel="noreferrer" href={Listen.spotify(album).href}>

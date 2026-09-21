@@ -118,14 +118,19 @@ because four thousand at once crawls.
   still a search. Paste a link on the album's sheet to set one by hand — it is
   checked, it must be an album, and it locks, like a cover.
 
-### Listening on Android and Windows
+### Listening on Android, Mac and Windows
 
-`music.apple.com` and `open.spotify.com` are both verified Android app links,
-so a tap on one of their *album* pages hands off to the app. A search page is
-not something either app promises to accept, which is why the album link is
-worth finding. On Windows no web link reaches a desktop app at all, so the
-Apple Music button opens the web player — on the album page, rather than a
-search.
+- **Android:** `music.apple.com` and `open.spotify.com` are both verified app
+  links, so a tap on one of their *album* pages hands off to the app. A search
+  page is not something either app promises to accept, which is why the album
+  link is worth finding.
+- **Mac:** the browser keeps web links for itself, but the Music app claims its
+  own `music://` links, so on a Mac the button uses that form and opens the
+  app. The browser asks once before handing it over.
+- **Windows:** no web link reaches a desktop app at all, so the button opens
+  the web player — on the album page, rather than a search.
+
+All of it lives in `app/listen.js`.
 
 ### Fix — maintenance
 
