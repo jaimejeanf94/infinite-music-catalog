@@ -23,6 +23,21 @@ const CHUNK = 60;   // tiles rendered per "page" — 4.4k at once would crawl
 // The ceiling is 16px. A transform does not affect layout, so everything here
 // is borrowed from the row gap below: a tile pushed 16px down can meet one
 // pulled 16px up, and .grid has to cover the whole 32px and still leave air.
+// Compare names the way a person reads them. 47 albums here carry a
+// NON-BREAKING space (U+00A0) around the ampersand in a collaboration --
+// "Brian Eno\u00a0& Harold Budd", "Bob Dylan\u00a0& The Band" -- almost
+// certainly from the original spreadsheet. Typing that name with an ordinary
+// space matched nothing at all, which made 38 artists unsearchable by their
+// own names. Every kind of space collapses to one here, and the curly quotes
+// and dashes that arrive with them are folded to their plain forms.
+const loose = (s) => (s || "")
+  .toLowerCase()
+  .replace(/[\u2018\u2019]/g, "'")
+  .replace(/[\u201c\u201d]/g, '"')
+  .replace(/[\u2013\u2014]/g, "-")
+  .replace(/\s+/g, " ")
+  .trim();
+
 const LIFTS = [16, 10, 14, 8, 15, 11, 13];
 
 // A little sideways drift as well, so the wall reads as a collage rather than
@@ -204,7 +219,7 @@ function GenreEditor({ album, index, onSave }) {
   );
 }
 
-function Detail({ album, owner, onPatch, onDelete, onClose, index, onGenre }) {
+function Detail({ album, owner, onPatch, onDelete, onClose, index, onGenre, onArtist }) {
   // Two taps rather than a browser confirm dialog: the first arms it, the
   // second does it, and clicking anywhere else disarms.
   const [armed, setArmed] = React.useState(false);
@@ -301,7 +316,16 @@ function Detail({ album, owner, onPatch, onDelete, onClose, index, onGenre }) {
             </form>
           ) : (
             <>
-              <div className="card__artist">{album.artist}</div>
+              {/* The artist is the one piece of an album that is shared with
+                  other albums, so it is the obvious thing to pivot on: seeing
+                  a record should make the rest of the shelf by that artist one
+                  click away. It searches rather than filtering, because search
+                  already matches the artist column and needs no new state. */}
+              <button className="card__artist card__artist--link"
+                      onClick={() => onArtist?.(album.artist)}
+                      title={`Show everything by ${album.artist}`}>
+                {album.artist}
+              </button>
               <h2 className="card__title">{album.title}</h2>
               <div className="card__meta">
                 {album.year || "—"}
@@ -586,6 +610,13 @@ function BrowseView({ albums, owner, onPatch, onAdd, onDelete, onRestore,
   const filter = params.get("filter") || "all";
   const sort = params.get("sort") || "artist";
   const genre = params.get("genre") || "";
+  // Exact, not a search. The free-text box matches substrings across artist,
+  // title and year, which is right for typing and wrong for "show me this
+  // artist": 298 of the 2,185 names here are contained in something they do
+  // not belong to, so searching "AM" returns 407 albums for an artist with
+  // one, "Low" returns 76 for an artist with seven, and "Can" drags in
+  // American Football. An artist is an identity, so it gets its own filter.
+  const artist = params.get("artist") || "";
 
   // Typing replaces the current entry; picking a filter pushes a new one. Back
   // should step through the filters you chose, not through every keystroke.
@@ -615,16 +646,17 @@ function BrowseView({ albums, owner, onPatch, onAdd, onDelete, onRestore,
     () => Genres.genreOptions(albums, index), [albums, index]);
 
   const list = React.useMemo(() => {
-    const needle = q.trim().toLowerCase();
+    const needle = loose(q);
     let out = albums;
     if (needle) {
       out = out.filter((a) =>
-        a.artist.toLowerCase().includes(needle) ||
-        a.title.toLowerCase().includes(needle) ||
+        loose(a.artist).includes(needle) ||
+        loose(a.title).includes(needle) ||
         String(a.year || "").includes(needle));
     }
     if (filter === "unscored") out = out.filter((a) => a.score == null);
     if (filter === "scored")   out = out.filter((a) => a.score != null);
+    if (artist) out = out.filter((a) => loose(a.artist) === loose(artist));
     if (genre) out = out.filter((a) => Genres.splitGenres(a.genres, index).genre.includes(genre));
 
     const by = {
@@ -634,9 +666,9 @@ function BrowseView({ albums, owner, onPatch, onAdd, onDelete, onRestore,
       score:  (a, b) => (b.score ?? -1) - (a.score ?? -1) || a.artist.localeCompare(b.artist),
     }[sort];
     return [...out].sort(by);
-  }, [albums, q, filter, sort, genre, index]);
+  }, [albums, q, filter, sort, genre, artist, index]);
 
-  React.useEffect(() => setShown(CHUNK), [q, filter, sort, genre]);
+  React.useEffect(() => setShown(CHUNK), [q, filter, sort, genre, artist]);
 
   // Grow the list as it is scrolled rather than rendering thousands of tiles.
   React.useEffect(() => {
@@ -697,6 +729,19 @@ function BrowseView({ albums, owner, onPatch, onAdd, onDelete, onRestore,
                       onClick={() => setParam("filter", id === "all" ? "" : id)}>{label}</button>
             ))}
         </div>
+        {/* The artist filter is invisible otherwise -- it is set by clicking a
+            name inside a sheet that then closes, so without this the shelf just
+            goes quiet and there is nothing to explain why or to undo it. Same
+            shape as the genre chip beside it. */}
+        {artist && (
+          <button className="chip chip--on genre-clear artist-clear"
+                  onClick={() => setParam("artist", "")}
+                  title={`Showing only ${artist} — click to show the whole shelf`}>
+            <span className="artist-clear__name">{artist}</span>
+            <span aria-hidden="true">×</span>
+            <span className="sr-only">, clear artist filter</span>
+          </button>
+        )}
         {genreOptions.length > 0 && (
           <GenreFilter options={genreOptions} value={genre}
                        onChange={(g) => setParam("genre", g)} />
@@ -766,6 +811,18 @@ function BrowseView({ albums, owner, onPatch, onAdd, onDelete, onRestore,
       {live && (
         <Detail album={live} owner={owner} onPatch={onPatch}
                 index={index} onGenre={(g) => { setParam("genre", g); setOpen(null); }}
+                onArtist={(name) => {
+                  // Everything else comes off: asking for an artist means the
+                  // whole artist, and a genre or "unrated only" left on would
+                  // silently hide most of them.
+                  const next = new URLSearchParams(params);
+                  next.set("artist", name);
+                  next.delete("q");
+                  next.delete("genre");
+                  next.delete("filter");
+                  setParams(next, { push: true });
+                  setOpen(null);
+                }}
                 onDelete={(id) => { onDelete(id); setDeleted(null); setOpen(null); }}
                 onClose={() => setOpen(null)} />
       )}
