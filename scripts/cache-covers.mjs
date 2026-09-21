@@ -85,9 +85,9 @@ const isCached = (url) => /\/storage\/v1\/object\/public\//.test(url || "");
 // The browser finds covers too. When an album has none, the app looks one up
 // -- the Cover Art Archive by id, or iTunes -- and saves the answer straight
 // to the database, where this script never looked: it only ever read
-// enrichment.json, whose record for that album still says "no cover". 36
-// albums were in that state, 11 of them on the Cover Art Archive's two
-// redirects, which is the exact latency this script exists to remove. So the
+// enrichment.json, whose record for that album still says "no cover". Those
+// covers were never cached, and the ones found at the Cover Art Archive kept
+// its two redirects -- the exact latency this script exists to remove. So the
 // backup is read as well, and a cover found that way is adopted by the
 // album's record once it is cached. A cover you chose by hand is left alone:
 // it is yours, and import.mjs would not overwrite it with the cached copy.

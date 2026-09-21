@@ -90,7 +90,7 @@ Built for speed: one album, one keystroke, next.
 | `space` / `enter` | Roll again |
 
 Three modes. **Uniform** is the default and gives every album equal odds:
-with 91% of the shelf unrated, a weighted roll spends most of its odds on one
+with most of the shelf unrated, a weighted roll spends most of its odds on one
 enormous unrated tier anyway, so it would behave almost like uniform while
 looking as if it knew something. **Weighted** favours what you rated highly
 (section 6). **Unrated** draws only from albums with no score — the mode for
@@ -146,10 +146,10 @@ kind of metal, shoegaze and post-punk under "Rock" — too coarse to browse by.
 Rate Your Music has the best taxonomy, no public API, and a robots.txt that
 prohibits automated access outright.
 
-So `app/genres.js` works from a short fixed list of 26 **roots** — rock split
+So `app/genres.js` works from a short fixed list of **roots** — rock split
 into the scenes big enough to stand alone here (indie rock, post-punk,
 metal…), plus electronic, jazz, hip hop and the rest — and decides an album's
-genres in four steps across the ~700 distinct tags on the shelf:
+genres in four steps across the hundreds of distinct tags on the shelf:
 
 1. Every root the album is tagged with, plus the root any of its tags is an
    **alias** of: soul *is* r&b, afrobeat *is* African. Pavement is tagged
@@ -157,8 +157,8 @@ genres in four steps across the ~700 distinct tags on the shelf:
    `lo-fi`.
 2. **`metal`** if it carries any metal subgenre, whatever else it carries.
    MusicBrainz tags black metal as "black metal", rarely as "metal", and most
-   metal records here also carry "rock" — so until this rule existed, 306 of
-   the 525 metal records were missing from the metal filter. Nails' grindcore
+   metal records here also carry "rock" — so until this rule existed, more
+   than half the metal records were missing from the metal filter. Nails' grindcore
    record reads genre `metal, rock`, style `grindcore, powerviolence`.
 3. Still nothing: the roots its styles attach to — a style belongs to the
    narrowest root it shares at least 40% of its albums with. A record tagged
@@ -169,7 +169,7 @@ Everything else is a style. Whether a style has grown big enough to deserve
 its own root is a judgement, so `node scripts/genre-report.mjs` reports it and
 never edits the list.
 
-The filter offers all 26, `rock` and `electronic` the largest by some way. It
+The filter offers every root, `rock` and `electronic` the largest by some way. It
 is a combobox rather than a dropdown, opened ranked by how much of the
 collection each covers.
 
@@ -200,7 +200,7 @@ the detail.
 | `export.mjs` | Database → `data/albums.csv`. Runs twice: once before the work and once after, so the committed backup reflects what the run actually did |
 | `suggest-renames.mjs` | Works out what a misspelt album really is. Confident corrections go to `rename.mjs`; anything uncertain joins the standing pile in `data/rename-suggestions-review.json`, which the Fix screen shows until you rename or reject each one |
 | `rename.mjs` | Applies a rename across both halves of an album's identity — the row *and* its enrichment record |
-| `enrich.mjs` | Genres, artwork and MusicBrainz ids. The big one (388 lines), and the only script that talks to four external services |
+| `enrich.mjs` | Genres, artwork and MusicBrainz ids. The biggest script, and the only one that talks to four external services |
 | `cache-covers.mjs` | Copies artwork into Supabase Storage and rewrites `cover_url` to point there — both what enrichment found and what the app found on its own for albums enrichment could not cover. A cover you chose by hand is left alone |
 | `import.mjs` | Pushes artwork, and genres for albums that have none, back into Postgres. Never overwrites a genre you edited in the app. Also the restore tool — see section 5 |
 | `genre-report.mjs` | Reports whether any style has outgrown the fixed `ROOTS` list. Reports only — that call is a judgement, not a rule |
@@ -392,28 +392,28 @@ their open defaults, so `public_hardening.sql` has to follow it.
 Albums are weighted by **tier**, not individually: each score owns a fixed
 slice of the odds and splits it evenly among its members.
 
-| Tier | Share of rolls | Albums | Odds for one album |
-|---|---|---|---|
-| 100 | 18.75% | 57 | 0.329% |
-| 95 | 11.25% | 27 | 0.417% |
-| 90 | 11.25% | 60 | 0.188% |
-| 85 | 9.75% | 59 | 0.165% |
-| 80 | 9.75% | 76 | 0.128% |
-| 75 | 7.13% | 58 | 0.123% |
-| 70 | 7.13% | 60 | 0.119% |
-| unrated | 25% | 4,018 | 0.006% |
+| Tier | Share of rolls |
+|---|---|
+| 100 | 18.75% |
+| 95 | 11.25% |
+| 90 | 11.25% |
+| 85 | 9.75% |
+| 80 | 9.75% |
+| 75 | 7.13% |
+| 70 | 7.13% |
+| unrated | 25% |
 
-The **shares** are constants and do not move; the album counts are a snapshot
-and shift every time you rate something. `node scripts/test-roller.mjs` prints
-the current figures and checks them.
+The shares are constants. How many albums sit in each tier, and so the odds
+for any one of them, moves every time you rate something —
+`node scripts/test-roller.mjs` prints today's figures and checks them.
 
 A quirk that follows from the design: a 95 has better per-album odds than a
 100, because far fewer albums divide the 95 slice than divide the 100 slice.
 
 **One change from the spreadsheet.** There, the 100 tier also held every
 unrated album, so a genuine 100 was diluted to the odds of something never
-played. They are separate tiers here, and a real 100 now comes up **53× more
-often** than any one unrated album. The slider on the Roll screen moves the
+played. They are separate tiers here, and a real 100 now comes up **many times
+more often** than any one unrated album. The slider on the Roll screen moves the
 unrated share; at its 25% default the overall balance matches the sheet.
 
 **The randomness is cryptographic.** `Math.random()` is a pseudo-random
@@ -447,7 +447,7 @@ nightly workflow runs it after each batch. Nothing to remember.
 ### When a match fails
 
 The query is relaxed in stages, and each stage only runs because the last one
-failed, so the ~88% that match first time pay nothing:
+failed, so the large majority that match first time pay nothing:
 
 1. The title as written, then with disc markers, bracketed editions and
    subtitles stripped.
@@ -518,8 +518,8 @@ The images are small. The cost is latency, not weight, which is why caching
 fixes it and serving them smaller would not.
 
 `cache-covers.mjs` copies each one into a Supabase Storage bucket once and
-rewrites `cover_url` to point there. About 4,400 covers at ~83 KB is roughly
-**360 MB**, which fits the free allowance with room to spare — worth checking
+rewrites `cover_url` to point there. At ~83 KB a cover the whole collection
+comes to a few hundred MB, which fits the free allowance — worth checking
 usage in the dashboard, since the limits move. The original URL is kept as
 `cover_source_url`, so a cached cover can always be re-fetched. Re-running the
 script resumes: anything already pointing at Supabase is skipped.
@@ -588,13 +588,13 @@ the useful part, and because otherwise they get rebuilt.
 | Gone | Why |
 |---|---|
 | The `plays` table and "log a play" | Nothing read it and it held 0 rows. A score already records that you heard an album |
-| `in_pool` | Inherited from the spreadsheet's RSP column. It silently excluded 99 albums from every roll after the controls for it had been removed — an invisible effect on every draw. To stop seeing an album, delete it; that is a tombstone and it is undoable |
-| "Same cover on several albums" | 31 rows nothing on the page could diagnose: a double album and a mis-filed sleeve read identically, and the note never said which record the sleeve belonged to |
-| "Not in MusicBrainz" | 146 rows of genuinely obscure records. With covers and genres both at 100%, nothing about them is broken anywhere you can see |
-| "Five or more genres" | 283 rows, accurate and unactionable. *Check Your Head* really is funk, psych, punk, hip hop and alternative rock |
+| `in_pool` | Inherited from the spreadsheet's RSP column. It silently excluded albums from every roll after the controls for it had been removed — an invisible effect on every draw. To stop seeing an album, delete it; that is a tombstone and it is undoable |
+| "Same cover on several albums" | A list nothing on the page could diagnose: a double album and a mis-filed sleeve read identically, and the note never said which record the sleeve belonged to |
+| "Not in MusicBrainz" | Over a hundred rows of genuinely obscure records. With covers and genres both at 100%, nothing about them is broken anywhere you can see |
+| "Five or more genres" | Hundreds of rows, accurate and unactionable. *Check Your Head* really is funk, psych, punk, hip hop and alternative rock |
 | `find-covers.mjs`, `find-genres.mjs` | Fallback hunts for albums missing artwork or tags. `find-covers` used the same four sources `enrich.mjs` already does, and the project's own measurement found Discogs and Last.fm added nothing MusicBrainz could not. Both are at 100% coverage |
 | `recheck-matches.mjs` | Remediation for the summing bug above. It ran, the flagship bad matches are corrected, and a fresh sample of eight now finds nothing to move |
-| `fix-spaces.mjs` | Replaced 51 non-breaking spaces carried in from the spreadsheet. Zero remain and the spreadsheet is retired |
+| `fix-spaces.mjs` | Replaced the non-breaking spaces carried in from the spreadsheet. Zero remain and the spreadsheet is retired |
 | Reading the roll log | The app had a reader for `rolls` and a "played / skipped" setter for its `outcome` column. No screen ever called either. The log is still written, so a screen for it is a later decision rather than a rebuild |
 | The spreadsheet | Once the app could add and delete, keeping it meant two writable sources with one-way sync. The original export is at `migration/raw_sheet.csv` |
 
@@ -657,7 +657,7 @@ MusicBrainz year as a one-click fix and makes the undo rewind the album,
 precisely because the suggestion is usually the wrong answer. The live count is
 on that screen.
 
-**Around 140 albums MusicBrainz has never heard of.** Genuinely obscure or
+**Albums MusicBrainz has never heard of.** Genuinely obscure or
 misspelt — 2 Many DJ's mixtapes, bootleg nightcore, Japanese indie.
 `suggest-renames.mjs` works through 60 a night, stamps each album it examines
 and leaves it alone for 30 days, so the backlog drains and then goes quiet.

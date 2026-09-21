@@ -48,14 +48,14 @@ with a query listing the policies it created — expect exactly four.
 ```sh
 set -a && source .env && set +a
 node scripts/cache-covers.mjs --dry-run     # confirms the count and size
-node scripts/cache-covers.mjs               # ~4,050 covers, ~340 MB, ~30 min
+node scripts/cache-covers.mjs               # every cover once: a few hundred MB, ~30 min
 node scripts/import.mjs                     # push the new URLs to the database
 ```
 
 Safe to interrupt and re-run — it skips anything already cached. This is the
 step that removes the 1.2–3.1s wait per cover.
 
-You only run this by hand once, for the existing 4,000-odd covers. After steps
+You only run this by hand once, for the covers that already exist. After steps
 1 and 2 are done, the nightly job caches any new artwork by itself, before it
 pushes to the database. Until the bucket exists that step prints a note and
 skips, so it is safe to leave in place.
@@ -142,8 +142,6 @@ scoring, **Edit name**, and delete all work.
 
 ## Still open
 
-- **27 albums share a cover with another album** — same-artist over-matching,
-  e.g. *Black Sabbath Vol. 4* wearing *Black Sabbath*'s sleeve. About half are
-  legitimately the same artwork.
-- **~310 albums MusicBrainz has never heard of.** The nightly scan works
-  through 60 a night looking for misspellings.
+What is outstanding lives on the app's **Fix** screen, counted live, and in the
+README's *Known issues* — not here, where any figure would be out of date by
+the next night.

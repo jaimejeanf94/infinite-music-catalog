@@ -3,11 +3,11 @@
 const BROWSE_SCORES = [70, 75, 80, 85, 90, 95, 100];
 const CHUNK = 60;   // tiles rendered per "page" — 4.4k at once would crawl
 
-// Compare names the way a person reads them. 47 albums once carried a
+// Compare names the way a person reads them. Dozens of albums once carried a
 // NON-BREAKING space (U+00A0) around the ampersand in a collaboration --
 // "Brian Eno\u00a0& Harold Budd" -- carried in from the original
 // spreadsheet, and typing the name with an ordinary space matched nothing, so
-// 38 artists were unsearchable by their own names. The data has been cleaned,
+// those artists were unsearchable by their own names. The data has been cleaned,
 // but a name pasted into the app can bring one straight back, so every kind
 // of space still collapses to one here, and the curly quotes and dashes that
 // arrive with them are folded to their plain forms.
@@ -89,7 +89,7 @@ function GenreLines({ album, index, onGenre }) {
 //   first place, and one careless tag becomes a style nothing is filed under.
 //
 //   Removing asks twice, and says what it does and does not do. Taking
-//   "progressive metal" off one record does not remove it from the other 106
+//   "progressive metal" off one record does not remove it from the others
 //   that carry it -- the genre list is derived from the albums, so it only
 //   disappears when the last album carrying it lets go.
 function GenreEditor({ album, index, onSave }) {
@@ -455,8 +455,8 @@ function Detail({ album, owner, onPatch, onDelete, onClose, index, onGenre, onAr
   );
 }
 
-// Genre filter. The options are genres.js's roots -- 26 of them today, from
-// rock on well over half the shelf down to a handful on a few dozen albums --
+// Genre filter. The options are genres.js's roots -- a couple of dozen, from
+// rock on well over half the shelf down to a few on a few dozen albums --
 // so a plain dropdown would be scanned top to bottom every time. Instead they
 // are offered ranked by how much of YOUR collection they cover, with a count
 // beside each, and typing narrows them.
@@ -627,10 +627,11 @@ function BrowseView({ albums, owner, onPatch, onAdd, onDelete, onRestore,
   const genre = params.get("genre") || "";
   // Exact, not a search. The free-text box matches substrings across artist,
   // title and year, which is right for typing and wrong for "show me this
-  // artist": 298 of the 2,185 names here are contained in something they do
-  // not belong to, so searching "AM" returns 407 albums for an artist with
-  // one, "Low" returns 76 for an artist with seven, and "Can" drags in
-  // American Football. An artist is an identity, so it gets its own filter.
+  // artist": hundreds of the names here are contained in something they do
+  // not belong to, so searching "AM" returns hundreds of albums for an artist
+  // with one, "Low" returns dozens for an artist with a handful, and "Can"
+  // drags in American Football. An artist is an identity, so it gets its own
+  // filter.
   const artist = params.get("artist") || "";
 
   // Typing replaces the current entry; picking a filter pushes a new one. Back

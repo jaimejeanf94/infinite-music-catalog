@@ -7,8 +7,8 @@
 // rolls at the default 25% unrated share -- and it is split among however few
 // albums sit in that tier. That behaviour is preserved exactly.
 //
-// What changed: the sheet's "100" tier also held all 4,076 unscored albums, so
-// a genuine 100 was diluted to the same odds as something never listened to.
+// What changed: the sheet's "100" tier also held every unscored album, so a
+// genuine 100 was diluted to the same odds as something never listened to.
 // Here, unscored albums are their own bucket with their own share (default 25%,
 // which reproduces the sheet's overall unscored-vs-scored balance).
 
@@ -70,7 +70,7 @@ function roll(albums, opts = {}) {
   const { mode = "weighted", unscoredShare = 25, avoidIds = [], rnd = secureRandom } = opts;
 
   // Every album is eligible. There used to be an in_pool flag, inherited from
-  // the spreadsheet's RSP column, which silently kept 99 albums out of every
+  // the spreadsheet's RSP column, which silently kept albums out of every
   // roll for reasons nobody remembered choosing.
   let pool = albums.slice();
   if (mode === "unscored") pool = pool.filter((a) => a.score == null);

@@ -11,7 +11,8 @@ const sb = CONFIGURED
   ? window.supabase.createClient(CFG.SUPABASE_URL, CFG.SUPABASE_KEY)
   : null;
 
-// Supabase caps any single select at 1000 rows, and the collection is ~4.5k.
+// Supabase caps any single select at 1000 rows, and the collection is several
+// times that.
 // Everything else in the app assumes it has the whole list in memory (search,
 // filtering and the roller all run client-side), so page through it here once.
 const PAGE = 1000;

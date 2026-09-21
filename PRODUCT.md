@@ -10,7 +10,7 @@ web
 
 **The owner.** One person, one account, and the only account this system will
 ever have — sign-ups are off in Supabase and `db/public_hardening.sql` names a
-single user id. They keep a 4,414-album want-to-hear list that outgrew a Google
+single user id. They keep a want-to-hear list of several thousand albums that outgrew a Google
 Sheet, and they are the only person who can rate, edit, delete or maintain
 anything.
 
@@ -31,12 +31,12 @@ something that answers two questions:
 
 1. **What do I play right now?** The app serves one album — the day's five on
    the front page, or a roll from the whole collection — so the decision is made
-   for you rather than by scrolling 4,414 rows.
+   for you rather than by scrolling thousands of rows.
 2. **Is the catalogue right?** Covers, genres, years and names being correct is
    an end in itself, not just upkeep. The collection is the thing being kept.
 
-Both of these outrank the third activity, rating. 396 of 4,414 albums carry a
-score and clearing that backlog is **not** the primary job; a rating is what
+Both of these outrank the third activity, rating. Only a small share of the
+albums carry a score, and clearing that backlog is **not** the primary job; a rating is what
 happens after listening, not a target to grind down. When speed-of-rating
 conflicts with either question above, the question above wins.
 
@@ -51,15 +51,17 @@ Three mechanisms a neighbouring "random album" tool could not truthfully claim:
   splits it evenly among its members, drawn from `crypto.getRandomValues()`
   rather than `Math.random()`. Carried over from the original spreadsheet with
   one deliberate correction: unrated albums are their own tier instead of
-  diluting the 100s, so a real 100 now comes up ~50× more often than any one
-  unrated album. Verified by 200,000 rolls against the real collection.
-- **A genre/style split computed from this collection.** A tag is a *genre* when
-  roughly 1.2% of the collection carries it; everything else is a *style*. The
-  split is derived rather than imported because no source provides a usable one
-  — MusicBrainz is a flat list of ~2,200 tags, Discogs files every kind of metal
+  diluting the 100s, so a real 100 now comes up many times more often than
+  any one unrated album. Verified by 200,000 rolls against the real collection.
+- **A genre/style split computed from this collection.** A *genre* is one of a
+  short fixed list of roots — rock split into the scenes big enough to stand
+  alone here, plus electronic, jazz, hip hop and the rest — and every other
+  tag is a *style*, attached to the root it belongs under. The split is
+  derived rather than imported because no source provides a usable one —
+  MusicBrainz is a flat list of ~2,200 tags, Discogs files every kind of metal
   and shoegaze under "Rock", and Rate Your Music's robots.txt prohibits
-  automated access. The bar being relative is what keeps `post-rock`, `idm` and
-  `krautrock` browsable instead of collapsing into "rock".
+  automated access. Which tags deserve to be roots is a judgement, made in
+  `app/genres.js` and reported on nightly, never decided by a threshold.
 - **Identified once, then artwork by id.** An album is matched to a MusicBrainz
   release-group and the cover is fetched by that id, so a sleeve cannot drift
   onto the wrong record. The first version searched iTunes and took result one,
@@ -105,8 +107,8 @@ Three mechanisms a neighbouring "random album" tool could not truthfully claim:
   account may write, enforced by Row Level Security rather than by hiding the
   anon key, which is designed to be public.
 - **Everything runs on free tiers and the cost of running it is nothing.** That
-  is a constraint on future work, not just a fact: ~4,200 cached covers already
-  occupy roughly 340 MB of the Storage allowance.
+  is a constraint on future work, not just a fact: the cached covers already
+  occupy a few hundred MB of the Storage allowance.
 - **Deleting is never destructive.** `deleted_at` is a timestamp, the row stays,
   the export leaves it out and the nightly import deliberately still counts it
   as present so it cannot be resurrected. Restore returns score, notes and
@@ -118,8 +120,8 @@ Three mechanisms a neighbouring "random album" tool could not truthfully claim:
 - `artist::title` is the identity for enrichment records and local edits, which
   is why a rename goes through **Edit name** in the app or `scripts/rename.mjs`
   rather than an editor. Row position in the CSV is never an identity.
-- The shelf renders 60 tiles at a time and grows on scroll; 4,414 at once
-  crawls. PostgREST caps a response at 1,000 rows, so reads paginate.
+- The shelf renders 60 tiles at a time and grows on scroll; thousands at once
+  crawl. PostgREST caps a response at 1,000 rows, so reads paginate.
 - View state lives in the URL hash — search, filter, genre, sort, roll mode — so
   any view can be bookmarked and sent, and Back undoes one filter.
 - Vocabulary, used consistently in the UI and in this record: **Roll** (the
@@ -147,11 +149,12 @@ Three mechanisms a neighbouring "random album" tool could not truthfully claim:
 
 Real, in the repository, and the only evidence there is:
 
-- `data/albums.csv` — 4,415 albums, 2,184 artists, 1953–2026. 397 rated; 4,415
-  with a cover; 4,415 with genres; 4,273 matched to a MusicBrainz release-group.
-- `app/health.json` — the current maintenance residue: 51 year gaps, 7
-  near-duplicates, 5 held-back renames. No album is missing a cover, genres, or
-  a browsable genre root. The year gaps were checked against MusicBrainz a
+- `data/albums.csv` — the whole collection. Its current figures are in the
+  README's opening table, which the nightly run rewrites, so no count is kept
+  here to go stale.
+- `app/health.json` — the current maintenance residue, counted live on the Fix
+  screen. No album is missing a cover, genres, or a browsable genre root. The
+  year gaps were checked against MusicBrainz a
   second time with the corrected ranking and none of them moved, so they are
   reissue disagreements rather than wrong matches.
 - `data/enrichment.json` — one record per album, keyed `artist::title`.

@@ -10,10 +10,10 @@
 //
 // Three decisions, in order of how much they matter:
 //
-// 1. BLOCKING. Comparing every album with every other is 10 million pairs.
-//    Comparing only those sharing a short artist or title prefix is 17,000 --
-//    0.17% of the work. Two prefixes rather than one, because a typo rarely
-//    lands in both fields.
+// 1. BLOCKING. Comparing every album with every other is millions of pairs.
+//    Comparing only those sharing a short artist or title prefix is a small
+//    fraction of a percent of the work. Two prefixes rather than one, because
+//    a typo rarely lands in both fields.
 //
 // 2. DELIBERATE SETS. 4% of this collection is multi-part: "Disc 1"/"Disc 2",
 //    "Stage 3"/"Stage 6", "First Half"/"Second Half". Those are near-identical

@@ -67,7 +67,7 @@ add("no-genres", "No genres",
   "Invisible to every genre filter.",
   albums.filter((a) => !a.genres.length).map(ref), "research");
 
-// "Not in MusicBrainz" used to be a section here, 146 rows long. It was
+// "Not in MusicBrainz" used to be a section here, over a hundred rows long. It was
 // retired: the typo passes already took the misspellings, so what remained was
 // genuinely absent from MusicBrainz -- 2 Many DJ's mixtapes, bootleg nightcore,
 // Japanese indie -- and with covers and genres both at 100% none of it is
@@ -105,11 +105,11 @@ add("year-gap", "Year is far off MusicBrainz",
   })),
   "recheck");
 
-// "Same cover on several albums" used to be a section here, 31 rows long. It
+// "Same cover on several albums" used to be a section here, a few dozen rows long. It
 // was retired because no row in it could be diagnosed from the row: the note
 // listed the titles sharing one sleeve, but nothing on the page told you which
 // record the sleeve actually belonged to, and the honest answer for a double
-// album and for a mis-filed sleeve looks identical. Every one of the 31 was
+// album and for a mis-filed sleeve looks identical. Every one of them was
 // either correct or unanswerable without opening both records and looking --
 // at which point the list had done none of the work. The query is in
 // db/queries.sql for when a specific sleeve is in doubt.
@@ -168,8 +168,8 @@ add("no-root", "Tagged, but under no genre",
   "Has styles but none of them point at a root, so no filter finds it.",
   albums.filter((a) => a.genres.length && !split(a).genre.length).map(ref), "research");
 
-// "Five or more genres" used to be a section, and was the largest on the page
-// at 283 rows. Nothing could act on it -- there was no genre editor then -- and
+// "Five or more genres" used to be a section, and was the largest on the page,
+// hundreds of rows. Nothing could act on it -- there was no genre editor then -- and
 // the rows were not wrong: Check Your Head really is funk, psych, punk, hip hop
 // and alternative rock. A list that is accurate and unactionable is not a
 // maintenance item.

@@ -10,7 +10,7 @@ name: Refresh catalogue
 #
 # Enrichment is batched because MusicBrainz allows one request a second, and a
 # miss costs several tries: measured at 4.8s an album, so 300 is about 25
-# minutes and the full 4,476 is roughly six hours. Once the backlog is cleared
+# minutes and the whole collection is roughly six hours. Once the backlog is cleared
 # this step finds almost nothing to do and the run takes about a minute.
 #
 # This runs on GitHub's machines, not yours -- the schedule fires whether or

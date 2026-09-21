@@ -6,7 +6,7 @@
 -- Supabase SQL Editor when you actually want the answer.
 
 -- ── albums MusicBrainz has never matched ───────────────────────────────────
--- Was a 146-row section on the Fix page. Nothing here is visibly broken --
+-- Was a section on the Fix page, over a hundred rows. Nothing here is visibly broken --
 -- covers and genres are both complete -- but these rows never refresh, because
 -- the nightly enrichment looks them up by mbid. Mostly mixtapes, bootlegs and
 -- self-released records that genuinely are not in MusicBrainz.
@@ -24,13 +24,25 @@ from public.albums
 where deleted_at is null;
 
 -- ── albums carrying five or more genres ────────────────────────────────────
--- Was the largest section on the page at 283 rows, and every one of them was
+-- Was the largest section on the page, hundreds of rows, and every one of them was
 -- accurate: Check Your Head really is funk, psych, punk, hip hop and
 -- alternative rock. Kept here in case the number ever runs away.
 select artist, title, cardinality(genres) as n, genres
 from public.albums
 where cardinality(genres) >= 5 and deleted_at is null
 order by n desc, artist;
+
+-- ── covers shared between albums ───────────────────────────────────────────
+-- Was a section on the Fix page, retired because a row could not be diagnosed
+-- from the row: a double album and a mis-filed sleeve look identical there.
+-- For when one specific sleeve is in doubt, and you mean to open the records.
+select cover_url, count(*) as albums,
+       array_agg(artist || ' — ' || title order by artist, title) as wearing_it
+from public.albums
+where deleted_at is null and cover_url is not null
+group by cover_url
+having count(*) > 1
+order by albums desc;
 
 -- ── the tags nothing is filed under ────────────────────────────────────────
 -- Which raw tags appear most often. Promoting one to a genre is an edit to

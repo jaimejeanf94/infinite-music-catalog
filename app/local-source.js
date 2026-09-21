@@ -9,7 +9,7 @@
 // in the CSV. Row numbers are not identities: merging or re-sorting albums.csv
 // shifts every row below the change, and edits keyed that way silently
 // re-attach themselves to whatever album slid into the slot. That is exactly
-// what the disc merge did -- 96 rows collapsed into 42 -- which put cached
+// what the disc merge did -- collapsing multi-disc rows -- which put cached
 // covers on unrelated albums. Ids are still row numbers, because the UI needs
 // something cheap to pass around, but nothing is ever *stored* against them.
 
@@ -144,10 +144,9 @@ const LocalDB = {
         // what the MusicBrainz pass found, and nothing rewrites it afterwards.
         //
         // This used to read `extra.cover_url || edit.cover_url`, which skipped
-        // the CSV entirely -- on the current data that is 19 albums showing a
-        // superseded cover here and 106 showing none at all, the 106 being
-        // precisely the ones whose artwork was fixed by hand and so never had
-        // an enrichment entry to begin with.
+        // the CSV entirely -- so albums showed a superseded cover here, or none
+        // at all, the missing ones being precisely those whose artwork was
+        // fixed by hand and so never had an enrichment entry to begin with.
         //
         // A local edit still outranks both. `in` rather than a truthy test, so
         // clearing a cover locally stays cleared instead of falling back.

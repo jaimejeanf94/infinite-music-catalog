@@ -54,8 +54,8 @@ const ROOTS = [
 ];
 
 // Merges the collection's own tagging does not support, but which are right.
-// soul and r&b share only 42 albums of 125, so nothing computed would join
-// them -- this is a judgement about the music, so it is written down as one
+// soul and r&b share only a minority of their albums, so nothing computed would
+// join them -- this is a judgement about the music, so it is written down as one
 // rather than buried in a threshold.
 const ALIASES = {
   "soul": "r&b",
@@ -93,9 +93,9 @@ const ALIASES = {
   "nightcore": "electronic",
 };
 
-// Deliberately NOT a root. "experimental" sits on 478 albums: 65% of them are
-// also electronic and 57% are also rock, and exactly 4 carry it alone. It is
-// a modifier that spans every genre, not a genre, so it is a style.
+// Deliberately NOT a root. "experimental" is common, but most of the albums
+// carrying it are also electronic or rock, and almost none carry it alone. It
+// is a modifier that spans every genre, not a genre, so it is a style.
 
 // A tag attaches to the root it shares the most albums with, provided it
 // shares at least this many of its own. Below that it is nobody's style and
@@ -109,8 +109,8 @@ const MIN_TO_ATTACH = 6;        // ignore tags too rare to say anything
 // subgenre is a statement about the music and not a guess. It used to be a
 // last resort for albums with no root at all -- but most metal records here
 // also carry "rock", so the rescue never ran for them, and black metal,
-// progressive metal and doom metal attach to rock on overlap alone. 306 of
-// the 525 records carrying a metal subgenre were missing from the metal
+// progressive metal and doom metal attach to rock on overlap alone. More than
+// half the records carrying a metal subgenre were missing from the metal
 // filter: Gorguts' "Obscura" was rock, and so was Drudkh. Screamo and
 // doomcore are left out on purpose: one is emo, the other hardcore techno.
 //
@@ -153,9 +153,9 @@ function buildIndex(albums) {
   for (const [g, c] of freq) {
     if (roots.includes(g) || parent.has(g) || c < MIN_TO_ATTACH) continue;
     // Among the roots that qualify, take the NARROWEST -- not the one it
-    // overlaps most. "heavy metal" shares 97% of its albums with rock and 49%
-    // with metal, so picking the biggest overlap sends every metal record to
-    // rock and leaves metal a root that collects nothing. The narrowest root
+    // overlaps most. "heavy metal" shares nearly all its albums with rock and
+    // about half with metal, so picking the biggest overlap sends every metal
+    // record to rock and leaves metal a root that collects nothing. The narrowest root
     // that still covers the tag is the one that actually describes it.
     const fits = roots.filter((r) => r !== g && together(g, r) >= c * ATTACH_SHARE);
     if (fits.length) {
@@ -176,8 +176,8 @@ function splitGenres(tags, index) {
   // An ALIAS is a statement about the music -- "soul IS r&b", "afrobeat IS
   // African" -- so it applies whatever else the album carries. It used to run
   // only in the rescue branch below, which meant it fired solely for albums
-  // that had no root at all: 69 of the 125 records tagged "soul" never reached
-  // r&b, because they also carried funk, jazz or blues. Al Green's "Call Me"
+  // that had no root at all: most records tagged "soul" never reached r&b,
+  // because they also carried funk, jazz or blues. Al Green's "Call Me"
   // came out as funk and Fela stayed under jazz.
   //
   // The computed `parent` map stays a rescue, and must: it holds every style,

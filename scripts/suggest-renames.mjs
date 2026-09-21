@@ -250,8 +250,8 @@ console.log(
 // overwritten every run -- with this batch, or with [] on a night with nothing
 // due -- while every album examined was stamped and left alone for 30 days.
 // So a held-back suggestion was on the Fix screen for one day and then
-// vanished for a month: the pile went 102, 17, 10, 6, 5 and then 0, with most
-// of what it had held still unresolved on the shelf. Now tonight's verdicts
+// vanished for a month, and the pile emptied itself while most of what it had
+// held was still unresolved on the shelf. Now tonight's verdicts
 // replace only the entries for albums examined tonight, and everything else
 // stays until you rename it or reject it on the Fix screen.
 const liveNames = new Set(rows.filter((r) => r[0]).map((r) => `${r[0]}::${r[1]}`));

@@ -22,10 +22,10 @@
 // rather than a real primary, so it caught exact first-tag collisions and
 // missed most of what it was aimed at -- two rock records tagged "rock" and
 // "indie rock" both passed. And the spread it produced was a lie about the
-// shelf: rock is 18.8% of this collection, so five that never repeat a genre
-// claim a variety the collection does not have. Measured over 200,000 draws,
-// pure random puts two albums of one genre in the five about 41% of days,
-// which is simply what the shelf looks like.
+// shelf: rock alone is a large slice of this collection, so five that never
+// repeat a genre claim a variety the collection does not have. Pure random
+// puts two albums of one genre in the five on a good share of days, which is
+// simply what the shelf looks like.
 
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 
