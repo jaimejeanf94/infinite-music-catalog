@@ -992,7 +992,7 @@ button.hs__item:focus-visible { outline: 2px solid var(--accent); outline-offset
 .hs__acts { display: flex; align-items: center; gap: 4px; flex: 0 0 auto; padding-right: 6px; }
 .hs__act {
   font-family: var(--mono); font-size: 10px; letter-spacing: 0.08em;
-  text-transform: uppercase; color: var(--ink-dim);
+  text-transform: uppercase; color: var(--ink-dim); text-decoration: none;
   background: none; border: 1px solid var(--line); border-radius: var(--radius);
   padding: 8px 10px; cursor: pointer; opacity: 0; transition: opacity .12s;
 }
@@ -1068,4 +1068,13 @@ button.hs__item:focus-visible { outline: 2px solid var(--accent); outline-offset
   .hs__bar { grid-template-columns: 52px 1fr auto; }
   .hs__why { grid-column: 1 / -1; }
   .hs__item { grid-template-columns: 1fr; }
+}
+
+/* On a phone the verdicts go under the album, not beside it. Beside it, the
+   buttons left the album's name a sliver of a column -- the thing you are
+   deciding about, squeezed by the controls for deciding it. */
+@media (max-width: 560px) {
+  .hs__row { flex-wrap: wrap; gap: 0; }
+  .hs__row .hs__item { flex-basis: 100%; }
+  .hs__acts { flex-wrap: wrap; padding: 0 10px 12px; }
 }

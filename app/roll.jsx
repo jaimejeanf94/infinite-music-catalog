@@ -119,12 +119,8 @@ function RollView({ albums, owner, onPatch, onRoll, params, setParams }) {
   // its sheet, which can be undone.
   if (!album) return <div className="empty">Shuffling…</div>;
 
-  const searchUrl = (svc) => {
-    const q = encodeURIComponent(`${album.artist} ${album.title}`);
-    return svc === "spotify"
-      ? `https://open.spotify.com/search/${q}`
-      : `https://music.apple.com/search?term=${q}`;
-  };
+  const apple = Listen.apple(album);
+  const spotify = Listen.spotify(album);
 
   return (
     <div className="roll">
@@ -197,11 +193,11 @@ function RollView({ albums, owner, onPatch, onRoll, params, setParams }) {
           </div>
 
           <div className="row row--links">
-            <a className="link" href={searchUrl("spotify")} target="_blank" rel="noreferrer">
-              Find on Spotify
+            <a className="link" href={apple.href} target="_blank" rel="noreferrer">
+              {apple.exact ? "Apple Music" : "Search Apple Music"}
             </a>
-            <a className="link" href={searchUrl("apple")} target="_blank" rel="noreferrer">
-              Apple Music
+            <a className="link" href={spotify.href} target="_blank" rel="noreferrer">
+              Search Spotify
             </a>
           </div>
         </div>

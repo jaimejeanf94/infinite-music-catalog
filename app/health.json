@@ -1,11 +1,12 @@
 {
- "generated": "2026-09-21T13:33:51.889Z",
+ "generated": "2026-09-21T14:55:49.667Z",
  "totals": {
   "albums": 4418,
   "rated": 397,
   "withCover": 4418,
   "withGenres": 4418,
-  "matched": 4281
+  "matched": 4281,
+  "apple": 0
  },
  "sections": [
   {
@@ -778,6 +779,30 @@
      "apply": "Rename"
     }
    ]
+  },
+  {
+   "id": "apple-review",
+   "title": "Apple Music matches held back",
+   "why": "Probably the right record, not certainly. Open it to check, then link it or reject it.",
+   "action": "link",
+   "count": 0,
+   "items": []
+  },
+  {
+   "id": "apple-bad",
+   "title": "Apple Music link looks wrong",
+   "why": "Not a link to an album — a song, an artist, or another site. Removing it lets the nightly run look for the right one.",
+   "action": "link",
+   "count": 0,
+   "items": []
+  },
+  {
+   "id": "apple-none",
+   "title": "No Apple Music link",
+   "why": "Apple Music has nothing under this name. Paste the link on the album's page if it is there, or say it is not.",
+   "action": "link",
+   "count": 0,
+   "items": []
   },
   {
    "id": "no-root",

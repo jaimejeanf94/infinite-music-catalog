@@ -14,6 +14,7 @@ Live at **<https://infinite-music-catalog.vercel.app>**.
 | Covers | 4,418 — 4,416 of them cached and CDN-served |
 | Genres | 4,418 tagged, 26 of them browsable |
 | Matched to MusicBrainz | 4,281 |
+| Apple Music | 0 open straight to the album |
 | Cost to run | nothing — every service is on a free tier |
 <!-- stats:end -->
 
@@ -111,6 +112,20 @@ because four thousand at once crawls.
 - **Delete** — two taps, no browser dialog. Never destructive (section 5).
 - **Cover image** — paste a URL in the detail sheet to override the artwork.
   That sets `cover_locked` and the nightly run stops touching it.
+- **Listen** — **Apple Music** opens the album itself when its link is known,
+  and says **Search Apple Music** when it is not. On an Android phone an album
+  link opens the Apple Music app; a search lands in the web player. Spotify is
+  still a search. Paste a link on the album's sheet to set one by hand — it is
+  checked, it must be an album, and it locks, like a cover.
+
+### Listening on Android and Windows
+
+`music.apple.com` and `open.spotify.com` are both verified Android app links,
+so a tap on one of their *album* pages hands off to the app. A search page is
+not something either app promises to accept, which is why the album link is
+worth finding. On Windows no web link reaches a desktop app at all, so the
+Apple Music button opens the web player — on the album page, rather than a
+search.
 
 ### Fix — maintenance
 
@@ -123,7 +138,9 @@ concrete suggestion, the fix itself:
   find out what you just agreed to. Undo rewinds the album, not just the
   verdict — and still does after a reload, because each row carries the value
   its fix overwrote.
-- **Fine** / **Reject** — checked, nothing wrong. The row leaves the list.
+- **Fine** / **Reject** / **Not there** — checked, nothing to change. The
+  wording follows the section, and the row leaves the list.
+- **Open** — on a row whose fix is a link, try it before deciding.
 - **Flag** — something *is* wrong, keep it in front of me. It pins to the top,
   still counts, and keeps its fix button.
 
@@ -132,6 +149,18 @@ on an earlier visit leave the list entirely; a control at its foot brings them
 back when you want to undo one. Held-back renames stay on the list until you
 rename or reject them — the nightly run adds to that pile, it never replaces
 it.
+
+Three checks watch the Apple Music links, and each lists only albums the
+nightly lookup has actually reached — never the ones it has not got to yet:
+
+- **Apple Music matches held back** — probably the record, not certainly: the
+  title differs, it is a live or compilation edition, or MusicBrainz links it
+  but Apple's store here will not confirm it. **Open**, then **Link it** or
+  **Reject**.
+- **Apple Music link looks wrong** — a link that is not an album: a song, an
+  artist, another site. **Remove link** lets the nightly run look again.
+- **No Apple Music link** — nothing under this name. Paste one on the album's
+  sheet if it is there, or **Not there**.
 
 **Genre and style are separate things.** Genre is what you browse by; style is
 what the record actually is. Deafheaven's *Lonely People With Power* is genre
@@ -177,9 +206,9 @@ collection each covers.
 
 ## 3. The scripts
 
-Sixteen files in `scripts/`, plus two libraries. Nothing here is a framework
-and nothing needs installing — every one is plain Node with no dependencies,
-run directly.
+Every script in `scripts/`, grouped by when it runs. Nothing here is a
+framework and nothing needs installing — every one is plain Node with no
+dependencies, run directly.
 
 Credentials come from the environment, never from a committed file:
 
@@ -205,6 +234,7 @@ the detail.
 | `import.mjs` | Pushes artwork, and genres for albums that have none, back into Postgres. Never overwrites a genre you edited in the app. Also the restore tool — see section 5 |
 | `genre-report.mjs` | Reports whether any style has outgrown the fixed `ROOTS` list. Reports only — that call is a judgement, not a rule |
 | `health-report.mjs` | Writes `app/health.json`, the Fix screen's list. Runs `find-duplicates` itself |
+| `apple-music-links.mjs` | Finds each album's own Apple Music page, so the listen button opens the record instead of a search. By MusicBrainz identity first, search second, and every link confirmed against Apple's store here. Confident links are pushed by `import.mjs`; uncertain ones and albums with none go to the Fix screen. A batch a night, since Apple asks for about twenty lookups a minute |
 | `daily-picks.mjs` | Writes `app/daily.json`, tomorrow's five |
 
 ### Runs in CI, on every push
@@ -287,15 +317,18 @@ closed.
    (Pt. 2 is one edit from Pt. 1), gains or loses a whole word, or drops a
    credited artist is held back for the Fix screen
 3. **Enrich a batch** — 300 albums, then a `--retry` pass over previous failures
-4. **Cache any new artwork** into Supabase Storage
-5. **Import** — genres and artwork back into Postgres
-6. **Export again** — so the committed backup reflects what this run just did,
+4. **Find Apple Music links** — a batch of albums; **Run workflow** takes a
+   bigger one to fill the shelf faster
+5. **Cache any new artwork** into Supabase Storage
+6. **Import** — genres, artwork and confident Apple Music links back into
+   Postgres
+7. **Export again** — so the committed backup reflects what this run just did,
    rather than the state before it started
-7. **Reports** — genre roots, the Fix list, tomorrow's five
-8. **Commit** — `data/albums.csv`, `app/daily.json`, `app/health.json`, and
+8. **Reports** — genre roots, the Fix list, tomorrow's five
+9. **Commit** — `data/albums.csv`, `app/daily.json`, `app/health.json`, and
    the README's opening table
 
-Step 8 is the point: `git log data/albums.csv` is a dated history of the
+Step 9 is the point: `git log data/albums.csv` is a dated history of the
 collection, and any night of it can be put back (section 5).
 
 Both database steps are skipped when the Supabase secrets are absent, so the
@@ -340,7 +373,8 @@ git checkout HEAD -- data/albums.csv          # the next export rewrites it anyw
 ```
 
 `--restore` puts back the fields that are yours on every album the backup and
-the database share — year, score, notes, genres, and a cover you had chosen —
+the database share — year, score, notes, genres, and a cover or Apple Music
+link you had set —
 brings back anything the backup had that has since been deleted, and adds any
 album missing altogether. It never removes one: an album added after the
 backup was taken is left where it is. Without the flag, `import.mjs` only adds
@@ -351,7 +385,8 @@ nothing.
 
 ```sql
 albums    artist, title, year, score, notes, genres, mbid,
-          cover_url, cover_locked, source, deleted_at
+          cover_url, cover_locked, apple_music_url, apple_music_locked,
+          source, deleted_at
 rolls     album_id, mode, outcome, rolled_at     -- what the randomiser served
 review_flags  kind, subject, album_id, state    -- your verdicts on the Fix list
 ```
@@ -367,6 +402,7 @@ spreadsheet or was added in the app.
 | mbid | enrichment | yes — refreshed |
 | genres | enrichment, then you | **filled when empty**; replaced only if the album is matched to a different record |
 | cover_url | enrichment, or you | **yours is kept** (`cover_locked`) |
+| apple_music_url | the nightly lookup, or you | **filled, never replaced**; yours is kept, and one you clear stays clear (`apple_music_locked`) |
 | deleted_at | you | never resurrected |
 
 Nothing is stored against an album's position in `albums.csv`. Row numbers are
@@ -629,6 +665,7 @@ them: `frontend-design` and `web-design-guidelines` from Vercel, `supabase` and
 | `app/cover-art.jsx` | Artwork by id, verified fallback, generated art |
 | `app/roller.js` | The weighting logic, kept plain so it can be tested |
 | `app/genres.js` | The genre/style split, computed in the browser |
+| `app/listen.js` | Where the Apple Music and Spotify buttons point, and what counts as an album link |
 | `app/supabase-client.js` | Every call to the cloud, in one place |
 | `app/local-source.js` | The no-account fallback |
 | `app/config.js` | Your Supabase URL and key — the only file to edit by hand |

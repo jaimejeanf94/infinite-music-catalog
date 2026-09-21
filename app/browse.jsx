@@ -239,6 +239,8 @@ function Detail({ album, owner, onPatch, onDelete, onClose, index, onGenre, onAr
   const [uploading, setUploading] = React.useState(false);
   const [uploadError, setUploadError] = React.useState(null);
   React.useEffect(() => setUploadError(null), [album.id]);
+  const [linkError, setLinkError] = React.useState(null);
+  React.useEffect(() => setLinkError(null), [album.id]);
 
   async function uploadCover(e) {
     const file = e.target.files?.[0];
@@ -401,6 +403,31 @@ function Detail({ album, owner, onPatch, onDelete, onClose, index, onGenre, onAr
                 </label>
               )}
 
+              {/* A link set here is locked either way. A pasted one is never
+                  replaced by the nightly run, and one you clear stays clear:
+                  the likeliest reason to clear it is that the run matched the
+                  wrong record, and it would only match it again. */}
+              <label className="field">
+                <span>Apple Music link {album.apple_music_locked && <b>— yours, kept</b>}</span>
+                <input
+                  key={`am:${album.apple_music_url || ""}`}
+                  defaultValue={album.apple_music_url || ""}
+                  placeholder="Paste the album's Apple Music link"
+                  inputMode="url"
+                  spellCheck={false}
+                  onBlur={(e) => {
+                    const url = e.target.value.trim();
+                    if (url === (album.apple_music_url || "")) return setLinkError(null);
+                    if (url && !Listen.isAppleAlbumUrl(url)) {
+                      return setLinkError("That is not an album — it should look like music.apple.com/mx/album/…");
+                    }
+                    setLinkError(null);
+                    onPatch(album.id, { apple_music_url: url || null, apple_music_locked: true });
+                  }}
+                />
+                {linkError && <small className="hint" role="alert">{linkError}</small>}
+              </label>
+
               {/* Genres were pipeline-only until now: the nightly enrichment
                   wrote them and nothing in the app could touch them, so an
                   album MusicBrainz had nothing for had no way back. These are
@@ -440,13 +467,11 @@ function Detail({ album, owner, onPatch, onDelete, onClose, index, onGenre, onAr
           ) : null}
 
           <div className="row row--links">
-            <a className="link" target="_blank" rel="noreferrer"
-               href={`https://open.spotify.com/search/${encodeURIComponent(album.artist + " " + album.title)}`}>
-              Spotify
+            <a className="link" target="_blank" rel="noreferrer" href={Listen.apple(album).href}>
+              {Listen.apple(album).exact ? "Apple Music" : "Search Apple Music"}
             </a>
-            <a className="link" target="_blank" rel="noreferrer"
-               href={`https://music.apple.com/search?term=${encodeURIComponent(album.artist + " " + album.title)}`}>
-              Apple Music
+            <a className="link" target="_blank" rel="noreferrer" href={Listen.spotify(album).href}>
+              Search Spotify
             </a>
           </div>
         </div>

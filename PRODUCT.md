@@ -17,7 +17,7 @@ anything.
 **People the owner sends a link to.** Confirmed as a genuine audience, not a
 by-product of the database being public: a shared shelf view, a genre filter or
 the day's five should read well to someone who is not the owner. Signed-out
-visitors browse, search, filter, roll and follow streaming links. They are never
+visitors browse, search, filter, roll and follow listening links. They are never
 shown a control that would fail — the score buttons, notes, cover field, add,
 delete and the Deleted filter are all absent, and Row Level Security rejects the
 write regardless. `?as=visitor` on any view previews exactly what they see.

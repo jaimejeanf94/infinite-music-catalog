@@ -22,7 +22,7 @@ async function fetchAllAlbums() {
   for (let from = 0; ; from += PAGE) {
     const { data, error } = await sb
       .from("albums")
-      .select("id, artist, title, year, score, notes, cover_url, genres, mbid, source, cover_locked")
+      .select("id, artist, title, year, score, notes, cover_url, genres, mbid, source, cover_locked, apple_music_url, apple_music_locked")
       .is("deleted_at", null)
       .order("artist", { ascending: true })
       .order("title", { ascending: true })
@@ -61,7 +61,7 @@ const supabaseDb = {
   async addAlbum({ artist, title, year, score }) {
     const { data, error } = await sb.from("albums")
       .insert({ artist, title, year: year || null, score: score || null, source: "app" })
-      .select("id, artist, title, year, score, notes, cover_url, genres, mbid, source, cover_locked")
+      .select("id, artist, title, year, score, notes, cover_url, genres, mbid, source, cover_locked, apple_music_url, apple_music_locked")
       .single();
     if (error) throw error;
     return data;
@@ -123,7 +123,8 @@ const supabaseDb = {
     // lever: the nightly enrichment is the only other thing that sets it, and
     // when MusicBrainz has nothing there was previously no way to type one in.
     const ALLOWED = ["artist", "title", "year", "genres",
-                     "score", "notes", "cover_url", "cover_locked"];
+                     "score", "notes", "cover_url", "cover_locked",
+                     "apple_music_url", "apple_music_locked"];
     const clean = {};
     for (const k of ALLOWED) if (k in patch) clean[k] = patch[k];
     if (!Object.keys(clean).length) return;

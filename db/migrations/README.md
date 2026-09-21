@@ -17,9 +17,10 @@ lived at `db/` root until the folder's own rule caught up with them.
 |---|---|
 | `2026-09-20-review-flags.sql` | Added `review_flags` — your verdicts on the Fix list, so a settled row stays settled |
 | `2026-09-20-drop-plays.sql` | Dropped `plays`. Nothing read it and it held 0 rows |
-| `2026-09-20-drop-pool.sql` | Dropped `albums.in_pool`. It silently excluded 99 albums from every roll, with no control left in the app to see or change it |
+| `2026-09-20-drop-pool.sql` | Dropped `albums.in_pool`. It silently excluded albums from every roll, with no control left in the app to see or change it |
+| `2026-09-21-apple-music-links.sql` | Added `albums.apple_music_url` and `apple_music_locked`, so the Apple Music button opens the album instead of a search |
 
-`node scripts/check-db.mjs` confirms all three landed.
+`node scripts/check-db.mjs` confirms every one of them landed.
 
 ## Adding something
 

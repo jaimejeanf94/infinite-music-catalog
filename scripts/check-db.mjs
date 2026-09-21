@@ -35,6 +35,14 @@ try {
   say("albums.in_pool", true, "dropped");
 }
 
+// db/migrations/2026-09-21-apple-music-links.sql
+try {
+  await api.select("albums?select=apple_music_url,apple_music_locked&limit=1");
+  say("albums.apple_music_url", true, "present");
+} catch (e) {
+  say("albums.apple_music_url", false, "missing — db/migrations/2026-09-21-apple-music-links.sql has not run");
+}
+
 // the write path the maintenance screen depends on
 try {
   await api.insert("review_flags", [{ kind: "__selftest", subject: "probe", state: "dismissed" }]);

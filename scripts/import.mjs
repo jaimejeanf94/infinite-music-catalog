@@ -20,8 +20,8 @@
 // the database, so a week of wrong scores on albums that still exist -- the
 // realistic disaster -- was left exactly as it was, and the README promised a
 // restore that restored nothing. --restore writes the fields a person owns
-// back onto the matching rows (year, score, notes, genres, and the cover when
-// you had chosen it), brings back anything the backup had that has since been
+// back onto the matching rows (year, score, notes, genres, and a cover or an
+// Apple Music link you had set), brings back anything the backup had that has since been
 // deleted, and still only adds albums that are missing. It never removes one:
 // an album added after the backup was taken is left where it is.
 import { readFileSync, existsSync } from "node:fs";
@@ -73,6 +73,8 @@ const owned = (r) => ({
   genres: cellOf(r, "genres").split(";").map((g) => g.trim()).filter(Boolean),
   cover_locked: cellOf(r, "cover_locked") === "true",
   cover_url: cellOf(r, "cover_url") || null,
+  apple_music_locked: cellOf(r, "apple_music_locked") === "true",
+  apple_music_url: cellOf(r, "apple_music_url") || null,
 });
 
 const albums = rows.filter((r) => cellOf(r, "artist")).map((r) => {
@@ -97,6 +99,8 @@ const albums = rows.filter((r) => cellOf(r, "artist")).map((r) => {
     cover_url: (mine.cover_locked && mine.cover_url)
       ? mine.cover_url
       : (extra?.cover_url || mine.cover_url || null),
+    apple_music_locked: mine.apple_music_locked,
+    apple_music_url: mine.apple_music_url || (extra?.apple_status === "ok" ? extra.apple_url : null),
     _owned: mine,
   };
 });
@@ -108,7 +112,8 @@ const api = rest(token);
 // album is what stops the nightly import putting a deleted album straight
 // back, because an older albums.csv can still carry it.
 const inDb = await api.selectAll(
-  "albums?select=id,artist,title,year,score,notes,genres,mbid,cover_url,cover_locked,deleted_at&order=id.asc");
+  "albums?select=id,artist,title,year,score,notes,genres,mbid,cover_url,cover_locked," +
+  "apple_music_url,apple_music_locked,deleted_at&order=id.asc");
 const byKey = new Map(inDb.map((a) => [keyOf(a.artist, a.title), a]));
 
 // A renamed album is a new name for a row that already exists, so matching on
@@ -152,7 +157,7 @@ const sameList = (x, y) => (x || []).join("\u0000") === (y || []).join("\u0000")
 
 if (RESTORE) {
   // ── put every matched row back to what the backup says ──────────────────
-  const counts = { year: 0, score: 0, notes: 0, genres: 0, cover: 0, undeleted: 0 };
+  const counts = { year: 0, score: 0, notes: 0, genres: 0, cover: 0, link: 0, undeleted: 0 };
   const examples = [];
   let rowsChanged = 0;
 
@@ -174,6 +179,13 @@ if (RESTORE) {
       patch.cover_locked = want.cover_locked;
       if (want.cover_locked) patch.cover_url = want.cover_url;
       counts.cover++;
+    }
+    // Same rule for the Apple Music link: only one you set by hand is yours.
+    if (want.apple_music_locked !== !!row.apple_music_locked ||
+        (want.apple_music_locked && want.apple_music_url !== (row.apple_music_url || null))) {
+      patch.apple_music_locked = want.apple_music_locked;
+      if (want.apple_music_locked) patch.apple_music_url = want.apple_music_url;
+      counts.link++;
     }
     if (row.deleted_at) { patch.deleted_at = null; counts.undeleted++; }
 
@@ -224,6 +236,14 @@ for (const row of inDb) {
   if (extra.genres?.length && !sameList(extra.genres, row.genres) &&
       (!row.genres?.length || rematched)) {
     patch.genres = extra.genres;
+  }
+  // An Apple Music link is filled, never replaced: only a confident match
+  // from apple-music-links.mjs, only onto a row with no link, and never onto
+  // one you have locked -- which you do by setting or clearing it by hand.
+  // An uncertain match is not written here at all; it waits on the Fix
+  // screen until you say it is the right record.
+  if (extra.apple_status === "ok" && extra.apple_url && !row.apple_music_url && !row.apple_music_locked) {
+    patch.apple_music_url = extra.apple_url;
   }
   if (!Object.keys(patch).length) continue;
   await api.update("albums", `id=eq.${row.id}`, patch);

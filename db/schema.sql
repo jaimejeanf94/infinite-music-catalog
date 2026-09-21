@@ -36,6 +36,11 @@ create table if not exists public.albums (
   -- Set when you choose a cover yourself. The nightly enrichment leaves those
   -- alone; without this it would overwrite your choice every night.
   cover_locked boolean not null default false,
+  -- The album's own page on Apple Music, so the listen button opens the record
+  -- rather than a search. Locked like the cover: a link set by hand is never
+  -- replaced. Added by db/migrations/2026-09-21-apple-music-links.sql.
+  apple_music_url    text,
+  apple_music_locked boolean not null default false,
   -- Deleting is a tombstone, not a removal. The row stays, flagged, and the
   -- app, the backup and the importer all skip it -- so an old albums.csv that
   -- still carries the album cannot bring it back, and Restore is one update.

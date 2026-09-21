@@ -15,6 +15,7 @@ import { createRequire } from "node:module";
 import { loadAlbums, findDuplicates } from "./find-duplicates.mjs";
 
 const Genres = createRequire(import.meta.url)("../app/genres.js");
+const Listen = createRequire(import.meta.url)("../app/listen.js");
 const DATA = new URL("../data/", import.meta.url);
 const OUT = new URL("../app/health.json", import.meta.url);
 const CAP = 250;                 // never ship an unbounded list to the browser
@@ -45,6 +46,8 @@ const albums = rows.filter((r) => r[col.artist]).map((r) => ({
   cover_url: r[col.cover_url] || null,
   cover_locked: r[col.cover_locked] === "true",
   genres: (r[col.genres] || "").split(";").map((g) => g.trim()).filter(Boolean),
+  apple_music_url: r[col.apple_music_url] || null,
+  apple_music_locked: r[col.apple_music_locked] === "true",
 }));
 
 const enrich = existsSync(new URL("enrichment.json", DATA))
@@ -162,6 +165,49 @@ add("rename-review", "Name corrections held back",
     apply: "Rename",
   })), "rename");
 
+// ── Apple Music links ──────────────────────────────────────────────────────
+// Three checks, one for each way a link can be missing or wrong. Each lists
+// only albums apple-music-links.mjs has actually reached, never the ones it
+// has not got to yet -- during the backfill that would be most of the shelf,
+// and a row that only means "not looked at" is not something you can act on.
+// Every row here has an action: link it, remove it, or paste one yourself.
+const unlinked = (a) => !a.apple_music_url && !a.apple_music_locked;
+
+add("apple-review", "Apple Music matches held back",
+  "Probably the right record, not certainly. Open it to check, then link it or reject it.",
+  albums.filter((a) => unlinked(a) && rec(a).apple_status === "review" && rec(a).apple_url).map((a) => ({
+    ...ref(a),
+    note: rec(a).apple_title
+      ? `Apple Music has "${rec(a).apple_title}" — ${rec(a).apple_why}`
+      : rec(a).apple_why,
+    // The link itself, so the row can offer to open it before you decide.
+    preview: rec(a).apple_url,
+    // Linking locks it: you said it is the right record, so nothing replaces it.
+    suggest: { apple_music_url: rec(a).apple_url, apple_music_locked: true },
+    was: { apple_music_url: null, apple_music_locked: false },
+    apply: "Link it",
+    dismiss: "Reject",
+  })), "link");
+
+add("apple-bad", "Apple Music link looks wrong",
+  "Not a link to an album — a song, an artist, or another site. Removing it lets the nightly run look for the right one.",
+  albums.filter((a) => a.apple_music_url && !Listen.isAppleAlbumUrl(a.apple_music_url)).map((a) => ({
+    ...ref(a),
+    note: a.apple_music_url,
+    preview: a.apple_music_url,
+    suggest: { apple_music_url: null, apple_music_locked: false },
+    was: { apple_music_url: a.apple_music_url, apple_music_locked: a.apple_music_locked },
+    apply: "Remove link",
+  })), "link");
+
+add("apple-none", "No Apple Music link",
+  "Apple Music has nothing under this name. Paste the link on the album's page if it is there, or say it is not.",
+  albums.filter((a) => unlinked(a) && rec(a).apple_status === "nomatch").map((a) => ({
+    ...ref(a),
+    note: `looked for on ${rec(a).apple_checked}`,
+    dismiss: "Not there",
+  })), "link");
+
 // ── genre shape ────────────────────────────────────────────────────────────
 const split = (a) => Genres.splitGenres(a.genres, index);
 add("no-root", "Tagged, but under no genre",
@@ -202,6 +248,7 @@ function updateReadme() {
     `| Covers | ${n(albums.filter((a) => a.cover_url).length)} — ${n(albums.filter((a) => /\/storage\/v1\/object\/public\//.test(a.cover_url || "")).length)} of them cached and CDN-served |`,
     `| Genres | ${n(albums.filter((a) => a.genres.length).length)} tagged, ${genreCount} of them browsable |`,
     `| Matched to MusicBrainz | ${n(albums.filter((a) => rec(a).mbid).length)} |`,
+    `| Apple Music | ${n(albums.filter((a) => Listen.isAppleAlbumUrl(a.apple_music_url)).length)} open straight to the album |`,
     "| Cost to run | nothing — every service is on a free tier |",
   ].join("\n");
 
@@ -223,6 +270,7 @@ const out = {
     withCover: albums.filter((a) => a.cover_url).length,
     withGenres: albums.filter((a) => a.genres.length).length,
     matched: albums.filter((a) => rec(a).mbid).length,
+    apple: albums.filter((a) => Listen.isAppleAlbumUrl(a.apple_music_url)).length,
   },
   sections,
 };

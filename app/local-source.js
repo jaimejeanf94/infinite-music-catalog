@@ -156,6 +156,12 @@ const LocalDB = {
         album.cover_locked = "cover_locked" in edit
           ? edit.cover_locked
           : r[col.cover_locked] === "true";
+        album.apple_music_url = "apple_music_url" in edit
+          ? edit.apple_music_url
+          : (r[col.apple_music_url] || null);
+        album.apple_music_locked = "apple_music_locked" in edit
+          ? edit.apple_music_locked
+          : r[col.apple_music_locked] === "true";
         return album;
       });
     // No tombstone filter above. LAST_FULL is what deletedAlbums() reads, and

@@ -72,6 +72,12 @@ function Row({ item, live, flag, kind, onOpen, onSet, onClear, onApply }) {
       <span className="hs__acts">
         {flag && <span className="hs__state">{settled ? "settled" : "flagged"}</span>}
 
+        {/* A row whose fix is a link offers it first: whether an Apple Music
+            match is the right record is a question you answer by looking. */}
+        {!settled && item.preview && (
+          <a className="hs__act" href={item.preview} target="_blank" rel="noreferrer">Open</a>
+        )}
+
         {/* The fix outlives the flag. "Keep it in front of me" and "take away
             the button that would end it" are opposite instructions, and the
             row used to do both: flagging collapsed it to a bare Undo, so the
@@ -88,9 +94,12 @@ function Row({ item, live, flag, kind, onOpen, onSet, onClear, onApply }) {
           <button className="hs__act" onClick={stop(onClear)}>Undo</button>
         ) : (
           <>
+            {/* Settling means something different per section -- the shelf
+                year is right, the rename is wrong, the album is not on Apple
+                Music -- so a row can say which. */}
             <button className="hs__act" onClick={stop(() => onSet("dismissed"))}
-                    title="Checked — nothing wrong here">
-              {kind === "rename-review" ? "Reject" : "Fine"}
+                    title="Checked — nothing to change here">
+              {item.dismiss || (kind === "rename-review" ? "Reject" : "Fine")}
             </button>
             <button className="hs__act" onClick={stop(() => onSet("revisit"))}
                     title="Something is wrong — keep it in front of me">
@@ -304,8 +313,12 @@ function AdminView({ albums, onPatch, onGo }) {
   const undo = async (kind, row) => {
     const { item, flag } = row;
     const album = row.live || byId.get(flag?.album_id) || null;
+    // Compared as text with empty standing in for "no value" on both sides:
+    // a fix can write null -- removing a link -- and String(null) is "null",
+    // which would never equal an album field that is simply empty.
+    const same = (x, y) => String(x ?? "") === String(y ?? "");
     const holdsFix = !!(album && item.suggest && item.was) &&
-      Object.entries(item.suggest).every(([k, v]) => String(album[k] ?? "") === String(v));
+      Object.entries(item.suggest).every(([k, v]) => same(album[k], v));
     if (holdsFix && !(await onPatch(album.id, item.was))) return;
     await write(kind, row.subject, album?.id ?? null, null);
   };
@@ -340,6 +353,7 @@ function AdminView({ albums, onPatch, onGo }) {
         <div><dt>cover</dt><dd>{t.withCover.toLocaleString()}</dd></div>
         <div><dt>genres</dt><dd>{t.withGenres.toLocaleString()}</dd></div>
         <div><dt>matched</dt><dd>{t.matched.toLocaleString()}</dd></div>
+        {t.apple != null && <div><dt>apple music</dt><dd>{t.apple.toLocaleString()}</dd></div>}
       </dl>
 
       {sections.map(({ section, rows }) => (

@@ -36,6 +36,9 @@ on:
       batch:
         description: "How many albums to enrich this run (~25 min per 300)"
         default: "300"
+      apple:
+        description: "How many albums to find Apple Music links for (~15 min per 150)"
+        default: "150"
 
 permissions:
   contents: write
@@ -101,6 +104,17 @@ jobs:
       # been fixed in the app.
       - name: Retry the gaps
         run: node scripts/enrich.mjs --retry --limit=150
+
+      # Each album's own page on Apple Music, so the listen button opens the
+      # record rather than a search -- on a phone, an album link opens the app
+      # where a search lands in the web player. By MusicBrainz identity first,
+      # search second, and every link confirmed against Apple's store here.
+      # Confident links are pushed by the import below; uncertain ones and
+      # albums with none wait on the Fix screen. Apple asks for about twenty
+      # calls a minute, so this works through a batch a night; "Run workflow"
+      # takes a bigger batch to fill the shelf faster.
+      - name: Find Apple Music links
+        run: node scripts/apple-music-links.mjs --limit=${{ inputs.apple || 150 }}
 
       # Artwork found tonight points at coverartarchive.org, which is a lookup
       # that redirects twice and takes 1.2-3.1s. Copy anything new into

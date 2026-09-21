@@ -18,7 +18,11 @@ requireEnv();
 // the cover is but not that it was chosen by hand, so a database rebuilt
 // from this file would have every manual cover unlocked -- and the next
 // enrichment run would replace them.
-const COLUMNS = ["artist", "title", "year", "score", "genres", "mbid", "cover_url", "cover_locked", "notes", "source"];
+//
+// The Apple Music pair is last so a CSV written before it existed still lines
+// up column for column with everything that reads this file by position.
+const COLUMNS = ["artist", "title", "year", "score", "genres", "mbid", "cover_url", "cover_locked",
+                 "notes", "source", "apple_music_url", "apple_music_locked"];
 
 const cell = (v) => {
   if (v == null) return "";
