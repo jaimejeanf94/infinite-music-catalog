@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-20T21:15:53.877Z",
+ "generated": "2026-09-21T01:11:08.021Z",
  "totals": {
   "albums": 4414,
   "rated": 396,
@@ -25,602 +25,9 @@
    "items": []
   },
   {
-   "id": "no-match",
-   "title": "Not in MusicBrainz",
-   "why": "No release-group matched, so nothing refreshes them. Usually a misspelt name rather than an obscure record.",
-   "action": "rename",
-   "count": 146,
-   "items": [
-    {
-     "artist": "2 Many DJ's",
-     "title": "2ManyDJs Live at Kompass"
-    },
-    {
-     "artist": "2 Many DJ's",
-     "title": "BENELUX"
-    },
-    {
-     "artist": "2 Many DJ's",
-     "title": "Blue"
-    },
-    {
-     "artist": "2 Many DJ's",
-     "title": "Dave"
-    },
-    {
-     "artist": "2 Many DJ's",
-     "title": "Despacio"
-    },
-    {
-     "artist": "2 Many DJ's",
-     "title": "Hardcore Or Die"
-    },
-    {
-     "artist": "2 Many DJ's",
-     "title": "Into The Vortex"
-    },
-    {
-     "artist": "2 Many DJ's",
-     "title": "Jack In the Box"
-    },
-    {
-     "artist": "2 Many DJ's",
-     "title": "Under The Covers 3"
-    },
-    {
-     "artist": "3776",
-     "title": "歳時記 (Saijiki)"
-    },
-    {
-     "artist": "AM",
-     "title": "Flowervillain II"
-    },
-    {
-     "artist": "AmyReal & Clumsy Duckling",
-     "title": "The Adventures of Pad Chennington and the Androgynous Swagchild"
-    },
-    {
-     "artist": "Anri",
-     "title": "Timely!!"
-    },
-    {
-     "artist": "Arcade Fire and Owen Pallett",
-     "title": "Her Original Motion Picture Score"
-    },
-    {
-     "artist": "Beastie Boys",
-     "title": "Anthology: The Sounds of Science"
-    },
-    {
-     "artist": "Belle & Sebastian",
-     "title": "3.. 6.. 9 Seconds of Light"
-    },
-    {
-     "artist": "Betcover!!",
-     "title": "Yuki"
-    },
-    {
-     "artist": "Big Brother and The Holding Company",
-     "title": "Cheap Thrills"
-    },
-    {
-     "artist": "Big Star",
-     "title": "Third/Sister Lovers"
-    },
-    {
-     "artist": "Blood Incantation",
-     "title": "Absolute Elsewhere"
-    },
-    {
-     "artist": "Blur",
-     "title": "The Best of Blur"
-    },
-    {
-     "artist": "Boris",
-     "title": "あくまのうた (Akuma no uta)"
-    },
-    {
-     "artist": "Captain Beefheart and His Magic Band",
-     "title": "Safe as Milk"
-    },
-    {
-     "artist": "Captain Beefheart and His Magic Band",
-     "title": "Trout Mask Replica"
-    },
-    {
-     "artist": "Chelsea Wolfe",
-     "title": "Ἀποκάλυψις [Apokalypsis]"
-    },
-    {
-     "artist": "Corea",
-     "title": "Los peores 7 km de mi vida"
-    },
-    {
-     "artist": "Death Grips",
-     "title": "Jenny Death"
-    },
-    {
-     "artist": "Delaeny & Bonney",
-     "title": "The Originial Delaney & Bonnie"
-    },
-    {
-     "artist": "DJ E",
-     "title": "Chuquimamani-Condori"
-    },
-    {
-     "artist": "DJ Premier Worldwide Mix by soulchasers on #SoundCloud",
-     "title": "DJ Premier Worldwide Mix by soulchasers on #SoundCloud"
-    },
-    {
-     "artist": "DJ Screw",
-     "title": "DJ Screw — 3 ’n the Mornin’, Part One"
-    },
-    {
-     "artist": "Djeli Moussa Diawara",
-     "title": "Djeli Moussa Diawara"
-    },
-    {
-     "artist": "dltzk",
-     "title": "Frailty"
-    },
-    {
-     "artist": "Dropkick Murphys",
-     "title": "Greatest Hits"
-    },
-    {
-     "artist": "Drudkh",
-     "title": "Кров у наших криницях (Blood in Our Wells)"
-    },
-    {
-     "artist": "El Shirota",
-     "title": "ESH002"
-    },
-    {
-     "artist": "Enola Gay",
-     "title": "Asia Menor"
-    },
-    {
-     "artist": "Faye Wong",
-     "title": "浮躁 (Fúzào)"
-    },
-    {
-     "artist": "Fishmans",
-     "title": "98.12.28 Otokotachi no Wakare"
-    },
-    {
-     "artist": "Fishmans",
-     "title": "空中キャンプ (Kūchū Camp)"
-    },
-    {
-     "artist": "Flipper",
-     "title": "Generic Album - Flipper"
-    },
-    {
-     "artist": "Floating Points",
-     "title": "Dialogue Between Dreamers Pt. One"
-    },
-    {
-     "artist": "Frankie Knuckles",
-     "title": "Boiler Room London DJ Set"
-    },
-    {
-     "artist": "Gorillaz",
-     "title": "Song Machine, Season 1"
-    },
-    {
-     "artist": "Haru Nemuri",
-     "title": "Harutosyura"
-    },
-    {
-     "artist": "Haru Nemuri",
-     "title": "Lovetheism"
-    },
-    {
-     "artist": "Himiko Kikuchi",
-     "title": "Flying Beagle"
-    },
-    {
-     "artist": "Hirokazu Tanaka & Keiichi Suzuki",
-     "title": "Mother 2: ギーグの逆襲"
-    },
-    {
-     "artist": "Hiroshi Yoshimura",
-     "title": "Green"
-    },
-    {
-     "artist": "Hiroshi Yoshimura",
-     "title": "Music For Nine Post Cards"
-    },
-    {
-     "artist": "Hollow Comet",
-     "title": "Hollow Comet"
-    },
-    {
-     "artist": "Ichiko Aoba",
-     "title": "Luminiscent Creatures"
-    },
-    {
-     "artist": "IDK",
-     "title": "e.t.d.s"
-    },
-    {
-     "artist": "Jai Paul",
-     "title": "Leak 04-13 (Bait Ones)"
-    },
-    {
-     "artist": "James Brown",
-     "title": "20-all Times Greats!"
-    },
-    {
-     "artist": "Joe Satriani",
-     "title": "Essential Joe Satrini 1"
-    },
-    {
-     "artist": "John Tabalot",
-     "title": "Fin"
-    },
-    {
-     "artist": "Kinoko Teikoku",
-     "title": "eureka"
-    },
-    {
-     "artist": "Kyle Dixon & Michael Stein",
-     "title": "Stranger Things, Vol 1"
-    },
-    {
-     "artist": "Lamp",
-     "title": "Lamp Genso"
-    },
-    {
-     "artist": "Lamp",
-     "title": "恋人へ [For Lovers]"
-    },
-    {
-     "artist": "Leo Kottke",
-     "title": "6 & 12 Strings"
-    },
-    {
-     "artist": "Les Rallizes Dénudés",
-     "title": "'77 Live"
-    },
-    {
-     "artist": "Lily Chou-Chou",
-     "title": "呼吸 (Kokyuu)"
-    },
-    {
-     "artist": "Litourgiya",
-     "title": "Batushka"
-    },
-    {
-     "artist": "Los Mundos",
-     "title": "Las Montañas"
-    },
-    {
-     "artist": "Masayoshi Takanaka",
-     "title": "AN INSATIABLE HIGH"
-    },
-    {
-     "artist": "Masayoshi Takanaka",
-     "title": "Brasilian Skies"
-    },
-    {
-     "artist": "Masayoshi Takanaka",
-     "title": "Seychelles"
-    },
-    {
-     "artist": "Masayoshi Takanaka",
-     "title": "The Rainbow Goblins"
-    },
-    {
-     "artist": "MASS OF THE FERMENTING DREGS",
-     "title": "World is yours"
-    },
-    {
-     "artist": "Ministry",
-     "title": "Psalm 69: The Way To Succeed and The Way To Suck Eggs"
-    },
-    {
-     "artist": "Momoko Kikuchi",
-     "title": "Adventure"
-    },
-    {
-     "artist": "Mulatu Astatke",
-     "title": "Éthiopiques 4: Ethio Jazz & Musique Instrumentale 1969-1974"
-    },
-    {
-     "artist": "Natalia Lafourcade",
-     "title": "Musas, Vol. 2"
-    },
-    {
-     "artist": "Nelson y Los Filisteos",
-     "title": "Nunca Antes, Nunca Otra Vez"
-    },
-    {
-     "artist": "Nicolas Jaar",
-     "title": "Essential BBC Mix (Nicolas Jaar)"
-    },
-    {
-     "artist": "Omocat",
-     "title": "OMORI [Original Soundtrack]"
-    },
-    {
-     "artist": "Pink Floyd",
-     "title": "The Piper Gates of Dawn"
-    },
-    {
-     "artist": "Policias y Ladrones",
-     "title": "Flores"
-    },
-    {
-     "artist": "Psychedelic Porn Crumpets",
-     "title": "High Visceral pt. 1"
-    },
-    {
-     "artist": "Psychedelic Porn Crumpets",
-     "title": "High Visceral pt. 2"
-    },
-    {
-     "artist": "Pulcinella & La Perla",
-     "title": "Tatekieto"
-    },
-    {
-     "artist": "Ryo Fukui",
-     "title": "Scenery"
-    },
-    {
-     "artist": "Ryuichi Sakamoto",
-     "title": "Thousand Knives Of"
-    },
-    {
-     "artist": "schnozz",
-     "title": "berdleycore Chapter Zero"
-    },
-    {
-     "artist": "schnozz",
-     "title": "berdlycore chapter 1"
-    },
-    {
-     "artist": "schnozz",
-     "title": "berdlycore chapter 2"
-    },
-    {
-     "artist": "Seatbelts",
-     "title": "Cowboy Bebop Blue"
-    },
-    {
-     "artist": "Secret Guest",
-     "title": "Traumprinz B2B DJ Metatron Live at Planet Uterus"
-    },
-    {
-     "artist": "Sheer Mag",
-     "title": "Compilation"
-    },
-    {
-     "artist": "Shibusashirazu Orchestra",
-     "title": "Shibuboshi (渋星)"
-    },
-    {
-     "artist": "Shinsei Kamattechan",
-     "title": "つまんね [Tsumanne]"
-    },
-    {
-     "artist": "Shiro Sagisu",
-     "title": "Neon Genesis Evangelion (Original Series Soundtrack)"
-    },
-    {
-     "artist": "Shiro Sagisu",
-     "title": "The End of Evangelion"
-    },
-    {
-     "artist": "Sluason Malone",
-     "title": "A Quiet Farewell, Twenty Sixteen to Twent Eighteen"
-    },
-    {
-     "artist": "SLUG BAIT",
-     "title": "HALLUCINEAGENEOLOGY"
-    },
-    {
-     "artist": "Sochi",
-     "title": "Sochimix"
-    },
-    {
-     "artist": "Squid",
-     "title": "|"
-    },
-    {
-     "artist": "Susumu Hirasawa 平沢進",
-     "title": "剣風伝奇ベルセルク (Berserk)"
-    },
-    {
-     "artist": "Takagi Masakatsu",
-     "title": "かがやき (Kagayaki)"
-    },
-    {
-     "artist": "Tatsuro Yamashita 山下達郎",
-     "title": "Big Wave"
-    },
-    {
-     "artist": "Tatsuro Yamashita 山下達郎",
-     "title": "For You"
-    },
-    {
-     "artist": "The Beach Boys",
-     "title": "Sounds of Sumer"
-    },
-    {
-     "artist": "the pillows",
-     "title": "FLCL Original Sound Track No. 3"
-    },
-    {
-     "artist": "The Smashing Pumpkins",
-     "title": "Rotten Apples: The Smashing Pumpkins Greatest Hits"
-    },
-    {
-     "artist": "The World Is a Beautiful Place and I Am No Longer Afraid to Die",
-     "title": "Harmlessness"
-    },
-    {
-     "artist": "The World Is a Beautiful Place and I Am No Longer Afraid to Die",
-     "title": "Whenever, If Ever"
-    },
-    {
-     "artist": "The Yardbirds",
-     "title": "Roger the Engineer"
-    },
-    {
-     "artist": "Three Six Mafia",
-     "title": "Underground Vol. 1: 1991-1994"
-    },
-    {
-     "artist": "Tom Zé, Os Mutantes, Nara Leão, Caetano Veloso, Gilberto Gil & Gal Costa",
-     "title": "Tropicália ou Panis et Circencis"
-    },
-    {
-     "artist": "Tomoko Aran",
-     "title": "Fuyuu Kuukan"
-    },
-    {
-     "artist": "Tricot",
-     "title": "リピート (repeat)"
-    },
-    {
-     "artist": "Universe Nekoko",
-     "title": "Kimi No Youni Ikiretara"
-    },
-    {
-     "artist": "Utada Hikaru",
-     "title": "Deep River"
-    },
-    {
-     "artist": "Utada Hikaru",
-     "title": "Fantôme"
-    },
-    {
-     "artist": "Various Artists",
-     "title": "The Music on My Head (African CD)"
-    },
-    {
-     "artist": "Viagra Boys",
-     "title": "Jazz Welfare"
-    },
-    {
-     "artist": "Weezer",
-     "title": "The White Album (Weezer)"
-    },
-    {
-     "artist": "Yo Maté a Tu Perro",
-     "title": "El Último Disco de Yo Maté a Tu Perro"
-    },
-    {
-     "artist": "YURAGI",
-     "title": "Nightlife"
-    },
-    {
-     "artist": "Yuu Miyake 三宅優",
-     "title": "塊魂サウンドトラック「塊フォルテッシモ魂」 (Katamari Damacy Soundtrack: Katamari Fortissimo Damacy)"
-    },
-    {
-     "artist": "가장 보통의 존재",
-     "title": "Sister's Barbershop 언니네이발관"
-    },
-    {
-     "artist": "공중도둑 (Mid-Air Thief)",
-     "title": "공중도덕 (Gongjoong Doduk)"
-    },
-    {
-     "artist": "김뜻돌 [Meaningful Stone]",
-     "title": "꿈에서 걸려온 전화 (A Call from My Dream)"
-    },
-    {
-     "artist": "김뜻돌 [Meaningful Stone]",
-     "title": "천사 인터뷰 (Angel interview)"
-    },
-    {
-     "artist": "파란노을 [Parannoul]",
-     "title": "After The Magic"
-    },
-    {
-     "artist": "파란노을 [Parannoul]",
-     "title": "After The Night"
-    },
-    {
-     "artist": "파란노을 [Parannoul]",
-     "title": "To See the Next Part of the Dream"
-    },
-    {
-     "artist": "파란노을 [Parannoul]",
-     "title": "White Ceiling / Black Dots Wandering Around"
-    },
-    {
-     "artist": "ミドリ [Midori]",
-     "title": "Hello Everyone. Nice to Meet you. We are Midori"
-    },
-    {
-     "artist": "万能青年旅店 (Omnipotent Youth Society)",
-     "title": "万能青年旅店 (Omnipotent Youth Society)"
-    },
-    {
-     "artist": "平沢進 [Susumu Hirasawa]",
-     "title": "救済の技法 [Technique Of Relief]"
-    },
-    {
-     "artist": "惘闻 [Wang Wen]",
-     "title": "冀西南林路行 (Inside The Cable Temple)"
-    },
-    {
-     "artist": "椎名林檎 [Sheena Ringo]",
-     "title": "Muzai Moratorium"
-    },
-    {
-     "artist": "椎名林檎 [Sheena Ringo]",
-     "title": "Shoso Strip"
-    },
-    {
-     "artist": "王若琳 [Joanna Wang]",
-     "title": "破爛酒店 [Hotel La Rut]"
-    },
-    {
-     "artist": "矢野顕子 [Akiko Yano]",
-     "title": "Tadaima"
-    },
-    {
-     "artist": "芸能山城組 [Geinoh Yamashirogumi]",
-     "title": "Symphonic Suite AKIRA"
-    },
-    {
-     "artist": "青葉市子 [Ichiko Aoba]",
-     "title": "0"
-    },
-    {
-     "artist": "青葉市子 [Ichiko Aoba]",
-     "title": "qp"
-    },
-    {
-     "artist": "青葉市子 [Ichiko Aoba]",
-     "title": "Windswept Adan"
-    },
-    {
-     "artist": "青葉市子 [Ichiko Aoba]",
-     "title": "うたびこ (Utabiko)"
-    },
-    {
-     "artist": "青葉市子 [Ichiko Aoba]",
-     "title": "マホロボシヤ (Mahoroboshiya)"
-    },
-    {
-     "artist": "青葉市子 [Ichiko Aoba]",
-     "title": "剃刀乙女 (Kamisori Otome)"
-    },
-    {
-     "artist": "青葉市子 [Ichiko Aoba]",
-     "title": "檻髪 (Origami)"
-    }
-   ]
-  },
-  {
    "id": "year-gap",
    "title": "Year is far off MusicBrainz",
-   "why": "15 years or more apart. That is usually the wrong release-group matched, which means the cover and genres came from the wrong record too.",
+   "why": "15 years or more apart. Could be your year, could be MusicBrainz matching a reissue. Check the two and dismiss it if the shelf is right.",
    "action": "recheck",
    "count": 51,
    "items": [
@@ -891,157 +298,188 @@
     {
      "artist": "2 Many DJ's",
      "title": "2X2 (1)",
-     "note": "2X2 (1)  /  2X2 (2)  /  2X2 (3)"
+     "note": "2X2 (1)  /  2X2 (2)  /  2X2 (3)",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6bbf1523-b4ba-4ec2-bfd7-4ad100d68c3a.jpg"
     },
     {
      "artist": "Axel Boman",
      "title": "Luz",
-     "note": "Luz  /  Quest for Fire"
+     "note": "Luz  /  Quest for Fire",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1da7b49d-ebcb-4b76-9bea-2c6d55f21318.jpg"
     },
     {
      "artist": "Azealia Banks",
      "title": "1991",
-     "note": "1991  /  1992"
+     "note": "1991  /  1992",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b296b523-bd66-480f-8a8f-c6d09a09846b.jpg"
     },
     {
      "artist": "Black Sabbath",
      "title": "Black Sabbath",
-     "note": "Black Sabbath  /  Black Sabbath Vol. 4"
+     "note": "Black Sabbath  /  Black Sabbath Vol. 4",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/826c9743-a3f0-3479-bf06-8df2e140ef1d.jpg"
     },
     {
      "artist": "Café Tacvba",
      "title": "Revés",
-     "note": "Revés  /  Yo Soy"
+     "note": "Revés  /  Yo Soy",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f6d307da-707f-4cff-ae2d-cbfafd9fed2c.jpg"
     },
     {
      "artist": "Carly Rae Jepsen",
      "title": "EMOTION",
-     "note": "EMOTION  /  EMOTION: Side B"
+     "note": "EMOTION  /  EMOTION: Side B",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9ff8a8fe-6aa7-473a-ae93-8488051e3f2d.jpg"
     },
     {
      "artist": "Chuck Berry",
      "title": "The Great Twenty-Eight (1-14)",
-     "note": "The Great Twenty-Eight (1-14)  /  The Great Twenty-Eight (14-28)"
+     "note": "The Great Twenty-Eight (1-14)  /  The Great Twenty-Eight (14-28)",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d7da8113-a582-3656-9412-74e17a9a447e.jpg"
     },
     {
      "artist": "Colin Stetson",
      "title": "New History Warfare Vol. 2",
-     "note": "New History Warfare Vol. 2  /  New History Warfare Vol. 2: Judges  /  New History Warfare Vol. 3: To See More Light"
+     "note": "New History Warfare Vol. 2  /  New History Warfare Vol. 2: Judges  /  New History Warfare Vol. 3: To See More Light",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/91074cab-f491-4aa0-9124-165fc2dc1b5e.jpg"
     },
     {
      "artist": "Crystal Castles",
      "title": "Crystal Castles",
-     "note": "Crystal Castles  /  Crystal Castles (Second One)"
+     "note": "Crystal Castles  /  Crystal Castles (Second One)",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9477d99c-1df7-4ae7-b08d-a2484c8e80f4.jpg"
     },
     {
      "artist": "Deerhunter",
      "title": "Microcastle",
-     "note": "Microcastle  /  Weird Era Cont."
+     "note": "Microcastle  /  Weird Era Cont.",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9437340a-d0a1-37a1-a7d9-6c308d3db215.jpg"
     },
     {
      "artist": "Elliot Smith",
      "title": "From a Basement on a Hill",
-     "note": "From a Basement on a Hill  /  From a Basement on the Hill"
+     "note": "From a Basement on a Hill  /  From a Basement on the Hill",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/73c74665-e920-3bf1-bfcf-27d2fd7b9c09.jpg"
     },
     {
      "artist": "Kenny Beats",
      "title": "LOUIE",
-     "note": "LOUIE  /  Louise"
+     "note": "LOUIE  /  Louise",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d00b8ff3-b524-4539-a314-05dc51855502.jpg"
     },
     {
      "artist": "Madvillain",
      "title": "Madvillainy",
-     "note": "Madvillainy  /  Madvillainy Instrumentals"
+     "note": "Madvillainy  /  Madvillainy Instrumentals",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ab570ccb-b06b-3746-8147-4903163ba895.jpg"
     },
     {
      "artist": "Mid-Air Thief",
      "title": "Crumbling",
-     "note": "Crumbling  /  Crumbling"
+     "note": "Crumbling  /  Crumbling",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6365c820-46ec-41ba-9421-3a200116ed5b.jpg"
     },
     {
      "artist": "Nick Cave & The Bad Seeds",
      "title": "Abattoir Blues",
-     "note": "Abattoir Blues  /  The Lyre Of Orpheus"
+     "note": "Abattoir Blues  /  The Lyre Of Orpheus",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f0ffb9ec-fcb5-3e03-9a1b-3f018472d831.jpg"
     },
     {
      "artist": "Os Mutantes",
      "title": "Mutantes",
-     "note": "Mutantes  /  Os Mutantes"
+     "note": "Mutantes  /  Os Mutantes",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f3578417-4c90-3891-a2cf-d1eab06cc084.jpg"
     },
     {
      "artist": "Pet Shop Boys",
      "title": "PopArt: The Hits (Art)",
-     "note": "PopArt: The Hits (Art)  /  PopArt: The Hits (Pop)"
+     "note": "PopArt: The Hits (Art)  /  PopArt: The Hits (Pop)",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c08663d5-e591-32d6-8c1e-24174c14dafc.jpg"
     },
     {
      "artist": "Run the Jewels",
      "title": "Run the Jewels",
-     "note": "Run the Jewels  /  Run the Jewels 4"
+     "note": "Run the Jewels  /  Run the Jewels 4",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/cd690264-6a08-4af7-8a9c-6aef60962d5b.jpg"
     },
     {
      "artist": "Soda Stereo",
      "title": "Sueño estéreo",
-     "note": "Sueño estéreo  /  Sueño Stereo"
+     "note": "Sueño estéreo  /  Sueño Stereo",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/65b80d3a-f8a4-392f-b7ba-41864534247c.jpg"
     },
     {
      "artist": "Soft Machine",
      "title": "Third",
-     "note": "Third  /  Third"
+     "note": "Third  /  Third",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9fabbd9f-c6a2-3773-91ce-6ef937d47daa.jpg"
     },
     {
      "artist": "Steve Wilson",
      "title": "Insurgentes",
-     "note": "Insurgentes  /  Insurgentes"
+     "note": "Insurgentes  /  Insurgentes",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b1c5ea39-8f96-355b-bfe4-84a7805db75f.jpg"
     },
     {
      "artist": "Tatsuro Yamashita 山下達郎",
      "title": "Big Wave",
-     "note": "Big Wave  /  For You"
+     "note": "Big Wave  /  For You",
+     "subject": "cover:https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/71/26/d8/7126d88b-7cf5-5ba5-7043-f1d26a8dd87f/jacket_MHXX00766B00Z_550.jpg/600x600bb.jpg"
     },
     {
      "artist": "The Caretaker",
      "title": "Everywhere at The End of Time",
-     "note": "Everywhere at The End of Time  /  Everywhere at The End of Time - Stage 6"
+     "note": "Everywhere at The End of Time  /  Everywhere at The End of Time - Stage 6",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/02c208b5-985e-4c27-912e-d22d897faf64.jpg"
     },
     {
      "artist": "The Cure",
      "title": "Greatest Hits (1st Half)",
-     "note": "Greatest Hits (1st Half)  /  Greatest Hits (2nd Half)"
+     "note": "Greatest Hits (1st Half)  /  Greatest Hits (2nd Half)",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c2ae4c61-7620-43ce-b37f-9ff8f39cb9df.jpg"
     },
     {
      "artist": "The Magnetic Fields",
      "title": "50 Song Memoir 1",
-     "note": "50 Song Memoir 1  /  50 Song Memoir 2  /  50 Song Memoir 3  /  50 Song Memoir 4  /  50 Song Memoir 5"
+     "note": "50 Song Memoir 1  /  50 Song Memoir 2  /  50 Song Memoir 3  /  50 Song Memoir 4  /  50 Song Memoir 5",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/340817fa-49d5-4afb-b947-db4a9e7c9703.jpg"
     },
     {
      "artist": "The Magnetic Fields",
      "title": "69 Love Songs Vol. 1",
-     "note": "69 Love Songs Vol. 1  /  69 Love Songs Vol. 2  /  69 Love Songs Vol. 3"
+     "note": "69 Love Songs Vol. 1  /  69 Love Songs Vol. 2  /  69 Love Songs Vol. 3",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5dfac852-1aed-35b2-93b6-e8f9c93fe521.jpg"
     },
     {
      "artist": "The Rolling Stones",
      "title": "Singles Collection: The London Years 1",
-     "note": "Singles Collection: The London Years 1  /  Singles Collection: The London Years 2  /  Singles Collection: The London Years 3"
+     "note": "Singles Collection: The London Years 1  /  Singles Collection: The London Years 2  /  Singles Collection: The London Years 3",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e1306e14-ed09-48f1-88b7-90bf7c3c4f3f.jpg"
     },
     {
      "artist": "Tindersticks",
      "title": "Tindersticks",
-     "note": "Tindersticks  /  Tindersticks II"
+     "note": "Tindersticks  /  Tindersticks II",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ab3f9436-2168-3991-b179-97c851e97bb6.jpg"
     },
     {
      "artist": "Tyler, The Creator",
      "title": "CALL ME IF YOU GET LOST",
-     "note": "CALL ME IF YOU GET LOST  /  CALL ME IF YOU GET LOST: The Estate Cell"
+     "note": "CALL ME IF YOU GET LOST  /  CALL ME IF YOU GET LOST: The Estate Cell",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c65de046-7a48-4269-b4e5-4db0ed328f47.jpg"
     },
     {
      "artist": "Various Artists",
      "title": "Dark Was The Night: That Disc",
-     "note": "Dark Was The Night: That Disc  /  Dark Was The Night: This Disc"
+     "note": "Dark Was The Night: That Disc  /  Dark Was The Night: This Disc",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/75e19850-4cbd-3520-b6e8-4a5b0c3eaab8.jpg"
     },
     {
      "artist": "Various Artists",
      "title": "Starmix vol.1",
-     "note": "Starmix vol.1  /  Starmix vol.2"
+     "note": "Starmix vol.1  /  Starmix vol.2",
+     "subject": "cover:https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/86c7acbf-905a-4c00-93cb-5186e11347ea.jpg"
     }
    ]
   },
@@ -1094,37 +532,27 @@
    "title": "Name corrections held back",
    "why": "The nightly scan found these but would not apply them: a changed sequence number, a gained or lost word, or a dropped collaborator.",
    "action": "rename",
-   "count": 6,
+   "count": 2,
    "items": [
-    {
-     "artist": "Angelo Badalamenti & David Lynch",
-     "title": "Mulholland Dr.",
-     "note": "Angelo Badalamenti — Mulholland Drive   (the title gains \"drive\" — likely a different release; drops a credited artist (2 names -> 1))"
-    },
-    {
-     "artist": "Beastie Boys",
-     "title": "Beastie Boys Anthology: The Sounds of Science",
-     "note": "Beastie Boys — Anthology: The Sounds of Science   (the title loses \"beastie boys\" — likely a different release)"
-    },
-    {
-     "artist": "Blood Incantation",
-     "title": "Absolute Everywhere",
-     "note": "Blood Incantation — Absolute Elsewhere   (the title gains \"elsewhere\" and loses \"everywhere\" — likely a different release; looser than the confident band)"
-    },
     {
      "artist": "Corea",
      "title": "Los peores 7 km de mi vida",
-     "note": "Corea — Los peores 7 peores km de mi vida   (looser than the confident band)"
-    },
-    {
-     "artist": "DJ Screw",
-     "title": "3 'n the Morning: Part II [Blue]",
-     "note": "DJ Screw — 3 ’n the Mornin’, Part One   (the title loses \"blue\" — likely a different release; sequence number changed (Pt. 2 / Vol. 3 / Part One); the distinctive words differ, only the boilerplate matches; looser than the confident band)"
+     "note": "Corea — Los peores 7 peores km de mi vida   (looser than the confident band)",
+     "suggest": {
+      "artist": "Corea",
+      "title": "Los peores 7 peores km de mi vida"
+     },
+     "subject": "rename:Corea::Los peores 7 km de mi vida"
     },
     {
      "artist": "Drudkh",
      "title": "Кров у наших криницях (Blood in Our Wells)",
-     "note": "Drudkh — Кров у наших криницях   (the title loses \"blood wells\" — likely a different release)"
+     "note": "Drudkh — Кров у наших криницях   (the title loses \"blood wells\" — likely a different release)",
+     "suggest": {
+      "artist": "Drudkh",
+      "title": "Кров у наших криницях"
+     },
+     "subject": "rename:Drudkh::Кров у наших криницях (Blood in Our Wells)"
     }
    ]
   },
@@ -1133,1386 +561,8 @@
    "title": "Tagged, but under no genre",
    "why": "Has styles but none of them point at a root, so no filter finds it.",
    "action": "research",
-   "count": 16,
-   "items": [
-    {
-     "artist": "Djeli Moussa Diawara",
-     "title": "Djeli Moussa Diawara"
-    },
-    {
-     "artist": "Franco",
-     "title": "The Very best of the Rumba Giant of Zaire"
-    },
-    {
-     "artist": "Gaby Amarantos",
-     "title": "ROCK DOIDO"
-    },
-    {
-     "artist": "Gingus",
-     "title": "giranightcore: yellow"
-    },
-    {
-     "artist": "Kink Sunny Ade",
-     "title": "The Best of The Classic Years"
-    },
-    {
-     "artist": "Nação Zumbi & Chico Science",
-     "title": "Da Lama Ao Caos"
-    },
-    {
-     "artist": "schnozz",
-     "title": "berdlycore chapter 1"
-    },
-    {
-     "artist": "schnozz",
-     "title": "berdlycore chapter 2"
-    },
-    {
-     "artist": "Tabu Ley Rochereau",
-     "title": "Tabu Ley Rochereau: The Voice of Lightness Vol 1 Album 1"
-    },
-    {
-     "artist": "Various Artists",
-     "title": "African Connection, Vol. 1: Zaire Choc!"
-    },
-    {
-     "artist": "Various Artists",
-     "title": "Girl Group Greats"
-    },
-    {
-     "artist": "Various Artists",
-     "title": "Guitar Paradise of East Africa"
-    },
-    {
-     "artist": "Various Artists",
-     "title": "Motown Classics Gold"
-    },
-    {
-     "artist": "Various Artists",
-     "title": "The Indestructible Sound of Soweto"
-    },
-    {
-     "artist": "xaev",
-     "title": "berdlycore chapter 3"
-    },
-    {
-     "artist": "Youssou N'Dour & Étoile de Dakar",
-     "title": "The Rough Guide to Youssou N'Dour & Étoile de Dakar"
-    }
-   ]
-  },
-  {
-   "id": "over-tagged",
-   "title": "Five or more genres",
-   "why": "Carrying this many roots says nothing. Usually over-tagging at the source.",
-   "action": "review",
-   "count": 283,
-   "items": [
-    {
-     "artist": "Air",
-     "title": "Late Night Tales (Air)",
-     "note": "classical, new wave, pop, electronic, rock"
-    },
-    {
-     "artist": "Angelo Badalamenti & David Lynch",
-     "title": "Mulholland Drive",
-     "note": "classical, ambient, jazz, alternative rock, electronic, rock"
-    },
-    {
-     "artist": "Badly Drawn Boy",
-     "title": "The Hour of Bewilderbeast",
-     "note": "folk rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Beastie Boys",
-     "title": "Check Your Head",
-     "note": "funk, psychedelic rock, punk, hip hop, alternative rock"
-    },
-    {
-     "artist": "Beck",
-     "title": "Guero",
-     "note": "folk rock, alternative rock, indie rock, electronic, rock"
-    },
-    {
-     "artist": "Beck",
-     "title": "Midnite Vultures",
-     "note": "disco, alternative rock, indie rock, electronic, rock"
-    },
-    {
-     "artist": "Beck",
-     "title": "Modern Guilt",
-     "note": "folk rock, alternative rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Beck",
-     "title": "Morning Phase",
-     "note": "folk, folk rock, alternative rock, indie rock, pop, rock"
-    },
-    {
-     "artist": "Beck",
-     "title": "Mutations",
-     "note": "folk rock, alternative rock, indie rock, pop, rock"
-    },
-    {
-     "artist": "Beck",
-     "title": "Sea Change",
-     "note": "folk, folk rock, alternative rock, indie rock, rock"
-    },
-    {
-     "artist": "Beirut",
-     "title": "The Rip Tide",
-     "note": "folk, folk rock, alternative rock, indie rock, rock"
-    },
-    {
-     "artist": "Blondie",
-     "title": "Eat to the Beat",
-     "note": "new wave, punk, pop, electronic, rock"
-    },
-    {
-     "artist": "Blondie",
-     "title": "Parallel Lines",
-     "note": "disco, new wave, punk, pop, electronic, rock"
-    },
-    {
-     "artist": "Blondie",
-     "title": "The Best of Blondie",
-     "note": "disco, new wave, punk, pop, electronic, rock"
-    },
-    {
-     "artist": "Blur",
-     "title": "Parklife",
-     "note": "new wave, alternative rock, indie rock, pop, rock"
-    },
-    {
-     "artist": "Blur",
-     "title": "The Great Escape",
-     "note": "new wave, alternative rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Bob Dylan",
-     "title": "The Times They Are a-Changin'",
-     "note": "blues, folk, folk rock, pop, rock"
-    },
-    {
-     "artist": "Buffy Sainte-Marie",
-     "title": "Illuminations",
-     "note": "folk, psychedelic rock, folk rock, jazz, electronic, rock"
-    },
-    {
-     "artist": "Calexico",
-     "title": "Feast of Wire",
-     "note": "post-rock, folk, folk rock, alternative rock, rock"
-    },
-    {
-     "artist": "Charlotte Gainsbourg",
-     "title": "IRM",
-     "note": "folk rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Chromatics",
-     "title": "Kill For Love",
-     "note": "new wave, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Cocteau Twins",
-     "title": "Blue Bell Knoll",
-     "note": "alternative rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Cocteau Twins",
-     "title": "Heaven or Las Vegas",
-     "note": "ambient, alternative rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Cocteau Twins",
-     "title": "Treasure",
-     "note": "blues, post-punk, pop, electronic, rock"
-    },
-    {
-     "artist": "David Bowie",
-     "title": "Let's Dance",
-     "note": "blues, new wave, pop, electronic, rock"
-    },
-    {
-     "artist": "David Bowie",
-     "title": "Lodger",
-     "note": "new wave, post-punk, pop, electronic, rock"
-    },
-    {
-     "artist": "Death from Above 1979",
-     "title": "You're A Woman, I'm A Machine",
-     "note": "punk, alternative rock, indie rock, electronic, rock"
-    },
-    {
-     "artist": "Depeche Mode",
-     "title": "Music for the Masses",
-     "note": "ambient, jazz, pop, electronic, rock"
-    },
-    {
-     "artist": "Depeche Mode",
-     "title": "The Singles 81->85",
-     "note": "new wave, ambient, alternative rock, pop, electronic"
-    },
-    {
-     "artist": "Depeche Mode",
-     "title": "The Singles 86>98",
-     "note": "new wave, post-punk, pop, electronic, rock"
-    },
-    {
-     "artist": "Depeche Mode",
-     "title": "Ultra",
-     "note": "blues, alternative rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Devo",
-     "title": "Q: Are We Not Men? A: We Are Devo!",
-     "note": "new wave, punk, post-punk, electronic, rock"
-    },
-    {
-     "artist": "Dexys Midnight Runners",
-     "title": "Too-Rye-Ay",
-     "note": "new wave, post-punk, folk rock, pop, rock"
-    },
-    {
-     "artist": "Dijon",
-     "title": "Absolutely",
-     "note": "r&b, folk rock, rock, funk, pop"
-    },
-    {
-     "artist": "Dirty Projectors",
-     "title": "Bitte Orca",
-     "note": "alternative rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Duster",
-     "title": "Contemporary Movement",
-     "note": "post-rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Earth Wind & Fire",
-     "title": "All n All",
-     "note": "disco, r&b, funk, pop, electronic, rock"
-    },
-    {
-     "artist": "Elastica",
-     "title": "Elastica",
-     "note": "new wave, punk, alternative rock, indie rock, pop, rock"
-    },
-    {
-     "artist": "Fairport Convention",
-     "title": "Liege & Lief",
-     "note": "country, folk, folk rock, pop, rock"
-    },
-    {
-     "artist": "Feist",
-     "title": "Let It Die",
-     "note": "folk, folk rock, indie rock, pop, rock"
-    },
-    {
-     "artist": "Fishmans",
-     "title": "Long Season",
-     "note": "post-rock, ambient, pop, electronic, rock"
-    },
-    {
-     "artist": "Fleet Foxes",
-     "title": "Fleet Foxes",
-     "note": "country, folk, folk rock, alternative rock, indie rock, pop, rock"
-    },
-    {
-     "artist": "Fleet Foxes",
-     "title": "Shore",
-     "note": "folk, folk rock, indie rock, pop, rock"
-    },
-    {
-     "artist": "Florence + The Machine",
-     "title": "Ceremonials",
-     "note": "alternative rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Florence + The Machine",
-     "title": "How Big How Blue How Beautiful",
-     "note": "alternative rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Florence + The Machine",
-     "title": "Lungs",
-     "note": "alternative rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Foster the People",
-     "title": "Torches",
-     "note": "alternative rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Genesis Owusu",
-     "title": "Smiling with No Teeth",
-     "note": "funk, psychedelic rock, post-punk, jazz, hip hop, pop"
-    },
-    {
-     "artist": "Gilla Band",
-     "title": "Most Normal",
-     "note": "post-punk, alternative rock, indie rock, electronic, rock"
-    },
-    {
-     "artist": "Gorillaz",
-     "title": "Gorillaz",
-     "note": "hip hop, alternative rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Gorillaz",
-     "title": "The Mountain",
-     "note": "new wave, folk, hip hop, pop, electronic, rock"
-    },
-    {
-     "artist": "Grateful Dead",
-     "title": "Workingman's Dead",
-     "note": "folk, psychedelic rock, folk rock, alternative rock, rock"
-    },
-    {
-     "artist": "Green Day",
-     "title": "Warning",
-     "note": "punk, folk rock, alternative rock, pop, rock"
-    },
-    {
-     "artist": "Grizzly Bear",
-     "title": "Veckatimest",
-     "note": "post-rock, folk rock, indie rock, pop, rock"
-    },
-    {
-     "artist": "Grizzly Bear",
-     "title": "Yellow House",
-     "note": "progressive rock, folk rock, indie rock, electronic, rock"
-    },
-    {
-     "artist": "Grouper",
-     "title": "Dragging a Dead Deer up a Hill",
-     "note": "post-rock, ambient, folk rock, electronic, rock"
-    },
-    {
-     "artist": "Hanz Zimmer",
-     "title": "Interstellar: Original Motion Picture Soundtrack",
-     "note": "classical, blues, ambient, jazz, electronic, rock"
-    },
-    {
-     "artist": "Happy Mondays",
-     "title": "Pills n' Thrills and Bellyaches",
-     "note": "alternative rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Hideki Naganuma 長沼英樹",
-     "title": "Jet Set Radio Future (ジェットセットラジオフューチャー)",
-     "note": "funk, hip hop, alternative rock, pop, electronic, rock"
-    },
-    {
-     "artist": "IDLES",
-     "title": "Ultra Mono",
-     "note": "punk, post-punk, alternative rock, indie rock, rock"
-    },
-    {
-     "artist": "Iggy Pop",
-     "title": "The Idiot",
-     "note": "new wave, punk, post-punk, alternative rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Interpol",
-     "title": "Turn On The Bright Lights",
-     "note": "post-punk, alternative rock, indie rock, pop, rock"
-    },
-    {
-     "artist": "INXS",
-     "title": "Kick",
-     "note": "new wave, alternative rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Iron & Wine",
-     "title": "The Shepherd's Dog",
-     "note": "country, folk, folk rock, alternative rock, indie rock, rock"
-    },
-    {
-     "artist": "Isaac Hayes",
-     "title": "Hot Buttered Soul",
-     "note": "disco, r&b, funk, jazz, electronic"
-    },
-    {
-     "artist": "Janelle Monáe",
-     "title": "The ArchAndroid",
-     "note": "funk, hip hop, pop, electronic, rock"
-    },
-    {
-     "artist": "Janet Jackson",
-     "title": "Control",
-     "note": "funk, hip hop, pop, electronic, rock"
-    },
-    {
-     "artist": "Janis Joplin",
-     "title": "Pearl",
-     "note": "blues, folk, psychedelic rock, pop, rock"
-    },
-    {
-     "artist": "Japan",
-     "title": "Tin Drum",
-     "note": "new wave, post-punk, pop, electronic, rock"
-    },
-    {
-     "artist": "Jim O’Rourke",
-     "title": "Eureka",
-     "note": "post-rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Joanna Newsome",
-     "title": "Ys",
-     "note": "classical, country, folk, folk rock, alternative rock, indie rock, rock"
-    },
-    {
-     "artist": "John Maus",
-     "title": "We Must Become the Pitiless Censors of Ourselves",
-     "note": "new wave, post-punk, pop, electronic, rock"
-    },
-    {
-     "artist": "John Mayer",
-     "title": "Continuum",
-     "note": "blues, alternative rock, indie rock, pop, rock"
-    },
-    {
-     "artist": "Jon Hopkins",
-     "title": "Late Night Tales (Jon Hopkins)",
-     "note": "classical, folk, ambient, electronic, rock"
-    },
-    {
-     "artist": "Joni Mtchell",
-     "title": "Court and Spark",
-     "note": "folk, folk rock, jazz, pop, rock"
-    },
-    {
-     "artist": "Joni Mtchell",
-     "title": "Hejira",
-     "note": "folk, folk rock, jazz, pop, rock"
-    },
-    {
-     "artist": "Joy Division",
-     "title": "Closer",
-     "note": "new wave, post-punk, ambient, alternative rock, indie rock, electronic, rock"
-    },
-    {
-     "artist": "Juana Molina",
-     "title": "Un Dia",
-     "note": "country, latin, folk, ambient, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Juana Molina",
-     "title": "Wed 21",
-     "note": "latin, folk, folk rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Julie Byrn",
-     "title": "The Greater Wings",
-     "note": "folk, ambient, alternative rock, indie rock, rock"
-    },
-    {
-     "artist": "Kali Uchis",
-     "title": "Red Moon in Venus",
-     "note": "latin, r&b, funk, pop, electronic"
-    },
-    {
-     "artist": "Kate Bush",
-     "title": "Hound of Love",
-     "note": "progressive rock, alternative rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Kate Bush",
-     "title": "The Kick Inside",
-     "note": "blues, progressive rock, folk rock, pop, rock"
-    },
-    {
-     "artist": "Killing Joke",
-     "title": "Night Time",
-     "note": "new wave, post-punk, alternative rock, electronic, rock"
-    },
-    {
-     "artist": "Kings of Convenience",
-     "title": "Riot On An Empty Street",
-     "note": "folk, folk rock, alternative rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "LCD Soundsystem",
-     "title": "American Dream",
-     "note": "new wave, alternative rock, indie rock, electronic, rock"
-    },
-    {
-     "artist": "LCD Soundsystem",
-     "title": "The Long Goodbye: LCD Soundsystem Live At Madison Square Garden",
-     "note": "disco, alternative rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Le Tigre",
-     "title": "Le Tigre",
-     "note": "new wave, post-punk, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Lemon Demon",
-     "title": "Spirit Phone",
-     "note": "new wave, alternative rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Leonard Cohen",
-     "title": "I'm Your Man",
-     "note": "folk, folk rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Leonard Cohen",
-     "title": "Songs from a Room",
-     "note": "country, blues, folk, folk rock, pop, rock"
-    },
-    {
-     "artist": "Lily Allen",
-     "title": "Alright, Still",
-     "note": "hip hop, alternative rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Low",
-     "title": "HEY WHAT",
-     "note": "post-rock, alternative rock, indie rock, electronic, rock"
-    },
-    {
-     "artist": "Ludwig Göransson",
-     "title": "TENET (Original Motion Picture Soundtrack)",
-     "note": "classical, ambient, jazz, pop, electronic, rock"
-    },
-    {
-     "artist": "M.I.A",
-     "title": "Kala",
-     "note": "reggae, hip hop, pop, electronic, rock"
-    },
-    {
-     "artist": "M83",
-     "title": "Before the Dawn Heals Us",
-     "note": "new wave, ambient, pop, electronic, rock"
-    },
-    {
-     "artist": "M83",
-     "title": "Dead Cities, Red Seas & Lost Ghosts",
-     "note": "new wave, post-rock, pop, electronic, rock"
-    },
-    {
-     "artist": "M83",
-     "title": "Saturdays = Youth",
-     "note": "new wave, ambient, pop, electronic, rock"
-    },
-    {
-     "artist": "Magazine",
-     "title": "Real-Life",
-     "note": "new wave, punk, post-punk, indie rock, rock"
-    },
-    {
-     "artist": "Manu Chao",
-     "title": "Clandestino",
-     "note": "latin, folk, pop, electronic, rock"
-    },
-    {
-     "artist": "Mariah Carey",
-     "title": "Daydream",
-     "note": "r&b, hip hop, pop, electronic, rock"
-    },
-    {
-     "artist": "Melody's Echo Chamber",
-     "title": "Bon Voyage",
-     "note": "psychedelic rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Metronomy",
-     "title": "The English Riviera",
-     "note": "new wave, alternative rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "MGMT",
-     "title": "Congratulations",
-     "note": "psychedelic rock, alternative rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "MGMT",
-     "title": "Little Dark Ages",
-     "note": "new wave, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "MGMT",
-     "title": "Loss of Life",
-     "note": "progressive rock, psychedelic rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Michael Jackson",
-     "title": "Thriller",
-     "note": "disco, r&b, funk, ambient, pop, rock"
-    },
-    {
-     "artist": "Michael Kiwanuka",
-     "title": "KIWANUKA",
-     "note": "r&b, folk, jazz, indie rock, pop, rock"
-    },
-    {
-     "artist": "Mike Oldfield",
-     "title": "Tubular Bells",
-     "note": "progressive rock, folk rock, ambient, electronic, rock"
-    },
-    {
-     "artist": "Mitski",
-     "title": "Be The Cowboy",
-     "note": "new wave, alternative rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Mitski",
-     "title": "Bury Me at Makeout Creek",
-     "note": "folk, alternative rock, indie rock, pop, rock"
-    },
-    {
-     "artist": "Mitski",
-     "title": "The Land Is Inhospitable and So Are We",
-     "note": "country, folk, indie rock, pop, rock"
-    },
-    {
-     "artist": "Mogwai",
-     "title": "Happy Songs for Happy People",
-     "note": "post-rock, ambient, indie rock, electronic, rock"
-    },
-    {
-     "artist": "Moses Sumney",
-     "title": "Grae",
-     "note": "r&b, rock, folk rock, funk, pop"
-    },
-    {
-     "artist": "Neurosis",
-     "title": "Times of Grace",
-     "note": "post-rock, metal, ambient, electronic, rock"
-    },
-    {
-     "artist": "New Order",
-     "title": "Brotherhood",
-     "note": "new wave, post-punk, alternative rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "New Order",
-     "title": "Low-Life",
-     "note": "new wave, punk, alternative rock, pop, electronic, rock"
-    },
-    {
-     "artist": "New Order",
-     "title": "Movement",
-     "note": "new wave, post-punk, alternative rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "New Order",
-     "title": "Power, Corruption & Lies",
-     "note": "new wave, post-punk, pop, electronic, rock"
-    },
-    {
-     "artist": "New Order",
-     "title": "Substance 1987 (Singles, first 13 songs)",
-     "note": "new wave, post-punk, alternative rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Nick Drake",
-     "title": "Bryter Layter",
-     "note": "folk, folk rock, jazz, pop, rock"
-    },
-    {
-     "artist": "Nine Inch Nails",
-     "title": "Broken",
-     "note": "metal, alternative rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Nine Inch Nails",
-     "title": "Hesitation Marks",
-     "note": "funk, new wave, alternative rock, pop, electronic"
-    },
-    {
-     "artist": "No Doubt",
-     "title": "Tragic Kingdom",
-     "note": "reggae, punk, alternative rock, pop, rock"
-    },
-    {
-     "artist": "Norah Jones",
-     "title": "Come Away With Me",
-     "note": "country, blues, folk, jazz, pop"
-    },
-    {
-     "artist": "Paul Simon",
-     "title": "Graceland",
-     "note": "funk, folk, folk rock, pop, rock"
-    },
-    {
-     "artist": "Paul Simon",
-     "title": "Paul Simon",
-     "note": "reggae, blues, folk, folk rock, pop, rock"
-    },
-    {
-     "artist": "Pet Shop Boys",
-     "title": "Actually",
-     "note": "ambient, jazz, pop, electronic, rock"
-    },
-    {
-     "artist": "Peter Gabriel",
-     "title": "So",
-     "note": "new wave, progressive rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Pink Floyd",
-     "title": "Animals (2018 Remix)",
-     "note": "classical, progressive rock, psychedelic rock, ambient, electronic, rock"
-    },
-    {
-     "artist": "Pink Floyd",
-     "title": "Dark Side Of The Moon",
-     "note": "progressive rock, psychedelic rock, ambient, electronic, rock"
-    },
-    {
-     "artist": "Pink Floyd",
-     "title": "Echoes: The Best of Pink Floyd",
-     "note": "progressive rock, psychedelic rock, ambient, jazz, pop, electronic, rock"
-    },
-    {
-     "artist": "Pink Floyd",
-     "title": "Meddle",
-     "note": "classical, progressive rock, psychedelic rock, folk rock, ambient, jazz, electronic, rock"
-    },
-    {
-     "artist": "Pink Floyd",
-     "title": "The Division Bell",
-     "note": "progressive rock, psychedelic rock, ambient, pop, electronic, rock"
-    },
-    {
-     "artist": "Pink Floyd",
-     "title": "The Final Cut",
-     "note": "progressive rock, psychedelic rock, ambient, jazz, pop, electronic, rock"
-    },
-    {
-     "artist": "Pink Floyd",
-     "title": "The Wall",
-     "note": "progressive rock, psychedelic rock, alternative rock, pop, rock"
-    },
-    {
-     "artist": "Pink Floyd",
-     "title": "Wish You Were Here",
-     "note": "progressive rock, psychedelic rock, ambient, jazz, electronic, rock"
-    },
-    {
-     "artist": "PJ Harvey",
-     "title": "Stories from the City - Stories from the Sea",
-     "note": "folk rock, alternative rock, indie rock, pop, rock"
-    },
-    {
-     "artist": "PJ Harvey",
-     "title": "To Bring You my Love",
-     "note": "blues, folk rock, alternative rock, indie rock, rock"
-    },
-    {
-     "artist": "Placebo",
-     "title": "Once More With Feeling",
-     "note": "country, alternative rock, indie rock, electronic, rock"
-    },
-    {
-     "artist": "Porcupine Tree",
-     "title": "Deadwing",
-     "note": "post-rock, progressive rock, alternative rock, electronic, rock"
-    },
-    {
-     "artist": "Porcupine Tree",
-     "title": "Fear of a Blank Planet",
-     "note": "post-rock, progressive rock, ambient, alternative rock, pop, rock"
-    },
-    {
-     "artist": "Porcupine Tree",
-     "title": "In Absentia",
-     "note": "post-rock, progressive rock, psychedelic rock, alternative rock, rock"
-    },
-    {
-     "artist": "Porcupine Tree",
-     "title": "Stupid Dream",
-     "note": "blues, progressive rock, psychedelic rock, alternative rock, rock"
-    },
-    {
-     "artist": "Porcupine Tree",
-     "title": "The Incident",
-     "note": "post-rock, progressive rock, alternative rock, electronic, rock"
-    },
-    {
-     "artist": "Preoccupations",
-     "title": "Preoccupations",
-     "note": "new wave, punk, post-punk, indie rock, rock"
-    },
-    {
-     "artist": "Preoccupations",
-     "title": "Viet Cong",
-     "note": "punk, post-punk, alternative rock, indie rock, rock"
-    },
-    {
-     "artist": "Primal Scream",
-     "title": "Vanishing Point",
-     "note": "psychedelic rock, punk, alternative rock, indie rock, electronic, rock"
-    },
-    {
-     "artist": "Prince",
-     "title": "Controversy",
-     "note": "funk, new wave, punk, pop, electronic, rock"
-    },
-    {
-     "artist": "Prince",
-     "title": "Dirty Mind",
-     "note": "disco, funk, new wave, pop, electronic, rock"
-    },
-    {
-     "artist": "Public Image Ltd.",
-     "title": "First Issue",
-     "note": "new wave, punk, post-punk, electronic, rock"
-    },
-    {
-     "artist": "Quadeca",
-     "title": "I Didn't Mean to Haunt You",
-     "note": "electronic, pop, rock, hip hop, r&b"
-    },
-    {
-     "artist": "Quadeca",
-     "title": "Vanisher Horizon, Scraper",
-     "note": "electronic, pop, rock, indie rock, hip hop, folk"
-    },
-    {
-     "artist": "R.E.M",
-     "title": "Automatic for the People",
-     "note": "folk rock, alternative rock, indie rock, pop, rock"
-    },
-    {
-     "artist": "R.E.M",
-     "title": "Murmur",
-     "note": "post-punk, folk rock, alternative rock, indie rock, pop, rock"
-    },
-    {
-     "artist": "R.E.M",
-     "title": "Out of Time",
-     "note": "ambient, jazz, alternative rock, pop, electronic, rock"
-    },
-    {
-     "artist": "R.E.M.",
-     "title": "Fables of the Reconstruction",
-     "note": "blues, post-punk, folk rock, alternative rock, pop, rock"
-    },
-    {
-     "artist": "Radiohead",
-     "title": "A Moon Shaped Pool",
-     "note": "post-rock, alternative rock, indie rock, electronic, rock"
-    },
-    {
-     "artist": "Radiohead",
-     "title": "Amnesiac",
-     "note": "post-rock, alternative rock, indie rock, electronic, rock"
-    },
-    {
-     "artist": "Radiohead",
-     "title": "Hail to the Thief",
-     "note": "post-rock, progressive rock, alternative rock, indie rock, electronic, rock"
-    },
-    {
-     "artist": "Radiohead",
-     "title": "Kid A",
-     "note": "post-rock, ambient, alternative rock, electronic, rock"
-    },
-    {
-     "artist": "Radiohead",
-     "title": "The King of Limbs (Live at the Basement)",
-     "note": "post-rock, alternative rock, indie rock, electronic, rock"
-    },
-    {
-     "artist": "Ramones",
-     "title": "Ramones",
-     "note": "new wave, punk, alternative rock, pop, rock"
-    },
-    {
-     "artist": "Red Hot Chili Peppers",
-     "title": "Californication",
-     "note": "funk, blues, alternative rock, indie rock, pop, rock"
-    },
-    {
-     "artist": "Regina Spektor",
-     "title": "Begin To Hope",
-     "note": "folk, folk rock, alternative rock, indie rock, pop, rock"
-    },
-    {
-     "artist": "Regina Spektor",
-     "title": "Soviet Kitsch",
-     "note": "folk, punk, folk rock, alternative rock, pop, rock"
-    },
-    {
-     "artist": "Robert Plant & Alison Krauss",
-     "title": "Raising Sand",
-     "note": "country, blues, folk, folk rock, rock"
-    },
-    {
-     "artist": "Róisín Murphy",
-     "title": "Overpowered",
-     "note": "disco, funk, pop, electronic, rock"
-    },
-    {
-     "artist": "Santogold",
-     "title": "Santogold",
-     "note": "new wave, hip hop, indie rock, electronic, rock"
-    },
-    {
-     "artist": "Sarah McLachlan",
-     "title": "Fumbling Towards Ecstasy",
-     "note": "blues, folk rock, alternative rock, pop, rock"
-    },
-    {
-     "artist": "Say Anything",
-     "title": "…Is A Real Boy",
-     "note": "punk, alternative rock, indie rock, pop, rock"
-    },
-    {
-     "artist": "Shakira",
-     "title": "Fijación Oral, Vol. 1",
-     "note": "reggae, latin, pop, electronic, rock"
-    },
-    {
-     "artist": "Sigur Rós",
-     "title": "Ágætis Byrjun",
-     "note": "post-rock, ambient, alternative rock, electronic, rock"
-    },
-    {
-     "artist": "Simon & Garfunkel",
-     "title": "Simon and Garfunkel's Greatest Hits",
-     "note": "blues, folk, folk rock, pop, rock"
-    },
-    {
-     "artist": "Simon & Garfunkel",
-     "title": "Sounds of Silence",
-     "note": "folk, psychedelic rock, folk rock, pop, rock"
-    },
-    {
-     "artist": "Sky Ferreira",
-     "title": "Night Time, My Time",
-     "note": "alternative rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Slowdive",
-     "title": "Pygmalion",
-     "note": "post-rock, ambient, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Slowdive",
-     "title": "Souvlaki",
-     "note": "ambient, alternative rock, indie rock, electronic, rock"
-    },
-    {
-     "artist": "Soda Stereo",
-     "title": "Signos",
-     "note": "new wave, psychedelic rock, post-punk, pop, rock"
-    },
-    {
-     "artist": "Soft Machine",
-     "title": "Third",
-     "note": "progressive rock, psychedelic rock, jazz, electronic, rock"
-    },
-    {
-     "artist": "Sonic Youth",
-     "title": "Evol",
-     "note": "post-rock, post-punk, alternative rock, indie rock, rock"
-    },
-    {
-     "artist": "Sonic Youth",
-     "title": "Goo",
-     "note": "new wave, post-punk, alternative rock, indie rock, rock"
-    },
-    {
-     "artist": "Squeeze",
-     "title": "Singles: 45's and Under",
-     "note": "new wave, punk, pop, electronic, rock"
-    },
-    {
-     "artist": "St. Vincent",
-     "title": "Daddy's Home",
-     "note": "alternative rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Stereolab",
-     "title": "Cobra and Phases Group Play Voltage in the Milky Night",
-     "note": "jazz, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Stereolab",
-     "title": "Emperor Tomato Ketchup",
-     "note": "post-rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Stereolab",
-     "title": "Mars Audiac Quintet",
-     "note": "post-rock, alternative rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Stereolab",
-     "title": "Transient Random-Noise Bursts With Announcements",
-     "note": "post-rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Stevie Wonder",
-     "title": "Fulfillingness' First Finale",
-     "note": "disco, r&b, funk, pop, rock"
-    },
-    {
-     "artist": "Stevie Wonder",
-     "title": "Hotter Than July",
-     "note": "disco, r&b, funk, pop, rock"
-    },
-    {
-     "artist": "Sufjan Stevens",
-     "title": "Michigan",
-     "note": "folk rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Sun Kil Moon",
-     "title": "Ghosts of the Great Highway",
-     "note": "folk, psychedelic rock, folk rock, alternative rock, indie rock, rock"
-    },
-    {
-     "artist": "Super Furry Animals",
-     "title": "Radiation",
-     "note": "psychedelic rock, alternative rock, indie rock, electronic, rock"
-    },
-    {
-     "artist": "Swans",
-     "title": "Children of God",
-     "note": "post-punk, ambient, alternative rock, electronic, rock"
-    },
-    {
-     "artist": "Swans",
-     "title": "Die Tür ist zu EP",
-     "note": "post-rock, ambient, alternative rock, electronic, rock"
-    },
-    {
-     "artist": "Swans",
-     "title": "Soundtracks For The Blind",
-     "note": "post-rock, ambient, alternative rock, electronic, rock"
-    },
-    {
-     "artist": "Swans",
-     "title": "The Glowing Man",
-     "note": "post-rock, psychedelic rock, post-punk, ambient, rock"
-    },
-    {
-     "artist": "Talk Talk",
-     "title": "Laughing Stock",
-     "note": "post-rock, ambient, pop, electronic, rock"
-    },
-    {
-     "artist": "Talk Talk",
-     "title": "Spirit of Eden",
-     "note": "new wave, post-rock, post-punk, jazz, electronic, rock"
-    },
-    {
-     "artist": "Talking Heads",
-     "title": "Fear of Music",
-     "note": "blues, new wave, post-punk, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "Talking Heads",
-     "title": "More Songs About Buildings and Food",
-     "note": "new wave, punk, post-punk, indie rock, pop, rock"
-    },
-    {
-     "artist": "Talking Heads",
-     "title": "Remain in Light",
-     "note": "blues, new wave, post-punk, hip hop, indie rock, electronic, rock"
-    },
-    {
-     "artist": "Talking Heads",
-     "title": "Stop Making Sense",
-     "note": "latin, new wave, ambient, pop, electronic, rock"
-    },
-    {
-     "artist": "Taylor Swift",
-     "title": "Folklore",
-     "note": "folk, ambient, alternative rock, pop, electronic"
-    },
-    {
-     "artist": "Taylor Swift",
-     "title": "Red",
-     "note": "country, folk, alternative rock, pop, rock"
-    },
-    {
-     "artist": "Television",
-     "title": "Marquee Moon",
-     "note": "new wave, punk, post-punk, alternative rock, rock"
-    },
-    {
-     "artist": "The 1975",
-     "title": "A Brief Inquiry Into Online Relationships",
-     "note": "new wave, alternative rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "The Alan Parsons Project",
-     "title": "Eye in the Sky",
-     "note": "progressive rock, ambient, pop, electronic, rock"
-    },
-    {
-     "artist": "The B-52's",
-     "title": "The B-52's",
-     "note": "new wave, post-punk, alternative rock, pop, rock"
-    },
-    {
-     "artist": "The Beta Band",
-     "title": "The Three EPs",
-     "note": "folk, alternative rock, indie rock, electronic, rock"
-    },
-    {
-     "artist": "The Blue Nile",
-     "title": "Hats",
-     "note": "new wave, alternative rock, pop, electronic, rock"
-    },
-    {
-     "artist": "The Chameleons",
-     "title": "Script of the Bridge",
-     "note": "new wave, post-punk, alternative rock, indie rock, rock"
-    },
-    {
-     "artist": "The Clash",
-     "title": "Comat Rock",
-     "note": "reggae, funk, new wave, punk, post-punk, electronic, rock"
-    },
-    {
-     "artist": "The Clash",
-     "title": "London Calling",
-     "note": "reggae, new wave, punk, post-punk, pop, rock"
-    },
-    {
-     "artist": "The Cranberries",
-     "title": "No need to Argue",
-     "note": "blues, post-punk, folk rock, alternative rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "The Fall",
-     "title": "Live at the Witch Trials",
-     "note": "new wave, punk, post-punk, indie rock, rock"
-    },
-    {
-     "artist": "The Fall",
-     "title": "The Wonderful and Frightening World of The Fall",
-     "note": "new wave, post-punk, alternative rock, electronic, rock"
-    },
-    {
-     "artist": "The Flaming Lips",
-     "title": "The Flaming Lips and Heady Fwends",
-     "note": "psychedelic rock, alternative rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "The Go-Betweens",
-     "title": "16 Lovers Lane",
-     "note": "folk rock, alternative rock, indie rock, pop, rock"
-    },
-    {
-     "artist": "The Horrors",
-     "title": "Primary Colours",
-     "note": "psychedelic rock, post-punk, alternative rock, indie rock, electronic, rock"
-    },
-    {
-     "artist": "The Jesus Lizard",
-     "title": "Goat",
-     "note": "punk, post-punk, alternative rock, indie rock, rock"
-    },
-    {
-     "artist": "The Jimi Hendrix Experience",
-     "title": "Electric Ladyland",
-     "note": "funk, blues, progressive rock, psychedelic rock, rock"
-    },
-    {
-     "artist": "The Killers",
-     "title": "Hot Fuzz",
-     "note": "new wave, alternative rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "The Killers",
-     "title": "Sam's Town",
-     "note": "new wave, alternative rock, indie rock, electronic, rock"
-    },
-    {
-     "artist": "The Mars Volta",
-     "title": "Frances The Mute",
-     "note": "progressive rock, metal, alternative rock, electronic, rock"
-    },
-    {
-     "artist": "The Mothers of Invention",
-     "title": "Freak Out!",
-     "note": "psychedelic rock, alternative rock, pop, electronic, rock"
-    },
-    {
-     "artist": "The Olivia Tremor Control",
-     "title": "Black Foliage: Animation Music Volume One",
-     "note": "psychedelic rock, alternative rock, indie rock, pop, rock"
-    },
-    {
-     "artist": "The Police",
-     "title": "Outlandos d'Amour",
-     "note": "reggae, new wave, post-punk, alternative rock, pop, rock"
-    },
-    {
-     "artist": "The Pop Group",
-     "title": "Citizen Zombie",
-     "note": "new wave, post-punk, alternative rock, electronic, rock"
-    },
-    {
-     "artist": "The Postal Service",
-     "title": "Give Up",
-     "note": "alternative rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "The Replacements",
-     "title": "Let it Be (The Replacements)",
-     "note": "punk, post-punk, alternative rock, indie rock, rock"
-    },
-    {
-     "artist": "The Smile",
-     "title": "A Light for Attracting Attention",
-     "note": "post-punk, alternative rock, indie rock, electronic, rock"
-    },
-    {
-     "artist": "The Smiths",
-     "title": "Meat is Murder",
-     "note": "post-punk, alternative rock, indie rock, pop, rock"
-    },
-    {
-     "artist": "The Smiths",
-     "title": "Strangeways, Here we Come",
-     "note": "new wave, alternative rock, indie rock, pop, rock"
-    },
-    {
-     "artist": "The Smiths",
-     "title": "The Queen is Dead",
-     "note": "blues, post-punk, alternative rock, indie rock, pop, rock"
-    },
-    {
-     "artist": "The Smiths",
-     "title": "The Sound of The Smiths",
-     "note": "post-punk, alternative rock, indie rock, pop, rock"
-    },
-    {
-     "artist": "The Soft Boys",
-     "title": "Underwater Moonlight",
-     "note": "new wave, punk, post-punk, alternative rock, indie rock, pop, rock"
-    },
-    {
-     "artist": "The Soft Machine",
-     "title": "Third",
-     "note": "progressive rock, psychedelic rock, jazz, electronic, rock"
-    },
-    {
-     "artist": "The Sugarcubes",
-     "title": "Life's Too Good",
-     "note": "post-punk, alternative rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "The The",
-     "title": "Infected",
-     "note": "new wave, post-punk, alternative rock, pop, electronic, rock"
-    },
-    {
-     "artist": "The The",
-     "title": "Soul Mining",
-     "note": "new wave, post-punk, alternative rock, pop, electronic, rock"
-    },
-    {
-     "artist": "The Vaccines",
-     "title": "What Did You Expect from The Vaccines?",
-     "note": "post-punk, alternative rock, indie rock, pop, rock"
-    },
-    {
-     "artist": "The Weeknd",
-     "title": "Dawn FM",
-     "note": "ambient, jazz, pop, electronic, rock"
-    },
-    {
-     "artist": "The Weeknd",
-     "title": "The Highlights",
-     "note": "r&b, ambient, jazz, pop, electronic, rock"
-    },
-    {
-     "artist": "The Weeknd",
-     "title": "Thursday",
-     "note": "r&b, post-punk, hip hop, pop, electronic"
-    },
-    {
-     "artist": "The White Stripes",
-     "title": "De Stijl",
-     "note": "blues, punk, alternative rock, indie rock, rock"
-    },
-    {
-     "artist": "The White Stripes",
-     "title": "Elephant",
-     "note": "alternative rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "The White Stripes",
-     "title": "White Blood Cells",
-     "note": "blues, psychedelic rock, punk, alternative rock, indie rock, rock"
-    },
-    {
-     "artist": "The xx",
-     "title": "Coexist",
-     "note": "alternative rock, indie rock, pop, electronic, rock"
-    },
-    {
-     "artist": "The xx",
-     "title": "XX",
-     "note": "alternative rock, indie rock, pop, electronic, rock"
-    }
-   ]
-  },
-  {
-   "id": "root-candidate",
-   "title": "Styles big enough to be genres",
-   "why": "Above 4% of the shelf. Promoting one is a judgement: add it to ROOTS in app/genres.js.",
-   "action": "decide",
-   "count": 9,
-   "items": [
-    {
-     "artist": "experimental",
-     "title": "",
-     "note": "478 albums (10.8%) — under \"electronic\""
-    },
-    {
-     "artist": "pop rock",
-     "title": "",
-     "note": "426 albums (9.7%) — under \"pop\""
-    },
-    {
-     "artist": "art rock",
-     "title": "",
-     "note": "300 albums (6.8%) — under \"rock\""
-    },
-    {
-     "artist": "heavy metal",
-     "title": "",
-     "note": "265 albums (6.0%) — under \"metal\""
-    },
-    {
-     "artist": "hard rock",
-     "title": "",
-     "note": "235 albums (5.3%) — under \"rock\""
-    },
-    {
-     "artist": "synth-pop",
-     "title": "",
-     "note": "218 albums (4.9%) — under \"pop\""
-    },
-    {
-     "artist": "classic rock",
-     "title": "",
-     "note": "211 albums (4.8%) — under \"rock\""
-    },
-    {
-     "artist": "indie pop",
-     "title": "",
-     "note": "201 albums (4.6%) — under \"indie rock\""
-    },
-    {
-     "artist": "singer-songwriter",
-     "title": "",
-     "note": "183 albums (4.1%) — under \"rock\""
-    }
-   ]
+   "count": 0,
+   "items": []
   }
  ]
 }

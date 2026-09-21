@@ -46,6 +46,54 @@ function GenreLines({ album, index, onGenre }) {
   );
 }
 
+// A plain tag editor: the album's tags as chips you can remove, plus a box to
+// add one. Deliberately not a picker of existing genres -- the whole point is
+// the case where the right tag is not in the collection yet.
+function GenreEditor({ album, onSave }) {
+  const [draft, setDraft] = React.useState("");
+  const tags = album.genres || [];
+
+  const commit = (raw) => {
+    // Comma or semicolon separated, so pasting "soukous; congolese rumba"
+    // works the way the CSV writes it.
+    const added = raw.split(/[;,]/).map((t) => t.trim().toLowerCase()).filter(Boolean);
+    if (!added.length) return setDraft("");
+    const next = [...new Set([...tags.map((t) => t.toLowerCase()), ...added])];
+    setDraft("");
+    if (next.length !== tags.length) onSave(next);
+  };
+
+  return (
+    <div className="tags">
+      <div className="tags__chips">
+        {tags.map((t) => (
+          <button key={t} className="tags__chip" title={`Remove ${t}`}
+                  onClick={() => onSave(tags.filter((x) => x !== t))}>
+            {t} <span aria-hidden="true">×</span>
+          </button>
+        ))}
+        {!tags.length && <span className="tags__none">none</span>}
+      </div>
+      <input
+        className="tags__input"
+        value={draft}
+        spellCheck={false}
+        placeholder="Add a genre, then Enter"
+        onChange={(e) => setDraft(e.target.value)}
+        onKeyDown={(e) => {
+          if (e.key === "Enter") { e.preventDefault(); commit(draft); }
+          // Backspace on an empty box removes the last tag, the way every
+          // other chip input behaves.
+          else if (e.key === "Backspace" && !draft && tags.length) {
+            onSave(tags.slice(0, -1));
+          }
+        }}
+        onBlur={() => commit(draft)}
+      />
+    </div>
+  );
+}
+
 function Detail({ album, owner, onPatch, onDelete, onClose, index, onGenre }) {
   // Two taps rather than a browser confirm dialog: the first arms it, the
   // second does it, and clicking anywhere else disarms.
@@ -210,6 +258,17 @@ function Detail({ album, owner, onPatch, onDelete, onClose, index, onGenre }) {
                 </label>
               )}
 
+              {/* Genres were pipeline-only until now: the nightly enrichment
+                  wrote them and nothing in the app could touch them, so an
+                  album MusicBrainz had nothing for had no way back. These are
+                  the raw tags -- what you type here is what genres.js splits
+                  into a genre and its styles on the next render. */}
+              <label className="field">
+                <span>Genres</span>
+                <GenreEditor album={album}
+                             onSave={(genres) => onPatch(album.id, { genres })} />
+              </label>
+
               <label className="field">
                 <span>Notes</span>
                 <textarea
@@ -228,8 +287,8 @@ function Detail({ album, owner, onPatch, onDelete, onClose, index, onGenre }) {
               </div>
               {armed && (
                 <p className="muted" style={{ fontSize: 13, margin: 0 }}>
-                  Removes it from the shelf for good. To stop it coming up on rolls
-                  without deleting it, use “Remove from pool”.
+                  Removes it from the shelf for good. It stays in the deleted
+                  list, so this can be undone.
                 </p>
               )}
             </>

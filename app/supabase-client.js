@@ -127,7 +127,11 @@ const supabaseDb = {
     // step. Locally those live in enrichment.json keyed by artist::title, and
     // a rename has to move both halves -- that is what scripts/rename.mjs is
     // for.
-    const ALLOWED = ["artist", "title", "year",
+    //
+    // `genres` is writable because the maintenance screen needs a manual
+    // lever: the nightly enrichment is the only other thing that sets it, and
+    // when MusicBrainz has nothing there was previously no way to type one in.
+    const ALLOWED = ["artist", "title", "year", "genres",
                      "score", "notes", "cover_url", "cover_locked"];
     const clean = {};
     for (const k of ALLOWED) if (k in patch) clean[k] = patch[k];
@@ -144,6 +148,33 @@ const supabaseDb = {
   },
   async setRollOutcome(id, outcome) {
     const { error } = await sb.from("rolls").update({ outcome }).eq("id", id);
+    if (error) throw error;
+  },
+
+  // ── review flags ────────────────────────────────────────────────────────
+  // What you decided about a maintenance item. See db/review_flags.sql for
+  // why these are a table of their own rather than a column on albums.
+  async reviewFlags() {
+    if (!sb) return [];
+    const { data, error } = await sb
+      .from("review_flags").select("kind, subject, album_id, state, note");
+    if (error) throw error;
+    return data;
+  },
+
+  // Upsert on (kind, subject), so changing your mind rewrites the verdict
+  // instead of stacking a second one next to it.
+  async setReviewFlag({ kind, subject, album_id = null, state, note = null }) {
+    const { error } = await sb
+      .from("review_flags")
+      .upsert({ kind, subject, album_id, state, note },
+              { onConflict: "kind,subject" });
+    if (error) throw error;
+  },
+
+  async clearReviewFlag(kind, subject) {
+    const { error } = await sb
+      .from("review_flags").delete().eq("kind", kind).eq("subject", subject);
     if (error) throw error;
   },
 };

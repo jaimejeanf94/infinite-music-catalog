@@ -46,6 +46,13 @@ const ROOTS = [
   // everything else
   "electronic", "ambient", "pop", "hip hop", "jazz", "folk", "blues",
   "r&b", "funk", "disco", "latin", "country", "classical", "reggae",
+  // African music had no root, so soukous, mbalax, jujú, mbaqanga, benga and
+  // griot were each a style of nothing and fell out of every filter -- which
+  // is how Franco, Tabu Ley Rochereau, Youssou N'Dour and Sunny Ade became
+  // unbrowsable. Note that no album is TAGGED "african": this root exists
+  // entirely through the aliases below, which is why the liveness rule in
+  // buildIndex has to count aliased-to roots as real.
+  "african",
 ];
 
 // Merges the collection's own tagging does not support, but which are right.
@@ -57,6 +64,35 @@ const ALIASES = {
   "neo soul": "r&b",
   "contemporary r&b": "r&b",
   "alternative r&b": "r&b",
+  "motown": "r&b",
+
+  // The African roots. Every one of these sits on five albums or fewer, which
+  // is under MIN_TO_ATTACH, so nothing computed would ever have placed them --
+  // and they co-occur with no root anyway. "afrobeat" is the exception: it has
+  // twelve albums and WAS attaching to jazz on overlap alone. Fela is not a
+  // jazz musician with a sideline, so it is moved here deliberately.
+  "afrobeat": "african",
+  "afrobeats": "african",
+  "soukous": "african",
+  "congolese rumba": "african",
+  "mbalax": "african",
+  "mbaqanga": "african",
+  "benga": "african",
+  "griot": "african",
+  "jùjú": "african",
+  "highlife": "african",
+  "african blues": "african",
+  "ethio-jazz": "african",
+
+  // Brazilian regional styles, each on a single album.
+  "mangue beat": "latin",
+  "tecnobrega": "latin",
+  "brega calypso": "latin",
+
+  // Plunderphonic internet microgenres. Nine albums of dariacore and nothing
+  // to attach it to, because it co-occurs with nothing at all.
+  "dariacore": "electronic",
+  "nightcore": "electronic",
 };
 
 // Deliberately NOT a root. "experimental" sits on 478 albums: 65% of them are
@@ -93,7 +129,14 @@ function buildIndex(albums) {
   const together = (a, b) =>
     pairs.get(a < b ? `${a}\u0000${b}` : `${b}\u0000${a}`) || 0;
 
-  const roots = ROOTS.filter((r) => freq.has(r));
+  // A root is live if the collection tags it, OR if something aliases to it.
+  // Without the second half a root that exists only through ALIASES -- as
+  // "african" does, since no record here is tagged with the bare word -- is
+  // filtered out here, and every alias pointing at it is then silently
+  // dropped by the `roots.includes(r)` check just below.
+  const aliasedTo = new Set(
+    Object.entries(ALIASES).filter(([g]) => freq.has(g)).map(([, r]) => r));
+  const roots = ROOTS.filter((r) => freq.has(r) || aliasedTo.has(r));
   const parent = new Map();
   for (const [g, r] of Object.entries(ALIASES)) {
     if (freq.has(g) && roots.includes(r)) parent.set(g, r);
@@ -119,7 +162,20 @@ function splitGenres(tags, index) {
   const lower = [...new Set(tags.map((g) => g.toLowerCase()))];
 
   // The genres are whichever roots the album actually carries.
-  let genre = lower.filter((g) => roots.has(g) && !ALIASES[g])
+  let genre = lower.filter((g) => roots.has(g) && !ALIASES[g]);
+
+  // An ALIAS is a statement about the music -- "soul IS r&b", "afrobeat IS
+  // African" -- so it applies whatever else the album carries. It used to run
+  // only in the rescue branch below, which meant it fired solely for albums
+  // that had no root at all: 69 of the 125 records tagged "soul" never reached
+  // r&b, because they also carried funk, jazz or blues. Al Green's "Call Me"
+  // came out as funk and Fela stayed under jazz.
+  //
+  // The computed `parent` map stays a rescue, and must: it holds every style,
+  // so applying it here would give every shoegaze record "rock" and undo the
+  // whole point of splitting rock up.
+  const merged = lower.map((g) => ALIASES[g]).filter((r) => r && roots.has(r));
+  genre = [...new Set([...genre, ...merged])]
     .sort((a, b) => (index.freq.get(a) || 0) - (index.freq.get(b) || 0));
 
   // An album tagged only with styles still belongs somewhere: take the roots

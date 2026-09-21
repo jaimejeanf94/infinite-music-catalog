@@ -225,7 +225,8 @@ function App() {
             the shelf rather than showing an empty maintenance screen. */}
         {route === "admin"
           ? (!!user && params.get("as") !== "visitor"
-              ? <AdminView onGo={(to, extra) => setParams(new URLSearchParams(extra || {}),
+              ? <AdminView albums={albums} onPatch={onPatch}
+                           onGo={(to, extra) => setParams(new URLSearchParams(extra || {}),
                                                           { push: true, route: to })} />
               : <div className="empty">Sign in to see this.</div>)
           : route === "home"

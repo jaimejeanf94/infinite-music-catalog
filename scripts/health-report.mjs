@@ -67,17 +67,24 @@ add("no-genres", "No genres",
   "Invisible to every genre filter.",
   albums.filter((a) => !a.genres.length).map(ref), "research");
 
-// ── matching ───────────────────────────────────────────────────────────────
-add("no-match", "Not in MusicBrainz",
-  "No release-group matched, so nothing refreshes them. Usually a misspelt "
-  + "name rather than an obscure record.",
-  albums.filter((a) => !rec(a).mbid).map(ref), "rename");
+// "Not in MusicBrainz" used to be a section here, 146 rows long. It was
+// retired: the typo passes already took the misspellings, so what remained was
+// genuinely absent from MusicBrainz -- 2 Many DJ's mixtapes, bootleg nightcore,
+// Japanese indie -- and with covers and genres both at 100% none of it is
+// broken anywhere you can see. The count still shows as `matched` in the
+// totals, and db/queries.sql has the query for when you want the list.
 
-// A large gap is the signature of the WRONG release-group, not a wrong year --
-// and a wrong release-group means the cover and genres are wrong too.
+// Three different faults wear the same signature and cannot be told apart
+// mechanically: the shelf year is wrong; the shelf year is right and
+// MusicBrainz matched a REISSUE; or MusicBrainz matched something else
+// entirely, which is the only one of the three that also poisons the cover and
+// the genres. The direction of the gap does not separate them -- both
+// "Moanin' 1958 vs 2001" (reissue, shelf correct) and "Aethiopes 1998 vs 2022"
+// (shelf wrong) have the shelf year older. So the row states the two years and
+// leaves the call to a person, which is what dismissing is for.
 add("year-gap", "Year is far off MusicBrainz",
-  "15 years or more apart. That is usually the wrong release-group matched, "
-  + "which means the cover and genres came from the wrong record too.",
+  "15 years or more apart. Could be your year, could be MusicBrainz matching "
+  + "a reissue. Check the two and dismiss it if the shelf is right.",
   albums.filter((a) => {
     const y = Number(a.year), m = Number(rec(a).mb_year);
     return y && m && Math.abs(y - m) >= 15;
@@ -95,7 +102,13 @@ add("shared-cover", "Same cover on several albums",
   "Sometimes right -- a double album, two halves of one set -- and sometimes "
   + "one album wearing another's sleeve.",
   [...byCover.values()].filter((g) => g.length > 1)
-    .map((g) => ({ ...ref(g[0]), note: g.map((a) => a.title).join("  /  ") })),
+    .map((g) => ({
+      ...ref(g[0]),
+      note: g.map((a) => a.title).join("  /  "),
+      // The sleeve is what is flagged, not either record wearing it, so the
+      // verdict survives one of them being renamed.
+      subject: `cover:${g[0].cover_url}`,
+    })),
   "review");
 
 // ── names ──────────────────────────────────────────────────────────────────
@@ -109,13 +122,37 @@ add("near-duplicate", "Possible duplicates",
   })), "merge");
 
 const reviewPath = new URL("rename-suggestions-review.json", DATA);
-const review = existsSync(reviewPath) ? JSON.parse(readFileSync(reviewPath, "utf8")) : [];
+const reviewRaw = existsSync(reviewPath) ? JSON.parse(readFileSync(reviewPath, "utf8")) : [];
+
+// Only suggestions whose subject is still on the shelf under the name they
+// were raised against. The file persists across runs, so once a rename has
+// been applied -- by you, by hand, or by a later pass -- its suggestion sits
+// in here forever describing an album that no longer goes by that name. Four
+// of six rows were in that state: two already renamed to exactly what was
+// suggested, two renamed to something else. A maintenance list that offers to
+// do work already done is worse than one that is empty.
+const live = new Set(albums.map((a) => `${a.artist.trim().toLowerCase()}::${a.title.trim().toLowerCase()}`));
+const stillOpen = (r) => {
+  const [artist, ...rest] = r.from.split("::");
+  return live.has(`${artist.trim().toLowerCase()}::${rest.join("::").trim().toLowerCase()}`);
+};
+const review = reviewRaw.filter(stillOpen);
+const stale = reviewRaw.length - review.length;
+if (stale) console.log(`  (${stale} rename suggestion${stale === 1 ? "" : "s"} already applied — not listed)`);
+
 add("rename-review", "Name corrections held back",
   "The nightly scan found these but would not apply them: a changed sequence "
   + "number, a gained or lost word, or a dropped collaborator.",
   review.map((r) => ({
     artist: r.from.split("::")[0], title: r.from.split("::").slice(1).join("::"),
     note: `${r.to.replace("::", " — ")}   (${r._why || "uncertain"})`,
+    // Carried through so the screen can hand the suggestion straight to the
+    // rename form rather than making you retype it.
+    suggest: { artist: r.to.split("::")[0], title: r.to.split("::").slice(1).join("::") },
+    // Keyed on the suggestion, not the album: rejecting "Mulholland Dr. ->
+    // Mulholland Drive" must stay rejected, and applying it renames the row
+    // out from under any album-keyed flag.
+    subject: `rename:${r.from}`,
   })), "rename");
 
 // ── genre shape ────────────────────────────────────────────────────────────
@@ -124,22 +161,16 @@ add("no-root", "Tagged, but under no genre",
   "Has styles but none of them point at a root, so no filter finds it.",
   albums.filter((a) => a.genres.length && !split(a).genre.length).map(ref), "research");
 
-add("over-tagged", "Five or more genres",
-  "Carrying this many roots says nothing. Usually over-tagging at the source.",
-  albums.filter((a) => split(a).genre.length >= 5)
-    .map((a) => ({ ...ref(a), note: split(a).genre.join(", ") })), "review");
+// "Five or more genres" used to be a section, and was the largest on the page
+// at 283 rows. Nothing could act on it -- there was no genre editor then -- and
+// the rows were not wrong: Check Your Head really is funk, psych, punk, hip hop
+// and alternative rock. A list that is accurate and unactionable is not a
+// maintenance item.
 
-const n = albums.filter((a) => a.genres.length).length;
-const rootCandidates = [...index.freq.entries()]
-  .filter(([g, c]) => !index.roots.has(g) && c >= n * 0.04)
-  .sort((a, b) => b[1] - a[1])
-  .map(([g, c]) => ({
-    artist: g, title: "",
-    note: `${c} albums (${(c / n * 100).toFixed(1)}%) — under "${index.parent.get(g) || "nothing"}"`,
-  }));
-add("root-candidate", "Styles big enough to be genres",
-  "Above 4% of the shelf. Promoting one is a judgement: add it to ROOTS in "
-  + "app/genres.js.", rootCandidates, "decide");
+// "Styles big enough to be genres" was a section too. Every row was an edit to
+// the ROOTS array in app/genres.js, which is a conversation and a commit, not
+// something you can settle from a screen. `node scripts/genre-report.mjs`
+// prints it when you want to have that conversation.
 
 const out = {
   generated: new Date().toISOString(),

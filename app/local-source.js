@@ -18,6 +18,7 @@ const LS_ROLLS = "imc:local:rolls";
 const LS_ADDED = "imc:local:added";
 const LS_GONE  = "imc:local:deleted:v2";   // v1 likewise
 const LS_SEQ   = "imc:local:seq";
+const LS_FLAGS = "imc:local:flags";
 
 // The last full parse, so deleted albums can be listed without re-reading the
 // CSV. Populated by albums().
@@ -229,6 +230,24 @@ const LocalDB = {
     if (hit) { hit.outcome = outcome; save(LS_ROLLS, rolls); }
   },
   async recentRolls(limit = 40) { return load(LS_ROLLS, []).slice(0, limit); },
+
+  // ── review flags ────────────────────────────────────────────────────────
+  // The cloud keeps these in a table (db/review_flags.sql); locally they are
+  // one more localStorage bag, which means they are per-browser and do not
+  // travel. That is the same bargain as every other local edit.
+  async reviewFlags() { return Object.values(load(LS_FLAGS, {})); },
+
+  async setReviewFlag({ kind, subject, album_id = null, state, note = null }) {
+    const flags = load(LS_FLAGS, {});
+    flags[`${kind}\u0000${subject}`] = { kind, subject, album_id, state, note };
+    save(LS_FLAGS, flags);
+  },
+
+  async clearReviewFlag(kind, subject) {
+    const flags = load(LS_FLAGS, {});
+    delete flags[`${kind}\u0000${subject}`];
+    save(LS_FLAGS, flags);
+  },
 
   // ── moving to Supabase later ────────────────────────────────────────────
   // Everything rated locally, as SQL you can paste into the Supabase editor
