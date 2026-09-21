@@ -6,18 +6,15 @@
 // metal, shoegaze and post-punk under "Rock" — too coarse to browse by. So the
 // split is computed from this collection instead of imported from anywhere.
 //
-// Three rules, in order:
+// How an album's genres are decided, in order:
 //
-//   1. A tag is a GENRE if enough albums here carry it. The bar is relative to
-//      the collection, so it tracks whatever your taste actually contains:
-//      post-rock, idm and krautrock stay genres rather than collapsing.
-//   2. A handful of tags are on so many albums that they say nothing when
-//      anything better is present. "rock" sits on Nails' grindcore record. Those
-//      are dropped whenever the album has a more specific genre -- and kept when
-//      it does not, which is why Pavement is still rock and indie rock.
-//   3. An album left with nothing after (2) gets a family term inferred from its
-//      tags. MusicBrainz has no plain "metal" tag, so grindcore and powerviolence
-//      would otherwise have no genre at all.
+//   1. Every ROOT it is tagged with (the fixed list below), plus the root any
+//      of its tags is an ALIAS of -- soul is r&b, afrobeat is African.
+//   2. "metal" if it carries a metal subgenre, whatever else it carries.
+//   3. Nothing yet: the roots its styles attach to. A shoegaze record tagged
+//      only "shoegaze, dream pop" is a rock record, and findable as one.
+//   4. Still nothing: a family pattern -- hardcore is punk, baroque is
+//      classical.
 //
 // Everything else becomes a STYLE: shown with the album, not offered as a filter,
 // because half of them sit on two albums or fewer.
@@ -28,9 +25,10 @@
 // Deriving the roots from frequency alone does not work: "rock" sits on 59% of
 // this shelf, so a purely statistical rule swallows punk, heavy metal and
 // post-punk as styles of it, while indietronica and neo-psychedelia survive as
-// "genres" purely because they overlap nothing large. So the roots are fixed
-// -- there are nineteen of them and they have not changed in fifty years --
-// and only the ATTACHMENT is computed, from what actually co-occurs here.
+// "genres" purely because they overlap nothing large. So the roots are a
+// short fixed list -- twenty-six, each a change made on purpose and explained
+// beside it below -- and only the ATTACHMENT is computed, from what actually
+// co-occurs here.
 //
 // That is what collapses the tagging noise. "electro", "electronica",
 // "electropop" and "synth-pop" are not four genres; they are four ways of
@@ -105,12 +103,23 @@ const ALIASES = {
 const ATTACH_SHARE = 0.4;
 const MIN_TO_ATTACH = 6;        // ignore tags too rare to say anything
 
-// Families MusicBrainz never tags with the broad term, used when an album
-// carries no root at all.
+// Families MusicBrainz tags by their subgenres rather than the broad word.
+//
+// Metal is applied to EVERY album, the way an alias is, because a metal
+// subgenre is a statement about the music and not a guess. It used to be a
+// last resort for albums with no root at all -- but most metal records here
+// also carry "rock", so the rescue never ran for them, and black metal,
+// progressive metal and doom metal attach to rock on overlap alone. 306 of
+// the 525 records carrying a metal subgenre were missing from the metal
+// filter: Gorguts' "Obscura" was rock, and so was Drudkh. Screamo and
+// doomcore are left out on purpose: one is emo, the other hardcore techno.
+//
+// Punk and classical stay rescues. "hardcore" is also a style of hip hop and
+// of techno, so applied to every album it would file Mobb Deep under punk.
 const FAMILIES = [
-  ["metal", /metal|grindcore|powerviolence|sludge|doom|mathcore|screamo/i],
-  ["punk", /\bpunk\b|hardcore/i],
-  ["classical", /classical|baroque|orchestral|chamber music|opera/i],
+  { root: "metal", re: /metal|grindcore|powerviolence|sludge|\bdoom\b|mathcore/i, always: true },
+  { root: "punk", re: /\bpunk\b|hardcore|screamo/i },
+  { root: "classical", re: /classical|baroque|orchestral|chamber music|opera/i },
 ];
 
 function buildIndex(albums) {
@@ -175,7 +184,10 @@ function splitGenres(tags, index) {
   // so applying it here would give every shoegaze record "rock" and undo the
   // whole point of splitting rock up.
   const merged = lower.map((g) => ALIASES[g]).filter((r) => r && roots.has(r));
-  genre = [...new Set([...genre, ...merged])]
+  const family = FAMILIES
+    .filter((f) => f.always && roots.has(f.root) && lower.some((t) => f.re.test(t)))
+    .map((f) => f.root);
+  genre = [...new Set([...genre, ...merged, ...family])]
     .sort((a, b) => (index.freq.get(a) || 0) - (index.freq.get(b) || 0));
 
   // An album tagged only with styles still belongs somewhere: take the roots
@@ -186,8 +198,8 @@ function splitGenres(tags, index) {
   }
   // Still nothing: fall back to the family patterns.
   if (!genre.length) {
-    const family = FAMILIES.find(([, re]) => lower.some((t) => re.test(t)));
-    if (family) genre = [family[0]];
+    const rescue = FAMILIES.find((f) => lower.some((t) => f.re.test(t)));
+    if (rescue) genre = [rescue.root];
   }
 
   const chosen = new Set(genre);
@@ -195,8 +207,8 @@ function splitGenres(tags, index) {
   return { genre, style };
 }
 
-// The filter list: genres only, commonest first, and never the rescued family
-// terms, which are inferred rather than tagged.
+// The filter list: genres only, commonest first. An album rescued by a family
+// pattern counts under that family, which is always one of the roots anyway.
 function genreOptions(albums, index) {
   const counts = new Map();
   for (const a of albums) {

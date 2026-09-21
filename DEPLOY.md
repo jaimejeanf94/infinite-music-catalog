@@ -65,7 +65,13 @@ Currently any *authenticated* user can write. With sign-ups off that is only
 you, so this is hardening rather than a hole, but do it before sharing the link.
 
 Paste `db/local/public_hardening.sql` (step 2 already generated it) into the
-SQL editor and run it.
+SQL editor and run it. Its last query should list six policies, a read and a
+write on each of `albums`, `rolls` and `review_flags`.
+
+Run it again whenever a table is added, and after any re-run of
+`schema.sql` — which puts the open default policies back. `review_flags` was
+added after this step was first done and stayed outside it until it was
+re-run, readable by anyone holding the site's public key.
 
 Also confirm sign-ups are off: **Authentication** → **Sign In / Providers** →
 Email → **Allow new users to sign up: OFF**. Without this, a stranger can

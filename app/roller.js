@@ -2,9 +2,10 @@
 // (see scripts/test-roller.mjs).
 //
 // The sheet weighted by BUCKET, not by album: each score tier owns a fixed
-// slice of the odds and splits it evenly among its members. A 95 sits in a
-// 27-album tier holding 15% of the odds, so it comes up ~25x more often than
-// any given album would at random. That behaviour is preserved exactly.
+// slice of the odds and splits it evenly among its members. BUCKET_SHARE is
+// how the RATED side is divided -- a 95 tier holds 15% of it, so 11.25% of all
+// rolls at the default 25% unrated share -- and it is split among however few
+// albums sit in that tier. That behaviour is preserved exactly.
 //
 // What changed: the sheet's "100" tier also held all 4,076 unscored albums, so
 // a genuine 100 was diluted to the same odds as something never listened to.

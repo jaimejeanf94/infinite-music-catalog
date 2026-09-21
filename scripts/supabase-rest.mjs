@@ -17,7 +17,7 @@ export function requireEnv() {
     .filter((k) => !process.env[k]);
   if (missing.length) {
     console.error(`Missing environment variable(s): ${missing.join(", ")}`);
-    console.error("See the README section 'Running the scripts'.");
+    console.error("Copy .env.example to .env, fill it in, then: set -a && source .env && set +a");
     process.exit(1);
   }
 }

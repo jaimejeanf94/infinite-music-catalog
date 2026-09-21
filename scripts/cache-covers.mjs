@@ -11,8 +11,8 @@
 // and resizing would not.
 //
 // Re-running is safe and resumes: anything already pointing at Supabase is
-// skipped. The original URL is kept as cover_source_url so a cover can always
-// be re-fetched from the source.
+// skipped. The original URL is kept as cover_source_url in enrichment.json,
+// so a cover can always be re-fetched from the source.
 
 import { readFileSync, writeFileSync, renameSync } from "node:fs";
 import { createHash } from "node:crypto";
@@ -50,6 +50,24 @@ try {
 
 const store = JSON.parse(readFileSync(ENRICH, "utf8"));
 
+function parseCsv(text) {
+  const rows = [];
+  let row = [], cur = "", inQ = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (inQ) {
+      if (c === '"' && text[i + 1] === '"') { cur += '"'; i++; }
+      else if (c === '"') inQ = false;
+      else cur += c;
+    } else if (c === '"') inQ = true;
+    else if (c === ",") { row.push(cur); cur = ""; }
+    else if (c === "\n") { row.push(cur); rows.push(row); row = []; cur = ""; }
+    else if (c !== "\r") cur += c;
+  }
+  if (cur || row.length) { row.push(cur); rows.push(row); }
+  return rows;
+}
+
 // An mbid is a stable, unique name. The few covers that came from Deezer or
 // iTunes have no mbid, so they get a digest of the album key instead -- also
 // stable, and it keeps the filename safe without inventing a slug scheme.
@@ -59,22 +77,44 @@ const nameFor = (key, rec, ext) =>
 const extFor = (contentType) =>
   contentType?.includes("png") ? "png" : contentType?.includes("webp") ? "webp" : "jpg";
 
-const SUPA = process.env.SUPABASE_URL || "";
-const pending = Object.entries(store).filter(([, rec]) => {
-  const url = rec.cover_url;
-  if (!url) return false;
-  if (SUPA && url.startsWith(SUPA)) return false;    // already cached
-  return true;
-}).slice(0, LIMIT);
+// Recognised by the path rather than by SUPABASE_URL, so --dry-run gives the
+// right answer without credentials. Keyed on the env var, a dry run with no
+// .env loaded counted every cover in the catalogue as still to copy.
+const isCached = (url) => /\/storage\/v1\/object\/public\//.test(url || "");
+
+// The browser finds covers too. When an album has none, the app looks one up
+// -- the Cover Art Archive by id, or iTunes -- and saves the answer straight
+// to the database, where this script never looked: it only ever read
+// enrichment.json, whose record for that album still says "no cover". 36
+// albums were in that state, 11 of them on the Cover Art Archive's two
+// redirects, which is the exact latency this script exists to remove. So the
+// backup is read as well, and a cover found that way is adopted by the
+// album's record once it is cached. A cover you chose by hand is left alone:
+// it is yours, and import.mjs would not overwrite it with the cached copy.
+const [csvHead, ...csvRows] = parseCsv(readFileSync(new URL("albums.csv", DATA), "utf8"));
+const at = Object.fromEntries(csvHead.map((h, i) => [h, i]));
+const fromApp = new Map();
+for (const r of csvRows) {
+  const url = r[at.cover_url];
+  if (url && r[at.cover_locked] !== "true" && !isCached(url)) fromApp.set(`${r[at.artist]}::${r[at.title]}`, url);
+}
+
+// Records only: one is never invented here, because enrich.mjs reads "has a
+// record" as "already done" and would never look the album up.
+const pending = Object.entries(store).map(([key, rec]) => {
+  const src = rec.cover_url || fromApp.get(key);
+  return src && !isCached(src) ? { key, rec, src } : null;
+}).filter(Boolean).slice(0, LIMIT);
 
 const total = Object.values(store).filter((r) => r.cover_url).length;
-console.log(`${total} covers in the catalog, ${pending.length} to copy\n`);
+const adopted = pending.filter((p) => !p.rec.cover_url).length;
+console.log(`${total} covers in the catalog, ${pending.length} to copy` +
+            (adopted ? ` (${adopted} found by the app rather than by enrichment)` : "") + "\n");
 if (!pending.length) { console.log("nothing to do"); process.exit(0); }
 
 if (DRY) {
-  let bytes = 0;
-  for (const [key, rec] of pending.slice(0, 5))
-    console.log(`  ${key}\n    ${rec.cover_url}`);
+  for (const { key, src } of pending.slice(0, 5))
+    console.log(`  ${key}\n    ${src}`);
   console.log(`\n${pending.length} would be copied into the "${BUCKET}" bucket`);
   console.log(`estimated ~${Math.round(pending.length * 83 / 1024)} MB at the measured ~83KB average`);
   process.exit(0);
@@ -107,9 +147,9 @@ const save = () => {
   renameSync(tmp, ENRICH);
 };
 
-async function one([key, rec]) {
+async function one({ key, rec, src }) {
   try {
-    const res = await fetch(rec.cover_url, { redirect: "follow" });
+    const res = await fetch(src, { redirect: "follow" });
     if (!res.ok) throw new Error(`source ${res.status}`);
     const type = res.headers.get("content-type") || "image/jpeg";
     const buf = new Uint8Array(await res.arrayBuffer());
@@ -119,7 +159,8 @@ async function one([key, rec]) {
     const url = await store_.upload(BUCKET, path, buf, type);
 
     // Keep where it came from: a cached copy should always be re-derivable.
-    if (!rec.cover_source_url) rec.cover_source_url = rec.cover_url;
+    if (!rec.cover_source_url) rec.cover_source_url = src;
+    if (!rec.cover_url) rec.cover_from = "app";
     rec.cover_url = url;
     rec.cover_cached = new Date().toISOString().slice(0, 10);
     bytes += buf.byteLength;

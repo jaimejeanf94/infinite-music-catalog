@@ -13,30 +13,15 @@
 // applying to nobody.
 
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { requireEnv, signIn } from "./supabase-rest.mjs";
 
-const { SUPABASE_URL, SUPABASE_KEY, IMC_EMAIL, IMC_PASSWORD } = process.env;
-const missing = ["SUPABASE_URL", "SUPABASE_KEY", "IMC_EMAIL", "IMC_PASSWORD"]
-  .filter((k) => !process.env[k]);
-if (missing.length) {
-  console.error(`Missing ${missing.join(", ")}.`);
-  console.error("Try:  set -a && source .env && set +a && node scripts/fill-sql.mjs");
-  process.exit(1);
-}
+requireEnv();
 
 // The id is in the token itself, so there is no dashboard lookup to get wrong.
-const res = await fetch(`${SUPABASE_URL}/auth/v1/token?grant_type=password`, {
-  method: "POST",
-  headers: { apikey: SUPABASE_KEY, "Content-Type": "application/json" },
-  body: JSON.stringify({ email: IMC_EMAIL, password: IMC_PASSWORD }),
-});
-const json = await res.json();
-if (!res.ok) {
-  console.error(`Sign-in failed: ${json.error_description || json.msg || res.status}`);
-  process.exit(1);
-}
-const uid = JSON.parse(
-  Buffer.from(json.access_token.split(".")[1], "base64").toString()
-).sub;
+let token;
+try { token = await signIn(); }
+catch (e) { console.error(e.message); process.exit(1); }
+const uid = JSON.parse(Buffer.from(token.split(".")[1], "base64").toString()).sub;
 if (!/^[0-9a-f-]{36}$/.test(uid)) {
   console.error(`That token carries no usable user id (${uid}).`);
   process.exit(1);
@@ -54,6 +39,6 @@ for (const name of ["storage.sql", "public_hardening.sql"]) {
   console.log(`  db/local/${name}  — ${count} placeholder${count > 1 ? "s" : ""} filled`);
 }
 
-console.log(`\nSigned in as ${IMC_EMAIL}`);
+console.log(`\nSigned in as ${process.env.IMC_EMAIL}`);
 console.log(`Open the files in db/local/, paste each into the Supabase SQL editor, run.`);
 console.log(`They are gitignored, so nothing you paste can reach the public repo.`);

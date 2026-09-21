@@ -197,14 +197,6 @@ function AdminView({ albums, onPatch, onGo }) {
   // reload correctly forgets it.
   const [touched, setTouched] = React.useState(() => new Set());
 
-  // What an applied suggestion overwrote, for as long as the page is open.
-  // Undo on an applied row has to put the album back, not merely re-open the
-  // item: 38 of the 51 year gaps are MusicBrainz matching a reissue, so the
-  // suggestion is often the wrong answer, and once it is written the gap
-  // closes and the row stops being reported at all. An Undo that left the
-  // wrong year in place would be a one-click way to lose a correct one.
-  const undos = React.useRef(new Map());
-
   React.useEffect(() => {
     fetch("./health.json", { cache: "no-cache" })
       .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
@@ -226,12 +218,15 @@ function AdminView({ albums, onPatch, onGo }) {
       });
   }, []);
 
-  // artist+title -> the live album, so a row can reach the real id.
+  // artist+title -> the live album, so a row can reach the real id. And id ->
+  // album, for a row whose album has been renamed away from the name the row
+  // was raised against: its flag still remembers which album it was.
   const byName = React.useMemo(() => {
     const m = new Map();
     for (const a of albums || []) m.set(`${norm(a.artist)}::${norm(a.title)}`, a);
     return m;
   }, [albums]);
+  const byId = React.useMemo(() => new Map((albums || []).map((a) => [a.id, a])), [albums]);
 
   if (failed) {
     return (
@@ -250,22 +245,28 @@ function AdminView({ albums, onPatch, onGo }) {
     return { item: it, live, subject, flag: flags.get(flagKey(section.id, subject)) };
   });
 
+  // Every change to the verdicts is a functional update touching one key. It
+  // used to copy the `flags` this render had seen and write the copy back --
+  // which, from anything that awaited first (an apply, an undo), replaced the
+  // whole map with a stale snapshot, so a verdict clicked while the network
+  // was busy vanished from the screen until the next reload.
   const write = async (kind, subject, album_id, state) => {
     const key = flagKey(kind, subject);
-    const prev = flags.get(key);
-    const next = new Map(flags);
-    if (state) next.set(key, { kind, subject, album_id, state });
-    else next.delete(key);
-    setFlags(next);                       // optimistic: the click should land
+    let prev;
+    const put = (value) => setFlags((cur) => {
+      const next = new Map(cur);
+      if (value) next.set(key, value); else next.delete(key);
+      return next;
+    });
+    setFlags((cur) => { prev = cur.get(key); return cur; });
+    put(state ? { kind, subject, album_id, state } : null);   // optimistic: the click should land
     setTouched((t) => new Set(t).add(key));
     try {
       if (state) await window.db.setReviewFlag({ kind, subject, album_id, state });
       else await window.db.clearReviewFlag(kind, subject);
       setFlagErr("");
     } catch (e) {
-      const back = new Map(flags);        // put it back exactly as it was
-      if (prev) back.set(key, prev); else back.delete(key);
-      setFlags(back);
+      put(prev || null);                  // put this one back exactly as it was
       setFlagErr(e?.message || "That did not save.");
     }
   };
@@ -282,23 +283,31 @@ function AdminView({ albums, onPatch, onGo }) {
   const applyFix = async (kind, row) => {
     const { live, item, subject } = row;
     if (!live || !item.suggest) return;
-    const before = {};
-    for (const k of Object.keys(item.suggest)) before[k] = live[k] ?? null;
     if (await onPatch(live.id, item.suggest)) {
-      undos.current.set(flagKey(kind, subject), { id: live.id, before });
       await write(kind, subject, live.id, "dismissed");
     }
   };
 
-  // Undo on a row whose suggestion you applied rewinds the album too.
+  // Undo on a row whose fix you applied rewinds the album, not just the
+  // verdict: roughly three year gaps in four are MusicBrainz matching a
+  // reissue, so the suggestion is often the wrong answer, and once it is
+  // written the gap closes and the row is never reported again.
+  //
+  // Nothing here is remembered by the page. The row carries what the fix
+  // overwrote (`was`, from health-report.mjs) and the flag carries which
+  // album it was, so Undo works after a reload too -- it used to live in a
+  // map a reload threw away, leaving Undo to reopen the item while the new
+  // value stayed put. Whether the fix was applied is read off the album
+  // itself: if it still holds exactly the suggested value, the fix put it
+  // there. A row settled with Fine never touched the album, so its Undo
+  // only reopens the item.
   const undo = async (kind, row) => {
-    const key = flagKey(kind, row.subject);
-    const back = undos.current.get(key);
-    if (back) {
-      if (!(await onPatch(back.id, back.before))) return;
-      undos.current.delete(key);
-    }
-    await write(kind, row.subject, row.live?.id ?? null, null);
+    const { item, flag } = row;
+    const album = row.live || byId.get(flag?.album_id) || null;
+    const holdsFix = !!(album && item.suggest && item.was) &&
+      Object.entries(item.suggest).every(([k, v]) => String(album[k] ?? "") === String(v));
+    if (holdsFix && !(await onPatch(album.id, item.was))) return;
+    await write(kind, row.subject, album?.id ?? null, null);
   };
 
   const sections = health.sections.map((s) => ({ section: s, rows: rowsFor(s) }));

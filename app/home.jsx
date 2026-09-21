@@ -104,17 +104,37 @@ function HomeView({ albums, onGo }) {
         weekday: "long", day: "numeric", month: "long",
       }).format(new Date(daily.date + "T12:00:00"))
     : "";
-  const stale = daily?.date && daily.date !== new Date().toISOString().slice(0, 10);
+  // Stale means older than the viewer's own today. The picks are dated in
+  // UTC by the nightly run, and this used to compare against the UTC date
+  // too -- so from 6pm in Mexico City, when UTC has already rolled over, the
+  // front page announced that perfectly current picks were yesterday's, every
+  // evening. Dated AHEAD of the viewer (a run after UTC midnight) is not stale.
+  const d = new Date();
+  const today = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-` +
+                String(d.getDate()).padStart(2, "0");
+  const stale = !!daily?.date && daily.date < today;
 
-  const picks = daily?.picks || [];
+  // The five are a snapshot taken at night, so the page lays them over the
+  // live collection: rate the lead and come back, and it shows your score
+  // rather than the "unrated" it had at 1am. Which record LEADS is still
+  // decided by the snapshot, so rating it does not swap it for another.
+  const live = React.useMemo(() => {
+    const m = new Map();
+    for (const a of albums) m.set(`${a.artist}::${a.title}`, a);
+    return m;
+  }, [albums]);
+  const picks = (daily?.picks || []).map((p) => {
+    const now = live.get(`${p.artist}::${p.title}`);
+    return now ? { ...p, score: now.score, year: now.year, cover_url: now.cover_url || p.cover_url } : p;
+  });
   // First unrated, falling back to the first pick on a day that somehow has
   // none -- the page must still have a lead.
-  const leadAt = Math.max(0, picks.findIndex((p) => p.score == null));
+  const leadAt = Math.max(0, (daily?.picks || []).findIndex((p) => p.score == null));
   const lead = picks[leadAt];
   const rest = picks.filter((_, i) => i !== leadAt);
 
-  // The shelf's artist filter is exact, so this lands on the record rather
-  // than on whatever a title search happens to match.
+  // The shelf's artist filter is exact, so this lands on the artist's own
+  // records rather than on whatever a title search happens to match.
   const open = (a) => onGo("browse", { artist: a.artist });
 
   return (

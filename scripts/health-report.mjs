@@ -95,7 +95,12 @@ add("year-gap", "Year is far off MusicBrainz",
     // third is fixed by dismissing. So the row can offer the fix outright and
     // name the value it will write -- "Use 2001" is a decision you can make
     // from the list; "Apply" would not be.
-    suggest: { year: String(rec(a).mb_year) },
+    //
+    // `was` is what the fix overwrites. The screen's Undo puts it back, and
+    // because it travels with the row rather than living in the page, an
+    // Undo still rewinds the album after a reload.
+    suggest: { year: Number(rec(a).mb_year) },
+    was: { year: Number(a.year) },
     apply: `Use ${rec(a).mb_year}`,
   })),
   "recheck");
@@ -116,7 +121,9 @@ add("near-duplicate", "Possible duplicates",
   + "already excluded, so what is left is usually one album typed twice.",
   flagged.map(({ d, x, y }) => ({
     artist: x.artist, title: x.title,
-    note: `${d} char${d === 1 ? "" : "s"} from "${y.artist} — ${y.title}"`,
+    note: d === 0
+      ? `the same name as "${y.artist} — ${y.title}" once accents and punctuation are set aside`
+      : `${d} char${d === 1 ? "" : "s"} from "${y.artist} — ${y.title}"`,
   })), "merge");
 
 const reviewPath = new URL("rename-suggestions-review.json", DATA);
@@ -151,6 +158,7 @@ add("rename-review", "Name corrections held back",
     // Mulholland Drive" must stay rejected, and applying it renames the row
     // out from under any album-keyed flag.
     subject: `rename:${r.from}`,
+    was: { artist: r.from.split("::")[0], title: r.from.split("::").slice(1).join("::") },
     apply: "Rename",
   })), "rename");
 
@@ -191,7 +199,7 @@ function updateReadme() {
     "|---|---|",
     `| Albums | ${n(albums.length)} — ${n(new Set(albums.map((a) => a.artist)).size)} artists, ${Math.min(...years)}–${Math.max(...years)} |`,
     `| Rated | ${n(rated)}. The other ${Math.round((1 - rated / albums.length) * 100)}% is the point of the app |`,
-    `| Covers | ${n(albums.filter((a) => a.cover_url).length)}, every one cached and CDN-served |`,
+    `| Covers | ${n(albums.filter((a) => a.cover_url).length)} — ${n(albums.filter((a) => /\/storage\/v1\/object\/public\//.test(a.cover_url || "")).length)} of them cached and CDN-served |`,
     `| Genres | ${n(albums.filter((a) => a.genres.length).length)} tagged, ${genreCount} of them browsable |`,
     `| Matched to MusicBrainz | ${n(albums.filter((a) => rec(a).mbid).length)} |`,
     "| Cost to run | nothing — every service is on a free tier |",

@@ -109,9 +109,21 @@ if (iArtist === -1 || iTitle === -1) throw new Error("albums.csv has no artist/t
 const store = existsSync(ENRICH) ? JSON.parse(readFileSync(ENRICH, "utf8")) : {};
 
 // Index the CSV once: key -> line number.
+//
+// This edits the file line by line, which is only safe while every record is
+// one line. A note with a line break in it is written by export.mjs as one
+// quoted field spanning several lines, and rewriting just the first of them
+// would close the quote early and corrupt the record. So a line that opens a
+// quote it does not close is marked, along with the lines that continue it,
+// and a rename that would have to touch one is refused below.
 const lineOf = new Map();
+const spans = new Set();
+let open = false;
 for (let n = 1; n < lines.length; n++) {
+  const quotes = (lines[n].match(/"/g) || []).length;
+  if (open) { spans.add(n); if (quotes % 2) open = false; continue; }
   if (!lines[n].trim()) continue;
+  if (quotes % 2) { spans.add(n); open = true; }
   const f = parseLine(lines[n]);
   const k = `${f[iArtist]}::${f[iTitle]}`;
   if (!lineOf.has(k)) lineOf.set(k, n);
@@ -127,6 +139,10 @@ for (const { from, to, merge } of batch) {
   const [ta, tt] = split(to, "to");
   if (from === to) { problems.push(`no-op: ${from}`); continue; }
   if (!lineOf.has(from)) { problems.push(`not in albums.csv: ${from}`); continue; }
+  if (spans.has(lineOf.get(from)) || (willExist.has(to) && spans.has(lineOf.get(to)))) {
+    problems.push(`its row holds a note with a line break, which this script cannot rewrite safely -- rename it in the app: ${from}`);
+    continue;
+  }
   const targetExists = willExist.has(to);
   if (targetExists && !merge) {
     problems.push(`target already exists, add "merge": true if that is intended: ${to}`);
@@ -236,7 +252,7 @@ if (DB) {
   if (planned.some((p) => p.merge)) {
     console.error(
       "--db does not do merges: collapsing two database rows means deciding\n" +
-      "what happens to their rolls and plays. Do those by hand."
+      "what happens to the rolls logged against each. Do those by hand."
     );
     process.exit(1);
   }

@@ -33,6 +33,7 @@ const ENRICH = new URL("enrichment.json", DATA);
 const args = process.argv.slice(2);
 const LIMIT = Number(args.find((a) => a.startsWith("--limit="))?.split("=")[1] || Infinity);
 const OUT = args.find((a) => a.startsWith("--out="))?.split("=")[1] || "renames.json";
+const REVIEW = OUT.replace(/\.json$/, "-review.json");
 // Without a cooldown the nightly run cycles through the same unmatched albums
 // every few nights, repeating lookups that already came back with nothing.
 // Each album examined is stamped, and skipped until the stamp is this old. A
@@ -245,10 +246,28 @@ console.log(
   `\n  ${targets.length} to look at tonight` +
   (cooling ? `\n  ${cooling} looked at within the last ${AFTER_DAYS} days` : "") +
   (deferred ? `\n  ${deferred} due but over tonight's limit — next run` : "") + "\n");
+// The review pile is a standing list, not tonight's findings. It used to be
+// overwritten every run -- with this batch, or with [] on a night with nothing
+// due -- while every album examined was stamped and left alone for 30 days.
+// So a held-back suggestion was on the Fix screen for one day and then
+// vanished for a month: the pile went 102, 17, 10, 6, 5 and then 0, with most
+// of what it had held still unresolved on the shelf. Now tonight's verdicts
+// replace only the entries for albums examined tonight, and everything else
+// stays until you rename it or reject it on the Fix screen.
+const liveNames = new Set(rows.filter((r) => r[0]).map((r) => `${r[0]}::${r[1]}`));
+function keepReviewing(tonight) {
+  const examined = new Set(targets.map((a) => `${a.artist}::${a.title}`));
+  const before = existsSync(REVIEW) ? JSON.parse(readFileSync(REVIEW, "utf8")) : [];
+  const kept = before.filter((e) => !examined.has(e.from) && liveNames.has(e.from));
+  const merged = [...kept, ...tonight];
+  writeFileSync(REVIEW, JSON.stringify(merged, null, 1));
+  return { merged, carried: kept.length, pruned: before.length - kept.length };
+}
+
 if (!targets.length) {
   writeFileSync(OUT, "[]");
-  writeFileSync(OUT.replace(/\.json$/, "-review.json"), "[]");
-  console.log("nothing due for another look");
+  const { merged } = keepReviewing([]);
+  console.log(`nothing due for another look — ${merged.length} still waiting for your review`);
   process.exit(0);
 }
 
@@ -338,11 +357,11 @@ for (const [i, a] of targets.entries()) {
 writeFileSync(ENRICH, JSON.stringify(store, null, 1));
 
 writeFileSync(OUT, JSON.stringify(safe, null, 1));
-writeFileSync(OUT.replace(/\.json$/, "-review.json"), JSON.stringify(review, null, 1));
+const pile = keepReviewing(review);
 
 console.log(`\n=== confident (${safe.length}) -> ${OUT} ===`);
 for (const e of safe) console.log(`  ${e.from.replace("::", " — ")}\n    -> ${e.to.replace("::", " — ")}   [${e._pass} pass]`);
-console.log(`\n=== needs your eyes (${review.length}) -> ${OUT.replace(/\.json$/, "-review.json")} ===`);
+console.log(`\n=== needs your eyes (${review.length} new, ${pile.merged.length} waiting in all) -> ${REVIEW} ===`);
 for (const e of review) console.log(`  ${e.from.replace("::", " — ")}\n    -> ${e.to.replace("::", " — ")}   [${e._why}]`);
 console.log(`\n${nothing.length} genuinely not in MusicBrainz`);
 console.log(`${cosmetic} skipped as house style ("and" vs "&", quote characters)\n`);

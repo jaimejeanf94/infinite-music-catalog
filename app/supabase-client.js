@@ -54,21 +54,9 @@ const supabaseDb = {
   // ── reads ───────────────────────────────────────────────────────────────
   albums: fetchAllAlbums,
 
-  async recentRolls(limit = 40) {
-    const { data, error } = await sb
-      .from("rolls")
-      .select("id, album_id, mode, outcome, rolled_at")
-      .order("rolled_at", { ascending: false })
-      .limit(limit);
-    if (error) throw error;
-    return data;
-  },
-
   // ── writes (owner only — RLS rejects these when signed out) ─────────────
-  // One updater for every album edit. The whitelist keeps a stray key in a
-  // patch from reaching the database and erroring the whole write.
-  // Albums you add yourself. `source` marks them so the nightly sheet import
-  // leaves them alone.
+  // Albums you add yourself. `source` marks them as added here rather than
+  // carried over from the original spreadsheet.
   async addAlbum({ artist, title, year, score }) {
     const { data, error } = await sb.from("albums")
       .insert({ artist, title, year: year || null, score: score || null, source: "app" })
@@ -120,6 +108,8 @@ const supabaseDb = {
     return `${data.publicUrl}?v=${Date.now()}`;
   },
 
+  // One updater for every album edit. The whitelist keeps a stray key in a
+  // patch from reaching the database and erroring the whole write.
   async updateAlbum(id, patch) {
     // artist and title are editable here but not in local mode: in Postgres
     // the album's id is the identity and genres/mbid/cover_url are columns on
@@ -140,14 +130,13 @@ const supabaseDb = {
     if (error) throw error;
   },
 
+  // Every roll is logged, and nothing in the app reads the log back. Kept as
+  // data rather than a feature: it is the one record of what the randomiser
+  // actually served, and a screen for it is a later decision. The reader and
+  // the "played/skipped" outcome setter that went with it were never called,
+  // so they are gone.
   async logRoll(album_id, mode) {
-    const { data, error } = await sb
-      .from("rolls").insert({ album_id, mode }).select("id").single();
-    if (error) throw error;
-    return data.id;
-  },
-  async setRollOutcome(id, outcome) {
-    const { error } = await sb.from("rolls").update({ outcome }).eq("id", id);
+    const { error } = await sb.from("rolls").insert({ album_id, mode });
     if (error) throw error;
   },
 

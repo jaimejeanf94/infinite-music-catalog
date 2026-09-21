@@ -44,6 +44,11 @@ function RollView({ albums, owner, onPatch, onRoll, params, setParams }) {
   // score set here shows up immediately on the card.
   const album = current ? albums.find((a) => a.id === current.id) || current : null;
 
+  // Built once per collection, not on every render. This screen re-renders on
+  // every keystroke and every flash message, and rebuilding the genre index
+  // walks all four thousand albums and every pair of their tags each time.
+  const genreIndex = React.useMemo(() => Genres.buildIndex(albums), [albums]);
+
   const spin = React.useCallback(() => {
     const pick = Roller.roll(albums, {
       mode,
@@ -78,6 +83,9 @@ function RollView({ albums, owner, onPatch, onRoll, params, setParams }) {
 
   const score = (value) => {
     if (!album || !owner) return;
+    // 0 on an unrated album arrives here as score(null): nothing to clear, so
+    // no write and no "Score cleared" for a score that never existed.
+    if (value == null && album.score == null) return;
     onPatch(album.id, { score: album.score === value ? null : value });
     setFlash(album.score === value ? "Score cleared" : `Scored ${value}`);
   };
@@ -86,6 +94,10 @@ function RollView({ albums, owner, onPatch, onRoll, params, setParams }) {
   React.useEffect(() => {
     const onKey = (e) => {
       if (e.target.matches("input, textarea, select")) return;
+      // Cmd/Ctrl+1-9 is the browser's own "go to tab". Without this the
+      // keystroke scored the album on screen AND was swallowed, so switching
+      // tabs from the Roll screen quietly rated whatever happened to be up.
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
       const n = Number(e.key);
       if (n >= 1 && n <= 7) { e.preventDefault(); return score(SCORES[n - 1]); }
       if (e.key === "0") { e.preventDefault(); return score(album?.score); }
@@ -102,9 +114,9 @@ function RollView({ albums, owner, onPatch, onRoll, params, setParams }) {
   }, [flash]);
 
   // "Played it" and "Not for the pool" used to sit beside Roll again. Rating
-  // an album already says you heard it, and taking one out of the pool is a
-  // rare, deliberate act that belongs on the album's own sheet rather than a
-  // keystroke away from the roll you are about to replace.
+  // an album already says you heard it, and the pool itself is gone: every
+  // album is eligible, and one you never want to see again is deleted from
+  // its sheet, which can be undone.
   if (!album) return <div className="empty">Shuffling…</div>;
 
   const searchUrl = (svc) => {
@@ -160,7 +172,7 @@ function RollView({ albums, owner, onPatch, onRoll, params, setParams }) {
           {album.genres?.length > 0 && (
             <GenreLines
               album={album}
-              index={Genres.buildIndex(albums)}
+              index={genreIndex}
               onGenre={(g) => { location.hash = `#/browse?genre=${encodeURIComponent(g)}`; }}
             />
           )}

@@ -107,41 +107,47 @@ export function loadAlbums() {
 
 export function findDuplicates(albums) {
 
-// ── 1. blocking ────────────────────────────────────────────────────────────
-const blocks = new Map();
-const addTo = (k, a) => { if (!blocks.has(k)) blocks.set(k, []); blocks.get(k).push(a); };
-for (const a of albums) {
-  addTo("a:" + norm(a.artist).slice(0, 4), a);
-  addTo("t:" + norm(a.title).slice(0, 5), a);
-}
+  // ── 1. blocking ────────────────────────────────────────────────────────────
+  const blocks = new Map();
+  const addTo = (k, a) => { if (!blocks.has(k)) blocks.set(k, []); blocks.get(k).push(a); };
+  for (const a of albums) {
+    addTo("a:" + norm(a.artist).slice(0, 4), a);
+    addTo("t:" + norm(a.title).slice(0, 5), a);
+  }
 
-const seen = new Set();
-const flagged = [];
-let compared = 0;
+  const seen = new Set();
+  const flagged = [];
+  let compared = 0;
 
-for (const bucket of blocks.values()) {
-  if (bucket.length > 400) continue;   // a bucket that big is a prefix, not a clue
-  for (let i = 0; i < bucket.length; i++) {
-    for (let j = i + 1; j < bucket.length; j++) {
-      const [x, y] = [bucket[i], bucket[j]];
-      const pair = x.key < y.key ? x.key + "≠" + y.key : y.key + "≠" + x.key;
-      if (seen.has(pair)) continue;
-      seen.add(pair);
-      compared++;
+  for (const bucket of blocks.values()) {
+    if (bucket.length > 400) continue;   // a bucket that big is a prefix, not a clue
+    for (let i = 0; i < bucket.length; i++) {
+      for (let j = i + 1; j < bucket.length; j++) {
+        const [x, y] = [bucket[i], bucket[j]];
+        const pair = x.key < y.key ? x.key + "≠" + y.key : y.key + "≠" + x.key;
+        if (seen.has(pair)) continue;
+        seen.add(pair);
+        compared++;
 
-      if (x.key === y.key) continue;          // identical: the database blocks these
-      if (x.work === y.work) continue;        // 2. a deliberate multi-part set
+        // Identical once accents, punctuation and spacing are stripped -- which
+        // the database does NOT block: its unique index is on lower(artist),
+        // lower(title), so it catches "slowdive" against "Slowdive" and nothing
+        // else. "Bjork — Medula" and "Björk — Medúlla" differ in two characters
+        // there and in none here, and this line used to wave them through as
+        // "the database blocks these". They are the likeliest duplicates of all.
+        if (x.key === y.key) { flagged.push({ d: 0, x, y }); continue; }
+        if (x.work === y.work) continue;        // 2. a deliberate multi-part set
 
-      // Tolerance scales with length: two characters is a typo in a long
-      // name and a different album entirely in a short one ("qp" vs "0").
-      const shortest = Math.min(norm(x.title).length, norm(y.title).length);
-      const allowed = shortest <= 6 ? 1 : MAX_DISTANCE;
+        // Tolerance scales with length: two characters is a typo in a long
+        // name and a different album entirely in a short one ("qp" vs "0").
+        const shortest = Math.min(norm(x.title).length, norm(y.title).length);
+        const allowed = shortest <= 6 ? 1 : MAX_DISTANCE;
 
-      const d = damerau(x.key, y.key);
-      if (d <= allowed) flagged.push({ d, x, y });
+        const d = damerau(x.key, y.key);
+        if (d <= allowed) flagged.push({ d, x, y });
+      }
     }
   }
-}
   return { flagged, compared, albums };
 }
 
@@ -152,15 +158,15 @@ const RUN_DIRECTLY = process.argv[1] && import.meta.url.endsWith(
 if (RUN_DIRECTLY) report();
 
 function report() {
-const { flagged, compared, albums } = findDuplicates(loadAlbums());
+  const { flagged, compared, albums } = findDuplicates(loadAlbums());
 
-flagged.sort((a, b) => a.d - b.d);
-console.log(`${albums.length} albums, ${compared.toLocaleString()} pairs compared`);
-console.log(`${flagged.length} possible duplicates (differing by ${MAX_DISTANCE} characters or fewer)\n`);
-for (const { d, x, y } of flagged) {
-  console.log(`  ${d} char${d === 1 ? "" : "s"} apart`);
-  console.log(`     ${x.artist} — ${x.title}${x.year ? ` (${x.year})` : ""}${x.score ? `  [${x.score}]` : ""}`);
-  console.log(`     ${y.artist} — ${y.title}${y.year ? ` (${y.year})` : ""}${y.score ? `  [${y.score}]` : ""}\n`);
-}
-if (!flagged.length) console.log("  nothing suspicious — every near-match is a deliberate multi-part set");
+  flagged.sort((a, b) => a.d - b.d);
+  console.log(`${albums.length} albums, ${compared.toLocaleString()} pairs compared`);
+  console.log(`${flagged.length} possible duplicates (differing by ${MAX_DISTANCE} characters or fewer)\n`);
+  for (const { d, x, y } of flagged) {
+    console.log(`  ${d} char${d === 1 ? "" : "s"} apart`);
+    console.log(`     ${x.artist} — ${x.title}${x.year ? ` (${x.year})` : ""}${x.score ? `  [${x.score}]` : ""}`);
+    console.log(`     ${y.artist} — ${y.title}${y.year ? ` (${y.year})` : ""}${y.score ? `  [${y.score}]` : ""}\n`);
+  }
+  if (!flagged.length) console.log("  nothing suspicious — every near-match is a deliberate multi-part set");
 }

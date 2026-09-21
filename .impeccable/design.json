@@ -342,7 +342,7 @@
       "kind": "chip",
       "refersTo": "chip-genre",
       "description": "A pill means a word you can act on; a style is description, so it is plain serif text on middots, never a pill.",
-      "html": "<div class=\"ds-taxo\"><span class=\"ds-taxo-label\">Genre</span><button class=\"ds-genre\">black metal</button><button class=\"ds-genre\">metal</button></div><div class=\"ds-taxo\"><span class=\"ds-taxo-label\">Style</span><span class=\"ds-style\">post-metal</span><span class=\"ds-style\">blackgaze</span></div>",
+      "html": "<div class=\"ds-taxo\"><span class=\"ds-taxo-label\">Genre</span><button class=\"ds-genre\">metal</button></div><div class=\"ds-taxo\"><span class=\"ds-taxo-label\">Style</span><span class=\"ds-style\">black metal</span><span class=\"ds-style\">post-metal</span><span class=\"ds-style\">blackgaze</span></div>",
       "css": ".ds-taxo { display: flex; align-items: baseline; gap: 10px; margin-bottom: 8px; } .ds-taxo-label { font-family: var(--mono, 'JetBrains Mono', ui-monospace, Menlo, monospace); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-dim, #9a938a); flex: 0 0 42px; } .ds-genre { font-size: 12px; font-weight: 600; color: var(--ink-dim, #9a938a); background: #232220; border: 1px solid var(--line, #34322e); padding: 3px 9px; border-radius: 999px; cursor: pointer; } .ds-genre:hover { border-color: var(--accent, #d8321f); color: var(--ink, #efe9dd); } .ds-style { color: var(--ink-dim, #9a938a); font-family: var(--body, Newsreader, Georgia, serif); font-size: 14px; } .ds-style + .ds-style::before { content: \"·\"; margin-right: 7px; color: var(--line, #34322e); }"
     },
     {

@@ -3,6 +3,22 @@
 const BROWSE_SCORES = [70, 75, 80, 85, 90, 95, 100];
 const CHUNK = 60;   // tiles rendered per "page" — 4.4k at once would crawl
 
+// Compare names the way a person reads them. 47 albums once carried a
+// NON-BREAKING space (U+00A0) around the ampersand in a collaboration --
+// "Brian Eno\u00a0& Harold Budd" -- carried in from the original
+// spreadsheet, and typing the name with an ordinary space matched nothing, so
+// 38 artists were unsearchable by their own names. The data has been cleaned,
+// but a name pasted into the app can bring one straight back, so every kind
+// of space still collapses to one here, and the curly quotes and dashes that
+// arrive with them are folded to their plain forms.
+const loose = (s) => (s || "")
+  .toLowerCase()
+  .replace(/[\u2018\u2019]/g, "'")
+  .replace(/[\u201c\u201d]/g, '"')
+  .replace(/[\u2013\u2014]/g, "-")
+  .replace(/\s+/g, " ")
+  .trim();
+
 // Tiles sit at slightly different heights, like records pushed unevenly into a
 // shelf. The offset is derived from the album id rather than chosen at random,
 // so a given album always sits at the same height and the wall does not
@@ -23,21 +39,6 @@ const CHUNK = 60;   // tiles rendered per "page" — 4.4k at once would crawl
 // The ceiling is 16px. A transform does not affect layout, so everything here
 // is borrowed from the row gap below: a tile pushed 16px down can meet one
 // pulled 16px up, and .grid has to cover the whole 32px and still leave air.
-// Compare names the way a person reads them. 47 albums here carry a
-// NON-BREAKING space (U+00A0) around the ampersand in a collaboration --
-// "Brian Eno\u00a0& Harold Budd", "Bob Dylan\u00a0& The Band" -- almost
-// certainly from the original spreadsheet. Typing that name with an ordinary
-// space matched nothing at all, which made 38 artists unsearchable by their
-// own names. Every kind of space collapses to one here, and the curly quotes
-// and dashes that arrive with them are folded to their plain forms.
-const loose = (s) => (s || "")
-  .toLowerCase()
-  .replace(/[\u2018\u2019]/g, "'")
-  .replace(/[\u201c\u201d]/g, '"')
-  .replace(/[\u2013\u2014]/g, "-")
-  .replace(/\s+/g, " ")
-  .trim();
-
 const LIFTS = [16, 10, 14, 8, 15, 11, 13];
 
 // A little sideways drift as well, so the wall reads as a collage rather than
@@ -52,7 +53,7 @@ const drift = (id) => slot(id, DRIFTS);
 
 // Genre is what you browse by; style is what the record actually is. Clicking a
 // genre filters; a style is not a filter -- half of them sit on one album -- so
-// it runs a search instead.
+// it is plain text rather than something that looks pressable.
 function GenreLines({ album, index, onGenre }) {
   const { genre, style } = Genres.splitGenres(album.genres, index);
   if (!genre.length && !style.length) return null;
@@ -319,8 +320,9 @@ function Detail({ album, owner, onPatch, onDelete, onClose, index, onGenre, onAr
               {/* The artist is the one piece of an album that is shared with
                   other albums, so it is the obvious thing to pivot on: seeing
                   a record should make the rest of the shelf by that artist one
-                  click away. It searches rather than filtering, because search
-                  already matches the artist column and needs no new state. */}
+                  click away. It sets the exact artist filter rather than a
+                  search -- see the note on `artist` in BrowseView for why a
+                  substring search is the wrong tool for a name. */}
               <button className="card__artist card__artist--link"
                       onClick={() => onArtist?.(album.artist)}
                       title={`Show everything by ${album.artist}`}>
@@ -362,7 +364,14 @@ function Detail({ album, owner, onPatch, onDelete, onClose, index, onGenre, onAr
             <>
               <label className="field">
                 <span>Cover image {album.cover_locked && <b>— yours, kept</b>}</span>
+                {/* Keyed on the cover itself. This is an uncontrolled input,
+                    so defaultValue is read once, at mount -- and a cover the
+                    app found while the sheet was open (a new album has none
+                    until the nightly run) left the field showing the old
+                    value, which the next blur then wrote back over the new
+                    one. A new key remounts it with the current cover. */}
                 <input
+                  key={album.cover_url || ""}
                   id={`cover-${album.id}`}
                   defaultValue={album.cover_url || ""}
                   placeholder="Paste an image URL to override"
@@ -446,11 +455,11 @@ function Detail({ album, owner, onPatch, onDelete, onClose, index, onGenre, onAr
   );
 }
 
-// Genre filter. There are already 216 distinct genres and half of them sit on
-// two albums or fewer, so a dropdown is the wrong control: the list is too long
-// to scan and most of it is too specific to browse for. Instead the common ones
-// are offered first, ranked by how much of YOUR collection they cover, and
-// typing reaches the tail.
+// Genre filter. The options are genres.js's roots -- 26 of them today, from
+// rock on well over half the shelf down to a handful on a few dozen albums --
+// so a plain dropdown would be scanned top to bottom every time. Instead they
+// are offered ranked by how much of YOUR collection they cover, with a count
+// beside each, and typing narrows them.
 //
 // Built as a real combobox rather than a native <select> so it can show counts
 // and be searched -- which means the keyboard behaviour is ours to implement.
@@ -557,7 +566,13 @@ function AddAlbum({ albums, onAdd, onClose }) {
       await onAdd({ artist: artist.trim(), title: title.trim(), year: year ? Number(year) : null, score });
       onClose();
     } catch (e2) {
-      setErr(e2.message || String(e2));
+      // The database's unique index covers deleted albums too, and the check
+      // above only sees the live shelf -- so re-adding something you deleted
+      // used to surface as a raw constraint violation. It is already there;
+      // say where.
+      setErr(e2?.code === "23505" || /albums_artist_title_key|duplicate key/i.test(e2?.message || "")
+        ? "That album is already in the collection, in Deleted — restore it from the Deleted filter instead."
+        : e2.message || String(e2));
       setBusy(false);
     }
   };
@@ -747,8 +762,15 @@ function BrowseView({ albums, owner, onPatch, onAdd, onDelete, onRestore,
                 <em>{a.artist}{a.year ? ` · ${a.year}` : ""}</em>
               </div>
               {a.score != null && <span className="badge badge--sm">{a.score}</span>}
+              {/* The list is fetched once and kept, so a restored album
+                  stayed in it with its Restore button still showing, and the
+                  press looked like it had done nothing. Drop it on success. */}
               <button className="btn btn--sm" disabled={!owner}
-                      onClick={() => onRestore(a.id)}>Restore</button>
+                      onClick={async () => {
+                        if (await onRestore(a.id)) {
+                          setDeleted((list) => (list || []).filter((x) => x.id !== a.id));
+                        }
+                      }}>Restore</button>
             </div>
           ))}
         </div>

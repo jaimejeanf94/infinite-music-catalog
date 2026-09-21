@@ -11,7 +11,7 @@ Live at **<https://infinite-music-catalog.vercel.app>**.
 |---|---|
 | Albums | 4,418 — 2,184 artists, 1953–2026 |
 | Rated | 397. The other 91% is the point of the app |
-| Covers | 4,418, every one cached and CDN-served |
+| Covers | 4,418 — 4,382 of them cached and CDN-served |
 | Genres | 4,418 tagged, 26 of them browsable |
 | Matched to MusicBrainz | 4,281 |
 | Cost to run | nothing — every service is on a free tier |
@@ -89,10 +89,14 @@ Built for speed: one album, one keystroke, next.
 | `0` | Clear the score |
 | `space` / `enter` | Roll again |
 
-Three modes. **Weighted** is the day-to-day roll (section 6). **Unrated** draws
-only from albums with no score — the mode for working through the backlog.
-**Uniform** gives every album equal odds. Switching mode rolls immediately
-rather than leaving the last album on screen.
+Three modes. **Uniform** is the default and gives every album equal odds:
+with 91% of the shelf unrated, a weighted roll spends most of its odds on one
+enormous unrated tier anyway, so it would behave almost like uniform while
+looking as if it knew something. **Weighted** favours what you rated highly
+(section 6). **Unrated** draws only from albums with no score — the mode for
+working through the backlog. Switching mode rolls immediately rather than
+leaving the last album on screen. The number keys ignore Cmd and Ctrl, so
+switching browser tabs never rates the album on screen.
 
 ### Shelf — browsing
 
@@ -103,7 +107,7 @@ because four thousand at once crawls.
 
 - **+ Add album** — artist and title required, year and score optional.
   Duplicates are refused by the database and caught in the form first, so it
-  names the album that clashes.
+  names the album that clashes — and one you deleted points you at Restore.
 - **Delete** — two taps, no browser dialog. Never destructive (section 5).
 - **Cover image** — paste a URL in the detail sheet to override the artwork.
   That sets `cover_locked` and the nightly run stops touching it.
@@ -117,20 +121,23 @@ concrete suggestion, the fix itself:
 - **Apply** — the button names the value it will write (`Use 2001`, `Rename`),
   never a bare "Apply", so you can settle an item without opening the record to
   find out what you just agreed to. Undo rewinds the album, not just the
-  verdict, for as long as the page is open.
+  verdict — and still does after a reload, because each row carries the value
+  its fix overwrote.
 - **Fine** / **Reject** — checked, nothing wrong. The row leaves the list.
 - **Flag** — something *is* wrong, keep it in front of me. It pins to the top,
   still counts, and keeps its fix button.
 
 Verdicts live in `review_flags`, so a settled row stays settled. Rows settled
 on an earlier visit leave the list entirely; a control at its foot brings them
-back when you want to undo one.
+back when you want to undo one. Held-back renames stay on the list until you
+rename or reject them — the nightly run adds to that pile, it never replaces
+it.
 
 **Genre and style are separate things.** Genre is what you browse by; style is
 what the record actually is. Deafheaven's *Lonely People With Power* is genre
-`black metal`, style `post-metal, blackgaze`. Genres are chips you can click to
-filter; styles are plain text, because half of them sit on two albums or fewer
-and a bordered pill reads as something you can press.
+`metal`, style `black metal, post-metal, blackgaze`. Genres are chips you can
+click to filter; styles are plain text, because half of them sit on two albums
+or fewer and a bordered pill reads as something you can press.
 
 The split is computed from your collection rather than imported, because no
 source provides a usable one. MusicBrainz tags are a flat list of 2,200 names
@@ -139,23 +146,32 @@ kind of metal, shoegaze and post-punk under "Rock" — too coarse to browse by.
 Rate Your Music has the best taxonomy, no public API, and a robots.txt that
 prohibits automated access outright.
 
-So `app/genres.js` applies three rules to the ~700 distinct tags on the shelf:
+So `app/genres.js` works from a short fixed list of 26 **roots** — rock split
+into the scenes big enough to stand alone here (indie rock, post-punk,
+metal…), plus electronic, jazz, hip hop and the rest — and decides an album's
+genres in four steps across the ~700 distinct tags on the shelf:
 
-1. A tag is a **genre** if enough albums here carry it. The bar is relative to
-   the collection, so `post-rock`, `idm` and `krautrock` stay genres instead of
-   collapsing into "rock".
-2. A few tags sit on so many albums they say nothing when anything better is
-   present — `rock` is on Nails' grindcore record. Those are dropped when the
-   album has something specific and kept when it does not, which is why
-   Pavement is still `rock, indie rock`.
-3. An album left with nothing gets a family inferred from its tags.
-   MusicBrainz has no plain `metal` tag, so Nails would otherwise have no genre
-   at all. It reads genre `metal`, style `grindcore, powerviolence`.
+1. Every root the album is tagged with, plus the root any of its tags is an
+   **alias** of: soul *is* r&b, afrobeat *is* African. Pavement is tagged
+   `rock, indie rock, lo-fi`, so it reads genre `indie rock, rock`, style
+   `lo-fi`.
+2. **`metal`** if it carries any metal subgenre, whatever else it carries.
+   MusicBrainz tags black metal as "black metal", rarely as "metal", and most
+   metal records here also carry "rock" — so until this rule existed, 306 of
+   the 525 metal records were missing from the metal filter. Nails' grindcore
+   record reads genre `metal, rock`, style `grindcore, powerviolence`.
+3. Still nothing: the roots its styles attach to — a style belongs to the
+   narrowest root it shares at least 40% of its albums with. A record tagged
+   only `shoegaze, dream pop` is a rock record, and findable as one.
+4. Still nothing: a family pattern. Hardcore is punk; baroque is classical.
 
-That leaves 26 browsable genres, `rock` and `electronic` the largest by some
-way, then `pop`, `indie rock`, `alternative rock` and `hip hop`. The filter is
-a combobox rather than a dropdown, opened ranked by how much of the collection
-each covers. `node scripts/genre-report.mjs` prints the current shape.
+Everything else is a style. Whether a style has grown big enough to deserve
+its own root is a judgement, so `node scripts/genre-report.mjs` reports it and
+never edits the list.
+
+The filter offers all 26, `rock` and `electronic` the largest by some way. It
+is a combobox rather than a dropdown, opened ranked by how much of the
+collection each covers.
 
 ---
 
@@ -181,11 +197,11 @@ at 07:00 UTC, whether or not your computer is on. Section 4 has the detail.
 | Script | What it does |
 |---|---|
 | `export.mjs` | Database → `data/albums.csv`. Runs twice: once before the work and once after, so the committed backup reflects what the run actually did |
-| `suggest-renames.mjs` | Works out what a misspelt album really is. Confident corrections go to `rename.mjs`; anything uncertain lands in `data/rename-suggestions-review.json` for the Fix screen |
+| `suggest-renames.mjs` | Works out what a misspelt album really is. Confident corrections go to `rename.mjs`; anything uncertain joins the standing pile in `data/rename-suggestions-review.json`, which the Fix screen shows until you rename or reject each one |
 | `rename.mjs` | Applies a rename across both halves of an album's identity — the row *and* its enrichment record |
 | `enrich.mjs` | Genres, artwork and MusicBrainz ids. The big one (388 lines), and the only script that talks to four external services |
-| `cache-covers.mjs` | Copies newly-found artwork into Supabase Storage and rewrites `cover_url` to point there |
-| `import.mjs` | Pushes genres and artwork back into Postgres |
+| `cache-covers.mjs` | Copies artwork into Supabase Storage and rewrites `cover_url` to point there — both what enrichment found and what the app found on its own for albums enrichment could not cover. A cover you chose by hand is left alone |
+| `import.mjs` | Pushes artwork, and genres for albums that have none, back into Postgres. Never overwrites a genre you edited in the app. Also the restore tool — see section 5 |
 | `genre-report.mjs` | Reports whether any style has outgrown the fixed `ROOTS` list. Reports only — that call is a judgement, not a rule |
 | `health-report.mjs` | Writes `app/health.json`, the Fix screen's list. Runs `find-duplicates` itself |
 | `daily-picks.mjs` | Writes `app/daily.json`, tomorrow's five |
@@ -197,7 +213,7 @@ reads have changed. Holds no secrets and finishes in seconds.
 
 | Script | What it does |
 |---|---|
-| `check-app.mjs` | Compiles every `.jsx` with the same Babel the browser loads. Without it a syntax error ships and arrives as a blank page. Exits 2 rather than 1 when the CDN is unreachable, so "I could not check" never reads as "your code is broken" |
+| `check-app.mjs` | Compiles every `.jsx` that `index.html` loads, with the same Babel the browser loads. Without it a syntax error ships and arrives as a blank page. Exits 2 rather than 1 when the CDN is unreachable, so "I could not check" never reads as "your code is broken" |
 | `test-roller.mjs` | 200,000 rolls against the real collection, checking every figure in section 6's table. The weighting is the one piece of logic that can be wrong without *looking* wrong — a bad edit still rolls albums, just at the wrong odds |
 
 ### You run by hand, when you need them
@@ -206,7 +222,7 @@ reads have changed. Holds no secrets and finishes in seconds.
 |---|---|
 | `rename.mjs` | Correcting one name from the terminal (see below) |
 | `find-duplicates.mjs` | Reading the near-duplicate report in full, rather than the Fix screen's summary |
-| `export.mjs` / `import.mjs` | Taking a backup now; restoring one with `git checkout <commit> -- data/albums.csv && node scripts/import.mjs` |
+| `export.mjs` / `import.mjs --restore` | Taking a backup now; putting one back (section 5) |
 | `enrich.mjs` | Forcing a backfill: `--limit=N`, `--retry`, `--prune` |
 | `check-db.mjs` | After pasting SQL into the Supabase editor, where a failed statement is easy to miss. Reads only, apart from one probe row it writes and removes again to prove the policies let you write as well as read |
 
@@ -274,10 +290,11 @@ enrichment store in memory and would overwrite the changes on its next save.
 6. **Export again** — so the committed backup reflects what this run just did,
    rather than the state before it started
 7. **Reports** — genre roots, the Fix list, tomorrow's five
-8. **Commit** — `data/albums.csv`, `app/daily.json`, `app/health.json`
+8. **Commit** — `data/albums.csv`, `app/daily.json`, `app/health.json`, and
+   the README's opening table
 
 Step 8 is the point: `git log data/albums.csv` is a dated history of the
-collection, and restoring a bad week is a checkout and an import.
+collection, and any night of it can be put back (section 5).
 
 Both database steps are skipped when the Supabase secrets are absent, so the
 workflow was useful before the database existed. There is a **Run workflow**
@@ -302,7 +319,27 @@ run cannot bring it back.
 
 To undo, open **Shelf → Deleted** and press Restore. Score, notes and artwork
 come back, because they never went anywhere. Local mode behaves identically,
-with the tombstone as a list of ids in `localStorage`.
+with the tombstone kept in `localStorage`.
+
+### Putting a backup back
+
+Every night's `albums.csv` is in git, so any night can be restored — a week of
+wrong scores, a bad bulk edit, a deletion you regret:
+
+```sh
+git checkout <commit> -- data/albums.csv
+node scripts/import.mjs --restore --dry-run   # read what it would change
+node scripts/import.mjs --restore
+git checkout HEAD -- data/albums.csv          # the next export rewrites it anyway
+```
+
+`--restore` puts back the fields that are yours on every album the backup and
+the database share — year, score, notes, genres, and a cover you had chosen —
+brings back anything the backup had that has since been deleted, and adds any
+album missing altogether. It never removes one: an album added after the
+backup was taken is left where it is. Without the flag, `import.mjs` only adds
+missing albums and pushes enrichment, which is why a restore used to restore
+nothing.
 
 ### The data model
 
@@ -310,6 +347,7 @@ with the tombstone as a list of ids in `localStorage`.
 albums    artist, title, year, score, notes, genres, mbid,
           cover_url, cover_locked, source, deleted_at
 rolls     album_id, mode, outcome, rolled_at     -- what the randomiser served
+review_flags  kind, subject, album_id, state    -- your verdicts on the Fix list
 ```
 
 `score` is `NULL` until you rate it, and stays distinct from 100 on purpose —
@@ -320,7 +358,8 @@ spreadsheet or was added in the app.
 |---|---|---|
 | artist, title, year | you | **never** |
 | score, notes | you | **never** |
-| genres, mbid | enrichment | yes — refreshed |
+| mbid | enrichment | yes — refreshed |
+| genres | enrichment, then you | **filled when empty**; replaced only if the album is matched to a different record |
 | cover_url | enrichment, or you | **yours is kept** (`cover_locked`) |
 | deleted_at | you | never resurrected |
 
@@ -331,10 +370,14 @@ album slid into the slot. Local edits, tombstones and enrichment all key on
 `artist::title` instead, which is why renaming goes through `rename.mjs` rather
 than an editor.
 
-Schema changes live in `db/migrations/`, one dated file each. `db/schema.sql`
-uses `create table if not exists`, so editing a column into it does nothing on
-a database that already exists — it is documentation of what should be there,
-not a thing you re-run.
+`rolls` is written on every spin you make and read by nothing yet — kept as
+the one record of what the randomiser actually served.
+
+Schema changes live in `db/migrations/`, one dated file each, and are folded
+into `db/schema.sql` too, so that file still builds the whole database. It uses
+`create table if not exists`, so editing a column into it does nothing on a
+database that already exists — and re-running it resets the security rules to
+their open defaults, so `public_hardening.sql` has to follow it.
 
 ---
 
@@ -517,13 +560,17 @@ project with root directory `app` and no build command, so every push
 redeploys.
 
 Before making anything public, run `db/public_hardening.sql` with your user id
-pasted in. Without it, writes are allowed for any *signed-in* user — safe only
-because sign-ups are off, which is one checkbox between the collection and
-anyone who wants to edit it. The hardening file names exactly one user id and
-closes read access on `rolls`, the only personal data here.
+pasted in (`node scripts/fill-sql.mjs` writes a filled copy to `db/local/`).
+Without it, writes are allowed for any *signed-in* user — safe only because
+sign-ups are off, which is one checkbox between the collection and anyone who
+wants to edit it. The hardening file names exactly one user id for every
+write, and closes reads on `rolls` and `review_flags` to everyone but you.
 
-Then prove it: open the deployed site **signed out** and run
-`await db.updateAlbum(1, { score: 70 })` in the console. It must fail.
+It is safe to run again, and it has to be whenever a table is added —
+`review_flags` arrived after it was first run and sat outside it, readable by
+anyone with the site's public key. Then prove it: open the deployed site
+**signed out** and run `await db.updateAlbum(1, { score: 70 })` in the
+console. It must fail.
 
 ---
 
@@ -542,6 +589,7 @@ the useful part, and because otherwise they get rebuilt.
 | `find-covers.mjs`, `find-genres.mjs` | Fallback hunts for albums missing artwork or tags. `find-covers` used the same four sources `enrich.mjs` already does, and the project's own measurement found Discogs and Last.fm added nothing MusicBrainz could not. Both are at 100% coverage |
 | `recheck-matches.mjs` | Remediation for the summing bug above. It ran, the flagship bad matches are corrected, and a fresh sample of eight now finds nothing to move |
 | `fix-spaces.mjs` | Replaced 51 non-breaking spaces carried in from the spreadsheet. Zero remain and the spreadsheet is retired |
+| Reading the roll log | The app had a reader for `rolls` and a "played / skipped" setter for its `outcome` column. No screen ever called either. The log is still written, so a screen for it is a later decision rather than a rebuild |
 | The spreadsheet | Once the app could add and delete, keeping it meant two writable sources with one-way sync. The original export is at `migration/raw_sheet.csv` |
 
 An alert with no action behind it is not a maintenance item, and a script with

@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-21T07:29:27.667Z",
+ "generated": "2026-09-21T11:32:42.517Z",
  "totals": {
   "albums": 4418,
   "rated": 397,
@@ -36,7 +36,10 @@
      "title": "KUNTOLOGY 101 EP",
      "note": "shelf 1998 vs MusicBrainz 2026",
      "suggest": {
-      "year": "2026"
+      "year": 2026
+     },
+     "was": {
+      "year": 1998
      },
      "apply": "Use 2026"
     },
@@ -45,7 +48,10 @@
      "title": "Moanin'",
      "note": "shelf 1958 vs MusicBrainz 2001",
      "suggest": {
-      "year": "2001"
+      "year": 2001
+     },
+     "was": {
+      "year": 1958
      },
      "apply": "Use 2001"
     },
@@ -54,7 +60,10 @@
      "title": "The Boy with the Arab Strap",
      "note": "shelf 1998 vs MusicBrainz 2020",
      "suggest": {
-      "year": "2020"
+      "year": 2020
+     },
+     "was": {
+      "year": 1998
      },
      "apply": "Use 2020"
     },
@@ -63,7 +72,10 @@
      "title": "Greatest Hits Volume 3 (Bob Dylan)",
      "note": "shelf 1994 vs MusicBrainz 1967",
      "suggest": {
-      "year": "1967"
+      "year": 1967
+     },
+     "was": {
+      "year": 1994
      },
      "apply": "Use 1967"
     },
@@ -72,7 +84,10 @@
      "title": "Made in Japan",
      "note": "shelf 1972 vs MusicBrainz 2014",
      "suggest": {
-      "year": "2014"
+      "year": 2014
+     },
+     "was": {
+      "year": 1972
      },
      "apply": "Use 2014"
     },
@@ -81,7 +96,10 @@
      "title": "Greatest Hits",
      "note": "shelf 1980 vs MusicBrainz 2008",
      "suggest": {
-      "year": "2008"
+      "year": 2008
+     },
+     "was": {
+      "year": 1980
      },
      "apply": "Use 2008"
     },
@@ -90,7 +108,10 @@
      "title": "Greatest Hits (Eagles)",
      "note": "shelf 1976 vs MusicBrainz 2010",
      "suggest": {
-      "year": "2010"
+      "year": 2010
+     },
+     "was": {
+      "year": 1976
      },
      "apply": "Use 2010"
     },
@@ -99,7 +120,10 @@
      "title": "Armed Forces",
      "note": "shelf 1979 vs MusicBrainz 2002",
      "suggest": {
-      "year": "2002"
+      "year": 2002
+     },
+     "was": {
+      "year": 1979
      },
      "apply": "Use 2002"
     },
@@ -108,7 +132,10 @@
      "title": "Confusion",
      "note": "shelf 1975 vs MusicBrainz 1990",
      "suggest": {
-      "year": "1990"
+      "year": 1990
+     },
+     "was": {
+      "year": 1975
      },
      "apply": "Use 1990"
     },
@@ -117,7 +144,10 @@
      "title": "Gal (1969)",
      "note": "shelf 1969 vs MusicBrainz 1992",
      "suggest": {
-      "year": "1992"
+      "year": 1992
+     },
+     "was": {
+      "year": 1969
      },
      "apply": "Use 1992"
     },
@@ -126,7 +156,10 @@
      "title": "Si on avait besoin d'une cinquième saison",
      "note": "shelf 1975 vs MusicBrainz 2001",
      "suggest": {
-      "year": "2001"
+      "year": 2001
+     },
+     "was": {
+      "year": 1975
      },
      "apply": "Use 2001"
     },
@@ -135,7 +168,10 @@
      "title": "Live at the Apollo",
      "note": "shelf 1963 vs MusicBrainz 1995",
      "suggest": {
-      "year": "1995"
+      "year": 1995
+     },
+     "was": {
+      "year": 1963
      },
      "apply": "Use 1995"
     },
@@ -144,7 +180,10 @@
      "title": "The Harder They Come",
      "note": "shelf 1972 vs MusicBrainz 2005",
      "suggest": {
-      "year": "2005"
+      "year": 2005
+     },
+     "was": {
+      "year": 1972
      },
      "apply": "Use 2005"
     },
@@ -153,7 +192,10 @@
      "title": "Getz/Gilberto",
      "note": "shelf 1963 vs MusicBrainz 1989",
      "suggest": {
-      "year": "1989"
+      "year": 1989
+     },
+     "was": {
+      "year": 1963
      },
      "apply": "Use 1989"
     },
@@ -162,7 +204,10 @@
      "title": "Essential Joe Satriani 2",
      "note": "shelf 2010 vs MusicBrainz 1995",
      "suggest": {
-      "year": "1995"
+      "year": 1995
+     },
+     "was": {
+      "year": 2010
      },
      "apply": "Use 1995"
     },
@@ -171,7 +216,10 @@
      "title": "Duke Ellington & John Coltrane",
      "note": "shelf 1963 vs MusicBrainz 1987",
      "suggest": {
-      "year": "1987"
+      "year": 1987
+     },
+     "was": {
+      "year": 1963
      },
      "apply": "Use 1987"
     },
@@ -180,7 +228,10 @@
      "title": "Bags & Trane",
      "note": "shelf 1961 vs MusicBrainz 2012",
      "suggest": {
-      "year": "2012"
+      "year": 2012
+     },
+     "was": {
+      "year": 1961
      },
      "apply": "Use 2012"
     },
@@ -189,7 +240,10 @@
      "title": "TAKANAKA",
      "note": "shelf 1977 vs MusicBrainz 1992",
      "suggest": {
-      "year": "1992"
+      "year": 1992
+     },
+     "was": {
+      "year": 1977
      },
      "apply": "Use 1992"
     },
@@ -198,7 +252,10 @@
      "title": "Kick Out The Jams",
      "note": "shelf 1969 vs MusicBrainz 2012",
      "suggest": {
-      "year": "2012"
+      "year": 2012
+     },
+     "was": {
+      "year": 1969
      },
      "apply": "Use 2012"
     },
@@ -207,7 +264,10 @@
      "title": "The Black Album",
      "note": "shelf 1991 vs MusicBrainz 2024",
      "suggest": {
-      "year": "2024"
+      "year": 2024
+     },
+     "was": {
+      "year": 1991
      },
      "apply": "Use 2024"
     },
@@ -216,7 +276,10 @@
      "title": "Final Fantasy VII",
      "note": "shelf 1997 vs MusicBrainz 2020",
      "suggest": {
-      "year": "2020"
+      "year": 2020
+     },
+     "was": {
+      "year": 1997
      },
      "apply": "Use 2020"
     },
@@ -225,7 +288,10 @@
      "title": "OK Computer OKNOTOK",
      "note": "shelf 2017 vs MusicBrainz 1997",
      "suggest": {
-      "year": "1997"
+      "year": 1997
+     },
+     "was": {
+      "year": 2017
      },
      "apply": "Use 1997"
     },
@@ -234,7 +300,10 @@
      "title": "Santana",
      "note": "shelf 1969 vs MusicBrainz 1995",
      "suggest": {
-      "year": "1995"
+      "year": 1995
+     },
+     "was": {
+      "year": 1969
      },
      "apply": "Use 1995"
     },
@@ -243,7 +312,10 @@
      "title": "Cowboy Bebop",
      "note": "shelf 1998 vs MusicBrainz 2021",
      "suggest": {
-      "year": "2021"
+      "year": 2021
+     },
+     "was": {
+      "year": 1998
      },
      "apply": "Use 2021"
     },
@@ -252,7 +324,10 @@
      "title": "[untitled]",
      "note": "shelf 1994 vs MusicBrainz 2026",
      "suggest": {
-      "year": "2026"
+      "year": 2026
+     },
+     "was": {
+      "year": 1994
      },
      "apply": "Use 2026"
     },
@@ -261,7 +336,10 @@
      "title": "The Beatles (White Album) [2018 Mix]",
      "note": "shelf 1968 vs MusicBrainz 2000",
      "suggest": {
-      "year": "2000"
+      "year": 2000
+     },
+     "was": {
+      "year": 1968
      },
      "apply": "Use 2000"
     },
@@ -270,7 +348,10 @@
      "title": "Greatest Hits",
      "note": "shelf 1985 vs MusicBrainz 2008",
      "suggest": {
-      "year": "2008"
+      "year": 2008
+     },
+     "was": {
+      "year": 1985
      },
      "apply": "Use 2008"
     },
@@ -279,7 +360,10 @@
      "title": "The Faith/ The Void",
      "note": "shelf 1982 vs MusicBrainz 2026",
      "suggest": {
-      "year": "2026"
+      "year": 2026
+     },
+     "was": {
+      "year": 1982
      },
      "apply": "Use 2026"
     },
@@ -288,7 +372,10 @@
      "title": "The Gilded Palace of Sin",
      "note": "shelf 1969 vs MusicBrainz 1997",
      "suggest": {
-      "year": "1997"
+      "year": 1997
+     },
+     "was": {
+      "year": 1969
      },
      "apply": "Use 1997"
     },
@@ -297,7 +384,10 @@
      "title": "The Fat of the Land",
      "note": "shelf 1997 vs MusicBrainz 2023",
      "suggest": {
-      "year": "2023"
+      "year": 2023
+     },
+     "was": {
+      "year": 1997
      },
      "apply": "Use 2023"
     },
@@ -306,7 +396,10 @@
      "title": "Saturday Night Fever",
      "note": "shelf 1977 vs MusicBrainz 1999",
      "suggest": {
-      "year": "1999"
+      "year": 1999
+     },
+     "was": {
+      "year": 1977
      },
      "apply": "Use 1999"
     },
@@ -315,7 +408,10 @@
      "title": "Singles",
      "note": "shelf 1992 vs MusicBrainz 2022",
      "suggest": {
-      "year": "2022"
+      "year": 2022
+     },
+     "was": {
+      "year": 1992
      },
      "apply": "Use 2022"
     },
@@ -324,7 +420,10 @@
      "title": "A Charlie Brown Christmas",
      "note": "shelf 1965 vs MusicBrainz 2002",
      "suggest": {
-      "year": "2002"
+      "year": 2002
+     },
+     "was": {
+      "year": 1965
      },
      "apply": "Use 2002"
     },
@@ -333,7 +432,10 @@
      "title": "So Much Country ‘Till We Get There EP",
      "note": "shelf 1996 vs MusicBrainz 2026",
      "suggest": {
-      "year": "2026"
+      "year": 2026
+     },
+     "was": {
+      "year": 1996
      },
      "apply": "Use 2026"
     }
@@ -373,8 +475,309 @@
    "title": "Name corrections held back",
    "why": "The nightly scan found these but would not apply them: a changed sequence number, a gained or lost word, or a dropped collaborator.",
    "action": "rename",
-   "count": 0,
-   "items": []
+   "count": 20,
+   "items": [
+    {
+     "artist": "Asian Glow & Parannoul",
+     "title": "Paraglow",
+     "note": "Asian Glow — Paraglow   (drops a credited artist (2 names -> 1))",
+     "suggest": {
+      "artist": "Asian Glow",
+      "title": "Paraglow"
+     },
+     "subject": "rename:Asian Glow & Parannoul::Paraglow",
+     "was": {
+      "artist": "Asian Glow & Parannoul",
+      "title": "Paraglow"
+     },
+     "apply": "Rename"
+    },
+    {
+     "artist": "2 Many DJ's",
+     "title": "Under The Covers 2",
+     "note": "2manydjs — Under The Covers Vol. 2   (looser than the confident band)",
+     "suggest": {
+      "artist": "2manydjs",
+      "title": "Under The Covers Vol. 2"
+     },
+     "subject": "rename:2 Many DJ's::Under The Covers 2",
+     "was": {
+      "artist": "2 Many DJ's",
+      "title": "Under The Covers 2"
+     },
+     "apply": "Rename"
+    },
+    {
+     "artist": "Ajj",
+     "title": "People That Can Eat People Are The Luckiest People in the World",
+     "note": "AJJ — People Who Can Eat People Are the Luckiest People in the World   (the title loses \"that\" — likely a different release)",
+     "suggest": {
+      "artist": "AJJ",
+      "title": "People Who Can Eat People Are the Luckiest People in the World"
+     },
+     "subject": "rename:Ajj::People That Can Eat People Are The Luckiest People in the World",
+     "was": {
+      "artist": "Ajj",
+      "title": "People That Can Eat People Are The Luckiest People in the World"
+     },
+     "apply": "Rename"
+    },
+    {
+     "artist": "Animal Collective",
+     "title": "Spirit They're Gone, Spirit They've Vanished",
+     "note": "Animal Collective — Spirit They’re Gone Spirit They’ve Vanished / Danse Manatee   (the title gains \"danse manatee\" — likely a different release)",
+     "suggest": {
+      "artist": "Animal Collective",
+      "title": "Spirit They’re Gone Spirit They’ve Vanished / Danse Manatee"
+     },
+     "subject": "rename:Animal Collective::Spirit They're Gone, Spirit They've Vanished",
+     "was": {
+      "artist": "Animal Collective",
+      "title": "Spirit They're Gone, Spirit They've Vanished"
+     },
+     "apply": "Rename"
+    },
+    {
+     "artist": "Billy Joel",
+     "title": "Greatest Hits: Volume I",
+     "note": "Billy Joel — Greatest Hits, Volume I & Volume II   (sequence number changed (Pt. 2 / Vol. 3 / Part One))",
+     "suggest": {
+      "artist": "Billy Joel",
+      "title": "Greatest Hits, Volume I & Volume II"
+     },
+     "subject": "rename:Billy Joel::Greatest Hits: Volume I",
+     "was": {
+      "artist": "Billy Joel",
+      "title": "Greatest Hits: Volume I"
+     },
+     "apply": "Rename"
+    },
+    {
+     "artist": "Billy Joel",
+     "title": "Greatest Hits: Volume II",
+     "note": "Billy Joel — Greatest Hits, Volume III   (sequence number changed (Pt. 2 / Vol. 3 / Part One))",
+     "suggest": {
+      "artist": "Billy Joel",
+      "title": "Greatest Hits, Volume III"
+     },
+     "subject": "rename:Billy Joel::Greatest Hits: Volume II",
+     "was": {
+      "artist": "Billy Joel",
+      "title": "Greatest Hits: Volume II"
+     },
+     "apply": "Rename"
+    },
+    {
+     "artist": "Cecil Taylor",
+     "title": "At the Café Montmartré",
+     "note": "Cecil Taylor — Live at the Cafe Montmartre   (the title gains \"cafe\" — likely a different release; looser than the confident band)",
+     "suggest": {
+      "artist": "Cecil Taylor",
+      "title": "Live at the Cafe Montmartre"
+     },
+     "subject": "rename:Cecil Taylor::At the Café Montmartré",
+     "was": {
+      "artist": "Cecil Taylor",
+      "title": "At the Café Montmartré"
+     },
+     "apply": "Rename"
+    },
+    {
+     "artist": "DJ Koze",
+     "title": "DJ Kicks",
+     "note": "DJ Koze — DJ-Kicks: DJ Koze   (the title gains \"koze\" — likely a different release)",
+     "suggest": {
+      "artist": "DJ Koze",
+      "title": "DJ-Kicks: DJ Koze"
+     },
+     "subject": "rename:DJ Koze::DJ Kicks",
+     "was": {
+      "artist": "DJ Koze",
+      "title": "DJ Kicks"
+     },
+     "apply": "Rename"
+    },
+    {
+     "artist": "E+E",
+     "title": "El sueño del Forastero",
+     "note": "E+E — E+E presenta: El sueño del forastero   (the title gains \"presenta\" — likely a different release)",
+     "suggest": {
+      "artist": "E+E",
+      "title": "E+E presenta: El sueño del forastero"
+     },
+     "subject": "rename:E+E::El sueño del Forastero",
+     "was": {
+      "artist": "E+E",
+      "title": "El sueño del Forastero"
+     },
+     "apply": "Rename"
+    },
+    {
+     "artist": "Frank Zappa",
+     "title": "The Grand Wazoo",
+     "note": "Frank Zappa — The Grand Wazoo Orchestra   (the title gains \"orchestra\" — likely a different release)",
+     "suggest": {
+      "artist": "Frank Zappa",
+      "title": "The Grand Wazoo Orchestra"
+     },
+     "subject": "rename:Frank Zappa::The Grand Wazoo",
+     "was": {
+      "artist": "Frank Zappa",
+      "title": "The Grand Wazoo"
+     },
+     "apply": "Rename"
+    },
+    {
+     "artist": "Harmonium",
+     "title": "Si on avait besoin d'une cinquième saison",
+     "note": "Harmonium — Harmonium / Si on avait besoin d’une cinquième saison   (the title gains \"harmonium\" — likely a different release)",
+     "suggest": {
+      "artist": "Harmonium",
+      "title": "Harmonium / Si on avait besoin d’une cinquième saison"
+     },
+     "subject": "rename:Harmonium::Si on avait besoin d'une cinquième saison",
+     "was": {
+      "artist": "Harmonium",
+      "title": "Si on avait besoin d'une cinquième saison"
+     },
+     "apply": "Rename"
+    },
+    {
+     "artist": "2 Many DJ's",
+     "title": "A Tribute to Keith Forsey",
+     "note": "2manydjs — 2manydjs present A Tribute to Keith Forsey   (the title gains \"2manydjs present\" — likely a different release; sequence number changed (Pt. 2 / Vol. 3 / Part One))",
+     "suggest": {
+      "artist": "2manydjs",
+      "title": "2manydjs present A Tribute to Keith Forsey"
+     },
+     "subject": "rename:2 Many DJ's::A Tribute to Keith Forsey",
+     "was": {
+      "artist": "2 Many DJ's",
+      "title": "A Tribute to Keith Forsey"
+     },
+     "apply": "Rename"
+    },
+    {
+     "artist": "2 Many DJ's",
+     "title": "A Tribute To Compass Point",
+     "note": "2manydjs — 2manydjs presents A Tribute to Compass Point   (the title gains \"2manydjs presents\" — likely a different release; sequence number changed (Pt. 2 / Vol. 3 / Part One))",
+     "suggest": {
+      "artist": "2manydjs",
+      "title": "2manydjs presents A Tribute to Compass Point"
+     },
+     "subject": "rename:2 Many DJ's::A Tribute To Compass Point",
+     "was": {
+      "artist": "2 Many DJ's",
+      "title": "A Tribute To Compass Point"
+     },
+     "apply": "Rename"
+    },
+    {
+     "artist": "Azealia Banks",
+     "title": "1992",
+     "note": "Azealia Banks — 1991   (sequence number changed (Pt. 2 / Vol. 3 / Part One); looser than the confident band)",
+     "suggest": {
+      "artist": "Azealia Banks",
+      "title": "1991"
+     },
+     "subject": "rename:Azealia Banks::1992",
+     "was": {
+      "artist": "Azealia Banks",
+      "title": "1992"
+     },
+     "apply": "Rename"
+    },
+    {
+     "artist": "Boards of Canada",
+     "title": "Societas X Tape",
+     "note": "Boards of Canada — 2019-06-23: Societas x Tape   (the title gains \"2019\" — likely a different release; sequence number changed (Pt. 2 / Vol. 3 / Part One))",
+     "suggest": {
+      "artist": "Boards of Canada",
+      "title": "2019-06-23: Societas x Tape"
+     },
+     "subject": "rename:Boards of Canada::Societas X Tape",
+     "was": {
+      "artist": "Boards of Canada",
+      "title": "Societas X Tape"
+     },
+     "apply": "Rename"
+    },
+    {
+     "artist": "Creedence Clearwater Revival",
+     "title": "Chronicle",
+     "note": "Creedence Clearwater Revival — Chronicle, Volume Two   (sequence number changed (Pt. 2 / Vol. 3 / Part One))",
+     "suggest": {
+      "artist": "Creedence Clearwater Revival",
+      "title": "Chronicle, Volume Two"
+     },
+     "subject": "rename:Creedence Clearwater Revival::Chronicle",
+     "was": {
+      "artist": "Creedence Clearwater Revival",
+      "title": "Chronicle"
+     },
+     "apply": "Rename"
+    },
+    {
+     "artist": "Kyle Dixon & Michael Stein",
+     "title": "Stranger Things, Vol 1",
+     "note": "Kyle Dixon & Michael Stein — Stranger Things 2   (sequence number changed (Pt. 2 / Vol. 3 / Part One); looser than the confident band)",
+     "suggest": {
+      "artist": "Kyle Dixon & Michael Stein",
+      "title": "Stranger Things 2"
+     },
+     "subject": "rename:Kyle Dixon & Michael Stein::Stranger Things, Vol 1",
+     "was": {
+      "artist": "Kyle Dixon & Michael Stein",
+      "title": "Stranger Things, Vol 1"
+     },
+     "apply": "Rename"
+    },
+    {
+     "artist": "Psychedelic Porn Crumpets",
+     "title": "High Visceral pt. 1",
+     "note": "Psychedelic Porn Crumpets — High Visceral {Part One}   (looser than the confident band)",
+     "suggest": {
+      "artist": "Psychedelic Porn Crumpets",
+      "title": "High Visceral {Part One}"
+     },
+     "subject": "rename:Psychedelic Porn Crumpets::High Visceral pt. 1",
+     "was": {
+      "artist": "Psychedelic Porn Crumpets",
+      "title": "High Visceral pt. 1"
+     },
+     "apply": "Rename"
+    },
+    {
+     "artist": "Psychedelic Porn Crumpets",
+     "title": "High Visceral pt. 2",
+     "note": "Psychedelic Porn Crumpets — High Visceral {Part One}   (sequence number changed (Pt. 2 / Vol. 3 / Part One); looser than the confident band)",
+     "suggest": {
+      "artist": "Psychedelic Porn Crumpets",
+      "title": "High Visceral {Part One}"
+     },
+     "subject": "rename:Psychedelic Porn Crumpets::High Visceral pt. 2",
+     "was": {
+      "artist": "Psychedelic Porn Crumpets",
+      "title": "High Visceral pt. 2"
+     },
+     "apply": "Rename"
+    },
+    {
+     "artist": "Drudkh",
+     "title": "Кров у наших криницях (Blood in Our Wells)",
+     "note": "Drudkh — Кров у наших криницях   (the title loses \"blood wells\" — likely a different release)",
+     "suggest": {
+      "artist": "Drudkh",
+      "title": "Кров у наших криницях"
+     },
+     "subject": "rename:Drudkh::Кров у наших криницях (Blood in Our Wells)",
+     "was": {
+      "artist": "Drudkh",
+      "title": "Кров у наших криницях (Blood in Our Wells)"
+     },
+     "apply": "Rename"
+    }
+   ]
   },
   {
    "id": "no-root",

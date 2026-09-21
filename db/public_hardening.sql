@@ -26,12 +26,19 @@ declare
 begin
   if owner_text !~* '^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$' then
     raise exception
-      'Replace PASTE_YOUR_USER_UID_HERE with your user id from Authentication -> Users, then run this again.';
+      'Replace PASTE_YOUR_UID_HERE with your user id from Authentication -> Users, then run this again.';
   end if;
   owner_id := owner_text::uuid;
 
   -- Writes: one specific person, not "anyone holding an account".
-  foreach t in array array['albums', 'rolls'] loop
+  --
+  -- review_flags is here because it was added after this file was written,
+  -- by a migration that gave it the original schema's rules: any signed-in
+  -- account may write, anyone at all may read. So on a public repo your
+  -- verdicts on the Fix list were readable by anyone holding the publishable
+  -- key -- which is everyone, it is in config.js -- and writable by any
+  -- account, the one-checkbox dependency this file exists to remove.
+  foreach t in array array['albums', 'rolls', 'review_flags'] loop
     execute format('drop policy if exists %I on public.%I', t || '_write', t);
     execute format(
       -- (select auth.uid()) rather than auth.uid(): wrapped in a subquery
@@ -52,8 +59,10 @@ begin
     || 'using (deleted_at is null or (select auth.uid()) = %L)',
     'albums_read', owner_id);
 
-  -- Listening history is the one genuinely personal thing in the database.
-  foreach t in array array['rolls'] loop
+  -- Listening history is the one genuinely personal thing in the database,
+  -- and your maintenance verdicts are nobody else's business either. Nothing
+  -- a visitor sees reads either table.
+  foreach t in array array['rolls', 'review_flags'] loop
     execute format('drop policy if exists %I on public.%I', t || '_read', t);
     execute format(
       'create policy %I on public.%I for select to authenticated using ((select auth.uid()) = %L)',
@@ -69,11 +78,12 @@ end $$;
 select relname as table_name, relrowsecurity as rls_enabled
 from pg_class
 where relnamespace = 'public'::regnamespace
-  and relname in ('albums', 'rolls')
+  and relname in ('albums', 'rolls', 'review_flags')
 order by relname;
 
--- Expect exactly five policies. `albums_read` should be the only one open to
--- the `anon` role, and every write policy's condition should name your uid.
+-- Expect exactly six: a read and a write policy on each of the three tables.
+-- `albums_read` should be the only one open to the `anon` role, and every
+-- other condition should name your uid.
 select tablename, policyname, cmd, roles, qual::text as condition
 from pg_policies
 where schemaname = 'public'

@@ -1,7 +1,10 @@
-// cover-art.jsx — album art, fetched from the iTunes Search API the first time
-// an album is shown and then remembered in Supabase so it is only ever looked
-// up once. Albums that have no match (bootlegs, obscure pressings, non-Latin
-// titles) fall back to generated art derived from the artist and album name.
+// cover-art.jsx — album art. Almost every album arrives with a cover_url
+// already, cached in Supabase Storage by the nightly run, and that is simply
+// shown. Only an album with none -- typically one added since the last run --
+// is looked up here: by MusicBrainz id at the Cover Art Archive, then by an
+// artist-checked iTunes search, and the answer is saved so it is looked up
+// once. cache-covers.mjs later copies what this finds into Storage too.
+// Albums nothing can find fall back to generated art from the names.
 
 const COVER_CACHE = new Map();   // "artist::title" -> url | null
 const QUEUE = [];

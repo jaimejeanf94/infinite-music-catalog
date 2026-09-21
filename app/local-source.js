@@ -129,7 +129,7 @@ const LocalDB = {
           title,
           year: r[col.year] ? Number(r[col.year]) : null,
           score: r[col.score] ? Number(r[col.score]) : null,
-          notes: null,
+          notes: r[col.notes] || null,
           genres: extra.genres || [],
           source: "sheet",
           ...edit,
@@ -158,8 +158,11 @@ const LocalDB = {
           ? edit.cover_locked
           : r[col.cover_locked] === "true";
         return album;
-      })
-      .filter((a) => !gone.has(KEY_BY_ID.get(a.id)));
+      });
+    // No tombstone filter above. LAST_FULL is what deletedAlbums() reads, and
+    // with deleted albums filtered out of it here the Deleted list could only
+    // ever show albums added in the app -- a deleted album from the CSV was
+    // gone from the list you restore from, so it could never be restored.
 
     const fromApp = added.map((a) => {
       const key = editKey(a);
@@ -220,8 +223,7 @@ const LocalDB = {
     if (!gone.includes(key)) { gone.push(key); save(LS_GONE, gone); }
   },
 
-  // There is no bucket without an account. Paste a URL instead, or set one
-  // with scripts/rename.mjs' sibling tooling once Supabase is configured.
+  // There is no bucket without an account. Paste an image URL instead.
   async uploadCover() {
     throw new Error("Uploading needs Supabase — paste an image URL instead.");
   },
@@ -229,6 +231,16 @@ const LocalDB = {
   async updateAlbum(id, patch) {
     const key = KEY_BY_ID.get(id);
     if (!key) { console.warn(`updateAlbum: no album loaded with id ${id}`); return; }
+    // An edit here is stored UNDER the album's name, and albums() deliberately
+    // ignores an edit's artist and title, so a rename saved this way showed on
+    // screen, reverted on the next reload, and -- from the Fix screen -- had
+    // already marked its suggestion settled. Refusing it makes onPatch report
+    // the failure, so nothing is settled on a rename that did not happen.
+    const cur = LAST_FULL.find((a) => a.id === id);
+    if (("artist" in patch && patch.artist !== cur?.artist) ||
+        ("title" in patch && patch.title !== cur?.title)) {
+      throw new Error("Renaming needs Supabase — in local mode use scripts/rename.mjs.");
+    }
     const edits = load(LS_EDITS, {});
     edits[key] = { ...(edits[key] || {}), ...patch };
     save(LS_EDITS, edits);
@@ -241,12 +253,6 @@ const LocalDB = {
     save(LS_ROLLS, rolls.slice(0, 500));
     return id;
   },
-  async setRollOutcome(id, outcome) {
-    const rolls = load(LS_ROLLS, []);
-    const hit = rolls.find((r) => r.id === id);
-    if (hit) { hit.outcome = outcome; save(LS_ROLLS, rolls); }
-  },
-  async recentRolls(limit = 40) { return load(LS_ROLLS, []).slice(0, limit); },
 
   // ── review flags ────────────────────────────────────────────────────────
   // The cloud keeps these in a table (db/migrations/2026-09-20-review-flags.sql); locally they are
@@ -279,7 +285,8 @@ const LocalDB = {
       .filter(([key, e]) => !key.startsWith("#") &&
                             (e.score != null || e.notes))
       .map(([key, e]) => {
-        const [artist, title] = key.split("::");
+        const at = key.indexOf("::");
+        const artist = key.slice(0, at), title = key.slice(at + 2);
         const sets = [];
         if ("score" in e) sets.push(`score = ${e.score == null ? "null" : e.score}`);
         if (e.notes) sets.push(`notes = ${q(e.notes)}`);
