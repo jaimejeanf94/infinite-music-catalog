@@ -2943,21 +2943,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/bd38c7cc-45b8-44bc-8f14-3864ce56051a/front-500",
   "cover_cached": "2026-09-20"
  },
- "Beth Gibbons & Rustin Man::Out of Season": {
-  "status": "ok",
-  "mbid": "20c64f88-7893-3ff1-8ec2-ff53ac7fcf33",
-  "genres": [
-   "downtempo",
-   "electronic",
-   "rock"
-  ],
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/20c64f88-7893-3ff1-8ec2-ff53ac7fcf33.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2002",
-  "checked": "2026-09-19",
-  "cover_source_url": "https://coverartarchive.org/release-group/20c64f88-7893-3ff1-8ec2-ff53ac7fcf33/front-500",
-  "cover_cached": "2026-09-20"
- },
  "Billie Eilish::Happier than Ever": {
   "status": "ok",
   "mbid": "3ac5236a-3bd8-44c6-ab60-69b013594ae6",
@@ -3157,19 +3142,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/171db008-7f7b-48d3-a3b5-640d6ea41aa7/front-500",
   "cover_cached": "2026-09-20"
  },
- "Godspeed You Black Emperor::“NO TITLE AS OF 13 FEBRUARY 2024 28,340 DEAD”": {
-  "status": "ok",
-  "mbid": "7df4cbb0-30ed-4fed-9383-dd5fe3dbff30",
-  "genres": [
-   "post-rock",
-   "rock",
-   "pop"
-  ],
-  "cover_url": null,
-  "cover_from": null,
-  "mb_year": "2024",
-  "checked": "2026-09-19"
- },
  "Honningbarna::Soft Spot": {
   "status": "ok",
   "mbid": "8176aa28-17af-4e40-908a-ba327748636e",
@@ -3254,21 +3226,6 @@
   "mb_year": "2016",
   "checked": "2026-09-19",
   "cover_source_url": "https://coverartarchive.org/release-group/4e44335c-3f2b-4874-a6c3-71b5e65f75d5/front-500",
-  "cover_cached": "2026-09-20"
- },
- "Kero Kero Bonito::Bonito  Generation": {
-  "status": "ok",
-  "mbid": "24c6ca0a-fa99-455e-be85-b1e948c68fa9",
-  "genres": [
-   "electronic",
-   "pop",
-   "j-pop"
-  ],
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/24c6ca0a-fa99-455e-be85-b1e948c68fa9.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2016",
-  "checked": "2026-09-19",
-  "cover_source_url": "https://coverartarchive.org/release-group/24c6ca0a-fa99-455e-be85-b1e948c68fa9/front-500",
   "cover_cached": "2026-09-20"
  },
  "King Gizzard & The Lizard Wizard::Sketches of Brunswick East": {
@@ -5094,37 +5051,6 @@
   "mb_year": "1960",
   "checked": "2026-09-19",
   "cover_source_url": "https://coverartarchive.org/release-group/2cdca11d-3e45-3152-93e5-4d2a4ddb1bc6/front-500",
-  "cover_cached": "2026-09-20"
- },
- "John Coltrane & Duke Ellington::Duke Ellington & John Coltrane": {
-  "status": "ok",
-  "mbid": "caf2a0e9-2cb9-4b1d-9549-5e3b7201edaf",
-  "genres": [
-   "jazz",
-   "swing",
-   "big band"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/caf2a0e9-2cb9-4b1d-9549-5e3b7201edaf.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "1987",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/caf2a0e9-2cb9-4b1d-9549-5e3b7201edaf/front-500",
-  "cover_cached": "2026-09-20"
- },
- "John Coltrane & Milt Jackson::Bags & Trane": {
-  "status": "ok",
-  "mbid": "f307972b-f870-428f-bd7d-0130c913f593",
-  "genres": [
-   "jazz",
-   "hard bop"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f307972b-f870-428f-bd7d-0130c913f593.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2012",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/f307972b-f870-428f-bd7d-0130c913f593/front-500",
   "cover_cached": "2026-09-20"
  },
  "Kelly Lee Owens::Inner Song": {
@@ -8855,21 +8781,6 @@
   "mb_year": "1967",
   "checked": "2026-09-19",
   "cover_source_url": "https://coverartarchive.org/release-group/935fccc4-064a-339c-ba4c-b0acee6ff5eb/front-500",
-  "cover_cached": "2026-09-20"
- },
- "Antônio Carlos Jobim & Elis Regina::Elis & Tom": {
-  "status": "ok",
-  "mbid": "e3f00603-c147-3810-ae0d-29cb2cc60992",
-  "genres": [
-   "mpb",
-   "pop",
-   "bossa nova"
-  ],
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e3f00603-c147-3810-ae0d-29cb2cc60992.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "1980",
-  "checked": "2026-09-19",
-  "cover_source_url": "https://coverartarchive.org/release-group/e3f00603-c147-3810-ae0d-29cb2cc60992/front-500",
   "cover_cached": "2026-09-20"
  },
  "Antony and the Johnsons::The Crying Light": {
@@ -13174,19 +13085,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/aef07a55-c24f-485a-856f-8ab25c7a501c/front-500",
   "cover_cached": "2026-09-20"
  },
- "Blu & Exile::Give Me My Flowers While I Can Still Smell Them": {
-  "status": "ok",
-  "mbid": "58c87af1-3a26-4765-9499-ef286c31ae20",
-  "genres": [
-   "hip hop"
-  ],
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/58c87af1-3a26-4765-9499-ef286c31ae20.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2012",
-  "checked": "2026-09-19",
-  "cover_source_url": "https://coverartarchive.org/release-group/58c87af1-3a26-4765-9499-ef286c31ae20/front-500",
-  "cover_cached": "2026-09-20"
- },
  "Blu & Exile::Below the Heavens": {
   "status": "ok",
   "mbid": "173986f9-4de4-3cc8-b8d3-cf274fbaf7b5",
@@ -13904,25 +13802,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/169b62aa-c3a5-3ed9-bed1-cc47c4bc51ad/front-500",
   "cover_cached": "2026-09-20"
  },
- "Bob Dylan & The Band::The Basement Tapes": {
-  "status": "ok",
-  "mbid": "47873729-6db0-3431-99e7-0292e939dadf",
-  "genres": [
-   "folk rock",
-   "rock",
-   "country rock",
-   "blues rock",
-   "contemporary folk",
-   "roots rock"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/47873729-6db0-3431-99e7-0292e939dadf.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "1975",
-  "checked": "2026-09-19",
-  "cover_source_url": "https://coverartarchive.org/release-group/47873729-6db0-3431-99e7-0292e939dadf/front-500",
-  "cover_cached": "2026-09-20"
- },
  "Bobby Bland::Two Steps from the Blues": {
   "status": "ok",
   "mbid": "959bffeb-cdb8-3559-a0e7-2c88d278e7bf",
@@ -14272,25 +14151,6 @@
   "mb_year": "2005",
   "checked": "2026-09-19",
   "cover_source_url": "https://coverartarchive.org/release-group/6c8b3082-65a6-367c-b35f-140ede4ac855/front-500",
-  "cover_cached": "2026-09-20"
- },
- "Boris & Merzbow::Rock Dream": {
-  "status": "ok",
-  "mbid": "55b1383d-7138-39ff-a617-1131ff78d85c",
-  "genres": [
-   "rock",
-   "electronic",
-   "noise",
-   "punk",
-   "doom metal",
-   "psychedelic rock"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/55b1383d-7138-39ff-a617-1131ff78d85c.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2007",
-  "checked": "2026-09-19",
-  "cover_source_url": "https://coverartarchive.org/release-group/55b1383d-7138-39ff-a617-1131ff78d85c/front-500",
   "cover_cached": "2026-09-20"
  },
  "Botch::We Are the Romans": {
@@ -14675,37 +14535,6 @@
   "mb_year": "1980",
   "checked": "2026-09-19",
   "cover_source_url": "https://coverartarchive.org/release-group/428cc768-268a-405e-ba51-0d7cf61b1fff/front-500",
-  "cover_cached": "2026-09-20"
- },
- "Brian Eno & Harold Budd::The Pearl": {
-  "status": "ok",
-  "mbid": "6c364112-e9fb-373c-9f1d-364b427f64c3",
-  "genres": [
-   "ambient",
-   "electronic",
-   "experimental rock"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6c364112-e9fb-373c-9f1d-364b427f64c3.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "1984",
-  "checked": "2026-09-19",
-  "cover_source_url": "https://coverartarchive.org/release-group/6c364112-e9fb-373c-9f1d-364b427f64c3/front-500",
-  "cover_cached": "2026-09-20"
- },
- "Brian Eno & Harold Budd::Ambient 2: The Plateaux of Mirror": {
-  "status": "ok",
-  "mbid": "02c0fc3b-9c3c-34e4-abed-bb6cd04fa1fc",
-  "genres": [
-   "ambient",
-   "electronic"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/02c0fc3b-9c3c-34e4-abed-bb6cd04fa1fc.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "1980",
-  "checked": "2026-09-19",
-  "cover_source_url": "https://coverartarchive.org/release-group/02c0fc3b-9c3c-34e4-abed-bb6cd04fa1fc/front-500",
   "cover_cached": "2026-09-20"
  },
  "Brian Wilson::Smile": {
@@ -17133,22 +16962,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/48ec720b-2fc2-35dd-8130-5b186c4abcbc/front-500",
   "cover_cached": "2026-09-20"
  },
- "Charles Mingus, Max Roach & Duke Ellington::Money Jungle": {
-  "status": "ok",
-  "mbid": "1c18538e-e9be-3449-8be1-f3cdc7b493e0",
-  "genres": [
-   "jazz",
-   "hard bop",
-   "post-bop"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1c18538e-e9be-3449-8be1-f3cdc7b493e0.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "1962",
-  "checked": "2026-09-19",
-  "cover_source_url": "https://coverartarchive.org/release-group/1c18538e-e9be-3449-8be1-f3cdc7b493e0/front-500",
-  "cover_cached": "2026-09-20"
- },
  "Charlie Parker::Bird: The Original Recordings of Charlie Parker": {
   "status": "ok",
   "mbid": "ce78bee5-9c30-3c38-a389-6210177c6cbc",
@@ -19394,24 +19207,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/0e662dc0-605f-3a95-9004-4246f6b24210/front-500",
   "cover_cached": "2026-09-20"
  },
- "Curren$y & The Alchemist::Covert Coup": {
-  "status": "ok",
-  "mbid": "3ef43e89-9e82-46e9-9786-f5d06624b4d7",
-  "genres": [
-   "hip hop",
-   "dirty south",
-   "gangsta rap",
-   "southern hip hop",
-   "alternative hip hop"
-  ],
-  "genre_source": "artist",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3ef43e89-9e82-46e9-9786-f5d06624b4d7.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2012",
-  "checked": "2026-09-19",
-  "cover_source_url": "https://coverartarchive.org/release-group/3ef43e89-9e82-46e9-9786-f5d06624b4d7/front-500",
-  "cover_cached": "2026-09-20"
- },
  "Current 93::Thunder Perfect Mind": {
   "status": "ok",
   "mbid": "024eb45c-c86f-3e64-b675-1d99c549e2f5",
@@ -20580,22 +20375,6 @@
   "mb_year": "1971",
   "checked": "2026-09-19",
   "cover_source_url": "https://coverartarchive.org/release-group/743b0b2e-a23a-3182-950e-232f8cb0dfb7/front-500",
-  "cover_cached": "2026-09-20"
- },
- "David Kauffman & Eric Caboor::Songs From Suicide Bridge": {
-  "status": "ok",
-  "mbid": "55479707-35bc-4550-8bb5-a068a0cd8f19",
-  "genres": [
-   "rock",
-   "folk",
-   "loner folk"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/55479707-35bc-4550-8bb5-a068a0cd8f19.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "1984",
-  "checked": "2026-09-19",
-  "cover_source_url": "https://coverartarchive.org/release-group/55479707-35bc-4550-8bb5-a068a0cd8f19/front-500",
   "cover_cached": "2026-09-20"
  },
  "David Sylvian::Secrets of the Beehive": {
@@ -23339,24 +23118,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/85b3eb3c-b712-3ab8-b602-b4a561e69f38/front-500",
   "cover_cached": "2026-09-20"
  },
- "DJ 光光光 [DJ Pica Pica Pica]::Planetary Natural Love Gas Webbin' 199999": {
-  "status": "ok",
-  "mbid": "9c0562af-c764-3189-aa7e-f6edeb55ccd7",
-  "genres": [
-   "rock",
-   "electronic",
-   "ambient",
-   "experimental",
-   "folk rock"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9c0562af-c764-3189-aa7e-f6edeb55ccd7.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "1999",
-  "checked": "2026-09-19",
-  "cover_source_url": "https://coverartarchive.org/release-group/9c0562af-c764-3189-aa7e-f6edeb55ccd7/front-500",
-  "cover_cached": "2026-09-20"
- },
  "Django Django::Django Django": {
   "status": "ok",
   "mbid": "dd7f2b3e-dcc6-4b7c-b8fd-7f73eb4bd66a",
@@ -25160,29 +24921,6 @@
   "mb_year": "1975",
   "checked": "2026-09-19",
   "cover_source_url": "https://coverartarchive.org/release-group/31edc094-37e7-3b02-b79b-f8442cc3fbdb/front-500",
-  "cover_cached": "2026-09-20"
- },
- "Elton John::Goodbye Yellow  Brick Road": {
-  "status": "ok",
-  "mbid": "80df0f1b-4ce7-348a-aa1b-0d31ebff111a",
-  "genres": [
-   "rock",
-   "glam rock",
-   "pop rock",
-   "soft rock",
-   "pop",
-   "piano rock",
-   "progressive rock",
-   "classic rock",
-   "progressive pop",
-   "singer-songwriter"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/80df0f1b-4ce7-348a-aa1b-0d31ebff111a.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "1973",
-  "checked": "2026-09-19",
-  "cover_source_url": "https://coverartarchive.org/release-group/80df0f1b-4ce7-348a-aa1b-0d31ebff111a/front-500",
   "cover_cached": "2026-09-20"
  },
  "Elton John::Honky Chateu": {
@@ -31100,22 +30838,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/71717354-a662-41e6-b099-f6d678cc5798/front-500",
   "cover_cached": "2026-09-20"
  },
- "Hans Zimmer & Benjamin Wallfisch::Blade Runner 2049": {
-  "status": "ok",
-  "mbid": "22c73225-8a2e-4e92-a00e-68960dc1ff4a",
-  "genres": [
-   "electronic",
-   "rock",
-   "ambient"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/22c73225-8a2e-4e92-a00e-68960dc1ff4a.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2017",
-  "checked": "2026-09-19",
-  "cover_source_url": "https://coverartarchive.org/release-group/22c73225-8a2e-4e92-a00e-68960dc1ff4a/front-500",
-  "cover_cached": "2026-09-20"
- },
  "Hanz Zimmer::Interstellar: Original Motion Picture Soundtrack": {
   "status": "ok",
   "mbid": "4513c7b9-854e-457f-81d6-3dbeb001beb8",
@@ -33502,27 +33224,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/ab210390-9408-3410-91d5-f14c1061c99d/front-500",
   "cover_cached": "2026-09-20"
  },
- "James Chance & Contortions::Buy": {
-  "status": "ok",
-  "mbid": "ddea7605-05e1-323d-8837-b2e28ec2e795",
-  "genres": [
-   "no wave",
-   "dance-punk",
-   "jazz-funk",
-   "rock",
-   "jazz",
-   "new wave",
-   "avant-garde",
-   "disco"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ddea7605-05e1-323d-8837-b2e28ec2e795.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "1979",
-  "checked": "2026-09-19",
-  "cover_source_url": "https://coverartarchive.org/release-group/ddea7605-05e1-323d-8837-b2e28ec2e795/front-500",
-  "cover_cached": "2026-09-20"
- },
  "James Ferraro::Far Side Virtual": {
   "status": "ok",
   "mbid": "8d495828-ef6e-4058-88cc-f8dc73e25848",
@@ -35096,24 +34797,6 @@
   "mb_year": "1973",
   "checked": "2026-09-19",
   "cover_source_url": "https://coverartarchive.org/release-group/56da088f-9d69-3af4-aeac-55649e19bffe/front-500",
-  "cover_cached": "2026-09-20"
- },
- "John Cale & Lou Reed::Songs for Drella": {
-  "status": "ok",
-  "mbid": "97d100a8-e42c-38ff-8ae5-eb31331fd82b",
-  "genres": [
-   "rock",
-   "art rock",
-   "piano rock",
-   "baroque pop",
-   "singer-songwriter"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/97d100a8-e42c-38ff-8ae5-eb31331fd82b.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "1990",
-  "checked": "2026-09-19",
-  "cover_source_url": "https://coverartarchive.org/release-group/97d100a8-e42c-38ff-8ae5-eb31331fd82b/front-500",
   "cover_cached": "2026-09-20"
  },
  "John Coltrane::Both Directions at Once: The Lost Album": {
@@ -37081,20 +36764,6 @@
   "checked": "2026-09-19",
   "cover_source_url": "https://coverartarchive.org/release-group/b74d25cf-dcb5-3d19-992c-964fc0c72ba7/front-500",
   "cover_cached": "2026-09-20"
- },
- "Keiichi Okabe 岡部啓一 & Keigo Hoashi 帆足圭吾::NieR:Automata": {
-  "status": "ok",
-  "mbid": "ae4a9bb9-ce67-4321-8908-a3d03d7e2191",
-  "genres": [
-   "orchestral",
-   "modern classical",
-   "ambient"
-  ],
-  "genre_source": "researched",
-  "cover_url": null,
-  "cover_from": null,
-  "mb_year": null,
-  "checked": "2026-09-20"
  },
  "Keith Jarrett::The Köln Concert": {
   "status": "ok",
@@ -39517,20 +39186,6 @@
   "mb_year": "2007",
   "checked": "2026-09-19",
   "cover_source_url": "https://coverartarchive.org/release-group/ed900bf5-cd10-4b5a-be2d-4e78ccab1612/front-500",
-  "cover_cached": "2026-09-20"
- },
- "Lil Wayne & DJ Drama::Dedication 2": {
-  "status": "ok",
-  "mbid": "4c460d56-4485-3e5d-bcac-c3d0facfc91d",
-  "genres": [
-   "hip hop"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4c460d56-4485-3e5d-bcac-c3d0facfc91d.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2006",
-  "checked": "2026-09-19",
-  "cover_source_url": "https://coverartarchive.org/release-group/4c460d56-4485-3e5d-bcac-c3d0facfc91d/front-500",
   "cover_cached": "2026-09-20"
  },
  "Lil Yachty::Let's Start Here": {
@@ -43734,21 +43389,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/f44f4f73-a714-31a1-a4b8-bfcaaf311f50/front-500",
   "cover_cached": "2026-09-20"
  },
- "Method Man & Redman::Blackout!": {
-  "status": "ok",
-  "mbid": "e7d0c00d-c87c-34b8-9bd4-d8e12f9e2680",
-  "genres": [
-   "hip hop",
-   "east coast hip hop"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e7d0c00d-c87c-34b8-9bd4-d8e12f9e2680.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "1999",
-  "checked": "2026-09-19",
-  "cover_source_url": "https://coverartarchive.org/release-group/e7d0c00d-c87c-34b8-9bd4-d8e12f9e2680/front-500",
-  "cover_cached": "2026-09-20"
- },
  "Metric::Fantasies": {
   "status": "ok",
   "mbid": "0f943236-96e1-4d9d-b35d-4906023fa0e5",
@@ -44013,21 +43653,6 @@
   "mb_year": "2007",
   "checked": "2026-09-19",
   "cover_source_url": "https://coverartarchive.org/release-group/f7da2770-bf72-3dea-8904-ff6135822724/front-500",
-  "cover_cached": "2026-09-20"
- },
- "Michael Hurley/The Unholy Modal Rounders/Jeffrey Frederick & The Clamtones::Have Moicy!": {
-  "status": "ok",
-  "mbid": "b794625a-9dfd-3d43-9aab-17b72366543e",
-  "genres": [
-   "rock",
-   "folk rock"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b794625a-9dfd-3d43-9aab-17b72366543e.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "1976",
-  "checked": "2026-09-19",
-  "cover_source_url": "https://coverartarchive.org/release-group/b794625a-9dfd-3d43-9aab-17b72366543e/front-500",
   "cover_cached": "2026-09-20"
  },
  "Michael Jackson::Bad": {
@@ -46389,20 +46014,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/fed1608d-80b7-38d2-aeb8-c6357f0d4c23/front-500",
   "cover_cached": "2026-09-20"
  },
- "Nação Zumbi & Chico Science::Da Lama Ao Caos": {
-  "status": "ok",
-  "mbid": "b09ea0ac-051f-3d7d-b54b-432d1ad5cde6",
-  "genres": [
-   "mangue beat"
-  ],
-  "genre_source": "artist",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b09ea0ac-051f-3d7d-b54b-432d1ad5cde6.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "1994",
-  "checked": "2026-09-19",
-  "cover_source_url": "https://coverartarchive.org/release-group/b09ea0ac-051f-3d7d-b54b-432d1ad5cde6/front-500",
-  "cover_cached": "2026-09-20"
- },
  "Naked City::Naked City": {
   "status": "ok",
   "mbid": "87e1dff5-3fd9-348b-8caa-ab5902fcdcfb",
@@ -47043,23 +46654,6 @@
   "mb_year": "1969",
   "checked": "2026-09-19",
   "cover_source_url": "https://coverartarchive.org/release-group/f61603ab-ef6b-386b-a5e0-aaefc00543f1/front-500",
-  "cover_cached": "2026-09-20"
- },
- "Neil Young & Crazy Horse::Zuma": {
-  "status": "ok",
-  "mbid": "13b7462a-0764-3ece-946e-314aa01079cf",
-  "genres": [
-   "rock",
-   "folk rock",
-   "hard rock",
-   "classic rock"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/13b7462a-0764-3ece-946e-314aa01079cf.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "1975",
-  "checked": "2026-09-19",
-  "cover_source_url": "https://coverartarchive.org/release-group/13b7462a-0764-3ece-946e-314aa01079cf/front-500",
   "cover_cached": "2026-09-20"
  },
  "Neko Case::Fox Confessor Brings the Flood": {
@@ -48341,41 +47935,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/60230e22-15f4-440a-a156-bb80acd9ab7e/front-500",
   "cover_cached": "2026-09-20"
  },
- "Nobuo Uematsu 植松伸夫::Final Fantasy VII": {
-  "status": "ok",
-  "mbid": "7af34f1f-7c6f-4357-99e9-4b8e77818dc5",
-  "genres": [
-   "electronic",
-   "orchestral",
-   "symphonic rock",
-   "modern classical",
-   "chiptune"
-  ],
-  "genre_source": "artist",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7af34f1f-7c6f-4357-99e9-4b8e77818dc5.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2020",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/7af34f1f-7c6f-4357-99e9-4b8e77818dc5/front-500",
-  "cover_cached": "2026-09-20"
- },
- "Nobuo Uematsu 植松伸夫::ファイナルファンタジーVI (Final Fantasy VI)": {
-  "status": "ok",
-  "mbid": "e24ed909-7757-38c4-822d-339dd19491b4",
-  "genres": [
-   "electronic",
-   "ambient",
-   "folk",
-   "electro"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e24ed909-7757-38c4-822d-339dd19491b4.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2000",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/e24ed909-7757-38c4-822d-339dd19491b4/front-500",
-  "cover_cached": "2026-09-20"
- },
  "NOFX::Punk In Drublic": {
   "status": "ok",
   "mbid": "e45567d0-0c20-3936-a49f-1b42901f89fd",
@@ -48534,23 +48093,6 @@
   "mb_year": "2003",
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/2e52bd6a-53e6-325c-925b-19eaa449db44/front-500",
-  "cover_cached": "2026-09-20"
- },
- "Nujabes & Fat Jon::Samurai Champloo Music Record: Departure": {
-  "status": "ok",
-  "mbid": "109bed29-720c-3a93-88ae-af83a464e5ed",
-  "genres": [
-   "hip hop",
-   "downtempo",
-   "electronic",
-   "trip hop"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/109bed29-720c-3a93-88ae-af83a464e5ed.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2004",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/109bed29-720c-3a93-88ae-af83a464e5ed/front-500",
   "cover_cached": "2026-09-20"
  },
  "Nujabes feat. Shing02::Luv(sic) Hexalogy": {
@@ -50748,59 +50290,6 @@
   "mb_year": "1986",
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/4bb45b34-c884-3179-a518-2cabdc8e7210/front-500",
-  "cover_cached": "2026-09-20"
- },
- "Pete Rock & CL Smooth::The Main Ingredient": {
-  "status": "ok",
-  "mbid": "96a1d0c7-719b-334a-9f5a-d6f5698560bc",
-  "genres": [
-   "hip hop",
-   "boom bap",
-   "jazz rap",
-   "conscious hip hop",
-   "east coast hip hop",
-   "turntablism"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/96a1d0c7-719b-334a-9f5a-d6f5698560bc.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "1994",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/96a1d0c7-719b-334a-9f5a-d6f5698560bc/front-500",
-  "cover_cached": "2026-09-20"
- },
- "Pete Rock & CL Smooth::Mecca and the Soul Brother": {
-  "status": "ok",
-  "mbid": "7eb6da03-0f1f-3303-b079-8cba2f18c530",
-  "genres": [
-   "hip hop",
-   "jazz rap",
-   "boom bap",
-   "conscious hip hop",
-   "east coast hip hop"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7eb6da03-0f1f-3303-b079-8cba2f18c530.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "1992",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/7eb6da03-0f1f-3303-b079-8cba2f18c530/front-500",
-  "cover_cached": "2026-09-20"
- },
- "Pete Rock & InI::Center of Attention": {
-  "status": "ok",
-  "mbid": "a9c6ae63-b585-35e7-8178-6c9b97078374",
-  "genres": [
-   "hip hop",
-   "boom bap",
-   "jazz rap"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a9c6ae63-b585-35e7-8178-6c9b97078374.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2000",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/a9c6ae63-b585-35e7-8178-6c9b97078374/front-500",
   "cover_cached": "2026-09-20"
  },
  "Peter Gabriel::So": {
@@ -55495,24 +54984,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/de6f779f-7c14-4725-bf9c-294d7d3e88fc/front-500",
   "cover_cached": "2026-09-20"
  },
- "Roc Marciano/ The Alchemist::The Elephant Man's  Bones": {
-  "status": "ok",
-  "mbid": "a89c1a1f-8787-42d2-ba69-dd3fcf810cf7",
-  "genres": [
-   "hip hop",
-   "gangsta rap",
-   "mafioso rap",
-   "boom bap",
-   "jazz rap"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a89c1a1f-8787-42d2-ba69-dd3fcf810cf7.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2022",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/a89c1a1f-8787-42d2-ba69-dd3fcf810cf7/front-500",
-  "cover_cached": "2026-09-20"
- },
  "Rodriguez::Cold Fact": {
   "status": "ok",
   "mbid": "25d9f5f8-ece0-311c-bf2a-092f26315e0e",
@@ -57013,46 +56484,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/bc5e0495-4db9-3dae-9883-104d5df6b2cc/front-500",
   "cover_cached": "2026-09-20"
  },
- "Sematary & Ghost Mountain::HUNDRED ACRE WRIST HOSTED BY DJ SORROW": {
-  "status": "ok",
-  "mbid": "b5d7be1f-2464-49f8-86ab-257a72cd6276",
-  "genres": [
-   "horrorcore",
-   "experimental hip hop",
-   "trap",
-   "drill",
-   "wave",
-   "witch house",
-   "cloud rap",
-   "emo rap",
-   "plugg",
-   "chicago drill"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b5d7be1f-2464-49f8-86ab-257a72cd6276.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2020",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/b5d7be1f-2464-49f8-86ab-257a72cd6276/front-500",
-  "cover_cached": "2026-09-20"
- },
- "Sematary & Ghost Mountain::GRAVE HOUSE": {
-  "status": "ok",
-  "mbid": "80871133-80ca-47f2-a38b-e81a4859d63d",
-  "genres": [
-   "electronic",
-   "witch house",
-   "trap",
-   "cloud rap"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/80871133-80ca-47f2-a38b-e81a4859d63d.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2019",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/80871133-80ca-47f2-a38b-e81a4859d63d/front-500",
-  "cover_cached": "2026-09-20"
- },
  "Sepultura::Roots": {
   "status": "ok",
   "mbid": "f625cd30-9427-360b-b63d-e294d23b1980",
@@ -57332,22 +56763,6 @@
   "mb_year": "2019",
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/62cc7255-7e38-4214-badc-ce418a805414/front-500",
-  "cover_cached": "2026-09-20"
- },
- "Shawn Kemp & Nickelus F::Trick Dice": {
-  "status": "ok",
-  "mbid": "efe3f386-4a95-4f14-a885-c754394f6972",
-  "genres": [
-   "boom bap",
-   "experimental",
-   "hip hop"
-  ],
-  "genre_source": "discogs",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/efe3f386-4a95-4f14-a885-c754394f6972.jpg",
-  "cover_from": "deezer",
-  "mb_year": "2015",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/047359de08ef552d9d4bb03ab1db64f8/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20"
  },
  "Sheer Mag::Compilation": {
@@ -61856,18 +61271,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/e5627268-5d41-4432-a0bd-411a1737630d/front-500",
   "cover_cached": "2026-09-20"
  },
- "Susumu Hirasawa 平沢進::剣風伝奇ベルセルク (Berserk)": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [
-   "electronic",
-   "progressive rock",
-   "ambient"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "researched"
- },
  "Swain::Negative Spaces": {
   "status": "ok",
   "mbid": "2a94c6ba-114c-4b14-909b-4f74a9ecc15d",
@@ -62472,21 +61875,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/450fbdb4-ba92-3d52-8b46-16f6a935d277/front-500",
   "cover_cached": "2026-09-20"
  },
- "Tabu Ley Rochereau::Tabu Ley Rochereau: The Voice of Lightness Vol 1 Album 1": {
-  "status": "ok",
-  "mbid": "35485800-b362-3569-80ba-27618a27bf43",
-  "genres": [
-   "rumba",
-   "soukous"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/35485800-b362-3569-80ba-27618a27bf43.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "1984",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/35485800-b362-3569-80ba-27618a27bf43/front-500",
-  "cover_cached": "2026-09-20"
- },
  "Taking Back Sunday::Louder Now": {
   "status": "ok",
   "mbid": "734eaae5-d96d-3b94-b6a6-167da219179a",
@@ -62841,52 +62229,6 @@
   "mb_year": "1974",
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/866c88fa-a18b-3739-9814-2ad215e5e11a/front-500",
-  "cover_cached": "2026-09-20"
- },
- "Tatsuro Yamashita 山下達郎::Big Wave": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [
-   "city pop",
-   "j-pop",
-   "soft rock"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "researched"
- },
- "Tatsuro Yamashita 山下達郎::For You": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [
-   "ballad",
-   "city pop",
-   "funk",
-   "soft rock",
-   "soul",
-   "jazz",
-   "rock",
-   "pop"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "discogs"
- },
- "Tatsuro Yamashita 山下達郎::Ride on Time": {
-  "status": "ok",
-  "mbid": "e729d273-7b4b-43d5-b808-b7d3cead5936",
-  "genres": [
-   "pop",
-   "city pop",
-   "funk",
-   "j-pop"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e729d273-7b4b-43d5-b808-b7d3cead5936.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "1980",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/e729d273-7b4b-43d5-b808-b7d3cead5936/front-500",
   "cover_cached": "2026-09-20"
  },
  "Taylor Swift::Red": {
@@ -64881,27 +64223,6 @@
   "mb_year": "1999",
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/3db16ade-a4ad-3db8-a7b3-943a9c97b6b5/front-500",
-  "cover_cached": "2026-09-20"
- },
- "The Dillinger Escape Plan & Mike Patton::Irony Is a Dead Scene": {
-  "status": "ok",
-  "mbid": "324286e4-e949-3d8e-a0e7-15652d077aa3",
-  "genres": [
-   "mathcore",
-   "rock",
-   "metal",
-   "heavy metal",
-   "math rock",
-   "experimental rock",
-   "alternative metal",
-   "grindcore"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/324286e4-e949-3d8e-a0e7-15652d077aa3.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2002",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/324286e4-e949-3d8e-a0e7-15652d077aa3/front-500",
   "cover_cached": "2026-09-20"
  },
  "The Dismemberment Plan::Emergency & I": {
@@ -74831,20 +74152,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/7ff84cc1-a1d5-4f48-ad44-cef176e18fb2/front-500",
   "cover_cached": "2026-09-20"
  },
- "Westside Gunn & Conway the Machine::Griselda Ghost": {
-  "status": "ok",
-  "mbid": "b9335cbc-6380-43b7-9d61-c3a69e1d4f12",
-  "genres": [
-   "hip hop"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b9335cbc-6380-43b7-9d61-c3a69e1d4f12.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2015",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/b9335cbc-6380-43b7-9d61-c3a69e1d4f12/front-500",
-  "cover_cached": "2026-09-20"
- },
  "Wet Leg::Wet Leg": {
   "status": "ok",
   "mbid": "d53be2e5-fe7c-4681-85f3-960493aa02b5",
@@ -78690,64 +77997,6 @@
   "rename_checked": "2026-09-20",
   "genre_source": "researched"
  },
- "Hideki Naganuma 長沼英樹::Jet Set Radio Future (ジェットセットラジオフューチャー)": {
-  "status": "ok",
-  "mbid": "2758b7a1-5f32-3807-bd03-5d4ef4fe3c65",
-  "genres": [
-   "funk",
-   "techno",
-   "electronic",
-   "hip hop",
-   "breakbeat",
-   "turntablism",
-   "rock",
-   "pop",
-   "alternative rock",
-   "j-pop"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2758b7a1-5f32-3807-bd03-5d4ef4fe3c65.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2002",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/2758b7a1-5f32-3807-bd03-5d4ef4fe3c65/front-500",
-  "cover_cached": "2026-09-20"
- },
- "Hideki Naganuma 長沼英樹::Jet Set Radio Original Sound Tracks": {
-  "status": "ok",
-  "mbid": "e70c76af-ffe0-37fb-959e-e18fe8de863d",
-  "genres": [
-   "electronic",
-   "rock",
-   "big beat",
-   "house",
-   "ska",
-   "electro",
-   "hip hop",
-   "funk",
-   "breakbeat",
-   "pop punk"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e70c76af-ffe0-37fb-959e-e18fe8de863d.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2000",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release/be5b825d-5bb7-38b2-8fd7-dc0eef9501a9/front-500",
-  "cover_cached": "2026-09-20"
- },
- "Hirokazu Tanaka & Keiichi Suzuki::Mother 2: ギーグの逆襲": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [
-   "chiptune",
-   "electronic"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "researched"
- },
  "John Tabalot::Fin": {
   "status": "nomatch",
   "cover_url": null,
@@ -78765,21 +78014,6 @@
   "tried": "2026-09-20",
   "rename_checked": "2026-09-20",
   "genre_source": "lastfm-artist"
- },
- "Koji Kondo 近藤浩治::ゼルダの伝説: ムジュラの仮面 (The Legend of Zelda: Majora's Mask)": {
-  "status": "ok",
-  "mbid": "43ea018e-4d16-40f2-972c-f985c6c0a33e",
-  "genres": [
-   "chiptune",
-   "electronic"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/43ea018e-4d16-40f2-972c-f985c6c0a33e.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "1987",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/43ea018e-4d16-40f2-972c-f985c6c0a33e/front-500",
-  "cover_cached": "2026-09-20"
  },
  "Litourgiya::Batushka": {
   "status": "nomatch",
@@ -78951,21 +78185,6 @@
   "tried": "2026-09-20",
   "genre_source": "lastfm-artist"
  },
- "Shoji Meguro 目黒将司::Persona4": {
-  "status": "ok",
-  "mbid": "68704689-1e2e-4660-a841-16057bdd733d",
-  "genres": [
-   "rock",
-   "pop"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/68704689-1e2e-4660-a841-16057bdd733d.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2011",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/68704689-1e2e-4660-a841-16057bdd733d/front-500",
-  "cover_cached": "2026-09-20"
- },
  "Sluason Malone::A Quiet Farewell, Twenty Sixteen to Twent Eighteen": {
   "status": "nomatch",
   "cover_url": null,
@@ -79025,18 +78244,6 @@
   ],
   "tried": "2026-09-20",
   "genre_source": "lastfm-artist"
- },
- "Tom Zé, Os Mutantes, Nara Leão, Caetano Veloso, Gilberto Gil & Gal Costa::Tropicália ou Panis et Circencis": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [
-   "tropicália",
-   "mpb",
-   "psychedelic rock"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "researched"
  },
  "Universe Nekoko::Kimi No Youni Ikiretara": {
   "status": "nomatch",
@@ -79109,29 +78316,6 @@
   "cover_from": null,
   "genres": [],
   "tried": "2026-09-20"
- },
- "Yuu Miyake 三宅優::塊魂サウンドトラック「塊フォルテッシモ魂」 (Katamari Damacy Soundtrack: Katamari Fortissimo Damacy)": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [
-   "j-pop",
-   "electronic",
-   "bossa nova"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "researched"
- },
- "가장 보통의 존재::Sister's Barbershop 언니네이발관": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [
-   "indie rock",
-   "indie pop"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "researched"
  },
  "ミドリ [Midori]::Hello Everyone. Nice to Meet you. We are Midori": {
   "status": "nomatch",
@@ -79284,25 +78468,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/760f9d8c-3465-497f-9186-a63b1270d9fb/front-500",
   "cover_cached": "2026-09-20"
  },
- "Angelo Badalamenti & David Lynch::Mulholland Drive": {
-  "status": "ok",
-  "mbid": "32530b76-bb42-3b3f-80e7-35f1c5de6f0a",
-  "genres": [
-   "rock",
-   "jazz",
-   "smooth jazz",
-   "electronic",
-   "classical",
-   "alternative rock",
-   "ambient",
-   "experimental"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/32530b76-bb42-3b3f-80e7-35f1c5de6f0a/front-500",
-  "cover_from": "coverartarchive",
-  "mb_year": "2001",
-  "checked": "2026-09-20"
- },
  "Kanonenfieber::Die Urkatastrophe": {
   "status": "ok",
   "mbid": "324a25c1-a132-4fed-82c9-432cc2618d61",
@@ -79361,5 +78526,840 @@
   "cover_from": "coverartarchive",
   "mb_year": "2014",
   "checked": "2026-09-20"
+ },
+ "Beth Gibbons & Rustin Man::Out of Season": {
+  "status": "ok",
+  "mbid": "20c64f88-7893-3ff1-8ec2-ff53ac7fcf33",
+  "genres": [
+   "downtempo",
+   "electronic",
+   "rock"
+  ],
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/20c64f88-7893-3ff1-8ec2-ff53ac7fcf33.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2002",
+  "checked": "2026-09-19",
+  "cover_source_url": "https://coverartarchive.org/release-group/20c64f88-7893-3ff1-8ec2-ff53ac7fcf33/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Godspeed You Black Emperor::“NO TITLE AS OF 13 FEBRUARY 2024 28,340 DEAD”": {
+  "status": "ok",
+  "mbid": "7df4cbb0-30ed-4fed-9383-dd5fe3dbff30",
+  "genres": [
+   "post-rock",
+   "rock",
+   "pop"
+  ],
+  "cover_url": null,
+  "cover_from": null,
+  "mb_year": "2024",
+  "checked": "2026-09-19"
+ },
+ "Kero Kero Bonito::Bonito Generation": {
+  "status": "ok",
+  "mbid": "24c6ca0a-fa99-455e-be85-b1e948c68fa9",
+  "genres": [
+   "electronic",
+   "pop",
+   "j-pop"
+  ],
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/24c6ca0a-fa99-455e-be85-b1e948c68fa9.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2016",
+  "checked": "2026-09-19",
+  "cover_source_url": "https://coverartarchive.org/release-group/24c6ca0a-fa99-455e-be85-b1e948c68fa9/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "John Coltrane & Duke Ellington::Duke Ellington & John Coltrane": {
+  "status": "ok",
+  "mbid": "caf2a0e9-2cb9-4b1d-9549-5e3b7201edaf",
+  "genres": [
+   "jazz",
+   "swing",
+   "big band"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/caf2a0e9-2cb9-4b1d-9549-5e3b7201edaf.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1987",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/caf2a0e9-2cb9-4b1d-9549-5e3b7201edaf/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "John Coltrane & Milt Jackson::Bags & Trane": {
+  "status": "ok",
+  "mbid": "f307972b-f870-428f-bd7d-0130c913f593",
+  "genres": [
+   "jazz",
+   "hard bop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f307972b-f870-428f-bd7d-0130c913f593.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2012",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/f307972b-f870-428f-bd7d-0130c913f593/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Angelo Badalamenti & David Lynch::Mulholland Drive": {
+  "status": "ok",
+  "mbid": "32530b76-bb42-3b3f-80e7-35f1c5de6f0a",
+  "genres": [
+   "rock",
+   "jazz",
+   "smooth jazz",
+   "electronic",
+   "classical",
+   "alternative rock",
+   "ambient",
+   "experimental"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://coverartarchive.org/release-group/32530b76-bb42-3b3f-80e7-35f1c5de6f0a/front-500",
+  "cover_from": "coverartarchive",
+  "mb_year": "2001",
+  "checked": "2026-09-20"
+ },
+ "Antônio Carlos Jobim & Elis Regina::Elis & Tom": {
+  "status": "ok",
+  "mbid": "e3f00603-c147-3810-ae0d-29cb2cc60992",
+  "genres": [
+   "mpb",
+   "pop",
+   "bossa nova"
+  ],
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e3f00603-c147-3810-ae0d-29cb2cc60992.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1980",
+  "checked": "2026-09-19",
+  "cover_source_url": "https://coverartarchive.org/release-group/e3f00603-c147-3810-ae0d-29cb2cc60992/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Blu & Exile::Give Me My Flowers While I Can Still Smell Them": {
+  "status": "ok",
+  "mbid": "58c87af1-3a26-4765-9499-ef286c31ae20",
+  "genres": [
+   "hip hop"
+  ],
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/58c87af1-3a26-4765-9499-ef286c31ae20.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2012",
+  "checked": "2026-09-19",
+  "cover_source_url": "https://coverartarchive.org/release-group/58c87af1-3a26-4765-9499-ef286c31ae20/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Bob Dylan & The Band::The Basement Tapes": {
+  "status": "ok",
+  "mbid": "47873729-6db0-3431-99e7-0292e939dadf",
+  "genres": [
+   "folk rock",
+   "rock",
+   "country rock",
+   "blues rock",
+   "contemporary folk",
+   "roots rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/47873729-6db0-3431-99e7-0292e939dadf.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1975",
+  "checked": "2026-09-19",
+  "cover_source_url": "https://coverartarchive.org/release-group/47873729-6db0-3431-99e7-0292e939dadf/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Boris & Merzbow::Rock Dream": {
+  "status": "ok",
+  "mbid": "55b1383d-7138-39ff-a617-1131ff78d85c",
+  "genres": [
+   "rock",
+   "electronic",
+   "noise",
+   "punk",
+   "doom metal",
+   "psychedelic rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/55b1383d-7138-39ff-a617-1131ff78d85c.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2007",
+  "checked": "2026-09-19",
+  "cover_source_url": "https://coverartarchive.org/release-group/55b1383d-7138-39ff-a617-1131ff78d85c/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Brian Eno & Harold Budd::The Pearl": {
+  "status": "ok",
+  "mbid": "6c364112-e9fb-373c-9f1d-364b427f64c3",
+  "genres": [
+   "ambient",
+   "electronic",
+   "experimental rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6c364112-e9fb-373c-9f1d-364b427f64c3.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1984",
+  "checked": "2026-09-19",
+  "cover_source_url": "https://coverartarchive.org/release-group/6c364112-e9fb-373c-9f1d-364b427f64c3/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Brian Eno & Harold Budd::Ambient 2: The Plateaux of Mirror": {
+  "status": "ok",
+  "mbid": "02c0fc3b-9c3c-34e4-abed-bb6cd04fa1fc",
+  "genres": [
+   "ambient",
+   "electronic"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/02c0fc3b-9c3c-34e4-abed-bb6cd04fa1fc.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1980",
+  "checked": "2026-09-19",
+  "cover_source_url": "https://coverartarchive.org/release-group/02c0fc3b-9c3c-34e4-abed-bb6cd04fa1fc/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Charles Mingus, Max Roach & Duke Ellington::Money Jungle": {
+  "status": "ok",
+  "mbid": "1c18538e-e9be-3449-8be1-f3cdc7b493e0",
+  "genres": [
+   "jazz",
+   "hard bop",
+   "post-bop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1c18538e-e9be-3449-8be1-f3cdc7b493e0.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1962",
+  "checked": "2026-09-19",
+  "cover_source_url": "https://coverartarchive.org/release-group/1c18538e-e9be-3449-8be1-f3cdc7b493e0/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Curren$y & The Alchemist::Covert Coup": {
+  "status": "ok",
+  "mbid": "3ef43e89-9e82-46e9-9786-f5d06624b4d7",
+  "genres": [
+   "hip hop",
+   "dirty south",
+   "gangsta rap",
+   "southern hip hop",
+   "alternative hip hop"
+  ],
+  "genre_source": "artist",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3ef43e89-9e82-46e9-9786-f5d06624b4d7.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2012",
+  "checked": "2026-09-19",
+  "cover_source_url": "https://coverartarchive.org/release-group/3ef43e89-9e82-46e9-9786-f5d06624b4d7/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "David Kauffman & Eric Caboor::Songs From Suicide Bridge": {
+  "status": "ok",
+  "mbid": "55479707-35bc-4550-8bb5-a068a0cd8f19",
+  "genres": [
+   "rock",
+   "folk",
+   "loner folk"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/55479707-35bc-4550-8bb5-a068a0cd8f19.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1984",
+  "checked": "2026-09-19",
+  "cover_source_url": "https://coverartarchive.org/release-group/55479707-35bc-4550-8bb5-a068a0cd8f19/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "DJ 光光光 [DJ Pica Pica Pica]::Planetary Natural Love Gas Webbin' 199999": {
+  "status": "ok",
+  "mbid": "9c0562af-c764-3189-aa7e-f6edeb55ccd7",
+  "genres": [
+   "rock",
+   "electronic",
+   "ambient",
+   "experimental",
+   "folk rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9c0562af-c764-3189-aa7e-f6edeb55ccd7.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1999",
+  "checked": "2026-09-19",
+  "cover_source_url": "https://coverartarchive.org/release-group/9c0562af-c764-3189-aa7e-f6edeb55ccd7/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Elton John::Goodbye Yellow Brick Road": {
+  "status": "ok",
+  "mbid": "80df0f1b-4ce7-348a-aa1b-0d31ebff111a",
+  "genres": [
+   "rock",
+   "glam rock",
+   "pop rock",
+   "soft rock",
+   "pop",
+   "piano rock",
+   "progressive rock",
+   "classic rock",
+   "progressive pop",
+   "singer-songwriter"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/80df0f1b-4ce7-348a-aa1b-0d31ebff111a.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1973",
+  "checked": "2026-09-19",
+  "cover_source_url": "https://coverartarchive.org/release-group/80df0f1b-4ce7-348a-aa1b-0d31ebff111a/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Hans Zimmer & Benjamin Wallfisch::Blade Runner 2049": {
+  "status": "ok",
+  "mbid": "22c73225-8a2e-4e92-a00e-68960dc1ff4a",
+  "genres": [
+   "electronic",
+   "rock",
+   "ambient"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/22c73225-8a2e-4e92-a00e-68960dc1ff4a.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2017",
+  "checked": "2026-09-19",
+  "cover_source_url": "https://coverartarchive.org/release-group/22c73225-8a2e-4e92-a00e-68960dc1ff4a/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Hideki Naganuma 長沼英樹::Jet Set Radio Future (ジェットセットラジオフューチャー)": {
+  "status": "ok",
+  "mbid": "2758b7a1-5f32-3807-bd03-5d4ef4fe3c65",
+  "genres": [
+   "funk",
+   "techno",
+   "electronic",
+   "hip hop",
+   "breakbeat",
+   "turntablism",
+   "rock",
+   "pop",
+   "alternative rock",
+   "j-pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2758b7a1-5f32-3807-bd03-5d4ef4fe3c65.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2002",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/2758b7a1-5f32-3807-bd03-5d4ef4fe3c65/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Hideki Naganuma 長沼英樹::Jet Set Radio Original Sound Tracks": {
+  "status": "ok",
+  "mbid": "e70c76af-ffe0-37fb-959e-e18fe8de863d",
+  "genres": [
+   "electronic",
+   "rock",
+   "big beat",
+   "house",
+   "ska",
+   "electro",
+   "hip hop",
+   "funk",
+   "breakbeat",
+   "pop punk"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e70c76af-ffe0-37fb-959e-e18fe8de863d.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2000",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release/be5b825d-5bb7-38b2-8fd7-dc0eef9501a9/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Hirokazu Tanaka & Keiichi Suzuki::Mother 2: ギーグの逆襲": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [
+   "chiptune",
+   "electronic"
+  ],
+  "tried": "2026-09-20",
+  "rename_checked": "2026-09-20",
+  "genre_source": "researched"
+ },
+ "James Chance & Contortions::Buy": {
+  "status": "ok",
+  "mbid": "ddea7605-05e1-323d-8837-b2e28ec2e795",
+  "genres": [
+   "no wave",
+   "dance-punk",
+   "jazz-funk",
+   "rock",
+   "jazz",
+   "new wave",
+   "avant-garde",
+   "disco"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ddea7605-05e1-323d-8837-b2e28ec2e795.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1979",
+  "checked": "2026-09-19",
+  "cover_source_url": "https://coverartarchive.org/release-group/ddea7605-05e1-323d-8837-b2e28ec2e795/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "John Cale & Lou Reed::Songs for Drella": {
+  "status": "ok",
+  "mbid": "97d100a8-e42c-38ff-8ae5-eb31331fd82b",
+  "genres": [
+   "rock",
+   "art rock",
+   "piano rock",
+   "baroque pop",
+   "singer-songwriter"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/97d100a8-e42c-38ff-8ae5-eb31331fd82b.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1990",
+  "checked": "2026-09-19",
+  "cover_source_url": "https://coverartarchive.org/release-group/97d100a8-e42c-38ff-8ae5-eb31331fd82b/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Keiichi Okabe 岡部啓一 & Keigo Hoashi 帆足圭吾::NieR:Automata": {
+  "status": "ok",
+  "mbid": "ae4a9bb9-ce67-4321-8908-a3d03d7e2191",
+  "genres": [
+   "orchestral",
+   "modern classical",
+   "ambient"
+  ],
+  "genre_source": "researched",
+  "cover_url": null,
+  "cover_from": null,
+  "mb_year": null,
+  "checked": "2026-09-20"
+ },
+ "Koji Kondo 近藤浩治::ゼルダの伝説: ムジュラの仮面 (The Legend of Zelda: Majora's Mask)": {
+  "status": "ok",
+  "mbid": "43ea018e-4d16-40f2-972c-f985c6c0a33e",
+  "genres": [
+   "chiptune",
+   "electronic"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/43ea018e-4d16-40f2-972c-f985c6c0a33e.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1987",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/43ea018e-4d16-40f2-972c-f985c6c0a33e/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Lil Wayne & DJ Drama::Dedication 2": {
+  "status": "ok",
+  "mbid": "4c460d56-4485-3e5d-bcac-c3d0facfc91d",
+  "genres": [
+   "hip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4c460d56-4485-3e5d-bcac-c3d0facfc91d.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2006",
+  "checked": "2026-09-19",
+  "cover_source_url": "https://coverartarchive.org/release-group/4c460d56-4485-3e5d-bcac-c3d0facfc91d/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Method Man & Redman::Blackout!": {
+  "status": "ok",
+  "mbid": "e7d0c00d-c87c-34b8-9bd4-d8e12f9e2680",
+  "genres": [
+   "hip hop",
+   "east coast hip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e7d0c00d-c87c-34b8-9bd4-d8e12f9e2680.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1999",
+  "checked": "2026-09-19",
+  "cover_source_url": "https://coverartarchive.org/release-group/e7d0c00d-c87c-34b8-9bd4-d8e12f9e2680/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Michael Hurley/The Unholy Modal Rounders/Jeffrey Frederick & The Clamtones::Have Moicy!": {
+  "status": "ok",
+  "mbid": "b794625a-9dfd-3d43-9aab-17b72366543e",
+  "genres": [
+   "rock",
+   "folk rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b794625a-9dfd-3d43-9aab-17b72366543e.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1976",
+  "checked": "2026-09-19",
+  "cover_source_url": "https://coverartarchive.org/release-group/b794625a-9dfd-3d43-9aab-17b72366543e/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Nação Zumbi & Chico Science::Da Lama Ao Caos": {
+  "status": "ok",
+  "mbid": "b09ea0ac-051f-3d7d-b54b-432d1ad5cde6",
+  "genres": [
+   "mangue beat"
+  ],
+  "genre_source": "artist",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b09ea0ac-051f-3d7d-b54b-432d1ad5cde6.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1994",
+  "checked": "2026-09-19",
+  "cover_source_url": "https://coverartarchive.org/release-group/b09ea0ac-051f-3d7d-b54b-432d1ad5cde6/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Neil Young & Crazy Horse::Zuma": {
+  "status": "ok",
+  "mbid": "13b7462a-0764-3ece-946e-314aa01079cf",
+  "genres": [
+   "rock",
+   "folk rock",
+   "hard rock",
+   "classic rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/13b7462a-0764-3ece-946e-314aa01079cf.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1975",
+  "checked": "2026-09-19",
+  "cover_source_url": "https://coverartarchive.org/release-group/13b7462a-0764-3ece-946e-314aa01079cf/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Nobuo Uematsu 植松伸夫::Final Fantasy VII": {
+  "status": "ok",
+  "mbid": "7af34f1f-7c6f-4357-99e9-4b8e77818dc5",
+  "genres": [
+   "electronic",
+   "orchestral",
+   "symphonic rock",
+   "modern classical",
+   "chiptune"
+  ],
+  "genre_source": "artist",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7af34f1f-7c6f-4357-99e9-4b8e77818dc5.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2020",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/7af34f1f-7c6f-4357-99e9-4b8e77818dc5/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Nobuo Uematsu 植松伸夫::ファイナルファンタジーVI (Final Fantasy VI)": {
+  "status": "ok",
+  "mbid": "e24ed909-7757-38c4-822d-339dd19491b4",
+  "genres": [
+   "electronic",
+   "ambient",
+   "folk",
+   "electro"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e24ed909-7757-38c4-822d-339dd19491b4.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2000",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/e24ed909-7757-38c4-822d-339dd19491b4/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Nujabes & Fat Jon::Samurai Champloo Music Record: Departure": {
+  "status": "ok",
+  "mbid": "109bed29-720c-3a93-88ae-af83a464e5ed",
+  "genres": [
+   "hip hop",
+   "downtempo",
+   "electronic",
+   "trip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/109bed29-720c-3a93-88ae-af83a464e5ed.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2004",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/109bed29-720c-3a93-88ae-af83a464e5ed/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Pete Rock & CL Smooth::The Main Ingredient": {
+  "status": "ok",
+  "mbid": "96a1d0c7-719b-334a-9f5a-d6f5698560bc",
+  "genres": [
+   "hip hop",
+   "boom bap",
+   "jazz rap",
+   "conscious hip hop",
+   "east coast hip hop",
+   "turntablism"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/96a1d0c7-719b-334a-9f5a-d6f5698560bc.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1994",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/96a1d0c7-719b-334a-9f5a-d6f5698560bc/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Pete Rock & CL Smooth::Mecca and the Soul Brother": {
+  "status": "ok",
+  "mbid": "7eb6da03-0f1f-3303-b079-8cba2f18c530",
+  "genres": [
+   "hip hop",
+   "jazz rap",
+   "boom bap",
+   "conscious hip hop",
+   "east coast hip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7eb6da03-0f1f-3303-b079-8cba2f18c530.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1992",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/7eb6da03-0f1f-3303-b079-8cba2f18c530/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Pete Rock & InI::Center of Attention": {
+  "status": "ok",
+  "mbid": "a9c6ae63-b585-35e7-8178-6c9b97078374",
+  "genres": [
+   "hip hop",
+   "boom bap",
+   "jazz rap"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a9c6ae63-b585-35e7-8178-6c9b97078374.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2000",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/a9c6ae63-b585-35e7-8178-6c9b97078374/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Roc Marciano/ The Alchemist::The Elephant Man's Bones": {
+  "status": "ok",
+  "mbid": "a89c1a1f-8787-42d2-ba69-dd3fcf810cf7",
+  "genres": [
+   "hip hop",
+   "gangsta rap",
+   "mafioso rap",
+   "boom bap",
+   "jazz rap"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a89c1a1f-8787-42d2-ba69-dd3fcf810cf7.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2022",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/a89c1a1f-8787-42d2-ba69-dd3fcf810cf7/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Sematary & Ghost Mountain::HUNDRED ACRE WRIST HOSTED BY DJ SORROW": {
+  "status": "ok",
+  "mbid": "b5d7be1f-2464-49f8-86ab-257a72cd6276",
+  "genres": [
+   "horrorcore",
+   "experimental hip hop",
+   "trap",
+   "drill",
+   "wave",
+   "witch house",
+   "cloud rap",
+   "emo rap",
+   "plugg",
+   "chicago drill"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b5d7be1f-2464-49f8-86ab-257a72cd6276.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2020",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/b5d7be1f-2464-49f8-86ab-257a72cd6276/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Sematary & Ghost Mountain::GRAVE HOUSE": {
+  "status": "ok",
+  "mbid": "80871133-80ca-47f2-a38b-e81a4859d63d",
+  "genres": [
+   "electronic",
+   "witch house",
+   "trap",
+   "cloud rap"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/80871133-80ca-47f2-a38b-e81a4859d63d.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2019",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/80871133-80ca-47f2-a38b-e81a4859d63d/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Shawn Kemp & Nickelus F::Trick Dice": {
+  "status": "ok",
+  "mbid": "efe3f386-4a95-4f14-a885-c754394f6972",
+  "genres": [
+   "boom bap",
+   "experimental",
+   "hip hop"
+  ],
+  "genre_source": "discogs",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/efe3f386-4a95-4f14-a885-c754394f6972.jpg",
+  "cover_from": "deezer",
+  "mb_year": "2015",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/047359de08ef552d9d4bb03ab1db64f8/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-09-20"
+ },
+ "Shoji Meguro 目黒将司::Persona4": {
+  "status": "ok",
+  "mbid": "68704689-1e2e-4660-a841-16057bdd733d",
+  "genres": [
+   "rock",
+   "pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/68704689-1e2e-4660-a841-16057bdd733d.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2011",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/68704689-1e2e-4660-a841-16057bdd733d/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Susumu Hirasawa 平沢進::剣風伝奇ベルセルク (Berserk)": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [
+   "electronic",
+   "progressive rock",
+   "ambient"
+  ],
+  "tried": "2026-09-20",
+  "genre_source": "researched"
+ },
+ "Tabu Ley Rochereau::Tabu Ley Rochereau: The Voice of Lightness Vol 1 Album 1": {
+  "status": "ok",
+  "mbid": "35485800-b362-3569-80ba-27618a27bf43",
+  "genres": [
+   "rumba",
+   "soukous"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/35485800-b362-3569-80ba-27618a27bf43.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1984",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/35485800-b362-3569-80ba-27618a27bf43/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Tatsuro Yamashita 山下達郎::Big Wave": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [
+   "city pop",
+   "j-pop",
+   "soft rock"
+  ],
+  "tried": "2026-09-20",
+  "genre_source": "researched"
+ },
+ "Tatsuro Yamashita 山下達郎::For You": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [
+   "ballad",
+   "city pop",
+   "funk",
+   "soft rock",
+   "soul",
+   "jazz",
+   "rock",
+   "pop"
+  ],
+  "tried": "2026-09-20",
+  "genre_source": "discogs"
+ },
+ "Tatsuro Yamashita 山下達郎::Ride on Time": {
+  "status": "ok",
+  "mbid": "e729d273-7b4b-43d5-b808-b7d3cead5936",
+  "genres": [
+   "pop",
+   "city pop",
+   "funk",
+   "j-pop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e729d273-7b4b-43d5-b808-b7d3cead5936.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1980",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/e729d273-7b4b-43d5-b808-b7d3cead5936/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "The Dillinger Escape Plan & Mike Patton::Irony Is a Dead Scene": {
+  "status": "ok",
+  "mbid": "324286e4-e949-3d8e-a0e7-15652d077aa3",
+  "genres": [
+   "mathcore",
+   "rock",
+   "metal",
+   "heavy metal",
+   "math rock",
+   "experimental rock",
+   "alternative metal",
+   "grindcore"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/324286e4-e949-3d8e-a0e7-15652d077aa3.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2002",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/324286e4-e949-3d8e-a0e7-15652d077aa3/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Tom Zé, Os Mutantes, Nara Leão, Caetano Veloso, Gilberto Gil & Gal Costa::Tropicália ou Panis et Circencis": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [
+   "tropicália",
+   "mpb",
+   "psychedelic rock"
+  ],
+  "tried": "2026-09-20",
+  "genre_source": "researched"
+ },
+ "Westside Gunn & Conway the Machine::Griselda Ghost": {
+  "status": "ok",
+  "mbid": "b9335cbc-6380-43b7-9d61-c3a69e1d4f12",
+  "genres": [
+   "hip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b9335cbc-6380-43b7-9d61-c3a69e1d4f12.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2015",
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/b9335cbc-6380-43b7-9d61-c3a69e1d4f12/front-500",
+  "cover_cached": "2026-09-20"
+ },
+ "Yuu Miyake 三宅優::塊魂サウンドトラック「塊フォルテッシモ魂」 (Katamari Damacy Soundtrack: Katamari Fortissimo Damacy)": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [
+   "j-pop",
+   "electronic",
+   "bossa nova"
+  ],
+  "tried": "2026-09-20",
+  "genre_source": "researched"
+ },
+ "가장 보통의 존재::Sister's Barbershop 언니네이발관": {
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [
+   "indie rock",
+   "indie pop"
+  ],
+  "tried": "2026-09-20",
+  "genre_source": "researched"
  }
 }

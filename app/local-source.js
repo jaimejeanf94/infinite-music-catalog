@@ -137,9 +137,26 @@ const LocalDB = {
         // An edit must not rewrite the fields its own key is built from.
         album.artist = artist;
         album.title = title;
-        // Enrichment matched this album by MusicBrainz id; a cached cover came
-        // from a text search in the browser. The verified one wins.
-        album.cover_url = extra.cover_url || edit.cover_url || null;
+        // albums.csv wins, because it is an export of the database and the
+        // database is the source of truth: a cover you overrode by hand, one
+        // you uploaded, and everything the nightly job copies into Supabase
+        // Storage all land in that column. enrichment.json only ever holds
+        // what the MusicBrainz pass found, and nothing rewrites it afterwards.
+        //
+        // This used to read `extra.cover_url || edit.cover_url`, which skipped
+        // the CSV entirely -- on the current data that is 19 albums showing a
+        // superseded cover here and 106 showing none at all, the 106 being
+        // precisely the ones whose artwork was fixed by hand and so never had
+        // an enrichment entry to begin with.
+        //
+        // A local edit still outranks both. `in` rather than a truthy test, so
+        // clearing a cover locally stays cleared instead of falling back.
+        album.cover_url = "cover_url" in edit
+          ? edit.cover_url
+          : (r[col.cover_url] || extra.cover_url || null);
+        album.cover_locked = "cover_locked" in edit
+          ? edit.cover_locked
+          : r[col.cover_locked] === "true";
         return album;
       })
       .filter((a) => !gone.has(KEY_BY_ID.get(a.id)));
