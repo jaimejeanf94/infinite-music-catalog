@@ -76,7 +76,7 @@ Three mechanisms a neighbouring "random album" tool could not truthfully claim:
   streaming services.
 - The daily rhythm is: open the front page, read the day's five (`app/daily.json`,
   written by the nightly job), pick one.
-- A nightly GitHub Actions run at 07:00 UTC (01:00 in Mexico City) does the
+- A nightly GitHub Actions run at 00:37 Mexico City time does the
   upkeep on GitHub's machines, whether or not the owner's computer is on:
   export → apply confident renames → enrich a batch → cache new artwork →
   import → re-export → reports → today's five → commit.

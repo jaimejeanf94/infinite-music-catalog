@@ -21,7 +21,16 @@ name: Refresh catalogue
 
 on:
   schedule:
-    - cron: "0 7 * * *"      # 07:00 UTC daily — 01:00 in Mexico City
+    # 00:37 every night in Mexico City. The time zone is named rather than
+    # converted to UTC, so the schedule reads in the time it is meant in.
+    #
+    # The minute is deliberately not :00. GitHub queues scheduled runs, and
+    # the top of the hour is its busiest slot: "0 7" (UTC) landed five and
+    # six and a half hours late on its first two nights. GitHub's docs also
+    # say a run queued at a busy enough moment can be dropped altogether,
+    # and advise any other minute of the hour.
+    - cron: "37 0 * * *"
+      timezone: "America/Mexico_City"
   workflow_dispatch:
     inputs:
       batch:

@@ -192,7 +192,8 @@ node scripts/export.mjs
 ### Runs itself, nightly, on GitHub's machines
 
 You never type these. `.github/workflows/refresh.yml` runs them in this order
-at 07:00 UTC, whether or not your computer is on. Section 4 has the detail.
+at 00:37 Mexico City time, whether or not your computer is on. Section 4 has
+the detail.
 
 | Script | What it does |
 |---|---|
@@ -277,7 +278,8 @@ enrichment store in memory and would overwrite the changes on its next save.
 
 ## 4. The nightly flow
 
-`.github/workflows/refresh.yml`, 07:00 UTC. Your computer can be closed.
+`.github/workflows/refresh.yml`, 00:37 Mexico City time. Your computer can be
+closed.
 
 1. **Export** — database → `data/albums.csv`
 2. **Correct misspelled names** — `suggest-renames` proposes, `rename --db`
@@ -301,10 +303,14 @@ workflow was useful before the database existed. There is a **Run workflow**
 button in the Actions tab; a full backfill needs two runs of 2,500, since a job
 is capped at six hours.
 
-**Scheduled runs are not punctual.** GitHub queues them on shared runners and
-the top of the hour is the most oversubscribed slot there is — the run
-scheduled for 07:00 UTC has landed as late as 11:58. It always lands; it is
-just not a clock.
+**Scheduled runs are neither punctual nor guaranteed.** GitHub queues them on
+shared runners. The schedule used to be 07:00 UTC — on the hour, the busiest
+slot there is — and its first two runs landed five and six and a half hours
+late. It now sits at 00:37, off the hour, as GitHub's docs advise. The same
+docs say that under enough load a queued run may be dropped altogether.
+Nothing is lost when one is, because every step picks up where the last one
+stopped; that day just has no backup commit, and the front page keeps the
+previous five until the next run — or until you press **Run workflow**.
 
 ---
 
