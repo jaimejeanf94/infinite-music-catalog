@@ -260,6 +260,22 @@ main { max-width: 1100px; margin: 0 auto; padding: 20px 16px 40px; }
 .score--on { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
 .score:disabled { opacity: 0.4; cursor: not-allowed; }
 
+/* The scores under 70 sit in their own block below the rotation, smaller and
+   quieter: a verdict that takes an album out of every roll is a different
+   answer from how much you liked it, and should not be one slip from 70.
+   Still 44px tall -- quieter is not smaller to hit. */
+.scorekeys { display: grid; gap: 12px; }
+.scores__label {
+  flex-basis: 100%; margin-bottom: 6px;
+  font-family: var(--mono); font-size: 10px; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--ink-dim);
+}
+.scores--low .score {
+  flex: 1 1 44px; min-width: 44px; min-height: 44px; padding: 0;
+  font-size: 13px; color: var(--ink-dim);
+}
+.scores--low .score--on { color: var(--on-accent); }
+
 .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
 .row--links { gap: 16px; margin-top: 2px; }
 

@@ -14,6 +14,22 @@
 
 const BUCKET_SHARE = { 70: 9.5, 75: 9.5, 80: 13, 85: 13, 90: 15, 95: 15, 100: 25 };
 
+// ── what a score means for the roll ─────────────────────────────────────────
+// 70 to 100 are the rotation: the scores the randomiser weights, and what the
+// Roll screen and the front page's five draw from, alongside the unrated.
+// Below 70 an album is rated and kept -- the score records what you thought --
+// but it is out of every roll.
+//
+// "Not recommended" is stored as 45, one step under 50, and shown as <50.
+// Stored as 0 it would read as "no score" to any `score || ...` in the app,
+// and "NR" would read as "not rated" in an app that is mostly unrated.
+const SCORES = [70, 75, 80, 85, 90, 95, 100];
+const LOW_SCORES = [45, 50, 55, 60, 65];
+const NOT_RECOMMENDED = 45;
+const ROTATION_FLOOR = 70;
+const inRotation = (album) => album.score == null || album.score >= ROTATION_FLOOR;
+const scoreLabel = (score) => (score === NOT_RECOMMENDED ? "<50" : String(score));
+
 // ── where the randomness comes from ─────────────────────────────────────────
 // Math.random() is a pseudo-random generator: a fixed algorithm walking from a
 // hidden starting number. Fine in practice, but it makes no promises about
@@ -69,10 +85,11 @@ function pickWeighted(pool, unscoredShare, rnd) {
 function roll(albums, opts = {}) {
   const { mode = "weighted", unscoredShare = 25, avoidIds = [], rnd = secureRandom } = opts;
 
-  // Every album is eligible. There used to be an in_pool flag, inherited from
-  // the spreadsheet's RSP column, which silently kept albums out of every
-  // roll for reasons nobody remembered choosing.
-  let pool = albums.slice();
+  // Every album in rotation is eligible: unrated, or scored 70 or more. There
+  // used to be an in_pool flag, inherited from the spreadsheet's RSP column,
+  // which kept albums out of every roll for reasons nobody could see; the
+  // score is the reason now, and it is on the album for anyone to read.
+  let pool = albums.filter(inRotation);
   if (mode === "unscored") pool = pool.filter((a) => a.score == null);
   if (!pool.length) return null;
 
@@ -89,6 +106,9 @@ function roll(albums, opts = {}) {
   return draw();
 }
 
-const Roller = { roll, pickWeighted, secureRandom, BUCKET_SHARE };
+const Roller = {
+  roll, pickWeighted, secureRandom, BUCKET_SHARE,
+  SCORES, LOW_SCORES, NOT_RECOMMENDED, ROTATION_FLOOR, inRotation, scoreLabel,
+};
 if (typeof module !== "undefined" && module.exports) module.exports = Roller;
 else window.Roller = Roller;

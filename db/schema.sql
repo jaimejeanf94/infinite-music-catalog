@@ -22,8 +22,11 @@ create table if not exists public.albums (
   title      text    not null,
   year       int,
   -- NULL = never scored. Kept distinct from 100 on purpose: the sheet lumped
-  -- them together, which diluted the real 100s down to unscored odds.
-  score      int     check (score in (70, 75, 80, 85, 90, 95, 100)),
+  -- them together, which diluted the real 100s down to unscored odds. 70 and
+  -- up is the rotation; below 70 is rated but out of every roll, and 45 is
+  -- "Not recommended" (anything under 50). db/migrations/2026-09-21-low-scores.sql
+  score      int     constraint albums_score_check
+                     check (score in (45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100)),
   notes      text,
   cover_url  text,
   -- MusicBrainz release-group id: the album's stable identity. Artwork and

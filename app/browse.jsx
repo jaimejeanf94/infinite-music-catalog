@@ -1,6 +1,5 @@
 // browse.jsx — the shelf: search, filter, and score in bulk.
 
-const BROWSE_SCORES = [70, 75, 80, 85, 90, 95, 100];
 const CHUNK = 60;   // tiles rendered per "page" — 4.4k at once would crawl
 
 // Compare names the way a person reads them. Dozens of albums once carried a
@@ -50,6 +49,33 @@ const slot = (id, table) =>
   table[(Math.imul(id, 2654435761) >>> 0) % table.length];
 const lift = (id) => slot(id, LIFTS);
 const drift = (id) => slot(id, DRIFTS);
+
+// Score keys, shared by the Roll screen, an album's sheet and Add album. The
+// rotation on top; under it, smaller and quieter, the scores that take an
+// album out of every roll. Twelve keys do not fit one row on a phone, but the
+// split is also the point: the lower row is a different kind of verdict from
+// how much you liked something, and it should not be one slip away from 70.
+function ScoreKeys({ value, onPick, keyHints }) {
+  const cell = (s, i) => (
+    <button key={s} type="button"
+            className={"score" + (value === s ? " score--on" : "")}
+            onClick={() => onPick(s)}
+            aria-label={s === Roller.NOT_RECOMMENDED ? "Not recommended" : undefined}
+            title={s === Roller.NOT_RECOMMENDED ? "Not recommended"
+                   : keyHints && i >= 0 ? `Key ${i + 1}` : undefined}>
+      {Roller.scoreLabel(s)}
+    </button>
+  );
+  return (
+    <div className="scorekeys">
+      <div className="scores">{Roller.SCORES.map(cell)}</div>
+      <div className="scores scores--low">
+        <span className="scores__label">Out of rotation</span>
+        {Roller.LOW_SCORES.map((s) => cell(s, -1))}
+      </div>
+    </div>
+  );
+}
 
 // Genre is what you browse by; style is what the record actually is. Clicking a
 // genre filters; a style is not a filter -- half of them sit on one album -- so
@@ -345,19 +371,13 @@ function Detail({ album, owner, onPatch, onDelete, onClose, index, onGenre, onAr
           <GenreLines album={album} index={index} onGenre={onGenre} />
 
           {owner ? (
-            <div className="scores">
-              {BROWSE_SCORES.map((s) => (
-                <button
-                  key={s}
-                  className={"score" + (album.score === s ? " score--on" : "")}
-                  onClick={() => onPatch(album.id, { score: album.score === s ? null : s })}
-                >
-                  {s}
-                </button>
-              ))}
-            </div>
+            <ScoreKeys value={album.score}
+                       onPick={(s) => onPatch(album.id, { score: album.score === s ? null : s })} />
           ) : album.score != null ? (
-            <div className="card__meta"><span className="badge">{album.score}</span> rated</div>
+            <div className="card__meta">
+              <span className="badge">{Roller.scoreLabel(album.score)}</span>
+              {album.score === Roller.NOT_RECOMMENDED ? " not recommended" : " rated"}
+            </div>
           ) : null}
 
           {/* A visitor sees a note that exists, but not an empty box inviting
@@ -624,13 +644,7 @@ function AddAlbum({ albums, onAdd, onClose }) {
 
         <div className="field">
           <span>Score it now? (optional)</span>
-          <div className="scores">
-            {BROWSE_SCORES.map((sc) => (
-              <button type="button" key={sc}
-                      className={"score" + (score === sc ? " score--on" : "")}
-                      onClick={() => setScore(score === sc ? null : sc)}>{sc}</button>
-            ))}
-          </div>
+          <ScoreKeys value={score} onPick={(sc) => setScore(score === sc ? null : sc)} />
         </div>
 
         {clash && <div className="err">Already in the collection — {clash.artist} — {clash.title}</div>}
@@ -788,7 +802,7 @@ function BrowseView({ albums, owner, onPatch, onAdd, onDelete, onRestore,
                 <b>{a.title}</b>
                 <em>{a.artist}{a.year ? ` · ${a.year}` : ""}</em>
               </div>
-              {a.score != null && <span className="badge badge--sm">{a.score}</span>}
+              {a.score != null && <span className="badge badge--sm">{Roller.scoreLabel(a.score)}</span>}
               {/* The list is fetched once and kept, so a restored album
                   stayed in it with its Restore button still showing, and the
                   press looked like it had done nothing. Drop it on success. */}
@@ -811,7 +825,7 @@ function BrowseView({ albums, owner, onPatch, onAdd, onDelete, onRestore,
             <div className="tile__art">
               <CoverArt album={a} size={150} canPersist={owner}
                         onResolved={(id, url) => onPatch(id, { cover_url: url }, true)} />
-              {a.score != null && <span className="tile__score">{a.score}</span>}
+              {a.score != null && <span className="tile__score">{Roller.scoreLabel(a.score)}</span>}
             </div>
             <div className="tile__title" title={a.title}>{a.title}</div>
             <div className="tile__artist">{a.artist}</div>

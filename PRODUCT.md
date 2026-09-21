@@ -53,6 +53,8 @@ Three mechanisms a neighbouring "random album" tool could not truthfully claim:
   one deliberate correction: unrated albums are their own tier instead of
   diluting the 100s, so a real 100 now comes up many times more often than
   any one unrated album. Verified by 200,000 rolls against the real collection.
+  Scores under 70 (down to "Not recommended", below 50) keep a record of the
+  verdict but take the album out of every roll, and out of the day's five.
 - **A genre/style split computed from this collection.** A *genre* is one of a
   short fixed list of roots — rock split into the scenes big enough to stand
   alone here, plus electronic, jazz, hip hop and the rest — and every other

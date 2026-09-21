@@ -127,5 +127,15 @@ console.log(`draw spread over 10 buckets: ${spread}`);
 console.log(`evenly distributed: ${evenly ? "ok" : "FAIL"}`);
 if (!evenly) fail.push("raw random draws are not evenly distributed");
 
+// Scores under 70 are out of every roll. The live collection may hold none
+// yet, so the check plants some and rolls every mode.
+const planted = [...albums, { id: -45, score: 45 }, { id: -50, score: 50 }, { id: -65, score: 65 }];
+let underFloor = 0;
+for (const mode of ["weighted", "uniform", "unscored"]) {
+  for (let i = 0; i < 10_000; i++) if (roll(planted, { mode }).id < 0) underFloor++;
+}
+console.log(`\nscores under 70 never rolled, in any mode: ${underFloor ? `FAIL (${underFloor} rolled)` : "ok"}`);
+if (underFloor) fail.push("an album scored under 70 was rolled");
+
 console.log(fail.length ? `\n${fail.length} FAILURE(S):\n - ${fail.join("\n - ")}` : "\nall checks passed");
 process.exit(fail.length ? 1 : 0);

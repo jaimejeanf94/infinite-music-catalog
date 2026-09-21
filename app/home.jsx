@@ -54,7 +54,7 @@ function Lead({ album, onOpen }) {
         <span className="lead__title">{album.title}</span>
         <span className="lead__meta">
           <span>{album.year || "—"}</span>
-          {album.score != null && <b className="lead__score">{album.score}</b>}
+          {album.score != null && <b className="lead__score">{Roller.scoreLabel(album.score)}</b>}
           {!!album.genres?.length && (
             <span className="lead__genres">{album.genres.join(" · ")}</span>
           )}
@@ -77,7 +77,7 @@ function Stub({ album, onOpen }) {
           <span className="stub__artist">{album.artist}</span>
           <span className="stub__title">{album.title}</span>
         </span>
-        {album.score != null && <span className="stub__score">{album.score}</span>}
+        {album.score != null && <span className="stub__score">{Roller.scoreLabel(album.score)}</span>}
       </button>
     </li>
   );
@@ -123,13 +123,17 @@ function HomeView({ albums, onGo }) {
     for (const a of albums) m.set(`${a.artist}::${a.title}`, a);
     return m;
   }, [albums]);
+  // A pick you rate below 70 today leaves the five today, not tomorrow: it is
+  // out of every roll, and the five are a roll.
+  const pickKey = (p) => `${p.artist}::${p.title}`;
   const picks = (daily?.picks || []).map((p) => {
-    const now = live.get(`${p.artist}::${p.title}`);
+    const now = live.get(pickKey(p));
     return now ? { ...p, score: now.score, year: now.year, cover_url: now.cover_url || p.cover_url } : p;
-  });
-  // First unrated, falling back to the first pick on a day that somehow has
-  // none -- the page must still have a lead.
-  const leadAt = Math.max(0, (daily?.picks || []).findIndex((p) => p.score == null));
+  }).filter(Roller.inRotation);
+  // First pick that was unrated when it was drawn, falling back to the first
+  // pick on a day that somehow has none -- the page must still have a lead.
+  const drawnUnrated = new Set((daily?.picks || []).filter((p) => p.score == null).map(pickKey));
+  const leadAt = Math.max(0, picks.findIndex((p) => drawnUnrated.has(pickKey(p))));
   const lead = picks[leadAt];
   const rest = picks.filter((_, i) => i !== leadAt);
 

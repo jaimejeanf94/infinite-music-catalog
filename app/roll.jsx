@@ -1,8 +1,6 @@
 // roll.jsx — the randomizer screen. Built for speed: one album at a time, one
 // keystroke to score it, one to move on.
 
-const SCORES = [70, 75, 80, 85, 90, 95, 100];
-
 const MODES = [
   // Uniform leads and is the default. With 9% of the collection rated, a
   // weighted roll spends most of its odds on one enormous "unrated" tier, so
@@ -87,7 +85,8 @@ function RollView({ albums, owner, onPatch, onRoll, params, setParams }) {
     // no write and no "Score cleared" for a score that never existed.
     if (value == null && album.score == null) return;
     onPatch(album.id, { score: album.score === value ? null : value });
-    setFlash(album.score === value ? "Score cleared" : `Scored ${value}`);
+    setFlash(album.score === value ? "Score cleared"
+      : `Scored ${Roller.scoreLabel(value)}${Roller.inRotation({ score: value }) ? "" : " — out of rotation"}`);
   };
 
   // ── keyboard ──────────────────────────────────────────────────────────────
@@ -99,7 +98,7 @@ function RollView({ albums, owner, onPatch, onRoll, params, setParams }) {
       // tabs from the Roll screen quietly rated whatever happened to be up.
       if (e.metaKey || e.ctrlKey || e.altKey) return;
       const n = Number(e.key);
-      if (n >= 1 && n <= 7) { e.preventDefault(); return score(SCORES[n - 1]); }
+      if (n >= 1 && n <= 7) { e.preventDefault(); return score(Roller.SCORES[n - 1]); }
       if (e.key === "0") { e.preventDefault(); return score(album?.score); }
       if (e.key === " " || e.key === "Enter") { e.preventDefault(); return spin(); }
     };
@@ -161,7 +160,7 @@ function RollView({ albums, owner, onPatch, onRoll, params, setParams }) {
           <h2 className="card__title">{album.title}</h2>
           <div className="card__meta">
             {album.year || "—"}
-            {album.score != null && <span className="badge">{album.score}</span>}
+            {album.score != null && <span className="badge">{Roller.scoreLabel(album.score)}</span>}
             {album.score == null && <span className="badge badge--dim">unrated</span>}
           </div>
 
@@ -173,20 +172,7 @@ function RollView({ albums, owner, onPatch, onRoll, params, setParams }) {
             />
           )}
 
-          {owner && (
-            <div className="scores">
-              {SCORES.map((s, i) => (
-                <button
-                  key={s}
-                  className={"score" + (album.score === s ? " score--on" : "")}
-                  onClick={() => score(s)}
-                  title={`Key ${i + 1}`}
-                >
-                  {s}
-                </button>
-              ))}
-            </div>
-          )}
+          {owner && <ScoreKeys value={album.score} onPick={score} keyHints />}
 
           <div className="row">
             <button className="btn btn--primary" onClick={spin}>Roll again ␣</button>
@@ -219,7 +205,7 @@ function RollView({ albums, owner, onPatch, onRoll, params, setParams }) {
                     <b>{live.title}</b>
                     <em>{live.artist}</em>
                   </span>
-                  {live.score != null && <span className="badge badge--sm">{live.score}</span>}
+                  {live.score != null && <span className="badge badge--sm">{Roller.scoreLabel(live.score)}</span>}
                 </button>
               );
             })}

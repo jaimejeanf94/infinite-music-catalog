@@ -90,6 +90,11 @@ Built for speed: one album, one keystroke, next.
 | `0` | Clear the score |
 | `space` / `enter` | Roll again |
 
+Scores run from 70 to 100, and below them, set apart, 65, 60, 55, 50 and
+**<50 — Not recommended**. Anything under 70 is rated and kept but **out of
+rotation**: no mode of the roll serves it, and it is never one of the day's
+five. Those keys have no number key; they are there to be meant.
+
 Three modes. **Uniform** is the default and gives every album equal odds:
 with most of the shelf unrated, a weighted roll spends most of its odds on one
 enormous unrated tier anyway, so it would behave almost like uniform while

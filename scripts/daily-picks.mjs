@@ -13,6 +13,7 @@
 //
 // What it aims for, in order:
 //   - nothing picked in the last 30 days
+//   - nothing scored under 70: those are rated and kept, and out of every roll
 //   - three unrated and two rated, each drawn at random from its own pool:
 //     this collection exists to get through the unrated ones, but a day with
 //     nothing familiar in it is joyless
@@ -28,6 +29,11 @@
 // simply what the shelf looks like.
 
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import { createRequire } from "node:module";
+
+// The same rule the Roll screen rolls by, so the five and the roll can never
+// disagree about what is in rotation.
+const Roller = createRequire(import.meta.url)("../app/roller.js");
 
 const DATA = new URL("../data/", import.meta.url);
 const OUT = new URL("../app/daily.json", import.meta.url);
@@ -85,7 +91,7 @@ const albums = rows.filter((r) => r[col.artist] && r[col.cover_url]).map((r) => 
   score: r[col.score] ? Number(r[col.score]) : null,
   cover_url: r[col.cover_url],
   genres: (r[col.genres] || "").split(";").map((g) => g.trim()).filter(Boolean),
-}));
+})).filter(Roller.inRotation);   // unrated, or 70 and up -- never a score under 70
 
 const previous = existsSync(OUT) ? JSON.parse(readFileSync(OUT, "utf8")) : {};
 if (previous.date === DATE && !FORCE) {
