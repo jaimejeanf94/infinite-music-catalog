@@ -171,6 +171,42 @@ add("no-root", "Tagged, but under no genre",
 // something you can settle from a screen. `node scripts/genre-report.mjs`
 // prints it when you want to have that conversation.
 
+// ── the README's figures ───────────────────────────────────────────────────
+// Every number in the README's opening table was wrong within days of being
+// typed, because the collection grows and the backlog drains while the prose
+// stays where it was. A stale figure in a document is the same failure as an
+// alert with no action behind it: it teaches you not to trust the page. This
+// run already counts all of it for the totals above, so it writes the block
+// too, between markers, and the nightly commit carries it.
+function updateReadme() {
+  const README = new URL("../README.md", import.meta.url);
+  if (!existsSync(README)) return;
+  const n = (x) => x.toLocaleString("en-US");
+  const years = albums.map((a) => Number(a.year)).filter(Boolean);
+  const genreCount = Genres.genreOptions(albums, index).length;
+  const rated = albums.filter((a) => a.score != null).length;
+
+  const block = [
+    "| | |",
+    "|---|---|",
+    `| Albums | ${n(albums.length)} — ${n(new Set(albums.map((a) => a.artist)).size)} artists, ${Math.min(...years)}–${Math.max(...years)} |`,
+    `| Rated | ${n(rated)}. The other ${Math.round((1 - rated / albums.length) * 100)}% is the point of the app |`,
+    `| Covers | ${n(albums.filter((a) => a.cover_url).length)}, every one cached and CDN-served |`,
+    `| Genres | ${n(albums.filter((a) => a.genres.length).length)} tagged, ${genreCount} of them browsable |`,
+    `| Matched to MusicBrainz | ${n(albums.filter((a) => rec(a).mbid).length)} |`,
+    "| Cost to run | nothing — every service is on a free tier |",
+  ].join("\n");
+
+  const text = readFileSync(README, "utf8");
+  const re = /(<!-- stats:start -->\n)[\s\S]*?(\n<!-- stats:end -->)/;
+  if (!re.test(text)) return console.log("  (README has no stats markers — left alone)");
+  const next = text.replace(re, `$1${block}$2`);
+  if (next === text) return;
+  writeFileSync(README, next);
+  console.log("README.md — opening figures refreshed");
+}
+updateReadme();
+
 const out = {
   generated: new Date().toISOString(),
   totals: {

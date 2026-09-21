@@ -19,7 +19,7 @@ const say = (name, ok, detail) => {
   console.log(`  ${ok ? "ok  " : "FAIL"}  ${name.padEnd(22)} ${detail}`);
 };
 
-// db/review_flags.sql
+// db/migrations/2026-09-20-review-flags.sql
 try {
   const rows = await api.select("review_flags?select=kind,subject,state&limit=5");
   say("review_flags", true, `readable, ${rows.length} row(s)`);
@@ -27,10 +27,10 @@ try {
   say("review_flags", false, String(e.message).slice(0, 80));
 }
 
-// db/drop_pool.sql — the column should be GONE, so a select on it must fail
+// db/migrations/2026-09-20-drop-pool.sql — the column should be GONE, so a select on it must fail
 try {
   await api.select("albums?select=in_pool&limit=1");
-  say("albums.in_pool", false, "still present — db/drop_pool.sql has not run");
+  say("albums.in_pool", false, "still present — db/migrations/2026-09-20-drop-pool.sql has not run");
 } catch {
   say("albums.in_pool", true, "dropped");
 }

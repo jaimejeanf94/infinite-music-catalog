@@ -1,4 +1,4 @@
--- drop_pool.sql — remove the in_pool column.
+-- 2026-09-20-drop-pool.sql — remove the in_pool column.
 --
 -- It came from the spreadsheet's RSP column and meant "the randomiser never
 -- serves this album". 99 albums were excluded by it, including rated ones,

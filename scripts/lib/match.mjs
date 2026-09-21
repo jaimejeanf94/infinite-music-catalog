@@ -1,9 +1,10 @@
 // match.mjs — deciding which MusicBrainz release-group an album actually is.
 //
-// Shared by enrich.mjs, which matches albums it has never seen, and
-// recheck-matches.mjs, which re-examines ones that were matched badly. Keeping
-// one copy matters: the two would drift, and then a recheck would "fix" albums
-// into a state the next nightly run undoes.
+// Used by enrich.mjs, and kept as its own file because the ranking below is
+// the one piece of this pipeline that has been wrong in a way nothing caught:
+// an album can be confidently matched to the wrong record, and then its cover,
+// its genres and its year are all wrong together. It is worth reading on its
+// own rather than buried in a 400-line script.
 
 // Keep letters and digits in ANY script, not just ASCII. The old rule was
 // /[^a-z0-9]/, which deleted every Japanese, Korean, Chinese and Cyrillic

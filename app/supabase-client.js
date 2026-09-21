@@ -152,7 +152,7 @@ const supabaseDb = {
   },
 
   // ── review flags ────────────────────────────────────────────────────────
-  // What you decided about a maintenance item. See db/review_flags.sql for
+  // What you decided about a maintenance item. See db/migrations/2026-09-20-review-flags.sql for
   // why these are a table of their own rather than a column on albums.
   async reviewFlags() {
     if (!sb) return [];

@@ -472,8 +472,8 @@ tile's position in the wall via `:nth-child(odd/even)` so neighbours always
 disagree; the magnitude comes from a multiplicative hash of the album id, so a
 given record always sits at the same height and the wall does not reshuffle on
 re-render. Hover outlines the artwork 2px in Sleeve Red. A score sits as a red
-badge in the bottom-right corner of the sleeve; an out-of-pool album carries a
-9px dim dot top-left.
+badge in the bottom-right corner of the sleeve, and that badge is the tile's
+only overlay -- an album either carries a number or it does not.
 
 ### Generated cover art
 

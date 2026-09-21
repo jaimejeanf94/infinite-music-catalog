@@ -8,7 +8,7 @@
 //
 // The list is app/health.json, written by the nightly run and shipped with the
 // app, so the page needs no query at load. What it does query is your verdicts
-// (db/review_flags.sql): a row you have settled stays settled, which is the
+// (db/migrations/2026-09-20-review-flags.sql): a row you have settled stays settled, which is the
 // difference between a list that empties and one that keeps handing you the
 // same judgement every morning for the rest of your life.
 //
@@ -221,7 +221,7 @@ function AdminView({ albums, onPatch, onGo }) {
       .catch((e) => {
         setFlags(new Map());
         setFlagErr(/review_flags/i.test(e?.message || "")
-          ? "Verdicts are not saving — run db/review_flags.sql in Supabase."
+          ? "Verdicts are not saving — run db/migrations/2026-09-20-review-flags.sql in Supabase."
           : e?.message || "Could not read your verdicts.");
       });
   }, []);

@@ -147,11 +147,13 @@ Three mechanisms a neighbouring "random album" tool could not truthfully claim:
 
 Real, in the repository, and the only evidence there is:
 
-- `data/albums.csv` — 4,414 albums, 2,148 artists, 1953–2026. 396 rated; 4,414
-  with a cover; 4,414 with genres; 4,268 matched to a MusicBrainz release-group.
-- `app/health.json` — the current maintenance residue: 51 year gaps, 31 shared
-  sleeves, 7 near-duplicates, 2 held-back renames. No album is missing a cover,
-  genres, or a browsable genre root.
+- `data/albums.csv` — 4,415 albums, 2,184 artists, 1953–2026. 397 rated; 4,415
+  with a cover; 4,415 with genres; 4,273 matched to a MusicBrainz release-group.
+- `app/health.json` — the current maintenance residue: 51 year gaps, 7
+  near-duplicates, 5 held-back renames. No album is missing a cover, genres, or
+  a browsable genre root. The year gaps were checked against MusicBrainz a
+  second time with the corrected ranking and none of them moved, so they are
+  reissue disagreements rather than wrong matches.
 - `data/enrichment.json` — one record per album, keyed `artist::title`.
 - `app/daily.json` — the five the front page opens on.
 - Measured, in README: enrichment at 4.8s an album; Cover Art Archive at two

@@ -1,4 +1,4 @@
--- drop_plays.sql — remove the plays table.
+-- 2026-09-20-drop-plays.sql — remove the plays table.
 --
 -- Nothing ever read it. "Log a play" wrote a row, no screen displayed one,
 -- and it held 0 rows when it was removed. A score already records that you

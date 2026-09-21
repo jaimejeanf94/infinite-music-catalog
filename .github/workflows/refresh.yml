@@ -106,27 +106,16 @@ jobs:
         if: ${{ env.SUPABASE_URL != '' }}
         run: node scripts/import.mjs
 
-      # Reports only; never fails the run. The database's unique index catches
-      # exact collisions, but a misspelled artist is a different key everywhere
-      # and becomes a second album silently.
       # Export again. The first one ran before this job had done anything, so
-      # everything after it -- the backup committed to git, the duplicate
-      # check, the genre roots, the maintenance list, tonight's five -- was
-      # reading the database as it looked BEFORE tonight's renames,
-      # enrichment and artwork landed. The backup was permanently a day
-      # behind and the maintenance screen listed problems this run had
-      # already fixed.
+      # everything after it -- the backup committed to git, the genre roots,
+      # the maintenance list, tonight's five -- was reading the database as it
+      # looked BEFORE tonight's renames, enrichment and artwork landed. The
+      # backup was permanently a day behind and the maintenance screen listed
+      # problems this run had already fixed.
       - name: Re-export now the run has finished
         if: ${{ env.SUPABASE_URL != '' }}
         run: node scripts/export.mjs
 
-      - name: Look for near-duplicates
-        run: node scripts/find-duplicates.mjs
-
-      # The homepage reads app/daily.json, which ships with the app -- Vercel's
-      # root directory is app/, so committing it redeploys it. Nothing to fetch
-      # from the database at page load, and the front page is complete the
-      # moment it opens.
       # Reports only. The genre/style split needs no nightly run -- genres.js
       # computes it in the browser from the whole collection, so a new album is
       # classified the moment it loads. What goes stale is the fixed list of
@@ -137,9 +126,17 @@ jobs:
       # Everything the run could not decide on its own, collected for the
       # maintenance screen. Reads only -- each item is a judgement someone has
       # to make, which is exactly why it is still outstanding.
+      #
+      # This runs find-duplicates itself, so there is no separate step for it.
+      # There used to be one, printing the same comparison into a log nobody
+      # reads while this step turned it into the section you actually see.
       - name: Collect what still needs a person
         run: node scripts/health-report.mjs
 
+      # The homepage reads app/daily.json, which ships with the app -- Vercel's
+      # root directory is app/, so committing it redeploys it. Nothing to fetch
+      # from the database at page load, and the front page is complete the
+      # moment it opens.
       - name: Choose today's five
         run: node scripts/daily-picks.mjs --force
 
@@ -147,7 +144,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/albums.csv data/enrichment.json app/daily.json app/health.json
+          # README.md is here because health-report.mjs rewrites the figures
+          # in its opening table. Prose that goes stale teaches you not to
+          # trust the page, so the run that knows the numbers writes them.
+          git add data/albums.csv data/enrichment.json app/daily.json \
+                  app/health.json README.md
           git add data/rename-suggestions.json \
                   data/rename-suggestions-review.json 2>/dev/null || true
           # Nothing changed is a normal outcome, not a failure.

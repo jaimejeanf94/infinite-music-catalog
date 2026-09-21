@@ -9,6 +9,12 @@ name: Check the app
 # files, and exits non-zero if any of them will not compile. This runs it on
 # every push and pull request that touches the app.
 #
+# scripts/test-roller.mjs runs alongside it. The weighting is the one piece of
+# logic here with an answer that can be wrong without looking wrong: a bad
+# edit still rolls albums, just at the wrong odds, and nothing on screen would
+# ever tell you. It needs no network and no secrets -- 200,000 rolls against
+# the committed CSV, in about seven seconds.
+#
 # Deliberately NOT part of refresh.yml. That job moves data on a schedule and
 # holds the Supabase secrets; a JSX error failing it would report the wrong
 # problem, and it would only notice once a night -- hours after the broken
@@ -23,13 +29,17 @@ on:
     paths:
       - "app/**.jsx"
       - "app/index.html"
+      - "app/roller.js"
       - "scripts/check-app.mjs"
+      - "scripts/test-roller.mjs"
       - ".github/workflows/check.yml"
   pull_request:
     paths:
       - "app/**.jsx"
       - "app/index.html"
+      - "app/roller.js"
       - "scripts/check-app.mjs"
+      - "scripts/test-roller.mjs"
       - ".github/workflows/check.yml"
 
 jobs:
@@ -58,3 +68,8 @@ jobs:
             exit 0
           fi
           exit "$code"
+
+      # No network, no secrets, no CDN to be unreachable -- so unlike the JSX
+      # check above, a failure here is always your code.
+      - name: Check the randomiser still deals the odds it promises
+        run: node scripts/test-roller.mjs

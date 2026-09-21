@@ -8,6 +8,19 @@ block. You would see "Success" and no new column.
 
 So: **schema.sql is history. Changes live here.**
 
+## What has been applied
+
+Each of these was run once in the SQL editor, on the date in its name. They
+lived at `db/` root until the folder's own rule caught up with them.
+
+| File | What it did |
+|---|---|
+| `2026-09-20-review-flags.sql` | Added `review_flags` — your verdicts on the Fix list, so a settled row stays settled |
+| `2026-09-20-drop-plays.sql` | Dropped `plays`. Nothing read it and it held 0 rows |
+| `2026-09-20-drop-pool.sql` | Dropped `albums.in_pool`. It silently excluded 99 albums from every roll, with no control left in the app to see or change it |
+
+`node scripts/check-db.mjs` confirms all three landed.
+
 ## Adding something
 
 One file per change, named by date, run once in the SQL editor:

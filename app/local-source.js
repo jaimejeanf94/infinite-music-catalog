@@ -249,7 +249,7 @@ const LocalDB = {
   async recentRolls(limit = 40) { return load(LS_ROLLS, []).slice(0, limit); },
 
   // ── review flags ────────────────────────────────────────────────────────
-  // The cloud keeps these in a table (db/review_flags.sql); locally they are
+  // The cloud keeps these in a table (db/migrations/2026-09-20-review-flags.sql); locally they are
   // one more localStorage bag, which means they are per-browser and do not
   // travel. That is the same bargain as every other local edit.
   async reviewFlags() { return Object.values(load(LS_FLAGS, {})); },
