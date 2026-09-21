@@ -2723,8 +2723,8 @@
  },
  "万能青年旅店 (Omnipotent Youth Society)::万能青年旅店 (Omnipotent Youth Society)": {
   "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/56171b7cba87c481.jpg",
+  "cover_from": "app",
   "genres": [
    "alternative rock",
    "indie rock",
@@ -2732,7 +2732,9 @@
   ],
   "tried": "2026-09-20",
   "genre_source": "discogs",
-  "rename_checked": "2026-09-21"
+  "rename_checked": "2026-09-21",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/c5/bd/a6/c5bda6ad-0ed6-849d-dc07-c6b527c0b5aa/cover.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-21"
  },
  "2 Many DJ's::Dave": {
   "status": "nomatch",
@@ -8403,10 +8405,12 @@
    "rock",
    "pop"
   ],
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4262c677-2646-461a-93f2-80526ae2bb1a.jpg",
+  "cover_from": "app",
   "mb_year": "2019",
-  "checked": "2026-09-19"
+  "checked": "2026-09-19",
+  "cover_source_url": "https://coverartarchive.org/release-group/4262c677-2646-461a-93f2-80526ae2bb1a/front-500",
+  "cover_cached": "2026-09-21"
  },
  "Angel Olsen::My Woman": {
   "status": "ok",
@@ -11279,8 +11283,8 @@
  },
  "Betcover!!::Yuki": {
   "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3ffd52a8a1c91aff.jpg",
+  "cover_from": "app",
   "genres": [
    "art rock",
    "alternative rock",
@@ -11293,7 +11297,9 @@
   ],
   "tried": "2026-09-20",
   "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/30/5e/c2/305ec211-cc0a-1af1-faf9-20ec09b574e0/bigup14088652.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-21"
  },
  "Beth Orton::Weather Alive": {
   "status": "ok",
@@ -22957,10 +22963,12 @@
    "hip hop"
   ],
   "genre_source": "release",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/698ff9d5-fd6c-32fb-9e2b-bcd9622b702f.jpg",
+  "cover_from": "app",
   "mb_year": "1995",
-  "checked": "2026-09-19"
+  "checked": "2026-09-19",
+  "cover_source_url": "https://coverartarchive.org/release-group/698ff9d5-fd6c-32fb-9e2b-bcd9622b702f/front-500",
+  "cover_cached": "2026-09-21"
  },
  "DJ Shadow::Preemptive Strike": {
   "status": "ok",
@@ -23620,8 +23628,8 @@
  },
  "Dropkick Murphys::Greatest Hits": {
   "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8c33cbab48d9c265.jpg",
+  "cover_from": "app",
   "genres": [
    "punk",
    "punk rock",
@@ -23633,7 +23641,9 @@
   ],
   "tried": "2026-09-20",
   "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8f/d2/cb/8fd2cbbb-86b4-9dc5-405b-1e31fd557a06/0075597996593.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-21"
  },
  "Drudkh::Кров у наших криницях (Blood in Our Wells)": {
   "status": "nomatch",
@@ -23783,10 +23793,12 @@
    "hip hop"
   ],
   "genre_source": "release",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7082a247-e0ad-4681-b24e-a20e339551d8.jpg",
+  "cover_from": "app",
   "mb_year": "2013",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/7082a247-e0ad-4681-b24e-a20e339551d8/front-500",
+  "cover_cached": "2026-09-21"
  },
  "Eagles::Greatest Hits (Eagles)": {
   "status": "ok",
@@ -24972,10 +24984,12 @@
    "singer-songwriter"
   ],
   "genre_source": "artist",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2b0dc0fa-b299-4fd5-81e9-2397fd41b8d1.jpg",
+  "cover_from": "app",
   "mb_year": "2002",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/2b0dc0fa-b299-4fd5-81e9-2397fd41b8d1/front-500",
+  "cover_cached": "2026-09-21"
  },
  "Elvis Presley::Elvis Presley": {
   "status": "ok",
@@ -26068,8 +26082,8 @@
  },
  "Faye Wong::浮躁 (Fúzào)": {
   "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8c5590945d9c8c3e.jpg",
+  "cover_from": "app",
   "genres": [
    "pop",
    "c-pop",
@@ -26078,7 +26092,9 @@
   ],
   "tried": "2026-09-20",
   "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/f6/31/d6/f631d6d6-1fd0-272a-3feb-de30b4e69ace/00602517665095.rgb.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-21"
  },
  "Fear Factory::Demanufacture": {
   "status": "ok",
@@ -31371,15 +31387,17 @@
  },
  "Hollow Comet::Hollow Comet": {
   "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/564c86654290cbd2.jpg",
+  "cover_from": "app",
   "genres": [
    "indie folk",
    "experimental"
   ],
   "tried": "2026-09-20",
   "rename_checked": "2026-09-20",
-  "genre_source": "researched"
+  "genre_source": "researched",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/4f/47/f2/4f47f246-5000-c101-2618-c06d40d58572/194171127724.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-21"
  },
  "Holy Fawn::Death Spells": {
   "status": "ok",
@@ -31942,8 +31960,8 @@
  },
  "Ichiko Aoba::Luminiscent Creatures": {
   "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/21c3070579659c03.jpg",
+  "cover_from": "app",
   "genres": [
    "folk",
    "singer-songwriter",
@@ -31954,7 +31972,9 @@
   ],
   "tried": "2026-09-20",
   "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/87/5b/5b/875b5b86-30f3-d50a-de93-5bb5ad4cb141/49449.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-21"
  },
  "IDLES::CRAWLER": {
   "status": "ok",
@@ -33062,8 +33082,8 @@
  },
  "James Brown::20-all Times Greats!": {
   "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/cdf1058d14271525.jpg",
+  "cover_from": "app",
   "genres": [
    "funk",
    "soul",
@@ -33071,7 +33091,9 @@
   ],
   "tried": "2026-09-20",
   "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8a/76/04/8a760498-ce95-c1f3-4bff-958362821728/14UMGIM28794.rgb.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-21"
  },
  "Cluster::Zuckerseit": {
   "status": "ok",
@@ -34547,8 +34569,8 @@
  },
  "Joe Satriani::Essential Joe Satrini 1": {
   "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2888feca48fed0ec.jpg",
+  "cover_from": "app",
   "genres": [
    "instrumental rock",
    "instrumental",
@@ -34559,7 +34581,9 @@
   ],
   "tried": "2026-09-20",
   "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/14/3d/09/143d090c-a929-0a5d-b137-9f79febe5bb1/dj.vkqfdhfn.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-21"
  },
  "Joe Satriani::Super Colossal": {
   "status": "ok",
@@ -37840,8 +37864,8 @@
  },
  "Lamp::恋人へ [For Lovers]": {
   "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/bdc03e2fdf1c6fdc.jpg",
+  "cover_from": "app",
   "genres": [
    "bossa nova",
    "jazz",
@@ -37853,7 +37877,9 @@
   ],
   "tried": "2026-09-20",
   "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21"
+  "rename_checked": "2026-09-21",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/96/34/bd/9634bd06-4484-3792-ce1b-a64a96710d22/4521640105079_cover.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-21"
  },
  "Lana del Rey::Did you know that there is a tunnel under Ocean Blvd": {
   "status": "ok",
@@ -38446,8 +38472,8 @@
  },
  "Leo Kottke::6 & 12 Strings": {
   "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/50fada2ef3ad5d2c.jpg",
+  "cover_from": "app",
   "genres": [
    "folk",
    "singer-songwriter",
@@ -38455,7 +38481,9 @@
   ],
   "tried": "2026-09-20",
   "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21"
+  "rename_checked": "2026-09-21",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/59/e2/62/59e26219-a6ec-15f6-939f-abfb1b1064bf/00025218650328.rgb.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-21"
  },
  "Leon Vynehall::Nothing is Still": {
   "status": "ok",
@@ -42052,8 +42080,8 @@
  },
  "Masayoshi Takanaka::The Rainbow Goblins": {
   "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5a6eeba97af81ed8.jpg",
+  "cover_from": "app",
   "genres": [
    "psychedelic rock",
    "jazz",
@@ -42061,19 +42089,23 @@
   ],
   "tried": "2026-09-20",
   "genre_source": "discogs",
-  "rename_checked": "2026-09-21"
+  "rename_checked": "2026-09-21",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/bc/10/1ebc102f-499e-e3d9-5d91-4273b05b3a1a/199066671658.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-21"
  },
  "Masayoshi Takanaka::AN INSATIABLE HIGH": {
   "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5c36d6ede30d9ae9.jpg",
+  "cover_from": "app",
   "genres": [
    "jazz-funk",
    "jazz"
   ],
   "tried": "2026-09-20",
   "genre_source": "discogs",
-  "rename_checked": "2026-09-21"
+  "rename_checked": "2026-09-21",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/6d/3d/ba/6d3dba4e-88bb-ecf4-872b-8a857073c700/00602498909379.rgb.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-21"
  },
  "Masayoshi Takanaka::TAKANAKA": {
   "status": "ok",
@@ -45567,15 +45599,17 @@
  },
  "Mulatu Astatke::Éthiopiques 4: Ethio Jazz & Musique Instrumentale 1969-1974": {
   "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/eed6246b72583616.jpg",
+  "cover_from": "app",
   "genres": [
    "instrumental",
    "jazz"
   ],
   "tried": "2026-09-20",
   "genre_source": "discogs",
-  "rename_checked": "2026-09-21"
+  "rename_checked": "2026-09-21",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/f3/95/07/f39507fc-93bc-bcbe-ff63-5eee27936310/dj.tbywneqv.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-21"
  },
  "Murmuüre::Murmuüre": {
   "status": "ok",
@@ -47210,8 +47244,8 @@
  },
  "Nicolas Jaar::Essential BBC Mix (Nicolas Jaar)": {
   "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7d09f7536fb8d17d.jpg",
+  "cover_from": "app",
   "genres": [
    "electronic",
    "deep house",
@@ -47224,7 +47258,9 @@
   ],
   "tried": "2026-09-20",
   "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21"
+  "rename_checked": "2026-09-21",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/f0/15/83f01563-ae6b-2193-36f4-1e0a68aeeda7/827170120822_CCCDArtwork.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-21"
  },
  "Nicolas Jaar::Cenizas": {
   "status": "ok",
@@ -50027,10 +50063,12 @@
    "latin rock"
   ],
   "genre_source": "release",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8e50433a-c1d5-3019-a48d-0d6b97a5f32b.jpg",
+  "cover_from": "app",
   "mb_year": "1973",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/8e50433a-c1d5-3019-a48d-0d6b97a5f32b/front-500",
+  "cover_cached": "2026-09-21"
  },
  "Pestilence::Consuming Impulse": {
   "status": "ok",
@@ -53609,10 +53647,12 @@
    "funk"
   ],
   "genre_source": "release",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1b469da1-e542-346b-84e6-4d7fe45be181.jpg",
+  "cover_from": "app",
   "mb_year": "1996",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/1b469da1-e542-346b-84e6-4d7fe45be181/front-500",
+  "cover_cached": "2026-09-21"
  },
  "Rage Against the Machine::Rage Against the Machine": {
   "status": "ok",
@@ -56768,14 +56808,16 @@
  },
  "Shiro Sagisu::Neon Genesis Evangelion (Original Series Soundtrack)": {
   "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a4c2402e947faae6.jpg",
+  "cover_from": "app",
   "genres": [
    "jazz"
   ],
   "tried": "2026-09-20",
   "genre_source": "lastfm",
-  "rename_checked": "2026-09-21"
+  "rename_checked": "2026-09-21",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/77/65/fa/7765fa66-2af8-dce3-fb4c-18cc68d6ba77/886448179139.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-21"
  },
  "Shlohmo::Vacation EP": {
   "status": "ok",
@@ -56815,10 +56857,12 @@
    "jazz"
   ],
   "genre_source": "release",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/79128e74-df1b-4599-83cc-a464ae8d84b9.jpg",
+  "cover_from": "app",
   "mb_year": "2017",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/79128e74-df1b-4599-83cc-a464ae8d84b9/front-500",
+  "cover_cached": "2026-09-21"
  },
  "Show me the Body::Survive": {
   "status": "ok",
@@ -60280,10 +60324,12 @@
    "glam rock"
   ],
   "genre_source": "release",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/cb5b8adc-b59b-3618-a366-ba780b36ba2b.jpg",
+  "cover_from": "app",
   "mb_year": "1997",
-  "checked": "2026-09-20"
+  "checked": "2026-09-20",
+  "cover_source_url": "https://coverartarchive.org/release-group/cb5b8adc-b59b-3618-a366-ba780b36ba2b/front-500",
+  "cover_cached": "2026-09-21"
  },
  "Suede::Coming Up": {
   "status": "ok",
@@ -66507,8 +66553,8 @@
  },
  "the pillows::FLCL Original Sound Track No. 3": {
   "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f83982276296f583.jpg",
+  "cover_from": "app",
   "genres": [
    "alternative rock",
    "pop rock",
@@ -66517,7 +66563,9 @@
   ],
   "tried": "2026-09-20",
   "genre_source": "discogs",
-  "rename_checked": "2026-09-21"
+  "rename_checked": "2026-09-21",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/c0/45/58/c045588b-2f3f-f1db-9167-b99c7de1dc9d/196589109866.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-21"
  },
  "The Police::Every Breath You Take: The Singles": {
   "status": "ok",
@@ -71431,8 +71479,8 @@
  },
  "Tricot::リピート (repeat)": {
   "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/68171a22ae6900b7.jpg",
+  "cover_from": "app",
   "genres": [
    "math rock",
    "alternative rock",
@@ -71442,7 +71490,9 @@
   ],
   "tried": "2026-09-20",
   "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21"
+  "rename_checked": "2026-09-21",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d3/3f/25/d33f2512-6bc3-5949-d822-15c8229c8f41/099370_J.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-21"
  },
  "Tricot::T H E": {
   "status": "ok",
@@ -76238,8 +76288,8 @@
  },
  "平沢進 [Susumu Hirasawa]::救済の技法 [Technique Of Relief]": {
   "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/dbd295960b86f932.jpg",
+  "cover_from": "app",
   "genres": [
    "electronic",
    "progressive rock",
@@ -76247,7 +76297,9 @@
   ],
   "tried": "2026-09-20",
   "genre_source": "researched",
-  "rename_checked": "2026-09-21"
+  "rename_checked": "2026-09-21",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f7/a2/61/f7a26187-35cf-2398-d6fe-534ebd42d702/COCP-35525.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-21"
  },
  "椎名林檎 [Sheena Ringo]::Shoso Strip": {
   "status": "partial",
@@ -76292,8 +76344,8 @@
  },
  "芸能山城組 [Geinoh Yamashirogumi]::Symphonic Suite AKIRA": {
   "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/74b8ff9b70e977e1.jpg",
+  "cover_from": "app",
   "genres": [
    "gamelan",
    "experimental",
@@ -76302,7 +76354,9 @@
   ],
   "tried": "2026-09-20",
   "genre_source": "researched",
-  "rename_checked": "2026-09-21"
+  "rename_checked": "2026-09-21",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/53/17/2d/53172dc4-ea48-4ada-85c0-8027ebaddf3d/VICL-65922.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-21"
  },
  "青葉市子 [Ichiko Aoba]::Windswept Adan": {
   "status": "partial",
@@ -76365,8 +76419,8 @@
  },
  "青葉市子 [Ichiko Aoba]::うたびこ (Utabiko)": {
   "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6a73a43db63f2e47.jpg",
+  "cover_from": "app",
   "genres": [
    "folk",
    "singer-songwriter",
@@ -76374,12 +76428,14 @@
   ],
   "tried": "2026-09-20",
   "genre_source": "researched",
-  "rename_checked": "2026-09-21"
+  "rename_checked": "2026-09-21",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1b/6f/98/1b6f988e-bf2f-498d-b66b-42acc29fa600/PA00089273_0_139121_jacket.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-21"
  },
  "青葉市子 [Ichiko Aoba]::檻髪 (Origami)": {
   "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c7ce608e2402b0cf.jpg",
+  "cover_from": "app",
   "genres": [
    "folk",
    "singer-songwriter",
@@ -76387,12 +76443,14 @@
   ],
   "tried": "2026-09-20",
   "genre_source": "researched",
-  "rename_checked": "2026-09-21"
+  "rename_checked": "2026-09-21",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/69/c5/0a/69c50a42-2ca1-2354-6b5d-d787a69ba8be/PA00089275_0_139089_jacket.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-21"
  },
  "青葉市子 [Ichiko Aoba]::剃刀乙女 (Kamisori Otome)": {
   "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/0fd1723da6cf034c.jpg",
+  "cover_from": "app",
   "genres": [
    "folk",
    "singer-songwriter",
@@ -76400,7 +76458,9 @@
   ],
   "tried": "2026-09-20",
   "genre_source": "researched",
-  "rename_checked": "2026-09-21"
+  "rename_checked": "2026-09-21",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f5/bc/6f/f5bc6fcb-0db1-900d-35e4-e97e3496b6ce/PA00089274_0_139090_jacket.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-21"
  },
  "Youth Lagoon::The Year of Hibernation": {
   "status": "ok",
@@ -78426,10 +78486,12 @@
    "rock",
    "pop"
   ],
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7df4cbb0-30ed-4fed-9383-dd5fe3dbff30.jpg",
+  "cover_from": "app",
   "mb_year": "2024",
-  "checked": "2026-09-19"
+  "checked": "2026-09-19",
+  "cover_source_url": "https://coverartarchive.org/release-group/7df4cbb0-30ed-4fed-9383-dd5fe3dbff30/front-500",
+  "cover_cached": "2026-09-21"
  },
  "Kero Kero Bonito::Bonito Generation": {
   "status": "ok",
@@ -79099,8 +79161,8 @@
  },
  "Susumu Hirasawa 平沢進::剣風伝奇ベルセルク (Berserk)": {
   "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4d10defe8566945e.jpg",
+  "cover_from": "app",
   "genres": [
    "electronic",
    "progressive rock",
@@ -79108,7 +79170,9 @@
   ],
   "tried": "2026-09-20",
   "genre_source": "researched",
-  "rename_checked": "2026-09-21"
+  "rename_checked": "2026-09-21",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4c/d9/32/4cd93289-3926-09cd-58d2-cd5d977d27be/ticket.dulyjyca.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-21"
  },
  "Tabu Ley Rochereau::Tabu Ley Rochereau: The Voice of Lightness Vol 1 Album 1": {
   "status": "ok",
@@ -79127,8 +79191,8 @@
  },
  "Tatsuro Yamashita 山下達郎::Big Wave": {
   "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9bac1c547b98deef.jpg",
+  "cover_from": "app",
   "genres": [
    "city pop",
    "j-pop",
@@ -79136,12 +79200,14 @@
   ],
   "tried": "2026-09-20",
   "genre_source": "researched",
-  "rename_checked": "2026-09-21"
+  "rename_checked": "2026-09-21",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/71/26/d8/7126d88b-7cf5-5ba5-7043-f1d26a8dd87f/jacket_MHXX00766B00Z_550.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-21"
  },
  "Tatsuro Yamashita 山下達郎::For You": {
   "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/bc767c39601021b0.jpg",
+  "cover_from": "app",
   "genres": [
    "ballad",
    "city pop",
@@ -79154,7 +79220,9 @@
   ],
   "tried": "2026-09-20",
   "genre_source": "discogs",
-  "rename_checked": "2026-09-21"
+  "rename_checked": "2026-09-21",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/71/26/d8/7126d88b-7cf5-5ba5-7043-f1d26a8dd87f/jacket_MHXX00766B00Z_550.jpg/600x600bb.jpg",
+  "cover_cached": "2026-09-21"
  },
  "Tatsuro Yamashita 山下達郎::Ride on Time": {
   "status": "ok",

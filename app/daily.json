@@ -2,62 +2,63 @@
  "date": "2026-09-21",
  "picks": [
   {
-   "artist": "Public Image Ltd.",
-   "title": "Metal Box",
-   "year": 1979,
+   "artist": "Basic Channel",
+   "title": "Quadrant Dub",
+   "year": 1994,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/57209d3f-f3ef-34db-82a7-ad633497b784.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/08cd4c08-0233-3c3d-9acc-a4f7fb6beedd.jpg",
    "genres": [
-    "post-punk",
-    "rock",
-    "dub"
+    "dub techno",
+    "electronic",
+    "deep house"
    ]
   },
   {
-   "artist": "slayr",
-   "title": "Half Blood (BloodLuxe)",
-   "year": 2025,
+   "artist": "Navy Blue",
+   "title": "Ways of Knowing",
+   "year": 2023,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d1d879d7-82b6-4b80-a5cd-2da75e74ae36.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/386f46a5-6bb1-402c-aaa3-ad0e83fe6b4b.jpg",
    "genres": [
-    "rage",
-    "digicore",
+    "hip hop",
+    "neo soul",
+    "abstract hip hop"
+   ]
+  },
+  {
+   "artist": "芸能山城組 [Geinoh Yamashirogumi]",
+   "title": "Symphonic Suite AKIRA",
+   "year": 1988,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/74b8ff9b70e977e1.jpg",
+   "genres": [
+    "gamelan",
+    "experimental",
     "electronic"
    ]
   },
   {
-   "artist": "Erroll Garner",
-   "title": "Concert by the Sea",
-   "year": 1955,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3a3f2c58-b896-44d5-84bb-1793387a7bef.jpg",
-   "genres": [
-    "jazz",
-    "stride"
-   ]
-  },
-  {
-   "artist": "Songs: Ohia",
-   "title": "Didn't It Rain",
-   "year": 2002,
+   "artist": "Slint",
+   "title": "Spiderland",
+   "year": 1991,
    "score": 70,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/fd435442-6808-3d84-a7fa-093d5d2004d5.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e9f4b96a-94df-36be-9659-c9a811caead6.jpg",
    "genres": [
-    "rock",
-    "singer-songwriter",
-    "indie rock"
+    "post-rock",
+    "math rock",
+    "rock"
    ]
   },
   {
-   "artist": "John Coltrane",
-   "title": "Blue Train",
-   "year": 1957,
-   "score": 100,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/12349ce8-2087-3d16-93da-70cd65621774.jpg",
+   "artist": "JPEGMAFIA",
+   "title": "All My Heroes Are Cornballs",
+   "year": 2019,
+   "score": 95,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c35a4a3f-d584-42fc-ac0f-b9592aedd3b2.jpg",
    "genres": [
-    "jazz",
-    "hard bop",
-    "instrumental jazz"
+    "experimental hip hop",
+    "hardcore hip hop",
+    "cloud rap"
    ]
   }
  ],
@@ -65,11 +66,11 @@
   {
    "date": "2026-09-21",
    "keys": [
-    "Public Image Ltd.::Metal Box",
-    "slayr::Half Blood (BloodLuxe)",
-    "Erroll Garner::Concert by the Sea",
-    "Songs: Ohia::Didn't It Rain",
-    "John Coltrane::Blue Train"
+    "Basic Channel::Quadrant Dub",
+    "Navy Blue::Ways of Knowing",
+    "芸能山城組 [Geinoh Yamashirogumi]::Symphonic Suite AKIRA",
+    "Slint::Spiderland",
+    "JPEGMAFIA::All My Heroes Are Cornballs"
    ]
   },
   {
