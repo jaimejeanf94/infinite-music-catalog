@@ -2103,14 +2103,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/f71e145d-6dfe-4748-9d68-a8e774ca5b20/front-500",
   "cover_cached": "2026-09-20"
  },
- "Blood Incantation::Absolute Everywhere": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20"
- },
  "Bon Iver::SABLE, fABLE": {
   "status": "ok",
   "mbid": "4843294e-a8ab-4a39-864b-36faa09a2dd8",
@@ -8501,28 +8493,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/d76e8ddb-ee99-3f9e-baf5-a66123a18774/front-500",
   "cover_cached": "2026-09-20"
  },
- "Angelo Badalamenti & David Lynch::Mulholland Dr.": {
-  "status": "ok",
-  "error": "MusicBrainz 503",
-  "mbid": "32530b76-bb42-3b3f-80e7-35f1c5de6f0a",
-  "genres": [
-   "rock",
-   "jazz",
-   "smooth jazz",
-   "electronic",
-   "classical",
-   "alternative rock",
-   "ambient",
-   "experimental"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/32530b76-bb42-3b3f-80e7-35f1c5de6f0a.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2001",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/32530b76-bb42-3b3f-80e7-35f1c5de6f0a/front-500",
-  "cover_cached": "2026-09-20"
- },
  "Angels of Light::How I Loved You": {
   "status": "ok",
   "mbid": "b7a7b9f0-6cd6-31e5-bfa2-863873da6ca4",
@@ -10694,16 +10664,6 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/06344dd3-ac44-47b0-b11f-e007220867e2/front-500",
   "cover_cached": "2026-09-20"
- },
- "Beastie Boys::Beastie Boys Anthology: The Sounds of Science": {
-  "status": "partial",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/01453a88b28ca513.jpg",
-  "cover_from": "deezer",
-  "genres": [],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/22fd1ee592234a8ca1e46ba56c1d3be1/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "rename_checked": "2026-09-20"
  },
  "Beastie Boys::Hello Nasty": {
   "status": "ok",
@@ -23025,14 +22985,6 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/d0c54183-ff41-43f6-8721-2b7c9c446c5b/front-500",
   "cover_cached": "2026-09-20"
- },
- "DJ Screw::3 'n the Morning: Part II [Blue]": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20"
  },
  "DJ Screw::Bigtyme Vol II: All Screwed Up": {
   "status": "ok",
@@ -78119,13 +78071,6 @@
   "mb_year": "2001",
   "checked": "2026-09-20"
  },
- "Rakim & Eric B.::Follow the Leader": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
- },
  "schnozz::berdleycore Chapter Zero": {
   "status": "nomatch",
   "cover_url": null,
@@ -78310,13 +78255,6 @@
   "tried": "2026-09-20",
   "genre_source": "researched"
  },
- "Wilco::Whole Lotta Love": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [],
-  "tried": "2026-09-20"
- },
  "ミドリ [Midori]::Hello Everyone. Nice to Meet you. We are Midori": {
   "status": "nomatch",
   "cover_url": null,
@@ -78392,20 +78330,6 @@
   "mb_year": "2013",
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release/7f133856-4061-4d4b-a2ea-b65854cfd975/front-500",
-  "cover_cached": "2026-09-20"
- },
- "Arvo Pärt::Tabula Rasa": {
-  "status": "ok",
-  "mbid": "21525fce-629f-393a-a34c-2f41ef78508d",
-  "genres": [
-   "classical"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/21525fce-629f-393a-a34c-2f41ef78508d.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "1984",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release/bbbc9fa7-829c-31a9-a9b4-11b51ebd9ebb/front-500",
   "cover_cached": "2026-09-20"
  },
  "Beastie Boys::Anthology: The Sounds of Science": {
