@@ -1962,22 +1962,8 @@
    "pop"
   ],
   "tried": "2026-09-20",
-  "genre_source": "discogs"
- },
- "파란노을 [Parannoul]::To See the Next Part of the Dream": {
-  "status": "partial",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/606afebc3bc4128e.jpg",
-  "cover_from": "deezer",
-  "genres": [
-   "emo",
-   "shoegaze",
-   "electronic",
-   "rock"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/a47abbc73a5db7a2b3df94c5fc721c7b/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "discogs"
+  "genre_source": "discogs",
+  "rename_checked": "2026-09-21"
  },
  "Triángulo de Amor Bizarro::Triángulo de Amor Bizarro": {
   "status": "ok",
@@ -2735,20 +2721,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/3fa924b2-aae8-3ab6-b2d3-f647a8a8e8f6/front-500",
   "cover_cached": "2026-09-20"
  },
- "파란노을 [Parannoul]::White Ceiling / Black Dots Wandering Around": {
-  "status": "partial",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f20451194313027e.jpg",
-  "cover_from": "deezer",
-  "genres": [
-   "emo",
-   "shoegaze",
-   "rock"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/a85d8364652cac6b2afd92da0c1252eb/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "discogs"
- },
  "万能青年旅店 (Omnipotent Youth Society)::万能青年旅店 (Omnipotent Youth Society)": {
   "status": "nomatch",
   "cover_url": null,
@@ -2759,7 +2731,8 @@
    "rock"
   ],
   "tried": "2026-09-20",
-  "genre_source": "discogs"
+  "genre_source": "discogs",
+  "rename_checked": "2026-09-21"
  },
  "2 Many DJ's::Dave": {
   "status": "nomatch",
@@ -4655,7 +4628,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/fcd40265a11f2d5d54c977740ff993b0/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "discogs"
+  "genre_source": "discogs",
+  "rename_checked": "2026-09-21"
  },
  "The Radio Dept.::Clinging To A Scheme": {
   "status": "ok",
@@ -5508,7 +5482,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/b8dea7491da02880c5934a3172a20650/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "discogs"
+  "genre_source": "discogs",
+  "rename_checked": "2026-09-21"
  },
  "Elbow::Leaders Of The Free World": {
   "status": "ok",
@@ -6264,7 +6239,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/610701e9df3b8b3b0b2d8d95af1716c9/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "researched"
+  "genre_source": "researched",
+  "rename_checked": "2026-09-21"
  },
  "…And You Will Know Us by the Trail of Dead::Source Tags & Codes": {
   "status": "ok",
@@ -36821,20 +36797,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/32cb822c-a14e-49ce-a169-f209c5f31e0f/front-500",
   "cover_cached": "2026-09-20"
  },
- "Kenny Beats::Louise": {
-  "status": "ok",
-  "mbid": "d00b8ff3-b524-4539-a314-05dc51855502",
-  "genres": [
-   "instrumental hip hop"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d00b8ff3-b524-4539-a314-05dc51855502.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2022",
-  "checked": "2026-09-19",
-  "cover_source_url": "https://coverartarchive.org/release-group/d00b8ff3-b524-4539-a314-05dc51855502/front-500",
-  "cover_cached": "2026-09-20"
- },
  "Kero Kero Bonito::Civilisation I": {
   "status": "ok",
   "mbid": "b76e2823-cd76-443a-8e7e-ce534ea50b33",
@@ -50777,26 +50739,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/83593465-37cc-3d6f-a3d2-61c81e3c2be6/front-500",
   "cover_cached": "2026-09-20"
  },
- "Pink Floyd::The Piper Gates of Dawn": {
-  "status": "partial",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7092a766c72406e7.jpg",
-  "cover_from": "deezer",
-  "genres": [
-   "progressive rock",
-   "psychedelic rock",
-   "classic rock",
-   "rock",
-   "psychedelic",
-   "art rock",
-   "progressive",
-   "space rock"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/2ce3a33d1659ce59bccc5083a7fdf7c6/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21"
- },
  "Pink Silfu'::GUMBO!": {
   "status": "ok",
   "mbid": "285544a1-fd4b-4f60-bae4-2148066c7b8a",
@@ -58283,24 +58225,6 @@
   "cover_source_url": "https://coverartarchive.org/release-group/687b0a9c-35c6-3206-8462-3a02c7298089/front-500",
   "cover_cached": "2026-09-20"
  },
- "Soda Stereo::Sueño estéreo": {
-  "status": "ok",
-  "mbid": "65b80d3a-f8a4-392f-b7ba-41864534247c",
-  "genres": [
-   "rock",
-   "alternative rock",
-   "pop rock",
-   "latin rock",
-   "latin"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/65b80d3a-f8a4-392f-b7ba-41864534247c.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "1995",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/65b80d3a-f8a4-392f-b7ba-41864534247c/front-500",
-  "cover_cached": "2026-09-20"
- },
  "Soda Stereo::Dynamo": {
   "status": "ok",
   "mbid": "37a12231-c07d-31f8-9cbd-63a741cc2e02",
@@ -59958,23 +59882,6 @@
   "mb_year": "1990",
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/d3a36b48-9a42-376a-bee8-f97b96eee7a6/front-500",
-  "cover_cached": "2026-09-20"
- },
- "Steve Wilson::Insurgentes": {
-  "status": "ok",
-  "mbid": "b1c5ea39-8f96-355b-bfe4-84a7805db75f",
-  "genres": [
-   "progressive rock",
-   "rock",
-   "alternative rock",
-   "experimental"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b1c5ea39-8f96-355b-bfe4-84a7805db75f.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2008",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/b1c5ea39-8f96-355b-bfe4-84a7805db75f/front-500",
   "cover_cached": "2026-09-20"
  },
  "Steven Wilson::The Raven That Refused To Sing (And Other Stories) [Deluxe Edition]": {
@@ -71534,7 +71441,8 @@
    "j-rock"
   ],
   "tried": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "rename_checked": "2026-09-21"
  },
  "Tricot::T H E": {
   "status": "ok",
@@ -73412,7 +73320,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/81b045f8620fd9575f0d68c353deb8ad/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "rename_checked": "2026-09-21"
  },
  "Viagra Boys::Street Worms": {
   "status": "ok",
@@ -74015,7 +73924,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/39381d55274f8fd48d6c07158c76ef25/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "rename_checked": "2026-09-21"
  },
  "Weezer::Everything Will Be Alright In The End": {
   "status": "ok",
@@ -75802,7 +75712,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/57197939f58035d8e86ece90fc65fb80/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "discogs"
+  "genre_source": "discogs",
+  "rename_checked": "2026-09-21"
  },
  "Yola::Stand For Myself": {
   "status": "ok",
@@ -76060,7 +75971,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/7ff9a3fc0b5c9401d497edbd73c29878/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "discogs"
+  "genre_source": "discogs",
+  "rename_checked": "2026-09-21"
  },
  "Yusef Lateef::Eastern Sounds": {
   "status": "ok",
@@ -76285,7 +76197,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/ef5666cdec4c2b884a204c6d8bec9a93/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "discogs"
+  "genre_source": "discogs",
+  "rename_checked": "2026-09-21"
  },
  "아버지 [father]::흰색 죽음": {
   "status": "ok",
@@ -76302,35 +76215,6 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/e59df5d8-3b82-4959-b014-ef6c35941242/front-500",
   "cover_cached": "2026-09-20"
- },
- "파란노을 [Parannoul]::After The Magic": {
-  "status": "partial",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b2cbe32297b2a4b5.jpg",
-  "cover_from": "deezer",
-  "genres": [
-   "shoegaze",
-   "indie rock",
-   "dream pop",
-   "emo",
-   "rock"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/0af9be50d65ef821f961797b0429ae2b/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "discogs"
- },
- "파란노을 [Parannoul]::After The Night": {
-  "status": "partial",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/004dced311cbd288.jpg",
-  "cover_from": "deezer",
-  "genres": [
-   "shoegaze",
-   "rock"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/53e13ef43a94aeb33979fbe96bcf966f/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "researched"
  },
  "파란노을 [Parannoul]::Sky Hundred": {
   "status": "ok",
@@ -76362,7 +76246,8 @@
    "synth-pop"
   ],
   "tried": "2026-09-20",
-  "genre_source": "researched"
+  "genre_source": "researched",
+  "rename_checked": "2026-09-21"
  },
  "椎名林檎 [Sheena Ringo]::Shoso Strip": {
   "status": "partial",
@@ -76374,7 +76259,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/7f3d8c2859008d28143c57e10dec6899/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "rename_checked": "2026-09-21"
  },
  "椎名林檎 [Sheena Ringo]::Muzai Moratorium": {
   "status": "partial",
@@ -76386,7 +76272,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/998fe24a29474d982f666006703c1225/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "rename_checked": "2026-09-21"
  },
  "王若琳 [Joanna Wang]::破爛酒店 [Hotel La Rut]": {
   "status": "partial",
@@ -76400,7 +76287,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/a8b1190b6fc2e734555b186da1815a88/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "researched"
+  "genre_source": "researched",
+  "rename_checked": "2026-09-21"
  },
  "芸能山城組 [Geinoh Yamashirogumi]::Symphonic Suite AKIRA": {
   "status": "nomatch",
@@ -76413,7 +76301,8 @@
    "modern classical"
   ],
   "tried": "2026-09-20",
-  "genre_source": "researched"
+  "genre_source": "researched",
+  "rename_checked": "2026-09-21"
  },
  "青葉市子 [Ichiko Aoba]::Windswept Adan": {
   "status": "partial",
@@ -76428,7 +76317,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/d888de60084644369238dba86790eb07/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "discogs"
+  "genre_source": "discogs",
+  "rename_checked": "2026-09-21"
  },
  "青葉市子 [Ichiko Aoba]::マホロボシヤ (Mahoroboshiya)": {
   "status": "partial",
@@ -76442,7 +76332,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/94828538dd24de9bb66b52bb66765e2a/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "researched"
+  "genre_source": "researched",
+  "rename_checked": "2026-09-21"
  },
  "青葉市子 [Ichiko Aoba]::qp": {
   "status": "partial",
@@ -76456,7 +76347,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/070be56ce085e6288a51cf3802ac0863/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "researched"
+  "genre_source": "researched",
+  "rename_checked": "2026-09-21"
  },
  "青葉市子 [Ichiko Aoba]::0": {
   "status": "partial",
@@ -76468,7 +76360,8 @@
   "tried": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/0f0bf00af59bde01e05664f7b6336cb6/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "genre_source": "discogs"
+  "genre_source": "discogs",
+  "rename_checked": "2026-09-21"
  },
  "青葉市子 [Ichiko Aoba]::うたびこ (Utabiko)": {
   "status": "nomatch",
@@ -76480,7 +76373,8 @@
    "ambient"
   ],
   "tried": "2026-09-20",
-  "genre_source": "researched"
+  "genre_source": "researched",
+  "rename_checked": "2026-09-21"
  },
  "青葉市子 [Ichiko Aoba]::檻髪 (Origami)": {
   "status": "nomatch",
@@ -76492,7 +76386,8 @@
    "ambient"
   ],
   "tried": "2026-09-20",
-  "genre_source": "researched"
+  "genre_source": "researched",
+  "rename_checked": "2026-09-21"
  },
  "青葉市子 [Ichiko Aoba]::剃刀乙女 (Kamisori Otome)": {
   "status": "nomatch",
@@ -76504,7 +76399,8 @@
    "ambient"
   ],
   "tried": "2026-09-20",
-  "genre_source": "researched"
+  "genre_source": "researched",
+  "rename_checked": "2026-09-21"
  },
  "Youth Lagoon::The Year of Hibernation": {
   "status": "ok",
@@ -78234,7 +78130,8 @@
    "twee pop"
   ],
   "tried": "2026-09-20",
-  "genre_source": "lastfm-artist"
+  "genre_source": "lastfm-artist",
+  "rename_checked": "2026-09-21"
  },
  "Utada Hikaru::Deep River": {
   "status": "nomatch",
@@ -78250,7 +78147,8 @@
    "pop"
   ],
   "tried": "2026-09-20",
-  "genre_source": "discogs"
+  "genre_source": "discogs",
+  "rename_checked": "2026-09-21"
  },
  "Various Artists::African Connection, Vol. 1: Zaire Choc!": {
   "status": "ok",
@@ -78287,7 +78185,8 @@
    "afrobeat"
   ],
   "tried": "2026-09-20",
-  "genre_source": "researched"
+  "genre_source": "researched",
+  "rename_checked": "2026-09-21"
  },
  "ミドリ [Midori]::Hello Everyone. Nice to Meet you. We are Midori": {
   "status": "nomatch",
@@ -78299,7 +78198,8 @@
    "experimental rock"
   ],
   "tried": "2026-09-20",
-  "genre_source": "researched"
+  "genre_source": "researched",
+  "rename_checked": "2026-09-21"
  },
  "惘闻 [Wang Wen]::冀西南林路行 (Inside The Cable Temple)": {
   "status": "nomatch",
@@ -78310,7 +78210,8 @@
    "instrumental rock"
   ],
   "tried": "2026-09-20",
-  "genre_source": "researched"
+  "genre_source": "researched",
+  "rename_checked": "2026-09-21"
  },
  "椎名林檎 [Sheena Ringo]::加爾基 精液 栗ノ花 (Kalk Samen Kuri no Hana)": {
   "status": "ok",
@@ -78377,10 +78278,12 @@
    "alternative hip hop"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/c28843ed-6233-36e1-b98f-3ff0bbc62ecf/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c28843ed-6233-36e1-b98f-3ff0bbc62ecf.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "1999",
-  "checked": "2026-09-21"
+  "checked": "2026-09-21",
+  "cover_source_url": "https://coverartarchive.org/release-group/c28843ed-6233-36e1-b98f-3ff0bbc62ecf/front-500",
+  "cover_cached": "2026-09-21"
  },
  "Blood Incantation::Absolute Elsewhere": {
   "status": "ok",
@@ -78401,20 +78304,6 @@
   "mb_year": "2024",
   "checked": "2026-09-21",
   "cover_source_url": "https://coverartarchive.org/release-group/25267682-bdfc-435a-b6a7-89c266f7d0e8/front-500",
-  "cover_cached": "2026-09-21"
- },
- "DJ Screw::DJ Screw — 3 ’n the Mornin’, Part One": {
-  "status": "ok",
-  "mbid": "3359314f-4d06-3d15-9e68-42c192e4eb0b",
-  "genres": [
-   "hip hop"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3359314f-4d06-3d15-9e68-42c192e4eb0b.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "1994",
-  "checked": "2026-09-21",
-  "cover_source_url": "https://coverartarchive.org/release-group/3359314f-4d06-3d15-9e68-42c192e4eb0b/front-500",
   "cover_cached": "2026-09-21"
  },
  "Arvo Part::Tabula Rasa": {
@@ -79342,7 +79231,8 @@
    "bossa nova"
   ],
   "tried": "2026-09-20",
-  "genre_source": "researched"
+  "genre_source": "researched",
+  "rename_checked": "2026-09-21"
  },
  "가장 보통의 존재::Sister's Barbershop 언니네이발관": {
   "status": "nomatch",
@@ -79353,7 +79243,8 @@
    "indie pop"
   ],
   "tried": "2026-09-20",
-  "genre_source": "researched"
+  "genre_source": "researched",
+  "rename_checked": "2026-09-21"
  },
  "Corea::Los peores 7 peores km de mi vida": {
   "status": "ok",
@@ -79383,5 +79274,258 @@
   "checked": "2026-09-21",
   "cover_source_url": "https://coverartarchive.org/release-group/9346c6ab-d09e-4a71-aa32-8d6e1bd44116/front-500",
   "cover_cached": "2026-09-21"
+ },
+ "Buckethead::Albino Slug": {
+  "status": "ok",
+  "mbid": "a45b632c-f494-3486-9ea2-afdc9e075ee1",
+  "genres": [
+   "progressive rock",
+   "experimental rock",
+   "rock",
+   "heavy metal",
+   "progressive metal",
+   "instrumental rock",
+   "alternative metal",
+   "avant-garde metal",
+   "instrumental",
+   "metal"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a45b632c-f494-3486-9ea2-afdc9e075ee1.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2008",
+  "checked": "2026-09-21",
+  "cover_source_url": "https://coverartarchive.org/release-group/a45b632c-f494-3486-9ea2-afdc9e075ee1/front-500",
+  "cover_cached": "2026-09-21"
+ },
+ "Buckethead::Hold Me Forever (In Memory of My Mom Nancy York Carroll)": {
+  "status": "ok",
+  "mbid": "a9538322-adf5-48d0-832b-93286fc67f5d",
+  "genres": [
+   "rock",
+   "progressive rock",
+   "heavy metal",
+   "progressive metal",
+   "metal",
+   "hard rock",
+   "progressive",
+   "instrumental rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a9538322-adf5-48d0-832b-93286fc67f5d.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2014",
+  "checked": "2026-09-21",
+  "cover_source_url": "https://coverartarchive.org/release-group/a9538322-adf5-48d0-832b-93286fc67f5d/front-500",
+  "cover_cached": "2026-09-21"
+ },
+ "Buckethead::Monsters And Robots": {
+  "status": "ok",
+  "mbid": "1008471d-e23c-314b-9c09-9e0966693a84",
+  "genres": [
+   "heavy metal",
+   "funk metal",
+   "rock",
+   "electronic",
+   "industrial",
+   "instrumental",
+   "metal",
+   "experimental",
+   "hip hop",
+   "hard rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1008471d-e23c-314b-9c09-9e0966693a84.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1999",
+  "checked": "2026-09-21",
+  "cover_source_url": "https://coverartarchive.org/release-group/1008471d-e23c-314b-9c09-9e0966693a84/front-500",
+  "cover_cached": "2026-09-21"
+ },
+ "Buckethead::Pepper's Ghost": {
+  "status": "ok",
+  "mbid": "2bbd9188-4ef7-3b77-b3c3-2c032b17ff93",
+  "genres": [
+   "progressive rock",
+   "progressive metal",
+   "instrumental rock",
+   "rock",
+   "instrumental",
+   "metal",
+   "experimental",
+   "progressive",
+   "experimental rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2bbd9188-4ef7-3b77-b3c3-2c032b17ff93.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2007",
+  "checked": "2026-09-21",
+  "cover_source_url": "https://coverartarchive.org/release-group/2bbd9188-4ef7-3b77-b3c3-2c032b17ff93/front-500",
+  "cover_cached": "2026-09-21"
+ },
+ "Buckethead::Pike 13": {
+  "status": "ok",
+  "mbid": "324c656f-b507-4df7-9a54-b7a6faa73fde",
+  "genres": [
+   "ambient",
+   "rock",
+   "electronic",
+   "instrumental",
+   "chillout",
+   "experimental",
+   "new age",
+   "minimalism",
+   "ambient americana"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/324c656f-b507-4df7-9a54-b7a6faa73fde.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2013",
+  "checked": "2026-09-21",
+  "cover_source_url": "https://coverartarchive.org/release-group/324c656f-b507-4df7-9a54-b7a6faa73fde/front-500",
+  "cover_cached": "2026-09-21"
+ },
+ "Buckethead::Population Override": {
+  "status": "ok",
+  "mbid": "61fd7562-906e-332b-af12-bc742a70fcd0",
+  "genres": [
+   "rock",
+   "jazz rock",
+   "progressive rock",
+   "instrumental",
+   "jazz",
+   "progressive",
+   "instrumental rock",
+   "funk rock",
+   "blues rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/61fd7562-906e-332b-af12-bc742a70fcd0.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2004",
+  "checked": "2026-09-21",
+  "cover_source_url": "https://coverartarchive.org/release-group/61fd7562-906e-332b-af12-bc742a70fcd0/front-500",
+  "cover_cached": "2026-09-21"
+ },
+ "DJ Screw::3 ’n the Mornin’, Part One": {
+  "status": "ok",
+  "mbid": "3359314f-4d06-3d15-9e68-42c192e4eb0b",
+  "genres": [
+   "hip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3359314f-4d06-3d15-9e68-42c192e4eb0b.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1994",
+  "checked": "2026-09-21",
+  "cover_source_url": "https://coverartarchive.org/release-group/3359314f-4d06-3d15-9e68-42c192e4eb0b/front-500",
+  "cover_cached": "2026-09-21"
+ },
+ "Pink Floyd::The Piper at the Gates of Dawn": {
+  "status": "ok",
+  "mbid": "6792b6d1-4e65-3c3c-9d20-d08aa1dcfc60",
+  "genres": [
+   "psychedelic rock",
+   "rock",
+   "space rock",
+   "experimental rock",
+   "classic rock",
+   "psychedelic pop",
+   "electronic",
+   "classical",
+   "pop",
+   "progressive rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6792b6d1-4e65-3c3c-9d20-d08aa1dcfc60.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1967",
+  "checked": "2026-09-21",
+  "cover_source_url": "https://coverartarchive.org/release-group/6792b6d1-4e65-3c3c-9d20-d08aa1dcfc60/front-500",
+  "cover_cached": "2026-09-21"
+ },
+ "파란노을::After the Magic": {
+  "status": "ok",
+  "mbid": "5d005c69-b6c5-41eb-ad1c-b22fa01ab707",
+  "genres": [
+   "indie rock",
+   "shoegaze",
+   "dream pop",
+   "indietronica",
+   "post-rock",
+   "emo",
+   "noise pop",
+   "neo-psychedelia"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5d005c69-b6c5-41eb-ad1c-b22fa01ab707.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-21",
+  "cover_source_url": "https://coverartarchive.org/release-group/5d005c69-b6c5-41eb-ad1c-b22fa01ab707/front-500",
+  "cover_cached": "2026-09-21"
+ },
+ "파란노을::After the Night": {
+  "status": "ok",
+  "mbid": "b265f92d-51f4-43c1-b80f-fa4507ff81bd",
+  "genres": [
+   "shoegaze",
+   "post-rock",
+   "indie rock",
+   "emo",
+   "noise pop",
+   "neo-psychedelia",
+   "noise rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b265f92d-51f4-43c1-b80f-fa4507ff81bd.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2023",
+  "checked": "2026-09-21",
+  "cover_source_url": "https://coverartarchive.org/release-group/b265f92d-51f4-43c1-b80f-fa4507ff81bd/front-500",
+  "cover_cached": "2026-09-21"
+ },
+ "파란노을::To See the Next Part of the Dream": {
+  "status": "ok",
+  "mbid": "74769203-cd8e-409b-912e-f1ec476dd716",
+  "genres": [
+   "shoegaze",
+   "post-rock",
+   "indie rock",
+   "emo",
+   "lo-fi",
+   "noise pop",
+   "post-hardcore",
+   "noise rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/74769203-cd8e-409b-912e-f1ec476dd716.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2021",
+  "checked": "2026-09-21",
+  "cover_source_url": "https://coverartarchive.org/release-group/74769203-cd8e-409b-912e-f1ec476dd716/front-500",
+  "cover_cached": "2026-09-21"
+ },
+ "파란노을::White Ceiling / Black Dots Wandering Around": {
+  "status": "ok",
+  "mbid": "0d7990f7-6ef6-4f14-9728-64734b50ffbe",
+  "genres": [
+   "shoegaze",
+   "rock",
+   "post-rock",
+   "indie rock",
+   "emo",
+   "noise pop",
+   "post-hardcore",
+   "noise rock",
+   "indietronica",
+   "slacker rock"
+  ],
+  "genre_source": "release",
+  "cover_url": null,
+  "cover_from": null,
+  "mb_year": "2022",
+  "checked": "2026-09-21"
  }
 }

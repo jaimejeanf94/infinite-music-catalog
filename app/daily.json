@@ -2,63 +2,62 @@
  "date": "2026-09-21",
  "picks": [
   {
-   "artist": "Pulp",
-   "title": "This is Hardcore",
-   "year": 1995,
+   "artist": "Public Image Ltd.",
+   "title": "Metal Box",
+   "year": 1979,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1ab343e8-490d-32a6-a6c8-1e56cf33c888.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/57209d3f-f3ef-34db-82a7-ad633497b784.jpg",
    "genres": [
+    "post-punk",
     "rock",
-    "britpop",
-    "alternative rock"
+    "dub"
    ]
   },
   {
-   "artist": "Sleater-Kinney",
-   "title": "No Cities To Love",
-   "year": 2015,
+   "artist": "slayr",
+   "title": "Half Blood (BloodLuxe)",
+   "year": 2025,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/aeacebc7-34fc-44ff-bde9-779e6fde7ade.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d1d879d7-82b6-4b80-a5cd-2da75e74ae36.jpg",
    "genres": [
-    "alternative rock",
-    "indie rock",
-    "rock"
+    "rage",
+    "digicore",
+    "electronic"
    ]
   },
   {
-   "artist": "Basic Channel",
-   "title": "Quadrant Dub",
-   "year": 1994,
+   "artist": "Erroll Garner",
+   "title": "Concert by the Sea",
+   "year": 1955,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/08cd4c08-0233-3c3d-9acc-a4f7fb6beedd.jpg",
-   "genres": [
-    "dub techno",
-    "electronic",
-    "deep house"
-   ]
-  },
-  {
-   "artist": "The Beatles",
-   "title": "1967-1970",
-   "year": 1973,
-   "score": 100,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f2e0599e-222b-37a5-8544-2f68ce65fd66.jpg",
-   "genres": [
-    "rock",
-    "pop",
-    "pop rock"
-   ]
-  },
-  {
-   "artist": "John Coltrane & Duke Ellington",
-   "title": "Duke Ellington & John Coltrane",
-   "year": 1963,
-   "score": 70,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/caf2a0e9-2cb9-4b1d-9549-5e3b7201edaf.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3a3f2c58-b896-44d5-84bb-1793387a7bef.jpg",
    "genres": [
     "jazz",
-    "swing",
-    "big band"
+    "stride"
+   ]
+  },
+  {
+   "artist": "Songs: Ohia",
+   "title": "Didn't It Rain",
+   "year": 2002,
+   "score": 70,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/fd435442-6808-3d84-a7fa-093d5d2004d5.jpg",
+   "genres": [
+    "rock",
+    "singer-songwriter",
+    "indie rock"
+   ]
+  },
+  {
+   "artist": "John Coltrane",
+   "title": "Blue Train",
+   "year": 1957,
+   "score": 100,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/12349ce8-2087-3d16-93da-70cd65621774.jpg",
+   "genres": [
+    "jazz",
+    "hard bop",
+    "instrumental jazz"
    ]
   }
  ],
@@ -66,11 +65,11 @@
   {
    "date": "2026-09-21",
    "keys": [
-    "Pulp::This is Hardcore",
-    "Sleater-Kinney::No Cities To Love",
-    "Basic Channel::Quadrant Dub",
-    "The Beatles::1967-1970",
-    "John Coltrane & Duke Ellington::Duke Ellington & John Coltrane"
+    "Public Image Ltd.::Metal Box",
+    "slayr::Half Blood (BloodLuxe)",
+    "Erroll Garner::Concert by the Sea",
+    "Songs: Ohia::Didn't It Rain",
+    "John Coltrane::Blue Train"
    ]
   },
   {

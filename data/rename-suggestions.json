@@ -1,1 +1,34 @@
-[]
+[
+ {
+  "from": "파란노을 [Parannoul]::After The Magic",
+  "to": "파란노을::After the Magic",
+  "_pass": "artist",
+  "_titleRatio": 0,
+  "_artistRatio": 0.05,
+  "_mbid": "5d005c69-b6c5-41eb-ad1c-b22fa01ab707"
+ },
+ {
+  "from": "파란노을 [Parannoul]::After The Night",
+  "to": "파란노을::After the Night",
+  "_pass": "artist",
+  "_titleRatio": 0.12,
+  "_artistRatio": 0.05,
+  "_mbid": "b265f92d-51f4-43c1-b80f-fa4507ff81bd"
+ },
+ {
+  "from": "파란노을 [Parannoul]::To See the Next Part of the Dream",
+  "to": "파란노을::To See the Next Part of the Dream",
+  "_pass": "artist",
+  "_titleRatio": 0,
+  "_artistRatio": 0.05,
+  "_mbid": "74769203-cd8e-409b-912e-f1ec476dd716"
+ },
+ {
+  "from": "파란노을 [Parannoul]::White Ceiling / Black Dots Wandering Around",
+  "to": "파란노을::White Ceiling / Black Dots Wandering Around",
+  "_pass": "artist",
+  "_titleRatio": 0,
+  "_artistRatio": 0.05,
+  "_mbid": "0d7990f7-6ef6-4f14-9728-64734b50ffbe"
+ }
+]

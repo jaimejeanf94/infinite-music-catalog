@@ -1,11 +1,11 @@
 {
- "generated": "2026-09-21T06:59:03.976Z",
+ "generated": "2026-09-21T07:18:39.078Z",
  "totals": {
-  "albums": 4415,
+  "albums": 4418,
   "rated": 397,
-  "withCover": 4415,
-  "withGenres": 4415,
-  "matched": 4273
+  "withCover": 4418,
+  "withGenres": 4418,
+  "matched": 4281
  },
  "sections": [
   {
@@ -29,7 +29,7 @@
    "title": "Year is far off MusicBrainz",
    "why": "15 years or more apart. Could be your year, could be MusicBrainz matching a reissue. Check the two and dismiss it if the shelf is right.",
    "action": "recheck",
-   "count": 51,
+   "count": 34,
    "items": [
     {
      "artist": "Aliyah's Interlude",
@@ -59,15 +59,6 @@
      "apply": "Use 2020"
     },
     {
-     "artist": "billy woods",
-     "title": "Aethiopes",
-     "note": "shelf 1998 vs MusicBrainz 2022",
-     "suggest": {
-      "year": "2022"
-     },
-     "apply": "Use 2022"
-    },
-    {
      "artist": "Bob Dylan",
      "title": "Greatest Hits Volume 3 (Bob Dylan)",
      "note": "shelf 1994 vs MusicBrainz 1967",
@@ -75,42 +66,6 @@
       "year": "1967"
      },
      "apply": "Use 1967"
-    },
-    {
-     "artist": "Bob Marley",
-     "title": "Legend",
-     "note": "shelf 1980 vs MusicBrainz 2008",
-     "suggest": {
-      "year": "2008"
-     },
-     "apply": "Use 2008"
-    },
-    {
-     "artist": "Boredoms",
-     "title": "Super ae",
-     "note": "shelf 2022 vs MusicBrainz 1998",
-     "suggest": {
-      "year": "1998"
-     },
-     "apply": "Use 1998"
-    },
-    {
-     "artist": "By Storm",
-     "title": "My Ghosts Go Ghost",
-     "note": "shelf 1984 vs MusicBrainz 2026",
-     "suggest": {
-      "year": "2026"
-     },
-     "apply": "Use 2026"
-    },
-    {
-     "artist": "Cat Power",
-     "title": "Moon Pix",
-     "note": "shelf 2022 vs MusicBrainz 1998",
-     "suggest": {
-      "year": "1998"
-     },
-     "apply": "Use 1998"
     },
     {
      "artist": "Deep Purple",
@@ -149,15 +104,6 @@
      "apply": "Use 2002"
     },
     {
-     "artist": "Fatboy Slim",
-     "title": "Why Try Harder",
-     "note": "shelf 2023 vs MusicBrainz 2006",
-     "suggest": {
-      "year": "2006"
-     },
-     "apply": "Use 2006"
-    },
-    {
      "artist": "Fela Kuti & Africa 70",
      "title": "Confusion",
      "note": "shelf 1975 vs MusicBrainz 1990",
@@ -165,24 +111,6 @@
       "year": "1990"
      },
      "apply": "Use 1990"
-    },
-    {
-     "artist": "Fishmans",
-     "title": "宇宙 日本 世田谷 [Uchū Nippon Setagaya]",
-     "note": "shelf 2020 vs MusicBrainz 1997",
-     "suggest": {
-      "year": "1997"
-     },
-     "apply": "Use 1997"
-    },
-    {
-     "artist": "Flotation Toy Warning",
-     "title": "Bluffer's guide to the flight deck",
-     "note": "shelf 2024 vs MusicBrainz 2004",
-     "suggest": {
-      "year": "2004"
-     },
-     "apply": "Use 2004"
     },
     {
      "artist": "Gal Costa",
@@ -201,15 +129,6 @@
       "year": "2001"
      },
      "apply": "Use 2001"
-    },
-    {
-     "artist": "hemlocke springs",
-     "title": "the apple tree under the sea",
-     "note": "shelf 1996 vs MusicBrainz 2026",
-     "suggest": {
-      "year": "2026"
-     },
-     "apply": "Use 2026"
     },
     {
      "artist": "James Brown",
@@ -293,33 +212,6 @@
      "apply": "Use 2024"
     },
     {
-     "artist": "Miles Davis",
-     "title": "Miles Davis",
-     "note": "shelf 1974 vs MusicBrainz 1959",
-     "suggest": {
-      "year": "1959"
-     },
-     "apply": "Use 1959"
-    },
-    {
-     "artist": "Neil Young",
-     "title": "Hitchhiker",
-     "note": "shelf 1976 vs MusicBrainz 2017",
-     "suggest": {
-      "year": "2017"
-     },
-     "apply": "Use 2017"
-    },
-    {
-     "artist": "Nirvana",
-     "title": "Nirvana",
-     "note": "shelf 2002 vs MusicBrainz 1980",
-     "suggest": {
-      "year": "1980"
-     },
-     "apply": "Use 1980"
-    },
-    {
      "artist": "Nobuo Uematsu 植松伸夫",
      "title": "Final Fantasy VII",
      "note": "shelf 1997 vs MusicBrainz 2020",
@@ -363,15 +255,6 @@
       "year": "2026"
      },
      "apply": "Use 2026"
-    },
-    {
-     "artist": "Tabu Ley Rochereau",
-     "title": "Tabu Ley Rochereau: The Voice of Lightness Vol 1 Album 1",
-     "note": "shelf 2007 vs MusicBrainz 1984",
-     "suggest": {
-      "year": "1984"
-     },
-     "apply": "Use 1984"
     },
     {
      "artist": "The Beatles",
@@ -419,33 +302,6 @@
      "apply": "Use 2023"
     },
     {
-     "artist": "The Shirelles",
-     "title": "The Vert best of the Shirelles",
-     "note": "shelf 1994 vs MusicBrainz 1972",
-     "suggest": {
-      "year": "1972"
-     },
-     "apply": "Use 1972"
-    },
-    {
-     "artist": "The Tough Alliance",
-     "title": "A New Chance",
-     "note": "shelf 1979 vs MusicBrainz 2007",
-     "suggest": {
-      "year": "2007"
-     },
-     "apply": "Use 2007"
-    },
-    {
-     "artist": "Turnstile",
-     "title": "NEVER ENOUGH",
-     "note": "shelf 2003 vs MusicBrainz 2025",
-     "suggest": {
-      "year": "2025"
-     },
-     "apply": "Use 2025"
-    },
-    {
      "artist": "Various Artists",
      "title": "Saturday Night Fever",
      "note": "shelf 1977 vs MusicBrainz 1999",
@@ -462,15 +318,6 @@
       "year": "2022"
      },
      "apply": "Use 2022"
-    },
-    {
-     "artist": "Various Artists",
-     "title": "Singles (Original Motion Picture Soundtrack)",
-     "note": "shelf 2017 vs MusicBrainz 1992",
-     "suggest": {
-      "year": "1992"
-     },
-     "apply": "Use 1992"
     },
     {
      "artist": "Vince Guaraldi Trio",
@@ -497,7 +344,7 @@
    "title": "Possible duplicates",
    "why": "Two rows a couple of characters apart. Deliberate multi-part sets are already excluded, so what is left is usually one album typed twice.",
    "action": "merge",
-   "count": 7,
+   "count": 4,
    "items": [
     {
      "artist": "Joe Satriani",
@@ -510,24 +357,9 @@
      "note": "2 chars from \"Freddie Gibs & The Alchemist — Alfredo\""
     },
     {
-     "artist": "Kenny Beats",
-     "title": "LOUIE",
-     "note": "1 char from \"Kenny Beats — Louise\""
-    },
-    {
      "artist": "Os Mutantes",
      "title": "Mutantes",
      "note": "2 chars from \"Os Mutantes — Os Mutantes\""
-    },
-    {
-     "artist": "Soda Stereo",
-     "title": "Sueño estéreo",
-     "note": "1 char from \"Soda Stereo — Sueño Stereo\""
-    },
-    {
-     "artist": "Steve Wilson",
-     "title": "Insurgentes",
-     "note": "1 char from \"Steven Wilson — Insurgentes\""
     },
     {
      "artist": "Various Artists",
@@ -541,64 +373,8 @@
    "title": "Name corrections held back",
    "why": "The nightly scan found these but would not apply them: a changed sequence number, a gained or lost word, or a dropped collaborator.",
    "action": "rename",
-   "count": 5,
-   "items": [
-    {
-     "artist": "DJ Screw",
-     "title": "DJ Screw — 3 ’n the Mornin’, Part One",
-     "note": "DJ Screw — 3 ’n the Mornin’, Part One   (the title loses \"screw\" — likely a different release)",
-     "suggest": {
-      "artist": "DJ Screw",
-      "title": "3 ’n the Mornin’, Part One"
-     },
-     "subject": "rename:DJ Screw::DJ Screw — 3 ’n the Mornin’, Part One",
-     "apply": "Rename"
-    },
-    {
-     "artist": "Kyle Dixon & Michael Stein",
-     "title": "Stranger Things, Vol 1",
-     "note": "Kyle Dixon & Michael Stein — Stranger Things 2   (sequence number changed (Pt. 2 / Vol. 3 / Part One); looser than the confident band)",
-     "suggest": {
-      "artist": "Kyle Dixon & Michael Stein",
-      "title": "Stranger Things 2"
-     },
-     "subject": "rename:Kyle Dixon & Michael Stein::Stranger Things, Vol 1",
-     "apply": "Rename"
-    },
-    {
-     "artist": "Pink Floyd",
-     "title": "The Piper Gates of Dawn",
-     "note": "Pink Floyd — The Piper at the Gates of Dawn   (looser than the confident band)",
-     "suggest": {
-      "artist": "Pink Floyd",
-      "title": "The Piper at the Gates of Dawn"
-     },
-     "subject": "rename:Pink Floyd::The Piper Gates of Dawn",
-     "apply": "Rename"
-    },
-    {
-     "artist": "Psychedelic Porn Crumpets",
-     "title": "High Visceral pt. 1",
-     "note": "Psychedelic Porn Crumpets — High Visceral {Part One}   (looser than the confident band)",
-     "suggest": {
-      "artist": "Psychedelic Porn Crumpets",
-      "title": "High Visceral {Part One}"
-     },
-     "subject": "rename:Psychedelic Porn Crumpets::High Visceral pt. 1",
-     "apply": "Rename"
-    },
-    {
-     "artist": "Psychedelic Porn Crumpets",
-     "title": "High Visceral pt. 2",
-     "note": "Psychedelic Porn Crumpets — High Visceral {Part One}   (sequence number changed (Pt. 2 / Vol. 3 / Part One); looser than the confident band)",
-     "suggest": {
-      "artist": "Psychedelic Porn Crumpets",
-      "title": "High Visceral {Part One}"
-     },
-     "subject": "rename:Psychedelic Porn Crumpets::High Visceral pt. 2",
-     "apply": "Rename"
-    }
-   ]
+   "count": 0,
+   "items": []
   },
   {
    "id": "no-root",
