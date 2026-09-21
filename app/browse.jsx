@@ -635,11 +635,6 @@ function BrowseView({ albums, owner, onPatch, onAdd, onDelete, onRestore,
     db.deletedAlbums().then(setDeleted).catch(() => setDeleted([]));
   }, [filter, deleted]);
 
-  const stats = React.useMemo(() => ({
-    total: albums.length,
-    scored: albums.filter((a) => a.score != null).length,
-  }), [albums]);
-
   // Genres are computed from the collection itself -- see app/genres.js.
   const index = React.useMemo(() => Genres.buildIndex(albums), [albums]);
   const genreOptions = React.useMemo(
@@ -685,37 +680,10 @@ function BrowseView({ albums, owner, onPatch, onAdd, onDelete, onRestore,
 
   return (
     <div className="browse">
-      {/* The count of albums barely moves and the pool is 98% of it, so both
-          were noise. What is rated is the one figure that changes by using
-          the app, and the number left is what actually reads as progress --
-          a percentage this far from the end moves by 0.02 per album. */}
-      <div className="progress">
-        <div className="progress__head">
-          <span><b>{stats.scored.toLocaleString()}</b> rated</span>
-          <span className="progress__left">
-            {(stats.total - stats.scored).toLocaleString()} to go
-          </span>
-        </div>
-        <div className="progress__row">
-          <div
-            className="progress__track"
-            role="progressbar"
-            aria-valuemin={0}
-            aria-valuemax={stats.total}
-            aria-valuenow={stats.scored}
-            aria-label={`${stats.scored} of ${stats.total} albums rated`}
-          >
-            <div
-              className="progress__fill"
-              style={{ width: `${(stats.scored / stats.total) * 100}%` }}
-            />
-          </div>
-          <span className="progress__pct">
-            {Math.round((stats.scored / stats.total) * 100)}%
-          </span>
-        </div>
-      </div>
-
+      {/* No rating meter here. The shelf is where the records are, and the
+          front page already carries the figures -- opening the collection on
+          a scoreboard for the one job that is NOT the job spent 47% of a
+          phone viewport before the first sleeve. */}
       <div className="toolbar">
         <input
           className="search" value={q} placeholder="Search artist, album or year…"

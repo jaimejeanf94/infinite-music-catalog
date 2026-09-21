@@ -5,10 +5,11 @@ colors:
   ink-ground: "#121110"
   panel: "#1a1917"
   panel-raised: "#232220"
-  hairline: "#34322e"
+  hairline: "#4a4640"
   bone: "#efe9dd"
   bone-dim: "#9a938a"
   sleeve-red: "#d8321f"
+  sleeve-red-text: "#ed6046"
   sleeve-red-lit: "#f4663f"
   on-red: "#ffffff"
   moss: "#7a9e5c"
@@ -175,6 +176,10 @@ ink rather than as a switched-off screen.
   a tile and on the roll, mode and filter selection, the focus ring on every
   interactive element, the count of open items on Fix, and the rule under the
   current screen. Nothing decorative is ever this colour.
+- **Sleeve Red, Text** (`#ed6046`): the same red lifted until it passes AA as
+  small text on all three grounds (5.71 / 5.32 / 4.82). Every red word in the
+  app uses this. `#d8321f` measured 3.95 / 3.68 / 3.33 and was being used at
+  9–13px, so every artist name in the collection failed contrast.
 - **Sleeve Red, Lit** (`#f4663f`): the hover state of anything already red — the
   primary button, a text link. Never a resting colour.
 
@@ -186,7 +191,9 @@ ink rather than as a switched-off screen.
   state of a whole row.
 - **Panel Raised** (`#232220`): two steps up. Input fields, genre chips, the
   progress track, inline code, the well behind artwork that has not loaded.
-- **Hairline** (`#34322e`): every 1px border, divider and rule in the system.
+- **Hairline** (`#4a4640`): every 1px border, divider and rule in the system.
+  Lifted from `#34322e`, which measured 1.47:1 against the ground — invisible
+  in daylight on the phone this is used on.
 - **Bone** (`#efe9dd`): all primary text.
 - **Bone Dim** (`#9a938a`): secondary text — labels, counts, styles, hints,
   inactive nav, placeholder text. The system's second most-used colour after the
@@ -206,6 +213,10 @@ Status colours, used sparingly and never as a fourth accent:
 - **Alarm** (`#ff8a73`): error text and the resting colour of a danger button.
 
 ### Named Rules
+
+**The Small-Text Red Rule.** `--accent` fills a shape and carries white on it.
+It is never text below 24px; `--accent-text` is. They are the same red at two
+lightnesses, and which one you reach for is decided by size, not by taste.
 
 **The One Red Rule.** `#d8321f` is the only red in the system that carries
 meaning. A second red on screen is a bug, not a variant: the armed-delete
@@ -351,9 +362,9 @@ Focus is a 2px Sleeve Red outline at 2px offset, never a glow.
 
 ### Named Rules
 
-**The Square Rule.** 0 or 2px. The 4px, 5px, 6px and 10px radii still in the
-stylesheet — the toast, the recent item, inline code, the Fix row actions, the
-two warning bands — are drift from before the form language settled, not a scale.
+**The Square Rule.** 0 or 2px, plus the 999px pill and one 50% dot. The 4px,
+5px, 6px and 10px radii are gone — the detector now reports zero radii outside
+the scale. Anything that reappears is drift.
 
 **The Pill Means A Word Rule.** A 999px radius marks vocabulary: a genre, a tag,
 a mode badge. If it performs an action rather than naming a thing, it is not a
@@ -465,14 +476,18 @@ always generates the same sleeve.
 - **Don't** add a blurred shadow. There is no shadow vocabulary here, and the
   one hard slab that exists is deprecated rather than a precedent.
 - **Don't** introduce a second red. `#c4392a` and `#d6412f` are already drift.
-- **Don't** reach for a cool grey. `#26262e`, `#3a3a44`, `#2c2c35` and `#1c1c22`
-  are the existing offenders, along with the header's `rgba(13, 13, 15, 0.92)`,
-  which sits visibly cooler than the page it covers.
-- **Don't** round anything to 4px, 6px or 10px. 0, 2px, or a 999px pill.
+- **Don't** reach for a cool grey. Every neutral here has R > B. The five that
+  did not — `#26262e`, `#3a3a44`, `#2c2c35`, `#1c1c22` and the header's
+  `rgba(13, 13, 15, 0.92)` — have been removed, so a new one shows up at once.
+- **Don't** round anything to 4px, 5px, 6px or 10px. 0, 2px, or a 999px pill.
+- **Don't** set red text below 24px in `--accent`. That is what `--accent-text`
+  is for, and the difference is an accessibility failure, not a preference.
+- **Don't** give a callout a coloured left bar. The hue rides the 1px hairline:
+  weight here means region (2px bone) or peer (1px), never severity.
+- **Don't** set a name in the serif. An album title is a name, so it wears the
+  display face — on the shelf as well as on the roll.
 - **Don't** make a style look like a genre. Pills are vocabulary you can act on;
   styles are description.
 - **Don't** set a control in Newsreader or a paragraph in JetBrains Mono.
 - **Don't** centre a hero. The folio's asymmetry is load-bearing.
-- **Don't** put `env(safe-area-inset-top)` anywhere but `padding-top` — the
-  sticky header currently pads its bottom edge with it, which on a notched phone
-  is the one place this system is not doing what it says.
+- **Don't** put `env(safe-area-inset-top)` anywhere but `padding-top`.

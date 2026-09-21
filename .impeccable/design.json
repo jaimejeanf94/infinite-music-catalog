@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-21T02:33:33.435Z",
+  "generatedAt": "2026-09-21T06:40:52.593Z",
   "title": "Design System: Infinite Music Catalog",
   "extensions": {
     "colorMeta": {
@@ -55,17 +55,17 @@
       "hairline": {
         "role": "neutral",
         "displayName": "Hairline",
-        "purpose": "Every 1px border, divider and rule in the system.",
-        "canonical": "oklch(31.778% 0.008 84.592)",
+        "purpose": "Every 1px border, divider and rule. Lifted from #34322e (1.47:1 against the ground, invisible in daylight) to 2.01:1 — still a hairline, now legible outdoors.",
+        "canonical": "oklch(39.611% 0.011 78.193)",
         "tonalRamp": [
-          "oklch(15% 0.008 84.592)",
-          "oklch(26% 0.008 84.592)",
-          "oklch(37% 0.008 84.592)",
-          "oklch(48% 0.008 84.592)",
-          "oklch(59% 0.008 84.592)",
-          "oklch(70% 0.008 84.592)",
-          "oklch(82% 0.008 84.592)",
-          "oklch(95% 0.008 84.592)"
+          "oklch(15% 0.011 78.193)",
+          "oklch(26% 0.011 78.193)",
+          "oklch(37% 0.011 78.193)",
+          "oklch(48% 0.011 78.193)",
+          "oklch(59% 0.011 78.193)",
+          "oklch(70% 0.011 78.193)",
+          "oklch(82% 0.011 78.193)",
+          "oklch(95% 0.011 78.193)"
         ]
       },
       "bone": {
@@ -210,6 +210,22 @@
           "oklch(70% 0.147 32.295)",
           "oklch(82% 0.147 32.295)",
           "oklch(95% 0.147 32.295)"
+        ]
+      },
+      "sleeve-red-text": {
+        "role": "primary",
+        "displayName": "Sleeve Red, Text",
+        "purpose": "The accent lifted until it passes AA as small text on all three grounds (5.71 / 5.32 / 4.82). Every red word uses this; #d8321f measured 3.95 / 3.68 / 3.33 and was being used at 9-13px.",
+        "canonical": "oklch(66.5% 0.18 32.448)",
+        "tonalRamp": [
+          "oklch(15% 0.18 32.448)",
+          "oklch(26% 0.18 32.448)",
+          "oklch(37% 0.18 32.448)",
+          "oklch(48% 0.18 32.448)",
+          "oklch(59% 0.18 32.448)",
+          "oklch(70% 0.18 32.448)",
+          "oklch(82% 0.18 32.448)",
+          "oklch(95% 0.18 32.448)"
         ]
       }
     },
@@ -360,6 +376,14 @@
       "description": "Recessive until it matters: the verdict buttons sit at opacity 0 until the row is hovered or something inside it takes focus, but they are never removed from the tab order.",
       "html": "<ul class=\"ds-hs-list\"><li class=\"ds-hs-row\"><button class=\"ds-hs-item\"><span class=\"ds-hs-artist\">Art Blakey</span><span class=\"ds-hs-title\">Moanin'</span><span class=\"ds-hs-note\">shelf 1958 vs MusicBrainz 2001</span></button><span class=\"ds-hs-acts\"><button class=\"ds-hs-act\">Fine</button><button class=\"ds-hs-act\">Flag</button></span></li></ul>",
       "css": ".ds-hs-list { list-style: none; margin: 0; padding: 0; } .ds-hs-row { display: flex; align-items: center; gap: 8px; } .ds-hs-item { flex: 1 1 auto; display: grid; grid-template-columns: minmax(0, 14rem) minmax(0, 1fr); gap: 4px 18px; text-align: left; padding: 9px 10px; background: none; border: 0; border-left: 2px solid transparent; cursor: pointer; color: inherit; font: inherit; } .ds-hs-item:hover { background: var(--panel, #1a1917); border-left-color: var(--accent, #d8321f); } .ds-hs-artist { font-family: var(--mono, 'JetBrains Mono', ui-monospace, Menlo, monospace); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent, #d8321f); } .ds-hs-title { font-family: var(--body, Newsreader, Georgia, serif); font-size: 15px; color: var(--ink, #efe9dd); } .ds-hs-note { grid-column: 1 / -1; font-family: var(--mono, 'JetBrains Mono', ui-monospace, Menlo, monospace); font-size: 11px; color: var(--ink-dim, #9a938a); } .ds-hs-acts { display: flex; gap: 4px; flex: 0 0 auto; padding-right: 6px; } .ds-hs-act { font-family: var(--mono, 'JetBrains Mono', ui-monospace, Menlo, monospace); font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-dim, #9a938a); background: none; border: 1px solid var(--line, #34322e); border-radius: 4px; padding: 4px 8px; cursor: pointer; opacity: 0; transition: opacity .12s; } .ds-hs-row:hover .ds-hs-act, .ds-hs-row:focus-within .ds-hs-act { opacity: 1; } .ds-hs-act:hover { color: var(--ink, #efe9dd); background: #232220; }"
+    },
+    {
+      "name": "Status",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "One object for everything the interface says in its own voice. Replaced five treatments (a moss pill in bold serif, a toast in three off-palette hexes, two warning bands, and bare serif text) that carried five geometries, four faces and six off-scale radii.",
+      "html": "<p class=\"ds-status ds-status-bad\">That did not save. <b>PGRST204</b></p>",
+      "css": ".ds-status { display: block; margin: 0; padding: 11px 14px; background: var(--panel-2, #232220); border: 1px solid var(--ink-dim, #9a938a); border-radius: var(--radius, 2px); font-family: var(--body, Newsreader, Georgia, serif); font-size: 14px; line-height: 1.45; color: var(--ink, #efe9dd); } .ds-status b { font-family: var(--mono, \"JetBrains Mono\", ui-monospace, monospace); font-size: 0.85em; letter-spacing: 0.06em; font-variant-numeric: tabular-nums; font-weight: 400; } .ds-status-good { border-color: var(--good, #7a9e5c); } .ds-status-warn { border-color: var(--warn, #d08a3a); } .ds-status-bad { border-color: var(--bad, #c0564a); }"
     }
   ],
   "narrative": {
@@ -376,6 +400,11 @@
       "The shelf leans — every tile offset from the album's own id"
     ],
     "rules": [
+      {
+        "name": "The Small-Text Red Rule",
+        "section": "colors",
+        "body": "--accent fills a shape and carries white on it. It is never text below 24px; --accent-text is. They are the same red at two lightnesses, and which one you reach for is decided by size, not by taste."
+      },
       {
         "name": "The One Red Rule",
         "section": "colors",
@@ -424,7 +453,7 @@
       {
         "name": "The Square Rule",
         "section": "shapes",
-        "body": "0 or 2px. The 4px, 5px, 6px and 10px radii still in the stylesheet are drift from before the form language settled, not a scale."
+        "body": "0 or 2px, plus the 999px pill and one 50% dot. The 4px, 5px, 6px and 10px radii are gone — the detector reports zero radii outside the scale. Anything that reappears is drift."
       },
       {
         "name": "The Pill Means A Word Rule",
@@ -444,12 +473,15 @@
     "donts": [
       "Don't add a blurred shadow. There is no shadow vocabulary here, and the one hard slab that exists is deprecated rather than a precedent.",
       "Don't introduce a second red. #c4392a and #d6412f are already drift.",
-      "Don't reach for a cool grey. #26262e, #3a3a44, #2c2c35 and #1c1c22 are the existing offenders, along with the header's rgba(13, 13, 15, 0.92), which sits visibly cooler than the page it covers.",
-      "Don't round anything to 4px, 6px or 10px. 0, 2px, or a 999px pill.",
+      "Don't reach for a cool grey. Every neutral here has R > B. The five that did not (#26262e, #3a3a44, #2c2c35, #1c1c22, rgba(13,13,15,.92)) have been removed, so a new one shows up at once.",
+      "Don't round anything to 4px, 5px, 6px or 10px. 0, 2px, or a 999px pill.",
       "Don't make a style look like a genre. Pills are vocabulary you can act on; styles are description.",
       "Don't set a control in Newsreader or a paragraph in JetBrains Mono.",
       "Don't centre a hero. The folio's asymmetry is load-bearing.",
-      "Don't put env(safe-area-inset-top) anywhere but padding-top — the sticky header currently pads its bottom edge with it, which on a notched phone is the one place this system is not doing what it says."
+      "Don't put env(safe-area-inset-top) anywhere but padding-top.",
+      "Don't set red text below 24px in --accent. That is what --accent-text is for, and the difference is an accessibility failure, not a preference.",
+      "Don't give a callout a coloured left bar. The hue rides the 1px hairline: weight here means region (2px bone) or peer (1px), never severity.",
+      "Don't set a name in the serif. An album title is a name, so it wears the display face — on the shelf as well as on the roll."
     ]
   }
 }
