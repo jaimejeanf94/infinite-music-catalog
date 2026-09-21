@@ -406,12 +406,11 @@ reads as one segmented block rather than seven buttons. Square, `14px 0`,
 minimum 56px wide, mono at 15px. The selected score fills Sleeve Red. Sized for
 a thumb first and a number key second.
 
-Beneath it, a second, quieter block for the scores that take an album out of
-every roll — `<50`, 50, 55, 60, 65 — under a mono caption, *Out of rotation*.
-Smaller type and dim ink, never a smaller target: 44px tall, like everything
-you press. A verdict that removes a record from rotation is a different kind of
-answer from how much you liked it, and it sits apart so it is never one slip
-away from 70.
+Beneath it, set apart under a mono caption, *Out of rotation*, a single
+quieter key: **Not Recommended**, the one grade below 70. Smaller type and dim
+ink, never a smaller target: 44px tall, like everything you press. A verdict
+that removes a record from rotation is a different kind of answer from how much
+you liked it, and it sits apart so it is never one slip away from 70.
 
 ### Chips
 

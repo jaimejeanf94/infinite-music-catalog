@@ -271,7 +271,7 @@ main { max-width: 1100px; margin: 0 auto; padding: 20px 16px 40px; }
   text-transform: uppercase; color: var(--ink-dim);
 }
 .scores--low .score {
-  flex: 1 1 44px; min-width: 44px; min-height: 44px; padding: 0;
+  flex: 1 1 auto; min-height: 44px; padding: 0 16px;
   font-size: 13px; color: var(--ink-dim);
 }
 .scores--low .score--on { color: var(--on-accent); }

@@ -51,27 +51,29 @@ const lift = (id) => slot(id, LIFTS);
 const drift = (id) => slot(id, DRIFTS);
 
 // Score keys, shared by the Roll screen, an album's sheet and Add album. The
-// rotation on top; under it, smaller and quieter, the scores that take an
-// album out of every roll. Twelve keys do not fit one row on a phone, but the
-// split is also the point: the lower row is a different kind of verdict from
-// how much you liked something, and it should not be one slip away from 70.
+// rotation on top; under it, set apart and quieter, the one grade that takes
+// an album out of every roll. It is a different kind of verdict from how much
+// you liked something, and it should never be one slip away from 70.
 function ScoreKeys({ value, onPick, keyHints }) {
-  const cell = (s, i) => (
-    <button key={s} type="button"
-            className={"score" + (value === s ? " score--on" : "")}
-            onClick={() => onPick(s)}
-            aria-label={s === Roller.NOT_RECOMMENDED ? "Not recommended" : undefined}
-            title={s === Roller.NOT_RECOMMENDED ? "Not recommended"
-                   : keyHints && i >= 0 ? `Key ${i + 1}` : undefined}>
-      {Roller.scoreLabel(s)}
-    </button>
-  );
+  const out = value != null && value < Roller.ROTATION_FLOOR;
   return (
     <div className="scorekeys">
-      <div className="scores">{Roller.SCORES.map(cell)}</div>
+      <div className="scores">
+        {Roller.SCORES.map((s, i) => (
+          <button key={s} type="button"
+                  className={"score" + (value === s ? " score--on" : "")}
+                  onClick={() => onPick(s)}
+                  title={keyHints ? `Key ${i + 1}` : undefined}>
+            {s}
+          </button>
+        ))}
+      </div>
       <div className="scores scores--low">
         <span className="scores__label">Out of rotation</span>
-        {Roller.LOW_SCORES.map((s) => cell(s, -1))}
+        <button type="button" className={"score" + (out ? " score--on" : "")}
+                onClick={() => onPick(Roller.NOT_RECOMMENDED)}>
+          Not Recommended
+        </button>
       </div>
     </div>
   );
@@ -376,7 +378,7 @@ function Detail({ album, owner, onPatch, onDelete, onClose, index, onGenre, onAr
           ) : album.score != null ? (
             <div className="card__meta">
               <span className="badge">{Roller.scoreLabel(album.score)}</span>
-              {album.score === Roller.NOT_RECOMMENDED ? " not recommended" : " rated"}
+              {Roller.inRotation(album) ? " rated" : ""}
             </div>
           ) : null}
 

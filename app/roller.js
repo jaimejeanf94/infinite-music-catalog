@@ -17,18 +17,19 @@ const BUCKET_SHARE = { 70: 9.5, 75: 9.5, 80: 13, 85: 13, 90: 15, 95: 15, 100: 25
 // ── what a score means for the roll ─────────────────────────────────────────
 // 70 to 100 are the rotation: the scores the randomiser weights, and what the
 // Roll screen and the front page's five draw from, alongside the unrated.
-// Below 70 an album is rated and kept -- the score records what you thought --
-// but it is out of every roll.
+// Below them is one grade, Not Recommended: the album is rated and kept -- the
+// verdict is recorded -- but it is out of every roll. One grade, not a scale:
+// what matters about a record you would not recommend is that it is out, and
+// how far under 70 it falls was one more thing to decide for no difference.
 //
-// "Not recommended" is stored as 45, one step under 50, and shown as <50.
-// Stored as 0 it would read as "no score" to any `score || ...` in the app,
-// and "NR" would read as "not rated" in an app that is mostly unrated.
+// Stored as 45. Any number under 70 would do, and 45 is one the database
+// already accepts; 0 would read as "no score" to any `score || ...` in the
+// app. Every score under 70 reads as Not Recommended, whatever its number.
 const SCORES = [70, 75, 80, 85, 90, 95, 100];
-const LOW_SCORES = [45, 50, 55, 60, 65];
 const NOT_RECOMMENDED = 45;
 const ROTATION_FLOOR = 70;
 const inRotation = (album) => album.score == null || album.score >= ROTATION_FLOOR;
-const scoreLabel = (score) => (score === NOT_RECOMMENDED ? "<50" : String(score));
+const scoreLabel = (score) => (score != null && score < ROTATION_FLOOR ? "Not Recommended" : String(score));
 
 // ── where the randomness comes from ─────────────────────────────────────────
 // Math.random() is a pseudo-random generator: a fixed algorithm walking from a
@@ -108,7 +109,7 @@ function roll(albums, opts = {}) {
 
 const Roller = {
   roll, pickWeighted, secureRandom, BUCKET_SHARE,
-  SCORES, LOW_SCORES, NOT_RECOMMENDED, ROTATION_FLOOR, inRotation, scoreLabel,
+  SCORES, NOT_RECOMMENDED, ROTATION_FLOOR, inRotation, scoreLabel,
 };
 if (typeof module !== "undefined" && module.exports) module.exports = Roller;
 else window.Roller = Roller;

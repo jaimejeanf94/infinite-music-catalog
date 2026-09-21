@@ -23,8 +23,10 @@ create table if not exists public.albums (
   year       int,
   -- NULL = never scored. Kept distinct from 100 on purpose: the sheet lumped
   -- them together, which diluted the real 100s down to unscored odds. 70 and
-  -- up is the rotation; below 70 is rated but out of every roll, and 45 is
-  -- "Not recommended" (anything under 50). db/migrations/2026-09-21-low-scores.sql
+  -- up is the rotation. Below it the app writes one grade, Not Recommended,
+  -- stored as 45: rated, and out of every roll. 50-65 are still accepted from
+  -- a scale that was briefly offered; any score under 70 reads as Not
+  -- Recommended. db/migrations/2026-09-21-low-scores.sql
   score      int     constraint albums_score_check
                      check (score in (45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100)),
   notes      text,

@@ -86,7 +86,7 @@ function RollView({ albums, owner, onPatch, onRoll, params, setParams }) {
     if (value == null && album.score == null) return;
     onPatch(album.id, { score: album.score === value ? null : value });
     setFlash(album.score === value ? "Score cleared"
-      : `Scored ${Roller.scoreLabel(value)}${Roller.inRotation({ score: value }) ? "" : " — out of rotation"}`);
+      : Roller.inRotation({ score: value }) ? `Scored ${value}` : "Not Recommended — out of rotation");
   };
 
   // ── keyboard ──────────────────────────────────────────────────────────────
