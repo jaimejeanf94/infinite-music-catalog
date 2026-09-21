@@ -47,8 +47,12 @@ code { background: var(--panel-2); padding: 1px 5px; border-radius: 5px; font-si
   position: sticky; top: 0; z-index: 20;
   border-bottom: 2px solid var(--ink);
   display: flex; align-items: center; gap: 16px;
-  padding: 12px 16px calc(12px + env(safe-area-inset-top));
-  padding-top: 12px;
+  /* The inset belongs on the TOP edge. The bar is sticky at top:0 and the
+     page is viewport-fit=cover, so on a notched phone the status bar sits over
+     it. This was the third value of the shorthand -- the BOTTOM -- with a flat
+     padding-top after it, so the notch padded the wrong edge and the nav ran
+     under the clock. */
+  padding: calc(12px + env(safe-area-inset-top, 0px)) 16px 12px;
   background: rgba(13, 13, 15, 0.92);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--line);
@@ -64,6 +68,17 @@ code { background: var(--panel-2); padding: 1px 5px; border-radius: 5px; font-si
   color: var(--ink);
   text-decoration: none;
 }
+/* The running head does not fit a phone. Nav, name and Sign in came to
+   ~500px of content in a 398px bar: the name wrapped to three lines, the
+   header grew to 120px of a 812px screen, and Sign in was clipped to "SIG IN"
+   -- on every screen, not just this one. The name goes below 560px. The
+   argument for repeating it everywhere was that chrome should not rearrange
+   itself BETWEEN PAGES; it says nothing about widths, and it is consistent at
+   every width here. The tab title and the page still carry the name. */
+@media (max-width: 560px) {
+  .brand { display: none; }
+}
+
 .nav { display: flex; gap: 4px; }
 .nav__a {
   padding: 6px 2px; margin-right: 22px; text-decoration: none;
@@ -575,135 +590,158 @@ button, a, input, select, textarea, .tile { touch-action: manipulation; }
 }
 
 /* ═══ HOME ══════════════════════════════════════════════════════════════════
-   A broadsheet front page. The masthead is deliberately lopsided -- a heavy
-   slab of display type on the left, the dateline and the numbers set small
-   against it -- because a symmetrical hero is the one layout every generated
-   page already has. The lead record is printed large, the other four run
-   beneath it like columns. */
+   A door, not a menu. One record printed large enough to be worth crossing
+   the room for; the other four as a stub index carrying no artwork at all.
+   Five equal cards was the old arrangement, and a menu of five is how you end
+   up playing nothing.
 
-.home { max-width: 1180px; margin: 0 auto; padding: 0 0 72px; }
+   The masthead yields. It used to be a three-line slab of display type owning
+   the first screen -- right when the page was a broadsheet front, wrong now
+   that the record is the thing being printed. It keeps its lopsided grid and
+   its 2px rule and gives the height to the sleeve.
 
-.masthead {
-  display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
-  gap: 32px 56px; align-items: end;
-  padding: 44px 0 30px; margin-bottom: 38px;
+   No max-width here: main already caps the column at 1100px, so the 1180 this
+   block used to declare never applied to anything. */
+
+.home { padding: 0 0 72px; }
+
+.folio {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px 40px; align-items: end;
+  padding: 30px 0 16px; margin-bottom: 34px;
   border-bottom: 2px solid var(--ink);
 }
-.masthead__title {
+.folio__title {
   margin: 0; font-family: var(--display);
-  font-size: clamp(38px, 6.2vw, 86px); line-height: 0.82;
+  font-size: clamp(30px, 4.6vw, 56px); line-height: 0.86;
   letter-spacing: -0.015em; text-transform: uppercase; color: var(--ink);
 }
-.masthead__side { padding-bottom: 10px; }
-.masthead__date {
-  margin: 0 0 14px; font-family: var(--mono); font-size: 12px;
+.folio__side {
+  display: flex; flex-direction: column; align-items: flex-end;
+  gap: 5px; text-align: right;
+}
+.folio__date {
+  margin: 0; font-family: var(--mono); font-size: 12px;
   letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent);
 }
-.masthead__blurb {
-  margin: 0 0 16px; font-family: var(--body); font-size: 17px;
-  line-height: 1.55; color: var(--ink-dim); max-width: 42ch; text-wrap: pretty;
-}
-.masthead__count {
-  margin: 0; font-family: var(--mono); font-size: 12px;
+.folio__count {
+  margin: 0; font-family: var(--mono); font-size: 12px; line-height: 1.6;
   letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-dim);
   font-variant-numeric: tabular-nums;
 }
-.masthead__count b { color: var(--ink); font-weight: 700; }
-.masthead__count { line-height: 1.9; }
-
-.sectionhead {
-  display: flex; align-items: center; gap: 18px; margin: 0 0 26px;
-}
-.sectionhead h2 {
-  margin: 0; font-family: var(--mono); font-size: 12px; font-weight: 500;
-  letter-spacing: 0.24em; text-transform: uppercase; color: var(--ink);
-  white-space: nowrap;
-}
-.sectionhead__rule { flex: 1; height: 1px; background: var(--line); }
+.folio__count b { color: var(--ink); font-weight: 700; }
 
 .home__stale, .home__empty {
-  margin: 0 0 30px; font-family: var(--mono); font-size: 12px;
+  margin: 0 0 26px; font-family: var(--mono); font-size: 12px;
   letter-spacing: 0.06em; color: var(--ink-dim);
 }
 .home__empty code { color: var(--ink); background: var(--panel-2); padding: 2px 6px; }
 
-/* ── the five ─────────────────────────────────────────────────────────── */
-.dailies {
-  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 30px 26px;
+/* ── the lead and the margin ──────────────────────────────────────────────
+   7:5 rather than anything nearer even. The margin has to read as the margin,
+   and two columns of similar weight would put the five back on equal footing
+   with an extra step. */
+.spread {
+  display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+  gap: 0 56px; align-items: start;
 }
-.daily { animation: riseIn 520ms cubic-bezier(.2,.7,.3,1) both; }
-.daily--lead { grid-column: 1 / -1; }
 
-.daily__hit {
-  display: grid; gap: 14px; width: 100%; text-align: left;
-  background: none; border: 0; padding: 0; cursor: pointer; color: inherit;
-  font: inherit;
+.lead__hit {
+  display: block; width: 100%; text-align: left;
+  background: none; border: 0; padding: 0; cursor: pointer;
+  color: inherit; font: inherit;
 }
-.daily--lead .daily__hit {
-  grid-template-columns: minmax(0, 420px) minmax(0, 1fr);
-  gap: 44px; align-items: center;
+.lead__hit:focus-visible { outline: 2px solid var(--accent); outline-offset: 6px; }
+/* Square, but never so tall that the record name falls off the bottom of
+   the screen. At a full 7/12 column the sleeve ran 590px on a laptop and the
+   title started at y=848 in an 864px viewport -- a giant untitled cover. The
+   cap costs about 140px of sleeve and buys the album its name. The text block
+   below is NOT capped: a headline running wider than the plate above it is
+   the point. */
+.lead__art {
+  display: block; width: min(100%, 52vh); aspect-ratio: 1;
+  background: var(--panel-2); overflow: hidden;
 }
-.daily__hit:focus-visible { outline: 2px solid var(--accent); outline-offset: 6px; }
+.lead__hit:hover .lead__art { outline: 2px solid var(--accent); outline-offset: 0; }
+/* The sleeve fades when the image lands, not when the page does: a state
+   change, not an entrance. */
+.lead__art img {
+  display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover;
+  opacity: 0; transition: opacity 180ms ease;
+}
+.lead__art img.is-on { opacity: 1; }
 
-.daily__no {
-  font-family: var(--mono); font-size: 11px; letter-spacing: 0.22em;
-  color: var(--ink-dim); order: -1;
+.lead__artist {
+  display: block; margin: 20px 0 8px; font-family: var(--mono);
+  font-size: 13px; letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--accent); overflow-wrap: anywhere;
 }
-.daily--lead .daily__no { display: none; }
-
-.daily__art { display: block; overflow: hidden; background: var(--panel-2); }
-.daily__art img {
-  display: block; width: 100%; height: auto; aspect-ratio: 1;
-  object-fit: cover;
-  transition: transform 520ms cubic-bezier(.2,.7,.3,1),
-              filter 520ms cubic-bezier(.2,.7,.3,1);
-  filter: saturate(0.92);
-}
-.daily__hit:hover .daily__art img,
-.daily__hit:focus-visible .daily__art img { transform: scale(1.04); filter: saturate(1.1); }
-
-.daily__text { display: block; min-width: 0; }
-.daily__artist {
-  display: block; font-family: var(--mono); font-size: 11px;
-  letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent);
-  margin-bottom: 6px; overflow-wrap: anywhere;
-}
-.daily__title {
+.lead__title {
   display: block; font-family: var(--display); text-transform: uppercase;
-  font-size: 20px; line-height: 1.02; letter-spacing: -0.005em; color: var(--ink);
+  font-size: clamp(34px, 4.4vw, 64px); line-height: 0.96;
+  letter-spacing: -0.005em; color: var(--ink);
   overflow-wrap: anywhere; text-wrap: balance;
 }
-.daily--lead .daily__artist { font-size: 13px; margin-bottom: 14px; }
-.daily--lead .daily__title { font-size: clamp(38px, 5.4vw, 82px); }
-
-.daily__meta {
-  display: flex; align-items: center; gap: 10px; margin-top: 8px;
-  font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em;
-  color: var(--ink-dim); font-variant-numeric: tabular-nums;
+.lead__meta {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 12px;
+  margin-top: 14px; font-family: var(--mono); font-size: 12px;
+  letter-spacing: 0.1em; color: var(--ink-dim);
+  font-variant-numeric: tabular-nums;
 }
-.daily__score {
+.lead__score {
   background: var(--accent); color: #fff; font-weight: 700;
   padding: 1px 7px; letter-spacing: 0.06em;
 }
-.daily__genres {
-  display: block; margin-top: 8px; font-family: var(--body);
-  font-size: 14px; color: var(--ink-dim); overflow-wrap: anywhere;
+.lead__genres {
+  font-family: var(--body); font-size: 15px; letter-spacing: 0;
+  color: var(--ink-dim); text-transform: none;
 }
-.daily--lead .daily__genres { font-size: 17px; margin-top: 14px; }
 
-@keyframes riseIn {
-  from { opacity: 0; transform: translateY(18px); }
-  to   { opacity: 1; transform: none; }
+.margin__label {
+  margin: 0 0 12px; font-family: var(--mono); font-size: 10px;
+  letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink-dim);
+}
+.margin__list { list-style: none; margin: 0; padding: 0; }
+.stub { border-bottom: 1px solid var(--line); }
+.stub:first-child { border-top: 1px solid var(--line); }
+.stub__hit {
+  display: grid; grid-template-columns: 5ch minmax(0, 1fr) auto;
+  gap: 0 14px; align-items: baseline; width: 100%; text-align: left;
+  padding: 13px 6px; background: none; border: 0;
+  border-left: 2px solid transparent;
+  cursor: pointer; color: inherit; font: inherit;
+  transition: background 160ms ease;
+}
+.stub__hit:hover { background: var(--panel); border-left-color: var(--accent); }
+.stub__hit:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.stub__year {
+  font-family: var(--mono); font-size: 11px; color: var(--ink-dim);
+  font-variant-numeric: tabular-nums;
+}
+.stub__name { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+.stub__artist {
+  font-family: var(--mono); font-size: 10px; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--accent); overflow-wrap: anywhere;
+}
+.stub__title {
+  font-family: var(--body); font-size: 15px; line-height: 1.3;
+  color: var(--ink); overflow-wrap: anywhere;
+}
+.stub__score {
+  font-family: var(--mono); font-size: 11px;
+  background: var(--accent); color: #fff; padding: 2px 7px;
 }
 
 /* ── the two doors ────────────────────────────────────────────────────── */
+/* No 01 / 02 any more. The shelf and the roll are not a sequence, and a
+   number that counts nothing is decoration wearing a label's clothes. The
+   figure underneath is the real information. */
 .doors {
   display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0; margin-top: 64px; border-top: 2px solid var(--ink);
+  gap: 0; margin-top: 56px; border-top: 2px solid var(--ink);
 }
 .door {
-  display: block; text-align: left; padding: 30px 30px 34px;
+  display: block; text-align: left; padding: 26px 26px 30px;
   background: none; border: 0; border-right: 1px solid var(--line);
   cursor: pointer; color: inherit; font: inherit;
   transition: background 220ms ease;
@@ -711,17 +749,14 @@ button, a, input, select, textarea, .tile { touch-action: manipulation; }
 .door:last-child { border-right: 0; }
 .door:hover { background: var(--panel); }
 .door:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
-.door__k {
-  display: block; font-family: var(--mono); font-size: 11px;
-  letter-spacing: 0.22em; color: var(--accent); margin-bottom: 12px;
-}
 .door__t {
   display: block; font-family: var(--display); text-transform: uppercase;
-  font-size: clamp(30px, 4vw, 46px); line-height: 1; color: var(--ink);
+  font-size: clamp(28px, 3.4vw, 44px); line-height: 1; color: var(--ink);
 }
 .door__d {
-  display: block; margin-top: 12px; font-family: var(--body);
-  font-size: 15px; line-height: 1.5; color: var(--ink-dim); max-width: 34ch;
+  display: block; margin-top: 10px; font-family: var(--mono);
+  font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--ink-dim); font-variant-numeric: tabular-nums;
 }
 
 /* Roll is the odd one out -- not a place you browse but a thing you do -- so
@@ -735,21 +770,26 @@ button, a, input, select, textarea, .tile { touch-action: manipulation; }
 }
 
 @media (max-width: 900px) {
-  .masthead { grid-template-columns: 1fr; align-items: start; gap: 22px; }
-  .dailies { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .daily--lead .daily__hit { grid-template-columns: 1fr; gap: 20px; }
+  .folio {
+    grid-template-columns: 1fr; align-items: start; gap: 14px;
+    padding-top: 24px; margin-bottom: 28px;
+  }
+  .folio__side { align-items: flex-start; text-align: left; }
+  .spread { grid-template-columns: 1fr; gap: 36px; }
   .doors { grid-template-columns: 1fr; }
   .door { border-right: 0; border-bottom: 1px solid var(--line); }
+  .door:last-child { border-bottom: 0; }
 }
 @media (max-width: 560px) {
-  .dailies { grid-template-columns: 1fr; }
+  .lead__artist { font-size: 11px; margin: 16px 0 6px; }
+  .lead__genres { font-size: 14px; }
+  .doors { margin-top: 42px; }
+  .door { padding: 20px 16px 24px; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .daily { animation: none; }
-  .daily__art img, .door { transition: none; }
-  .daily__hit:hover .daily__art img { transform: none; }
+  .lead__art img { opacity: 1; transition: none; }
+  .stub__hit, .door { transition: none; }
 }
-
 /* ── maintenance ────────────────────────────────────────────────────────── */
 .admin { max-width: 1040px; margin: 0 auto; padding: 36px 0 80px; }
 .admin__head { display: flex; align-items: baseline; gap: 18px; flex-wrap: wrap; }

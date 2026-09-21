@@ -1,67 +1,78 @@
 {
- "date": "2026-09-20",
+ "date": "2026-09-21",
  "picks": [
   {
-   "artist": "death's dynamic shroud",
-   "title": "You Like Music",
-   "year": 2024,
+   "artist": "PUP",
+   "title": "Morbid Stuff",
+   "year": 2019,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8d4251c0-83c0-4c4d-8de6-d2f7d666de2b.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/638e7589-40ba-4e1c-ac28-cbbf4d3f5fcf.jpg",
    "genres": [
-    "idm",
-    "deconstructed club",
-    "jersey club"
+    "punk",
+    "punk rock",
+    "indie rock"
    ]
   },
   {
-   "artist": "Paul White ft. Danny Brown",
-   "title": "Accelerator",
-   "year": 2017,
+   "artist": "Sleater-Kinney",
+   "title": "One Beat",
+   "year": 2002,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/381f4540-f0df-4a04-bb28-b4ad3f9be53d.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/55f3d073-ec82-3cb2-a1d8-0f47aa639ad2.jpg",
    "genres": [
-    "electronic",
-    "hip hop",
-    "electronica"
+    "indie rock",
+    "rock",
+    "garage rock"
    ]
   },
   {
-   "artist": "Little Brother",
-   "title": "The Minstrel Show",
-   "year": 2005,
+   "artist": "Esoteric",
+   "title": "The Maniacal Vale",
+   "year": 2008,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/44c8f2cb-6082-3021-8da8-f12ace7c3c98.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1c7442a5-430a-32b8-984c-50a588d906cd.jpg",
    "genres": [
-    "hip hop",
-    "alternative pop"
+    "funeral doom metal",
+    "rock",
+    "death metal"
    ]
   },
   {
-   "artist": "Bon Iver",
-   "title": "SABLE, fABLE",
-   "year": 2025,
-   "score": 85,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4843294e-a8ab-4a39-864b-36faa09a2dd8.jpg",
+   "artist": "The Beatles",
+   "title": "A Hard Day's Night",
+   "year": 1964,
+   "score": 80,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/06281c4d-112d-33b0-a25b-df63b420eae7.jpg",
    "genres": [
-    "art pop",
-    "indie folk",
-    "pop soul"
+    "rock",
+    "pop",
+    "pop rock"
    ]
   },
   {
-   "artist": "Morbid Angel",
-   "title": "Altars of Madness",
-   "year": 1989,
+   "artist": "Kaiser Chiefs",
+   "title": "off with Their Heads",
+   "year": 2008,
    "score": 75,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e5be441e-53ec-376a-b261-426e8f06e144.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/35ac4b90-7caa-3b6e-bcff-004a949ef598.jpg",
    "genres": [
-    "death metal",
-    "metal",
+    "indie rock",
+    "pop rock",
     "rock"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-09-21",
+   "keys": [
+    "PUP::Morbid Stuff",
+    "Sleater-Kinney::One Beat",
+    "Esoteric::The Maniacal Vale",
+    "The Beatles::A Hard Day's Night",
+    "Kaiser Chiefs::off with Their Heads"
+   ]
+  },
   {
    "date": "2026-09-20",
    "keys": [

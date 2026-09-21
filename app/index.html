@@ -207,10 +207,16 @@ function App() {
             viewing as visitor ×
           </a>
         )}
-        {/* The running head is on every screen, including home where the
-            masthead repeats it. A chrome that rearranges itself between pages
-            is a worse problem than saying the name twice: the sign-out button
-            moves, and the bar stops reading as one fixed thing. */}
+        {/* The running head is on every screen, including home where the folio
+            repeats it. A chrome that rearranges itself between pages is a worse
+            problem than saying the name twice: the sign-out button moves, and
+            the bar stops reading as one fixed thing.
+
+            Below 560px the name is hidden (styles.css). That is a rule about
+            WIDTH, applied identically on every screen, not a rule about which
+            page you are on -- and it is the only way the bar fits a phone:
+            nav, name and Sign in came to ~500px of content in a 398px bar, so
+            the name wrapped to three lines and Sign in was cut off. */}
         <a className="brand" href="#/">Infinite Music Catalog</a>
         {db.mode === "local" ? null : user
           ? <button className="btn btn--quiet btn--sm" onClick={() => db.signOut()}>Sign out</button>

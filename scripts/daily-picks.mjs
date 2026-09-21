@@ -13,9 +13,19 @@
 //
 // What it aims for, in order:
 //   - nothing picked in the last 30 days
-//   - five different primary genres, so the row is not five shoegaze records
-//   - a mix of rated and unrated: this collection exists to get through the
-//     unrated ones, but a day with nothing familiar in it is joyless
+//   - three unrated and two rated, each drawn at random from its own pool:
+//     this collection exists to get through the unrated ones, but a day with
+//     nothing familiar in it is joyless
+//
+// It used to also force five different primary genres. That rule is gone. It
+// keyed on genres[0], which is the order MusicBrainz returned its tags in
+// rather than a real primary, so it caught exact first-tag collisions and
+// missed most of what it was aimed at -- two rock records tagged "rock" and
+// "indie rock" both passed. And the spread it produced was a lie about the
+// shelf: rock is 18.8% of this collection, so five that never repeat a genre
+// claim a variety the collection does not have. Measured over 200,000 draws,
+// pure random puts two albums of one genre in the five about 41% of days,
+// which is simply what the shelf looks like.
 
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 
@@ -99,29 +109,22 @@ const shuffled = albums
   .filter((a) => !recent.has(key(a)));
 
 const picks = [];
-const usedGenres = new Set();
 const take = (want) => {
   for (const a of shuffled) {
     if (picks.length >= COUNT) return;
     if (picks.includes(a)) continue;
     if (want === "unrated" && a.score != null) continue;
     if (want === "rated" && a.score == null) continue;
-    const primary = a.genres[0]?.toLowerCase();
-    if (primary && usedGenres.has(primary)) continue;   // one per genre
     picks.push(a);
-    if (primary) usedGenres.add(primary);
   }
 };
 
 take("unrated");
 while (picks.length > UNRATED_TARGET) picks.pop();
 take("rated");
-// If the genre rule left us short -- a small collection, or a day where the
-// shuffle front-loaded one genre -- fill the rest without it.
-if (picks.length < COUNT) {
-  usedGenres.clear();
-  take(null);
-}
+// Short only if the collection itself is -- fewer than three unrated left, or
+// fewer than two rated. Fill the remainder from whatever is still on the table.
+if (picks.length < COUNT) take(null);
 
 const out = {
   date: DATE,
