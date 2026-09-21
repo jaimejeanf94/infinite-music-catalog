@@ -1,0 +1,455 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-21T02:33:33.435Z",
+  "title": "Design System: Infinite Music Catalog",
+  "extensions": {
+    "colorMeta": {
+      "ink-ground": {
+        "role": "neutral",
+        "displayName": "Ink Ground",
+        "purpose": "The page itself. Warm near-black, never pure black, carrying a 1px paper tooth at 1.2% white.",
+        "canonical": "oklch(17.841% 0.003 67.659)",
+        "tonalRamp": [
+          "oklch(15% 0.003 67.659)",
+          "oklch(26% 0.003 67.659)",
+          "oklch(37% 0.003 67.659)",
+          "oklch(48% 0.003 67.659)",
+          "oklch(59% 0.003 67.659)",
+          "oklch(70% 0.003 67.659)",
+          "oklch(82% 0.003 67.659)",
+          "oklch(95% 0.003 67.659)"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Panel",
+        "purpose": "One tonal step up: modal bodies, dropdown lists, whole-row hover.",
+        "canonical": "oklch(21.377% 0.004 84.589)",
+        "tonalRamp": [
+          "oklch(15% 0.004 84.589)",
+          "oklch(26% 0.004 84.589)",
+          "oklch(37% 0.004 84.589)",
+          "oklch(48% 0.004 84.589)",
+          "oklch(59% 0.004 84.589)",
+          "oklch(70% 0.004 84.589)",
+          "oklch(82% 0.004 84.589)",
+          "oklch(95% 0.004 84.589)"
+        ]
+      },
+      "panel-raised": {
+        "role": "neutral",
+        "displayName": "Panel Raised",
+        "purpose": "Two steps up: input fields, genre chips, progress track, inline code, empty artwork wells.",
+        "canonical": "oklch(25.229% 0.004 84.585)",
+        "tonalRamp": [
+          "oklch(15% 0.004 84.585)",
+          "oklch(26% 0.004 84.585)",
+          "oklch(37% 0.004 84.585)",
+          "oklch(48% 0.004 84.585)",
+          "oklch(59% 0.004 84.585)",
+          "oklch(70% 0.004 84.585)",
+          "oklch(82% 0.004 84.585)",
+          "oklch(95% 0.004 84.585)"
+        ]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "purpose": "Every 1px border, divider and rule in the system.",
+        "canonical": "oklch(31.778% 0.008 84.592)",
+        "tonalRamp": [
+          "oklch(15% 0.008 84.592)",
+          "oklch(26% 0.008 84.592)",
+          "oklch(37% 0.008 84.592)",
+          "oklch(48% 0.008 84.592)",
+          "oklch(59% 0.008 84.592)",
+          "oklch(70% 0.008 84.592)",
+          "oklch(82% 0.008 84.592)",
+          "oklch(95% 0.008 84.592)"
+        ]
+      },
+      "bone": {
+        "role": "neutral",
+        "displayName": "Bone",
+        "purpose": "All primary text. Bone rather than white to take the glare off a night read.",
+        "canonical": "oklch(93.544% 0.017 84.588)",
+        "tonalRamp": [
+          "oklch(15% 0.017 84.588)",
+          "oklch(26% 0.017 84.588)",
+          "oklch(37% 0.017 84.588)",
+          "oklch(48% 0.017 84.588)",
+          "oklch(59% 0.017 84.588)",
+          "oklch(70% 0.017 84.588)",
+          "oklch(82% 0.017 84.588)",
+          "oklch(95% 0.017 84.588)"
+        ]
+      },
+      "bone-dim": {
+        "role": "neutral",
+        "displayName": "Bone Dim",
+        "purpose": "Secondary text: labels, counts, styles, hints, inactive nav, placeholders.",
+        "canonical": "oklch(66.662% 0.015 74.36)",
+        "tonalRamp": [
+          "oklch(15% 0.015 74.36)",
+          "oklch(26% 0.015 74.36)",
+          "oklch(37% 0.015 74.36)",
+          "oklch(48% 0.015 74.36)",
+          "oklch(59% 0.015 74.36)",
+          "oklch(70% 0.015 74.36)",
+          "oklch(82% 0.015 74.36)",
+          "oklch(95% 0.015 74.36)"
+        ]
+      },
+      "sleeve-red": {
+        "role": "primary",
+        "displayName": "Sleeve Red",
+        "purpose": "The only accent. Active state, artist names, scores, focus rings, open-item counts.",
+        "canonical": "oklch(57.779% 0.205 30.538)",
+        "tonalRamp": [
+          "oklch(15% 0.205 30.538)",
+          "oklch(26% 0.205 30.538)",
+          "oklch(37% 0.205 30.538)",
+          "oklch(48% 0.205 30.538)",
+          "oklch(59% 0.205 30.538)",
+          "oklch(70% 0.205 30.538)",
+          "oklch(82% 0.205 30.538)",
+          "oklch(95% 0.205 30.538)"
+        ]
+      },
+      "sleeve-red-lit": {
+        "role": "primary",
+        "displayName": "Sleeve Red Lit",
+        "purpose": "Hover state of anything already red. Never a resting colour.",
+        "canonical": "oklch(68.251% 0.183 36.149)",
+        "tonalRamp": [
+          "oklch(15% 0.183 36.149)",
+          "oklch(26% 0.183 36.149)",
+          "oklch(37% 0.183 36.149)",
+          "oklch(48% 0.183 36.149)",
+          "oklch(59% 0.183 36.149)",
+          "oklch(70% 0.183 36.149)",
+          "oklch(82% 0.183 36.149)",
+          "oklch(95% 0.183 36.149)"
+        ]
+      },
+      "on-red": {
+        "role": "neutral",
+        "displayName": "On Red",
+        "purpose": "Text on Sleeve Red, and the only pure white in the system.",
+        "canonical": "oklch(100% 0 89.876)",
+        "tonalRamp": [
+          "oklch(15% 0 89.876)",
+          "oklch(26% 0 89.876)",
+          "oklch(37% 0 89.876)",
+          "oklch(48% 0 89.876)",
+          "oklch(59% 0 89.876)",
+          "oklch(70% 0 89.876)",
+          "oklch(82% 0 89.876)",
+          "oklch(95% 0 89.876)"
+        ]
+      },
+      "moss": {
+        "role": "tertiary",
+        "displayName": "Moss",
+        "purpose": "A Fix section with nothing left open; the roll's confirmation flash.",
+        "canonical": "oklch(65.613% 0.101 131.959)",
+        "tonalRamp": [
+          "oklch(15% 0.101 131.959)",
+          "oklch(26% 0.101 131.959)",
+          "oklch(37% 0.101 131.959)",
+          "oklch(48% 0.101 131.959)",
+          "oklch(59% 0.101 131.959)",
+          "oklch(70% 0.101 131.959)",
+          "oklch(82% 0.101 131.959)",
+          "oklch(95% 0.101 131.959)"
+        ]
+      },
+      "amber": {
+        "role": "tertiary",
+        "displayName": "Amber",
+        "purpose": "A flagged maintenance row kept deliberately in view; the warning band.",
+        "canonical": "oklch(69.049% 0.127 66.162)",
+        "tonalRamp": [
+          "oklch(15% 0.127 66.162)",
+          "oklch(26% 0.127 66.162)",
+          "oklch(37% 0.127 66.162)",
+          "oklch(48% 0.127 66.162)",
+          "oklch(59% 0.127 66.162)",
+          "oklch(70% 0.127 66.162)",
+          "oklch(82% 0.127 66.162)",
+          "oklch(95% 0.127 66.162)"
+        ]
+      },
+      "rust": {
+        "role": "tertiary",
+        "displayName": "Rust",
+        "purpose": "Destructive intent. A genre chip armed for deletion.",
+        "canonical": "oklch(58.423% 0.139 28.563)",
+        "tonalRamp": [
+          "oklch(15% 0.139 28.563)",
+          "oklch(26% 0.139 28.563)",
+          "oklch(37% 0.139 28.563)",
+          "oklch(48% 0.139 28.563)",
+          "oklch(59% 0.139 28.563)",
+          "oklch(70% 0.139 28.563)",
+          "oklch(82% 0.139 28.563)",
+          "oklch(95% 0.139 28.563)"
+        ]
+      },
+      "alarm": {
+        "role": "tertiary",
+        "displayName": "Alarm",
+        "purpose": "Error text, and the resting colour of a danger button.",
+        "canonical": "oklch(75.692% 0.147 32.295)",
+        "tonalRamp": [
+          "oklch(15% 0.147 32.295)",
+          "oklch(26% 0.147 32.295)",
+          "oklch(37% 0.147 32.295)",
+          "oklch(48% 0.147 32.295)",
+          "oklch(59% 0.147 32.295)",
+          "oklch(70% 0.147 32.295)",
+          "oklch(82% 0.147 32.295)",
+          "oklch(95% 0.147 32.295)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The front page's folio title, and nothing else. Negative tracking and a sub-1 line-height make it a slab rather than a heading."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "The album title on the roll, where it is the only thing on the page. Re-scaled to clamp(22px, 2.4vw, 36px) inside the detail sheet."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Running head, statistics, the open-item count on Fix. Display type at a size where it reads as a number."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Notes, explanations, list titles. Measures capped between 34ch and 46ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Every control, count and piece of metadata. Tracking scales with smallness: 0.18em at 10px, 0.12em at 12px."
+      }
+    },
+    "shadows": [
+      {
+        "name": "sleeve-slab",
+        "value": "14px 14px 0 #d8321f",
+        "purpose": "DEPRECATED. The only box-shadow in the system — a hard red slab behind the roll's 340px sleeve. Do not extend it; depth is tonal layering and rules."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-deal",
+        "value": "cubic-bezier(.2,.7,.3,1)",
+        "purpose": "The system's only easing curve. Used by the roll's deal-in (500ms) and the home page's riseIn (520ms)."
+      },
+      {
+        "name": "state-fast",
+        "value": "120ms",
+        "purpose": "Hover, focus and fill transitions on controls."
+      },
+      {
+        "name": "surface-slow",
+        "value": "220ms",
+        "purpose": "Whole-surface background changes, such as a door on the home page."
+      },
+      {
+        "name": "measure",
+        "value": "400ms ease",
+        "purpose": "The rating progress bar's width. The only animation that represents a quantity."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "0.01ms",
+        "purpose": "Under prefers-reduced-motion every animation and transition collapses; the cover zoom and the deal are switched off entirely."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "folio",
+        "value": "900px"
+      },
+      {
+        "name": "maintenance",
+        "value": "820px"
+      },
+      {
+        "name": "phone",
+        "value": "720px"
+      },
+      {
+        "name": "narrow",
+        "value": "560px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one filled control. Sleeve Red, square-ish, mono micro-caps.",
+      "html": "<button class=\"ds-btn ds-btn-primary\">Save</button>",
+      "css": ".ds-btn { border: 1px solid var(--line, #34322e); background: transparent; color: var(--ink, #efe9dd); padding: 11px 18px; border-radius: var(--radius, 2px); cursor: pointer; font-family: var(--mono, 'JetBrains Mono', ui-monospace, Menlo, monospace); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; transition: background 0.12s, border-color 0.12s, transform 0.06s; } .ds-btn-primary { background: var(--accent, #d8321f); border-color: var(--accent, #d8321f); color: #fff; } .ds-btn-primary:hover { background: #f4663f; } .ds-btn:active { transform: translateY(1px); } .ds-btn:focus-visible { outline: 2px solid var(--accent, #d8321f); outline-offset: 2px; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "The default control: a hairline box that fills only on hover.",
+      "html": "<button class=\"ds-btn-ghost\">Edit name</button>",
+      "css": ".ds-btn-ghost { border: 1px solid var(--line, #34322e); background: transparent; color: var(--ink, #efe9dd); padding: 11px 18px; border-radius: var(--radius, 2px); cursor: pointer; font-family: var(--mono, 'JetBrains Mono', ui-monospace, Menlo, monospace); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; transition: background 0.12s, border-color 0.12s, transform 0.06s; } .ds-btn-ghost:hover { background: #232220; } .ds-btn-ghost:active { transform: translateY(1px); } .ds-btn-ghost:focus-visible { outline: 2px solid var(--accent, #d8321f); outline-offset: 2px; }"
+    },
+    {
+      "name": "Score Row",
+      "kind": "custom",
+      "refersTo": "score-key",
+      "description": "Signature control of the rating flow: seven flush cells sharing single hairlines, so the row reads as one segmented block. Thumb-sized first, number-key second.",
+      "html": "<div class=\"ds-scores\"><button class=\"ds-score\">70</button><button class=\"ds-score\">75</button><button class=\"ds-score\">80</button><button class=\"ds-score ds-score-on\">85</button><button class=\"ds-score\">90</button><button class=\"ds-score\">95</button><button class=\"ds-score\">100</button></div>",
+      "css": ".ds-scores { display: flex; flex-wrap: wrap; gap: 0; } .ds-score { flex: 1 1 56px; min-width: 56px; padding: 14px 0; border: 1px solid var(--line, #34322e); border-right-width: 0; background: transparent; color: var(--ink, #efe9dd); border-radius: 0; cursor: pointer; font-family: var(--mono, 'JetBrains Mono', ui-monospace, Menlo, monospace); font-size: 15px; font-weight: 500; transition: background .12s, color .12s; } .ds-scores .ds-score:last-child { border-right-width: 1px; } .ds-score:hover { background: #232220; } .ds-score-on { background: var(--accent, #d8321f); border-color: var(--accent, #d8321f); color: #fff; } .ds-score:focus-visible { outline: 2px solid var(--accent, #d8321f); outline-offset: 2px; }"
+    },
+    {
+      "name": "Filter Chip",
+      "kind": "chip",
+      "refersTo": "chip-filter",
+      "description": "Shelf filters. State is carried by tone, not by colour: selected lifts to Panel Raised.",
+      "html": "<div class=\"ds-chips\"><button class=\"ds-chip\">All</button><button class=\"ds-chip ds-chip-on\">Rated</button><button class=\"ds-chip\">Unrated</button></div>",
+      "css": ".ds-chips { display: flex; gap: 6px; flex-wrap: wrap; } .ds-chip { border: 1px solid var(--line, #34322e); background: transparent; color: var(--ink-dim, #9a938a); padding: 9px 14px; border-radius: var(--radius, 2px); cursor: pointer; font-family: var(--mono, 'JetBrains Mono', ui-monospace, Menlo, monospace); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; } .ds-chip-on { background: #232220; color: var(--ink, #efe9dd); border-color: #3a3a44; } .ds-chip:focus-visible { outline: 2px solid var(--accent, #d8321f); outline-offset: 2px; }"
+    },
+    {
+      "name": "Genre Chip and Style",
+      "kind": "chip",
+      "refersTo": "chip-genre",
+      "description": "A pill means a word you can act on; a style is description, so it is plain serif text on middots, never a pill.",
+      "html": "<div class=\"ds-taxo\"><span class=\"ds-taxo-label\">Genre</span><button class=\"ds-genre\">black metal</button><button class=\"ds-genre\">metal</button></div><div class=\"ds-taxo\"><span class=\"ds-taxo-label\">Style</span><span class=\"ds-style\">post-metal</span><span class=\"ds-style\">blackgaze</span></div>",
+      "css": ".ds-taxo { display: flex; align-items: baseline; gap: 10px; margin-bottom: 8px; } .ds-taxo-label { font-family: var(--mono, 'JetBrains Mono', ui-monospace, Menlo, monospace); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-dim, #9a938a); flex: 0 0 42px; } .ds-genre { font-size: 12px; font-weight: 600; color: var(--ink-dim, #9a938a); background: #232220; border: 1px solid var(--line, #34322e); padding: 3px 9px; border-radius: 999px; cursor: pointer; } .ds-genre:hover { border-color: var(--accent, #d8321f); color: var(--ink, #efe9dd); } .ds-style { color: var(--ink-dim, #9a938a); font-family: var(--body, Newsreader, Georgia, serif); font-size: 14px; } .ds-style + .ds-style::before { content: \"·\"; margin-right: 7px; color: var(--line, #34322e); }"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "No box at all — a writing line. The underline turns Sleeve Red on focus.",
+      "html": "<input class=\"ds-search\" type=\"search\" placeholder=\"Search artist, album, year\" />",
+      "css": ".ds-search { flex: 1 1 260px; background: transparent; border: 0; border-bottom: 1px solid var(--line, #34322e); border-radius: 0; padding: 10px 2px; font-family: var(--body, Newsreader, Georgia, serif); font-size: 17px; color: var(--ink, #efe9dd); width: 100%; } .ds-search::placeholder { color: var(--ink-dim, #9a938a); } .ds-search:focus { border-bottom-color: var(--accent, #d8321f); outline: none; }"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Mono micro-caps, dim until current. Roll sits past a hairline divider because it is a thing you do, not a place you browse; Fix is always red.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-nav-a ds-nav-on\" href=\"#\">Home</a><a class=\"ds-nav-a\" href=\"#\">Shelf</a><a class=\"ds-nav-a ds-nav-last\" href=\"#\">Roll</a><a class=\"ds-nav-a ds-nav-admin\" href=\"#\">Fix</a></nav>",
+      "css": ".ds-nav { display: flex; gap: 4px; align-items: center; } .ds-nav-a { padding: 6px 2px; margin-right: 22px; text-decoration: none; color: var(--ink-dim, #9a938a); font-family: var(--mono, 'JetBrains Mono', ui-monospace, Menlo, monospace); font-size: 12px; text-transform: uppercase; letter-spacing: 0.14em; border-bottom: 2px solid transparent; } .ds-nav-on { color: var(--ink, #efe9dd); border-bottom-color: var(--accent, #d8321f); } .ds-nav-admin { color: var(--accent, #d8321f); } .ds-nav-last { margin-left: 14px; padding-left: 20px; position: relative; } .ds-nav-last::before { content: \"\"; position: absolute; left: 0; top: 50%; transform: translateY(-50%); height: 13px; width: 1px; background: var(--line, #34322e); }"
+    },
+    {
+      "name": "Leaning Tile",
+      "kind": "card",
+      "refersTo": null,
+      "description": "The system's signature. Square sleeve, three-line-clamped title, mono artist. Direction of lean alternates by position so neighbours always disagree; magnitude comes from a hash of the album id, so a record always sits at the same height.",
+      "html": "<div class=\"ds-wall\"><button class=\"ds-tile\" style=\"--lift:16px;--dir:-1\"><span class=\"ds-tile-art\"><span class=\"ds-art-gen\">SL</span><span class=\"ds-tile-score\">95</span></span><span class=\"ds-tile-title\">Sunbather</span><span class=\"ds-tile-artist\">Deafheaven</span></button><button class=\"ds-tile\" style=\"--lift:10px;--dir:1\"><span class=\"ds-tile-art\"><span class=\"ds-art-gen\">BW</span></span><span class=\"ds-tile-title\">Bitches Brew</span><span class=\"ds-tile-artist\">Miles Davis</span></button></div>",
+      "css": ".ds-wall { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 52px 18px; } .ds-tile { background: none; border: 0; padding: 0; text-align: left; cursor: pointer; color: inherit; min-width: 0; display: flex; flex-direction: column; align-self: start; transform: translateY(calc(var(--lift, 0px) * var(--dir, 1))); } .ds-tile-art { position: relative; aspect-ratio: 1; margin-bottom: 11px; display: block; } .ds-art-gen { display: grid; place-items: center; width: 100%; height: 100%; background: linear-gradient(135deg, hsl(18 55% 32%), hsl(78 45% 16%)); color: rgba(255,255,255,.85); font-weight: 800; letter-spacing: 0.06em; font-size: 38px; } .ds-tile:hover .ds-art-gen { outline: 2px solid var(--accent, #d8321f); } .ds-tile-score { position: absolute; right: 0; bottom: 0; background: var(--accent, #d8321f); color: #fff; font-family: var(--mono, 'JetBrains Mono', ui-monospace, Menlo, monospace); font-size: 11px; padding: 3px 8px; } .ds-tile-title { font-size: 15px; font-weight: 600; line-height: 1.25; min-height: 2.5em; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; } .ds-tile-artist { font-family: var(--mono, 'JetBrains Mono', ui-monospace, Menlo, monospace); font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-dim, #9a938a); margin-top: 2px; } .ds-tile:focus-visible { outline: 2px solid var(--accent, #d8321f); outline-offset: 2px; }"
+    },
+    {
+      "name": "Maintenance Row",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Recessive until it matters: the verdict buttons sit at opacity 0 until the row is hovered or something inside it takes focus, but they are never removed from the tab order.",
+      "html": "<ul class=\"ds-hs-list\"><li class=\"ds-hs-row\"><button class=\"ds-hs-item\"><span class=\"ds-hs-artist\">Art Blakey</span><span class=\"ds-hs-title\">Moanin'</span><span class=\"ds-hs-note\">shelf 1958 vs MusicBrainz 2001</span></button><span class=\"ds-hs-acts\"><button class=\"ds-hs-act\">Fine</button><button class=\"ds-hs-act\">Flag</button></span></li></ul>",
+      "css": ".ds-hs-list { list-style: none; margin: 0; padding: 0; } .ds-hs-row { display: flex; align-items: center; gap: 8px; } .ds-hs-item { flex: 1 1 auto; display: grid; grid-template-columns: minmax(0, 14rem) minmax(0, 1fr); gap: 4px 18px; text-align: left; padding: 9px 10px; background: none; border: 0; border-left: 2px solid transparent; cursor: pointer; color: inherit; font: inherit; } .ds-hs-item:hover { background: var(--panel, #1a1917); border-left-color: var(--accent, #d8321f); } .ds-hs-artist { font-family: var(--mono, 'JetBrains Mono', ui-monospace, Menlo, monospace); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent, #d8321f); } .ds-hs-title { font-family: var(--body, Newsreader, Georgia, serif); font-size: 15px; color: var(--ink, #efe9dd); } .ds-hs-note { grid-column: 1 / -1; font-family: var(--mono, 'JetBrains Mono', ui-monospace, Menlo, monospace); font-size: 11px; color: var(--ink-dim, #9a938a); } .ds-hs-acts { display: flex; gap: 4px; flex: 0 0 auto; padding-right: 6px; } .ds-hs-act { font-family: var(--mono, 'JetBrains Mono', ui-monospace, Menlo, monospace); font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-dim, #9a938a); background: none; border: 1px solid var(--line, #34322e); border-radius: 4px; padding: 4px 8px; cursor: pointer; opacity: 0; transition: opacity .12s; } .ds-hs-row:hover .ds-hs-act, .ds-hs-row:focus-within .ds-hs-act { opacity: 1; } .ds-hs-act:hover { color: var(--ink, #efe9dd); background: #232220; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Leaning Shelf",
+    "overview": "Four thousand four hundred records pushed unevenly into a shelf. The interface is the shelf — hairlines, rules, a warm near-black ground with a faint paper tooth — and the records are the only thing on it with colour. Every tile lifts or drops by an amount derived from the album itself, so the wall zigs regularly and by a different distance every time; nothing is centred, nothing floats, and the grid never quite lines up because a shelf never does.\n\nThe character is severe, and warmer than it looks. The geometry is hard and the display type shouts — condensed caps up to 86px, set to a line-height of 0.82 so the words stack like a poster — but the ground is #121110 rather than black and the text is bone #efe9dd rather than white, which takes the glare off a screen read at night. Anything you actually read is set in a serif. Anything that is data — a year, a score, a count, a control — is monospaced, uppercased and tracked wide, so it reads as a figure rather than as prose. The severity is structural, not cold: it is there to get out of the way of 4,414 sleeves, each of which brings its own palette to the page.\n\nRestraint is the mechanism. The interface commits to three colours and one accent, which means the covers supply everything else and a page of records looks different every time without the design doing anything. When the accent appears it means something: this is active, this is yours, this is open.",
+    "keyCharacteristics": [
+      "Warm near-black ground with a 1px paper tooth at 1.2% white; never pure black",
+      "Bone, not white — #efe9dd on #121110",
+      "One accent, Sleeve Red, carrying active state, artist names, scores and focus",
+      "Three fonts doing three strictly separated jobs: names, prose, data",
+      "Square by default (0–2px), pills reserved for genre and style words alone",
+      "Flat: depth is tonal layering and rules, never shadow",
+      "Nothing centred; the front page's folio is deliberately lopsided",
+      "The shelf leans — every tile offset from the album's own id"
+    ],
+    "rules": [
+      {
+        "name": "The One Red Rule",
+        "section": "colors",
+        "body": "#d8321f is the only red in the system that carries meaning. A second red on screen is a bug, not a variant: the armed-delete button's #c4392a / #d6412f is drift and should resolve to either the accent or Rust."
+      },
+      {
+        "name": "The Warm Ground Rule",
+        "section": "colors",
+        "body": "Every neutral is warm — red channel highest, blue lowest. A cool grey in this palette is visible immediately as a foreign object. #26262e, #3a3a44, #2c2c35, #1c1c22 and the sticky header's rgba(13, 13, 15, 0.92) all predate the palette and all break it."
+      },
+      {
+        "name": "The Covers Supply The Colour Rule",
+        "section": "colors",
+        "body": "The interface stops at three neutrals plus one accent because 4,414 album sleeves are already on the page. Any new hue must justify itself against artwork it will sit beside."
+      },
+      {
+        "name": "The Three Jobs Rule",
+        "section": "typography",
+        "body": "Display names things, the serif is read, the mono is counted. Never set a control in the serif; never set prose in the mono."
+      },
+      {
+        "name": "The Tracking Rule",
+        "section": "typography",
+        "body": "Mono is always uppercase and always tracked at least 0.08em. Untracked mono caps at 10px close up into a block and stop being readable as a label."
+      },
+      {
+        "name": "The Tabular Rule",
+        "section": "typography",
+        "body": "Any figure that updates in place carries font-variant-numeric: tabular-nums, so the number changes without the layout twitching."
+      },
+      {
+        "name": "The Gap Pays For The Stagger Rule",
+        "section": "layout",
+        "body": "A transform does not affect layout, so every pixel of lean has to be bought out of the row gap — twice over, since two tiles can lean towards each other. Change the stagger and the gap changes with it, or text lands on artwork."
+      },
+      {
+        "name": "The Lopsided Folio Rule",
+        "section": "layout",
+        "body": "The front page's folio is 1fr / auto with its two halves set on the baseline, and the lead sits in a 7:5 spread against its margin index. Nothing on this page is evenly divided. A symmetrical hero is the one layout every generated page already has."
+      },
+      {
+        "name": "The Flat Ground Rule",
+        "section": "elevation",
+        "body": "Depth is tone and rule, never shadow. A blurred shadow anywhere in this system is wrong on sight — there is no vocabulary for it to be consistent with."
+      },
+      {
+        "name": "The Square Rule",
+        "section": "shapes",
+        "body": "0 or 2px. The 4px, 5px, 6px and 10px radii still in the stylesheet are drift from before the form language settled, not a scale."
+      },
+      {
+        "name": "The Pill Means A Word Rule",
+        "section": "shapes",
+        "body": "A 999px radius marks vocabulary: a genre, a tag, a mode badge. If it performs an action rather than naming a thing, it is not a pill."
+      }
+    ],
+    "dos": [
+      "Do keep every neutral warm — red channel highest, blue lowest. Test a new grey against #1a1917 before committing it.",
+      "Do give data font-variant-numeric: tabular-nums and mono; give prose the serif and a measure between 34ch and 46ch.",
+      "Do reserve Sleeve Red for state, identity and focus. If it is decorative, it is wrong.",
+      "Do buy stagger out of the row gap. Any change to LIFTS is also a change to .grid's 52px.",
+      "Do use :focus-visible with a 2px Sleeve Red outline at 2px offset, and keep recessive controls in the tab order — opacity: 0, never display: none.",
+      "Do respect prefers-reduced-motion; the system already disables the deal, riseIn, progress-fill and cover-zoom animations under it.",
+      "Do close a region with a 2px bone rule and separate peers with a 1px hairline. The weight is the meaning."
+    ],
+    "donts": [
+      "Don't add a blurred shadow. There is no shadow vocabulary here, and the one hard slab that exists is deprecated rather than a precedent.",
+      "Don't introduce a second red. #c4392a and #d6412f are already drift.",
+      "Don't reach for a cool grey. #26262e, #3a3a44, #2c2c35 and #1c1c22 are the existing offenders, along with the header's rgba(13, 13, 15, 0.92), which sits visibly cooler than the page it covers.",
+      "Don't round anything to 4px, 6px or 10px. 0, 2px, or a 999px pill.",
+      "Don't make a style look like a genre. Pills are vocabulary you can act on; styles are description.",
+      "Don't set a control in Newsreader or a paragraph in JetBrains Mono.",
+      "Don't centre a hero. The folio's asymmetry is load-bearing.",
+      "Don't put env(safe-area-inset-top) anywhere but padding-top — the sticky header currently pads its bottom edge with it, which on a notched phone is the one place this system is not doing what it says."
+    ]
+  }
+}

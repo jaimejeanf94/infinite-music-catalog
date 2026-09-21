@@ -17,3 +17,13 @@ data/cache-covers.log
 
 # filled-in policy SQL — contains your user id, never committed
 db/local/
+
+# Impeccable — the design record is committed (PRODUCT.md, DESIGN.md,
+# .impeccable/design.json, .impeccable/live/config.json). What is left out is
+# per-machine state: the live session journal, the resolved root manifest, the
+# record of what live mode injected into index.html, and any local overrides.
+.impeccable/questions/
+.impeccable/live/sessions/
+.impeccable/live/roots.json
+.impeccable/live/inject-journal.json
+.impeccable/config.local.json
