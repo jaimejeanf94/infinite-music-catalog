@@ -27,6 +27,9 @@
   --good: #7a9e5c;
   --warn: #d08a3a;
   --bad:  #c0564a;
+  --bad-deep: #b34c41;   /* armed-destructive, pressed. Darker, not lighter:
+                            white on --bad is exactly 4.50:1, so a lighter
+                            hover would push the label under AA. */
   --alarm: #ff8a73;
   --radius: 2px;
 
@@ -126,8 +129,18 @@ main { max-width: 1100px; margin: 0 auto; padding: 20px 16px 40px; }
 .btn:hover:not(:disabled) { background: var(--panel-2); }
 .btn:active:not(:disabled) { transform: translateY(1px); }
 .btn:disabled { opacity: 0.4; cursor: not-allowed; }
-.btn--primary { background: var(--accent); border-color: var(--accent); color: #fff; }
-.btn--primary:hover:not(:disabled) { background: var(--accent-lit); }
+/* Bone, not red. The accent used to fill both this and the armed-delete
+   button, so the control that commits a change and the control that destroys
+   one were the same object in two shades of the same hue. Red was chosen here
+   as Sleeve Red -- identity, not alarm -- so "act on this" moves to the
+   loudest surface that is not the accent. Bone already carries authority in
+   this system: it is what a 2px rule closing a region is made of.
+   Label contrast 15.60:1. */
+.btn--primary {
+  background: var(--ink); border-color: var(--ink); color: var(--bg);
+  font-weight: 500;
+}
+.btn--primary:hover:not(:disabled) { background: #fff; border-color: var(--on-accent); }
 .btn--quiet { background: transparent; }
 .btn--sm { padding: 6px 12px; font-size: 11px; }   /* was 14px -- LARGER than .btn */
 .btn--more { display: block; margin: 24px auto; }
@@ -164,7 +177,7 @@ main { max-width: 1100px; margin: 0 auto; padding: 20px 16px 40px; }
   font-family: var(--mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;
 }
 .modes .mode:last-child { border-right: 0; }
-.mode--on { background: var(--accent); color: #fff; }
+.mode--on { background: var(--accent); color: var(--on-accent); }
 .slider {
   display: flex; flex-direction: column; gap: 4px; color: var(--ink-dim);
   font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em;
@@ -244,7 +257,7 @@ main { max-width: 1100px; margin: 0 auto; padding: 20px 16px 40px; }
 }
 .scores .score:last-child { border-right-width: 1px; }
 .score:hover:not(:disabled) { background: var(--panel-2); }
-.score--on { background: var(--accent); border-color: var(--accent); color: #fff; }
+.score--on { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
 .score:disabled { opacity: 0.4; cursor: not-allowed; }
 
 .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
@@ -506,8 +519,15 @@ main { max-width: 1100px; margin: 0 auto; padding: 20px 16px 40px; }
 
 .btn--danger { color: var(--alarm); border-color: var(--line); }
 .btn--danger:hover:not(:disabled) { background: var(--panel-2); color: var(--bad); }
-.btn--armed { background: #c4392a; border-color: #c4392a; color: #fff; }
-.btn--armed:hover:not(:disabled) { background: #d6412f; }
+/* Destroying is now the only thing that fills with red, and it fills with
+   --bad -- the same colour the armed genre chip uses, so "armed to destroy" is
+   one colour everywhere. White on it is 4.50:1. */
+.btn--armed {
+  background: var(--bad); border-color: var(--bad); color: var(--on-accent);
+}
+.btn--armed:hover:not(:disabled) {
+  background: var(--bad-deep); border-color: var(--bad-deep);
+}
 
 /* Deleted albums, kept and restorable — nothing is erased from the database. */
 .restore-list { display: flex; flex-direction: column; gap: 8px; }
@@ -576,7 +596,7 @@ button, a, input, select, textarea, .tile { touch-action: manipulation; }
   font-style: normal; font-family: var(--mono);
   font-size: 11px; color: var(--ink-dim);
 }
-.combo__opt--active { background: var(--accent); color: #fff; }
+.combo__opt--active { background: var(--accent); color: var(--on-accent); }
 .combo__opt--active em { color: rgba(255,255,255,.75); }
 .combo__empty { padding: 10px 12px; color: var(--ink-dim); font-size: 14px; }
 .genre-clear { display: inline-flex; align-items: center; gap: 8px; }
@@ -637,7 +657,7 @@ button, a, input, select, textarea, .tile { touch-action: manipulation; }
 
 .readonly-note { margin: 0; color: var(--ink); font-size: 15px; white-space: pre-wrap; }
 
-.tag--preview { background: var(--accent); color: #fff; border-color: var(--accent); text-decoration: none; }
+.tag--preview { background: var(--accent); color: var(--on-accent); border-color: var(--accent); text-decoration: none; }
 
 /* ── renaming an album ──────────────────────────────────────────────────── */
 /* Sits where the artist and title normally are, so the sheet does not jump
@@ -788,7 +808,7 @@ button, a, input, select, textarea, .tile { touch-action: manipulation; }
   font-variant-numeric: tabular-nums;
 }
 .lead__score {
-  background: var(--accent); color: #fff; font-weight: 700;
+  background: var(--accent); color: var(--on-accent); font-weight: 700;
   padding: 1px 7px; letter-spacing: 0.06em;
 }
 .lead__genres {
@@ -828,7 +848,7 @@ button, a, input, select, textarea, .tile { touch-action: manipulation; }
 }
 .stub__score {
   font-family: var(--mono); font-size: 11px;
-  background: var(--accent); color: #fff; padding: 2px 7px;
+  background: var(--accent); color: var(--on-accent); padding: 2px 7px;
 }
 
 /* ── the two doors ────────────────────────────────────────────────────── */

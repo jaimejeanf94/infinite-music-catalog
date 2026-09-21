@@ -15,6 +15,7 @@ colors:
   moss: "#7a9e5c"
   amber: "#d08a3a"
   rust: "#c0564a"
+  rust-deep: "#b34c41"
   alarm: "#ff8a73"
 typography:
   display:
@@ -66,14 +67,14 @@ components:
     rounded: "{rounded.hair}"
     padding: "11px 18px"
   button-primary:
-    backgroundColor: "{colors.sleeve-red}"
-    textColor: "{colors.on-red}"
+    backgroundColor: "{colors.bone}"
+    textColor: "{colors.ink-ground}"
     typography: "{typography.label}"
     rounded: "{rounded.hair}"
     padding: "11px 18px"
   button-primary-hover:
-    backgroundColor: "{colors.sleeve-red-lit}"
-    textColor: "{colors.on-red}"
+    backgroundColor: "#ffffff"
+    textColor: "{colors.ink-ground}"
   score-key:
     backgroundColor: "transparent"
     textColor: "{colors.bone}"
@@ -175,7 +176,8 @@ ink rather than as a switched-off screen.
   sits on. It carries the active nav item, every artist name, the score badge on
   a tile and on the roll, mode and filter selection, the focus ring on every
   interactive element, the count of open items on Fix, and the rule under the
-  current screen. Nothing decorative is ever this colour.
+  current screen. It marks **state, identity and value** — never an action, and
+  nothing decorative is ever this colour.
 - **Sleeve Red, Text** (`#ed6046`): the same red lifted until it passes AA as
   small text on all three grounds (5.71 / 5.32 / 4.82). Every red word in the
   app uses this. `#d8321f` measured 3.95 / 3.68 / 3.33 and was being used at
@@ -209,7 +211,10 @@ Status colours, used sparingly and never as a fourth accent:
   confirmation flash.
 - **Amber** (`#d08a3a`): a flagged maintenance row — a problem kept deliberately
   in view — and the warning band on Fix.
-- **Rust** (`#c0564a`): destructive intent. A genre chip armed for deletion.
+- **Rust** (`#c0564a`): destructive intent, and the only fill in the system
+  that is a red. A genre chip armed for deletion, and the delete button once it
+  is armed. White on it is 4.50:1, so its pressed state (`#b34c41`) goes
+  *darker* — a lighter one would push the label under AA.
 - **Alarm** (`#ff8a73`): error text and the resting colour of a danger button.
 
 ### Named Rules
@@ -217,6 +222,13 @@ Status colours, used sparingly and never as a fourth accent:
 **The Small-Text Red Rule.** `--accent` fills a shape and carries white on it.
 It is never text below 24px; `--accent-text` is. They are the same red at two
 lightnesses, and which one you reach for is decided by size, not by taste.
+
+**The Bone Acts Rule.** The loudest thing on any screen is the primary action,
+and it is bone — `--ink` filled, `--bg` lettered, 15.60:1. Red never means
+"act on this". This is what keeps Sleeve Red readable as identity: the accent
+and the armed-delete button used to be the same object in two shades of one
+hue, so the control that committed a change and the control that destroyed one
+were indistinguishable at a glance.
 
 **The One Red Rule.** `#d8321f` is the only red in the system that carries
 meaning. A second red on screen is a bug, not a variant: the armed-delete
@@ -378,8 +390,9 @@ pill.
 - **Ghost (default):** transparent on hairline, bone text, mono micro-caps
   tracked 0.1em, `11px 18px`. Hover lifts the background one tone; active
   translates 1px down
-- **Primary:** Sleeve Red fill, white text, same geometry. Hover goes to Sleeve
-  Red Lit (`#f4663f`)
+- **Primary:** bone fill (`#efe9dd`), ink text (`#121110`), same geometry,
+  weight 500. Hover goes to pure white. The loudest object on the screen, and
+  deliberately not the accent
 - **Danger:** Alarm text on a dark rust border, filling solid when armed. Two
   taps, never a browser dialog
 - **Linkish:** a button that reads as a link — Sleeve Red, underlined at 3px
@@ -484,6 +497,8 @@ always generates the same sleeve.
   is for, and the difference is an accessibility failure, not a preference.
 - **Don't** give a callout a coloured left bar. The hue rides the 1px hairline:
   weight here means region (2px bone) or peer (1px), never severity.
+- **Don't** fill a control with the accent to mean "act". Red fills mark state,
+  identity and value; bone fills act; the red family fills only to destroy.
 - **Don't** set a name in the serif. An album title is a name, so it wears the
   display face — on the shelf as well as on the roll.
 - **Don't** make a style look like a genre. Pills are vocabulary you can act on;

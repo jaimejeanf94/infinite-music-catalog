@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-21T06:40:52.593Z",
+  "generatedAt": "2026-09-21T06:47:48.018Z",
   "title": "Design System: Infinite Music Catalog",
   "extensions": {
     "colorMeta": {
@@ -183,7 +183,7 @@
       "rust": {
         "role": "tertiary",
         "displayName": "Rust",
-        "purpose": "Destructive intent. A genre chip armed for deletion.",
+        "purpose": "Destructive intent, and the only fill in the system that is a red: the armed genre chip and the armed delete button. White on it is 4.50:1, so its pressed state goes darker (#b34c41), never lighter.",
         "canonical": "oklch(58.423% 0.139 28.563)",
         "tonalRamp": [
           "oklch(15% 0.139 28.563)",
@@ -309,9 +309,9 @@
       "name": "Primary Button",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "The one filled control. Sleeve Red, square-ish, mono micro-caps.",
+      "description": "The one filled control that commits a change. Bone, not red: the accent marks state and identity, so the loudest object on screen is the loudest non-accent surface.",
       "html": "<button class=\"ds-btn ds-btn-primary\">Save</button>",
-      "css": ".ds-btn { border: 1px solid var(--line, #34322e); background: transparent; color: var(--ink, #efe9dd); padding: 11px 18px; border-radius: var(--radius, 2px); cursor: pointer; font-family: var(--mono, 'JetBrains Mono', ui-monospace, Menlo, monospace); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; transition: background 0.12s, border-color 0.12s, transform 0.06s; } .ds-btn-primary { background: var(--accent, #d8321f); border-color: var(--accent, #d8321f); color: #fff; } .ds-btn-primary:hover { background: #f4663f; } .ds-btn:active { transform: translateY(1px); } .ds-btn:focus-visible { outline: 2px solid var(--accent, #d8321f); outline-offset: 2px; }"
+      "css": ".ds-btn { border: 1px solid var(--line, #4a4640); background: transparent; color: var(--ink, #efe9dd); padding: 11px 18px; border-radius: var(--radius, 2px); cursor: pointer; font-family: var(--mono, \"JetBrains Mono\", ui-monospace, monospace); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; transition: background 0.12s, border-color 0.12s, transform 0.06s; } .ds-btn-primary { background: var(--ink, #efe9dd); border-color: var(--ink, #efe9dd); color: var(--bg, #121110); font-weight: 500; } .ds-btn-primary:hover { background: #fff; border-color: #fff; } .ds-btn:active { transform: translateY(1px); } .ds-btn:focus-visible { outline: 2px solid var(--accent, #d8321f); outline-offset: 2px; }"
     },
     {
       "name": "Ghost Button",
@@ -401,6 +401,11 @@
     ],
     "rules": [
       {
+        "name": "The Bone Acts Rule",
+        "section": "colors",
+        "body": "The loudest thing on any screen is the primary action, and it is bone (--ink filled, --bg lettered, 15.60:1). Red never means act on this. The accent and the armed-delete button used to be the same object in two shades of one hue, so committing a change and destroying one were indistinguishable at a glance."
+      },
+      {
         "name": "The Small-Text Red Rule",
         "section": "colors",
         "body": "--accent fills a shape and carries white on it. It is never text below 24px; --accent-text is. They are the same red at two lightnesses, and which one you reach for is decided by size, not by taste."
@@ -481,7 +486,8 @@
       "Don't put env(safe-area-inset-top) anywhere but padding-top.",
       "Don't set red text below 24px in --accent. That is what --accent-text is for, and the difference is an accessibility failure, not a preference.",
       "Don't give a callout a coloured left bar. The hue rides the 1px hairline: weight here means region (2px bone) or peer (1px), never severity.",
-      "Don't set a name in the serif. An album title is a name, so it wears the display face — on the shelf as well as on the roll."
+      "Don't set a name in the serif. An album title is a name, so it wears the display face — on the shelf as well as on the roll.",
+      "Don't fill a control with the accent to mean act. Red fills mark state, identity and value; bone fills act; the red family fills only to destroy."
     ]
   }
 }
