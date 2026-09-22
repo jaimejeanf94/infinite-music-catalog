@@ -1036,26 +1036,6 @@
   "apple_via": "musicbrainz",
   "apple_checked": "2026-09-21"
  },
- "The Caretaker::Everywhere at The End of Time": {
-  "status": "ok",
-  "mbid": "02c208b5-985e-4c27-912e-d22d897faf64",
-  "genres": [
-   "ambient",
-   "electronic",
-   "experimental"
-  ],
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/02c208b5-985e-4c27-912e-d22d897faf64.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2019",
-  "checked": "2026-09-19",
-  "cover_source_url": "https://coverartarchive.org/release-group/02c208b5-985e-4c27-912e-d22d897faf64/front-500",
-  "cover_cached": "2026-09-20",
-  "apple_status": "ok",
-  "apple_url": "https://music.apple.com/mx/album/everywhere-at-the-end-of-time-stage-6/1716926918",
-  "apple_title": "Everywhere at the End of Time (Stage 6)",
-  "apple_via": "musicbrainz",
-  "apple_checked": "2026-09-21"
- },
  "The Flaming Lips::Embryonic": {
   "status": "ok",
   "mbid": "6654ee18-9421-4204-ae48-f0fdc3d6ab9e",
@@ -8419,32 +8399,6 @@
   "apple_via": "musicbrainz",
   "apple_checked": "2026-09-21"
  },
- "2 Many DJ's::A Tribute to Keith Forsey": {
-  "status": "ok",
-  "mbid": "270ea2ef-3d76-489b-9d9d-a832aa35d937",
-  "genres": [
-   "breakbeat"
-  ],
-  "genre_source": "artist",
-  "cover_url": null,
-  "cover_from": null,
-  "mb_year": "2016",
-  "checked": "2026-09-20"
- },
- "2 Many DJ's::A Tribute To Compass Point": {
-  "status": "ok",
-  "mbid": "1a960397-0f3d-4121-a53a-3b029b5ee26d",
-  "genres": [
-   "breakbeat"
-  ],
-  "genre_source": "artist",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1a960397-0f3d-4121-a53a-3b029b5ee26d.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2016",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/1a960397-0f3d-4121-a53a-3b029b5ee26d/front-500",
-  "cover_cached": "2026-09-20"
- },
  "2 Many DJ's::Hardcore Or Die": {
   "status": "nomatch",
   "cover_url": null,
@@ -8648,20 +8602,6 @@
   "apple_via": "search",
   "apple_why": "the title is longer or shorter than yours",
   "apple_checked": "2026-09-21"
- },
- "2 Many DJ's::Under The Covers 2": {
-  "status": "ok",
-  "mbid": "8f6749d9-063a-4648-a6f2-93fe187d24ba",
-  "genres": [
-   "breakbeat"
-  ],
-  "genre_source": "artist",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8f6749d9-063a-4648-a6f2-93fe187d24ba.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2011",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/8f6749d9-063a-4648-a6f2-93fe187d24ba/front-500",
-  "cover_cached": "2026-09-20"
  },
  "2 Many DJ's::Under The Covers 3": {
   "status": "nomatch",
@@ -9677,29 +9617,6 @@
   "apple_title": "Knife Man",
   "apple_via": "search",
   "apple_checked": "2026-09-21"
- },
- "Ajj::People That Can Eat People Are The Luckiest People in the World": {
-  "status": "ok",
-  "mbid": "676033ea-5ba2-3b8c-95d4-8679cdbc0249",
-  "genres": [
-   "folk rock",
-   "folk punk",
-   "anti-folk",
-   "punk",
-   "anarcho-punk",
-   "indie folk",
-   "lo-fi",
-   "singer-songwriter",
-   "alternative country",
-   "folk"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/676033ea-5ba2-3b8c-95d4-8679cdbc0249.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2007",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/676033ea-5ba2-3b8c-95d4-8679cdbc0249/front-500",
-  "cover_cached": "2026-09-20"
  },
  "Akira Yamaoka::Silent Hill 2": {
   "status": "ok",
@@ -13017,23 +12934,6 @@
   "apple_title": "1991 - EP",
   "apple_via": "musicbrainz",
   "apple_checked": "2026-09-21"
- },
- "Azealia Banks::1992": {
-  "status": "ok",
-  "mbid": "b296b523-bd66-480f-8a8f-c6d09a09846b",
-  "genres": [
-   "pop",
-   "electronic",
-   "hip hop",
-   "hip house"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b296b523-bd66-480f-8a8f-c6d09a09846b.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2012",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/b296b523-bd66-480f-8a8f-c6d09a09846b/front-500",
-  "cover_cached": "2026-09-20"
  },
  "B.B. King::Live at Thhe Regal": {
   "status": "ok",
@@ -17382,24 +17282,6 @@
   "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
   "apple_checked": "2026-09-21"
  },
- "Boards of Canada::Societas X Tape": {
-  "status": "ok",
-  "mbid": "1ed7559d-53a9-4513-8ee6-5c05bb0e725b",
-  "genres": [
-   "idm",
-   "electronic",
-   "ambient",
-   "downtempo",
-   "hauntology"
-  ],
-  "genre_source": "artist",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1ed7559d-53a9-4513-8ee6-5c05bb0e725b.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2019",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/1ed7559d-53a9-4513-8ee6-5c05bb0e725b/front-500",
-  "cover_cached": "2026-09-20"
- },
  "Boards Of Canada::Tomorrow's Harvest": {
   "status": "ok",
   "mbid": "77d7c506-8d47-4d68-9615-f25db638bbea",
@@ -21446,22 +21328,6 @@
   "apple_via": "search",
   "apple_checked": "2026-09-21"
  },
- "Cecil Taylor::At the Café Montmartré": {
-  "status": "ok",
-  "mbid": "d83fa8fe-437b-47ae-901f-57147d4bc867",
-  "genres": [
-   "jazz",
-   "free jazz",
-   "free improvisation"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d83fa8fe-437b-47ae-901f-57147d4bc867.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "1963",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/d83fa8fe-437b-47ae-901f-57147d4bc867/front-500",
-  "cover_cached": "2026-09-20"
- },
  "Celtic Frost::Monotheist": {
   "status": "ok",
   "mbid": "420ca414-6424-369f-b398-9e4f668c3e92",
@@ -22199,8 +22065,8 @@
    "contemporary r&b"
   ],
   "genre_source": "release",
-  "cover_url": null,
-  "cover_from": null,
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/fd817615-3d43-4f07-9509-d0a46b2bc278.jpg",
+  "cover_from": "app",
   "mb_year": "2016",
   "checked": "2026-09-19",
   "apple_status": "review",
@@ -22208,7 +22074,9 @@
   "apple_title": null,
   "apple_via": "musicbrainz",
   "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-09-21",
+  "cover_source_url": "https://coverartarchive.org/release-group/fd817615-3d43-4f07-9509-d0a46b2bc278/front-500",
+  "cover_cached": "2026-09-22"
  },
  "Chivo Negro::Volume Death": {
   "status": "ok",
@@ -29360,26 +29228,6 @@
   "apple_via": "search",
   "apple_checked": "2026-09-21"
  },
- "DJ Koze::DJ Kicks": {
-  "status": "ok",
-  "mbid": "1eb01551-f703-45de-b9da-abd76f678901",
-  "genres": [
-   "rock",
-   "electronic",
-   "downtempo",
-   "house",
-   "hip hop",
-   "indie rock",
-   "leftfield"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1eb01551-f703-45de-b9da-abd76f678901.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2015",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/1eb01551-f703-45de-b9da-abd76f678901/front-500",
-  "cover_cached": "2026-09-20"
- },
  "DJ Koze::Amygdala": {
   "status": "ok",
   "mbid": "51c431fb-6521-4284-a817-aace744d9961",
@@ -30482,22 +30330,6 @@
   "cover_cached": "2026-09-20",
   "apple_status": "nomatch",
   "apple_checked": "2026-09-21"
- },
- "E+E::El sueño del Forastero": {
-  "status": "ok",
-  "mbid": "7082a247-e0ad-4681-b24e-a20e339551d8",
-  "genres": [
-   "electronic",
-   "experimental",
-   "hip hop"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7082a247-e0ad-4681-b24e-a20e339551d8.jpg",
-  "cover_from": "app",
-  "mb_year": "2013",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/7082a247-e0ad-4681-b24e-a20e339551d8/front-500",
-  "cover_cached": "2026-09-21"
  },
  "Eagles::Greatest Hits (Eagles)": {
   "status": "ok",
@@ -39337,21 +39169,6 @@
   "apple_via": "musicbrainz",
   "apple_checked": "2026-09-21"
  },
- "Harmonium::Si on avait besoin d'une cinquième saison": {
-  "status": "ok",
-  "mbid": "8c304a5d-5e3d-4ecd-8343-a3a3b4a7e9d4",
-  "genres": [
-   "rock",
-   "folk rock"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8c304a5d-5e3d-4ecd-8343-a3a3b4a7e9d4.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2001",
-  "checked": "2026-09-20",
-  "cover_source_url": "https://coverartarchive.org/release-group/8c304a5d-5e3d-4ecd-8343-a3a3b4a7e9d4/front-500",
-  "cover_cached": "2026-09-20"
- },
  "Harold Budd::The Pavilion of Dreams": {
   "status": "ok",
   "mbid": "63ae8d41-f76f-309d-8a3d-1dc340923792",
@@ -45558,34 +45375,6 @@
   "apple_url": "https://music.apple.com/mx/album/sad-wings-of-destiny/1774143155",
   "apple_title": "Sad Wings Of Destiny",
   "apple_via": "search",
-  "apple_checked": "2026-09-21"
- },
- "Julee Cruise::Floating into the Nigh": {
-  "status": "ok",
-  "mbid": "2eaf4eef-f6bb-3fff-a4e2-79d639bde1d0",
-  "genres": [
-   "dream pop",
-   "ethereal wave",
-   "lounge",
-   "jazz pop",
-   "sophisti-pop",
-   "ambient pop",
-   "dark jazz",
-   "rock",
-   "electronic",
-   "downtempo"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2eaf4eef-f6bb-3fff-a4e2-79d639bde1d0.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "1989",
-  "checked": "2026-09-19",
-  "cover_source_url": "https://coverartarchive.org/release-group/2eaf4eef-f6bb-3fff-a4e2-79d639bde1d0/front-500",
-  "cover_cached": "2026-09-20",
-  "apple_status": "ok",
-  "apple_url": "https://music.apple.com/mx/album/floating-into-the-night/300947363",
-  "apple_title": "Floating Into the Night",
-  "apple_via": "musicbrainz",
   "apple_checked": "2026-09-21"
  },
  "Julia Holter::Have You In My Wilderness": {
@@ -100582,5 +100371,252 @@
   "checked": "2026-09-21",
   "apple_status": "nomatch",
   "apple_checked": "2026-09-21"
+ },
+ "2manydjs::2manydjs present A Tribute to Keith Forsey": {
+  "status": "ok",
+  "mbid": "270ea2ef-3d76-489b-9d9d-a832aa35d937",
+  "genres": [
+   "breakbeat"
+  ],
+  "genre_source": "artist",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/270ea2ef-3d76-489b-9d9d-a832aa35d937.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2016",
+  "checked": "2026-09-22",
+  "apple_status": "ok",
+  "apple_url": "https://music.apple.com/mx/album/2manydjs-present-a-tribute-to-keith-forsey-dj-mix/1651673086",
+  "apple_title": "2manydjs present A Tribute to Keith Forsey (DJ Mix)",
+  "apple_via": "musicbrainz",
+  "apple_checked": "2026-09-22",
+  "cover_source_url": "https://coverartarchive.org/release-group/270ea2ef-3d76-489b-9d9d-a832aa35d937/front-500",
+  "cover_cached": "2026-09-22"
+ },
+ "2manydjs::2manydjs presents A Tribute to Compass Point": {
+  "status": "ok",
+  "mbid": "1a960397-0f3d-4121-a53a-3b029b5ee26d",
+  "genres": [
+   "breakbeat"
+  ],
+  "genre_source": "artist",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1a960397-0f3d-4121-a53a-3b029b5ee26d.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2016",
+  "checked": "2026-09-22",
+  "apple_status": "ok",
+  "apple_url": "https://music.apple.com/mx/album/2manydjs-presents-a-tribute-to-compass-point-dj-mix/1653663982",
+  "apple_title": "2manydjs presents A Tribute to Compass Point (DJ Mix)",
+  "apple_via": "musicbrainz",
+  "apple_checked": "2026-09-22",
+  "cover_source_url": "https://coverartarchive.org/release-group/1a960397-0f3d-4121-a53a-3b029b5ee26d/front-500",
+  "cover_cached": "2026-09-22"
+ },
+ "2manydjs::Under The Covers Vol. 2": {
+  "status": "ok",
+  "mbid": "8f6749d9-063a-4648-a6f2-93fe187d24ba",
+  "genres": [
+   "breakbeat"
+  ],
+  "genre_source": "artist",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8f6749d9-063a-4648-a6f2-93fe187d24ba.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2011",
+  "checked": "2026-09-22",
+  "apple_status": "nomatch",
+  "apple_checked": "2026-09-22",
+  "cover_source_url": "https://coverartarchive.org/release-group/8f6749d9-063a-4648-a6f2-93fe187d24ba/front-500",
+  "cover_cached": "2026-09-22"
+ },
+ "AJJ::People Who Can Eat People Are the Luckiest People in the World": {
+  "status": "ok",
+  "mbid": "676033ea-5ba2-3b8c-95d4-8679cdbc0249",
+  "genres": [
+   "folk rock",
+   "folk punk",
+   "anti-folk",
+   "punk",
+   "anarcho-punk",
+   "indie folk",
+   "lo-fi",
+   "singer-songwriter",
+   "alternative country",
+   "folk"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/676033ea-5ba2-3b8c-95d4-8679cdbc0249.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2007",
+  "checked": "2026-09-22",
+  "apple_status": "ok",
+  "apple_url": "https://music.apple.com/mx/album/people-who-eat-people-are-the-luckiest-people-in-the-world/1743475218",
+  "apple_title": "People Who Eat People Are the Luckiest People In the World",
+  "apple_via": "musicbrainz",
+  "apple_checked": "2026-09-22",
+  "cover_source_url": "https://coverartarchive.org/release-group/676033ea-5ba2-3b8c-95d4-8679cdbc0249/front-500",
+  "cover_cached": "2026-09-22"
+ },
+ "Boards of Canada::2019-06-23: Societas x Tape": {
+  "status": "ok",
+  "mbid": "1ed7559d-53a9-4513-8ee6-5c05bb0e725b",
+  "genres": [
+   "idm",
+   "electronic",
+   "ambient",
+   "downtempo",
+   "hauntology"
+  ],
+  "genre_source": "artist",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1ed7559d-53a9-4513-8ee6-5c05bb0e725b.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2019",
+  "checked": "2026-09-22",
+  "apple_status": "nomatch",
+  "apple_checked": "2026-09-22",
+  "cover_source_url": "https://coverartarchive.org/release-group/1ed7559d-53a9-4513-8ee6-5c05bb0e725b/front-500",
+  "cover_cached": "2026-09-22"
+ },
+ "Cecil Taylor::Live at the Cafe Montmartre": {
+  "status": "ok",
+  "mbid": "d83fa8fe-437b-47ae-901f-57147d4bc867",
+  "genres": [
+   "jazz",
+   "free jazz",
+   "free improvisation"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d83fa8fe-437b-47ae-901f-57147d4bc867.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1963",
+  "checked": "2026-09-22",
+  "apple_status": "nomatch",
+  "apple_checked": "2026-09-22",
+  "cover_source_url": "https://coverartarchive.org/release-group/d83fa8fe-437b-47ae-901f-57147d4bc867/front-500",
+  "cover_cached": "2026-09-22"
+ },
+ "DJ Koze::DJ-Kicks: DJ Koze": {
+  "status": "ok",
+  "mbid": "1eb01551-f703-45de-b9da-abd76f678901",
+  "genres": [
+   "rock",
+   "electronic",
+   "downtempo",
+   "house",
+   "hip hop",
+   "indie rock",
+   "leftfield"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1eb01551-f703-45de-b9da-abd76f678901.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2015",
+  "checked": "2026-09-22",
+  "apple_status": "nomatch",
+  "apple_checked": "2026-09-22",
+  "cover_source_url": "https://coverartarchive.org/release-group/1eb01551-f703-45de-b9da-abd76f678901/front-500",
+  "cover_cached": "2026-09-22"
+ },
+ "E+E::E+E presenta: El sueño del forastero": {
+  "status": "ok",
+  "mbid": "7082a247-e0ad-4681-b24e-a20e339551d8",
+  "genres": [
+   "electronic",
+   "experimental",
+   "hip hop"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7082a247-e0ad-4681-b24e-a20e339551d8.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2013",
+  "checked": "2026-09-22",
+  "apple_status": "nomatch",
+  "apple_checked": "2026-09-22",
+  "cover_source_url": "https://coverartarchive.org/release-group/7082a247-e0ad-4681-b24e-a20e339551d8/front-500",
+  "cover_cached": "2026-09-22"
+ },
+ "Harmonium::Harmonium / Si on avait besoin d’une cinquième saison": {
+  "status": "ok",
+  "mbid": "8c304a5d-5e3d-4ecd-8343-a3a3b4a7e9d4",
+  "genres": [
+   "rock",
+   "folk rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8c304a5d-5e3d-4ecd-8343-a3a3b4a7e9d4.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2001",
+  "checked": "2026-09-22",
+  "apple_status": "nomatch",
+  "apple_checked": "2026-09-22",
+  "cover_source_url": "https://coverartarchive.org/release-group/8c304a5d-5e3d-4ecd-8343-a3a3b4a7e9d4/front-500",
+  "cover_cached": "2026-09-22"
+ },
+ "Juana Molina::Doga": {
+  "status": "ok",
+  "mbid": "a7834a31-d34d-4512-a969-7f3b1ec2f786",
+  "genres": [
+   "folktronica",
+   "experimental rock",
+   "indie pop",
+   "latin",
+   "ambient pop"
+  ],
+  "genre_source": "artist",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a7834a31-d34d-4512-a969-7f3b1ec2f786.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2025",
+  "checked": "2026-09-22",
+  "apple_status": "ok",
+  "apple_url": "https://music.apple.com/mx/album/doga/1841973440",
+  "apple_title": "DOGA",
+  "apple_via": "search",
+  "apple_checked": "2026-09-22",
+  "cover_source_url": "https://coverartarchive.org/release-group/a7834a31-d34d-4512-a969-7f3b1ec2f786/front-500",
+  "cover_cached": "2026-09-22"
+ },
+ "Julee Cruise::Floating into the Night": {
+  "status": "ok",
+  "mbid": "2eaf4eef-f6bb-3fff-a4e2-79d639bde1d0",
+  "genres": [
+   "dream pop",
+   "ethereal wave",
+   "lounge",
+   "jazz pop",
+   "sophisti-pop",
+   "ambient pop",
+   "dark jazz",
+   "rock",
+   "electronic",
+   "downtempo"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2eaf4eef-f6bb-3fff-a4e2-79d639bde1d0.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1989",
+  "checked": "2026-09-22",
+  "cover_source_url": "https://coverartarchive.org/release-group/2eaf4eef-f6bb-3fff-a4e2-79d639bde1d0/front-500",
+  "cover_cached": "2026-09-22"
+ },
+ "The Caretaker::Everywhere at The End of Time - Stage 1": {
+  "status": "ok",
+  "mbid": "f39fcefa-6489-4f50-84c8-265546584f14",
+  "genres": [
+   "ambient",
+   "electronic",
+   "classical",
+   "experimental",
+   "dark ambient",
+   "sound collage"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f39fcefa-6489-4f50-84c8-265546584f14.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2016",
+  "checked": "2026-09-22",
+  "apple_status": "ok",
+  "apple_url": "https://music.apple.com/mx/album/everywhere-at-the-end-of-time-stage-6/1716926918",
+  "apple_title": "Everywhere at the End of Time (Stage 6)",
+  "apple_via": "musicbrainz",
+  "apple_checked": "2026-09-22",
+  "cover_source_url": "https://coverartarchive.org/release-group/f39fcefa-6489-4f50-84c8-265546584f14/front-500",
+  "cover_cached": "2026-09-22"
  }
 }

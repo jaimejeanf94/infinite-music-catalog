@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-21T20:16:17.948Z",
+ "generated": "2026-09-22T12:03:39.700Z",
  "totals": {
-  "albums": 4417,
-  "rated": 401,
-  "withCover": 4417,
-  "withGenres": 4417,
-  "matched": 4270,
-  "apple": 3643
+  "albums": 4418,
+  "rated": 406,
+  "withCover": 4418,
+  "withGenres": 4418,
+  "matched": 4281,
+  "apple": 3649
  },
  "sections": [
   {
@@ -30,7 +30,7 @@
    "title": "Year is far off MusicBrainz",
    "why": "15 years or more apart. Could be your year, could be MusicBrainz matching a reissue. Check the two and dismiss it if the shelf is right.",
    "action": "recheck",
-   "count": 33,
+   "count": 34,
    "items": [
     {
      "artist": "Aliyah's Interlude",
@@ -151,6 +151,18 @@
       "year": 1969
      },
      "apply": "Use 1992"
+    },
+    {
+     "artist": "Harmonium",
+     "title": "Harmonium / Si on avait besoin d’une cinquième saison",
+     "note": "shelf 1975 vs MusicBrainz 2001",
+     "suggest": {
+      "year": 2001
+     },
+     "was": {
+      "year": 1975
+     },
+     "apply": "Use 2001"
     },
     {
      "artist": "James Brown",
@@ -623,7 +635,7 @@
    "title": "Apple Music matches held back",
    "why": "Probably the right record, not certainly. Open it to check, then link it or reject it.",
    "action": "link",
-   "count": 311,
+   "count": 310,
    "items": [
     {
      "artist": "A Place To Bury Strangers",
@@ -1448,22 +1460,6 @@
      "preview": "https://music.apple.com/mx/album/1191638191",
      "suggest": {
       "apple_music_url": "https://music.apple.com/mx/album/1191638191",
-      "apple_music_locked": true
-     },
-     "was": {
-      "apple_music_url": null,
-      "apple_music_locked": false
-     },
-     "apply": "Link it",
-     "dismiss": "Reject"
-    },
-    {
-     "artist": "Dead Kennedys",
-     "title": "Give Me Convenience or Give Me Death",
-     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
-     "preview": "https://music.apple.com/mx/album/42263746",
-     "suggest": {
-      "apple_music_url": "https://music.apple.com/mx/album/42263746",
       "apple_music_locked": true
      },
      "was": {
@@ -4624,6 +4620,22 @@
      },
      "apply": "Link it",
      "dismiss": "Reject"
+    },
+    {
+     "artist": "The Fall",
+     "title": "Grotesque (After the Gramme)",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1147767174",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1147767174",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
     }
    ]
   },
@@ -4640,7 +4652,7 @@
    "title": "No Apple Music link",
    "why": "Apple Music has nothing under this name. Paste the link on the album's page if it is there, or say it is not.",
    "action": "link",
-   "count": 453,
+   "count": 459,
    "items": [
     {
      "artist": "$ilkmoney",
@@ -4700,6 +4712,12 @@
      "artist": "2 Many DJ's",
      "title": "Under The Covers 3",
      "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "2manydjs",
+     "title": "Under The Covers Vol. 2",
+     "note": "looked for on 2026-09-22",
      "dismiss": "Not there"
     },
     {
@@ -4895,6 +4913,12 @@
      "dismiss": "Not there"
     },
     {
+     "artist": "Boards of Canada",
+     "title": "2019-06-23: Societas x Tape",
+     "note": "looked for on 2026-09-22",
+     "dismiss": "Not there"
+    },
+    {
      "artist": "Bob Dylan",
      "title": "Greatest Hits Volume 1 (Bob Dylan)",
      "note": "looked for on 2026-09-21",
@@ -5012,6 +5036,12 @@
      "artist": "Carissa's Wierd",
      "title": "Songs About Leaving",
      "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Cecil Taylor",
+     "title": "Live at the Cafe Montmartre",
+     "note": "looked for on 2026-09-22",
      "dismiss": "Not there"
     },
     {
@@ -5231,6 +5261,12 @@
      "dismiss": "Not there"
     },
     {
+     "artist": "DJ Koze",
+     "title": "DJ-Kicks: DJ Koze",
+     "note": "looked for on 2026-09-22",
+     "dismiss": "Not there"
+    },
+    {
      "artist": "DJ Premier Worldwide Mix by soulchasers on #SoundCloud",
      "title": "DJ Premier Worldwide Mix by soulchasers on #SoundCloud",
      "note": "looked for on 2026-09-21",
@@ -5300,6 +5336,12 @@
      "artist": "Drudkh",
      "title": "Кров у наших криницях (Blood in Our Wells)",
      "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "E+E",
+     "title": "E+E presenta: El sueño del forastero",
+     "note": "looked for on 2026-09-22",
      "dismiss": "Not there"
     },
     {
@@ -5558,6 +5600,12 @@
      "artist": "Gris",
      "title": "Il était une forêt...",
      "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Harmonium",
+     "title": "Harmonium / Si on avait besoin d’une cinquième saison",
+     "note": "looked for on 2026-09-22",
      "dismiss": "Not there"
     },
     {
@@ -6103,42 +6151,6 @@
     {
      "artist": "Misfits",
      "title": "Walk Among Us",
-     "note": "looked for on 2026-09-21",
-     "dismiss": "Not there"
-    },
-    {
-     "artist": "Modest Mouse",
-     "title": "The Moon And Antarctica",
-     "note": "looked for on 2026-09-21",
-     "dismiss": "Not there"
-    },
-    {
-     "artist": "Moonsorrow",
-     "title": "V: Hävitetty",
-     "note": "looked for on 2026-09-21",
-     "dismiss": "Not there"
-    },
-    {
-     "artist": "Mos Def",
-     "title": "Black on Both Sides",
-     "note": "looked for on 2026-09-21",
-     "dismiss": "Not there"
-    },
-    {
-     "artist": "Mos Def",
-     "title": "The Ecstatic",
-     "note": "looked for on 2026-09-21",
-     "dismiss": "Not there"
-    },
-    {
-     "artist": "Motion City Soundtrack",
-     "title": "Commit This to Memory",
-     "note": "looked for on 2026-09-21",
-     "dismiss": "Not there"
-    },
-    {
-     "artist": "Mr Twin Sister",
-     "title": "Mr Twin Sister",
      "note": "looked for on 2026-09-21",
      "dismiss": "Not there"
     }

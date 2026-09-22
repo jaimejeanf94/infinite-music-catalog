@@ -9,24 +9,6 @@
   "_why": "drops a credited artist (2 names -> 1)"
  },
  {
-  "from": "2 Many DJ's::Under The Covers 2",
-  "to": "2manydjs::Under The Covers Vol. 2",
-  "_pass": "artist",
-  "_titleRatio": 0.247,
-  "_artistRatio": 0,
-  "_mbid": "8f6749d9-063a-4648-a6f2-93fe187d24ba",
-  "_why": "looser than the confident band"
- },
- {
-  "from": "Ajj::People That Can Eat People Are The Luckiest People in the World",
-  "to": "AJJ::People Who Can Eat People Are the Luckiest People in the World",
-  "_pass": "artist",
-  "_titleRatio": 0.058,
-  "_artistRatio": 0,
-  "_mbid": "676033ea-5ba2-3b8c-95d4-8679cdbc0249",
-  "_why": "the title loses \"that\" — likely a different release"
- },
- {
   "from": "Animal Collective::Spirit They're Gone, Spirit They've Vanished",
   "to": "Animal Collective::Spirit They’re Gone Spirit They’ve Vanished / Danse Manatee",
   "_pass": "artist",
@@ -54,33 +36,6 @@
   "_why": "sequence number changed (Pt. 2 / Vol. 3 / Part One)"
  },
  {
-  "from": "Cecil Taylor::At the Café Montmartré",
-  "to": "Cecil Taylor::Live at the Cafe Montmartre",
-  "_pass": "artist",
-  "_titleRatio": 0.17,
-  "_artistRatio": 0,
-  "_mbid": "d83fa8fe-437b-47ae-901f-57147d4bc867",
-  "_why": "the title gains \"cafe\" — likely a different release; looser than the confident band"
- },
- {
-  "from": "DJ Koze::DJ Kicks",
-  "to": "DJ Koze::DJ-Kicks: DJ Koze",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "1eb01551-f703-45de-b9da-abd76f678901",
-  "_why": "the title gains \"koze\" — likely a different release"
- },
- {
-  "from": "E+E::El sueño del Forastero",
-  "to": "E+E::E+E presenta: El sueño del forastero",
-  "_pass": "artist",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "7082a247-e0ad-4681-b24e-a20e339551d8",
-  "_why": "the title gains \"presenta\" — likely a different release"
- },
- {
   "from": "Frank Zappa::The Grand Wazoo",
   "to": "Frank Zappa::The Grand Wazoo Orchestra",
   "_pass": "title",
@@ -88,51 +43,6 @@
   "_artistRatio": 0,
   "_mbid": "bc217ea7-ec6b-31ee-92ef-9479c8285824",
   "_why": "the title gains \"orchestra\" — likely a different release"
- },
- {
-  "from": "Harmonium::Si on avait besoin d'une cinquième saison",
-  "to": "Harmonium::Harmonium / Si on avait besoin d’une cinquième saison",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "8c304a5d-5e3d-4ecd-8343-a3a3b4a7e9d4",
-  "_why": "the title gains \"harmonium\" — likely a different release"
- },
- {
-  "from": "2 Many DJ's::A Tribute to Keith Forsey",
-  "to": "2manydjs::2manydjs present A Tribute to Keith Forsey",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "270ea2ef-3d76-489b-9d9d-a832aa35d937",
-  "_why": "the title gains \"2manydjs present\" — likely a different release; sequence number changed (Pt. 2 / Vol. 3 / Part One)"
- },
- {
-  "from": "2 Many DJ's::A Tribute To Compass Point",
-  "to": "2manydjs::2manydjs presents A Tribute to Compass Point",
-  "_pass": "artist",
-  "_titleRatio": 0.13,
-  "_artistRatio": 0,
-  "_mbid": "1a960397-0f3d-4121-a53a-3b029b5ee26d",
-  "_why": "the title gains \"2manydjs presents\" — likely a different release; sequence number changed (Pt. 2 / Vol. 3 / Part One)"
- },
- {
-  "from": "Azealia Banks::1992",
-  "to": "Azealia Banks::1991",
-  "_pass": "artist",
-  "_titleRatio": 0.25,
-  "_artistRatio": 0,
-  "_mbid": "b296b523-bd66-480f-8a8f-c6d09a09846b",
-  "_why": "sequence number changed (Pt. 2 / Vol. 3 / Part One); looser than the confident band"
- },
- {
-  "from": "Boards of Canada::Societas X Tape",
-  "to": "Boards of Canada::2019-06-23: Societas x Tape",
-  "_pass": "artist",
-  "_titleRatio": 0.05,
-  "_artistRatio": 0,
-  "_mbid": "1ed7559d-53a9-4513-8ee6-5c05bb0e725b",
-  "_why": "the title gains \"2019\" — likely a different release; sequence number changed (Pt. 2 / Vol. 3 / Part One)"
  },
  {
   "from": "Creedence Clearwater Revival::Chronicle",

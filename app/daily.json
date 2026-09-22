@@ -1,68 +1,78 @@
 {
- "date": "2026-09-21",
+ "date": "2026-09-22",
  "picks": [
   {
-   "artist": "Basic Channel",
-   "title": "Quadrant Dub",
-   "year": 1994,
+   "artist": "Brittany Howard",
+   "title": "What Now",
+   "year": 2024,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/08cd4c08-0233-3c3d-9acc-a4f7fb6beedd.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/164fc46f-f349-4708-a676-c93f686b761a.jpg",
    "genres": [
-    "dub techno",
-    "electronic",
-    "deep house"
+    "progressive soul",
+    "funk rock",
+    "neo-psychedelia"
    ]
   },
   {
-   "artist": "Navy Blue",
-   "title": "Ways of Knowing",
-   "year": 2023,
+   "artist": "Carcass",
+   "title": "Necroticism: Descanting the Insalubrious",
+   "year": 1991,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/386f46a5-6bb1-402c-aaa3-ad0e83fe6b4b.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8fb7386e-efb6-3c55-8ee1-c80d14267080.jpg",
+   "genres": [
+    "death metal",
+    "rock",
+    "grindcore"
+   ]
+  },
+  {
+   "artist": "Pete Rock & CL Smooth",
+   "title": "Mecca and the Soul Brother",
+   "year": 1992,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7eb6da03-0f1f-3303-b079-8cba2f18c530.jpg",
    "genres": [
     "hip hop",
-    "neo soul",
-    "abstract hip hop"
+    "jazz rap",
+    "boom bap"
    ]
   },
   {
-   "artist": "芸能山城組 [Geinoh Yamashirogumi]",
-   "title": "Symphonic Suite AKIRA",
-   "year": 1988,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/74b8ff9b70e977e1.jpg",
+   "artist": "Pavement",
+   "title": "Brighten The Corners",
+   "year": 1997,
+   "score": 85,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/071af447-389f-360d-aced-1d0ae3e0d5ec.jpg",
    "genres": [
-    "gamelan",
-    "experimental",
-    "electronic"
+    "rock",
+    "indie rock",
+    "lo-fi"
    ]
   },
   {
-   "artist": "Slint",
-   "title": "Spiderland",
-   "year": 1991,
-   "score": 70,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e9f4b96a-94df-36be-9659-c9a811caead6.jpg",
+   "artist": "Manitoba",
+   "title": "Start Breaking My Heart",
+   "year": 2001,
+   "score": 90,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b447342e-aa7d-3a3e-a21b-05fb6699f1e6.jpg",
    "genres": [
-    "post-rock",
-    "math rock",
-    "rock"
-   ]
-  },
-  {
-   "artist": "JPEGMAFIA",
-   "title": "All My Heroes Are Cornballs",
-   "year": 2019,
-   "score": 95,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c35a4a3f-d584-42fc-ac0f-b9592aedd3b2.jpg",
-   "genres": [
-    "experimental hip hop",
-    "hardcore hip hop",
-    "cloud rap"
+    "electronic",
+    "idm",
+    "breaks"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-09-22",
+   "keys": [
+    "Brittany Howard::What Now",
+    "Carcass::Necroticism: Descanting the Insalubrious",
+    "Pete Rock & CL Smooth::Mecca and the Soul Brother",
+    "Pavement::Brighten The Corners",
+    "Manitoba::Start Breaking My Heart"
+   ]
+  },
   {
    "date": "2026-09-21",
    "keys": [
