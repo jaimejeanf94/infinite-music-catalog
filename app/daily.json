@@ -1,68 +1,78 @@
 {
- "date": "2026-09-24",
+ "date": "2026-09-25",
  "picks": [
   {
-   "artist": "David Bowie",
-   "title": "Changesbowie",
-   "year": 1990,
+   "artist": "The White Stripes",
+   "title": "Elephant",
+   "year": 2003,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1b22a0bf-efea-3330-b854-bf6632a3e499.jpg",
-   "genres": [
-    "rock",
-    "pop rock",
-    "glam rock"
-   ]
-  },
-  {
-   "artist": "Converge",
-   "title": "No Heroes",
-   "year": 2006,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8b6e4596-796f-3097-96ee-dc6de9908f36.jpg",
-   "genres": [
-    "metalcore",
-    "hardcore punk",
-    "mathcore"
-   ]
-  },
-  {
-   "artist": "Gaby Amarantos",
-   "title": "ROCK DOIDO",
-   "year": 2025,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3793d92b-728c-4f63-81cd-bd4361837cd7.jpg",
-   "genres": [
-    "tecnobrega",
-    "brega calypso",
-    "tecnofunk"
-   ]
-  },
-  {
-   "artist": "The Chemical Brothers",
-   "title": "Brotherhood",
-   "year": 2008,
-   "score": 80,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/67f39a77-5fcd-3822-aa0a-47ae2ceed888.jpg",
-   "genres": [
-    "electronic",
-    "breakbeat",
-    "big beat"
-   ]
-  },
-  {
-   "artist": "Coldplay",
-   "title": "Viva La Vida or Death and All His Friends",
-   "year": 2008,
-   "score": 100,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a1084754-8bb5-3ebc-bbd2-6a27d48e798a.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d85b9684-4277-3565-b89b-115c8b4b7fd3.jpg",
    "genres": [
     "alternative rock",
-    "pop rock",
-    "rock"
+    "rock",
+    "blues rock"
+   ]
+  },
+  {
+   "artist": "Brockhampton",
+   "title": "Saturation II",
+   "year": 2017,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5417e003-d352-4a69-b4dc-6cc85e9edac2.jpg",
+   "genres": [
+    "west coast hip hop",
+    "pop",
+    "experimental"
+   ]
+  },
+  {
+   "artist": "The Mars Volta",
+   "title": "De-Loused in the Comatorium",
+   "year": 2003,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/605124dd-0f2a-382b-a8ba-720658c1fe45.jpg",
+   "genres": [
+    "experimental rock",
+    "rock",
+    "post-hardcore"
+   ]
+  },
+  {
+   "artist": "James Blake",
+   "title": "Assume Form",
+   "year": 2019,
+   "score": 70,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8fceea87-5273-408b-a2f3-723d9b64800a.jpg",
+   "genres": [
+    "art pop",
+    "alternative r&b",
+    "electronic"
+   ]
+  },
+  {
+   "artist": "Underworld",
+   "title": "Dubnobasswithmyheadman",
+   "year": 1993,
+   "score": 85,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3fa924b2-aae8-3ab6-b2d3-f647a8a8e8f6.jpg",
+   "genres": [
+    "electronic",
+    "techno",
+    "progressive house"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-09-25",
+   "keys": [
+    "The White Stripes::Elephant",
+    "Brockhampton::Saturation II",
+    "The Mars Volta::De-Loused in the Comatorium",
+    "James Blake::Assume Form",
+    "Underworld::Dubnobasswithmyheadman"
+   ]
+  },
   {
    "date": "2026-09-24",
    "keys": [
