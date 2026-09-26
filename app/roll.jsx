@@ -11,6 +11,14 @@ const MODES = [
   { id: "unscored", label: "Unrated",   hint: "Only albums you have never scored" },
 ];
 
+// A link into the shelf. `album` is read once by the shelf to open that
+// album's sheet, then dropped from the URL.
+const shelfHref = (params) => "#/browse?" + new URLSearchParams(params);
+
+// "Just rolled", kept outside the component so a trip to the shelf and back
+// does not empty it. Kept for the page's lifetime only; a reload starts over.
+let rolled = [];
+
 function RollView({ albums, owner, onPatch, onRoll, params, setParams }) {
   // The mode lives in the URL, the way the shelf's filters do. It used to sit
   // in localStorage, which meant a browser that had ever picked a mode kept it
@@ -34,9 +42,21 @@ function RollView({ albums, owner, onPatch, onRoll, params, setParams }) {
     ? Math.min(100, Math.max(0, Number(params.get("share"))))
     : 25;
   const setShare = (n) => setParam("share", String(n), { push: false });
-  const [current, setCurrent] = React.useState(null);
-  const [history, setHistory] = React.useState([]);   // most recent first
+
+  // The album on screen is in the URL too. The artist and the title link to
+  // the shelf, and this screen unmounts when you follow them -- so without it
+  // Back returned to a fresh roll, and the record you went to look at was gone.
+  const [current, setCurrent] = React.useState(() =>
+    albums.find((a) => String(a.id) === params.get("album")) || null);
+  const [history, setHistory] = React.useState(() => rolled);   // most recent first
   const [flash, setFlash] = React.useState(null);
+
+  // Replaced, not pushed: Back should step out of the roll, not through every
+  // album it served.
+  React.useEffect(() => {
+    if (current) setParam("album", String(current.id), { push: false });
+  }, [current?.id]);
+  React.useEffect(() => { rolled = history; }, [history]);
 
   // The album in `current` is a snapshot; re-read it from the live list so a
   // score set here shows up immediately on the card.
@@ -97,6 +117,9 @@ function RollView({ albums, owner, onPatch, onRoll, params, setParams }) {
       // keystroke scored the album on screen AND was swallowed, so switching
       // tabs from the Roll screen quietly rated whatever happened to be up.
       if (e.metaKey || e.ctrlKey || e.altKey) return;
+      // Enter on a focused link follows it. Without this it rolled instead,
+      // and preventDefault swallowed the navigation.
+      if ((e.key === " " || e.key === "Enter") && e.target.closest("a")) return;
       const n = Number(e.key);
       if (n >= 1 && n <= 7) { e.preventDefault(); return score(Roller.SCORES[n - 1]); }
       if (e.key === "0") { e.preventDefault(); return score(album?.score); }
@@ -156,8 +179,22 @@ function RollView({ albums, owner, onPatch, onRoll, params, setParams }) {
         </div>
 
         <div className="card__body">
-          <div className="card__artist">{album.artist}</div>
-          <h2 className="card__title">{album.title}</h2>
+          {/* Both lead to the shelf, filtered to the artist: the name stops
+              there, the title also opens the album's own sheet on top. Real
+              links, so they can be opened in a new tab without losing the
+              roll. */}
+          <a className="card__artist card__artist--link"
+             href={shelfHref({ artist: album.artist })}
+             title={`Show everything by ${album.artist}`}>
+            {album.artist}
+          </a>
+          <h2 className="card__title">
+            <a className="card__title-link"
+               href={shelfHref({ artist: album.artist, album: album.id })}
+               title="Open it on the shelf">
+              {album.title}
+            </a>
+          </h2>
           <div className="card__meta">
             {album.year || "—"}
             {album.score != null && <span className="badge">{Roller.scoreLabel(album.score)}</span>}
