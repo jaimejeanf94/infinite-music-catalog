@@ -17,6 +17,16 @@
 // when the image itself arrives, which is a state change rather than
 // choreography.
 
+// A link into the shelf, shared with roll.jsx. `album` is read once by the
+// shelf to open that album's sheet, then dropped from the URL.
+const shelfHref = (params) => "#/browse?" + new URLSearchParams(params);
+
+// A pick whose record could not be found in the live collection (renamed or
+// deleted since the nightly run) has no id; it still gets its artist's shelf.
+const albumHref = (album) => shelfHref(album.id != null
+  ? { artist: album.artist, album: album.id }
+  : { artist: album.artist });
+
 function LeadArt({ album }) {
   const [on, setOn] = React.useState(false);
   const ref = React.useRef(null);
@@ -45,21 +55,30 @@ function LeadArt({ album }) {
   );
 }
 
-function Lead({ album, onOpen }) {
+// The same rules as the roll: the artist leads to their shelf, the record --
+// its title, or its sleeve -- to that shelf with its own sheet open on top.
+// The sleeve is a second way to the same place, so it is out of the tab order
+// and hidden from screen readers rather than announced twice.
+function Lead({ album }) {
   return (
     <article className="lead">
-      <button className="lead__hit" onClick={() => onOpen(album)}>
+      <a className="lead__art-link" href={albumHref(album)} tabIndex={-1} aria-hidden="true">
         <LeadArt album={album} />
-        <span className="lead__artist">{album.artist}</span>
-        <span className="lead__title">{album.title}</span>
-        <span className="lead__meta">
-          <span>{album.year || "—"}</span>
-          {album.score != null && <b className="lead__score">{Roller.scoreLabel(album.score)}</b>}
-          {!!album.genres?.length && (
-            <span className="lead__genres">{album.genres.join(" · ")}</span>
-          )}
-        </span>
-      </button>
+      </a>
+      <span className="lead__artist">
+        <a className="hoverline" href={shelfHref({ artist: album.artist })}
+           title={`Show everything by ${album.artist}`}>{album.artist}</a>
+      </span>
+      <span className="lead__title">
+        <a className="hoverline" href={albumHref(album)} title="Open it on the shelf">{album.title}</a>
+      </span>
+      <span className="lead__meta">
+        <span>{album.year || "—"}</span>
+        {album.score != null && <b className="lead__score">{Roller.scoreLabel(album.score)}</b>}
+        {!!album.genres?.length && (
+          <span className="lead__genres">{album.genres.join(" · ")}</span>
+        )}
+      </span>
     </article>
   );
 }
@@ -68,17 +87,25 @@ function Lead({ album, onOpen }) {
 // it is quiet, and four more sleeves would make five equal cards again by
 // another route. The year sits where a list number would -- it is the same
 // width every time and it actually tells you something.
-function Stub({ album, onOpen }) {
+//
+// One link per row, to the artist's shelf. The lead has two (artist, and the
+// record itself), but four small rows each split into two targets meant
+// aiming for the right line of text. The link is stretched over the whole
+// row (styles.css), so the row is one big target on a phone -- and it is the
+// row that lights up, not the name, since underlining one line invites a
+// click on the other.
+function Stub({ album }) {
   return (
     <li className="stub">
-      <button className="stub__hit" onClick={() => onOpen(album)}>
-        <span className="stub__year">{album.year || "—"}</span>
-        <span className="stub__name">
-          <span className="stub__artist">{album.artist}</span>
-          <span className="stub__title">{album.title}</span>
+      <span className="stub__year">{album.year || "—"}</span>
+      <span className="stub__name">
+        <span className="stub__artist">
+          <a className="stub__link" href={shelfHref({ artist: album.artist })}
+             title={`Show everything by ${album.artist}`}>{album.artist}</a>
         </span>
-        {album.score != null && <span className="stub__score">{Roller.scoreLabel(album.score)}</span>}
-      </button>
+        <span className="stub__title">{album.title}</span>
+      </span>
+      {album.score != null && <span className="stub__score">{Roller.scoreLabel(album.score)}</span>}
     </li>
   );
 }
@@ -128,7 +155,7 @@ function HomeView({ albums, onGo }) {
   const pickKey = (p) => `${p.artist}::${p.title}`;
   const picks = (daily?.picks || []).map((p) => {
     const now = live.get(pickKey(p));
-    return now ? { ...p, score: now.score, year: now.year, cover_url: now.cover_url || p.cover_url } : p;
+    return now ? { ...p, id: now.id, score: now.score, year: now.year, cover_url: now.cover_url || p.cover_url } : p;
   }).filter(Roller.inRotation);
   // First pick that was unrated when it was drawn, falling back to the first
   // pick on a day that somehow has none -- the page must still have a lead.
@@ -136,10 +163,6 @@ function HomeView({ albums, onGo }) {
   const leadAt = Math.max(0, picks.findIndex((p) => drawnUnrated.has(pickKey(p))));
   const lead = picks[leadAt];
   const rest = picks.filter((_, i) => i !== leadAt);
-
-  // The shelf's artist filter is exact, so this lands on the artist's own
-  // records rather than on whatever a title search happens to match.
-  const open = (a) => onGo("browse", { artist: a.artist });
 
   return (
     <div className="home">
@@ -167,14 +190,14 @@ function HomeView({ albums, onGo }) {
 
       {lead && (
         <div className="spread">
-          <Lead album={lead} onOpen={open} />
+          <Lead album={lead} />
 
           {rest.length > 0 && (
             <div className="margin">
               <p className="margin__label">Also today</p>
               <ol className="margin__list">
                 {rest.map((a) => (
-                  <Stub key={`${a.artist}::${a.title}`} album={a} onOpen={open} />
+                  <Stub key={`${a.artist}::${a.title}`} album={a} />
                 ))}
               </ol>
             </div>

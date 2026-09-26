@@ -11,10 +11,6 @@ const MODES = [
   { id: "unscored", label: "Unrated",   hint: "Only albums you have never scored" },
 ];
 
-// A link into the shelf. `album` is read once by the shelf to open that
-// album's sheet, then dropped from the URL.
-const shelfHref = (params) => "#/browse?" + new URLSearchParams(params);
-
 // "Just rolled", kept outside the component so a trip to the shelf and back
 // does not empty it. Kept for the page's lifetime only; a reload starts over.
 let rolled = [];
