@@ -203,9 +203,9 @@ main { max-width: 1100px; margin: 0 auto; padding: 20px 16px 40px; }
   font-family: var(--mono); font-size: 12px; letter-spacing: 0.18em;
   text-transform: uppercase; color: var(--accent-text);
 }
-/* The same line as a control. It is a button on the album sheet and stays a
-   plain div on the roll, so the reset lives here rather than on .card__artist:
-   a button brings its own background, padding, centring and font. */
+/* The same line as a control: a button on the album sheet, a link on the
+   roll. The reset lives here rather than on .card__artist because a button
+   brings its own background, padding, centring and font. */
 .card__artist--link {
   display: block; width: 100%; text-align: left;
   background: none; border: 0; padding: 0;
@@ -223,6 +223,20 @@ main { max-width: 1100px; margin: 0 auto; padding: 20px 16px 40px; }
 }
 .card__artist--link:hover { text-decoration-color: currentColor; }
 .card__artist--link:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 3px;
+}
+/* The roll's title, as a way onto the shelf. Same manners as the artist line:
+   no underline until you point at it. */
+.card__title-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
+  transition: text-decoration-color 120ms ease;
+}
+.card__title-link:hover { text-decoration-color: currentColor; }
+.card__title-link:focus-visible {
   outline: 2px solid var(--accent); outline-offset: 3px;
 }
 .card__title {
@@ -351,8 +365,12 @@ main { max-width: 1100px; margin: 0 auto; padding: 20px 16px 40px; }
 /* ── browse ───────────────────────────────────────────────────────────── */
 
 .toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 12px; }
+/* The search takes a row of its own, with every filter on the row under it.
+   Sharing one row fit with 7px to spare until the Artist box joined Genre,
+   and after that the sort control was left stranded alone on a second line
+   at every width the column allows. */
 .search {
-  flex: 1 1 260px; background: transparent;
+  flex: 1 1 100%; background: transparent;
   border: 0; border-bottom: 1px solid var(--line);
   border-radius: 0; padding: 10px 2px;
   font-family: var(--body); font-size: 17px; color: var(--ink);
@@ -602,6 +620,7 @@ button, a, input, select, textarea, .tile { touch-action: manipulation; }
   background: var(--panel); border: 1px solid var(--line);
   overscroll-behavior: contain;
 }
+.combo__list--end { left: auto; right: 0; }
 .combo__opt {
   display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
   width: 100%; padding: 8px 12px; border: 0; background: none;

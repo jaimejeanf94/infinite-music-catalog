@@ -503,27 +503,53 @@ function Detail({ album, owner, onPatch, onDelete, onClose, index, onGenre, onAr
   );
 }
 
-// Genre filter. The options are genres.js's roots -- a couple of dozen, from
-// rock on well over half the shelf down to a few on a few dozen albums --
-// so a plain dropdown would be scanned top to bottom every time. Instead they
-// are offered ranked by how much of YOUR collection they cover, with a count
+// The shelf's two pick-one filters, genre and artist. Genres are genres.js's
+// roots -- a couple of dozen, from rock on well over half the shelf down to a
+// few on a few dozen albums -- and artists run to well over a thousand, so a
+// plain dropdown would be scanned top to bottom every time. Instead they are
+// offered ranked by how much of YOUR collection they cover, with a count
 // beside each, and typing narrows them.
 //
 // Built as a real combobox rather than a native <select> so it can show counts
 // and be searched -- which means the keyboard behaviour is ours to implement.
-function GenreFilter({ options, value, onChange }) {
+//
+// Once a value is set, the box gives way to a chip that clears it, in the same
+// spot. The artist filter used to be ONLY a chip: it appeared out of nowhere
+// when a name was clicked in a sheet, beside nothing that explained it.
+function FacetFilter({ options, value, onChange, noun, placeholder, chipClass = "" }) {
   const [open, setOpen] = React.useState(false);
   const [query, setQuery] = React.useState("");
   const [active, setActive] = React.useState(0);
   const boxRef = React.useRef(null);
-  const listId = "genre-options";
+  const listRef = React.useRef(null);
+  const listId = `${noun}-options`;
 
+  // The list is wider than the box, and on a phone the box can sit anywhere
+  // in its row -- beside the other filter, or wrapped to the start of a new
+  // one, depending on the screen and on how long an artist chip is. Opened
+  // from the right half it ran past the edge, cutting off the counts and
+  // scrolling the whole page sideways. So it is measured once it is drawn,
+  // and hangs from the box's right edge instead when it would not fit.
+  // Before paint, so the unfitted position is never seen.
+  const [alignEnd, setAlignEnd] = React.useState(false);
+  React.useLayoutEffect(() => {
+    if (!open) return setAlignEnd(false);
+    const r = listRef.current?.getBoundingClientRect();
+    if (r && r.right > document.documentElement.clientWidth) setAlignEnd(true);
+  }, [open]);
+
+  // Names that START with what you typed come first: typing "Can" should put
+  // Can above American Football, not leave it wherever its count ranks it.
   const matches = React.useMemo(() => {
-    const needle = query.trim().toLowerCase();
-    const hits = needle
-      ? options.filter(([g]) => g.toLowerCase().includes(needle))
-      : options;
-    return hits.slice(0, 40);
+    const needle = loose(query);
+    if (!needle) return options.slice(0, 40);
+    const starts = [], contains = [];
+    for (const o of options) {
+      const name = loose(o[0]);
+      if (name.startsWith(needle)) starts.push(o);
+      else if (name.includes(needle)) contains.push(o);
+    }
+    return [...starts, ...contains].slice(0, 40);
   }, [options, query]);
 
   React.useEffect(() => setActive(0), [query]);
@@ -547,10 +573,11 @@ function GenreFilter({ options, value, onChange }) {
 
   if (value) {
     return (
-      <button className="chip chip--on genre-clear" onClick={() => onChange("")}
-              title="Clear the genre filter">
-        {value} <span aria-hidden="true">×</span>
-        <span className="sr-only">, clear genre filter</span>
+      <button className={"chip chip--on genre-clear " + chipClass} onClick={() => onChange("")}
+              title={`Showing only ${value} — click to clear the ${noun} filter`}>
+        <span className={chipClass ? chipClass + "__name" : undefined}>{value}</span>
+        <span aria-hidden="true">×</span>
+        <span className="sr-only">, clear {noun} filter</span>
       </button>
     );
   }
@@ -564,16 +591,18 @@ function GenreFilter({ options, value, onChange }) {
         aria-expanded={open}
         aria-controls={listId}
         aria-autocomplete="list"
-        aria-label="Filter by genre"
-        placeholder="Genre…"
+        aria-label={`Filter by ${noun}`}
+        placeholder={placeholder}
         value={query}
+        spellCheck={false}
         onChange={(e) => { setQuery(e.target.value); setOpen(true); }}
         onFocus={() => setOpen(true)}
         onKeyDown={onKey}
       />
       {open && (
-        <ul className="combo__list" id={listId} role="listbox">
-          {matches.length === 0 && <li className="combo__empty">No genre matches “{query}”</li>}
+        <ul className={"combo__list" + (alignEnd ? " combo__list--end" : "")}
+            id={listId} role="listbox" ref={listRef}>
+          {matches.length === 0 && <li className="combo__empty">No {noun} matches “{query}”</li>}
           {matches.map(([g, n], i) => (
             <li key={g} role="option" aria-selected={i === active}>
               <button
@@ -697,6 +726,18 @@ function BrowseView({ albums, owner, onPatch, onAdd, onDelete, onRestore,
   const index = React.useMemo(() => Genres.buildIndex(albums), [albums]);
   const genreOptions = React.useMemo(
     () => Genres.genreOptions(albums, index), [albums, index]);
+  // Every artist with a count, most records first. Grouped the same way the
+  // filter compares, so two spellings that differ only by a stray
+  // non-breaking space are one artist rather than two rows.
+  const artistOptions = React.useMemo(() => {
+    const byKey = new Map();
+    for (const a of albums) {
+      const key = loose(a.artist);
+      const hit = byKey.get(key);
+      if (hit) hit[1] += 1; else byKey.set(key, [a.artist, 1]);
+    }
+    return [...byKey.values()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  }, [albums]);
 
   const list = React.useMemo(() => {
     const needle = loose(q);
@@ -734,6 +775,18 @@ function BrowseView({ albums, owner, onPatch, onAdd, onDelete, onRestore,
     return () => window.removeEventListener("scroll", onScroll);
   }, [list.length]);
 
+  // ?album=<id> is an instruction, not state: open that album's sheet, then
+  // take it out of the address. The roll links here with it. Keeping it in
+  // the URL would mean every close has to rewrite history, and Back would
+  // reopen sheets you had already closed.
+  const albumParam = params.get("album");
+  React.useEffect(() => {
+    if (!albumParam) return;
+    const hit = albums.find((a) => String(a.id) === albumParam);
+    if (hit) setOpen(hit);
+    setParam("album", "", { push: false });
+  }, [albumParam]);
+
   const live = open ? albums.find((a) => a.id === open.id) || open : null;
 
   return (
@@ -755,21 +808,15 @@ function BrowseView({ albums, owner, onPatch, onAdd, onDelete, onRestore,
                       onClick={() => setParam("filter", id === "all" ? "" : id)}>{label}</button>
             ))}
         </div>
-        {/* The artist filter is invisible otherwise -- it is set by clicking a
-            name inside a sheet that then closes, so without this the shelf just
-            goes quiet and there is nothing to explain why or to undo it. Same
-            shape as the genre chip beside it. */}
-        {artist && (
-          <button className="chip chip--on genre-clear artist-clear"
-                  onClick={() => setParam("artist", "")}
-                  title={`Showing only ${artist} — click to show the whole shelf`}>
-            <span className="artist-clear__name">{artist}</span>
-            <span aria-hidden="true">×</span>
-            <span className="sr-only">, clear artist filter</span>
-          </button>
-        )}
+        {/* A name clicked in a sheet, on the roll or on the front page lands
+            here as a chip in the Artist box's own place, so the filter that
+            is quietly narrowing the shelf is the one sitting beside Genre. */}
+        <FacetFilter options={artistOptions} value={artist} noun="artist"
+                     placeholder="Artist…" chipClass="artist-clear"
+                     onChange={(name) => setParam("artist", name)} />
         {genreOptions.length > 0 && (
-          <GenreFilter options={genreOptions} value={genre}
+          <FacetFilter options={genreOptions} value={genre} noun="genre"
+                       placeholder="Genre…"
                        onChange={(g) => setParam("genre", g)} />
         )}
         {owner && (
