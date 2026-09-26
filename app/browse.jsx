@@ -694,7 +694,6 @@ function BrowseView({ albums, owner, onPatch, onAdd, onDelete, onRestore,
   // bookmarked and shared, and Back undoes a filter instead of leaving the app.
   const q = params.get("q") || "";
   const filter = params.get("filter") || "all";
-  const sort = params.get("sort") || "artist";
   const genre = params.get("genre") || "";
   // Exact, not a search. The free-text box matches substrings across artist,
   // title and year, which is right for typing and wrong for "show me this
@@ -704,6 +703,11 @@ function BrowseView({ albums, owner, onPatch, onAdd, onDelete, onRestore,
   // drags in American Football. An artist is an identity, so it gets its own
   // filter.
   const artist = params.get("artist") || "";
+  // One artist's records read as a discography, first album first; A-Z by
+  // artist would only be A-Z by title under one name. A sort chosen by hand
+  // still wins, and clearing the artist puts the shelf's own default back.
+  const defaultSort = artist ? "oldest" : "artist";
+  const sort = params.get("sort") || defaultSort;
 
   // Typing replaces the current entry; picking a filter pushes a new one. Back
   // should step through the filters you chose, not through every keystroke.
@@ -757,6 +761,8 @@ function BrowseView({ albums, owner, onPatch, onAdd, onDelete, onRestore,
       artist: (a, b) => a.artist.localeCompare(b.artist) || a.title.localeCompare(b.title),
       title:  (a, b) => a.title.localeCompare(b.title),
       year:   (a, b) => (b.year || 0) - (a.year || 0),
+      // Undated records go last rather than first: 0 is not "very old".
+      oldest: (a, b) => (a.year || Infinity) - (b.year || Infinity) || a.title.localeCompare(b.title),
       score:  (a, b) => (b.score ?? -1) - (a.score ?? -1) || a.artist.localeCompare(b.artist),
     }[sort];
     return [...out].sort(by);
@@ -824,10 +830,11 @@ function BrowseView({ albums, owner, onPatch, onAdd, onDelete, onRestore,
             + Add album
           </button>
         )}
-        <select className="sort" value={sort} onChange={(e) => setParam("sort", e.target.value === "artist" ? "" : e.target.value)}>
+        <select className="sort" value={sort} onChange={(e) => setParam("sort", e.target.value === defaultSort ? "" : e.target.value)}>
           <option value="artist">Artist A–Z</option>
           <option value="title">Album A–Z</option>
           <option value="year">Newest first</option>
+          <option value="oldest">Oldest first</option>
           <option value="score">Highest rated</option>
         </select>
       </div>
@@ -900,6 +907,7 @@ function BrowseView({ albums, owner, onPatch, onAdd, onDelete, onRestore,
                   next.delete("q");
                   next.delete("genre");
                   next.delete("filter");
+                  next.delete("sort");     // so it opens in release order
                   setParams(next, { push: true });
                   setOpen(null);
                 }}
