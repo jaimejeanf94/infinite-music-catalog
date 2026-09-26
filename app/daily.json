@@ -1,68 +1,77 @@
 {
- "date": "2026-09-25",
+ "date": "2026-09-26",
  "picks": [
   {
-   "artist": "The White Stripes",
-   "title": "Elephant",
-   "year": 2003,
+   "artist": "Steve Reich",
+   "title": "Music for 18 Musicians",
+   "year": 1978,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d85b9684-4277-3565-b89b-115c8b4b7fd3.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4885c9c3-5026-3bc6-a5bc-1d7ac896dab1.jpg",
    "genres": [
-    "alternative rock",
+    "modern classical",
+    "classical",
+    "minimalism"
+   ]
+  },
+  {
+   "artist": "my bloody valentine",
+   "title": "Tremolo EP",
+   "year": 1991,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/edec025d-a17a-317b-bb51-e326b8a1ba31.jpg",
+   "genres": [
+    "shoegaze",
+    "noise pop",
+    "rock"
+   ]
+  },
+  {
+   "artist": "Silversun Pickups",
+   "title": "Carnavas",
+   "year": 2006,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4eb68c5b-dc3f-3a1d-bcc1-9ade293f7627.jpg",
+   "genres": [
+    "indie rock",
     "rock",
-    "blues rock"
+    "pop"
    ]
   },
   {
-   "artist": "Brockhampton",
-   "title": "Saturation II",
-   "year": 2017,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5417e003-d352-4a69-b4dc-6cc85e9edac2.jpg",
+   "artist": "Laura Marling",
+   "title": "I Speak Because I Can",
+   "year": 2010,
+   "score": 75,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6deace52-46cd-4d32-a7b1-74ec8bf25db1.jpg",
    "genres": [
-    "west coast hip hop",
-    "pop",
-    "experimental"
+    "folk",
+    "pop"
    ]
   },
   {
-   "artist": "The Mars Volta",
-   "title": "De-Loused in the Comatorium",
-   "year": 2003,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/605124dd-0f2a-382b-a8ba-720658c1fe45.jpg",
+   "artist": "Sun Kil Moon",
+   "title": "Benji",
+   "year": 2014,
+   "score": 100,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9e14617c-3842-4d5f-bef4-16b38f2c9f4e.jpg",
    "genres": [
-    "experimental rock",
-    "rock",
-    "post-hardcore"
-   ]
-  },
-  {
-   "artist": "James Blake",
-   "title": "Assume Form",
-   "year": 2019,
-   "score": 70,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8fceea87-5273-408b-a2f3-723d9b64800a.jpg",
-   "genres": [
-    "art pop",
-    "alternative r&b",
-    "electronic"
-   ]
-  },
-  {
-   "artist": "Underworld",
-   "title": "Dubnobasswithmyheadman",
-   "year": 1993,
-   "score": 85,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3fa924b2-aae8-3ab6-b2d3-f647a8a8e8f6.jpg",
-   "genres": [
-    "electronic",
-    "techno",
-    "progressive house"
+    "singer-songwriter",
+    "folk rock",
+    "contemporary folk"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-09-26",
+   "keys": [
+    "Steve Reich::Music for 18 Musicians",
+    "my bloody valentine::Tremolo EP",
+    "Silversun Pickups::Carnavas",
+    "Laura Marling::I Speak Because I Can",
+    "Sun Kil Moon::Benji"
+   ]
+  },
   {
    "date": "2026-09-25",
    "keys": [
