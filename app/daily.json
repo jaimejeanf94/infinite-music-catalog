@@ -1,67 +1,76 @@
 {
- "date": "2026-09-26",
+ "date": "2026-09-27",
  "picks": [
   {
-   "artist": "Steve Reich",
-   "title": "Music for 18 Musicians",
-   "year": 1978,
+   "artist": "Aliyah's Interlude",
+   "title": "KUNTOLOGY 101 EP",
+   "year": 1998,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4885c9c3-5026-3bc6-a5bc-1d7ac896dab1.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a5d5028c-dbd2-4613-b40b-4b537b832cd6.jpg",
    "genres": [
-    "modern classical",
-    "classical",
-    "minimalism"
+    "pop",
+    "electronic"
    ]
   },
   {
-   "artist": "my bloody valentine",
-   "title": "Tremolo EP",
-   "year": 1991,
+   "artist": "Pearl Jam",
+   "title": "Yield",
+   "year": 1998,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/edec025d-a17a-317b-bb51-e326b8a1ba31.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e88ee520-a5d1-40bd-84d4-649974435492.jpg",
    "genres": [
-    "shoegaze",
-    "noise pop",
-    "rock"
-   ]
-  },
-  {
-   "artist": "Silversun Pickups",
-   "title": "Carnavas",
-   "year": 2006,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4eb68c5b-dc3f-3a1d-bcc1-9ade293f7627.jpg",
-   "genres": [
-    "indie rock",
+    "grunge",
     "rock",
-    "pop"
+    "alternative rock"
    ]
   },
   {
-   "artist": "Laura Marling",
-   "title": "I Speak Because I Can",
-   "year": 2010,
+   "artist": "The Chemical Brothers",
+   "title": "Exit Planet Dust",
+   "year": 1995,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8fffd616-de95-3597-b1f2-211666cfc2dd.jpg",
+   "genres": [
+    "electronic",
+    "breakbeat",
+    "big beat"
+   ]
+  },
+  {
+   "artist": "Mac Miller",
+   "title": "Watching Movies with the Sound Off",
+   "year": 2013,
    "score": 75,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6deace52-46cd-4d32-a7b1-74ec8bf25db1.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/dab91701-347d-43ef-a7d6-8935c8c2e6f7.jpg",
    "genres": [
-    "folk",
-    "pop"
+    "hip hop",
+    "neo-psychedelia",
+    "pop rap"
    ]
   },
   {
-   "artist": "Sun Kil Moon",
-   "title": "Benji",
-   "year": 2014,
-   "score": 100,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9e14617c-3842-4d5f-bef4-16b38f2c9f4e.jpg",
+   "artist": "Gil Scott-Heron & Jamie XX",
+   "title": "We're New Here",
+   "year": 2011,
+   "score": 70,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/72e251aa-ec21-42f5-9761-ede5769b4073.jpg",
    "genres": [
-    "singer-songwriter",
-    "folk rock",
-    "contemporary folk"
+    "electronic",
+    "uk garage"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-09-27",
+   "keys": [
+    "Aliyah's Interlude::KUNTOLOGY 101 EP",
+    "Pearl Jam::Yield",
+    "The Chemical Brothers::Exit Planet Dust",
+    "Mac Miller::Watching Movies with the Sound Off",
+    "Gil Scott-Heron & Jamie XX::We're New Here"
+   ]
+  },
   {
    "date": "2026-09-26",
    "keys": [
