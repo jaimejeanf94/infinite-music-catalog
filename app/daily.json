@@ -1,66 +1,77 @@
 {
- "date": "2026-09-27",
+ "date": "2026-09-28",
  "picks": [
   {
-   "artist": "Aliyah's Interlude",
-   "title": "KUNTOLOGY 101 EP",
-   "year": 1998,
+   "artist": "Devin Townsend",
+   "title": "Terria",
+   "year": 2001,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a5d5028c-dbd2-4613-b40b-4b537b832cd6.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/fc580032-973b-3e15-a612-ff95f5c37f47.jpg",
    "genres": [
-    "pop",
-    "electronic"
+    "rock",
+    "progressive rock",
+    "heavy metal"
    ]
   },
   {
-   "artist": "Pearl Jam",
-   "title": "Yield",
-   "year": 1998,
+   "artist": "Donna Summer",
+   "title": "Bad Girls",
+   "year": 1979,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e88ee520-a5d1-40bd-84d4-649974435492.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f7568cc7-4c09-3a47-abbc-593e7aaac7d6.jpg",
    "genres": [
-    "grunge",
+    "disco",
+    "electronic",
+    "synth-pop"
+   ]
+  },
+  {
+   "artist": "Julia Jacklin",
+   "title": "PRE PLEASURE",
+   "year": 2022,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/fe36198d-c1e6-4b63-8170-2541d8c28550.jpg",
+   "genres": [
+    "indie rock",
     "rock",
     "alternative rock"
    ]
   },
   {
-   "artist": "The Chemical Brothers",
-   "title": "Exit Planet Dust",
-   "year": 1995,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8fffd616-de95-3597-b1f2-211666cfc2dd.jpg",
+   "artist": "Floating Points, Pharoah Sanders",
+   "title": "Promises",
+   "year": 2021,
+   "score": 100,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/970f689d-1778-4953-b3ed-48d057625724.jpg",
    "genres": [
+    "jazz",
     "electronic",
-    "breakbeat",
-    "big beat"
+    "third stream"
    ]
   },
   {
-   "artist": "Mac Miller",
-   "title": "Watching Movies with the Sound Off",
-   "year": 2013,
-   "score": 75,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/dab91701-347d-43ef-a7d6-8935c8c2e6f7.jpg",
+   "artist": "Bill Evans",
+   "title": "You Must Believe in Spring",
+   "year": 1981,
+   "score": 85,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/0cf4e31e-14a0-3c31-bcc3-9cad55817aac.jpg",
    "genres": [
-    "hip hop",
-    "neo-psychedelia",
-    "pop rap"
-   ]
-  },
-  {
-   "artist": "Gil Scott-Heron & Jamie XX",
-   "title": "We're New Here",
-   "year": 2011,
-   "score": 70,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/72e251aa-ec21-42f5-9761-ede5769b4073.jpg",
-   "genres": [
-    "electronic",
-    "uk garage"
+    "jazz",
+    "post-bop"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-09-28",
+   "keys": [
+    "Devin Townsend::Terria",
+    "Donna Summer::Bad Girls",
+    "Julia Jacklin::PRE PLEASURE",
+    "Floating Points, Pharoah Sanders::Promises",
+    "Bill Evans::You Must Believe in Spring"
+   ]
+  },
   {
    "date": "2026-09-27",
    "keys": [

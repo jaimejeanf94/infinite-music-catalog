@@ -15673,60 +15673,6 @@
   "apple_via": "search",
   "apple_checked": "2026-09-21"
  },
- "Bjork::Selmasongs": {
-  "status": "ok",
-  "mbid": "14a8c576-44af-36a1-b896-81901705b5b0",
-  "genres": [
-   "electronic",
-   "experimental",
-   "electronica",
-   "art pop",
-   "classical",
-   "idm",
-   "electro",
-   "big band",
-   "cinematic classical",
-   "industrial"
-  ],
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/14a8c576-44af-36a1-b896-81901705b5b0.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2000",
-  "checked": "2026-09-19",
-  "cover_source_url": "https://coverartarchive.org/release-group/14a8c576-44af-36a1-b896-81901705b5b0/front-500",
-  "cover_cached": "2026-09-20",
-  "apple_status": "ok",
-  "apple_url": "https://music.apple.com/mx/album/selma-songs/1726654238",
-  "apple_title": "Selma Songs",
-  "apple_via": "search",
-  "apple_checked": "2026-09-21"
- },
- "Bjork::Debut": {
-  "status": "ok",
-  "mbid": "6891a28c-5865-36e2-9e5f-c9fac1d3595f",
-  "genres": [
-   "electronic",
-   "art pop",
-   "house",
-   "pop",
-   "experimental",
-   "dance-pop",
-   "downtempo",
-   "electro",
-   "leftfield",
-   "alternative dance"
-  ],
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6891a28c-5865-36e2-9e5f-c9fac1d3595f.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "1993",
-  "checked": "2026-09-19",
-  "cover_source_url": "https://coverartarchive.org/release-group/6891a28c-5865-36e2-9e5f-c9fac1d3595f/front-500",
-  "cover_cached": "2026-09-20",
-  "apple_status": "ok",
-  "apple_url": "https://music.apple.com/mx/album/debut/1726662710",
-  "apple_title": "Debut",
-  "apple_via": "musicbrainz",
-  "apple_checked": "2026-09-21"
- },
  "Björk::Vulnicura": {
   "status": "ok",
   "mbid": "73efadfc-07db-42bd-81ab-7a35a2601990",
@@ -100871,5 +100817,51 @@
   "apple_checked": "2026-09-26",
   "cover_source_url": "https://coverartarchive.org/release-group/1b898405-7527-437c-bf11-ca74410c0b8c/front-500",
   "cover_cached": "2026-09-26"
+ },
+ "Björk::Debut": {
+  "status": "ok",
+  "mbid": "6891a28c-5865-36e2-9e5f-c9fac1d3595f",
+  "genres": [
+   "electronic",
+   "art pop",
+   "house",
+   "pop",
+   "experimental",
+   "dance-pop",
+   "downtempo",
+   "electro",
+   "leftfield",
+   "alternative dance"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6891a28c-5865-36e2-9e5f-c9fac1d3595f.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1993",
+  "checked": "2026-09-28",
+  "cover_source_url": "https://coverartarchive.org/release-group/6891a28c-5865-36e2-9e5f-c9fac1d3595f/front-500",
+  "cover_cached": "2026-09-28"
+ },
+ "Björk::Selmasongs": {
+  "status": "ok",
+  "mbid": "14a8c576-44af-36a1-b896-81901705b5b0",
+  "genres": [
+   "electronic",
+   "experimental",
+   "electronica",
+   "art pop",
+   "classical",
+   "idm",
+   "electro",
+   "big band",
+   "cinematic classical",
+   "industrial"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/14a8c576-44af-36a1-b896-81901705b5b0.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2000",
+  "checked": "2026-09-28",
+  "cover_source_url": "https://coverartarchive.org/release-group/14a8c576-44af-36a1-b896-81901705b5b0/front-500",
+  "cover_cached": "2026-09-28"
  }
 }
