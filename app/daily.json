@@ -1,67 +1,77 @@
 {
- "date": "2026-09-28",
+ "date": "2026-09-29",
  "picks": [
   {
-   "artist": "Devin Townsend",
-   "title": "Terria",
-   "year": 2001,
+   "artist": "Tim Hecker",
+   "title": "Virgins",
+   "year": 2013,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/fc580032-973b-3e15-a612-ff95f5c37f47.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8121eda6-f17d-4eaa-bd44-598828df0bc9.jpg",
+   "genres": [
+    "ambient",
+    "experimental",
+    "electronic"
+   ]
+  },
+  {
+   "artist": "The Strokes",
+   "title": "The New Abnormal",
+   "year": 2020,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/43ca5aa6-92de-47e9-8f0b-9112e4881426.jpg",
    "genres": [
     "rock",
-    "progressive rock",
-    "heavy metal"
-   ]
-  },
-  {
-   "artist": "Donna Summer",
-   "title": "Bad Girls",
-   "year": 1979,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f7568cc7-4c09-3a47-abbc-593e7aaac7d6.jpg",
-   "genres": [
-    "disco",
-    "electronic",
-    "synth-pop"
-   ]
-  },
-  {
-   "artist": "Julia Jacklin",
-   "title": "PRE PLEASURE",
-   "year": 2022,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/fe36198d-c1e6-4b63-8170-2541d8c28550.jpg",
-   "genres": [
     "indie rock",
-    "rock",
     "alternative rock"
    ]
   },
   {
-   "artist": "Floating Points, Pharoah Sanders",
-   "title": "Promises",
-   "year": 2021,
-   "score": 100,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/970f689d-1778-4953-b3ed-48d057625724.jpg",
+   "artist": "SZA",
+   "title": "Crtl",
+   "year": 2017,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8f892c1b-0709-4cf4-9711-493892a9eb9b.jpg",
    "genres": [
-    "jazz",
-    "electronic",
-    "third stream"
+    "contemporary r&b",
+    "r&b"
    ]
   },
   {
-   "artist": "Bill Evans",
-   "title": "You Must Believe in Spring",
-   "year": 1981,
+   "artist": "King Gizzard & The Lizard Wizard",
+   "title": "K.G.",
+   "year": 2020,
    "score": 85,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/0cf4e31e-14a0-3c31-bcc3-9cad55817aac.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8755fac8-9e89-45f5-acdf-286440c431c8.jpg",
    "genres": [
-    "jazz",
-    "post-bop"
+    "psychedelic rock",
+    "psychedelic folk",
+    "heavy psych"
+   ]
+  },
+  {
+   "artist": "Poppy",
+   "title": "EAT",
+   "year": 2021,
+   "score": 90,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/manual/127.jpeg?v=1789923504608",
+   "genres": [
+    "nu metal",
+    "electropop",
+    "alternative metal"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-09-29",
+   "keys": [
+    "Tim Hecker::Virgins",
+    "The Strokes::The New Abnormal",
+    "SZA::Crtl",
+    "King Gizzard & The Lizard Wizard::K.G.",
+    "Poppy::EAT"
+   ]
+  },
   {
    "date": "2026-09-28",
    "keys": [
