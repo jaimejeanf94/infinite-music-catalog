@@ -1,67 +1,78 @@
 {
- "date": "2026-09-29",
+ "date": "2026-09-30",
  "picks": [
   {
-   "artist": "Tim Hecker",
-   "title": "Virgins",
-   "year": 2013,
+   "artist": "Jane's Addiction",
+   "title": "Ritual De Lo Habitual",
+   "year": 1990,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8121eda6-f17d-4eaa-bd44-598828df0bc9.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/baeba3f5-a5aa-3e6e-944f-cca5374192e4.jpg",
    "genres": [
-    "ambient",
-    "experimental",
-    "electronic"
+    "alternative rock",
+    "rock",
+    "hard rock"
    ]
   },
   {
-   "artist": "The Strokes",
-   "title": "The New Abnormal",
-   "year": 2020,
+   "artist": "Wormrot",
+   "title": "Hiss",
+   "year": 2022,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/43ca5aa6-92de-47e9-8f0b-9112e4881426.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2d074cc2-74f2-4818-86e0-b8e9bb57e461.jpg",
+   "genres": [
+    "grindcore",
+    "deathgrind",
+    "punk"
+   ]
+  },
+  {
+   "artist": "Kate Bush",
+   "title": "50 Words for Snow",
+   "year": 2011,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2eefe885-f050-426d-93f0-29c5eb8b4f9a.jpg",
    "genres": [
     "rock",
-    "indie rock",
+    "pop",
     "alternative rock"
    ]
   },
   {
-   "artist": "SZA",
-   "title": "Crtl",
-   "year": 2017,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8f892c1b-0709-4cf4-9711-493892a9eb9b.jpg",
+   "artist": "The Waterboys",
+   "title": "This Is The Sea",
+   "year": 1985,
+   "score": 80,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c5f3b58e-9f61-3863-9277-974e3a84a936.jpg",
    "genres": [
-    "contemporary r&b",
-    "r&b"
+    "folk rock",
+    "rock",
+    "pop rock"
    ]
   },
   {
-   "artist": "King Gizzard & The Lizard Wizard",
-   "title": "K.G.",
-   "year": 2020,
-   "score": 85,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8755fac8-9e89-45f5-acdf-286440c431c8.jpg",
-   "genres": [
-    "psychedelic rock",
-    "psychedelic folk",
-    "heavy psych"
-   ]
-  },
-  {
-   "artist": "Poppy",
-   "title": "EAT",
-   "year": 2021,
+   "artist": "Utada Hikaru",
+   "title": "Fantôme",
+   "year": 2016,
    "score": 90,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/manual/127.jpeg?v=1789923504608",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/manual/137.webp?v=1789919188839",
    "genres": [
-    "nu metal",
-    "electropop",
-    "alternative metal"
+    "j-pop",
+    "ballad",
+    "pop"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-09-30",
+   "keys": [
+    "Jane's Addiction::Ritual De Lo Habitual",
+    "Wormrot::Hiss",
+    "Kate Bush::50 Words for Snow",
+    "The Waterboys::This Is The Sea",
+    "Utada Hikaru::Fantôme"
+   ]
+  },
   {
    "date": "2026-09-29",
    "keys": [

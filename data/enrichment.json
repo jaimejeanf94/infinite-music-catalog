@@ -100863,5 +100863,28 @@
   "checked": "2026-09-28",
   "cover_source_url": "https://coverartarchive.org/release-group/14a8c576-44af-36a1-b896-81901705b5b0/front-500",
   "cover_cached": "2026-09-28"
+ },
+ "King Gizzard & The Lizard Wizard::Alien Metal": {
+  "status": "ok",
+  "mbid": "74100552-da59-4c8f-81a8-4980a8e0a0f6",
+  "genres": [
+   "psychedelic rock",
+   "garage rock",
+   "progressive rock",
+   "jazz rock",
+   "psychedelic pop"
+  ],
+  "genre_source": "artist",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/74100552-da59-4c8f-81a8-4980a8e0a0f6.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2026",
+  "checked": "2026-09-30",
+  "apple_status": "ok",
+  "apple_url": "https://music.apple.com/mx/album/alien-metal-single/6788261218",
+  "apple_title": "Alien Metal - Single",
+  "apple_via": "musicbrainz",
+  "apple_checked": "2026-09-30",
+  "cover_source_url": "https://coverartarchive.org/release-group/74100552-da59-4c8f-81a8-4980a8e0a0f6/front-500",
+  "cover_cached": "2026-09-30"
  }
 }
