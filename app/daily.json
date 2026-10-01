@@ -1,68 +1,74 @@
 {
- "date": "2026-09-30",
+ "date": "2026-10-01",
  "picks": [
   {
-   "artist": "Jane's Addiction",
-   "title": "Ritual De Lo Habitual",
-   "year": 1990,
+   "artist": "Company Flow",
+   "title": "Funcrusher Plus",
+   "year": 1997,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/baeba3f5-a5aa-3e6e-944f-cca5374192e4.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e6e03027-2955-38b5-ba9f-2076297f8528.jpg",
    "genres": [
-    "alternative rock",
-    "rock",
-    "hard rock"
+    "experimental hip hop",
+    "underground hip hop",
+    "east coast hip hop"
    ]
   },
   {
-   "artist": "Wormrot",
-   "title": "Hiss",
-   "year": 2022,
+   "artist": "Mississippi John Hurt",
+   "title": "Rediscovered (Mississippi John Hurt)",
+   "year": 1998,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2d074cc2-74f2-4818-86e0-b8e9bb57e461.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9ce2fd8d-e240-3d8c-b8ad-65ecb6477d01.jpg",
    "genres": [
-    "grindcore",
-    "deathgrind",
-    "punk"
+    "blues"
    ]
   },
   {
-   "artist": "Kate Bush",
-   "title": "50 Words for Snow",
-   "year": 2011,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2eefe885-f050-426d-93f0-29c5eb8b4f9a.jpg",
-   "genres": [
-    "rock",
-    "pop",
-    "alternative rock"
-   ]
-  },
-  {
-   "artist": "The Waterboys",
-   "title": "This Is The Sea",
-   "year": 1985,
-   "score": 80,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c5f3b58e-9f61-3863-9277-974e3a84a936.jpg",
-   "genres": [
-    "folk rock",
-    "rock",
-    "pop rock"
-   ]
-  },
-  {
-   "artist": "Utada Hikaru",
-   "title": "Fantôme",
+   "artist": "Injury Reserve",
+   "title": "Floss",
    "year": 2016,
-   "score": 90,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/manual/137.webp?v=1789919188839",
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/476df0e1-9569-4be4-8160-677dc96d2557.jpg",
    "genres": [
-    "j-pop",
-    "ballad",
-    "pop"
+    "hip hop"
+   ]
+  },
+  {
+   "artist": "Linkin Park",
+   "title": "Reanimation",
+   "year": 2001,
+   "score": 100,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/bd0fa028-36ce-3e0e-81f2-e7d2b3e058c1.jpg",
+   "genres": [
+    "breakbeat",
+    "rock",
+    "alternative metal"
+   ]
+  },
+  {
+   "artist": "King Gizzard & The Lizard Wizard",
+   "title": "Infest the Rats' Nest",
+   "year": 2019,
+   "score": 95,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8ef7f453-bf44-4bcc-bdb8-ac86eadf90fe.jpg",
+   "genres": [
+    "thrash metal",
+    "heavy psych",
+    "stoner metal"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-01",
+   "keys": [
+    "Company Flow::Funcrusher Plus",
+    "Mississippi John Hurt::Rediscovered (Mississippi John Hurt)",
+    "Injury Reserve::Floss",
+    "Linkin Park::Reanimation",
+    "King Gizzard & The Lizard Wizard::Infest the Rats' Nest"
+   ]
+  },
   {
    "date": "2026-09-30",
    "keys": [
