@@ -1,64 +1,77 @@
 {
- "date": "2026-10-01",
+ "date": "2026-10-02",
  "picks": [
   {
-   "artist": "Company Flow",
-   "title": "Funcrusher Plus",
-   "year": 1997,
+   "artist": "The Damned",
+   "title": "Machine Gun Etiquette",
+   "year": 1979,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e6e03027-2955-38b5-ba9f-2076297f8528.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2e30aefe-004b-3680-8ad4-4b2398d8e0ed.jpg",
    "genres": [
-    "experimental hip hop",
-    "underground hip hop",
-    "east coast hip hop"
-   ]
-  },
-  {
-   "artist": "Mississippi John Hurt",
-   "title": "Rediscovered (Mississippi John Hurt)",
-   "year": 1998,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9ce2fd8d-e240-3d8c-b8ad-65ecb6477d01.jpg",
-   "genres": [
-    "blues"
+    "punk",
+    "rock"
    ]
   },
   {
    "artist": "Injury Reserve",
-   "title": "Floss",
-   "year": 2016,
+   "title": "By The Time I Get to Phoenix",
+   "year": 2021,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/476df0e1-9569-4be4-8160-677dc96d2557.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/242b18ed-5d47-4a4b-823d-645785525ae0.jpg",
    "genres": [
-    "hip hop"
+    "hip hop",
+    "glitch",
+    "experimental hip hop"
    ]
   },
   {
-   "artist": "Linkin Park",
-   "title": "Reanimation",
-   "year": 2001,
-   "score": 100,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/bd0fa028-36ce-3e0e-81f2-e7d2b3e058c1.jpg",
+   "artist": "Daphni",
+   "title": "Cherry",
+   "year": 2022,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c7ecbe20-3924-4462-996a-bdfbefe4ae2e.jpg",
    "genres": [
-    "breakbeat",
-    "rock",
-    "alternative metal"
+    "house",
+    "electronic",
+    "deep house"
    ]
   },
   {
-   "artist": "King Gizzard & The Lizard Wizard",
-   "title": "Infest the Rats' Nest",
-   "year": 2019,
+   "artist": "Melt-Banana",
+   "title": "Cell Scape",
+   "year": 2003,
+   "score": 90,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/017735fd-739d-3388-aa2c-cbab351828c1.jpg",
+   "genres": [
+    "hardcore punk",
+    "noise rock",
+    "rock"
+   ]
+  },
+  {
+   "artist": "Daughters",
+   "title": "Daughters",
+   "year": 2010,
    "score": 95,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8ef7f453-bf44-4bcc-bdb8-ac86eadf90fe.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f6cf7d14-3e96-4f6e-92fa-2648bdef6870.jpg",
    "genres": [
-    "thrash metal",
-    "heavy psych",
-    "stoner metal"
+    "math rock",
+    "rock",
+    "electronic"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-02",
+   "keys": [
+    "The Damned::Machine Gun Etiquette",
+    "Injury Reserve::By The Time I Get to Phoenix",
+    "Daphni::Cherry",
+    "Melt-Banana::Cell Scape",
+    "Daughters::Daughters"
+   ]
+  },
   {
    "date": "2026-10-01",
    "keys": [
