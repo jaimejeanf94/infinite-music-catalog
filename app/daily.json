@@ -1,67 +1,78 @@
 {
- "date": "2026-10-02",
+ "date": "2026-10-03",
  "picks": [
   {
-   "artist": "The Damned",
-   "title": "Machine Gun Etiquette",
-   "year": 1979,
+   "artist": "William Basinski",
+   "title": "The Disintegration Loops III",
+   "year": 2002,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2e30aefe-004b-3680-8ad4-4b2398d8e0ed.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8dd7c8bf-cfcc-31a9-9754-b8ead9ae4683.jpg",
    "genres": [
-    "punk",
-    "rock"
-   ]
-  },
-  {
-   "artist": "Injury Reserve",
-   "title": "By The Time I Get to Phoenix",
-   "year": 2021,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/242b18ed-5d47-4a4b-823d-645785525ae0.jpg",
-   "genres": [
-    "hip hop",
-    "glitch",
-    "experimental hip hop"
-   ]
-  },
-  {
-   "artist": "Daphni",
-   "title": "Cherry",
-   "year": 2022,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c7ecbe20-3924-4462-996a-bdfbefe4ae2e.jpg",
-   "genres": [
-    "house",
+    "ambient",
     "electronic",
-    "deep house"
+    "experimental"
    ]
   },
   {
-   "artist": "Melt-Banana",
-   "title": "Cell Scape",
-   "year": 2003,
-   "score": 90,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/017735fd-739d-3388-aa2c-cbab351828c1.jpg",
+   "artist": "Sly & The Family Stone",
+   "title": "Greatest Hits (Sly & The Family Stone)",
+   "year": 1970,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/320b576b-aa9c-3c5e-8631-178e81841866.jpg",
    "genres": [
-    "hardcore punk",
-    "noise rock",
-    "rock"
+    "funk",
+    "soul",
+    "psychedelic soul"
    ]
   },
   {
-   "artist": "Daughters",
-   "title": "Daughters",
-   "year": 2010,
-   "score": 95,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f6cf7d14-3e96-4f6e-92fa-2648bdef6870.jpg",
+   "artist": "Tom Waits",
+   "title": "Bone Machine",
+   "year": 1992,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b65ca7b8-4069-3782-9c4c-b2353cc4bc04.jpg",
    "genres": [
-    "math rock",
     "rock",
-    "electronic"
+    "blues rock",
+    "experimental"
+   ]
+  },
+  {
+   "artist": "At the Drive-In",
+   "title": "Relationship Of Command",
+   "year": 2000,
+   "score": 75,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b7f5ed97-bb72-31fb-acd8-4bad86d95a58.jpg",
+   "genres": [
+    "post-hardcore",
+    "rock",
+    "experimental rock"
+   ]
+  },
+  {
+   "artist": "David Bowie",
+   "title": "The Rise and Fall of Ziggy Stardust and the Spiders From Mars",
+   "year": 1972,
+   "score": 100,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6c9ae3dd-32ad-472c-96be-69d0a3536261.jpg",
+   "genres": [
+    "rock",
+    "glam rock",
+    "pop rock"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-03",
+   "keys": [
+    "William Basinski::The Disintegration Loops III",
+    "Sly & The Family Stone::Greatest Hits (Sly & The Family Stone)",
+    "Tom Waits::Bone Machine",
+    "At the Drive-In::Relationship Of Command",
+    "David Bowie::The Rise and Fall of Ziggy Stardust and the Spiders From Mars"
+   ]
+  },
   {
    "date": "2026-10-02",
    "keys": [
