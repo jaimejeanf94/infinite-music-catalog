@@ -1,68 +1,78 @@
 {
- "date": "2026-10-03",
+ "date": "2026-10-04",
  "picks": [
   {
-   "artist": "William Basinski",
-   "title": "The Disintegration Loops III",
-   "year": 2002,
+   "artist": "Iron Maiden",
+   "title": "Piece Of Mind",
+   "year": 1983,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8dd7c8bf-cfcc-31a9-9754-b8ead9ae4683.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/169361b5-af6f-34ca-b8f2-13605a7f9691.jpg",
    "genres": [
-    "ambient",
-    "electronic",
-    "experimental"
+    "heavy metal",
+    "metal",
+    "nwobhm"
    ]
   },
   {
-   "artist": "Sly & The Family Stone",
-   "title": "Greatest Hits (Sly & The Family Stone)",
-   "year": 1970,
+   "artist": "Beach House",
+   "title": "Bloom",
+   "year": 2012,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/320b576b-aa9c-3c5e-8631-178e81841866.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f1390eec-a192-4d96-9943-bbc42a819588.jpg",
    "genres": [
-    "funk",
-    "soul",
-    "psychedelic soul"
+    "dream pop",
+    "indie pop",
+    "indie rock"
    ]
   },
   {
-   "artist": "Tom Waits",
-   "title": "Bone Machine",
-   "year": 1992,
+   "artist": "Feist",
+   "title": "Metals",
+   "year": 2011,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b65ca7b8-4069-3782-9c4c-b2353cc4bc04.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b8f5f7a5-5a62-43b2-8099-cc1b0f8810fa.jpg",
    "genres": [
     "rock",
-    "blues rock",
-    "experimental"
+    "downtempo",
+    "indie rock"
    ]
   },
   {
-   "artist": "At the Drive-In",
-   "title": "Relationship Of Command",
-   "year": 2000,
+   "artist": "Godspeed You Black Emperor",
+   "title": "Slow Riot for New Zero Kanada",
+   "year": 1999,
    "score": 75,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b7f5ed97-bb72-31fb-acd8-4bad86d95a58.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7a474ed2-8f4a-3295-8943-68818da3af3e.jpg",
    "genres": [
-    "post-hardcore",
-    "rock",
-    "experimental rock"
+    "post-rock",
+    "experimental",
+    "rock"
    ]
   },
   {
-   "artist": "David Bowie",
-   "title": "The Rise and Fall of Ziggy Stardust and the Spiders From Mars",
-   "year": 1972,
-   "score": 100,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6c9ae3dd-32ad-472c-96be-69d0a3536261.jpg",
+   "artist": "JPEGMAFIA",
+   "title": "Veteran",
+   "year": 2018,
+   "score": 90,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4dca0a1a-c7a4-453a-8ae1-543cae89c5df.jpg",
    "genres": [
-    "rock",
-    "glam rock",
-    "pop rock"
+    "experimental hip hop",
+    "hip hop",
+    "glitch hop"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-04",
+   "keys": [
+    "Iron Maiden::Piece Of Mind",
+    "Beach House::Bloom",
+    "Feist::Metals",
+    "Godspeed You Black Emperor::Slow Riot for New Zero Kanada",
+    "JPEGMAFIA::Veteran"
+   ]
+  },
   {
    "date": "2026-10-03",
    "keys": [

@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-03T08:43:46.625Z",
+ "generated": "2026-10-04T09:24:21.038Z",
  "totals": {
   "albums": 4430,
   "rated": 445,
   "withCover": 4430,
   "withGenres": 4430,
-  "matched": 4293,
-  "apple": 3660
+  "matched": 4315,
+  "apple": 3672
  },
  "sections": [
   {
@@ -635,7 +635,7 @@
    "title": "Apple Music matches held back",
    "why": "Probably the right record, not certainly. Open it to check, then link it or reject it.",
    "action": "link",
-   "count": 309,
+   "count": 303,
    "items": [
     {
      "artist": "Against All Logic",
@@ -2190,22 +2190,6 @@
      "dismiss": "Reject"
     },
     {
-     "artist": "IDK",
-     "title": "e.t.d.s",
-     "note": "Apple Music has \"e.t.d.s. A Mixtape by .idk.\" — the title is longer or shorter than yours",
-     "preview": "https://music.apple.com/mx/album/e-t-d-s-a-mixtape-by-idk/1872476970",
-     "suggest": {
-      "apple_music_url": "https://music.apple.com/mx/album/e-t-d-s-a-mixtape-by-idk/1872476970",
-      "apple_music_locked": true
-     },
-     "was": {
-      "apple_music_url": null,
-      "apple_music_locked": false
-     },
-     "apply": "Link it",
-     "dismiss": "Reject"
-    },
-    {
      "artist": "Idles",
      "title": "Brutalism",
      "note": "MusicBrainz links it, but Apple's store here could not confirm it",
@@ -2718,22 +2702,6 @@
      "dismiss": "Reject"
     },
     {
-     "artist": "Lamp",
-     "title": "恋人へ [For Lovers]",
-     "note": "Apple Music has \"恋人へ\" — the title is longer or shorter than yours",
-     "preview": "https://music.apple.com/mx/album/%E6%81%8B%E4%BA%BA%E3%81%B8/1486281113",
-     "suggest": {
-      "apple_music_url": "https://music.apple.com/mx/album/%E6%81%8B%E4%BA%BA%E3%81%B8/1486281113",
-      "apple_music_locked": true
-     },
-     "was": {
-      "apple_music_url": null,
-      "apple_music_locked": false
-     },
-     "apply": "Link it",
-     "dismiss": "Reject"
-    },
-    {
      "artist": "Laura Marling",
      "title": "Song for Our Daughter",
      "note": "MusicBrainz links it, but Apple's store here could not confirm it",
@@ -2852,22 +2820,6 @@
      "preview": "https://music.apple.com/mx/album/tha-carter-ii/1443918957",
      "suggest": {
       "apple_music_url": "https://music.apple.com/mx/album/tha-carter-ii/1443918957",
-      "apple_music_locked": true
-     },
-     "was": {
-      "apple_music_url": null,
-      "apple_music_locked": false
-     },
-     "apply": "Link it",
-     "dismiss": "Reject"
-    },
-    {
-     "artist": "Lily Chou-Chou",
-     "title": "呼吸 (Kokyuu)",
-     "note": "Apple Music has \"Kokyuu\" — the title is longer or shorter than yours",
-     "preview": "https://music.apple.com/mx/album/kokyuu/1297925080",
-     "suggest": {
-      "apple_music_url": "https://music.apple.com/mx/album/kokyuu/1297925080",
       "apple_music_locked": true
      },
      "was": {
@@ -4636,6 +4588,54 @@
      },
      "apply": "Link it",
      "dismiss": "Reject"
+    },
+    {
+     "artist": "The Fall",
+     "title": "Perverted by Language",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1145999601",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1145999601",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "The Fall",
+     "title": "Slates",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1144249422",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1144249422",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "The Gun Club",
+     "title": "Fire of Love",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1543790920",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1543790920",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
     }
    ]
   },
@@ -4652,7 +4652,7 @@
    "title": "No Apple Music link",
    "why": "Apple Music has nothing under this name. Paste the link on the album's page if it is there, or say it is not.",
    "action": "link",
-   "count": 461,
+   "count": 455,
    "items": [
     {
      "artist": "$ilkmoney",
@@ -4663,55 +4663,55 @@
     {
      "artist": "2 Many DJ's",
      "title": "2ManyDJs Live at Kompass",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
      "artist": "2 Many DJ's",
      "title": "BENELUX",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
      "artist": "2 Many DJ's",
      "title": "Blue",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
      "artist": "2 Many DJ's",
      "title": "Dave",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
      "artist": "2 Many DJ's",
      "title": "Despacio",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
      "artist": "2 Many DJ's",
      "title": "Hardcore Or Die",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
      "artist": "2 Many DJ's",
      "title": "Into The Vortex",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
      "artist": "2 Many DJ's",
      "title": "Jack In the Box",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
      "artist": "2 Many DJ's",
      "title": "Under The Covers 3",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -4723,7 +4723,7 @@
     {
      "artist": "3776",
      "title": "歳時記 (Saijiki)",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -4747,13 +4747,13 @@
     {
      "artist": "AM",
      "title": "Flowervillain II",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
      "artist": "AmyReal & Clumsy Duckling",
      "title": "The Adventures of Pad Chennington and the Androgynous Swagchild",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -4771,7 +4771,7 @@
     {
      "artist": "Anri",
      "title": "Timely!!",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -4783,7 +4783,7 @@
     {
      "artist": "Arcade Fire and Owen Pallett",
      "title": "Her Original Motion Picture Score",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -4825,7 +4825,7 @@
     {
      "artist": "Belle & Sebastian",
      "title": "3.. 6.. 9 Seconds of Light",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -4843,7 +4843,7 @@
     {
      "artist": "Betcover!!",
      "title": "Yuki",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -4861,7 +4861,7 @@
     {
      "artist": "Big Brother and The Holding Company",
      "title": "Cheap Thrills",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -4873,7 +4873,7 @@
     {
      "artist": "Big Star",
      "title": "Third/Sister Lovers",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -4963,7 +4963,7 @@
     {
      "artist": "Boris",
      "title": "あくまのうた (Akuma no uta)",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -5017,13 +5017,13 @@
     {
      "artist": "Captain Beefheart and His Magic Band",
      "title": "Safe as Milk",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
      "artist": "Captain Beefheart and His Magic Band",
      "title": "Trout Mask Replica",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -5047,12 +5047,6 @@
     {
      "artist": "Cerce",
      "title": "Cerce EP",
-     "note": "looked for on 2026-09-21",
-     "dismiss": "Not there"
-    },
-    {
-     "artist": "Chelsea Wolfe",
-     "title": "Ἀποκάλυψις [Apokalypsis]",
      "note": "looked for on 2026-09-21",
      "dismiss": "Not there"
     },
@@ -5203,7 +5197,7 @@
     {
      "artist": "Death Grips",
      "title": "Jenny Death",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -5215,7 +5209,7 @@
     {
      "artist": "Delaeny & Bonney",
      "title": "The Originial Delaney & Bonnie",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -5251,7 +5245,7 @@
     {
      "artist": "DJ E",
      "title": "Chuquimamani-Condori",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -5269,7 +5263,7 @@
     {
      "artist": "DJ Premier Worldwide Mix by soulchasers on #SoundCloud",
      "title": "DJ Premier Worldwide Mix by soulchasers on #SoundCloud",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -5305,13 +5299,13 @@
     {
      "artist": "Djeli Moussa Diawara",
      "title": "Djeli Moussa Diawara",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
      "artist": "dltzk",
      "title": "Frailty",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -5329,13 +5323,7 @@
     {
      "artist": "Dropkick Murphys",
      "title": "Greatest Hits",
-     "note": "looked for on 2026-09-21",
-     "dismiss": "Not there"
-    },
-    {
-     "artist": "Drudkh",
-     "title": "Кров у наших криницях (Blood in Our Wells)",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -5377,7 +5365,7 @@
     {
      "artist": "El Shirota",
      "title": "ESH002",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -5401,7 +5389,7 @@
     {
      "artist": "Enola Gay",
      "title": "Asia Menor",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -5425,7 +5413,7 @@
     {
      "artist": "Faye Wong",
      "title": "浮躁 (Fúzào)",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -5437,13 +5425,13 @@
     {
      "artist": "Fishmans",
      "title": "空中キャンプ (Kūchū Camp)",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
      "artist": "Floating Points",
      "title": "Dialogue Between Dreamers Pt. One",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -5473,7 +5461,7 @@
     {
      "artist": "Frankie Knuckles",
      "title": "Boiler Room London DJ Set",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -5599,7 +5587,7 @@
     {
      "artist": "Gorillaz",
      "title": "Song Machine, Season 1",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -5617,13 +5605,13 @@
     {
      "artist": "Haru Nemuri",
      "title": "Harutosyura",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
      "artist": "Haru Nemuri",
      "title": "Lovetheism",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -5647,13 +5635,13 @@
     {
      "artist": "Himiko Kikuchi",
      "title": "Flying Beagle",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
      "artist": "Hirokazu Tanaka & Keiichi Suzuki",
      "title": "Mother 2: ギーグの逆襲",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -5701,13 +5689,13 @@
     {
      "artist": "Jai Paul",
      "title": "Leak 04-13 (Bait Ones)",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
      "artist": "James Brown",
      "title": "20-all Times Greats!",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -5767,7 +5755,7 @@
     {
      "artist": "Joe Satriani",
      "title": "Essential Joe Satrini 1",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -5797,7 +5785,7 @@
     {
      "artist": "John Tabalot",
      "title": "Fin",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -5893,7 +5881,7 @@
     {
      "artist": "Lamp",
      "title": "Lamp Genso",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -5917,7 +5905,7 @@
     {
      "artist": "Leo Kottke",
      "title": "6 & 12 Strings",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -5983,7 +5971,7 @@
     {
      "artist": "Litourgiya",
      "title": "Batushka",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -6067,13 +6055,13 @@
     {
      "artist": "Masayoshi Takanaka",
      "title": "The Rainbow Goblins",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
      "artist": "MASS OF THE FERMENTING DREGS",
      "title": "World is yours",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -6133,7 +6121,7 @@
     {
      "artist": "Ministry",
      "title": "Psalm 69: The Way To Succeed and The Way To Suck Eggs",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-04",
      "dismiss": "Not there"
     },
     {
@@ -6151,6 +6139,18 @@
     {
      "artist": "Misfits",
      "title": "Beware",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Misfits",
+     "title": "Earth A.D./Wolfs Blood",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Misfits",
+     "title": "Walk Among Us",
      "note": "looked for on 2026-09-21",
      "dismiss": "Not there"
     }

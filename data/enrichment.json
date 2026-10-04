@@ -962,20 +962,10 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "ambient",
-   "electronica",
-   "experimental",
-   "electronic",
-   "instrumental",
-   "idm",
-   "chillout"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "The Cardigans::First Band on the Moon": {
   "status": "ok",
@@ -2573,16 +2563,10 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "j-pop",
-   "ballad",
-   "pop"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "discogs",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Triángulo de Amor Bizarro::Triángulo de Amor Bizarro": {
   "status": "ok",
@@ -2628,22 +2612,10 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/54f748e5f33fd2a2.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "post-punk",
-   "noise rock",
-   "punk",
-   "garage punk"
-  ],
-  "tried": "2026-09-20",
+  "genres": [],
+  "tried": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/ae5cabf2f03530fbcc3ca4589150035a/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "researched",
-  "rename_checked": "2026-09-21",
-  "apple_status": "ok",
-  "apple_url": "https://music.apple.com/mx/album/nunca-antes-nunca-otra-vez/1437025317",
-  "apple_title": "Nunca Antes, Nunca Otra Vez",
-  "apple_via": "search",
-  "apple_checked": "2026-09-21"
+  "cover_cached": "2026-10-04"
  },
  "Neon Indian::Vegan INTL. Night School": {
   "status": "ok",
@@ -3188,20 +3160,10 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5d3e3a46fc7c9829.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "psychedelic rock",
-   "rock"
-  ],
-  "tried": "2026-09-20",
+  "genres": [],
+  "tried": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/9748f090fcc6d1414d997ed340aa4695/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "discogs",
-  "rename_checked": "2026-09-21",
-  "apple_status": "ok",
-  "apple_url": "https://music.apple.com/mx/album/77-live-2022-remastered/1653774046",
-  "apple_title": "'77 Live (2022 Remastered)",
-  "apple_via": "search",
-  "apple_checked": "2026-09-21"
+  "cover_cached": "2026-10-04"
  },
  "Linkin Park::Meteora": {
   "status": "ok",
@@ -3585,42 +3547,35 @@
   "apple_checked": "2026-09-21"
  },
  "万能青年旅店 (Omnipotent Youth Society)::万能青年旅店 (Omnipotent Youth Society)": {
-  "status": "nomatch",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/56171b7cba87c481.jpg",
-  "cover_from": "app",
+  "status": "ok",
+  "mbid": "860dc2de-b1d5-4fc2-b872-f7072316cac1",
   "genres": [
+   "rock",
    "alternative rock",
-   "indie rock",
-   "rock"
+   "art rock",
+   "pop rock"
   ],
-  "tried": "2026-09-20",
-  "genre_source": "discogs",
-  "rename_checked": "2026-09-21",
-  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/c5/bd/a6/c5bda6ad-0ed6-849d-dc07-c6b527c0b5aa/cover.jpg/600x600bb.jpg",
-  "cover_cached": "2026-09-21",
-  "apple_status": "review",
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/860dc2de-b1d5-4fc2-b872-f7072316cac1.jpg",
+  "cover_from": "itunes",
+  "mb_year": "2010",
+  "checked": "2026-10-04",
+  "apple_status": "ok",
   "apple_url": "https://music.apple.com/mx/album/%E4%B8%87%E8%83%BD%E9%9D%92%E5%B9%B4%E6%97%85%E5%BA%97/1538548871",
   "apple_title": "万能青年旅店",
-  "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_via": "musicbrainz",
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/c5/bd/a6/c5bda6ad-0ed6-849d-dc07-c6b527c0b5aa/cover.jpg/600x600bb.jpg",
+  "cover_cached": "2026-10-04"
  },
  "2 Many DJ's::Dave": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "electronic",
-   "dance",
-   "electro",
-   "electronica",
-   "house"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Bill Evans::You Must Believe in Spring": {
   "status": "ok",
@@ -4023,21 +3978,10 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "house",
-   "downtempo",
-   "electronic",
-   "jazz",
-   "deep house",
-   "dubstep",
-   "chillout",
-   "experimental"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Floating Points::Cascade": {
   "status": "ok",
@@ -6088,28 +6032,21 @@
   "apple_checked": "2026-09-21"
  },
  "김뜻돌 [Meaningful Stone]::꿈에서 걸려온 전화 (A Call from My Dream)": {
-  "status": "partial",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8c7704968b77e9d7.jpg",
-  "cover_from": "deezer",
-  "genres": [
-   "indie pop",
-   "folk rock",
-   "dream pop",
-   "indie rock",
-   "rock",
-   "pop"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/fcd40265a11f2d5d54c977740ff993b0/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "discogs",
-  "rename_checked": "2026-09-21",
-  "apple_status": "review",
+  "status": "ok",
+  "mbid": "88c80a35-d5a9-49d1-84dc-ac584c472f5a",
+  "genres": [],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/88c80a35-d5a9-49d1-84dc-ac584c472f5a.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2020",
+  "checked": "2026-10-04",
+  "apple_status": "ok",
   "apple_url": "https://music.apple.com/mx/album/a-call-from-my-dream/1533397185",
   "apple_title": "A Call from My Dream",
-  "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_via": "musicbrainz",
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://coverartarchive.org/release-group/88c80a35-d5a9-49d1-84dc-ac584c472f5a/front-500",
+  "cover_cached": "2026-10-04"
  },
  "The Radio Dept.::Clinging To A Scheme": {
   "status": "ok",
@@ -6215,22 +6152,12 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/fde4e606795395f1.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "j-pop",
-   "post-hardcore",
-   "noise",
-   "hip hop",
-   "electronic",
-   "rock",
-   "pop"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/e4fdd9d30a5354a8a9a766b0263e7a08/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "discogs",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/e4fdd9d30a5354a8a9a766b0263e7a08/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Laurie Anderson::Big Science": {
   "status": "ok",
@@ -7210,28 +7137,21 @@
   "apple_checked": "2026-09-21"
  },
  "김뜻돌 [Meaningful Stone]::천사 인터뷰 (Angel interview)": {
-  "status": "partial",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6155b000bce0579d.jpg",
-  "cover_from": "deezer",
-  "genres": [
-   "dream pop",
-   "indie pop",
-   "shoegaze",
-   "folk rock",
-   "rock",
-   "pop"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/b8dea7491da02880c5934a3172a20650/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "discogs",
-  "rename_checked": "2026-09-21",
-  "apple_status": "review",
+  "status": "ok",
+  "mbid": "f2ddcaa6-ba30-4568-b66e-852b116d3454",
+  "genres": [],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f2ddcaa6-ba30-4568-b66e-852b116d3454.jpg",
+  "cover_from": "itunes",
+  "mb_year": "2024",
+  "checked": "2026-10-04",
+  "apple_status": "ok",
   "apple_url": "https://music.apple.com/mx/album/angel-interview/1780482403",
   "apple_title": "Angel interview",
-  "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_via": "musicbrainz",
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/27/cb/12/27cb12db-06ca-0d05-580b-766c5eb92077/8800287295258_cover.jpg/600x600bb.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Elbow::Leaders Of The Free World": {
   "status": "ok",
@@ -7919,17 +7839,10 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "drum and bass",
-   "darkstep",
-   "techstep",
-   "gabber"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "César y su Jardín::Corre y Suelta a los Perros": {
   "status": "ok",
@@ -8019,19 +7932,10 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "post-punk",
-   "hardcore punk",
-   "power metal",
-   "noise rock",
-   "punk",
-   "heavy metal"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Dillóm::Por Cesarea": {
   "status": "ok",
@@ -8158,22 +8062,29 @@
   "apple_checked": "2026-09-21"
  },
  "3776::歳時記 (Saijiki)": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
+  "status": "ok",
+  "mbid": "bc7260b4-dcfc-4b31-bb8a-8848124479f0",
   "genres": [
-   "j-pop",
-   "art pop",
-   "post-punk",
    "experimental",
+   "j-pop",
+   "synth-pop",
    "progressive pop",
-   "rock"
+   "art pop",
+   "glitch pop",
+   "pop",
+   "folk",
+   "folk pop",
+   "indietronica"
   ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist",
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/bc7260b4-dcfc-4b31-bb8a-8848124479f0.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2019",
+  "checked": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://coverartarchive.org/release-group/bc7260b4-dcfc-4b31-bb8a-8848124479f0/front-500",
+  "cover_cached": "2026-10-04"
  },
  "lovesliescrushing::Bloweyelashwish": {
   "status": "ok",
@@ -8199,18 +8110,12 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/06a67eeaced6b5dd.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "j-pop",
-   "art pop",
-   "jazz"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/610701e9df3b8b3b0b2d8d95af1716c9/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "researched",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/3770c3ea093a8d3679355d2e226f38e4/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "…And You Will Know Us by the Trail of Dead::Source Tags & Codes": {
   "status": "ok",
@@ -8273,18 +8178,10 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "electronic",
-   "dance",
-   "electro",
-   "electronica",
-   "house"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Joe Jackson::Night And Day": {
   "status": "ok",
@@ -8367,18 +8264,10 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "electronic",
-   "dance",
-   "electro",
-   "electronica",
-   "house"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "2 Many DJ's::As Produced By Soulwax 2020-2022": {
   "status": "ok",
@@ -8403,35 +8292,19 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "electronic",
-   "dance",
-   "electro",
-   "electronica",
-   "house"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "2 Many DJ's::Blue": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "electronic",
-   "dance",
-   "electro",
-   "electronica",
-   "house"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "2 Many DJ's::Celestial Voyage Pt. 1": {
   "status": "ok",
@@ -8494,18 +8367,10 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "electronic",
-   "dance",
-   "electro",
-   "electronica",
-   "house"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "2 Many DJ's::D&SCO": {
   "status": "ok",
@@ -8530,35 +8395,19 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "tropicanibalismo",
-   "bullerengue",
-   "champeta",
-   "funk",
-   "jazz"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "researched",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "2 Many DJ's::2ManyDJs Live at Kompass": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "electronic",
-   "dance",
-   "electro",
-   "electronica",
-   "house"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "2 Many DJ's::2ManyDJs Live at Primavera": {
   "status": "ok",
@@ -8607,18 +8456,10 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "electronic",
-   "dance",
-   "electro",
-   "electronica",
-   "house"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "2Pac::All Eyez on Me": {
   "status": "ok",
@@ -8725,22 +8566,12 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/217fd13faf01df2f.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "plunderphonics",
-   "experimental rock",
-   "neo-psychedelia",
-   "post-rock",
-   "noise rock",
-   "sound collage",
-   "art rock"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/b9a48cc0b2e2e7520c8a32cefb0e2f79/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/b9a48cc0b2e2e7520c8a32cefb0e2f79/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "A Tribe Called Quest::We Got it From Here… Thank You 4 your Services": {
   "status": "ok",
@@ -10336,14 +10167,10 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "singer-songwriter"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Amaarae::Fountain Baby": {
   "status": "ok",
@@ -10553,16 +10380,10 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "jersey club",
-   "plunderphonics",
-   "electronic"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "discogs",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Ana Frango Eléctrico::Me Chama De Gato Que Eu Sou Soa": {
   "status": "ok",
@@ -11370,23 +11191,12 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b758f1d7e0063c66.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "kayōkyoku",
-   "synth-pop",
-   "boogie",
-   "disco",
-   "ballad",
-   "city pop",
-   "electronic",
-   "pop"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/b86d778a2614f8b253d26e49abc14c09/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "discogs",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/b86d778a2614f8b253d26e49abc14c09/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Antônio Carlos Jobim::Wave": {
   "status": "ok",
@@ -11787,18 +11597,12 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e3c273dca1ad0c2e.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "ambient",
-   "modern classical",
-   "electronic"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/e69e9d3be642bb4ae67e645a5f9cfd3e/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "researched",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/e69e9d3be642bb4ae67e645a5f9cfd3e/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Archers of Loaf::Icky Mettle": {
   "status": "ok",
@@ -14349,17 +14153,10 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "indie rock",
-   "indie pop",
-   "rock",
-   "pop"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "discogs",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Belle and Sebastian::Girls in Peacetime Want to Dance": {
   "status": "ok",
@@ -14676,25 +14473,12 @@
  },
  "Betcover!!::Yuki": {
   "status": "nomatch",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3ffd52a8a1c91aff.jpg",
-  "cover_from": "app",
-  "genres": [
-   "art rock",
-   "alternative rock",
-   "progressive rock",
-   "indie rock",
-   "jazz rock",
-   "experimental rock",
-   "art punk",
-   "j-rock"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/30/5e/c2/305ec211-cc0a-1af1-faf9-20ec09b574e0/bigup14088652.jpg/600x600bb.jpg",
-  "cover_cached": "2026-09-21",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Beth Orton::Weather Alive": {
   "status": "ok",
@@ -14978,20 +14762,10 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "psychedelic rock",
-   "classic rock",
-   "psychedelic",
-   "blues",
-   "rock",
-   "blues rock",
-   "acid rock"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Big K.R.I.T.::4eva Is A Mighty Long Time": {
   "status": "ok",
@@ -15129,19 +14903,15 @@
   "apple_checked": "2026-09-21"
  },
  "Big Star::Third/Sister Lovers": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
-  "genres": [
-   "indie rock",
-   "power pop",
-   "rock"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "discogs",
+  "status": "partial",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ea584dcf391063fe.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/1e9ab81f18b1b24b3d6c4a55ef2de437/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Big Star::Radio City": {
   "status": "ok",
@@ -16955,21 +16725,16 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9774dc580f7c3d8f.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "britpop",
-   "rock"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/1e6f6130ca0ccbdd0cde4dc2b05e6df9/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "discogs",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/the-best-of/867694889",
   "apple_title": "The Best Of",
   "apple_via": "search",
   "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/1e6f6130ca0ccbdd0cde4dc2b05e6df9/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Blur::13": {
   "status": "ok",
@@ -17997,24 +17762,29 @@
   "apple_checked": "2026-09-21"
  },
  "Boris::あくまのうた (Akuma no uta)": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
+  "status": "ok",
+  "mbid": "7c1b4907-9d93-4cb5-b357-e9a451f28c34",
   "genres": [
-   "drone",
-   "stoner rock",
-   "experimental",
-   "doom metal",
    "noise rock",
    "noise",
-   "psychedelic rock",
-   "psychedelic"
+   "metal",
+   "stoner rock",
+   "lo-fi",
+   "psychedelic",
+   "stoner metal",
+   "acid rock",
+   "sludge metal",
+   "rock"
   ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist",
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7c1b4907-9d93-4cb5-b357-e9a451f28c34.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2003",
+  "checked": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://coverartarchive.org/release-group/7c1b4907-9d93-4cb5-b357-e9a451f28c34/front-500",
+  "cover_cached": "2026-10-04"
  },
  "Boris::Heavy Rocks": {
   "status": "ok",
@@ -20588,36 +20358,19 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "experimental",
-   "avant-garde",
-   "psychedelic",
-   "blues",
-   "rock",
-   "psychedelic rock",
-   "blues rock",
-   "experimental rock"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Captain Beefheart and His Magic Band::Safe as Milk": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "psychedelic rock",
-   "blues rock",
-   "rock"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "discogs",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Captain Beyond::Captain Beyond": {
   "status": "ok",
@@ -21852,23 +21605,32 @@
   "apple_checked": "2026-09-21"
  },
  "Chelsea Wolfe::Ἀποκάλυψις [Apokalypsis]": {
-  "status": "nomatch",
-  "cover_url": null,
-  "cover_from": null,
+  "status": "ok",
+  "mbid": "2b6c81bb-5dc1-4af9-8be0-e6b9e9db5965",
   "genres": [
-   "experimental",
-   "folk",
-   "singer-songwriter",
-   "gothic",
    "gothic rock",
-   "dark folk",
-   "doom metal"
+   "ethereal wave",
+   "psychedelic",
+   "rock",
+   "folk",
+   "experimental",
+   "folk rock",
+   "neofolk",
+   "noise",
+   "indie rock"
   ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2b6c81bb-5dc1-4af9-8be0-e6b9e9db5965.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2010",
+  "checked": "2026-10-04",
+  "apple_status": "ok",
+  "apple_url": "https://music.apple.com/mx/album/apokalypsis/1754395902",
+  "apple_title": "Apokalypsis",
+  "apple_via": "musicbrainz",
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://coverartarchive.org/release-group/2b6c81bb-5dc1-4af9-8be0-e6b9e9db5965/front-500",
+  "cover_cached": "2026-10-04"
  },
  "Chicago Transit Authority::Chicago Transit Authority": {
   "status": "ok",
@@ -23654,22 +23416,15 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/21be7dd3922c7c0a.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "trap",
-   "hip hop",
-   "hardcore hip hop"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/fee3aa1ca1d680385cc2b93ad9d7e4f4/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "apple_status": "review",
-  "apple_url": "https://music.apple.com/mx/album/e-t-d-s-a-mixtape-by-idk/1872476970",
-  "apple_title": "e.t.d.s. A Mixtape by .idk.",
+  "genres": [],
+  "tried": "2026-10-04",
+  "apple_status": "ok",
+  "apple_url": "https://music.apple.com/mx/album/e-t-d-s/1872476970",
+  "apple_title": "e.t.d.s.",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/fee3aa1ca1d680385cc2b93ad9d7e4f4/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Converge::Love Is Not Enough": {
   "status": "ok",
@@ -26783,18 +26538,12 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b8e1c93c1cd8c84e.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "noise rock",
-   "experimental",
-   "post-rock"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/5161fcb913384cf32e52a253df53d0aa/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/5161fcb913384cf32e52a253df53d0aa/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Death Grips::The Powers That B": {
   "status": "ok",
@@ -27700,16 +27449,10 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "blues rock",
-   "soul",
-   "rock"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "researched",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Deltron 3030::Deltron 3030": {
   "status": "ok",
@@ -29153,15 +28896,10 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "hip hop",
-   "turntablism"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "researched",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "DJ Screw::Endonesia": {
   "status": "ok",
@@ -29333,16 +29071,12 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2952dca12e763f34.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "griot"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/b5e58b0ee29786fd98ea929e5e8edafa/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "discogs",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/b5e58b0ee29786fd98ea929e5e8edafa/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Djo::Twenty Twenty": {
   "status": "ok",
@@ -29388,21 +29122,10 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "experimental",
-   "electro",
-   "indie pop",
-   "indie rock",
-   "hyperpop",
-   "emo",
-   "noise",
-   "electronic"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "discogs",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "DMX::It's Dark and Hell Is Hot": {
   "status": "ok",
@@ -30042,38 +29765,33 @@
  },
  "Dropkick Murphys::Greatest Hits": {
   "status": "nomatch",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8c33cbab48d9c265.jpg",
-  "cover_from": "app",
-  "genres": [
-   "punk",
-   "punk rock",
-   "folk punk",
-   "celtic punk",
-   "rock",
-   "folk",
-   "oi"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8f/d2/cb/8fd2cbbb-86b4-9dc5-405b-1e31fd557a06/0075597996593.jpg/600x600bb.jpg",
-  "cover_cached": "2026-09-21",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
- },
- "Drudkh::Кров у наших криницях (Blood in Our Wells)": {
-  "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "atmospheric black metal",
-   "rock"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "discogs",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
+ },
+ "Drudkh::Кров у наших криницях (Blood in Our Wells)": {
+  "status": "ok",
+  "mbid": "2beb8a9b-0e83-305c-abef-4e2d4b70751d",
+  "genres": [
+   "black metal",
+   "rock",
+   "atmospheric black metal"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2beb8a9b-0e83-305c-abef-4e2d4b70751d.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2006",
+  "checked": "2026-10-04",
+  "apple_status": "ok",
+  "apple_url": "https://music.apple.com/mx/album/blood-in-our-wells/583589023",
+  "apple_title": "Blood in Our Wells",
+  "apple_via": "musicbrainz",
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://coverartarchive.org/release-group/2beb8a9b-0e83-305c-abef-4e2d4b70751d/front-500",
+  "cover_cached": "2026-10-04"
  },
  "Duran Duran::Rio": {
   "status": "ok",
@@ -30769,19 +30487,10 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "noise rock",
-   "noise",
-   "indie rock",
-   "post-hardcore",
-   "latin",
-   "punk rock"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "El-p::Cancer for Cure": {
   "status": "ok",
@@ -33119,22 +32828,15 @@
   "apple_checked": "2026-09-21"
  },
  "Faye Wong::浮躁 (Fúzào)": {
-  "status": "nomatch",
+  "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8c5590945d9c8c3e.jpg",
-  "cover_from": "app",
-  "genres": [
-   "pop",
-   "c-pop",
-   "dream pop",
-   "mandopop"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/f6/31/d6/f631d6d6-1fd0-272a-3feb-de30b4e69ace/00602517665095.rgb.jpg/600x600bb.jpg",
-  "cover_cached": "2026-09-21",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/6503a812e44b37184e1a551ae3d78d8f/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Fear Factory::Demanufacture": {
   "status": "ok",
@@ -33650,23 +33352,16 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/960260b0313ed071.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "dub",
-   "post-rock",
-   "dream pop",
-   "progressive pop"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/8e9aff8ee1ad2f731e0e58b922bff370/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/98-12-28-otokotachino-wakare-live/1416934392",
   "apple_title": "98.12.28 Otokotachino Wakare (Live)",
   "apple_via": "search",
   "apple_why": "the title is longer or shorter than yours, and it is a live album",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/8e9aff8ee1ad2f731e0e58b922bff370/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Fishmans::Long Season": {
   "status": "ok",
@@ -37051,20 +36746,12 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7787bf5a0e962aae.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "leftfield",
-   "contemporary r&b",
-   "electronic",
-   "hip hop",
-   "pop"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/37d2d702e8b11eb599ba364974353094/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "discogs",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/37d2d702e8b11eb599ba364974353094/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Girls::Album": {
   "status": "ok",
@@ -37523,20 +37210,12 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/764b41f500dd3c14.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "electronic",
-   "rock",
-   "alternative rock",
-   "experimental",
-   "pop"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/8b059917e2f6d500cffb7dce368c72b7/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/8b059917e2f6d500cffb7dce368c72b7/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Gorillaz::Plastic beach": {
   "status": "ok",
@@ -39113,21 +38792,13 @@
   "apple_checked": "2026-09-21"
  },
  "Haru Nemuri::Harutosyura": {
-  "status": "partial",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d3dbb1bdd2c208da.jpg",
-  "cover_from": "deezer",
-  "genres": [
-   "j-pop",
-   "j-rock",
-   "noise pop"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/e4fdd9d30a5354a8a9a766b0263e7a08/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm",
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Helado Negro::Phasor": {
   "status": "ok",
@@ -39607,59 +39278,30 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/35094bb66ad4123f.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "jazz-funk",
-   "smooth jazz",
-   "jazz"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/753119529fba74573b70d6a840aec9ad/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "discogs",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/753119529fba74573b70d6a840aec9ad/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Hiroshi Yoshimura::Music For Nine Post Cards": {
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e219e2b35ac44e7a.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "experimental",
-   "ambient",
-   "electronic",
-   "classical"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/2c4b23512a00a9b5d6d40931c2ad0687/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "discogs",
-  "apple_status": "ok",
-  "apple_url": "https://music.apple.com/mx/album/music-for-nine-post-cards/1790530039",
-  "apple_title": "Music for Nine Post Cards",
-  "apple_via": "search",
-  "apple_checked": "2026-09-21"
+  "genres": [],
+  "tried": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/3fd145854c044463be2052938afb80ef/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Hiroshi Yoshimura::Green": {
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a3df331ec76d3423.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "new age",
-   "ambient",
-   "electronic"
-  ],
-  "tried": "2026-09-20",
+  "genres": [],
+  "tried": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/a6f36deea5c6789e17c85fba36a634e6/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "discogs",
-  "apple_status": "ok",
-  "apple_url": "https://music.apple.com/mx/album/green/1790521507",
-  "apple_title": "Green",
-  "apple_via": "search",
-  "apple_checked": "2026-09-21"
+  "cover_cached": "2026-10-04"
  },
  "HMLTD::West of Eden": {
   "status": "ok",
@@ -39776,22 +39418,10 @@
  },
  "Hollow Comet::Hollow Comet": {
   "status": "nomatch",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/564c86654290cbd2.jpg",
-  "cover_from": "app",
-  "genres": [
-   "indie folk",
-   "experimental"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "researched",
-  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/4f/47/f2/4f47f246-5000-c101-2618-c06d40d58572/194171127724.jpg/600x600bb.jpg",
-  "cover_cached": "2026-09-21",
-  "apple_status": "ok",
-  "apple_url": "https://music.apple.com/mx/album/hollow-comet/1463738550",
-  "apple_title": "Hollow Comet",
-  "apple_via": "search",
-  "apple_checked": "2026-09-21"
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-10-04"
  },
  "Holy Fawn::Death Spells": {
   "status": "ok",
@@ -40481,27 +40111,16 @@
  },
  "Ichiko Aoba::Luminiscent Creatures": {
   "status": "nomatch",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/21c3070579659c03.jpg",
-  "cover_from": "app",
-  "genres": [
-   "folk",
-   "singer-songwriter",
-   "chamber folk",
-   "contemporary folk",
-   "ambient",
-   "new age"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/87/5b/5b/875b5b86-30f3-d50a-de93-5bb5ad4cb141/49449.jpg/600x600bb.jpg",
-  "cover_cached": "2026-09-21",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/luminescent-creatures/1777069509",
   "apple_title": "Luminescent Creatures",
   "apple_via": "search",
   "apple_why": "the title is spelled differently",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "IDLES::CRAWLER": {
   "status": "ok",
@@ -41899,20 +41518,12 @@
  },
  "James Brown::20-all Times Greats!": {
   "status": "nomatch",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/cdf1058d14271525.jpg",
-  "cover_from": "app",
-  "genres": [
-   "funk",
-   "soul",
-   "blues"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8a/76/04/8a760498-ce95-c1f3-4bff-958362821728/14UMGIM28794.rgb.jpg/600x600bb.jpg",
-  "cover_cached": "2026-09-21",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Cluster::Zuckerseit": {
   "status": "ok",
@@ -43770,23 +43381,12 @@
  },
  "Joe Satriani::Essential Joe Satrini 1": {
   "status": "nomatch",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2888feca48fed0ec.jpg",
-  "cover_from": "app",
-  "genres": [
-   "instrumental rock",
-   "instrumental",
-   "rock",
-   "hard rock",
-   "progressive rock",
-   "heavy metal"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/14/3d/09/143d090c-a929-0a5d-b137-9f79febe5bb1/dj.vkqfdhfn.jpg/600x600bb.jpg",
-  "cover_cached": "2026-09-21",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Joe Satriani::Super Colossal": {
   "status": "ok",
@@ -47066,20 +46666,10 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/83e1c6f51c87a983.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "shoegaze",
-   "rock"
-  ],
-  "tried": "2026-09-20",
+  "genres": [],
+  "tried": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/1c8352a9fde32e9e019969032a07a603/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "discogs",
-  "rename_checked": "2026-09-21",
-  "apple_status": "ok",
-  "apple_url": "https://music.apple.com/mx/album/eureka/594107960",
-  "apple_title": "Eureka",
-  "apple_via": "search",
-  "apple_checked": "2026-09-21"
+  "cover_cached": "2026-10-04"
  },
  "Kirin J Calinan::Bravado": {
   "status": "ok",
@@ -47563,25 +47153,16 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1976d36eb1fc9a43.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "synthwave",
-   "electronic",
-   "ambient",
-   "dark ambient",
-   "progressive electronic",
-   "horror synth"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/0c3b635d809633aaaa76c88eedca9090/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/stranger-things-vol-1-a-netflix-original-series-soundtrack/1142771412",
   "apple_title": "Stranger Things, Vol. 1 (A Netflix Original Series Soundtrack)",
   "apple_via": "search",
   "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/0c3b635d809633aaaa76c88eedca9090/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Kyuss::Welcome to SKy Valley": {
   "status": "ok",
@@ -47883,44 +47464,32 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/dc22d53529f61e32.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "shibuya-kei",
-   "lounge",
-   "jazz pop",
-   "folk pop"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/7072c41c8a9c6d6557d57f5670e9a154/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "lastfm",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/7072c41c8a9c6d6557d57f5670e9a154/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Lamp::恋人へ [For Lovers]": {
-  "status": "nomatch",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/bdc03e2fdf1c6fdc.jpg",
-  "cover_from": "app",
+  "status": "ok",
+  "mbid": "9e7a4cb0-cb33-431a-ae7f-4ff969388fb7",
   "genres": [
-   "bossa nova",
-   "jazz",
-   "shibuya-kei",
-   "jazz pop",
-   "j-pop",
-   "indie pop",
-   "city pop"
+   "pop",
+   "j-pop"
   ],
-  "tried": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21",
-  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/96/34/bd/9634bd06-4484-3792-ce1b-a64a96710d22/4521640105079_cover.jpg/600x600bb.jpg",
-  "cover_cached": "2026-09-21",
-  "apple_status": "review",
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9e7a4cb0-cb33-431a-ae7f-4ff969388fb7.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2004",
+  "checked": "2026-10-04",
+  "apple_status": "ok",
   "apple_url": "https://music.apple.com/mx/album/%E6%81%8B%E4%BA%BA%E3%81%B8/1486281113",
   "apple_title": "恋人へ",
-  "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_via": "musicbrainz",
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://coverartarchive.org/release-group/9e7a4cb0-cb33-431a-ae7f-4ff969388fb7/front-500",
+  "cover_cached": "2026-10-04"
  },
  "Lana del Rey::Did you know that there is a tunnel under Ocean Blvd": {
   "status": "ok",
@@ -48651,20 +48220,12 @@
  },
  "Leo Kottke::6 & 12 Strings": {
   "status": "nomatch",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/50fada2ef3ad5d2c.jpg",
-  "cover_from": "app",
-  "genres": [
-   "folk",
-   "singer-songwriter",
-   "instrumental"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21",
-  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/59/e2/62/59e26219-a6ec-15f6-939f-abfb1b1064bf/00025218650328.rgb.jpg/600x600bb.jpg",
-  "cover_cached": "2026-09-21",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Leon Vynehall::Nothing is Still": {
   "status": "ok",
@@ -49539,26 +49100,32 @@
   "apple_checked": "2026-09-21"
  },
  "Lily Chou-Chou::呼吸 (Kokyuu)": {
-  "status": "partial",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/868ea8478b4e4370.jpg",
-  "cover_from": "deezer",
+  "status": "ok",
+  "mbid": "ede29a8a-d53d-3fa5-a16b-fcb42cc8123e",
   "genres": [
-   "dream pop",
-   "ambient",
+   "rock",
+   "downtempo",
+   "pop",
    "j-pop",
-   "experimental"
+   "indie pop",
+   "neo-psychedelia",
+   "dream pop",
+   "trip hop",
+   "ambient pop",
+   "art pop"
   ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/fc19a0767a4b2e13c885b8e596787f90/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21",
-  "apple_status": "review",
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ede29a8a-d53d-3fa5-a16b-fcb42cc8123e.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2001",
+  "checked": "2026-10-04",
+  "apple_status": "ok",
   "apple_url": "https://music.apple.com/mx/album/kokyuu/1297925080",
   "apple_title": "Kokyuu",
-  "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_via": "musicbrainz",
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://coverartarchive.org/release-group/ede29a8a-d53d-3fa5-a16b-fcb42cc8123e/front-500",
+  "cover_cached": "2026-10-04"
  },
  "Linda Perhacs::Parallelograms": {
   "status": "ok",
@@ -50782,22 +50349,10 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2ddf8c3a777efe5b.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "garage rock",
-   "psychedelic rock",
-   "stoner rock",
-   "rock"
-  ],
-  "tried": "2026-09-20",
+  "genres": [],
+  "tried": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/895d18c4c7a734dd69b6b411bb33bcdb/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "discogs",
-  "rename_checked": "2026-09-21",
-  "apple_status": "ok",
-  "apple_url": "https://music.apple.com/mx/album/las-monta%C3%B1as-remixed-and-remaster-2022/1647220065",
-  "apple_title": "Las Montañas (Remixed and Remaster 2022)",
-  "apple_via": "search",
-  "apple_checked": "2026-09-21"
+  "cover_cached": "2026-10-04"
  },
  "Los Prisioneros::Corazones": {
   "status": "ok",
@@ -53166,40 +52721,22 @@
   "apple_checked": "2026-09-21"
  },
  "Masayoshi Takanaka::The Rainbow Goblins": {
-  "status": "nomatch",
+  "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5a6eeba97af81ed8.jpg",
-  "cover_from": "app",
-  "genres": [
-   "psychedelic rock",
-   "jazz",
-   "rock"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "discogs",
-  "rename_checked": "2026-09-21",
-  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/bc/10/1ebc102f-499e-e3d9-5d91-4273b05b3a1a/199066671658.jpg/600x600bb.jpg",
-  "cover_cached": "2026-09-21",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/c385b3062d4b0ee5c8c4e21d7089fa0d/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Masayoshi Takanaka::AN INSATIABLE HIGH": {
   "status": "nomatch",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5c36d6ede30d9ae9.jpg",
-  "cover_from": "app",
-  "genres": [
-   "jazz-funk",
-   "jazz"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "discogs",
-  "rename_checked": "2026-09-21",
-  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/6d/3d/ba/6d3dba4e-88bb-ecf4-872b-8a857073c700/00602498909379.rgb.jpg/600x600bb.jpg",
-  "cover_cached": "2026-09-21",
-  "apple_status": "ok",
-  "apple_url": "https://music.apple.com/mx/album/an-insatiable-high/1443141169",
-  "apple_title": "An Insatiable High",
-  "apple_via": "search",
-  "apple_checked": "2026-09-21"
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-10-04"
  },
  "Masayoshi Takanaka::TAKANAKA": {
   "status": "ok",
@@ -53227,59 +52764,30 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/61ccacd891d282c2.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "jazz-funk",
-   "latin jazz",
-   "jazz"
-  ],
-  "tried": "2026-09-20",
+  "genres": [],
+  "tried": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/0245da6981524b45f615257ff8fbf36b/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "discogs",
-  "rename_checked": "2026-09-21",
-  "apple_status": "ok",
-  "apple_url": "https://music.apple.com/mx/album/brasilian-skies/1444076539",
-  "apple_title": "Brasilian Skies",
-  "apple_via": "search",
-  "apple_checked": "2026-09-21"
+  "cover_cached": "2026-10-04"
  },
  "Masayoshi Takanaka::Seychelles": {
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e9d45a2a8f0c98af.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "jazz-funk",
-   "jazz",
-   "latin"
-  ],
-  "tried": "2026-09-20",
+  "genres": [],
+  "tried": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/e7c6ff089705392c21f509aa3a3f0aee/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "discogs",
-  "rename_checked": "2026-09-21",
-  "apple_status": "ok",
-  "apple_url": "https://music.apple.com/mx/album/seychelles/1443091653",
-  "apple_title": "Seychelles",
-  "apple_via": "search",
-  "apple_checked": "2026-09-21"
+  "cover_cached": "2026-10-04"
  },
  "MASS OF THE FERMENTING DREGS::World is yours": {
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/169baedc6a5cf401.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "j-rock",
-   "post-hardcore",
-   "indie rock",
-   "dance-punk"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/c595214ee53a87d0bf1ead263c8a1b4c/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "lastfm",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/c595214ee53a87d0bf1ead263c8a1b4c/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "MASS OF THE FERMENTING DREGS::MASS OF THE FERMENTING DREGS": {
   "status": "ok",
@@ -56876,23 +56384,10 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2da86975246ff5c8.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "city pop",
-   "funk",
-   "synth-pop",
-   "electronic",
-   "pop"
-  ],
-  "tried": "2026-09-20",
+  "genres": [],
+  "tried": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/cac30c43c6a5c79bfad41ee765a3f3e4/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "discogs",
-  "rename_checked": "2026-09-21",
-  "apple_status": "ok",
-  "apple_url": "https://music.apple.com/mx/album/adventure/529393370",
-  "apple_title": "ADVENTURE",
-  "apple_via": "search",
-  "apple_checked": "2026-09-21"
+  "cover_cached": "2026-10-04"
  },
  "Mon Laferte::Autopoiética": {
   "status": "ok",
@@ -57619,23 +57114,16 @@
  },
  "Mulatu Astatke::Éthiopiques 4: Ethio Jazz & Musique Instrumentale 1969-1974": {
   "status": "nomatch",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/eed6246b72583616.jpg",
-  "cover_from": "app",
-  "genres": [
-   "instrumental",
-   "jazz"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "discogs",
-  "rename_checked": "2026-09-21",
-  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/f3/95/07/f39507fc-93bc-bcbe-ff63-5eee27936310/dj.tbywneqv.jpg/600x600bb.jpg",
-  "cover_cached": "2026-09-21",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/%C3%A9thiopiques-vol-4-ethio-jazz-musique-instrumentale/78928362",
   "apple_title": "Éthiopiques, Vol. 4: Ethio Jazz & Musique Instrumentale (1969-1974)",
   "apple_via": "search",
   "apple_why": "the title is spelled differently",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Murmuüre::Murmuüre": {
   "status": "ok",
@@ -58252,20 +57740,12 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/179229bca6a2da81.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "pop",
-   "latin",
-   "folk",
-   "indie pop",
-   "singer-songwriter"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/33890a570347f588b0a5d31480fc1d6c/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/33890a570347f588b0a5d31480fc1d6c/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Natalia Lafourcade::Musas": {
   "status": "ok",
@@ -59675,25 +59155,12 @@
  },
  "Nicolas Jaar::Essential BBC Mix (Nicolas Jaar)": {
   "status": "nomatch",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7d09f7536fb8d17d.jpg",
-  "cover_from": "app",
-  "genres": [
-   "electronic",
-   "deep house",
-   "house",
-   "techno",
-   "ambient",
-   "experimental",
-   "downtempo",
-   "microhouse"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21",
-  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/f0/15/83f01563-ae6b-2193-36f4-1e0a68aeeda7/827170120822_CCCDArtwork.jpg/600x600bb.jpg",
-  "cover_cached": "2026-09-21",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Nicolas Jaar::Cenizas": {
   "status": "ok",
@@ -64628,21 +64095,10 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b0ccbe088f0d938c.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "garage rock",
-   "indie rock",
-   "alternative rock"
-  ],
-  "tried": "2026-09-20",
+  "genres": [],
+  "tried": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/bf672dca888d6d495fcccb0457ed7e62/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "lastfm",
-  "rename_checked": "2026-09-21",
-  "apple_status": "ok",
-  "apple_url": "https://music.apple.com/mx/album/flores/1179560139",
-  "apple_title": "Flores",
-  "apple_via": "search",
-  "apple_checked": "2026-09-21"
+  "cover_cached": "2026-10-04"
  },
  "Polvo::Today's Active Lifestyles": {
   "status": "ok",
@@ -66155,43 +65611,23 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e543dee23f83c432.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "psychedelic rock",
-   "garage rock",
-   "psychedelic",
-   "stoner rock",
-   "rock",
-   "heavy psych",
-   "grunge"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/5765e9faa0629e9b0475be88ce7ab5ab/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/5765e9faa0629e9b0475be88ce7ab5ab/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Psychedelic Porn Crumpets::High Visceral pt. 2": {
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9d4b2ce3140d123a.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "psychedelic rock",
-   "garage rock",
-   "psychedelic",
-   "stoner rock",
-   "rock",
-   "heavy psych",
-   "grunge"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/5765e9faa0629e9b0475be88ce7ab5ab/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/5765e9faa0629e9b0475be88ce7ab5ab/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Bronski Beat::The Age of Consent": {
   "status": "ok",
@@ -66221,27 +65657,16 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e8d621ba1e61238f.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "noise rock",
-   "punk",
-   "post-punk",
-   "hardcore punk",
-   "punk rock",
-   "noise",
-   "rock",
-   "experimental"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/30c77f5c5fb27b02fa83011850911ed4/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/generic/299826399",
   "apple_title": "Generic",
   "apple_via": "search",
   "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/30c77f5c5fb27b02fa83011850911ed4/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Public Enemy::Fear of a Black Planet": {
   "status": "ok",
@@ -70140,20 +69565,10 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/63a555a9f2b03b8a.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "cool jazz",
-   "jazz"
-  ],
-  "tried": "2026-09-20",
+  "genres": [],
+  "tried": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/6c43fe68dcef0e6c5622149d08d5eb4f/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "discogs",
-  "rename_checked": "2026-09-21",
-  "apple_status": "ok",
-  "apple_url": "https://music.apple.com/mx/album/scenery/1329457232",
-  "apple_title": "Scenery",
-  "apple_via": "search",
-  "apple_checked": "2026-09-21"
+  "cover_cached": "2026-10-04"
  },
  "Ryuichi Sakamoto::async": {
   "status": "ok",
@@ -70205,21 +69620,16 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1a7fa10bc9f76118.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "synth-pop",
-   "electronic"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/45782627dd14d9509875a710f4943789/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "discogs",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/thousand-knives-ep/330744443",
   "apple_title": "Thousand Knives - EP",
   "apple_via": "search",
   "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/65db76fe750a7819411c1bac9ab513bd/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Sad Saturno::Destinados a Fallar": {
   "status": "ok",
@@ -71167,21 +70577,12 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a35cde593aab70bd.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "jazz",
-   "blues",
-   "bebop",
-   "rock",
-   "big band",
-   "instrumental"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/cb8a9d4761890dbe2e906bc6d3eab414/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/cb8a9d4761890dbe2e906bc6d3eab414/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Seatbelts::Cowboy Bebop": {
   "status": "ok",
@@ -71580,21 +70981,16 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d2360e1b82a13536.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "punk",
-   "rock"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/8f8b14f44a7d39b9294089c3ff8f5b38/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "discogs",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/compilation-i-ii-iii/1854904194",
   "apple_title": "COMPILATION (I, II, & III)",
   "apple_via": "search",
   "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/8f8b14f44a7d39b9294089c3ff8f5b38/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Sheer Mag::Need To Feel your Love": {
   "status": "ok",
@@ -71662,62 +71058,32 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5270995e6792d5fb.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "j-rock",
-   "rock",
-   "shoegaze",
-   "noise pop",
-   "noise rock",
-   "experimental rock"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/a470cd48c042ba84b10a2f7b7a47a0eb/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/%E3%81%A4%E3%81%BE%E3%82%93%E3%81%AD/408331115",
   "apple_title": "つまんね",
   "apple_via": "search",
   "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/a470cd48c042ba84b10a2f7b7a47a0eb/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Shiro Sagisu::The End of Evangelion": {
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1396a68fcd7233b8.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "baroque",
-   "classical"
-  ],
-  "tried": "2026-09-20",
+  "genres": [],
+  "tried": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/8ab52be3b0cf5d82316f9496a3cd77a0/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "discogs",
-  "rename_checked": "2026-09-21",
-  "apple_status": "ok",
-  "apple_url": "https://music.apple.com/mx/album/the-end-of-evangelion/1605640852",
-  "apple_title": "The End of Evangelion",
-  "apple_via": "search",
-  "apple_checked": "2026-09-21"
+  "cover_cached": "2026-10-04"
  },
  "Shiro Sagisu::Neon Genesis Evangelion (Original Series Soundtrack)": {
   "status": "nomatch",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a4c2402e947faae6.jpg",
-  "cover_from": "app",
-  "genres": [
-   "jazz"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "lastfm",
-  "rename_checked": "2026-09-21",
-  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/77/65/fa/7765fa66-2af8-dce3-fb4c-18cc68d6ba77/886448179139.jpg/600x600bb.jpg",
-  "cover_cached": "2026-09-21",
-  "apple_status": "ok",
-  "apple_url": "https://music.apple.com/mx/album/neon-genesis-evangelion-original-series-soundtrack/1500836561",
-  "apple_title": "Neon Genesis Evangelion (Original Series Soundtrack)",
-  "apple_via": "search",
-  "apple_checked": "2026-09-21"
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-10-04"
  },
  "Shlohmo::Vacation EP": {
   "status": "ok",
@@ -74852,23 +74218,12 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7b1559025c4452ba.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "post-punk",
-   "krautrock",
-   "art punk",
-   "experimental rock",
-   "new wave",
-   "art rock",
-   "dance-punk",
-   "post-rock"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/9eeb77b16df4bdc870246ef38314fa35/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/01268ea51be2180c59938af8d90a1aed/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Squid::Bright Green Field": {
   "status": "ok",
@@ -79339,23 +78694,12 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/da97ec1cafe88c86.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "classic rock",
-   "pop",
-   "surf",
-   "rock",
-   "surf rock",
-   "baroque pop",
-   "psychedelic",
-   "sunshine pop"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/52560aed836bb5f629e89e67a68f41a6/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/ab113555b056cb808b050dff43a9590a/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "The Beach Boys::Endless Summer": {
   "status": "ok",
@@ -83943,21 +83287,12 @@
  },
  "the pillows::FLCL Original Sound Track No. 3": {
   "status": "nomatch",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f83982276296f583.jpg",
-  "cover_from": "app",
-  "genres": [
-   "alternative rock",
-   "pop rock",
-   "j-rock",
-   "rock"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "discogs",
-  "rename_checked": "2026-09-21",
-  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/c0/45/58/c045588b-2f3f-f1db-9167-b99c7de1dc9d/196589109866.jpg/600x600bb.jpg",
-  "cover_cached": "2026-09-21",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "The Police::Every Breath You Take: The Singles": {
   "status": "ok",
@@ -85203,18 +84538,12 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/55deb992e1e3a3c5.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "alternative rock",
-   "grunge",
-   "rock"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/a3ca7ccf760c1466f8e338c3ff5c952c/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "discogs",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/a3ca7ccf760c1466f8e338c3ff5c952c/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "The Smashing Pumpkins::Adore": {
   "status": "ok",
@@ -87326,39 +86655,19 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "emo",
-   "post-rock",
-   "indie rock",
-   "midwest emo",
-   "post-hardcore",
-   "indie pop",
-   "math rock"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "The World Is a Beautiful Place and I Am No Longer Afraid to Die::Whenever, If Ever": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "emo",
-   "post-rock",
-   "indie rock",
-   "midwest emo",
-   "post-hardcore",
-   "indie pop",
-   "math rock"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "The Wrens::The Meadowlands": {
   "status": "ok",
@@ -87438,21 +86747,10 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/de5926243e136ffe.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "rock",
-   "blues",
-   "pop"
-  ],
-  "tried": "2026-09-20",
+  "genres": [],
+  "tried": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/e2c1a1b3f7b6bb017a05b7c26ab08feb/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "discogs",
-  "rename_checked": "2026-09-21",
-  "apple_status": "ok",
-  "apple_url": "https://music.apple.com/mx/album/roger-the-engineer/305186084",
-  "apple_title": "Roger the Engineer",
-  "apple_via": "search",
-  "apple_checked": "2026-09-21"
+  "cover_cached": "2026-10-04"
  },
  "The Zombies::Odessey & Oracle": {
   "status": "ok",
@@ -89355,24 +88653,16 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/0432acdce4876c64.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "city pop",
-   "j-pop",
-   "pop",
-   "new wave",
-   "funk"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/9dcaa875b04d7135574dd16a527f9157/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/fuyu-kukan-1-2022-restored-version/1608365235",
   "apple_title": "Fuyu Kukan (+1) [2022 Restored Version]",
   "apple_via": "search",
   "apple_why": "the title is spelled differently",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/9dcaa875b04d7135574dd16a527f9157/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Tony Allen::A Tribute to Art Blakey and the Messengers": {
   "status": "ok",
@@ -90105,23 +89395,26 @@
   "apple_checked": "2026-09-21"
  },
  "Tricot::リピート (repeat)": {
-  "status": "nomatch",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/68171a22ae6900b7.jpg",
-  "cover_from": "app",
+  "status": "ok",
+  "mbid": "a01cf649-1279-495c-8d33-256649b5e8ba",
   "genres": [
    "math rock",
-   "alternative rock",
-   "indie rock",
-   "rock",
-   "j-rock"
+   "j-rock",
+   "progressive pop",
+   "math pop"
   ],
-  "tried": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21",
-  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d3/3f/25/d33f2512-6bc3-5949-d822-15c8229c8f41/099370_J.jpg/600x600bb.jpg",
-  "cover_cached": "2026-09-21",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a01cf649-1279-495c-8d33-256649b5e8ba.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2019",
+  "checked": "2026-10-04",
+  "apple_status": "ok",
+  "apple_url": "https://music.apple.com/mx/album/%E3%83%AA%E3%83%94%E3%83%BC%E3%83%88-ep/1560938716",
+  "apple_title": "リピート - EP",
+  "apple_via": "musicbrainz",
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://coverartarchive.org/release-group/a01cf649-1279-495c-8d33-256649b5e8ba/front-500",
+  "cover_cached": "2026-10-04"
  },
  "Tricot::T H E": {
   "status": "ok",
@@ -92454,21 +91747,12 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8d78f79ed5a3fc36.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "post-punk",
-   "dance-punk",
-   "art punk",
-   "rock",
-   "punk",
-   "cowpunk"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/81b045f8620fd9575f0d68c353deb8ad/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/81b045f8620fd9575f0d68c353deb8ad/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Viagra Boys::Street Worms": {
   "status": "ok",
@@ -93218,21 +92502,12 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7e90955187b29765.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "alternative rock",
-   "rock",
-   "indie rock",
-   "power pop",
-   "emo",
-   "pop punk"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/39381d55274f8fd48d6c07158c76ef25/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/39381d55274f8fd48d6c07158c76ef25/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "Weezer::Everything Will Be Alright In The End": {
   "status": "ok",
@@ -95496,21 +94771,10 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/15922df9d0bf51e0.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "shoegaze",
-   "noise",
-   "rock"
-  ],
-  "tried": "2026-09-20",
+  "genres": [],
+  "tried": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/57197939f58035d8e86ece90fc65fb80/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "discogs",
-  "rename_checked": "2026-09-21",
-  "apple_status": "ok",
-  "apple_url": "https://music.apple.com/mx/album/el-%C3%BAltimo-disco-de-yo-mat%C3%A9-a-tu-perro/1203941531",
-  "apple_title": "El Último Disco de Yo Maté a Tu Perro",
-  "apple_via": "search",
-  "apple_checked": "2026-09-21"
+  "cover_cached": "2026-10-04"
  },
  "Yola::Stand For Myself": {
   "status": "ok",
@@ -95826,21 +95090,10 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8f36e5bbd45223bf.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "shoegaze",
-   "dream pop",
-   "rock"
-  ],
-  "tried": "2026-09-20",
+  "genres": [],
+  "tried": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/7ff9a3fc0b5c9401d497edbd73c29878/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "discogs",
-  "rename_checked": "2026-09-21",
-  "apple_status": "ok",
-  "apple_url": "https://music.apple.com/mx/album/nightlife-ep/1221328951",
-  "apple_title": "nightlife - EP",
-  "apple_via": "search",
-  "apple_checked": "2026-09-21"
+  "cover_cached": "2026-10-04"
  },
  "Yusef Lateef::Eastern Sounds": {
   "status": "ok",
@@ -96114,23 +95367,16 @@
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d9f7fd0d1567efa6.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "experimental",
-   "psychedelic rock",
-   "rock",
-   "pop"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/ef5666cdec4c2b884a204c6d8bec9a93/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "discogs",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/gongjoong-doduk/1502227003",
   "apple_title": "Gongjoong Doduk",
   "apple_via": "search",
   "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/ef5666cdec4c2b884a204c6d8bec9a93/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "아버지 [father]::흰색 죽음": {
   "status": "ok",
@@ -96176,225 +95422,237 @@
   "apple_checked": "2026-09-21"
  },
  "平沢進 [Susumu Hirasawa]::救済の技法 [Technique Of Relief]": {
-  "status": "nomatch",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/dbd295960b86f932.jpg",
-  "cover_from": "app",
+  "status": "ok",
+  "mbid": "42387532-5354-387f-8c17-4dfc59a70d73",
   "genres": [
    "electronic",
-   "progressive rock",
-   "synth-pop"
+   "downtempo",
+   "synth-pop",
+   "leftfield",
+   "art pop",
+   "futurepop",
+   "new age",
+   "electropop",
+   "electro-industrial",
+   "progressive pop"
   ],
-  "tried": "2026-09-20",
-  "genre_source": "researched",
-  "rename_checked": "2026-09-21",
-  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f7/a2/61/f7a26187-35cf-2398-d6fe-534ebd42d702/COCP-35525.jpg/600x600bb.jpg",
-  "cover_cached": "2026-09-21",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/42387532-5354-387f-8c17-4dfc59a70d73.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1998",
+  "checked": "2026-10-04",
+  "apple_status": "ok",
+  "apple_url": "https://music.apple.com/mx/album/kyuusai-no-gihou/495941490",
+  "apple_title": "Kyuusai No Gihou",
+  "apple_via": "musicbrainz",
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://coverartarchive.org/release-group/42387532-5354-387f-8c17-4dfc59a70d73/front-500",
+  "cover_cached": "2026-10-04"
  },
  "椎名林檎 [Sheena Ringo]::Shoso Strip": {
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/aeffead8e10ee8d8.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "art pop"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/7f3d8c2859008d28143c57e10dec6899/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/7f3d8c2859008d28143c57e10dec6899/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "椎名林檎 [Sheena Ringo]::Muzai Moratorium": {
   "status": "partial",
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/cec26bfc380759ed.jpg",
   "cover_from": "deezer",
-  "genres": [
-   "art pop"
-  ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/998fe24a29474d982f666006703c1225/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/muzai-moratorium-innocence-moratorium/1384341676",
   "apple_title": "Muzai Moratorium - Innocence Moratorium",
   "apple_via": "search",
   "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/998fe24a29474d982f666006703c1225/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-10-04"
  },
  "王若琳 [Joanna Wang]::破爛酒店 [Hotel La Rut]": {
-  "status": "partial",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/183647538e73306e.jpg",
-  "cover_from": "deezer",
+  "status": "ok",
+  "mbid": "8eca69e3-0dea-451e-a07f-20d20992d755",
   "genres": [
-   "jazz",
-   "pop",
-   "singer-songwriter"
+   "geek rock",
+   "progressive pop",
+   "art pop"
   ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/a8b1190b6fc2e734555b186da1815a88/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "researched",
-  "rename_checked": "2026-09-21",
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8eca69e3-0dea-451e-a07f-20d20992d755.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2024",
+  "checked": "2026-10-04",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/hotel-la-rut/1743138959",
   "apple_title": "Hotel La Rut",
   "apple_via": "search",
   "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://coverartarchive.org/release-group/8eca69e3-0dea-451e-a07f-20d20992d755/front-500",
+  "cover_cached": "2026-10-04"
  },
  "芸能山城組 [Geinoh Yamashirogumi]::Symphonic Suite AKIRA": {
-  "status": "nomatch",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/74b8ff9b70e977e1.jpg",
-  "cover_from": "app",
+  "status": "ok",
+  "mbid": "6f1b786c-f459-3eef-b4b0-8b44095ec36f",
   "genres": [
-   "gamelan",
-   "experimental",
    "electronic",
-   "modern classical"
+   "ambient",
+   "gamelan",
+   "classical",
+   "experimental",
+   "psychedelic",
+   "modern classical",
+   "tribal ambient",
+   "noh",
+   "downtempo"
   ],
-  "tried": "2026-09-20",
-  "genre_source": "researched",
-  "rename_checked": "2026-09-21",
-  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/53/17/2d/53172dc4-ea48-4ada-85c0-8027ebaddf3d/VICL-65922.jpg/600x600bb.jpg",
-  "cover_cached": "2026-09-21",
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6f1b786c-f459-3eef-b4b0-8b44095ec36f.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1988",
+  "checked": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://coverartarchive.org/release-group/6f1b786c-f459-3eef-b4b0-8b44095ec36f/front-500",
+  "cover_cached": "2026-10-04"
  },
  "青葉市子 [Ichiko Aoba]::Windswept Adan": {
-  "status": "partial",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1edb953b3ab4b1cb.jpg",
-  "cover_from": "deezer",
+  "status": "ok",
+  "mbid": "621d7e8b-68f2-4b2e-b204-aa8888963987",
   "genres": [
-   "indie pop",
-   "folk rock",
-   "rock",
-   "pop"
+   "chamber folk"
   ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/d888de60084644369238dba86790eb07/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "discogs",
-  "rename_checked": "2026-09-21",
-  "apple_status": "ok",
-  "apple_url": "https://music.apple.com/mx/album/windswept-adan/1714304663",
-  "apple_title": "Windswept Adan",
-  "apple_via": "search",
-  "apple_checked": "2026-09-21"
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/621d7e8b-68f2-4b2e-b204-aa8888963987.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2021",
+  "checked": "2026-10-04",
+  "cover_source_url": "https://coverartarchive.org/release-group/621d7e8b-68f2-4b2e-b204-aa8888963987/front-500",
+  "cover_cached": "2026-10-04"
  },
  "青葉市子 [Ichiko Aoba]::マホロボシヤ (Mahoroboshiya)": {
-  "status": "partial",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5271eafaeaa2f0fb.jpg",
-  "cover_from": "deezer",
+  "status": "ok",
+  "mbid": "659d9a18-baa2-4718-9aea-994af0003589",
   "genres": [
    "folk",
    "singer-songwriter",
-   "ambient"
+   "contemporary folk"
   ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/94828538dd24de9bb66b52bb66765e2a/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "researched",
-  "rename_checked": "2026-09-21",
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/659d9a18-baa2-4718-9aea-994af0003589.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2016",
+  "checked": "2026-10-04",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/mahoroboshiya/1161591568",
   "apple_title": "Mahoroboshiya",
   "apple_via": "search",
   "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://coverartarchive.org/release-group/659d9a18-baa2-4718-9aea-994af0003589/front-500",
+  "cover_cached": "2026-10-04"
  },
  "青葉市子 [Ichiko Aoba]::qp": {
-  "status": "partial",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9e69d40fb1a474e0.jpg",
-  "cover_from": "deezer",
+  "status": "ok",
+  "mbid": "a88a4b11-2f62-4e8a-ba62-fb4f372fcf6d",
   "genres": [
-   "folk",
    "singer-songwriter",
-   "ambient"
+   "contemporary folk"
   ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/070be56ce085e6288a51cf3802ac0863/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "researched",
-  "rename_checked": "2026-09-21",
-  "apple_status": "ok",
-  "apple_url": "https://music.apple.com/mx/album/qp/1437230374",
-  "apple_title": "qp",
-  "apple_via": "search",
-  "apple_checked": "2026-09-21"
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a88a4b11-2f62-4e8a-ba62-fb4f372fcf6d.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2018",
+  "checked": "2026-10-04",
+  "cover_source_url": "https://coverartarchive.org/release-group/a88a4b11-2f62-4e8a-ba62-fb4f372fcf6d/front-500",
+  "cover_cached": "2026-10-04"
  },
  "青葉市子 [Ichiko Aoba]::0": {
-  "status": "partial",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b26d67f02f80c2b6.jpg",
-  "cover_from": "deezer",
+  "status": "ok",
+  "mbid": "de63344e-b5eb-4e79-abe1-7c82f40801d9",
   "genres": [
-   "folk"
+   "singer-songwriter",
+   "contemporary folk"
   ],
-  "tried": "2026-09-20",
-  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/0f0bf00af59bde01e05664f7b6336cb6/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-09-20",
-  "genre_source": "discogs",
-  "rename_checked": "2026-09-21",
-  "apple_status": "ok",
-  "apple_url": "https://music.apple.com/mx/album/0/720743229",
-  "apple_title": "0",
-  "apple_via": "search",
-  "apple_checked": "2026-09-21"
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/de63344e-b5eb-4e79-abe1-7c82f40801d9.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2013",
+  "checked": "2026-10-04",
+  "cover_source_url": "https://coverartarchive.org/release-group/de63344e-b5eb-4e79-abe1-7c82f40801d9/front-500",
+  "cover_cached": "2026-10-04"
  },
  "青葉市子 [Ichiko Aoba]::うたびこ (Utabiko)": {
-  "status": "nomatch",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6a73a43db63f2e47.jpg",
-  "cover_from": "app",
+  "status": "ok",
+  "mbid": "38cca6e6-c1a8-4a79-bfff-823f03397f56",
   "genres": [
-   "folk",
    "singer-songwriter",
-   "ambient"
+   "contemporary folk",
+   "rock",
+   "pop",
+   "indie pop"
   ],
-  "tried": "2026-09-20",
-  "genre_source": "researched",
-  "rename_checked": "2026-09-21",
-  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1b/6f/98/1b6f988e-bf2f-498d-b66b-42acc29fa600/PA00089273_0_139121_jacket.jpg/600x600bb.jpg",
-  "cover_cached": "2026-09-21",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/38cca6e6-c1a8-4a79-bfff-823f03397f56.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2012",
+  "checked": "2026-10-04",
+  "apple_status": "ok",
+  "apple_url": "https://music.apple.com/mx/album/%E3%81%86%E3%81%9F%E3%81%B3%E3%81%93/1572945825",
+  "apple_title": "うたびこ",
+  "apple_via": "musicbrainz",
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://coverartarchive.org/release-group/38cca6e6-c1a8-4a79-bfff-823f03397f56/front-500",
+  "cover_cached": "2026-10-04"
  },
  "青葉市子 [Ichiko Aoba]::檻髪 (Origami)": {
-  "status": "nomatch",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c7ce608e2402b0cf.jpg",
-  "cover_from": "app",
+  "status": "ok",
+  "mbid": "c15f1983-9df7-4327-a181-4df2171b7f1c",
   "genres": [
-   "folk",
    "singer-songwriter",
-   "ambient"
+   "contemporary folk",
+   "rock",
+   "pop",
+   "indie pop"
   ],
-  "tried": "2026-09-20",
-  "genre_source": "researched",
-  "rename_checked": "2026-09-21",
-  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/69/c5/0a/69c50a42-2ca1-2354-6b5d-d787a69ba8be/PA00089275_0_139089_jacket.jpg/600x600bb.jpg",
-  "cover_cached": "2026-09-21",
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c15f1983-9df7-4327-a181-4df2171b7f1c.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2011",
+  "checked": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://coverartarchive.org/release-group/c15f1983-9df7-4327-a181-4df2171b7f1c/front-500",
+  "cover_cached": "2026-10-04"
  },
  "青葉市子 [Ichiko Aoba]::剃刀乙女 (Kamisori Otome)": {
-  "status": "nomatch",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/0fd1723da6cf034c.jpg",
-  "cover_from": "app",
+  "status": "ok",
+  "mbid": "b56a9740-7d78-4c59-bf2f-b0e45d909948",
   "genres": [
-   "folk",
    "singer-songwriter",
-   "ambient"
+   "contemporary folk",
+   "rock",
+   "pop",
+   "indie pop"
   ],
-  "tried": "2026-09-20",
-  "genre_source": "researched",
-  "rename_checked": "2026-09-21",
-  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f5/bc/6f/f5bc6fcb-0db1-900d-35e4-e97e3496b6ce/PA00089274_0_139090_jacket.jpg/600x600bb.jpg",
-  "cover_cached": "2026-09-21",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b56a9740-7d78-4c59-bf2f-b0e45d909948.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2010",
+  "checked": "2026-10-04",
+  "apple_status": "ok",
+  "apple_url": "https://music.apple.com/mx/album/%E5%89%83%E5%88%80%E4%B9%99%E5%A5%B3-remastered/1575488163",
+  "apple_title": "剃刀乙女 (remastered)",
+  "apple_via": "musicbrainz",
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://coverartarchive.org/release-group/b56a9740-7d78-4c59-bf2f-b0e45d909948/front-500",
+  "cover_cached": "2026-10-04"
  },
  "Youth Lagoon::The Year of Hibernation": {
   "status": "ok",
@@ -97239,18 +96497,10 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "electronic",
-   "dance",
-   "electro",
-   "electronica",
-   "house"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Basement Jaxx::Remedy": {
   "status": "ok",
@@ -98176,62 +97426,37 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "dub",
-   "dream pop"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Frankie Knuckles::Boiler Room London DJ Set": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "house",
-   "deep house"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "researched",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "John Tabalot::Fin": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "deep house",
-   "electronic",
-   "house",
-   "balearic beat",
-   "microhouse",
-   "disco",
-   "electronica",
-   "tech house"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "lastfm-artist",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Litourgiya::Batushka": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "black metal"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "researched",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Louis Jordan::Five Guys Named Moe: Original Decca Recordings Vol. 2": {
   "status": "ok",
@@ -98282,17 +97507,10 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "industrial metal",
-   "thrash metal",
-   "metal",
-   "post-industrial"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "lastfm",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Misfits::Beware": {
   "status": "ok",
@@ -98315,16 +97533,10 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "chiptune",
-   "ambient",
-   "electronic"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "researched",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Panchiko::Kicking Cars": {
   "status": "ok",
@@ -98347,103 +97559,64 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "dariacore",
-   "edm",
-   "complextro"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "schnozz::berdlycore chapter 1": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "dariacore"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "lastfm",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "schnozz::berdlycore chapter 2": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "dariacore"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "lastfm",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Secret Guest::Traumprinz B2B DJ Metatron Live at Planet Uterus": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "deep house",
-   "house",
-   "electronic"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "researched",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Shibusashirazu Orchestra::Shibuboshi (渋星)": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "free jazz",
-   "jazz",
-   "avant-garde",
-   "avant-garde jazz",
-   "experimental",
-   "big band"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Sluason Malone::A Quiet Farewell, Twenty Sixteen to Twent Eighteen": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "experimental hip hop",
-   "abstract hip hop"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "researched",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "SLUG BAIT::HALLUCINEAGENEOLOGY": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "electronic",
-   "experimental"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "researched",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "The Gerogerigegege::燃えない灰 [Moenai Hai]": {
   "status": "ok",
@@ -98474,53 +97647,28 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "dirty south",
-   "hip hop",
-   "memphis rap",
-   "horrorcore",
-   "crunk",
-   "gangsta rap"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Universe Nekoko::Kimi No Youni Ikiretara": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "indie rock",
-   "dream pop",
-   "twee pop"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "lastfm-artist",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Utada Hikaru::Deep River": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "contemporary r&b",
-   "downtempo",
-   "euro house",
-   "j-pop",
-   "ballad",
-   "electronic",
-   "pop"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "discogs",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Various Artists::African Connection, Vol. 1: Zaire Choc!": {
   "status": "ok",
@@ -98556,44 +97704,28 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "soukous",
-   "afrobeat"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "researched",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "ミドリ [Midori]::Hello Everyone. Nice to Meet you. We are Midori": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "punk",
-   "jazz",
-   "experimental rock"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "researched",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "惘闻 [Wang Wen]::冀西南林路行 (Inside The Cable Temple)": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "post-rock",
-   "instrumental rock"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "researched",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "椎名林檎 [Sheena Ringo]::加爾基 精液 栗ノ花 (Kalk Samen Kuri no Hana)": {
   "status": "ok",
@@ -99263,15 +98395,10 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "chiptune",
-   "electronic"
-  ],
-  "tried": "2026-09-20",
-  "rename_checked": "2026-09-20",
-  "genre_source": "researched",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "James Chance & Contortions::Buy": {
   "status": "ok",
@@ -99688,20 +98815,12 @@
  },
  "Susumu Hirasawa 平沢進::剣風伝奇ベルセルク (Berserk)": {
   "status": "nomatch",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4d10defe8566945e.jpg",
-  "cover_from": "app",
-  "genres": [
-   "electronic",
-   "progressive rock",
-   "ambient"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "researched",
-  "rename_checked": "2026-09-21",
-  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4c/d9/32/4cd93289-3926-09cd-58d2-cd5d977d27be/ticket.dulyjyca.jpg/600x600bb.jpg",
-  "cover_cached": "2026-09-21",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Tabu Ley Rochereau::Tabu Ley Rochereau: The Voice of Lightness Vol 1 Album 1": {
   "status": "ok",
@@ -99721,43 +98840,42 @@
   "apple_checked": "2026-09-21"
  },
  "Tatsuro Yamashita 山下達郎::Big Wave": {
-  "status": "nomatch",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9bac1c547b98deef.jpg",
-  "cover_from": "app",
+  "status": "ok",
+  "mbid": "646b0788-df08-4935-887c-edf5cb976840",
   "genres": [
    "city pop",
+   "baroque pop",
+   "doo-wop",
    "j-pop",
-   "soft rock"
+   "pop",
+   "surf",
+   "surf rock"
   ],
-  "tried": "2026-09-20",
-  "genre_source": "researched",
-  "rename_checked": "2026-09-21",
-  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/71/26/d8/7126d88b-7cf5-5ba5-7043-f1d26a8dd87f/jacket_MHXX00766B00Z_550.jpg/600x600bb.jpg",
-  "cover_cached": "2026-09-21",
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/646b0788-df08-4935-887c-edf5cb976840.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1984",
+  "checked": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://coverartarchive.org/release-group/646b0788-df08-4935-887c-edf5cb976840/front-500",
+  "cover_cached": "2026-10-04"
  },
  "Tatsuro Yamashita 山下達郎::For You": {
-  "status": "nomatch",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/bc767c39601021b0.jpg",
-  "cover_from": "app",
+  "status": "ok",
+  "mbid": "1bc1ba12-6114-3ef9-89e6-3f4c8f5e0bb3",
   "genres": [
-   "ballad",
-   "city pop",
-   "funk",
-   "soft rock",
-   "soul",
-   "jazz",
-   "rock",
-   "pop"
+   "city pop"
   ],
-  "tried": "2026-09-20",
-  "genre_source": "discogs",
-  "rename_checked": "2026-09-21",
-  "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/71/26/d8/7126d88b-7cf5-5ba5-7043-f1d26a8dd87f/jacket_MHXX00766B00Z_550.jpg/600x600bb.jpg",
-  "cover_cached": "2026-09-21",
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1bc1ba12-6114-3ef9-89e6-3f4c8f5e0bb3.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "1982",
+  "checked": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04",
+  "cover_source_url": "https://coverartarchive.org/release-group/1bc1ba12-6114-3ef9-89e6-3f4c8f5e0bb3/front-500",
+  "cover_cached": "2026-10-04"
  },
  "Tatsuro Yamashita 山下達郎::Ride on Time": {
   "status": "ok",
@@ -99809,16 +98927,10 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "tropicália",
-   "mpb",
-   "psychedelic rock"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "researched",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Westside Gunn & Conway the Machine::Griselda Ghost": {
   "status": "ok",
@@ -99843,30 +98955,19 @@
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "j-pop",
-   "electronic",
-   "bossa nova"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "researched",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "가장 보통의 존재::Sister's Barbershop 언니네이발관": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
-  "genres": [
-   "indie rock",
-   "indie pop"
-  ],
-  "tried": "2026-09-20",
-  "genre_source": "researched",
-  "rename_checked": "2026-09-21",
+  "genres": [],
+  "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-04"
  },
  "Corea::Los peores 7 peores km de mi vida": {
   "status": "ok",
