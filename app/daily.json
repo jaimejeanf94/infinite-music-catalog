@@ -1,68 +1,78 @@
 {
- "date": "2026-10-04",
+ "date": "2026-10-05",
  "picks": [
   {
    "artist": "Iron Maiden",
-   "title": "Piece Of Mind",
-   "year": 1983,
+   "title": "Best of the Beast",
+   "year": 1996,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/169361b5-af6f-34ca-b8f2-13605a7f9691.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/28b67259-fee2-3c1b-bc18-2b648983ca67.jpg",
    "genres": [
     "heavy metal",
     "metal",
-    "nwobhm"
-   ]
-  },
-  {
-   "artist": "Beach House",
-   "title": "Bloom",
-   "year": 2012,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f1390eec-a192-4d96-9943-bbc42a819588.jpg",
-   "genres": [
-    "dream pop",
-    "indie pop",
-    "indie rock"
-   ]
-  },
-  {
-   "artist": "Feist",
-   "title": "Metals",
-   "year": 2011,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b8f5f7a5-5a62-43b2-8099-cc1b0f8810fa.jpg",
-   "genres": [
-    "rock",
-    "downtempo",
-    "indie rock"
-   ]
-  },
-  {
-   "artist": "Godspeed You Black Emperor",
-   "title": "Slow Riot for New Zero Kanada",
-   "year": 1999,
-   "score": 75,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7a474ed2-8f4a-3295-8943-68818da3af3e.jpg",
-   "genres": [
-    "post-rock",
-    "experimental",
     "rock"
    ]
   },
   {
-   "artist": "JPEGMAFIA",
-   "title": "Veteran",
-   "year": 2018,
-   "score": 90,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4dca0a1a-c7a4-453a-8ae1-543cae89c5df.jpg",
+   "artist": "Steely Dan",
+   "title": "The Royal Scam",
+   "year": 1976,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/586013b7-6cb0-39d4-b3cc-702b665fd830.jpg",
    "genres": [
-    "experimental hip hop",
-    "hip hop",
-    "glitch hop"
+    "pop rock",
+    "jazz rock",
+    "jazz pop"
+   ]
+  },
+  {
+   "artist": "Amy Winehouse",
+   "title": "Frank",
+   "year": 2003,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9a9d41e9-2080-3293-8676-9e26f44a05b1.jpg",
+   "genres": [
+    "soul",
+    "pop",
+    "jazz"
+   ]
+  },
+  {
+   "artist": "Mount Eerie",
+   "title": "Wind's Poem",
+   "year": 2010,
+   "score": 85,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b61fff72-135b-4177-b051-0c4885352d30.jpg",
+   "genres": [
+    "rock",
+    "post-rock",
+    "black metal"
+   ]
+  },
+  {
+   "artist": "The Cure",
+   "title": "Disintegration",
+   "year": 1989,
+   "score": 100,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/494bf606-d2f7-36d0-8340-eadad8601d2b.jpg",
+   "genres": [
+    "gothic rock",
+    "alternative rock",
+    "post-punk"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-05",
+   "keys": [
+    "Iron Maiden::Best of the Beast",
+    "Steely Dan::The Royal Scam",
+    "Amy Winehouse::Frank",
+    "Mount Eerie::Wind's Poem",
+    "The Cure::Disintegration"
+   ]
+  },
   {
    "date": "2026-10-04",
    "keys": [

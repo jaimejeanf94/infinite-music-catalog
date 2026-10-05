@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-04T09:24:21.038Z",
+ "generated": "2026-10-05T09:53:18.163Z",
  "totals": {
-  "albums": 4430,
+  "albums": 4431,
   "rated": 445,
   "withCover": 4430,
   "withGenres": 4430,
   "matched": 4315,
-  "apple": 3672
+  "apple": 3673
  },
  "sections": [
   {
@@ -14,16 +14,26 @@
    "title": "No cover",
    "why": "Nothing to show on the shelf. Upload one from the album's own sheet.",
    "action": "upload",
-   "count": 0,
-   "items": []
+   "count": 1,
+   "items": [
+    {
+     "artist": "Isaam Hajali",
+     "title": "Mouasalat Ila Jacad El Ard (Habibi Funk 010)"
+    }
+   ]
   },
   {
    "id": "no-genres",
    "title": "No genres",
    "why": "Invisible to every genre filter.",
    "action": "research",
-   "count": 0,
-   "items": []
+   "count": 1,
+   "items": [
+    {
+     "artist": "Isaam Hajali",
+     "title": "Mouasalat Ila Jacad El Ard (Habibi Funk 010)"
+    }
+   ]
   },
   {
    "id": "year-gap",
@@ -569,21 +579,6 @@
      "apply": "Rename"
     },
     {
-     "artist": "Kyle Dixon & Michael Stein",
-     "title": "Stranger Things, Vol 1",
-     "note": "Kyle Dixon & Michael Stein — Stranger Things 2   (sequence number changed (Pt. 2 / Vol. 3 / Part One); looser than the confident band)",
-     "suggest": {
-      "artist": "Kyle Dixon & Michael Stein",
-      "title": "Stranger Things 2"
-     },
-     "subject": "rename:Kyle Dixon & Michael Stein::Stranger Things, Vol 1",
-     "was": {
-      "artist": "Kyle Dixon & Michael Stein",
-      "title": "Stranger Things, Vol 1"
-     },
-     "apply": "Rename"
-    },
-    {
      "artist": "Psychedelic Porn Crumpets",
      "title": "High Visceral pt. 1",
      "note": "Psychedelic Porn Crumpets — High Visceral {Part One}   (looser than the confident band)",
@@ -625,6 +620,21 @@
      "was": {
       "artist": "Drudkh",
       "title": "Кров у наших криницях (Blood in Our Wells)"
+     },
+     "apply": "Rename"
+    },
+    {
+     "artist": "Kyle Dixon & Michael Stein",
+     "title": "Stranger Things, Vol 1",
+     "note": "Kyle Dixon & Michael Stein — Stranger Things 2   (sequence number changed (Pt. 2 / Vol. 3 / Part One); looser than the confident band)",
+     "suggest": {
+      "artist": "Kyle Dixon & Michael Stein",
+      "title": "Stranger Things 2"
+     },
+     "subject": "rename:Kyle Dixon & Michael Stein::Stranger Things, Vol 1",
+     "was": {
+      "artist": "Kyle Dixon & Michael Stein",
+      "title": "Stranger Things, Vol 1"
      },
      "apply": "Rename"
     }
