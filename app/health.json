@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-05T09:53:18.163Z",
+ "generated": "2026-10-06T09:41:28.098Z",
  "totals": {
   "albums": 4431,
-  "rated": 445,
+  "rated": 447,
   "withCover": 4430,
   "withGenres": 4430,
   "matched": 4315,
@@ -579,36 +579,6 @@
      "apply": "Rename"
     },
     {
-     "artist": "Psychedelic Porn Crumpets",
-     "title": "High Visceral pt. 1",
-     "note": "Psychedelic Porn Crumpets — High Visceral {Part One}   (looser than the confident band)",
-     "suggest": {
-      "artist": "Psychedelic Porn Crumpets",
-      "title": "High Visceral {Part One}"
-     },
-     "subject": "rename:Psychedelic Porn Crumpets::High Visceral pt. 1",
-     "was": {
-      "artist": "Psychedelic Porn Crumpets",
-      "title": "High Visceral pt. 1"
-     },
-     "apply": "Rename"
-    },
-    {
-     "artist": "Psychedelic Porn Crumpets",
-     "title": "High Visceral pt. 2",
-     "note": "Psychedelic Porn Crumpets — High Visceral {Part One}   (sequence number changed (Pt. 2 / Vol. 3 / Part One); looser than the confident band)",
-     "suggest": {
-      "artist": "Psychedelic Porn Crumpets",
-      "title": "High Visceral {Part One}"
-     },
-     "subject": "rename:Psychedelic Porn Crumpets::High Visceral pt. 2",
-     "was": {
-      "artist": "Psychedelic Porn Crumpets",
-      "title": "High Visceral pt. 2"
-     },
-     "apply": "Rename"
-    },
-    {
      "artist": "Drudkh",
      "title": "Кров у наших криницях (Blood in Our Wells)",
      "note": "Drudkh — Кров у наших криницях   (the title loses \"blood wells\" — likely a different release)",
@@ -635,6 +605,36 @@
      "was": {
       "artist": "Kyle Dixon & Michael Stein",
       "title": "Stranger Things, Vol 1"
+     },
+     "apply": "Rename"
+    },
+    {
+     "artist": "Psychedelic Porn Crumpets",
+     "title": "High Visceral pt. 1",
+     "note": "Psychedelic Porn Crumpets — High Visceral {Part One}   (looser than the confident band)",
+     "suggest": {
+      "artist": "Psychedelic Porn Crumpets",
+      "title": "High Visceral {Part One}"
+     },
+     "subject": "rename:Psychedelic Porn Crumpets::High Visceral pt. 1",
+     "was": {
+      "artist": "Psychedelic Porn Crumpets",
+      "title": "High Visceral pt. 1"
+     },
+     "apply": "Rename"
+    },
+    {
+     "artist": "Psychedelic Porn Crumpets",
+     "title": "High Visceral pt. 2",
+     "note": "Psychedelic Porn Crumpets — High Visceral {Part One}   (sequence number changed (Pt. 2 / Vol. 3 / Part One); looser than the confident band)",
+     "suggest": {
+      "artist": "Psychedelic Porn Crumpets",
+      "title": "High Visceral {Part One}"
+     },
+     "subject": "rename:Psychedelic Porn Crumpets::High Visceral pt. 2",
+     "was": {
+      "artist": "Psychedelic Porn Crumpets",
+      "title": "High Visceral pt. 2"
      },
      "apply": "Rename"
     }
@@ -5692,8 +5692,8 @@
     },
     {
      "artist": "Iron Maiden",
-     "title": "Best of the Beast",
-     "note": "looked for on 2026-09-21",
+     "title": "Edward The Great: The Greatest Hits",
+     "note": "looked for on 2026-10-06",
      "dismiss": "Not there"
     },
     {

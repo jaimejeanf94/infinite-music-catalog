@@ -1,68 +1,76 @@
 {
- "date": "2026-10-05",
+ "date": "2026-10-06",
  "picks": [
   {
-   "artist": "Iron Maiden",
-   "title": "Best of the Beast",
-   "year": 1996,
+   "artist": "Immolation",
+   "title": "Close to a World Below",
+   "year": 2000,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/28b67259-fee2-3c1b-bc18-2b648983ca67.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/41ac44b3-84aa-35d2-bffb-590fe97f2460.jpg",
    "genres": [
-    "heavy metal",
-    "metal",
+    "death metal",
+    "rock",
+    "metal"
+   ]
+  },
+  {
+   "artist": "Mogwai",
+   "title": "Hardcore Will Never Die, But You Will",
+   "year": 2011,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/adbafb98-0484-4845-b5a6-99b630f0aa03.jpg",
+   "genres": [
+    "post-rock",
+    "rock",
+    "shoegaze"
+   ]
+  },
+  {
+   "artist": "The Backseat Lovers",
+   "title": "When We Were Friends",
+   "year": 2019,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/de107e4f-e1ae-4908-b5c9-df5e30379de5.jpg",
+   "genres": [
     "rock"
    ]
   },
   {
-   "artist": "Steely Dan",
-   "title": "The Royal Scam",
-   "year": 1976,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/586013b7-6cb0-39d4-b3cc-702b665fd830.jpg",
+   "artist": "G Jones",
+   "title": "Illusory Tracks",
+   "year": 2022,
+   "score": 80,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/674a1a5a-2c73-47c8-b246-f7b448230fa0.jpg",
    "genres": [
-    "pop rock",
-    "jazz rock",
-    "jazz pop"
+    "electronic",
+    "rave",
+    "experimental"
    ]
   },
   {
-   "artist": "Amy Winehouse",
-   "title": "Frank",
-   "year": 2003,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9a9d41e9-2080-3293-8676-9e26f44a05b1.jpg",
+   "artist": "Charli XCX",
+   "title": "Charli",
+   "year": 2019,
+   "score": 80,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/dc396430-1e1c-4f0b-8b05-d69603d7fb12.jpg",
    "genres": [
-    "soul",
-    "pop",
-    "jazz"
-   ]
-  },
-  {
-   "artist": "Mount Eerie",
-   "title": "Wind's Poem",
-   "year": 2010,
-   "score": 85,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b61fff72-135b-4177-b051-0c4885352d30.jpg",
-   "genres": [
-    "rock",
-    "post-rock",
-    "black metal"
-   ]
-  },
-  {
-   "artist": "The Cure",
-   "title": "Disintegration",
-   "year": 1989,
-   "score": 100,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/494bf606-d2f7-36d0-8340-eadad8601d2b.jpg",
-   "genres": [
-    "gothic rock",
-    "alternative rock",
-    "post-punk"
+    "electropop",
+    "synth-pop",
+    "bubblegum bass"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-06",
+   "keys": [
+    "Immolation::Close to a World Below",
+    "Mogwai::Hardcore Will Never Die, But You Will",
+    "The Backseat Lovers::When We Were Friends",
+    "G Jones::Illusory Tracks",
+    "Charli XCX::Charli"
+   ]
+  },
   {
    "date": "2026-10-05",
    "keys": [

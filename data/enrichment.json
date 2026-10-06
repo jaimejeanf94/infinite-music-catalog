@@ -965,7 +965,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-10-04"
+  "apple_checked": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "The Cardigans::First Band on the Moon": {
   "status": "ok",
@@ -2566,7 +2567,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-10-04"
+  "apple_checked": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Triángulo de Amor Bizarro::Triángulo de Amor Bizarro": {
   "status": "ok",
@@ -2615,7 +2617,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/ae5cabf2f03530fbcc3ca4589150035a/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-10-04"
+  "cover_cached": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Neon Indian::Vegan INTL. Night School": {
   "status": "ok",
@@ -8121,7 +8124,8 @@
   "apple_status": "nomatch",
   "apple_checked": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/3770c3ea093a8d3679355d2e226f38e4/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-10-04"
+  "cover_cached": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "…And You Will Know Us by the Trail of Dead::Source Tags & Codes": {
   "status": "ok",
@@ -8409,7 +8413,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-10-04"
+  "apple_checked": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "2 Many DJ's::2ManyDJs Live at Kompass": {
   "status": "nomatch",
@@ -8584,7 +8589,8 @@
   "apple_status": "nomatch",
   "apple_checked": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/b9a48cc0b2e2e7520c8a32cefb0e2f79/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-10-04"
+  "cover_cached": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "A Tribe Called Quest::We Got it From Here… Thank You 4 your Services": {
   "status": "ok",
@@ -41058,26 +41064,6 @@
   "apple_via": "musicbrainz",
   "apple_checked": "2026-09-21"
  },
- "Iron Maiden::Best of the Beast": {
-  "status": "ok",
-  "mbid": "28b67259-fee2-3c1b-bc18-2b648983ca67",
-  "genres": [
-   "heavy metal",
-   "metal",
-   "rock",
-   "nwobhm",
-   "hard rock"
-  ],
-  "genre_source": "release",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/28b67259-fee2-3c1b-bc18-2b648983ca67.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "1996",
-  "checked": "2026-09-19",
-  "cover_source_url": "https://coverartarchive.org/release-group/28b67259-fee2-3c1b-bc18-2b648983ca67/front-500",
-  "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
- },
  "Iron Maiden::Seventh Son of a Seventh Son": {
   "status": "ok",
   "mbid": "1b0d4fdb-d4ee-308f-9755-ccb7dc31a001",
@@ -52778,7 +52764,8 @@
   "apple_status": "nomatch",
   "apple_checked": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/c385b3062d4b0ee5c8c4e21d7089fa0d/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-10-04"
+  "cover_cached": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Masayoshi Takanaka::AN INSATIABLE HIGH": {
   "status": "nomatch",
@@ -52839,7 +52826,8 @@
   "apple_status": "nomatch",
   "apple_checked": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/c595214ee53a87d0bf1ead263c8a1b4c/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-10-04"
+  "cover_cached": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "MASS OF THE FERMENTING DREGS::MASS OF THE FERMENTING DREGS": {
   "status": "ok",
@@ -56439,7 +56427,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/cac30c43c6a5c79bfad41ee765a3f3e4/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-10-04"
+  "cover_cached": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Mon Laferte::Autopoiética": {
   "status": "ok",
@@ -57175,7 +57164,8 @@
   "apple_title": "Éthiopiques, Vol. 4: Ethio Jazz & Musique Instrumentale (1969-1974)",
   "apple_via": "search",
   "apple_why": "the title is spelled differently",
-  "apple_checked": "2026-10-04"
+  "apple_checked": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Murmuüre::Murmuüre": {
   "status": "ok",
@@ -57797,7 +57787,8 @@
   "apple_status": "nomatch",
   "apple_checked": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/33890a570347f588b0a5d31480fc1d6c/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-10-04"
+  "cover_cached": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Natalia Lafourcade::Musas": {
   "status": "ok",
@@ -59212,7 +59203,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-10-04"
+  "apple_checked": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Nicolas Jaar::Cenizas": {
   "status": "ok",
@@ -64150,7 +64142,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/bf672dca888d6d495fcccb0457ed7e62/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-10-04"
+  "cover_cached": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Polvo::Today's Active Lifestyles": {
   "status": "ok",
@@ -65668,7 +65661,8 @@
   "apple_status": "nomatch",
   "apple_checked": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/5765e9faa0629e9b0475be88ce7ab5ab/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-10-04"
+  "cover_cached": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Psychedelic Porn Crumpets::High Visceral pt. 2": {
   "status": "partial",
@@ -65679,7 +65673,8 @@
   "apple_status": "nomatch",
   "apple_checked": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/5765e9faa0629e9b0475be88ce7ab5ab/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-10-04"
+  "cover_cached": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Bronski Beat::The Age of Consent": {
   "status": "ok",
@@ -69621,7 +69616,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/6c43fe68dcef0e6c5622149d08d5eb4f/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-10-04"
+  "cover_cached": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Ryuichi Sakamoto::async": {
   "status": "ok",
@@ -69682,7 +69678,8 @@
   "apple_why": "the title is longer or shorter than yours",
   "apple_checked": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/65db76fe750a7819411c1bac9ab513bd/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-10-04"
+  "cover_cached": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Sad Saturno::Destinados a Fallar": {
   "status": "ok",
@@ -70635,7 +70632,8 @@
   "apple_status": "nomatch",
   "apple_checked": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/cb8a9d4761890dbe2e906bc6d3eab414/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-10-04"
+  "cover_cached": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Seatbelts::Cowboy Bebop": {
   "status": "ok",
@@ -71043,7 +71041,8 @@
   "apple_why": "the title is longer or shorter than yours",
   "apple_checked": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/8f8b14f44a7d39b9294089c3ff8f5b38/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-10-04"
+  "cover_cached": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Sheer Mag::Need To Feel your Love": {
   "status": "ok",
@@ -71120,7 +71119,8 @@
   "apple_why": "the title is longer or shorter than yours",
   "apple_checked": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/a470cd48c042ba84b10a2f7b7a47a0eb/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-10-04"
+  "cover_cached": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Shiro Sagisu::The End of Evangelion": {
   "status": "partial",
@@ -71129,14 +71129,16 @@
   "genres": [],
   "tried": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/8ab52be3b0cf5d82316f9496a3cd77a0/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-10-04"
+  "cover_cached": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Shiro Sagisu::Neon Genesis Evangelion (Original Series Soundtrack)": {
   "status": "nomatch",
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-10-04"
+  "tried": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Shlohmo::Vacation EP": {
   "status": "ok",
@@ -74276,7 +74278,8 @@
   "apple_status": "nomatch",
   "apple_checked": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/01268ea51be2180c59938af8d90a1aed/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-10-04"
+  "cover_cached": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Squid::Bright Green Field": {
   "status": "ok",
@@ -78752,7 +78755,8 @@
   "apple_status": "nomatch",
   "apple_checked": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/ab113555b056cb808b050dff43a9590a/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-10-04"
+  "cover_cached": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "The Beach Boys::Endless Summer": {
   "status": "ok",
@@ -83345,7 +83349,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-10-04"
+  "apple_checked": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "The Police::Every Breath You Take: The Singles": {
   "status": "ok",
@@ -84596,7 +84601,8 @@
   "apple_status": "nomatch",
   "apple_checked": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/a3ca7ccf760c1466f8e338c3ff5c952c/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-10-04"
+  "cover_cached": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "The Smashing Pumpkins::Adore": {
   "status": "ok",
@@ -86711,7 +86717,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-10-04"
+  "apple_checked": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "The World Is a Beautiful Place and I Am No Longer Afraid to Die::Whenever, If Ever": {
   "status": "nomatch",
@@ -86720,7 +86727,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-10-04"
+  "apple_checked": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "The Wrens::The Meadowlands": {
   "status": "ok",
@@ -86803,7 +86811,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/e2c1a1b3f7b6bb017a05b7c26ab08feb/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-10-04"
+  "cover_cached": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "The Zombies::Odessey & Oracle": {
   "status": "ok",
@@ -88715,7 +88724,8 @@
   "apple_why": "the title is spelled differently",
   "apple_checked": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/9dcaa875b04d7135574dd16a527f9157/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-10-04"
+  "cover_cached": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Tony Allen::A Tribute to Art Blakey and the Messengers": {
   "status": "ok",
@@ -91805,7 +91815,8 @@
   "apple_status": "nomatch",
   "apple_checked": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/81b045f8620fd9575f0d68c353deb8ad/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-10-04"
+  "cover_cached": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Viagra Boys::Street Worms": {
   "status": "ok",
@@ -92560,7 +92571,8 @@
   "apple_status": "nomatch",
   "apple_checked": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/39381d55274f8fd48d6c07158c76ef25/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-10-04"
+  "cover_cached": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Weezer::Everything Will Be Alright In The End": {
   "status": "ok",
@@ -94827,7 +94839,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/57197939f58035d8e86ece90fc65fb80/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-10-04"
+  "cover_cached": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Yola::Stand For Myself": {
   "status": "ok",
@@ -95146,7 +95159,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/7ff9a3fc0b5c9401d497edbd73c29878/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-10-04"
+  "cover_cached": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Yusef Lateef::Eastern Sounds": {
   "status": "ok",
@@ -95429,7 +95443,8 @@
   "apple_why": "the title is longer or shorter than yours",
   "apple_checked": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/ef5666cdec4c2b884a204c6d8bec9a93/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-10-04"
+  "cover_cached": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "아버지 [father]::흰색 죽음": {
   "status": "ok",
@@ -95511,7 +95526,8 @@
   "apple_status": "nomatch",
   "apple_checked": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/7f3d8c2859008d28143c57e10dec6899/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-10-04"
+  "cover_cached": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "椎名林檎 [Sheena Ringo]::Muzai Moratorium": {
   "status": "partial",
@@ -95526,7 +95542,8 @@
   "apple_why": "the title is longer or shorter than yours",
   "apple_checked": "2026-10-04",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/998fe24a29474d982f666006703c1225/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-10-04"
+  "cover_cached": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "王若琳 [Joanna Wang]::破爛酒店 [Hotel La Rut]": {
   "status": "ok",
@@ -97568,7 +97585,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-10-04"
+  "apple_checked": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Misfits::Beware": {
   "status": "ok",
@@ -97594,7 +97612,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-10-04"
+  "apple_checked": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Panchiko::Kicking Cars": {
   "status": "ok",
@@ -97620,7 +97639,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-10-04"
+  "apple_checked": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "schnozz::berdlycore chapter 1": {
   "status": "nomatch",
@@ -97629,7 +97649,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-10-04"
+  "apple_checked": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "schnozz::berdlycore chapter 2": {
   "status": "nomatch",
@@ -97638,7 +97659,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-10-04"
+  "apple_checked": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Secret Guest::Traumprinz B2B DJ Metatron Live at Planet Uterus": {
   "status": "nomatch",
@@ -97647,7 +97669,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-10-04"
+  "apple_checked": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Shibusashirazu Orchestra::Shibuboshi (渋星)": {
   "status": "nomatch",
@@ -97656,7 +97679,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-10-04"
+  "apple_checked": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Sluason Malone::A Quiet Farewell, Twenty Sixteen to Twent Eighteen": {
   "status": "nomatch",
@@ -97665,7 +97689,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-10-04"
+  "apple_checked": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "SLUG BAIT::HALLUCINEAGENEOLOGY": {
   "status": "nomatch",
@@ -97674,7 +97699,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-10-04"
+  "apple_checked": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "The Gerogerigegege::燃えない灰 [Moenai Hai]": {
   "status": "ok",
@@ -97708,7 +97734,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-10-04"
+  "apple_checked": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Universe Nekoko::Kimi No Youni Ikiretara": {
   "status": "nomatch",
@@ -97717,7 +97744,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-10-04"
+  "apple_checked": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Utada Hikaru::Deep River": {
   "status": "nomatch",
@@ -97726,7 +97754,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-10-04"
+  "apple_checked": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Various Artists::African Connection, Vol. 1: Zaire Choc!": {
   "status": "ok",
@@ -97765,7 +97794,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-10-04"
+  "apple_checked": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "ミドリ [Midori]::Hello Everyone. Nice to Meet you. We are Midori": {
   "status": "nomatch",
@@ -97774,7 +97804,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-10-04"
+  "apple_checked": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "惘闻 [Wang Wen]::冀西南林路行 (Inside The Cable Temple)": {
   "status": "nomatch",
@@ -97783,7 +97814,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-10-04"
+  "apple_checked": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "椎名林檎 [Sheena Ringo]::加爾基 精液 栗ノ花 (Kalk Samen Kuri no Hana)": {
   "status": "ok",
@@ -98879,7 +98911,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-10-04"
+  "apple_checked": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Tabu Ley Rochereau::Tabu Ley Rochereau: The Voice of Lightness Vol 1 Album 1": {
   "status": "ok",
@@ -98989,7 +99022,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-10-04"
+  "apple_checked": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Westside Gunn & Conway the Machine::Griselda Ghost": {
   "status": "ok",
@@ -99017,7 +99051,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-10-04"
+  "apple_checked": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "가장 보통의 존재::Sister's Barbershop 언니네이발관": {
   "status": "nomatch",
@@ -99026,7 +99061,8 @@
   "genres": [],
   "tried": "2026-10-04",
   "apple_status": "nomatch",
-  "apple_checked": "2026-10-04"
+  "apple_checked": "2026-10-04",
+  "rename_checked": "2026-10-06"
  },
  "Corea::Los peores 7 peores km de mi vida": {
   "status": "ok",
@@ -100057,6 +100093,25 @@
   "apple_url": "https://music.apple.com/mx/album/mouasalat-ila-jacad-el-ard-habibi-funk-010/1834599400",
   "apple_title": "Mouasalat Ila Jacad El Ard (Habibi Funk 010)",
   "apple_via": "search",
-  "apple_checked": "2026-10-05"
+  "apple_checked": "2026-10-05",
+  "rename_checked": "2026-10-06"
+ },
+ "Iron Maiden::Edward The Great: The Greatest Hits": {
+  "status": "ok",
+  "mbid": "096a9c11-426b-3c6d-b092-537a3c6a7e91",
+  "genres": [
+   "heavy metal",
+   "rock",
+   "metal"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/096a9c11-426b-3c6d-b092-537a3c6a7e91.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2002",
+  "checked": "2026-10-06",
+  "apple_status": "nomatch",
+  "apple_checked": "2026-10-06",
+  "cover_source_url": "https://coverartarchive.org/release-group/096a9c11-426b-3c6d-b092-537a3c6a7e91/front-500",
+  "cover_cached": "2026-10-06"
  }
 }
