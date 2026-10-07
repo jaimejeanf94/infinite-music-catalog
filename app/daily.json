@@ -1,66 +1,76 @@
 {
- "date": "2026-10-06",
+ "date": "2026-10-07",
  "picks": [
   {
-   "artist": "Immolation",
-   "title": "Close to a World Below",
-   "year": 2000,
+   "artist": "Dollar Brand (Abdullah Ibrahim)",
+   "title": "African Marketplace",
+   "year": 1980,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/41ac44b3-84aa-35d2-bffb-590fe97f2460.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ade1b0ce-c620-34df-8d3b-01b3891f1127.jpg",
    "genres": [
-    "death metal",
-    "rock",
-    "metal"
+    "jazz"
    ]
   },
   {
-   "artist": "Mogwai",
-   "title": "Hardcore Will Never Die, But You Will",
-   "year": 2011,
+   "artist": "Joy Division",
+   "title": "Heart and Soul",
+   "year": 1997,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/adbafb98-0484-4845-b5a6-99b630f0aa03.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5281d33b-c6d5-38ca-8a55-2ea0455ec2b1.jpg",
    "genres": [
-    "post-rock",
+    "post-punk",
     "rock",
-    "shoegaze"
+    "punk"
    ]
   },
   {
-   "artist": "The Backseat Lovers",
-   "title": "When We Were Friends",
-   "year": 2019,
+   "artist": "Premiata Forneria Marconi",
+   "title": "Storia di un minuto",
+   "year": 1972,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/de107e4f-e1ae-4908-b5c9-df5e30379de5.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8a3ea51c-ea62-3ebb-9b05-624aec86fae5.jpg",
    "genres": [
+    "progressive rock",
+    "art rock",
     "rock"
    ]
   },
   {
-   "artist": "G Jones",
-   "title": "Illusory Tracks",
-   "year": 2022,
+   "artist": "Kendrick Lamar",
+   "title": "untitled. unmastered.",
+   "year": 2014,
    "score": 80,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/674a1a5a-2c73-47c8-b246-f7b448230fa0.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4e44335c-3f2b-4874-a6c3-71b5e65f75d5.jpg",
    "genres": [
-    "electronic",
-    "rave",
-    "experimental"
+    "hip hop",
+    "funk",
+    "jazz rap"
    ]
   },
   {
-   "artist": "Charli XCX",
-   "title": "Charli",
-   "year": 2019,
-   "score": 80,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/dc396430-1e1c-4f0b-8b05-d69603d7fb12.jpg",
+   "artist": "My Chemical Romance",
+   "title": "The Black Parade",
+   "year": 2006,
+   "score": 100,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/bcba43e7-2f72-3b60-b234-577e77fd2d9e.jpg",
    "genres": [
-    "electropop",
-    "synth-pop",
-    "bubblegum bass"
+    "rock",
+    "emo",
+    "pop punk"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-07",
+   "keys": [
+    "Dollar Brand (Abdullah Ibrahim)::African Marketplace",
+    "Joy Division::Heart and Soul",
+    "Premiata Forneria Marconi::Storia di un minuto",
+    "Kendrick Lamar::untitled. unmastered.",
+    "My Chemical Romance::The Black Parade"
+   ]
+  },
   {
    "date": "2026-10-06",
    "keys": [
