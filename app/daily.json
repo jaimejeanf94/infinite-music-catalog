@@ -1,66 +1,78 @@
 {
- "date": "2026-10-07",
+ "date": "2026-10-08",
  "picks": [
   {
-   "artist": "Dollar Brand (Abdullah Ibrahim)",
-   "title": "African Marketplace",
-   "year": 1980,
+   "artist": "Denzel Curry",
+   "title": "TA1300",
+   "year": 2018,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ade1b0ce-c620-34df-8d3b-01b3891f1127.jpg",
-   "genres": [
-    "jazz"
-   ]
-  },
-  {
-   "artist": "Joy Division",
-   "title": "Heart and Soul",
-   "year": 1997,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5281d33b-c6d5-38ca-8a55-2ea0455ec2b1.jpg",
-   "genres": [
-    "post-punk",
-    "rock",
-    "punk"
-   ]
-  },
-  {
-   "artist": "Premiata Forneria Marconi",
-   "title": "Storia di un minuto",
-   "year": 1972,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8a3ea51c-ea62-3ebb-9b05-624aec86fae5.jpg",
-   "genres": [
-    "progressive rock",
-    "art rock",
-    "rock"
-   ]
-  },
-  {
-   "artist": "Kendrick Lamar",
-   "title": "untitled. unmastered.",
-   "year": 2014,
-   "score": 80,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4e44335c-3f2b-4874-a6c3-71b5e65f75d5.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/34dc9a45-487f-4ea7-8b39-3e8ad825c314.jpg",
    "genres": [
     "hip hop",
-    "funk",
-    "jazz rap"
+    "trap",
+    "conscious hip hop"
    ]
   },
   {
-   "artist": "My Chemical Romance",
-   "title": "The Black Parade",
-   "year": 2006,
-   "score": 100,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/bcba43e7-2f72-3b60-b234-577e77fd2d9e.jpg",
+   "artist": "The Magnetic Fields",
+   "title": "50 Song Memoir 5",
+   "year": 2017,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/340817fa-49d5-4afb-b947-db4a9e7c9703.jpg",
    "genres": [
+    "indie pop",
     "rock",
-    "emo",
-    "pop punk"
+    "indie rock"
+   ]
+  },
+  {
+   "artist": "John Prine",
+   "title": "John Prine",
+   "year": 1971,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a13154a4-14a1-3344-ae14-3bea728ebe58.jpg",
+   "genres": [
+    "folk",
+    "rock",
+    "country"
+   ]
+  },
+  {
+   "artist": "The Pogues",
+   "title": "If I Should Fall From Grace With God",
+   "year": 1988,
+   "score": 70,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/46451c52-7d69-3d8a-91f5-9d4b65488f59.jpg",
+   "genres": [
+    "folk rock",
+    "celtic punk",
+    "alternative rock"
+   ]
+  },
+  {
+   "artist": "Laurie Anderson",
+   "title": "Big Science",
+   "year": 1982,
+   "score": 75,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9b7fd241-b8b6-3b0a-862c-de826b1189ed.jpg",
+   "genres": [
+    "electronic",
+    "experimental",
+    "art pop"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-08",
+   "keys": [
+    "Denzel Curry::TA1300",
+    "The Magnetic Fields::50 Song Memoir 5",
+    "John Prine::John Prine",
+    "The Pogues::If I Should Fall From Grace With God",
+    "Laurie Anderson::Big Science"
+   ]
+  },
   {
    "date": "2026-10-07",
    "keys": [
