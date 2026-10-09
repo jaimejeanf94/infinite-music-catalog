@@ -1,68 +1,78 @@
 {
- "date": "2026-10-08",
+ "date": "2026-10-09",
  "picks": [
   {
-   "artist": "Denzel Curry",
-   "title": "TA1300",
+   "artist": "Alvvays",
+   "title": "Alvvays",
    "year": 2018,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/34dc9a45-487f-4ea7-8b39-3e8ad825c314.jpg",
-   "genres": [
-    "hip hop",
-    "trap",
-    "conscious hip hop"
-   ]
-  },
-  {
-   "artist": "The Magnetic Fields",
-   "title": "50 Song Memoir 5",
-   "year": 2017,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/340817fa-49d5-4afb-b947-db4a9e7c9703.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6e53a449-47b8-46e9-be4d-d818d3d64d70.jpg",
    "genres": [
     "indie pop",
     "rock",
-    "indie rock"
+    "jangle pop"
    ]
   },
   {
-   "artist": "John Prine",
-   "title": "John Prine",
-   "year": 1971,
+   "artist": "Paul McCartney",
+   "title": "Chaos and Creation in the Backyard",
+   "year": 2005,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a13154a4-14a1-3344-ae14-3bea728ebe58.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a12b1e53-3426-3510-866e-0650e98d5894.jpg",
    "genres": [
-    "folk",
+    "pop",
     "rock",
-    "country"
+    "electronic"
    ]
   },
   {
-   "artist": "The Pogues",
-   "title": "If I Should Fall From Grace With God",
-   "year": 1988,
-   "score": 70,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/46451c52-7d69-3d8a-91f5-9d4b65488f59.jpg",
+   "artist": "Joe Satriani",
+   "title": "Surfing With the Alien",
+   "year": 1987,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/309938f0-e46c-3f8c-bded-07a60a198dd2.jpg",
    "genres": [
-    "folk rock",
-    "celtic punk",
-    "alternative rock"
+    "instrumental rock",
+    "rock",
+    "progressive rock"
    ]
   },
   {
-   "artist": "Laurie Anderson",
-   "title": "Big Science",
-   "year": 1982,
+   "artist": "Nick Cave & The Bad Seeds",
+   "title": "No More Shall We Part",
+   "year": 2001,
+   "score": 90,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/82c9fedb-4475-378b-b850-6e119d6b1828.jpg",
+   "genres": [
+    "rock",
+    "alternative rock",
+    "alternative punk"
+   ]
+  },
+  {
+   "artist": "Outkast",
+   "title": "Atliens",
+   "year": 1996,
    "score": 75,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9b7fd241-b8b6-3b0a-862c-de826b1189ed.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/672fa6be-ae6a-38a2-a0d3-6a393a3929bf.jpg",
    "genres": [
-    "electronic",
-    "experimental",
-    "art pop"
+    "hip hop",
+    "southern hip hop",
+    "dirty south"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-09",
+   "keys": [
+    "Alvvays::Alvvays",
+    "Paul McCartney::Chaos and Creation in the Backyard",
+    "Joe Satriani::Surfing With the Alien",
+    "Nick Cave & The Bad Seeds::No More Shall We Part",
+    "Outkast::Atliens"
+   ]
+  },
   {
    "date": "2026-10-08",
    "keys": [
