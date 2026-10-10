@@ -1,68 +1,78 @@
 {
- "date": "2026-10-09",
+ "date": "2026-10-10",
  "picks": [
   {
-   "artist": "Alvvays",
-   "title": "Alvvays",
-   "year": 2018,
+   "artist": "The Hives",
+   "title": "Veni Vidi Vicious",
+   "year": 2000,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6e53a449-47b8-46e9-be4d-d818d3d64d70.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/61a34a5e-37ea-3f7b-a462-e645b96108df.jpg",
    "genres": [
-    "indie pop",
-    "rock",
-    "jangle pop"
+    "garage punk",
+    "garage rock",
+    "rock"
    ]
   },
   {
-   "artist": "Paul McCartney",
-   "title": "Chaos and Creation in the Backyard",
-   "year": 2005,
+   "artist": "Modest Mouse",
+   "title": "The Moon And Antarctica",
+   "year": 2000,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a12b1e53-3426-3510-866e-0650e98d5894.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a8e26959-b3b2-3440-a74a-0dc06cd6310d.jpg",
    "genres": [
-    "pop",
+    "indie rock",
     "rock",
-    "electronic"
+    "alternative rock"
    ]
   },
   {
-   "artist": "Joe Satriani",
-   "title": "Surfing With the Alien",
-   "year": 1987,
+   "artist": "Big Star",
+   "title": "Third/Sister Lovers",
+   "year": 1978,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/309938f0-e46c-3f8c-bded-07a60a198dd2.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/manual/801.jpg?v=1789921582066",
    "genres": [
-    "instrumental rock",
-    "rock",
-    "progressive rock"
+    "indie rock",
+    "power pop",
+    "rock"
    ]
   },
   {
-   "artist": "Nick Cave & The Bad Seeds",
-   "title": "No More Shall We Part",
-   "year": 2001,
-   "score": 90,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/82c9fedb-4475-378b-b850-6e119d6b1828.jpg",
-   "genres": [
-    "rock",
-    "alternative rock",
-    "alternative punk"
-   ]
-  },
-  {
-   "artist": "Outkast",
-   "title": "Atliens",
-   "year": 1996,
+   "artist": "Ramones",
+   "title": "Road to Ruin",
+   "year": 1978,
    "score": 75,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/672fa6be-ae6a-38a2-a0d3-6a393a3929bf.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/0d28173a-f23f-354a-97e7-82d6190d216c.jpg",
    "genres": [
-    "hip hop",
-    "southern hip hop",
-    "dirty south"
+    "rock",
+    "punk",
+    "punk rock"
+   ]
+  },
+  {
+   "artist": "Chat Pile",
+   "title": "Cool World",
+   "year": 2024,
+   "score": 85,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9d4c2553-042b-40d4-9c33-fd25820e3a40.jpg",
+   "genres": [
+    "noise rock",
+    "sludge metal",
+    "industrial metal"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-10",
+   "keys": [
+    "The Hives::Veni Vidi Vicious",
+    "Modest Mouse::The Moon And Antarctica",
+    "Big Star::Third/Sister Lovers",
+    "Ramones::Road to Ruin",
+    "Chat Pile::Cool World"
+   ]
+  },
   {
    "date": "2026-10-09",
    "keys": [

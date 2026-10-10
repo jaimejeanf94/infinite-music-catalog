@@ -100113,5 +100113,26 @@
   "apple_checked": "2026-10-06",
   "cover_source_url": "https://coverartarchive.org/release-group/096a9c11-426b-3c6d-b092-537a3c6a7e91/front-500",
   "cover_cached": "2026-10-06"
+ },
+ "Collections of Colonies of Bees::Hawaii": {
+  "status": "ok",
+  "mbid": "4dbac494-9399-4fc2-9b8e-ed47691e6c40",
+  "genres": [
+   "art rock",
+   "rock",
+   "indie rock"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4dbac494-9399-4fc2-9b8e-ed47691e6c40.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2018",
+  "checked": "2026-10-10",
+  "apple_status": "ok",
+  "apple_url": "https://music.apple.com/mx/album/hawaii/1651334725",
+  "apple_title": "Hawaii",
+  "apple_via": "search",
+  "apple_checked": "2026-10-10",
+  "cover_source_url": "https://coverartarchive.org/release-group/4dbac494-9399-4fc2-9b8e-ed47691e6c40/front-500",
+  "cover_cached": "2026-10-10"
  }
 }
