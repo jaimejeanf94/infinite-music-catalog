@@ -1,68 +1,76 @@
 {
- "date": "2026-10-10",
+ "date": "2026-10-11",
  "picks": [
   {
-   "artist": "The Hives",
-   "title": "Veni Vidi Vicious",
-   "year": 2000,
+   "artist": "DJ Screw",
+   "title": "3 ’n the Mornin’, Part One",
+   "year": 1995,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/61a34a5e-37ea-3f7b-a462-e645b96108df.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3359314f-4d06-3d15-9e68-42c192e4eb0b.jpg",
    "genres": [
-    "garage punk",
-    "garage rock",
-    "rock"
+    "hip hop"
    ]
   },
   {
-   "artist": "Modest Mouse",
-   "title": "The Moon And Antarctica",
-   "year": 2000,
+   "artist": "The Ruins of Beverast",
+   "title": "Rain Upon the Impure",
+   "year": 2006,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a8e26959-b3b2-3440-a74a-0dc06cd6310d.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/55525c90-53c8-34c5-958e-e12d4741e51f.jpg",
    "genres": [
-    "indie rock",
+    "black metal",
+    "doom metal",
+    "atmospheric black metal"
+   ]
+  },
+  {
+   "artist": "Michael Kiwanuka",
+   "title": "KIWANUKA",
+   "year": 2019,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/042fe94f-5846-469c-a739-38a9e0574d5c.jpg",
+   "genres": [
+    "r&b",
     "rock",
-    "alternative rock"
+    "pop"
    ]
   },
   {
-   "artist": "Big Star",
-   "title": "Third/Sister Lovers",
-   "year": 1978,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/manual/801.jpg?v=1789921582066",
+   "artist": "John Coltrane & Duke Ellington",
+   "title": "Duke Ellington & John Coltrane",
+   "year": 1963,
+   "score": 70,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/caf2a0e9-2cb9-4b1d-9549-5e3b7201edaf.jpg",
    "genres": [
-    "indie rock",
-    "power pop",
-    "rock"
+    "jazz",
+    "swing",
+    "big band"
    ]
   },
   {
-   "artist": "Ramones",
-   "title": "Road to Ruin",
-   "year": 1978,
-   "score": 75,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/0d28173a-f23f-354a-97e7-82d6190d216c.jpg",
+   "artist": "Daphni",
+   "title": "Sizzling EP",
+   "year": 2019,
+   "score": 80,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/86283929-0644-41f5-ad4e-45c1582b949f.jpg",
    "genres": [
-    "rock",
-    "punk",
-    "punk rock"
-   ]
-  },
-  {
-   "artist": "Chat Pile",
-   "title": "Cool World",
-   "year": 2024,
-   "score": 85,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9d4c2553-042b-40d4-9c33-fd25820e3a40.jpg",
-   "genres": [
-    "noise rock",
-    "sludge metal",
-    "industrial metal"
+    "electronic",
+    "disco",
+    "tech house"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-11",
+   "keys": [
+    "DJ Screw::3 ’n the Mornin’, Part One",
+    "The Ruins of Beverast::Rain Upon the Impure",
+    "Michael Kiwanuka::KIWANUKA",
+    "John Coltrane & Duke Ellington::Duke Ellington & John Coltrane",
+    "Daphni::Sizzling EP"
+   ]
+  },
   {
    "date": "2026-10-10",
    "keys": [
