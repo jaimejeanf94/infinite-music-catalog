@@ -1,66 +1,78 @@
 {
- "date": "2026-10-11",
+ "date": "2026-10-12",
  "picks": [
   {
-   "artist": "DJ Screw",
-   "title": "3 ’n the Mornin’, Part One",
-   "year": 1995,
+   "artist": "Caroline Polachek",
+   "title": "Desire, I Want To Turn Into You",
+   "year": 2023,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3359314f-4d06-3d15-9e68-42c192e4eb0b.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/20bbd8b3-35fa-4a29-9a94-13f4f01bf9ca.jpg",
    "genres": [
-    "hip hop"
+    "pop",
+    "art pop",
+    "indie pop"
    ]
   },
   {
-   "artist": "The Ruins of Beverast",
-   "title": "Rain Upon the Impure",
-   "year": 2006,
+   "artist": "Isis",
+   "title": "Oceanic",
+   "year": 2002,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/55525c90-53c8-34c5-958e-e12d4741e51f.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2426e089-b3e2-3513-b43e-f1b73fb54e60.jpg",
    "genres": [
-    "black metal",
-    "doom metal",
-    "atmospheric black metal"
+    "post-metal",
+    "sludge metal",
+    "rock"
    ]
   },
   {
-   "artist": "Michael Kiwanuka",
-   "title": "KIWANUKA",
-   "year": 2019,
+   "artist": "Tool",
+   "title": "Lateralus",
+   "year": 2001,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/042fe94f-5846-469c-a739-38a9e0574d5c.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/02f79295-21e1-34cc-82f2-63219eec4f0a.jpg",
    "genres": [
-    "r&b",
+    "alternative metal",
+    "progressive metal",
+    "progressive rock"
+   ]
+  },
+  {
+   "artist": "The Microphones",
+   "title": "The Glow Pt. 2",
+   "year": 2001,
+   "score": 100,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f478fad9-a746-3625-9f14-bc4a74918c0e.jpg",
+   "genres": [
     "rock",
-    "pop"
+    "lo-fi",
+    "indie folk"
    ]
   },
   {
-   "artist": "John Coltrane & Duke Ellington",
-   "title": "Duke Ellington & John Coltrane",
-   "year": 1963,
-   "score": 70,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/caf2a0e9-2cb9-4b1d-9549-5e3b7201edaf.jpg",
-   "genres": [
-    "jazz",
-    "swing",
-    "big band"
-   ]
-  },
-  {
-   "artist": "Daphni",
-   "title": "Sizzling EP",
-   "year": 2019,
+   "artist": "Lucy Dacus",
+   "title": "Forever is Feeling",
+   "year": 2025,
    "score": 80,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/86283929-0644-41f5-ad4e-45c1582b949f.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a4cabd17-ba0f-4c88-a2c4-164c29038cbd.jpg",
    "genres": [
-    "electronic",
-    "disco",
-    "tech house"
+    "singer-songwriter",
+    "indie folk",
+    "alternative rock"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-12",
+   "keys": [
+    "Caroline Polachek::Desire, I Want To Turn Into You",
+    "Isis::Oceanic",
+    "Tool::Lateralus",
+    "The Microphones::The Glow Pt. 2",
+    "Lucy Dacus::Forever is Feeling"
+   ]
+  },
   {
    "date": "2026-10-11",
    "keys": [
