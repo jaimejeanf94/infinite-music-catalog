@@ -1,68 +1,75 @@
 {
- "date": "2026-10-12",
+ "date": "2026-10-13",
  "picks": [
   {
-   "artist": "Caroline Polachek",
-   "title": "Desire, I Want To Turn Into You",
-   "year": 2023,
+   "artist": "The Pretty Things",
+   "title": "S.F. Sorrow",
+   "year": 1968,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/20bbd8b3-35fa-4a29-9a94-13f4f01bf9ca.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/93181a2a-e241-3856-be77-e3c6885884f6.jpg",
    "genres": [
-    "pop",
-    "art pop",
-    "indie pop"
-   ]
-  },
-  {
-   "artist": "Isis",
-   "title": "Oceanic",
-   "year": 2002,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2426e089-b3e2-3513-b43e-f1b73fb54e60.jpg",
-   "genres": [
-    "post-metal",
-    "sludge metal",
+    "psychedelic rock",
     "rock"
    ]
   },
   {
-   "artist": "Tool",
-   "title": "Lateralus",
-   "year": 2001,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/02f79295-21e1-34cc-82f2-63219eec4f0a.jpg",
-   "genres": [
-    "alternative metal",
-    "progressive metal",
-    "progressive rock"
-   ]
-  },
-  {
-   "artist": "The Microphones",
-   "title": "The Glow Pt. 2",
-   "year": 2001,
-   "score": 100,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f478fad9-a746-3625-9f14-bc4a74918c0e.jpg",
-   "genres": [
-    "rock",
-    "lo-fi",
-    "indie folk"
-   ]
-  },
-  {
-   "artist": "Lucy Dacus",
-   "title": "Forever is Feeling",
+   "artist": "Vylet Pony",
+   "title": "Love & Ponystep",
    "year": 2025,
-   "score": 80,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a4cabd17-ba0f-4c88-a2c4-164c29038cbd.jpg",
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/230db958-d6f8-4e50-80c4-e879078288dd.jpg",
    "genres": [
-    "singer-songwriter",
-    "indie folk",
-    "alternative rock"
+    "edm",
+    "rock",
+    "electronic"
+   ]
+  },
+  {
+   "artist": "In Flames",
+   "title": "The Jester Race",
+   "year": 1996,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1e987cd2-c9db-334c-9229-6dbe63f67c41.jpg",
+   "genres": [
+    "melodic death metal",
+    "death metal",
+    "rock"
+   ]
+  },
+  {
+   "artist": "The Comet is Coming",
+   "title": "The Afterlife",
+   "year": 2019,
+   "score": 70,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2ce3fcff-c925-405c-bace-e8e3248ccbc0.jpg",
+   "genres": [
+    "jazz"
+   ]
+  },
+  {
+   "artist": "King Gizzard & The Lizard Wizard",
+   "title": "PetroDragonic Apocalypse; or, Dawn of the Eternal Night: An Anihilation of Planet Earth and the Beginning of Merciless Damnation",
+   "year": 2023,
+   "score": 100,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/381a758e-82bf-403f-85ea-b4f97ed1e0b7.jpg",
+   "genres": [
+    "progressive metal",
+    "thrash metal",
+    "stoner metal"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-13",
+   "keys": [
+    "The Pretty Things::S.F. Sorrow",
+    "Vylet Pony::Love & Ponystep",
+    "In Flames::The Jester Race",
+    "The Comet is Coming::The Afterlife",
+    "King Gizzard & The Lizard Wizard::PetroDragonic Apocalypse; or, Dawn of the Eternal Night: An Anihilation of Planet Earth and the Beginning of Merciless Damnation"
+   ]
+  },
   {
    "date": "2026-10-12",
    "keys": [
