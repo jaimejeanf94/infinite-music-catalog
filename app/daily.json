@@ -1,65 +1,76 @@
 {
- "date": "2026-10-13",
+ "date": "2026-10-14",
  "picks": [
   {
-   "artist": "The Pretty Things",
-   "title": "S.F. Sorrow",
-   "year": 1968,
+   "artist": "Olivia Rodrigo",
+   "title": "GUTS",
+   "year": 2023,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/93181a2a-e241-3856-be77-e3c6885884f6.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/83920a38-e749-4bbf-a7f6-8aaf77cb9475.jpg",
    "genres": [
-    "psychedelic rock",
-    "rock"
+    "pop rock",
+    "grunge",
+    "pop punk"
    ]
   },
   {
-   "artist": "Vylet Pony",
-   "title": "Love & Ponystep",
-   "year": 2025,
+   "artist": "Sinnéad O'Connor",
+   "title": "I Do Not Want What I Haven't Got",
+   "year": 1990,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/230db958-d6f8-4e50-80c4-e879078288dd.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9747bcfe-7c42-35ac-8c3e-7ecac9f1227b.jpg",
    "genres": [
-    "edm",
+    "alternative rock",
     "rock",
+    "pop"
+   ]
+  },
+  {
+   "artist": "Civerous",
+   "title": "Maze Envy",
+   "year": 2024,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ed0ec6e2-2415-4caf-9480-ae5a6537360c.jpg",
+   "genres": [
+    "death metal"
+   ]
+  },
+  {
+   "artist": "David Bowie",
+   "title": "\"Heroes\"",
+   "year": 1977,
+   "score": 80,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1f5ef8d3-10ca-30eb-b41e-85b16987d412.jpg",
+   "genres": [
+    "ambient",
+    "art rock",
     "electronic"
    ]
   },
   {
-   "artist": "In Flames",
-   "title": "The Jester Race",
-   "year": 1996,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1e987cd2-c9db-334c-9229-6dbe63f67c41.jpg",
+   "artist": "U2",
+   "title": "Achtung Baby",
+   "year": 1991,
+   "score": 85,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/744c7a1b-ac79-35c4-bd92-7e2c6a24c8d8.jpg",
    "genres": [
-    "melodic death metal",
-    "death metal",
-    "rock"
-   ]
-  },
-  {
-   "artist": "The Comet is Coming",
-   "title": "The Afterlife",
-   "year": 2019,
-   "score": 70,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2ce3fcff-c925-405c-bace-e8e3248ccbc0.jpg",
-   "genres": [
-    "jazz"
-   ]
-  },
-  {
-   "artist": "King Gizzard & The Lizard Wizard",
-   "title": "PetroDragonic Apocalypse; or, Dawn of the Eternal Night: An Anihilation of Planet Earth and the Beginning of Merciless Damnation",
-   "year": 2023,
-   "score": 100,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/381a758e-82bf-403f-85ea-b4f97ed1e0b7.jpg",
-   "genres": [
-    "progressive metal",
-    "thrash metal",
-    "stoner metal"
+    "rock",
+    "pop rock",
+    "alternative rock"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-14",
+   "keys": [
+    "Olivia Rodrigo::GUTS",
+    "Sinnéad O'Connor::I Do Not Want What I Haven't Got",
+    "Civerous::Maze Envy",
+    "David Bowie::\"Heroes\"",
+    "U2::Achtung Baby"
+   ]
+  },
   {
    "date": "2026-10-13",
    "keys": [
