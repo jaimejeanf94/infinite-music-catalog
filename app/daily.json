@@ -1,66 +1,77 @@
 {
- "date": "2026-10-14",
+ "date": "2026-10-15",
  "picks": [
   {
-   "artist": "Olivia Rodrigo",
-   "title": "GUTS",
-   "year": 2023,
+   "artist": "David Wise",
+   "title": "Donkey Kong Country 2: Diddy's Kong Quest",
+   "year": 1995,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/83920a38-e749-4bbf-a7f6-8aaf77cb9475.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1a3b20ad-34e8-3ad7-9fe5-bafdd473ad27.jpg",
    "genres": [
-    "pop rock",
-    "grunge",
-    "pop punk"
-   ]
-  },
-  {
-   "artist": "Sinnéad O'Connor",
-   "title": "I Do Not Want What I Haven't Got",
-   "year": 1990,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9747bcfe-7c42-35ac-8c3e-7ecac9f1227b.jpg",
-   "genres": [
-    "alternative rock",
-    "rock",
-    "pop"
-   ]
-  },
-  {
-   "artist": "Civerous",
-   "title": "Maze Envy",
-   "year": 2024,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ed0ec6e2-2415-4caf-9480-ae5a6537360c.jpg",
-   "genres": [
-    "death metal"
-   ]
-  },
-  {
-   "artist": "David Bowie",
-   "title": "\"Heroes\"",
-   "year": 1977,
-   "score": 80,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1f5ef8d3-10ca-30eb-b41e-85b16987d412.jpg",
-   "genres": [
-    "ambient",
-    "art rock",
+    "chiptune",
     "electronic"
    ]
   },
   {
    "artist": "U2",
-   "title": "Achtung Baby",
-   "year": 1991,
-   "score": 85,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/744c7a1b-ac79-35c4-bd92-7e2c6a24c8d8.jpg",
+   "title": "The Joshua Tree",
+   "year": 1987,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6f3e9fa6-be7a-3de8-a2b2-2072ece8a54d.jpg",
    "genres": [
     "rock",
     "pop rock",
     "alternative rock"
    ]
+  },
+  {
+   "artist": "Silver Jews",
+   "title": "American Water",
+   "year": 1998,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ce88168e-fa3f-367f-9d94-d9ed2c8ea8bb.jpg",
+   "genres": [
+    "rock",
+    "alternative rock",
+    "indie rock"
+   ]
+  },
+  {
+   "artist": "Flotation Toy Warning",
+   "title": "Bluffer's guide to the flight deck",
+   "year": 2004,
+   "score": 100,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8c730cbd-1f88-36cc-a058-7c6e2e1cb88d.jpg",
+   "genres": [
+    "rock",
+    "electronic",
+    "downtempo"
+   ]
+  },
+  {
+   "artist": "Mount Eerie",
+   "title": "Lost Wisdom",
+   "year": 2008,
+   "score": 90,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/0047f33d-d5d9-3092-947b-254a0fa06391.jpg",
+   "genres": [
+    "rock",
+    "singer-songwriter",
+    "indie rock"
+   ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-15",
+   "keys": [
+    "David Wise::Donkey Kong Country 2: Diddy's Kong Quest",
+    "U2::The Joshua Tree",
+    "Silver Jews::American Water",
+    "Flotation Toy Warning::Bluffer's guide to the flight deck",
+    "Mount Eerie::Lost Wisdom"
+   ]
+  },
   {
    "date": "2026-10-14",
    "keys": [
