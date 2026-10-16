@@ -1,67 +1,78 @@
 {
- "date": "2026-10-15",
+ "date": "2026-10-16",
  "picks": [
   {
-   "artist": "David Wise",
-   "title": "Donkey Kong Country 2: Diddy's Kong Quest",
-   "year": 1995,
+   "artist": "Brian Eno",
+   "title": "Ambient 1: Music for Airports",
+   "year": 1978,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1a3b20ad-34e8-3ad7-9fe5-bafdd473ad27.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5fdd6ba8-83c1-3a87-b378-d5f61dec5ddd.jpg",
    "genres": [
-    "chiptune",
-    "electronic"
-   ]
-  },
-  {
-   "artist": "U2",
-   "title": "The Joshua Tree",
-   "year": 1987,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6f3e9fa6-be7a-3de8-a2b2-2072ece8a54d.jpg",
-   "genres": [
-    "rock",
-    "pop rock",
-    "alternative rock"
-   ]
-  },
-  {
-   "artist": "Silver Jews",
-   "title": "American Water",
-   "year": 1998,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ce88168e-fa3f-367f-9d94-d9ed2c8ea8bb.jpg",
-   "genres": [
-    "rock",
-    "alternative rock",
-    "indie rock"
-   ]
-  },
-  {
-   "artist": "Flotation Toy Warning",
-   "title": "Bluffer's guide to the flight deck",
-   "year": 2004,
-   "score": 100,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8c730cbd-1f88-36cc-a058-7c6e2e1cb88d.jpg",
-   "genres": [
-    "rock",
+    "ambient",
     "electronic",
-    "downtempo"
+    "instrumental"
    ]
   },
   {
-   "artist": "Mount Eerie",
-   "title": "Lost Wisdom",
-   "year": 2008,
-   "score": 90,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/0047f33d-d5d9-3092-947b-254a0fa06391.jpg",
+   "artist": "Broadcast",
+   "title": "The Noise Made By People",
+   "year": 2000,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f575e0d0-aba9-3ad3-bd2c-ca453898ea9d.jpg",
    "genres": [
+    "electronic",
     "rock",
-    "singer-songwriter",
+    "pop"
+   ]
+  },
+  {
+   "artist": "The Flaming Lips",
+   "title": "The Soft Bulletin",
+   "year": 1999,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1a021034-95d1-3a2d-bdca-73b25e455e49.jpg",
+   "genres": [
+    "neo-psychedelia",
+    "psychedelic pop",
+    "rock"
+   ]
+  },
+  {
+   "artist": "Father John Misty",
+   "title": "Fear Fun",
+   "year": 2012,
+   "score": 75,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d76ee58c-cabb-4aec-b793-326ce29a7d65.jpg",
+   "genres": [
+    "folk rock",
+    "rock",
     "indie rock"
+   ]
+  },
+  {
+   "artist": "Beck",
+   "title": "Odelay",
+   "year": 1996,
+   "score": 100,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/df0bfd42-78a9-40c3-a45f-a12e10d446f8.jpg",
+   "genres": [
+    "alternative rock",
+    "rock",
+    "electronic"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-16",
+   "keys": [
+    "Brian Eno::Ambient 1: Music for Airports",
+    "Broadcast::The Noise Made By People",
+    "The Flaming Lips::The Soft Bulletin",
+    "Father John Misty::Fear Fun",
+    "Beck::Odelay"
+   ]
+  },
   {
    "date": "2026-10-15",
    "keys": [
