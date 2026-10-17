@@ -1,68 +1,77 @@
 {
- "date": "2026-10-16",
+ "date": "2026-10-17",
  "picks": [
   {
-   "artist": "Brian Eno",
-   "title": "Ambient 1: Music for Airports",
-   "year": 1978,
+   "artist": "아버지 [father]",
+   "title": "흰색 죽음",
+   "year": 2015,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5fdd6ba8-83c1-3a87-b378-d5f61dec5ddd.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e59df5d8-3b82-4959-b014-ef6c35941242.jpg",
    "genres": [
-    "ambient",
     "electronic",
-    "instrumental"
+    "r&b",
+    "trap"
    ]
   },
   {
-   "artist": "Broadcast",
-   "title": "The Noise Made By People",
-   "year": 2000,
+   "artist": "Calexico",
+   "title": "Feast of Wire",
+   "year": 2003,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f575e0d0-aba9-3ad3-bd2c-ca453898ea9d.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a22417bc-7068-3caa-8572-52af24a486eb.jpg",
    "genres": [
-    "electronic",
     "rock",
-    "pop"
-   ]
-  },
-  {
-   "artist": "The Flaming Lips",
-   "title": "The Soft Bulletin",
-   "year": 1999,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1a021034-95d1-3a2d-bdca-73b25e455e49.jpg",
-   "genres": [
-    "neo-psychedelia",
-    "psychedelic pop",
-    "rock"
-   ]
-  },
-  {
-   "artist": "Father John Misty",
-   "title": "Fear Fun",
-   "year": 2012,
-   "score": 75,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d76ee58c-cabb-4aec-b793-326ce29a7d65.jpg",
-   "genres": [
     "folk rock",
-    "rock",
-    "indie rock"
+    "post-rock"
    ]
   },
   {
-   "artist": "Beck",
-   "title": "Odelay",
-   "year": 1996,
-   "score": 100,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/df0bfd42-78a9-40c3-a45f-a12e10d446f8.jpg",
+   "artist": "Daft Punk",
+   "title": "Random Access Memories",
+   "year": 2013,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/aa997ea0-2936-40bd-884d-3af8a0e064dc.jpg",
    "genres": [
-    "alternative rock",
-    "rock",
-    "electronic"
+    "electronic",
+    "disco",
+    "funk"
+   ]
+  },
+  {
+   "artist": "Ethel Cain",
+   "title": "Perverts",
+   "year": 2024,
+   "score": 80,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/49ce4101-6d38-4718-9ecb-cc29a759b541.jpg",
+   "genres": [
+    "drone",
+    "dark ambient",
+    "slowcore"
+   ]
+  },
+  {
+   "artist": "Simon & Garfunkel",
+   "title": "Bridge over Troubled Water",
+   "year": 1970,
+   "score": 100,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/840d6dc5-c003-4b94-9426-ab6544574d02.jpg",
+   "genres": [
+    "pop",
+    "ballad"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-17",
+   "keys": [
+    "아버지 [father]::흰색 죽음",
+    "Calexico::Feast of Wire",
+    "Daft Punk::Random Access Memories",
+    "Ethel Cain::Perverts",
+    "Simon & Garfunkel::Bridge over Troubled Water"
+   ]
+  },
   {
    "date": "2026-10-16",
    "keys": [
