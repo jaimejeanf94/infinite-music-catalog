@@ -1,67 +1,76 @@
 {
- "date": "2026-10-17",
+ "date": "2026-10-18",
  "picks": [
   {
-   "artist": "아버지 [father]",
-   "title": "흰색 죽음",
-   "year": 2015,
+   "artist": "Twin Shadow",
+   "title": "Twin Shadow",
+   "year": 2021,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e59df5d8-3b82-4959-b014-ef6c35941242.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/456556a2-99e9-41cd-bc73-baf8355da5dd.jpg",
    "genres": [
-    "electronic",
-    "r&b",
-    "trap"
+    "synth-pop"
    ]
   },
   {
-   "artist": "Calexico",
-   "title": "Feast of Wire",
-   "year": 2003,
+   "artist": "Warren G",
+   "title": "Regulate... G Funk Era",
+   "year": 1994,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a22417bc-7068-3caa-8572-52af24a486eb.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7d2ec03f-4abb-3fef-b7e5-465334a47b54.jpg",
+   "genres": [
+    "g-funk",
+    "gangsta rap",
+    "hip hop"
+   ]
+  },
+  {
+   "artist": "Chicano Batman",
+   "title": "Freedom is Free",
+   "year": 2017,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8f7ccd58-6996-4641-b2f7-e49ddf095cd9.jpg",
    "genres": [
     "rock",
-    "folk rock",
-    "post-rock"
+    "funk",
+    "psychedelic"
    ]
   },
   {
-   "artist": "Daft Punk",
-   "title": "Random Access Memories",
-   "year": 2013,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/aa997ea0-2936-40bd-884d-3af8a0e064dc.jpg",
-   "genres": [
-    "electronic",
-    "disco",
-    "funk"
-   ]
-  },
-  {
-   "artist": "Ethel Cain",
-   "title": "Perverts",
+   "artist": "Geordie Greep",
+   "title": "The New Sound",
    "year": 2024,
    "score": 80,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/49ce4101-6d38-4718-9ecb-cc29a759b541.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/171db008-7f7b-48d3-a3b5-640d6ea41aa7.jpg",
    "genres": [
-    "drone",
-    "dark ambient",
-    "slowcore"
+    "progressive rock",
+    "jazz rock",
+    "art rock"
    ]
   },
   {
-   "artist": "Simon & Garfunkel",
-   "title": "Bridge over Troubled Water",
-   "year": 1970,
-   "score": 100,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/840d6dc5-c003-4b94-9426-ab6544574d02.jpg",
+   "artist": "John Coltrane",
+   "title": "Olé Coltrane",
+   "year": 1961,
+   "score": 80,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9ba035a7-3f7c-3d96-9e07-0e0d45af41af.jpg",
    "genres": [
-    "pop",
-    "ballad"
+    "jazz",
+    "avant-garde jazz",
+    "hard bop"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-18",
+   "keys": [
+    "Twin Shadow::Twin Shadow",
+    "Warren G::Regulate... G Funk Era",
+    "Chicano Batman::Freedom is Free",
+    "Geordie Greep::The New Sound",
+    "John Coltrane::Olé Coltrane"
+   ]
+  },
   {
    "date": "2026-10-17",
    "keys": [

@@ -88,5 +88,14 @@
   "_artistRatio": 0,
   "_mbid": "0e2c33ee-4b7e-44f9-b490-75ec01fdc2bf",
   "_why": "sequence number changed (Pt. 2 / Vol. 3 / Part One); looser than the confident band"
+ },
+ {
+  "from": "Djrum::Dj-Kicks",
+  "to": "Djrum::DJ-Kicks: Djrum",
+  "_pass": "artist",
+  "_titleRatio": 0.13,
+  "_artistRatio": 0,
+  "_mbid": "685a0fcc-09b6-4e3c-a41d-b8a05aeae165",
+  "_why": "the title gains \"djrum\" — likely a different release"
  }
 ]

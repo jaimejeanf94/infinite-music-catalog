@@ -1,11 +1,11 @@
 {
- "generated": "2026-10-17T07:19:44.522Z",
+ "generated": "2026-10-18T07:57:31.338Z",
  "totals": {
-  "albums": 4432,
+  "albums": 4433,
   "rated": 462,
-  "withCover": 4431,
-  "withGenres": 4431,
-  "matched": 4316,
+  "withCover": 4432,
+  "withGenres": 4432,
+  "matched": 4317,
   "apple": 3674
  },
  "sections": [
@@ -486,7 +486,7 @@
    "title": "Name corrections held back",
    "why": "The nightly scan found these but would not apply them: a changed sequence number, a gained or lost word, or a dropped collaborator.",
    "action": "rename",
-   "count": 10,
+   "count": 11,
    "items": [
     {
      "artist": "Asian Glow & Parannoul",
@@ -637,6 +637,21 @@
       "title": "High Visceral pt. 2"
      },
      "apply": "Rename"
+    },
+    {
+     "artist": "Djrum",
+     "title": "Dj-Kicks",
+     "note": "Djrum — DJ-Kicks: Djrum   (the title gains \"djrum\" — likely a different release)",
+     "suggest": {
+      "artist": "Djrum",
+      "title": "DJ-Kicks: Djrum"
+     },
+     "subject": "rename:Djrum::Dj-Kicks",
+     "was": {
+      "artist": "Djrum",
+      "title": "Dj-Kicks"
+     },
+     "apply": "Rename"
     }
    ]
   },
@@ -645,7 +660,7 @@
    "title": "Apple Music matches held back",
    "why": "Probably the right record, not certainly. Open it to check, then link it or reject it.",
    "action": "link",
-   "count": 303,
+   "count": 304,
    "items": [
     {
      "artist": "Against All Logic",
@@ -1630,6 +1645,22 @@
      "preview": "https://music.apple.com/mx/album/the-best-of-django-reinhardt/696823439",
      "suggest": {
       "apple_music_url": "https://music.apple.com/mx/album/the-best-of-django-reinhardt/696823439",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Djrum",
+     "title": "Dj-Kicks",
+     "note": "Apple Music has \"DJ - Kicks: Djrum\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/dj-kicks-djrum/6799998932",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/dj-kicks-djrum/6799998932",
       "apple_music_locked": true
      },
      "was": {
@@ -4630,22 +4661,6 @@
      },
      "apply": "Link it",
      "dismiss": "Reject"
-    },
-    {
-     "artist": "The Gun Club",
-     "title": "Fire of Love",
-     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
-     "preview": "https://music.apple.com/mx/album/1543790920",
-     "suggest": {
-      "apple_music_url": "https://music.apple.com/mx/album/1543790920",
-      "apple_music_locked": true
-     },
-     "was": {
-      "apple_music_url": null,
-      "apple_music_locked": false
-     },
-     "apply": "Link it",
-     "dismiss": "Reject"
     }
    ]
   },
@@ -4673,55 +4688,55 @@
     {
      "artist": "2 Many DJ's",
      "title": "2ManyDJs Live at Kompass",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
      "artist": "2 Many DJ's",
      "title": "BENELUX",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
      "artist": "2 Many DJ's",
      "title": "Blue",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
      "artist": "2 Many DJ's",
      "title": "Dave",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
      "artist": "2 Many DJ's",
      "title": "Despacio",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
      "artist": "2 Many DJ's",
      "title": "Hardcore Or Die",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
      "artist": "2 Many DJ's",
      "title": "Into The Vortex",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
      "artist": "2 Many DJ's",
      "title": "Jack In the Box",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
      "artist": "2 Many DJ's",
      "title": "Under The Covers 3",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -4757,13 +4772,13 @@
     {
      "artist": "AM",
      "title": "Flowervillain II",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
      "artist": "AmyReal & Clumsy Duckling",
      "title": "The Adventures of Pad Chennington and the Androgynous Swagchild",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -4781,7 +4796,7 @@
     {
      "artist": "Anri",
      "title": "Timely!!",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -4793,7 +4808,7 @@
     {
      "artist": "Arcade Fire and Owen Pallett",
      "title": "Her Original Motion Picture Score",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -4835,7 +4850,7 @@
     {
      "artist": "Belle & Sebastian",
      "title": "3.. 6.. 9 Seconds of Light",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -4853,7 +4868,7 @@
     {
      "artist": "Betcover!!",
      "title": "Yuki",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -4871,7 +4886,7 @@
     {
      "artist": "Big Brother and The Holding Company",
      "title": "Cheap Thrills",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -4883,7 +4898,7 @@
     {
      "artist": "Big Star",
      "title": "Third/Sister Lovers",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -5027,13 +5042,13 @@
     {
      "artist": "Captain Beefheart and His Magic Band",
      "title": "Safe as Milk",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
      "artist": "Captain Beefheart and His Magic Band",
      "title": "Trout Mask Replica",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -5207,7 +5222,7 @@
     {
      "artist": "Death Grips",
      "title": "Jenny Death",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -5219,7 +5234,7 @@
     {
      "artist": "Delaeny & Bonney",
      "title": "The Originial Delaney & Bonnie",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -5255,7 +5270,7 @@
     {
      "artist": "DJ E",
      "title": "Chuquimamani-Condori",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -5273,7 +5288,7 @@
     {
      "artist": "DJ Premier Worldwide Mix by soulchasers on #SoundCloud",
      "title": "DJ Premier Worldwide Mix by soulchasers on #SoundCloud",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -5309,13 +5324,13 @@
     {
      "artist": "Djeli Moussa Diawara",
      "title": "Djeli Moussa Diawara",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
      "artist": "dltzk",
      "title": "Frailty",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -5333,7 +5348,7 @@
     {
      "artist": "Dropkick Murphys",
      "title": "Greatest Hits",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -5375,7 +5390,7 @@
     {
      "artist": "El Shirota",
      "title": "ESH002",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -5399,7 +5414,7 @@
     {
      "artist": "Enola Gay",
      "title": "Asia Menor",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -5423,7 +5438,7 @@
     {
      "artist": "Faye Wong",
      "title": "浮躁 (Fúzào)",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -5435,13 +5450,13 @@
     {
      "artist": "Fishmans",
      "title": "空中キャンプ (Kūchū Camp)",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
      "artist": "Floating Points",
      "title": "Dialogue Between Dreamers Pt. One",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -5471,7 +5486,7 @@
     {
      "artist": "Frankie Knuckles",
      "title": "Boiler Room London DJ Set",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -5597,7 +5612,7 @@
     {
      "artist": "Gorillaz",
      "title": "Song Machine, Season 1",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -5615,13 +5630,13 @@
     {
      "artist": "Haru Nemuri",
      "title": "Harutosyura",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
      "artist": "Haru Nemuri",
      "title": "Lovetheism",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -5645,13 +5660,13 @@
     {
      "artist": "Himiko Kikuchi",
      "title": "Flying Beagle",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
      "artist": "Hirokazu Tanaka & Keiichi Suzuki",
      "title": "Mother 2: ギーグの逆襲",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -5699,13 +5714,13 @@
     {
      "artist": "Jai Paul",
      "title": "Leak 04-13 (Bait Ones)",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
      "artist": "James Brown",
      "title": "20-all Times Greats!",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -5765,7 +5780,7 @@
     {
      "artist": "Joe Satriani",
      "title": "Essential Joe Satrini 1",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -5795,7 +5810,7 @@
     {
      "artist": "John Tabalot",
      "title": "Fin",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -5891,7 +5906,7 @@
     {
      "artist": "Lamp",
      "title": "Lamp Genso",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -5915,7 +5930,7 @@
     {
      "artist": "Leo Kottke",
      "title": "6 & 12 Strings",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -5981,7 +5996,7 @@
     {
      "artist": "Litourgiya",
      "title": "Batushka",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -6065,13 +6080,13 @@
     {
      "artist": "Masayoshi Takanaka",
      "title": "The Rainbow Goblins",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
      "artist": "MASS OF THE FERMENTING DREGS",
      "title": "World is yours",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
@@ -6131,7 +6146,7 @@
     {
      "artist": "Ministry",
      "title": "Psalm 69: The Way To Succeed and The Way To Suck Eggs",
-     "note": "looked for on 2026-10-04",
+     "note": "looked for on 2026-10-18",
      "dismiss": "Not there"
     },
     {
