@@ -63,15 +63,6 @@
   "_why": "the title loses \"blood wells\" — likely a different release"
  },
  {
-  "from": "Kyle Dixon & Michael Stein::Stranger Things, Vol 1",
-  "to": "Kyle Dixon & Michael Stein::Stranger Things 2",
-  "_pass": "artist",
-  "_titleRatio": 0.222,
-  "_artistRatio": 0,
-  "_mbid": "7508acf4-bdcb-477a-bf42-c4fd98017386",
-  "_why": "sequence number changed (Pt. 2 / Vol. 3 / Part One); looser than the confident band"
- },
- {
   "from": "Psychedelic Porn Crumpets::High Visceral pt. 1",
   "to": "Psychedelic Porn Crumpets::High Visceral {Part One}",
   "_pass": "artist",
@@ -97,5 +88,14 @@
   "_artistRatio": 0,
   "_mbid": "685a0fcc-09b6-4e3c-a41d-b8a05aeae165",
   "_why": "the title gains \"djrum\" — likely a different release"
+ },
+ {
+  "from": "Kyle Dixon & Michael Stein::Stranger Things, Vol 1",
+  "to": "Kyle Dixon & Michael Stein::Stranger Things 2",
+  "_pass": "artist",
+  "_titleRatio": 0.222,
+  "_artistRatio": 0,
+  "_mbid": "7508acf4-bdcb-477a-bf42-c4fd98017386",
+  "_why": "sequence number changed (Pt. 2 / Vol. 3 / Part One); looser than the confident band"
  }
 ]

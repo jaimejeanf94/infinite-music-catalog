@@ -11,7 +11,7 @@ Live at **<https://infinite-music-catalog.vercel.app>**.
 |---|---|
 | Albums | 4,433 — 2,189 artists, 1953–2026 |
 | Rated | 462. The other 90% is the point of the app |
-| Covers | 4,432 — 4,431 of them cached and CDN-served |
+| Covers | 4,433 — 4,432 of them cached and CDN-served |
 | Genres | 4,432 tagged, 26 of them browsable |
 | Matched to MusicBrainz | 4,317 |
 | Apple Music | 3,674 open straight to the album |

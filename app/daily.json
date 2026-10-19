@@ -1,66 +1,74 @@
 {
- "date": "2026-10-18",
+ "date": "2026-10-19",
  "picks": [
   {
-   "artist": "Twin Shadow",
-   "title": "Twin Shadow",
-   "year": 2021,
+   "artist": "Fleetwood Mac",
+   "title": "Fleetwood Mac",
+   "year": 1975,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/456556a2-99e9-41cd-bc73-baf8355da5dd.jpg",
-   "genres": [
-    "synth-pop"
-   ]
-  },
-  {
-   "artist": "Warren G",
-   "title": "Regulate... G Funk Era",
-   "year": 1994,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7d2ec03f-4abb-3fef-b7e5-465334a47b54.jpg",
-   "genres": [
-    "g-funk",
-    "gangsta rap",
-    "hip hop"
-   ]
-  },
-  {
-   "artist": "Chicano Batman",
-   "title": "Freedom is Free",
-   "year": 2017,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8f7ccd58-6996-4641-b2f7-e49ddf095cd9.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6b5d9bf1-f496-34b5-9488-7df2533d6208.jpg",
    "genres": [
     "rock",
-    "funk",
-    "psychedelic"
+    "soft rock",
+    "pop rock"
    ]
   },
   {
-   "artist": "Geordie Greep",
-   "title": "The New Sound",
-   "year": 2024,
-   "score": 80,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/171db008-7f7b-48d3-a3b5-640d6ea41aa7.jpg",
+   "artist": "Joe Satriani",
+   "title": "Essential Joe Satrini 1",
+   "year": 2010,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2888feca48fed0ec.jpg",
    "genres": [
-    "progressive rock",
-    "jazz rock",
-    "art rock"
+    "instrumental rock",
+    "instrumental",
+    "rock"
    ]
   },
   {
-   "artist": "John Coltrane",
-   "title": "Olé Coltrane",
-   "year": 1961,
-   "score": 80,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9ba035a7-3f7c-3d96-9e07-0e0d45af41af.jpg",
+   "artist": "椎名林檎 × 斎藤ネコ",
+   "title": "平成風俗 (Heisei fūzoku)",
+   "year": 2007,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d06d558d-e34f-322a-9801-5dc3c910b1e9.jpg",
    "genres": [
-    "jazz",
-    "avant-garde jazz",
-    "hard bop"
+    "jazz"
+   ]
+  },
+  {
+   "artist": "Nick Cave & The Bad Seeds",
+   "title": "The Good Son",
+   "year": 1990,
+   "score": 70,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2457f698-2866-3506-aca6-91262e463459.jpg",
+   "genres": [
+    "blues rock",
+    "rock",
+    "alternative rock"
+   ]
+  },
+  {
+   "artist": "Floating Points",
+   "title": "Elaenia",
+   "year": 2015,
+   "score": 85,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b05bb6b1-7416-4b41-8e65-8592f2f8713d.jpg",
+   "genres": [
+    "electronic"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-19",
+   "keys": [
+    "Fleetwood Mac::Fleetwood Mac",
+    "Joe Satriani::Essential Joe Satrini 1",
+    "椎名林檎 × 斎藤ネコ::平成風俗 (Heisei fūzoku)",
+    "Nick Cave & The Bad Seeds::The Good Son",
+    "Floating Points::Elaenia"
+   ]
+  },
   {
    "date": "2026-10-18",
    "keys": [
