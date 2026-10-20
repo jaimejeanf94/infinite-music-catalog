@@ -99,14 +99,46 @@ function GeneratedArt({ artist, album, size }) {
   );
 }
 
+// A stored cover that fails to load is almost always a dropped request, not a
+// missing file: the same cover loads in the album's sheet, or in a fresh tab.
+// Giving up on the first error left those tiles on generated art until a
+// reload. Now the generated art shows while the cover is retried in the
+// background, and the tile only settles on it after the last retry fails.
+const RETRY_MS = [1500, 4000];
+
 function CoverArt({ album, size = 150, canPersist, onResolved }) {
   const [url, setUrl] = React.useState(album.cover_url || null);
   const [failed, setFailed] = React.useState(false);
+  const [broken, setBroken] = React.useState(false);   // failed, being retried
 
   React.useEffect(() => {
     setUrl(album.cover_url || null);
     setFailed(false);
+    setBroken(false);
   }, [album.id, album.cover_url]);
+
+  React.useEffect(() => {
+    if (!broken) return;
+    let alive = true, timer;
+    const retry = (i) => {
+      if (i === RETRY_MS.length) {
+        setUrl(null);
+        setFailed(true);
+        setBroken(false);
+        return;
+      }
+      timer = setTimeout(() => {
+        // Probe off-screen, so a retry that fails again never flashes a
+        // broken image. One that loads is cached, and the <img> takes it.
+        const probe = new Image();
+        probe.onload = () => { if (alive) setBroken(false); };
+        probe.onerror = () => { if (alive) retry(i + 1); };
+        probe.src = url;
+      }, RETRY_MS[i]);
+    };
+    retry(0);
+    return () => { alive = false; clearTimeout(timer); };
+  }, [broken, url]);
 
   React.useEffect(() => {
     if (url || failed) return;
@@ -121,7 +153,7 @@ function CoverArt({ album, size = 150, canPersist, onResolved }) {
     return () => { alive = false; };
   }, [album.id, url, failed, canPersist]);
 
-  if (!url) return <GeneratedArt artist={album.artist} album={album.title} size={size} />;
+  if (!url || broken) return <GeneratedArt artist={album.artist} album={album.title} size={size} />;
   return (
     <img
       className="art"
@@ -130,7 +162,7 @@ function CoverArt({ album, size = 150, canPersist, onResolved }) {
       width={size}
       height={size}
       loading="lazy"
-      onError={() => { setUrl(null); setFailed(true); }}
+      onError={() => setBroken(true)}
     />
   );
 }
