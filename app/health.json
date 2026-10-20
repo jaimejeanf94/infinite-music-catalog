@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-19T08:22:31.666Z",
+ "generated": "2026-10-20T08:07:39.043Z",
  "totals": {
-  "albums": 4433,
-  "rated": 462,
-  "withCover": 4433,
-  "withGenres": 4432,
-  "matched": 4317,
-  "apple": 3674
+  "albums": 4434,
+  "rated": 466,
+  "withCover": 4434,
+  "withGenres": 4433,
+  "matched": 4318,
+  "apple": 3675
  },
  "sections": [
   {
@@ -589,36 +589,6 @@
      "apply": "Rename"
     },
     {
-     "artist": "Psychedelic Porn Crumpets",
-     "title": "High Visceral pt. 1",
-     "note": "Psychedelic Porn Crumpets — High Visceral {Part One}   (looser than the confident band)",
-     "suggest": {
-      "artist": "Psychedelic Porn Crumpets",
-      "title": "High Visceral {Part One}"
-     },
-     "subject": "rename:Psychedelic Porn Crumpets::High Visceral pt. 1",
-     "was": {
-      "artist": "Psychedelic Porn Crumpets",
-      "title": "High Visceral pt. 1"
-     },
-     "apply": "Rename"
-    },
-    {
-     "artist": "Psychedelic Porn Crumpets",
-     "title": "High Visceral pt. 2",
-     "note": "Psychedelic Porn Crumpets — High Visceral {Part One}   (sequence number changed (Pt. 2 / Vol. 3 / Part One); looser than the confident band)",
-     "suggest": {
-      "artist": "Psychedelic Porn Crumpets",
-      "title": "High Visceral {Part One}"
-     },
-     "subject": "rename:Psychedelic Porn Crumpets::High Visceral pt. 2",
-     "was": {
-      "artist": "Psychedelic Porn Crumpets",
-      "title": "High Visceral pt. 2"
-     },
-     "apply": "Rename"
-    },
-    {
      "artist": "Djrum",
      "title": "Dj-Kicks",
      "note": "Djrum — DJ-Kicks: Djrum   (the title gains \"djrum\" — likely a different release)",
@@ -645,6 +615,36 @@
      "was": {
       "artist": "Kyle Dixon & Michael Stein",
       "title": "Stranger Things, Vol 1"
+     },
+     "apply": "Rename"
+    },
+    {
+     "artist": "Psychedelic Porn Crumpets",
+     "title": "High Visceral pt. 1",
+     "note": "Psychedelic Porn Crumpets — High Visceral {Part One}   (looser than the confident band)",
+     "suggest": {
+      "artist": "Psychedelic Porn Crumpets",
+      "title": "High Visceral {Part One}"
+     },
+     "subject": "rename:Psychedelic Porn Crumpets::High Visceral pt. 1",
+     "was": {
+      "artist": "Psychedelic Porn Crumpets",
+      "title": "High Visceral pt. 1"
+     },
+     "apply": "Rename"
+    },
+    {
+     "artist": "Psychedelic Porn Crumpets",
+     "title": "High Visceral pt. 2",
+     "note": "Psychedelic Porn Crumpets — High Visceral {Part One}   (sequence number changed (Pt. 2 / Vol. 3 / Part One); looser than the confident band)",
+     "suggest": {
+      "artist": "Psychedelic Porn Crumpets",
+      "title": "High Visceral {Part One}"
+     },
+     "subject": "rename:Psychedelic Porn Crumpets::High Visceral pt. 2",
+     "was": {
+      "artist": "Psychedelic Porn Crumpets",
+      "title": "High Visceral pt. 2"
      },
      "apply": "Rename"
     }

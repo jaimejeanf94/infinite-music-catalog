@@ -1,64 +1,78 @@
 {
- "date": "2026-10-19",
+ "date": "2026-10-20",
  "picks": [
   {
-   "artist": "Fleetwood Mac",
-   "title": "Fleetwood Mac",
-   "year": 1975,
+   "artist": "Cocteau Twins",
+   "title": "Victorialand",
+   "year": 1986,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6b5d9bf1-f496-34b5-9488-7df2533d6208.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6add4d4f-a9b4-335d-9c9d-9c4a92027489.jpg",
    "genres": [
     "rock",
-    "soft rock",
-    "pop rock"
+    "dream pop",
+    "electronic"
    ]
   },
   {
-   "artist": "Joe Satriani",
-   "title": "Essential Joe Satrini 1",
+   "artist": "Hot Chip",
+   "title": "One Life Stand",
    "year": 2010,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2888feca48fed0ec.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e83f684b-bc49-4ea2-91c4-b1583c741829.jpg",
    "genres": [
-    "instrumental rock",
-    "instrumental",
-    "rock"
+    "electronic",
+    "electropop",
+    "alternative dance"
    ]
   },
   {
-   "artist": "椎名林檎 × 斎藤ネコ",
-   "title": "平成風俗 (Heisei fūzoku)",
-   "year": 2007,
+   "artist": "The Hold Steady",
+   "title": "Boys and Girls in America",
+   "year": 2006,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d06d558d-e34f-322a-9801-5dc3c910b1e9.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/dd147445-877c-381b-ac14-f060cbf871fa.jpg",
    "genres": [
-    "jazz"
-   ]
-  },
-  {
-   "artist": "Nick Cave & The Bad Seeds",
-   "title": "The Good Son",
-   "year": 1990,
-   "score": 70,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2457f698-2866-3506-aca6-91262e463459.jpg",
-   "genres": [
-    "blues rock",
     "rock",
+    "garage rock",
     "alternative rock"
    ]
   },
   {
-   "artist": "Floating Points",
-   "title": "Elaenia",
-   "year": 2015,
-   "score": 85,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b05bb6b1-7416-4b41-8e65-8592f2f8713d.jpg",
+   "artist": "Franz Ferdinand",
+   "title": "You Could Have It So Much Better",
+   "year": 2005,
+   "score": 75,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d0645c49-21a6-3f40-9df7-5f7e0a7188ed.jpg",
    "genres": [
-    "electronic"
+    "rock",
+    "indie rock",
+    "garage rock revival"
+   ]
+  },
+  {
+   "artist": "John Coltrane",
+   "title": "Coltrane",
+   "year": 1962,
+   "score": 75,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a801b39f-b75b-3131-8d42-141bf3c694dd.jpg",
+   "genres": [
+    "jazz",
+    "hard bop",
+    "blues"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-20",
+   "keys": [
+    "Cocteau Twins::Victorialand",
+    "Hot Chip::One Life Stand",
+    "The Hold Steady::Boys and Girls in America",
+    "Franz Ferdinand::You Could Have It So Much Better",
+    "John Coltrane::Coltrane"
+   ]
+  },
   {
    "date": "2026-10-19",
    "keys": [
