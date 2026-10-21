@@ -1,68 +1,78 @@
 {
- "date": "2026-10-20",
+ "date": "2026-10-21",
  "picks": [
   {
-   "artist": "Cocteau Twins",
-   "title": "Victorialand",
-   "year": 1986,
+   "artist": "Brockhampton",
+   "title": "Iridescence",
+   "year": 2020,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6add4d4f-a9b4-335d-9c9d-9c4a92027489.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/54a385ba-1bc0-448a-bc59-b85914355060.jpg",
    "genres": [
-    "rock",
-    "dream pop",
-    "electronic"
+    "experimental",
+    "hip hop",
+    "pop rap"
    ]
   },
   {
-   "artist": "Hot Chip",
-   "title": "One Life Stand",
-   "year": 2010,
+   "artist": "Spiritualized",
+   "title": "Ladies and Gentlemen We Are Floating In Space",
+   "year": 1997,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e83f684b-bc49-4ea2-91c4-b1583c741829.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c88c77da-b9f9-34b9-abdf-ad3cec875aca.jpg",
    "genres": [
-    "electronic",
-    "electropop",
-    "alternative dance"
-   ]
-  },
-  {
-   "artist": "The Hold Steady",
-   "title": "Boys and Girls in America",
-   "year": 2006,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/dd147445-877c-381b-ac14-f060cbf871fa.jpg",
-   "genres": [
+    "space rock",
     "rock",
-    "garage rock",
     "alternative rock"
    ]
   },
   {
-   "artist": "Franz Ferdinand",
-   "title": "You Could Have It So Much Better",
-   "year": 2005,
-   "score": 75,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d0645c49-21a6-3f40-9df7-5f7e0a7188ed.jpg",
+   "artist": "Andrew Hill",
+   "title": "Point of Departure",
+   "year": 1965,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d7931540-f35c-3978-9bd8-6e77ab66334d.jpg",
    "genres": [
-    "rock",
-    "indie rock",
-    "garage rock revival"
+    "jazz",
+    "post-bop",
+    "avant-garde jazz"
    ]
   },
   {
-   "artist": "John Coltrane",
-   "title": "Coltrane",
-   "year": 1962,
-   "score": 75,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a801b39f-b75b-3131-8d42-141bf3c694dd.jpg",
+   "artist": "Floating Points",
+   "title": "King Bromeliad/ Montparnasse",
+   "year": 2014,
+   "score": 80,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7775af5e-3229-47b2-a649-6311609b6e00.jpg",
    "genres": [
-    "jazz",
-    "hard bop",
-    "blues"
+    "electronic",
+    "dubstep",
+    "house"
+   ]
+  },
+  {
+   "artist": "Tyler, The Creator",
+   "title": "CALL ME IF YOU GET LOST",
+   "year": 2021,
+   "score": 90,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c65de046-7a48-4269-b4e5-4db0ed328f47.jpg",
+   "genres": [
+    "hip hop",
+    "west coast hip hop",
+    "neo soul"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-21",
+   "keys": [
+    "Brockhampton::Iridescence",
+    "Spiritualized::Ladies and Gentlemen We Are Floating In Space",
+    "Andrew Hill::Point of Departure",
+    "Floating Points::King Bromeliad/ Montparnasse",
+    "Tyler, The Creator::CALL ME IF YOU GET LOST"
+   ]
+  },
   {
    "date": "2026-10-20",
    "keys": [

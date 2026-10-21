@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-20T08:07:39.043Z",
+ "generated": "2026-10-21T08:23:26.817Z",
  "totals": {
   "albums": 4434,
-  "rated": 466,
+  "rated": 468,
   "withCover": 4434,
   "withGenres": 4433,
   "matched": 4318,
@@ -655,7 +655,7 @@
    "title": "Apple Music matches held back",
    "why": "Probably the right record, not certainly. Open it to check, then link it or reject it.",
    "action": "link",
-   "count": 304,
+   "count": 308,
    "items": [
     {
      "artist": "Against All Logic",
@@ -1058,6 +1058,54 @@
      "dismiss": "Reject"
     },
     {
+     "artist": "Bob Dylan",
+     "title": "Greatest Hits Volume 1 (Bob Dylan)",
+     "note": "Apple Music has \"Bob Dylan\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/bob-dylan/159476000",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/bob-dylan/159476000",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Bob Dylan",
+     "title": "Greatest Hits Volume 2 (Bob Dylan)",
+     "note": "Apple Music has \"Bob Dylan\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/bob-dylan/159476000",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/bob-dylan/159476000",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Bob Dylan",
+     "title": "Greatest Hits Volume 3 (Bob Dylan)",
+     "note": "Apple Music has \"Bob Dylan\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/bob-dylan/159476000",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/bob-dylan/159476000",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
      "artist": "Bob Marley",
      "title": "Legend",
      "note": "Apple Music has \"Legend Remixed\" — the title is longer or shorter than yours",
@@ -1080,6 +1128,22 @@
      "preview": "https://music.apple.com/mx/album/1765298404",
      "suggest": {
       "apple_music_url": "https://music.apple.com/mx/album/1765298404",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Boredoms",
+     "title": "Vision Creation Newsun",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/74258570",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/74258570",
       "apple_music_locked": true
      },
      "was": {
@@ -1364,10 +1428,10 @@
     {
      "artist": "Courtney Barnett",
      "title": "The Double EP: The Sea of Split Peas",
-     "note": "Apple Music has \"The Double EP: A Sea of Split Peas\" — the title is spelled differently",
-     "preview": "https://music.apple.com/mx/album/the-double-ep-a-sea-of-split-peas/1881404957",
+     "note": "Apple Music has \"The Double Ep: A Sea of Split Peas\" — the title is spelled differently",
+     "preview": "https://music.apple.com/mx/album/the-double-ep-a-sea-of-split-peas/1657735520",
      "suggest": {
-      "apple_music_url": "https://music.apple.com/mx/album/the-double-ep-a-sea-of-split-peas/1881404957",
+      "apple_music_url": "https://music.apple.com/mx/album/the-double-ep-a-sea-of-split-peas/1657735520",
       "apple_music_locked": true
      },
      "was": {
@@ -4592,70 +4656,6 @@
      },
      "apply": "Link it",
      "dismiss": "Reject"
-    },
-    {
-     "artist": "The Fall",
-     "title": "Grotesque (After the Gramme)",
-     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
-     "preview": "https://music.apple.com/mx/album/1147767174",
-     "suggest": {
-      "apple_music_url": "https://music.apple.com/mx/album/1147767174",
-      "apple_music_locked": true
-     },
-     "was": {
-      "apple_music_url": null,
-      "apple_music_locked": false
-     },
-     "apply": "Link it",
-     "dismiss": "Reject"
-    },
-    {
-     "artist": "The Fall",
-     "title": "Hex Enduction Hour",
-     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
-     "preview": "https://music.apple.com/mx/album/1120747168",
-     "suggest": {
-      "apple_music_url": "https://music.apple.com/mx/album/1120747168",
-      "apple_music_locked": true
-     },
-     "was": {
-      "apple_music_url": null,
-      "apple_music_locked": false
-     },
-     "apply": "Link it",
-     "dismiss": "Reject"
-    },
-    {
-     "artist": "The Fall",
-     "title": "Perverted by Language",
-     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
-     "preview": "https://music.apple.com/mx/album/1145999601",
-     "suggest": {
-      "apple_music_url": "https://music.apple.com/mx/album/1145999601",
-      "apple_music_locked": true
-     },
-     "was": {
-      "apple_music_url": null,
-      "apple_music_locked": false
-     },
-     "apply": "Link it",
-     "dismiss": "Reject"
-    },
-    {
-     "artist": "The Fall",
-     "title": "Slates",
-     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
-     "preview": "https://music.apple.com/mx/album/1144249422",
-     "suggest": {
-      "apple_music_url": "https://music.apple.com/mx/album/1144249422",
-      "apple_music_locked": true
-     },
-     "was": {
-      "apple_music_url": null,
-      "apple_music_locked": false
-     },
-     "apply": "Link it",
-     "dismiss": "Reject"
     }
    ]
   },
@@ -4672,12 +4672,12 @@
    "title": "No Apple Music link",
    "why": "Apple Music has nothing under this name. Paste the link on the album's page if it is there, or say it is not.",
    "action": "link",
-   "count": 455,
+   "count": 451,
    "items": [
     {
      "artist": "$ilkmoney",
      "title": "I Don't Give A Fuck About This Rap Shit, Imma Just Drop Until I Don't Feel Like It Anymore",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
@@ -4749,19 +4749,19 @@
     {
      "artist": "AC/DC",
      "title": "Back To Black (AC/DC)",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Ad Nauseam",
      "title": "Imperative Imperceptible Impulse",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Adrianne Lenker",
      "title": "i won’t let go of your hand",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
@@ -4779,13 +4779,13 @@
     {
      "artist": "Angelo Badalamenti & David Lynch",
      "title": "Mulholland Drive",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Änglagård",
      "title": "Hybris",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
@@ -4797,7 +4797,7 @@
     {
      "artist": "Arca",
      "title": "Entrañas",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
@@ -4809,37 +4809,37 @@
     {
      "artist": "Ariel Pink",
      "title": "Pom Pom",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Arvo Part",
      "title": "Tabula Rasa",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Au Pairs",
      "title": "Playing With a Different Sex",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Backxwash",
      "title": "God Has Nothing To Do With This Leave Him Out of It",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "BADBADNOTGOOD",
      "title": "BBNG2",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Beastie Boys",
      "title": "Anthology: The Sounds of Science",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
@@ -4851,13 +4851,13 @@
     {
      "artist": "Belle and Sebastian",
      "title": "Dog on Wheels",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Belle And Sebastian",
      "title": "The Life Pursuit",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
@@ -4869,13 +4869,13 @@
     {
      "artist": "Beth Orton",
      "title": "Weather Alive",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Big Black",
      "title": "Songs About Fucking",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
@@ -4887,7 +4887,7 @@
     {
      "artist": "Big K.R.I.T.",
      "title": "4eva N a Day",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
@@ -4899,37 +4899,37 @@
     {
      "artist": "Black Kray",
      "title": "700 Dagreez",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Black Kray",
      "title": "Crack Cloud$ Over Arts Kitchen",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Blood Orange",
      "title": "Negro Swan",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Blu & Real Bad Man",
      "title": "Bad News",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Blu & Sirplus",
      "title": "For Sale",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Bo Burnham",
      "title": "Make Happy",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
@@ -4939,45 +4939,21 @@
      "dismiss": "Not there"
     },
     {
-     "artist": "Bob Dylan",
-     "title": "Greatest Hits Volume 1 (Bob Dylan)",
-     "note": "looked for on 2026-09-21",
-     "dismiss": "Not there"
-    },
-    {
-     "artist": "Bob Dylan",
-     "title": "Greatest Hits Volume 2 (Bob Dylan)",
-     "note": "looked for on 2026-09-21",
-     "dismiss": "Not there"
-    },
-    {
-     "artist": "Bob Dylan",
-     "title": "Greatest Hits Volume 3 (Bob Dylan)",
-     "note": "looked for on 2026-09-21",
-     "dismiss": "Not there"
-    },
-    {
      "artist": "Bobby Bland",
      "title": "Two Steps from the Blues",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Bombay Bicycle Club",
      "title": "I Had the Blues But I Shook Them Loose",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Boredoms",
      "title": "Super ae",
-     "note": "looked for on 2026-09-21",
-     "dismiss": "Not there"
-    },
-    {
-     "artist": "Boredoms",
-     "title": "Vision Creation Newsun",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
@@ -4989,49 +4965,49 @@
     {
      "artist": "Boris & Merzbow",
      "title": "Rock Dream",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Buckethead",
      "title": "Hold Me Forever (In Memory of My Mom Nancy York Carroll)",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Buckethead",
      "title": "Pike 13",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Buckethead",
      "title": "Population Override",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Cacola",
      "title": "Amy Rose",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Café Tacvba",
      "title": "Yo Soy",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Cannibal Ox",
      "title": "The Cold Vein",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Capital Steez",
      "title": "AmeriKKKan Korruption",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
@@ -5049,13 +5025,13 @@
     {
      "artist": "Caravan",
      "title": "If I Could Do It All Over Again, I'd Do It All Over You",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Carissa's Wierd",
      "title": "Songs About Leaving",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
@@ -5067,151 +5043,151 @@
     {
      "artist": "Cerce",
      "title": "Cerce EP",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Chris Travis",
      "title": "Pizza and Codeine",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Chuck Berry",
      "title": "The Great Twenty-Eight (1-14)",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Chuck Berry",
      "title": "The Great Twenty-Eight (14-28)",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Chuck Person",
      "title": "Eccojams Vol. 1",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Cibo Matto",
      "title": "Viva! La Woman",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Clairo",
      "title": "Live al Electric Lady",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Clockwork Indigo",
      "title": "Clockwork Indigo",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Cloud Nothings",
      "title": "Here and Nowhere Else",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Colosseum",
      "title": "Valentyne Suit",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Comus",
      "title": "First Utterance",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "CunninLynguists",
      "title": "A Piece of Strange",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "CunninLynguists",
      "title": "Oneirology",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Curtis Mayfield & The Impressions",
      "title": "The Anthology 1961 - 1977",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "dalek",
      "title": "Absence",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "dalek",
      "title": "From Filthy Tongues of Gods and Griots",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Danger Mouse",
      "title": "The Grey Album",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "David Bowie",
      "title": "Blackstar",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "David Wise",
      "title": "Donkey Kong Country 2: Diddy's Kong Quest",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "De la Soul",
      "title": "Timeless: The Singles Collection",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Dead Congregation",
      "title": "Graves of the Archangels",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Dead Kennedys",
      "title": "In God We Trust, Inc.",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Dead Kennedys",
      "title": "Plastic Surgery Disasters",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Dean Blunt",
      "title": "Black Metal",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Dean Blunt",
      "title": "Black Metal 2",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
@@ -5223,7 +5199,7 @@
     {
      "artist": "Death Grips",
      "title": "Niggas on the Moon",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
@@ -5235,31 +5211,31 @@
     {
      "artist": "Descendents",
      "title": "Everything Sucks",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Diego Lorenzini",
      "title": "De Algo hay que morir",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Dire Straits",
      "title": "Greatest Hits",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "diSEMBOWELMENT",
      "title": "Transcendence Into the Peripheral",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "DJ /rupture",
      "title": "Uproot",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
@@ -5271,7 +5247,7 @@
     {
      "artist": "DJ Jeffee",
      "title": "Jungle Spliff",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
@@ -5289,31 +5265,31 @@
     {
      "artist": "DJ Screw",
      "title": "3 ’n the Mornin’, Part One",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "DJ Screw",
      "title": "Endonesia",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "DJ Screw",
      "title": "Old School",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "DJ Sprinkles",
      "title": "Midtown 120 Blues",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "DJ 光光光 [DJ Pica Pica Pica]",
      "title": "Planetary Natural Love Gas Webbin' 199999",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
@@ -5331,13 +5307,13 @@
     {
      "artist": "Dr. Octagon",
      "title": "Octagoneocologyst",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Dragged Into Sunlight",
      "title": "Hatred for Mankind",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
@@ -5361,25 +5337,25 @@
     {
      "artist": "E+E",
      "title": "The Light That You Gave Me to See You",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Eagles",
      "title": "Greatest Hits (Eagles)",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Earl Sweatshirt",
      "title": "Solace",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
      "artist": "Ekkaia",
      "title": "Manos que Estrechan Planes de Muerte y Sometiemiento",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
@@ -5391,7 +5367,7 @@
     {
      "artist": "El-p",
      "title": "Cancer for Cure",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-21",
      "dismiss": "Not there"
     },
     {
@@ -6171,6 +6147,30 @@
     {
      "artist": "Misfits",
      "title": "Walk Among Us",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Modest Mouse",
+     "title": "The Moon And Antarctica",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Moonsorrow",
+     "title": "V: Hävitetty",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Mos Def",
+     "title": "Black on Both Sides",
+     "note": "looked for on 2026-09-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Mos Def",
+     "title": "The Ecstatic",
      "note": "looked for on 2026-09-21",
      "dismiss": "Not there"
     }
