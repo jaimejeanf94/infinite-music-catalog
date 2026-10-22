@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-21T08:23:26.817Z",
+ "generated": "2026-10-22T08:26:17.610Z",
  "totals": {
   "albums": 4434,
-  "rated": 468,
+  "rated": 471,
   "withCover": 4434,
   "withGenres": 4433,
   "matched": 4318,
-  "apple": 3675
+  "apple": 3677
  },
  "sections": [
   {
@@ -655,7 +655,7 @@
    "title": "Apple Music matches held back",
    "why": "Probably the right record, not certainly. Open it to check, then link it or reject it.",
    "action": "link",
-   "count": 308,
+   "count": 306,
    "items": [
     {
      "artist": "Against All Logic",
@@ -2098,22 +2098,6 @@
      "dismiss": "Reject"
     },
     {
-     "artist": "Fugazi",
-     "title": "Fugazi",
-     "note": "Apple Music has \"Fugazi (Live at Wilson Center, Washington DC, USA, 09/03/1987) FLS0001\" — the title is longer or shorter than yours, and it is a live album",
-     "preview": "https://music.apple.com/mx/album/fugazi-live-at-wilson-center-washington-dc-usa-09-03/1809213389",
-     "suggest": {
-      "apple_music_url": "https://music.apple.com/mx/album/fugazi-live-at-wilson-center-washington-dc-usa-09-03/1809213389",
-      "apple_music_locked": true
-     },
-     "was": {
-      "apple_music_url": null,
-      "apple_music_locked": false
-     },
-     "apply": "Link it",
-     "dismiss": "Reject"
-    },
-    {
      "artist": "Funkadelic",
      "title": "One Nation Under a Groove",
      "note": "MusicBrainz links it, but Apple's store here could not confirm it",
@@ -2610,22 +2594,6 @@
      "dismiss": "Reject"
     },
     {
-     "artist": "Kaiser Chiefs",
-     "title": "Your Truly, Angry Mob",
-     "note": "Apple Music has \"Yours Truly, Angry Mob (Deluxe)\" — the title is spelled differently",
-     "preview": "https://music.apple.com/mx/album/yours-truly-angry-mob-deluxe/1443919260",
-     "suggest": {
-      "apple_music_url": "https://music.apple.com/mx/album/yours-truly-angry-mob-deluxe/1443919260",
-      "apple_music_locked": true
-     },
-     "was": {
-      "apple_music_url": null,
-      "apple_music_locked": false
-     },
-     "apply": "Link it",
-     "dismiss": "Reject"
-    },
-    {
      "artist": "Kate Bush",
      "title": "Hound of Love",
      "note": "Apple Music has \"Hounds of Love\" — the title is spelled differently",
@@ -2820,10 +2788,10 @@
     {
      "artist": "Le Tigre",
      "title": "Le Tigre",
-     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
-     "preview": "https://music.apple.com/mx/album/1813861028",
+     "note": "Apple Music has \"Génération indépendance présente Le Tigre (feat. La Vilerie) - EP\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/g%C3%A9n%C3%A9ration-ind%C3%A9pendance-pr%C3%A9sente-le-tigre-feat-la-vilerie/1746225454",
      "suggest": {
-      "apple_music_url": "https://music.apple.com/mx/album/1813861028",
+      "apple_music_url": "https://music.apple.com/mx/album/g%C3%A9n%C3%A9ration-ind%C3%A9pendance-pr%C3%A9sente-le-tigre-feat-la-vilerie/1746225454",
       "apple_music_locked": true
      },
      "was": {
@@ -2837,9 +2805,9 @@
      "artist": "Lena Raine",
      "title": "Celeste",
      "note": "Apple Music has \"Celeste Piano Collections\" — the title is longer or shorter than yours",
-     "preview": "https://music.apple.com/mx/album/celeste-piano-collections/1449960195",
+     "preview": "https://music.apple.com/mx/album/celeste-piano-collections/6813259344",
      "suggest": {
-      "apple_music_url": "https://music.apple.com/mx/album/celeste-piano-collections/1449960195",
+      "apple_music_url": "https://music.apple.com/mx/album/celeste-piano-collections/6813259344",
       "apple_music_locked": true
      },
      "was": {
@@ -4656,6 +4624,38 @@
      },
      "apply": "Link it",
      "dismiss": "Reject"
+    },
+    {
+     "artist": "The Fall",
+     "title": "Grotesque (After the Gramme)",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1147767174",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1147767174",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "The Fall",
+     "title": "Hex Enduction Hour",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1120747168",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1120747168",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
     }
    ]
   },
@@ -4737,7 +4737,7 @@
     {
      "artist": "2manydjs",
      "title": "Under The Covers Vol. 2",
-     "note": "looked for on 2026-09-22",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
@@ -4935,7 +4935,7 @@
     {
      "artist": "Boards of Canada",
      "title": "2019-06-23: Societas x Tape",
-     "note": "looked for on 2026-09-22",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
@@ -5037,7 +5037,7 @@
     {
      "artist": "Cecil Taylor",
      "title": "Live at the Cafe Montmartre",
-     "note": "looked for on 2026-09-22",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
@@ -5253,7 +5253,7 @@
     {
      "artist": "DJ Koze",
      "title": "DJ-Kicks: DJ Koze",
-     "note": "looked for on 2026-09-22",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
@@ -5331,7 +5331,7 @@
     {
      "artist": "E+E",
      "title": "E+E presenta: El sueño del forastero",
-     "note": "looked for on 2026-09-22",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
@@ -5373,13 +5373,13 @@
     {
      "artist": "Elton John",
      "title": "Greatest Hits 1970-2002 (CD1 ONLY)",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Elvis Costello and the Attractions",
      "title": "Armed Forces",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
@@ -5391,19 +5391,19 @@
     {
      "artist": "Erlend Øye",
      "title": "DJ Kicks",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Extremity",
      "title": "Extremely Fucking Dead",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Failure",
      "title": "Fantastic Planet",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
@@ -5415,7 +5415,7 @@
     {
      "artist": "Femi & Malibu",
      "title": "United in Flames 23-10-2018",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
@@ -5433,25 +5433,25 @@
     {
      "artist": "Foodman",
      "title": "oiss EP",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Foxygen",
      "title": "Take the Kids off Broadway EP",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Franco",
      "title": "The Very best of the Rumba Giant of Zaire",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Frank Ocean",
      "title": "Nostagia, Ultra",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
@@ -5463,121 +5463,127 @@
     {
      "artist": "Fripp & Eno",
      "title": "Evening Star",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "Fugazi",
+     "title": "Fugazi",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "G.L.O.S.S",
      "title": "Trans Day of Revenge",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Gal Costa",
      "title": "Gal (1969)",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Gang Gang Dance",
      "title": "Saint Dymphna",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Gang Starr",
      "title": "Daily Operation",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Gang Starr",
      "title": "Heard to Earn",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Gang Starr",
      "title": "Moment of Truth",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Garbage",
      "title": "Garbage 2.0",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Ghostface Killah",
      "title": "Ironman",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Gilla Band",
      "title": "Most Normal",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Girl Talk",
      "title": "All Day",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Girl Talk",
      "title": "Feed the Animals",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Girl Talk",
      "title": "Night Ripper",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Girl Talk & Freeway",
      "title": "Broken Ankles EP",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Girlpool",
      "title": "What Chaos is Imaginary",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Girls",
      "title": "Father, Son, Holy Ghost",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Godspeed You Black Emperor",
      "title": "Allelujah! Don't Bend! Ascend!",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Godspeed You Black Emperor",
      "title": "Lift Your Skinny Fists Like Antennas to Heaven",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Godspeed You Black Emperor",
      "title": "Slow Riot for New Zero Kanada",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Godspeed You Black Emperor",
      "title": "Yanqui U.X.O",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
@@ -5589,13 +5595,13 @@
     {
      "artist": "Gris",
      "title": "Il était une forêt...",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Harmonium",
      "title": "Harmonium / Si on avait besoin d’une cinquième saison",
-     "note": "looked for on 2026-09-22",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
@@ -5613,19 +5619,19 @@
     {
      "artist": "Have a Nice Life",
      "title": "The Unnatural World",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Hercules And Love Affair",
      "title": "Hercules And Love Affair",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Hieroglyphics",
      "title": "3rd Eye Vision",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
@@ -5643,37 +5649,37 @@
     {
      "artist": "Hospital de México",
      "title": "Hospital de México y los Robots de Observatorio",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Iglooghost",
      "title": "Little Grids",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "In Flames",
      "title": "The Jester Race",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Infinity Knives & Brian Ennals",
      "title": "A City Drowned in God's Black Tears",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Interpol",
      "title": "Our Love To Admire",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Iron & Wine",
      "title": "The Shepherd's Dog",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
@@ -5697,55 +5703,49 @@
     {
      "artist": "James Chance & Contortions",
      "title": "Buy",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Jay Reatard",
      "title": "Matador Singles '08",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Jean Dawson",
      "title": "Pixel Bath",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Jeff Rossenstock",
      "title": "POST-",
-     "note": "looked for on 2026-09-21",
-     "dismiss": "Not there"
-    },
-    {
-     "artist": "Jeff Rossenstock",
-     "title": "WORRY.",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "JER",
      "title": "Bothered/Unbothered",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Jimi Hendrix",
      "title": "The Ultimate Experience",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "João Gilberto; Stan Getz",
      "title": "Getz/Gilberto",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Jockstrap",
      "title": "I Love You Jennifer B",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
@@ -5757,25 +5757,25 @@
     {
      "artist": "John Cale & Lou Reed",
      "title": "Songs for Drella",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "John Coltrane & Duke Ellington",
      "title": "Duke Ellington & John Coltrane",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "John Coltrane & Milt Jackson",
      "title": "Bags & Trane",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "John Fahey",
      "title": "Fare Forward Voyagers (Soldier's Choice)",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
@@ -5787,91 +5787,91 @@
     {
      "artist": "John Zorn",
      "title": "Naked City",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Joni Mitchell",
      "title": "For the Roses",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Joy Division",
      "title": "Heart and Soul",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Joyce Manor",
      "title": "Never Hungover Again",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Ka",
      "title": "The Knights Gambit",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "KA",
      "title": "Grief Pedigree",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Keiichi Okabe 岡部啓一 & Keigo Hoashi 帆足圭吾",
      "title": "NieR:Automata",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Kids & Explosion",
      "title": "Shit Computer",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Kill Bill: the Rapper",
      "title": "Ramona",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "King Krule",
      "title": "The Ooz",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Kirin J Calinan",
      "title": "Bravado",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Koji Kondo",
      "title": "Super Mario 64",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Koji Kondo",
      "title": "The Legend of Zelda: Ocarina of Time",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Koji Kondo 近藤浩治",
      "title": "ゼルダの伝説: ムジュラの仮面 (The Legend of Zelda: Majora's Mask)",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Kreator",
      "title": "Coma of Souls",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
@@ -5883,19 +5883,19 @@
     {
      "artist": "Late of The Pier",
      "title": "Fantasy Black Channel",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "LCD Soundsystem",
      "title": "The Long Goodbye: LCD Soundsystem Live At Madison Square Garden",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Led Zeppellin",
      "title": "Remasters",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
@@ -5907,19 +5907,19 @@
     {
      "artist": "leroy",
      "title": "Dariacore 3... At least I think that's what it's called?",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "leroy",
      "title": "Diaracore 2: Enter Here, Hall To The Left",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "leroy",
      "title": "Grave Robbing",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
@@ -5931,25 +5931,25 @@
     {
      "artist": "Lil Ugly Mane",
      "title": "The Weeping Worm",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Lil Ugly Mane",
      "title": "Three Sided Tape Volume One",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Lil Ugly Mane",
      "title": "Uneven Compromise",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Lil Wayne",
      "title": "Da Drought 3",
-     "note": "looked for on 2026-09-21",
+     "note": "looked for on 2026-10-22",
      "dismiss": "Not there"
     },
     {
