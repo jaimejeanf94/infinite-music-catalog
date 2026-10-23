@@ -1,68 +1,78 @@
 {
- "date": "2026-10-22",
+ "date": "2026-10-23",
  "picks": [
   {
-   "artist": "The Flaming Lips",
-   "title": "Peace Swords EP",
-   "year": 2013,
+   "artist": "Au Pairs",
+   "title": "Playing With a Different Sex",
+   "year": 1981,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/71dd8191-9cd8-4858-8be3-670fd8c81bf1.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/14f11e7a-00fa-31b2-85a1-2930fb88d198.jpg",
    "genres": [
     "rock",
-    "alternative rock",
-    "psychedelic pop"
+    "punk",
+    "post-punk"
    ]
   },
   {
-   "artist": "Code Orange",
-   "title": "Forever",
-   "year": 2020,
+   "artist": "Public Image Ltd.",
+   "title": "First Issue",
+   "year": 1978,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c950a1c1-0ff8-4ffb-8298-778ee63238da.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1a3d0d0c-38bd-3662-9e27-e507fc949aa6.jpg",
    "genres": [
-    "metalcore",
-    "hardcore punk",
-    "rock"
+    "post-punk",
+    "rock",
+    "art punk"
    ]
   },
   {
-   "artist": "Primal Scream",
-   "title": "Vanishing Point",
-   "year": 1997,
+   "artist": "The Dillinger Escape Plan",
+   "title": "Calculating Infinity",
+   "year": 1999,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ed585ebf-919f-3a78-a985-c261f67b0aa4.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3db16ade-a4ad-3db8-a7b3-943a9c97b6b5.jpg",
    "genres": [
-    "alternative rock",
+    "mathcore",
     "rock",
+    "metal"
+   ]
+  },
+  {
+   "artist": "David Bowie",
+   "title": "Low",
+   "year": 1977,
+   "score": 85,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f6a51281-56c4-3538-b915-65a9d4eb29b5.jpg",
+   "genres": [
+    "art rock",
+    "ambient",
     "electronic"
    ]
   },
   {
-   "artist": "The Beatles",
-   "title": "Abbey Road",
-   "year": 1969,
+   "artist": "Godspeed You Black Emperor",
+   "title": "Lift Your Skinny Fists Like Antennas to Heaven",
+   "year": 2000,
    "score": 100,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9162580e-5df4-32de-80cc-f45a8d8a9b1d.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3822abb6-ca53-3ae1-a4ec-7718cb321e9b.jpg",
    "genres": [
-    "rock",
-    "pop rock",
-    "pop"
-   ]
-  },
-  {
-   "artist": "파란노을",
-   "title": "To See the Next Part of the Dream",
-   "year": 2021,
-   "score": 90,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/74769203-cd8e-409b-912e-f1ec476dd716.jpg",
-   "genres": [
-    "shoegaze",
     "post-rock",
-    "indie rock"
+    "experimental",
+    "instrumental"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-23",
+   "keys": [
+    "Au Pairs::Playing With a Different Sex",
+    "Public Image Ltd.::First Issue",
+    "The Dillinger Escape Plan::Calculating Infinity",
+    "David Bowie::Low",
+    "Godspeed You Black Emperor::Lift Your Skinny Fists Like Antennas to Heaven"
+   ]
+  },
   {
    "date": "2026-10-22",
    "keys": [
