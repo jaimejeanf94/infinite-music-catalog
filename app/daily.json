@@ -1,68 +1,77 @@
 {
- "date": "2026-10-23",
+ "date": "2026-10-24",
  "picks": [
   {
-   "artist": "Au Pairs",
-   "title": "Playing With a Different Sex",
-   "year": 1981,
+   "artist": "Charles Mingus, Max Roach & Duke Ellington",
+   "title": "Money Jungle",
+   "year": 1969,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/14f11e7a-00fa-31b2-85a1-2930fb88d198.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1c18538e-e9be-3449-8be1-f3cdc7b493e0.jpg",
+   "genres": [
+    "jazz",
+    "hard bop",
+    "post-bop"
+   ]
+  },
+  {
+   "artist": "Death",
+   "title": "Leprosy",
+   "year": 1988,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e4f11dc7-ed0c-4fb2-bdf7-b1a6240bd167.jpg",
+   "genres": [
+    "death metal",
+    "metal",
+    "old school death metal"
+   ]
+  },
+  {
+   "artist": "Bob Dylan",
+   "title": "The Freewheelin' Bob Dylan",
+   "year": 1963,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/169b62aa-c3a5-3ed9-bed1-cc47c4bc51ad.jpg",
+   "genres": [
+    "folk",
+    "folk rock",
+    "rock"
+   ]
+  },
+  {
+   "artist": "The Beatles",
+   "title": "Let It Be... Naked",
+   "year": 2003,
+   "score": 95,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7e9abe51-9808-4f18-b88a-f40e9b31f303.jpg",
    "genres": [
     "rock",
-    "punk",
-    "post-punk"
+    "blues rock",
+    "pop rock"
    ]
   },
   {
-   "artist": "Public Image Ltd.",
-   "title": "First Issue",
-   "year": 1978,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1a3d0d0c-38bd-3662-9e27-e507fc949aa6.jpg",
+   "artist": "Yeah Yeah Yeahs",
+   "title": "Is Is",
+   "year": 2007,
+   "score": 90,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3baa3e40-3de3-3c85-a026-2df6bcdd0723.jpg",
    "genres": [
-    "post-punk",
-    "rock",
-    "art punk"
-   ]
-  },
-  {
-   "artist": "The Dillinger Escape Plan",
-   "title": "Calculating Infinity",
-   "year": 1999,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3db16ade-a4ad-3db8-a7b3-943a9c97b6b5.jpg",
-   "genres": [
-    "mathcore",
-    "rock",
-    "metal"
-   ]
-  },
-  {
-   "artist": "David Bowie",
-   "title": "Low",
-   "year": 1977,
-   "score": 85,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f6a51281-56c4-3538-b915-65a9d4eb29b5.jpg",
-   "genres": [
-    "art rock",
-    "ambient",
-    "electronic"
-   ]
-  },
-  {
-   "artist": "Godspeed You Black Emperor",
-   "title": "Lift Your Skinny Fists Like Antennas to Heaven",
-   "year": 2000,
-   "score": 100,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3822abb6-ca53-3ae1-a4ec-7718cb321e9b.jpg",
-   "genres": [
-    "post-rock",
-    "experimental",
-    "instrumental"
+    "indie rock",
+    "rock"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-24",
+   "keys": [
+    "Charles Mingus, Max Roach & Duke Ellington::Money Jungle",
+    "Death::Leprosy",
+    "Bob Dylan::The Freewheelin' Bob Dylan",
+    "The Beatles::Let It Be... Naked",
+    "Yeah Yeah Yeahs::Is Is"
+   ]
+  },
   {
    "date": "2026-10-23",
    "keys": [

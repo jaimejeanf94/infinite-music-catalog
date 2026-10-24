@@ -792,12 +792,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/d2f8e542-d2e0-4a3a-925a-e94eabcf8c87/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/1/1440833098",
   "apple_title": "1",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours"
  },
  "The Beatles::Sgt. Pepper's Lonely Hearts Club Band": {
   "status": "ok",
@@ -3407,8 +3407,8 @@
   "checked": "2026-09-19",
   "cover_source_url": "https://coverartarchive.org/release-group/4d507176-894b-34eb-b3c5-1079550831fc/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Beatles::Please Please Me": {
   "status": "ok",
@@ -4818,8 +4818,8 @@
   "checked": "2026-09-19",
   "cover_source_url": "https://coverartarchive.org/release-group/8a2218e9-cd28-45eb-a712-0f945bf20d8c/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "TURQUOISEDEATH::Kaleidoscope": {
   "status": "ok",
@@ -5949,12 +5949,12 @@
   "checked": "2026-09-19",
   "cover_source_url": "https://coverartarchive.org/release-group/b6259fde-0c3a-40e7-85d0-51acefb4dc39/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/1372708464",
   "apple_title": null,
   "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it"
  },
  "Sophie::SOPHIE LIVESTREAM HEAV3N SUSPENDED": {
   "status": "ok",
@@ -5973,8 +5973,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/1b0a39e6-f557-478e-88f0-f3b4fb11c79f/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "SOPHIE::Product": {
   "status": "ok",
@@ -7263,8 +7263,8 @@
   "checked": "2026-09-19",
   "cover_source_url": "https://coverartarchive.org/release-group/b0e03a04-2872-474c-9c32-338a8b56c884/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Comet is Coming::The Afterlife": {
   "status": "ok",
@@ -7298,12 +7298,12 @@
   "checked": "2026-09-19",
   "cover_source_url": "https://coverartarchive.org/release-group/cdd63b6e-209e-3635-95cf-510fbfe3a7d5/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/1144249422",
   "apple_title": null,
   "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it"
  },
  "The Flying Burrito Brothers::The Gilded Palace of Sin": {
   "status": "ok",
@@ -8450,12 +8450,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/f3/f8/1ef3f8d7-7f19-00d2-ec4d-523250786765/199350992865.jpg/600x600bb.jpg",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/hagen-feat-i-la-cat%C3%B3lica-mabe-fratti/1820780792",
   "apple_title": "HAGEN (feat. I la Católica & Mabe Fratti)",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours"
  },
  "2 Many DJ's::Under The Covers 3": {
   "status": "nomatch",
@@ -21338,8 +21338,8 @@
   "checked": "2026-09-19",
   "cover_source_url": "https://coverartarchive.org/release-group/ea7e7cbb-73f2-3d39-b17c-584486d94c9c/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Horace Andy::Dance Hall Style": {
   "status": "ok",
@@ -69310,12 +69310,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/cd690264-6a08-4af7-8a9c-6aef60962d5b/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/run-the-jewels/1863305829",
   "apple_title": "Run The Jewels",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours"
  },
  "Run The Jewels::Run The Jewels 3": {
   "status": "ok",
@@ -69333,12 +69333,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/d568d976-f77d-4283-964b-79f100c693f0/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/run-the-jewels/1863305829",
   "apple_title": "Run The Jewels",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours"
  },
  "Run The Jewels::Run The Jewels 2": {
   "status": "ok",
@@ -69356,12 +69356,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/581d7ac8-8f1d-4d4a-a224-de9c9cd76b39/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/run-the-jewels/1863305829",
   "apple_title": "Run The Jewels",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours"
  },
  "Run the Jewels::Run the Jewels": {
   "status": "ok",
@@ -70044,12 +70044,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/7f97b291-3e30-3ff4-b7fb-b9e7ff4539fd/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/santigold/278671865",
   "apple_title": "Santigold",
   "apple_via": "search",
-  "apple_why": "the title is spelled differently",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is spelled differently"
  },
  "Sasha and John Digweed::Northern Exposure": {
   "status": "ok",
@@ -70068,8 +70068,11 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/e71fc93f-d336-3516-8a31-d4145575e586/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "ok",
+  "apple_url": "https://music.apple.com/mx/album/northern-exposure-redux-mixed-dj-mix/6805597126",
+  "apple_title": "Northern Exposure Redux (Mixed) [DJ Mix]",
+  "apple_via": "musicbrainz"
  },
  "Satan::Court in the Act": {
   "status": "ok",
@@ -70192,12 +70195,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/ea9d35e8-bec7-43e8-96b1-3a6e9eb7295a/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/1048053274",
   "apple_title": null,
   "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it"
  },
  "Savages::Silence Yourself": {
   "status": "ok",
@@ -70267,12 +70270,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/1bdb5b85-57e7-3f75-b0b6-cd26ec1ddae7/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/gutter-ballet-live-1990-single/6766833128",
   "apple_title": "Gutter Ballet (Live 1990) - Single",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours, and it is a live album",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours, and it is a live album"
  },
  "Savatage::Hail of the Mountain King": {
   "status": "ok",
@@ -70293,12 +70296,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/ed2148ea-add9-3893-b6b4-97b7010d8627/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/466816947",
   "apple_title": null,
   "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it"
  },
  "Say Anything::…Is A Real Boy": {
   "status": "ok",
@@ -70359,8 +70362,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/bc009ee0-05bc-37f9-8b07-ce93e09131eb/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Vitalic::OK Cowboy": {
   "status": "ok",
@@ -70829,8 +70832,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/ba6f925a-6ebf-306f-bbfe-e071237df075/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Sevdaliza::Shabrang": {
   "status": "ok",
@@ -70870,8 +70873,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/3a3f427a-7b3e-40d9-9674-d708bd1d3fa6/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Sgt. Papers::Sgt. Papers Lonely Psych Punk Band": {
   "status": "ok",
@@ -70887,8 +70890,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/15ee804e-e1b6-4bbb-a088-915d178e4bd6/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Shabazz Palaces::Black Up": {
   "status": "ok",
@@ -71087,8 +71090,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/9c3d1af0-c350-32e7-b0f8-556826929a4f/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "SHINee::1 of 1": {
   "status": "ok",
@@ -71178,12 +71181,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/4c3fabad-2c17-4bbd-863c-c43d83c8bb8d/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/laid-out-ep/691922340",
   "apple_title": "Laid Out - EP",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours"
  },
  "Shoji Meguro::Persona 5: Original Soundtrack": {
   "status": "ok",
@@ -71199,8 +71202,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/79128e74-df1b-4599-83cc-a464ae8d84b9/front-500",
   "cover_cached": "2026-09-21",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Show me the Body::Survive": {
   "status": "ok",
@@ -71219,8 +71222,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/bcb30950-7d25-4699-97ab-2f053859cd55/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Show Me The Body::Body War": {
   "status": "ok",
@@ -71391,8 +71394,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/27cef7aa-7272-4d45-b569-b285fec6ef19/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Sigur Rós::Kveikur": {
   "status": "ok",
@@ -71436,8 +71439,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f7/34/fd/f734fd6c-aeca-8052-825c-706d1c665a8b/190296941856.jpg/600x600bb.jpg",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Sigur Rós::Ágætis Byrjun": {
   "status": "ok",
@@ -71821,12 +71824,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/9575d8eb-3d5f-4028-af88-0492e17b4898/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/308851782",
   "apple_title": null,
   "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it"
  },
  "Siouxsie and the Banshees::A Kiss in the Dreamhouse": {
   "status": "ok",
@@ -71845,8 +71848,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/7b0c2e7b-c1f2-3914-8418-b92c0cb9f5d0/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Siouxsie and The Banshees::Once Upon a Time / The Singles": {
   "status": "ok",
@@ -71863,8 +71866,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/c9048202-3e20-3485-8b88-358c814e2b0b/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Siouxsie and the Banshees::Kaleidoscope": {
   "status": "ok",
@@ -71954,8 +71957,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/27e49c6a-c0c6-3e76-b020-e48f4204ac6a/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Slayer::South of Heaven": {
   "status": "ok",
@@ -71973,8 +71976,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/74292121-e345-3f10-85ae-013f4e5a8cae/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Slayer::Reign in Blood": {
   "status": "ok",
@@ -71995,12 +71998,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/dbf1b3c0-1efb-4e5f-9fe1-4c42b144aa24/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/1440928291",
   "apple_title": null,
   "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it"
  },
  "Slayer::Hell Awaits": {
   "status": "ok",
@@ -72042,8 +72045,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/bcd5be5d-defa-341b-9546-8c16c4e14cf0/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "No Doubt::Tragic Kingdom": {
   "status": "ok",
@@ -72304,8 +72307,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/30319b47-d95e-41d3-a87f-8f06d11f95c0/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Sleigh Bells::Treats": {
   "status": "ok",
@@ -72348,12 +72351,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3a/d3/d3/3ad3d3c6-bebe-ac4c-53f2-29ce91854727/65825.jpg/600x600bb.jpg",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/untitled-albini-rough-mixes-single/6766346668",
   "apple_title": "untitled (albini rough mixes) - Single",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours"
  },
  "Slipknot::Vol. 3: The Subliminal Verses": {
   "status": "ok",
@@ -72375,8 +72378,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/aa38e6f0-e748-35c8-a8d4-04ff660e9354/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Slipknot::Iowa": {
   "status": "ok",
@@ -72522,8 +72525,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/4468ef3d-4817-350f-99c4-0108b2aff104/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Slowdive::Souvlaki": {
   "status": "ok",
@@ -72914,12 +72917,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/62650b6b-a012-4f29-a356-a66b577844c9/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/1685951950",
   "apple_title": null,
   "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it"
  },
  "Soccer Mommy::Clean": {
   "status": "ok",
@@ -73275,8 +73278,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/d2450e24-9345-376e-b6cc-dfd6b0138de1/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Sonic Youth::Washing Machine": {
   "status": "ok",
@@ -73545,8 +73548,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/17333340-c305-4d31-b1c0-572f916c3abc/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Souls of Mischief::93' til Infinity": {
   "status": "ok",
@@ -73684,8 +73687,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/c92226c2-1b6e-4441-965d-69aaf1df2bea/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Spacemen 3::The Perfect Prescription": {
   "status": "ok",
@@ -74201,8 +74204,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/135984a9-d1aa-44e0-a72b-9972e880e61e/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Squarepusher::Hard Normal Daddy": {
   "status": "ok",
@@ -74394,12 +74397,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/37889165-4443-4248-abd0-3c1703d9c02a/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/uneventful-days-st-vincent-remix-single/1491419999",
   "apple_title": "Uneventful Days (St. Vincent Remix) - Single",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours"
  },
  "St. Vincent::Strange Mercy": {
   "status": "ok",
@@ -74439,12 +74442,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/aa1ff9a6-4f2b-379e-8074-1b4cf8719a0d/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/actor-out-of-work-single/308989711",
   "apple_title": "Actor Out of Work - Single",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours"
  },
  "St. Vincent::Marry Me": {
   "status": "ok",
@@ -74491,8 +74494,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/0b3691c0-7d33-4128-9386-92aae54825f0/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Stars of the Lid::And their Refinement Of the Decline": {
   "status": "ok",
@@ -74904,8 +74907,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/d3767661-1689-349d-9ee0-919c7887c43f/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Steve Hiett::Down on the Road by the Beach": {
   "status": "ok",
@@ -74925,8 +74928,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/8a9a67e2-81c7-43f8-b2b1-c01055cf6d4c/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Steve Lacy::Gemini Rights": {
   "status": "ok",
@@ -74987,12 +74990,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/a5571aa9-10a8-3ade-b0b6-fd50e03ba46e/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/dreamtime-return-30th-anniversary-remastered-edition/1348481379",
   "apple_title": "Dreamtime Return - 30th Anniversary Remastered Edition",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours"
  },
  "Steve Roach::Structures From Silence": {
   "status": "ok",
@@ -75397,12 +75400,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/1f27e2e4-b1ea-42e4-be4d-fa685703f5f5/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/rat-jacket-ep/1289864373",
   "apple_title": "Rat Jacket - EP",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours"
  },
  "Stromae::Racine carrée": {
   "status": "ok",
@@ -75426,12 +75429,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/d079dc50-fa9b-4a88-90f4-5e8723accd75/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/686571342",
   "apple_title": null,
   "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it"
  },
  "Sturgill Simpson::Metamodern Sounds in Country Music": {
   "status": "ok",
@@ -75726,12 +75729,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/1ba770ae-5a81-458f-897c-7382531d7f9e/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/mystery-of-love-from-call-me-by-your-name-single/1318773796",
   "apple_title": "Mystery of Love (From \"Call Me By Your Name\") - Single",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours"
  },
  "Sufjan Stevens::Carrie & Lowell Live": {
   "status": "ok",
@@ -75791,12 +75794,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/6dacc409-6571-4e0f-8dce-7bc829bdc554/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/all-delighted-people-ep/387458744",
   "apple_title": "All Delighted People EP",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours"
  },
  "Sufjan Stevens::The Age of Adz": {
   "status": "ok",
@@ -76019,8 +76022,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/81308511-4b3d-36e8-8cee-c4f2209f97e6/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Suicide::Suicide": {
   "status": "ok",
@@ -76343,12 +76346,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/863e4e1f-cf35-386a-bb4b-092e3412a5cc/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/310568758",
   "apple_title": null,
   "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it"
  },
  "Super Furry Animals::Phantom Power": {
   "status": "ok",
@@ -76365,8 +76368,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/b3d9a0cc-1637-30f9-995a-0832e83eca62/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Super Furry Animals::Rings Around the World": {
   "status": "ok",
@@ -76438,12 +76441,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/5b7eddcc-51e7-326d-86f6-d702ad8975ff/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/guerrilla/1626519136",
   "apple_title": "Guerrilla",
   "apple_via": "search",
-  "apple_why": "the title is spelled differently",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is spelled differently"
  },
  "Super Furry Animals::Radiation": {
   "status": "ok",
@@ -76462,12 +76465,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/a0ccd2d7-fe7c-3339-a021-f20d9d72a8b7/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/radiator/1626518856",
   "apple_title": "Radiator",
   "apple_via": "search",
-  "apple_why": "the title is spelled differently",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is spelled differently"
  },
  "Super Furry Animals::Fuzzy Logic": {
   "status": "ok",
@@ -76513,12 +76516,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/6e796029-272d-3fe2-8ad0-d8a10ef80a66/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/1053426626",
   "apple_title": null,
   "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it"
  },
  "Supertramp::Breakfast in America": {
   "status": "ok",
@@ -76655,12 +76658,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/2a94c6ba-114c-4b14-909b-4f74a9ecc15d/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/negative-space/1494702734",
   "apple_title": "Negative Space",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours"
  },
  "Swain::Heavy Dancing": {
   "status": "ok",
@@ -76676,12 +76679,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/d6/e8/6b/d6e86bea-b3d7-5ce3-c121-8bb10a6b48fe/4059251314752.jpg/600x600bb.jpg",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/howl-heavy-dancing/1494699621",
   "apple_title": "Howl + Heavy Dancing",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours"
  },
  "Swain::Howl": {
   "status": "ok",
@@ -76697,12 +76700,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/2e94281b-f3d9-40e9-a102-ea26e0338046/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/howl-heavy-dancing/1494699621",
   "apple_title": "Howl + Heavy Dancing",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours"
  },
  "Swans::The Beggar": {
   "status": "ok",
@@ -77028,12 +77031,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/68198e00-3c53-368c-9337-1aafd0f461b6/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/filth-body-to-body-job-to-job/911481206",
   "apple_title": "Filth / Body To Body, Job to Job",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours"
  },
  "Sweet Trip::A Tiny House, In Secret Speeches, Polar Equals": {
   "status": "ok",
@@ -77375,12 +77378,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/e53310bf-8ccc-3d7f-a0b7-5ca4dbababcb/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/1440804752",
   "apple_title": null,
   "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it"
  },
  "T2::It'll All Work Out in Boomland": {
   "status": "ok",
@@ -77921,8 +77924,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/d65f150a-3b2b-34ca-904c-5bacaddd38a2/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Tears for Fears::Songs From the Big Chair": {
   "status": "ok",
@@ -77995,8 +77998,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/21a48455-3576-4370-94aa-7cb78b5e5026/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Teenage Fanclub::Bandwagonesque": {
   "status": "ok",
@@ -78131,12 +78134,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/3db7b171-5aa1-326c-82cd-08e9b0d74ab6/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/riley-a-rainbow-in-curved-air/1755233999",
   "apple_title": "Riley: A Rainbow In Curved Air",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours"
  },
  "TesseracT::Altered State": {
   "status": "ok",
@@ -78265,12 +78268,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/e8020e90-d26a-4efa-9f23-c4689c08e5e0/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/the-turn-of-a-friendly-card-sessions/1765464750",
   "apple_title": "The Turn of a Friendly Card (Sessions)",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours"
  },
  "The Alan Parsons Project::I Robot": {
   "status": "ok",
@@ -78437,8 +78440,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/4dea1228-ac06-49d0-adb5-c216cf84a68a/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Antlers::Hospice": {
   "status": "ok",
@@ -78456,8 +78459,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/99f7d50f-6b7c-3fd8-aa75-4b97b61970e5/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Antlers::In the Attic of the Universe": {
   "status": "ok",
@@ -78547,8 +78550,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/0aa6bdbd-b8fe-3640-a14e-5729fecb3d5e/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Nuno Canavarro::Plux Quba": {
   "status": "ok",
@@ -78899,8 +78902,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/1e5fc38e-f11b-39ca-b8aa-04132962ec15/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Beatles::Past Masters, Volume Two": {
   "status": "ok",
@@ -78917,8 +78920,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/73c61a5d-9623-3d00-afbf-b3c6dc5e8b92/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Beta Band::The Three EPs": {
   "status": "ok",
@@ -79381,12 +79384,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/27742d41-8cba-49c8-bacf-54a3f09eb515/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/complete-greatest-hits/1088530786",
   "apple_title": "Complete Greatest Hits",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours"
  },
  "The Cars::The Cars": {
   "status": "ok",
@@ -79543,12 +79546,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/c151db01-86d7-4190-8ee0-709dbc7d2f51/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/1440859085",
   "apple_title": null,
   "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it"
  },
  "The Chemical Brothers::Further": {
   "status": "ok",
@@ -79728,8 +79731,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/fc0917ec-a795-486f-968d-77fe9f2c72ae/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Clash::The Story of The Clash Volume 1": {
   "status": "ok",
@@ -79748,8 +79751,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/0e01a4b8-fee6-377a-89b6-1607c4c6db46/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Clash::Comat Rock": {
   "status": "ok",
@@ -79873,8 +79876,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/169ce95a-586b-3701-81ac-90640964e723/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Comet Is Coming::Hyper-Dimensional Expansion Beam": {
   "status": "ok",
@@ -80031,8 +80034,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/c2ae4c61-7620-43ce-b37f-9ff8f39cb9df/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Cure::Greatest Hits (2nd Half)": {
   "status": "ok",
@@ -80050,8 +80053,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/c2ae4c61-7620-43ce-b37f-9ff8f39cb9df/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Damned::Machine Gun Etiquette": {
   "status": "ok",
@@ -80248,12 +80251,11 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/f9afd658-5282-480b-91d4-aa0108a6ccd8/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "review",
-  "apple_url": "https://music.apple.com/mx/album/632948195",
-  "apple_title": null,
-  "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "ok",
+  "apple_url": "https://music.apple.com/mx/album/one-of-us-is-the-killer/1440637325",
+  "apple_title": "One of Us Is the Killer",
+  "apple_via": "musicbrainz"
  },
  "The Dillinger Escape Plan::Ire Works": {
   "status": "ok",
@@ -80365,12 +80367,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/d92df91a-42e3-31c9-8ec6-982d08924448/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/the-doors/1622368510",
   "apple_title": "The Doors",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours"
  },
  "The Doors::L.A Woman": {
   "status": "ok",
@@ -80498,8 +80500,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/2636b2df-f2b7-48dd-866a-09c0e6c54b64/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Drones::I See Seaweed": {
   "status": "ok",
@@ -80516,8 +80518,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/8be5799b-6c5d-48a6-8f88-6472c33d54bd/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Dukes of Stratosphear::25 O'Clock": {
   "status": "ok",
@@ -80533,8 +80535,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/c65579ac-efec-32ad-b1cc-bd0155e9c5de/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Dukes of Stratosphear::Chips From the Chocolate Fireball": {
   "status": "ok",
@@ -80620,12 +80622,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/a5ac24aa-652e-38ef-9a89-386eb69eed16/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/1145999601",
   "apple_title": null,
   "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it"
  },
  "The Fall::Hex Enduction Hour": {
   "status": "ok",
@@ -80642,12 +80644,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/71d6b717-75e8-373c-a482-32c58c241b35/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/1120747168",
   "apple_title": null,
   "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it"
  },
  "The Fall::Grotesque (After the Gramme)": {
   "status": "ok",
@@ -80664,12 +80666,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/c1b569db-0c54-381b-9e26-70b4e063e17d/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/1147767174",
   "apple_title": null,
   "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it"
  },
  "The Fall::Live at the Witch Trials": {
   "status": "ok",
@@ -80960,8 +80962,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/40413103-e161-3130-8a4d-a06ead0d417b/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Flaming Lips::Late Night Tales (The Flaming Lips)": {
   "status": "ok",
@@ -81254,12 +81256,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/95b4ac0b-3286-3208-8821-b292ab88dfac/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/1543790920",
   "apple_title": null,
   "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it"
  },
  "The Haxan Cloak::Excavation": {
   "status": "ok",
@@ -81395,12 +81397,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/61a34a5e-37ea-3f7b-a462-e645b96108df/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/279691845",
   "apple_title": null,
   "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it"
  },
  "The Hold Steady::Separation Sunday": {
   "status": "ok",
@@ -81536,12 +81538,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/dc0079f2-9297-4d66-942e-b74cb0c90d74/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/1114555149",
   "apple_title": null,
   "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it"
  },
  "The Human League::Dare!": {
   "status": "ok",
@@ -81676,12 +81678,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/5c057a6c-1841-37b3-a94d-a43f476bef1f/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/liar/1120149482",
   "apple_title": "Liar",
   "apple_via": "search",
-  "apple_why": "the title is spelled differently",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is spelled differently"
  },
  "The Jimi Hendrix Experience::Smash Hits": {
   "status": "ok",
@@ -81885,8 +81887,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/f629b3d1-b9be-31d8-b282-2d73577237de/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Kinks::Arthur (Or The Decline and Fall of the British Empire)": {
   "status": "ok",
@@ -81931,12 +81933,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/874449ed-f27e-4e1b-923e-9f1aaef4cc06/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/the-kinks-are-the-village-green-preservation/1415003287",
   "apple_title": "The Kinks Are the Village Green Preservation Society (Remastered)",
   "apple_via": "search",
-  "apple_why": "the title is spelled differently",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is spelled differently"
  },
  "The Kinks::Something Else by the Kinks": {
   "status": "ok",
@@ -82003,8 +82005,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/a415fc9b-1516-303e-b354-fc3a5b269f1b/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Knife::Shaking The Habitual": {
   "status": "ok",
@@ -82074,8 +82076,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/0ab50be1-dc77-42d4-b670-ee0a0add3da6/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The La's::The La's": {
   "status": "ok",
@@ -82178,8 +82180,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/95524ec1-dfa4-3da0-8e45-6ef9d229a2e2/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Libertines::Up The Bracket": {
   "status": "ok",
@@ -82652,8 +82654,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/f0d042e6-6f09-4860-ae7c-d6c70cd613db/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Moody Blues::Days of Future Passed": {
   "status": "ok",
@@ -82723,12 +82725,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/d4b98ec7-a4af-37e2-ac83-2f7122d23b36/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/550331804",
   "apple_title": null,
   "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it"
  },
  "The Mothers of Invention::Uncle Meat": {
   "status": "ok",
@@ -83035,8 +83037,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/5b36f019-6c92-32e0-be67-433e125859d1/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The New Pornographers::Electric Version": {
   "status": "ok",
@@ -83206,12 +83208,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/03cca69c-1529-3631-8782-6319ff470eb9/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/black-foliage-animation-music-remastered/375347157",
   "apple_title": "Black Foliage: Animation Music (Remastered)",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours"
  },
  "The Olivia Tremor Control::Music from the Unrealized Film Script: Dusk at Cubist Castle": {
   "status": "ok",
@@ -83297,8 +83299,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/e649b605-99be-3500-8c68-4ee5e5adfc1f/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Pharcyde::Labcabincalifornia": {
   "status": "ok",
@@ -83369,8 +83371,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/8c102670-f3d4-45e9-be3b-72c96ef69c88/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Police::Synchronicity": {
   "status": "ok",
@@ -83440,8 +83442,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/76b7c807-6b61-4e84-b677-19f9e2426d1d/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Pop Group::Y": {
   "status": "ok",
@@ -83515,12 +83517,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/b01d8882-efe8-44e9-889d-b65bf2c216ed/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/the-fat-of-the-land-25th-anniversary-remixes-ep/1672436595",
   "apple_title": "The Fat of the Land 25th Anniversary - Remixes - EP",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours"
  },
  "The Prodigy::Music for a Gilted Generation": {
   "status": "ok",
@@ -83655,8 +83657,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/c5cc6534-5043-37ff-a23b-746739bf2abf/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Raincoats::The Raincoats": {
   "status": "ok",
@@ -83723,8 +83725,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/dc5f823b-976f-3ef5-86a7-d443966d212b/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Replacements::Tim": {
   "status": "ok",
@@ -83773,12 +83775,11 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/2c644807-3b5d-39d4-8c65-dec603bf3f3a/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "review",
-  "apple_url": "https://music.apple.com/mx/album/let-it-be/162563989",
-  "apple_title": "Let It Be",
-  "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "ok",
+  "apple_url": "https://music.apple.com/mx/album/let-it-be-deluxe-edition/1834474392",
+  "apple_title": "Let It Be (Deluxe Edition)",
+  "apple_via": "musicbrainz"
  },
  "The Replacements::Sorry Ma, Forgot to Take Out the Trash": {
   "status": "ok",
@@ -83798,8 +83799,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/9321601e-8c4c-3ec4-a55b-6d6bc9b4f826/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Residents::Not Available": {
   "status": "ok",
@@ -83887,8 +83888,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/e1306e14-ed09-48f1-88b7-90bf7c3c4f3f/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Rolling Stones::Singles Collection: The London Years 2": {
   "status": "ok",
@@ -83907,8 +83908,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/e1306e14-ed09-48f1-88b7-90bf7c3c4f3f/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Rolling Stones::Singles Collection: The London Years 3": {
   "status": "ok",
@@ -83927,8 +83928,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/e1306e14-ed09-48f1-88b7-90bf7c3c4f3f/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Rolling Stones::Tattoo You": {
   "status": "ok",
@@ -83977,12 +83978,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/b44bc358-a28f-3a1f-b07e-604910f12d37/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/656988286",
   "apple_title": null,
   "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it"
  },
  "The Rolling Stones::Exile On Main St": {
   "status": "ok",
@@ -84005,12 +84006,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/4838a3c9-fd2b-30a5-83eb-e32545b5d7fc/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/661951419",
   "apple_title": null,
   "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it"
  },
  "The Rolling Stones::More Hot Rocks": {
   "status": "ok",
@@ -84053,12 +84054,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/29/b7/81/29b781e5-3773-c87e-c6a8-82581e53d270/13ABKIM00053.rgb.jpg/600x600bb.jpg",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/hot-rocks-1964-1971/1440764786",
   "apple_title": "Hot Rocks 1964-1971",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours"
  },
  "The Rolling Stones::Hot Rocks (1964-1971)": {
   "status": "ok",
@@ -84544,8 +84545,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/538f1999-c2cc-4d79-acd1-a0a2191d17d6/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Sisters of Mercy::Some Girls Wander by Mistake": {
   "status": "ok",
@@ -84651,8 +84652,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/322266ce-305f-4d40-84d7-385627b5e7a4/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Smashing Pumpkins::Mellon Collie And The Infinite Sadness": {
   "status": "ok",
@@ -84961,8 +84962,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/dfe2d355-73da-3b69-a4c5-86d27773d486/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Soft Machine::Third": {
   "status": "ok",
@@ -85110,12 +85111,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/22294667-d565-3828-98b8-8ccc240eeff9/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/the-stone-roses-remastered-2009/322969529",
   "apple_title": "The Stone Roses (Remastered 2009)",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours"
  },
  "The Stone Roses::The Stone Roses": {
   "status": "ok",
@@ -85354,8 +85355,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/5ef51a9b-55eb-3400-99a8-47b892e11df7/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Strokes::Room on Fire": {
   "status": "ok",
@@ -85375,8 +85376,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/1e9db573-5671-301f-87fc-846a605fe35b/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Strokes::Is This It": {
   "status": "ok",
@@ -85584,12 +85585,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/02e510c3-7aff-39ea-8bb9-45780a390868/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/the-tired-sounds-of-stars-of-the-lid/40886816",
   "apple_title": "The Tired Sounds of Stars of the Lid",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours"
  },
  "The Tuss::Rushup Edge": {
   "status": "ok",
@@ -85608,8 +85609,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/8af1251f-ce01-3baf-b960-93c00e7baf45/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Underachievers::Evermore: The Art of Duality": {
   "status": "ok",
@@ -85624,12 +85625,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/ad7b3d87-8c96-4c18-accd-679ffc4c06f8/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/1029685939",
   "apple_title": null,
   "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it"
  },
  "The Underachievers::Indigoism": {
   "status": "ok",
@@ -85644,8 +85645,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/61c15605-738f-4701-9eb4-eaad9a3aaa2f/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Undertones::The Undertones": {
   "status": "ok",
@@ -85827,12 +85828,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/5eebfe0f-4c04-3bbc-b227-44a19aca8f66/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/peel-slowly-and-see-1965-1969/1434893727",
   "apple_title": "Peel Slowly and See 1965-1969",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours"
  },
  "The Velvet Underground::Loaded": {
   "status": "ok",
@@ -86520,12 +86521,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/9b191575-fa1f-3531-bff5-121782318972/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/quadrophenia-live-in-london/1442976242",
   "apple_title": "Quadrophenia: Live In London",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours, and it is a live album",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours, and it is a live album"
  },
  "The Who::Meaty Beaty Big & Bouncy": {
   "status": "ok",
@@ -87093,12 +87094,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/0e50cfc6-0830-3e6b-a443-d39237b1d34c/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/1442514277",
   "apple_title": null,
   "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it"
  },
  "Thin Lizzy::Bad Reputation": {
   "status": "ok",
@@ -87320,8 +87321,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/ec4d729c-2822-3d95-8ba6-10e30cff94bc/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "This Will Destroy You::This Will Destroy You": {
   "status": "ok",
@@ -87828,12 +87829,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/0f55a128-63e5-41a7-8772-a59a11c81110/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/1704733390",
   "apple_title": null,
   "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it"
  },
  "Tinashe::Aquarius": {
   "status": "ok",
@@ -88302,12 +88303,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/cb29784b-db64-3cce-b269-ce711862ca3a/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/891423060",
   "apple_title": null,
   "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it"
  },
  "Tom Waits::Orphans: Brawlers, Bawlers & Bastards": {
   "status": "ok",
@@ -88331,12 +88332,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/6163d607-3443-3062-b6a1-0a2e0790dff5/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/1301508992",
   "apple_title": null,
   "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it"
  },
  "Tom Waits::Real Gone": {
   "status": "ok",
@@ -88710,8 +88711,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/54f1fdee-12f0-40a0-a54b-bcee9c51f468/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Tomoko Aran::Fuyuu Kuukan": {
   "status": "partial",
@@ -88742,8 +88743,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/1c00da93-2a78-4ba4-bcd0-077fddd3f86f/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Tony Molina::Confront the Truth": {
   "status": "ok",
@@ -89424,12 +89425,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/0ed0557a-bb8b-34e6-b4cc-05c76da2c7fd/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/el-patio-de-mi-abuela-single/6786196728",
   "apple_title": "El patio de mi abuela - Single",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours"
  },
  "Tricky::Maxinquaye": {
   "status": "ok",
@@ -89619,8 +89620,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/d89ae448-9d0f-4700-b225-806f9f21aaf3/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Tropical Fuck Storm::Fairyland Codex": {
   "status": "ok",
@@ -89643,8 +89644,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/53bf75e8-9ae1-48af-a93f-4bd6e9bc909f/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "tUnE-yArDs::sketchy.": {
   "status": "ok",
@@ -89706,12 +89707,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/e5435856-6ec5-4771-b31f-608413576eca/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/427760555",
   "apple_title": null,
   "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it"
  },
  "Turnover::Peripheral Vision": {
   "status": "ok",
@@ -90001,8 +90002,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/914c0c6e-2502-498c-8146-ceec017a6836/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Two Shell::Icons EP": {
   "status": "ok",
@@ -96684,8 +96685,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/e65ea774-6bc3-3d58-b15e-c578f7f471d8/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Guided by Voices::Bee Thousand": {
   "status": "ok",
@@ -97139,12 +97140,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/ee31030f-a226-309b-b29c-3b51deb771df/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/202748228",
   "apple_title": null,
   "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it"
  },
  "Jay-Z and Kanye West::Watch the Throne": {
   "status": "ok",
@@ -97285,8 +97286,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release/3d8e6ee7-b4f9-4dc6-bb7a-2ea5e53d5d01/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Siouxsie and the Banshees::The Scream": {
   "status": "ok",
@@ -97399,12 +97400,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release/c7c3c572-9114-4e7b-9dc8-68cf99372825/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/1676759774",
   "apple_title": null,
   "apple_via": "musicbrainz",
-  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-09-21"
+  "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it"
  },
  "Timber Timbre::Hot Dreams": {
   "status": "ok",
@@ -97726,8 +97727,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/767b3f2f-f2d6-4c3b-8ffc-83244c93a71f/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Three Six Mafia::Underground Vol. 1: 1991-1994": {
   "status": "nomatch",
@@ -98843,8 +98844,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/b5d7be1f-2464-49f8-86ab-257a72cd6276/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Sematary & Ghost Mountain::GRAVE HOUSE": {
   "status": "ok",
@@ -98883,8 +98884,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/047359de08ef552d9d4bb03ab1db64f8/1000x1000-000000-80-0-0.jpg",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Shoji Meguro 目黒将司::Persona4": {
   "status": "ok",
@@ -98930,8 +98931,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/35485800-b362-3569-80ba-27618a27bf43/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "Tatsuro Yamashita 山下達郎::Big Wave": {
   "status": "ok",
@@ -98987,8 +98988,8 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/e729d273-7b4b-43d5-b808-b7d3cead5936/front-500",
   "cover_cached": "2026-09-20",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-09-21"
+  "apple_checked": "2026-10-24",
+  "apple_status": "nomatch"
  },
  "The Dillinger Escape Plan & Mike Patton::Irony Is a Dead Scene": {
   "status": "ok",
@@ -99010,12 +99011,12 @@
   "checked": "2026-09-20",
   "cover_source_url": "https://coverartarchive.org/release-group/324286e4-e949-3d8e-a0e7-15652d077aa3/front-500",
   "cover_cached": "2026-09-20",
+  "apple_checked": "2026-10-24",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/irony-is-a-dead-scene-feat-mike-patton-ep/1485006526",
   "apple_title": "Irony Is a Dead Scene (feat. Mike Patton) - EP",
   "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-09-21"
+  "apple_why": "the title is longer or shorter than yours"
  },
  "Tom Zé, Os Mutantes, Nara Leão, Caetano Veloso, Gilberto Gil & Gal Costa::Tropicália ou Panis et Circencis": {
   "status": "nomatch",

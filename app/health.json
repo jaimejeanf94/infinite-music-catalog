@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-23T08:22:05.263Z",
+ "generated": "2026-10-24T08:01:13.004Z",
  "totals": {
   "albums": 4434,
-  "rated": 472,
+  "rated": 474,
   "withCover": 4434,
   "withGenres": 4433,
   "matched": 4318,
-  "apple": 3678
+  "apple": 3681
  },
  "sections": [
   {
@@ -655,7 +655,7 @@
    "title": "Apple Music matches held back",
    "why": "Probably the right record, not certainly. Open it to check, then link it or reject it.",
    "action": "link",
-   "count": 306,
+   "count": 304,
    "items": [
     {
      "artist": "Against All Logic",
@@ -4578,22 +4578,6 @@
      "dismiss": "Reject"
     },
     {
-     "artist": "The Dillinger Escape Plan",
-     "title": "One of Us is the Killer",
-     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
-     "preview": "https://music.apple.com/mx/album/632948195",
-     "suggest": {
-      "apple_music_url": "https://music.apple.com/mx/album/632948195",
-      "apple_music_locked": true
-     },
-     "was": {
-      "apple_music_url": null,
-      "apple_music_locked": false
-     },
-     "apply": "Link it",
-     "dismiss": "Reject"
-    },
-    {
      "artist": "The Dillinger Escape Plan & Mike Patton",
      "title": "Irony Is a Dead Scene",
      "note": "Apple Music has \"Irony Is a Dead Scene (feat. Mike Patton) - EP\" — the title is longer or shorter than yours",
@@ -4656,6 +4640,22 @@
      },
      "apply": "Link it",
      "dismiss": "Reject"
+    },
+    {
+     "artist": "The Fall",
+     "title": "Perverted by Language",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1145999601",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1145999601",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
     }
    ]
   },
@@ -4672,7 +4672,7 @@
    "title": "No Apple Music link",
    "why": "Apple Music has nothing under this name. Paste the link on the album's page if it is there, or say it is not.",
    "action": "link",
-   "count": 450,
+   "count": 449,
    "items": [
     {
      "artist": "$ilkmoney",
