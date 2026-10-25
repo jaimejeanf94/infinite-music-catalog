@@ -1,67 +1,78 @@
 {
- "date": "2026-10-24",
+ "date": "2026-10-25",
  "picks": [
   {
-   "artist": "Charles Mingus, Max Roach & Duke Ellington",
-   "title": "Money Jungle",
-   "year": 1969,
+   "artist": "Nine Inch Nails",
+   "title": "Broken",
+   "year": 1992,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1c18538e-e9be-3449-8be1-f3cdc7b493e0.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/abcff3e9-a3f4-3a94-a6be-32381104084e.jpg",
    "genres": [
-    "jazz",
-    "hard bop",
-    "post-bop"
+    "industrial",
+    "alternative rock",
+    "industrial metal"
    ]
   },
   {
-   "artist": "Death",
-   "title": "Leprosy",
-   "year": 1988,
+   "artist": "Big K.R.I.T.",
+   "title": "K.R.I.T. Wuz Here",
+   "year": 2010,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e4f11dc7-ed0c-4fb2-bdf7-b1a6240bd167.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/72c7f0e3-16c9-42f7-add2-f45480988647.jpg",
    "genres": [
-    "death metal",
-    "metal",
-    "old school death metal"
+    "hip hop",
+    "gangsta rap",
+    "dirty south"
    ]
   },
   {
-   "artist": "Bob Dylan",
-   "title": "The Freewheelin' Bob Dylan",
-   "year": 1963,
+   "artist": "Grace Ives",
+   "title": "Janky Star",
+   "year": 2022,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/169b62aa-c3a5-3ed9-bed1-cc47c4bc51ad.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d4cf93c7-5f0f-4e1c-a949-ce683e5e0970.jpg",
    "genres": [
-    "folk",
-    "folk rock",
-    "rock"
+    "electronic",
+    "pop",
+    "indie pop"
    ]
   },
   {
-   "artist": "The Beatles",
-   "title": "Let It Be... Naked",
-   "year": 2003,
-   "score": 95,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7e9abe51-9808-4f18-b88a-f40e9b31f303.jpg",
+   "artist": "Sigur Rós",
+   "title": "Með suð í eyrum við spilum endalaust",
+   "year": 2008,
+   "score": 70,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/15143341-de7d-3c64-90a1-2fffe2c4b5a9.jpg",
    "genres": [
+    "post-rock",
     "rock",
-    "blues rock",
-    "pop rock"
+    "pop"
    ]
   },
   {
-   "artist": "Yeah Yeah Yeahs",
-   "title": "Is Is",
-   "year": 2007,
-   "score": 90,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3baa3e40-3de3-3c85-a026-2df6bcdd0723.jpg",
+   "artist": "Horsegirl",
+   "title": "Phonetics On and On",
+   "year": 2025,
+   "score": 85,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a1b1c950-334e-40b5-b819-209ed6c49673.jpg",
    "genres": [
     "indie rock",
-    "rock"
+    "indie pop",
+    "post-punk"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-25",
+   "keys": [
+    "Nine Inch Nails::Broken",
+    "Big K.R.I.T.::K.R.I.T. Wuz Here",
+    "Grace Ives::Janky Star",
+    "Sigur Rós::Með suð í eyrum við spilum endalaust",
+    "Horsegirl::Phonetics On and On"
+   ]
+  },
   {
    "date": "2026-10-24",
    "keys": [
