@@ -1,68 +1,77 @@
 {
- "date": "2026-10-25",
+ "date": "2026-10-26",
  "picks": [
   {
-   "artist": "Nine Inch Nails",
-   "title": "Broken",
-   "year": 1992,
+   "artist": "Jockstrap",
+   "title": "Wicked City",
+   "year": 2020,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/abcff3e9-a3f4-3a94-a6be-32381104084e.jpg",
-   "genres": [
-    "industrial",
-    "alternative rock",
-    "industrial metal"
-   ]
-  },
-  {
-   "artist": "Big K.R.I.T.",
-   "title": "K.R.I.T. Wuz Here",
-   "year": 2010,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/72c7f0e3-16c9-42f7-add2-f45480988647.jpg",
-   "genres": [
-    "hip hop",
-    "gangsta rap",
-    "dirty south"
-   ]
-  },
-  {
-   "artist": "Grace Ives",
-   "title": "Janky Star",
-   "year": 2022,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d4cf93c7-5f0f-4e1c-a949-ce683e5e0970.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c839872a-9462-410d-ae71-e305de7de1c6.jpg",
    "genres": [
     "electronic",
-    "pop",
     "indie pop"
    ]
   },
   {
-   "artist": "Sigur Rós",
-   "title": "Með suð í eyrum við spilum endalaust",
-   "year": 2008,
-   "score": 70,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/15143341-de7d-3c64-90a1-2fffe2c4b5a9.jpg",
+   "artist": "Blondie",
+   "title": "The Best of Blondie",
+   "year": 1981,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8a5305ce-eef7-3257-b780-865deff919a1.jpg",
    "genres": [
-    "post-rock",
     "rock",
-    "pop"
+    "new wave",
+    "pop rock"
    ]
   },
   {
-   "artist": "Horsegirl",
-   "title": "Phonetics On and On",
-   "year": 2025,
-   "score": 85,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a1b1c950-334e-40b5-b819-209ed6c49673.jpg",
+   "artist": "Kali Uchis",
+   "title": "Red Moon in Venus",
+   "year": 2023,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a100a7f2-137c-4e93-82b2-ac4f22dce244.jpg",
    "genres": [
-    "indie rock",
-    "indie pop",
-    "post-punk"
+    "funk",
+    "neo soul",
+    "contemporary r&b"
+   ]
+  },
+  {
+   "artist": "Jon Hopkins",
+   "title": "Late Night Tales (Jon Hopkins)",
+   "year": 2015,
+   "score": 75,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/53020b40-0983-4670-9f3d-7e0767910e8e.jpg",
+   "genres": [
+    "downtempo",
+    "rock",
+    "electronic"
+   ]
+  },
+  {
+   "artist": "The Microphones",
+   "title": "Mount Eerie",
+   "year": 2003,
+   "score": 80,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/15408c1f-f9ab-3d90-a9c3-0068465d1d76.jpg",
+   "genres": [
+    "avant-folk",
+    "rock",
+    "experimental"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-26",
+   "keys": [
+    "Jockstrap::Wicked City",
+    "Blondie::The Best of Blondie",
+    "Kali Uchis::Red Moon in Venus",
+    "Jon Hopkins::Late Night Tales (Jon Hopkins)",
+    "The Microphones::Mount Eerie"
+   ]
+  },
   {
    "date": "2026-10-25",
    "keys": [
