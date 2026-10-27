@@ -1,67 +1,78 @@
 {
- "date": "2026-10-26",
+ "date": "2026-10-27",
  "picks": [
   {
-   "artist": "Jockstrap",
-   "title": "Wicked City",
-   "year": 2020,
+   "artist": "The Human League",
+   "title": "Dare!",
+   "year": 1981,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c839872a-9462-410d-ae71-e305de7de1c6.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e8e7999e-0b87-3298-947d-2ad22717fc27.jpg",
    "genres": [
-    "electronic",
-    "indie pop"
+    "new wave",
+    "pop",
+    "dance-pop"
    ]
   },
   {
-   "artist": "Blondie",
-   "title": "The Best of Blondie",
-   "year": 1981,
+   "artist": "R.E.M",
+   "title": "Out of Time",
+   "year": 1991,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8a5305ce-eef7-3257-b780-865deff919a1.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/400a5fdd-e616-3598-a9bf-cd8275cb53d0.jpg",
    "genres": [
+    "alternative rock",
     "rock",
-    "new wave",
     "pop rock"
    ]
   },
   {
-   "artist": "Kali Uchis",
-   "title": "Red Moon in Venus",
-   "year": 2023,
+   "artist": "Alex Cameron",
+   "title": "Forced Witness",
+   "year": 2017,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a100a7f2-137c-4e93-82b2-ac4f22dce244.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/43f7ce86-9448-4914-a867-5220b4a7555d.jpg",
    "genres": [
-    "funk",
-    "neo soul",
-    "contemporary r&b"
+    "synth-pop",
+    "new wave",
+    "heartland rock"
    ]
   },
   {
-   "artist": "Jon Hopkins",
-   "title": "Late Night Tales (Jon Hopkins)",
-   "year": 2015,
+   "artist": "Sophie",
+   "title": "Oil Of Every Pearl's Un-Insides",
+   "year": 2018,
+   "score": 85,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e11aa3a6-9820-483c-98f8-603b5823178b.jpg",
+   "genres": [
+    "deconstructed club",
+    "pop",
+    "post-industrial"
+   ]
+  },
+  {
+   "artist": "Leonard Cohen",
+   "title": "New Skin for the Old Ceremony",
+   "year": 1974,
    "score": 75,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/53020b40-0983-4670-9f3d-7e0767910e8e.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/713b95c0-6259-33a5-9711-6bb791e15e3e.jpg",
    "genres": [
-    "downtempo",
     "rock",
-    "electronic"
-   ]
-  },
-  {
-   "artist": "The Microphones",
-   "title": "Mount Eerie",
-   "year": 2003,
-   "score": 80,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/15408c1f-f9ab-3d90-a9c3-0068465d1d76.jpg",
-   "genres": [
-    "avant-folk",
-    "rock",
-    "experimental"
+    "pop",
+    "singer-songwriter"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-27",
+   "keys": [
+    "The Human League::Dare!",
+    "R.E.M::Out of Time",
+    "Alex Cameron::Forced Witness",
+    "Sophie::Oil Of Every Pearl's Un-Insides",
+    "Leonard Cohen::New Skin for the Old Ceremony"
+   ]
+  },
   {
    "date": "2026-10-26",
    "keys": [
