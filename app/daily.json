@@ -1,68 +1,78 @@
 {
- "date": "2026-10-27",
+ "date": "2026-10-28",
  "picks": [
   {
-   "artist": "The Human League",
-   "title": "Dare!",
+   "artist": "Rick James",
+   "title": "Street Songs",
    "year": 1981,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e8e7999e-0b87-3298-947d-2ad22717fc27.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/24317b66-f34f-3b0c-9c73-7971c637ad47.jpg",
    "genres": [
-    "new wave",
-    "pop",
-    "dance-pop"
+    "funk",
+    "boogie",
+    "rock"
    ]
   },
   {
-   "artist": "R.E.M",
-   "title": "Out of Time",
-   "year": 1991,
+   "artist": "Yung Schmoobin",
+   "title": "YouTube Money: Resurrection",
+   "year": 2021,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/400a5fdd-e616-3598-a9bf-cd8275cb53d0.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e3bdfd15-f368-4bd5-b0a6-21413f02a70c.jpg",
    "genres": [
-    "alternative rock",
-    "rock",
-    "pop rock"
+    "hip hop",
+    "comedy",
+    "alternative hip hop"
    ]
   },
   {
-   "artist": "Alex Cameron",
-   "title": "Forced Witness",
-   "year": 2017,
+   "artist": "Nicolas Jaar",
+   "title": "Nymphs I & II",
+   "year": 2015,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/43f7ce86-9448-4914-a867-5220b4a7555d.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/90a2d250-5c2a-428f-9bd2-9bfd29493e26.jpg",
    "genres": [
-    "synth-pop",
-    "new wave",
-    "heartland rock"
+    "ambient",
+    "electronic",
+    "deep house"
    ]
   },
   {
-   "artist": "Sophie",
-   "title": "Oil Of Every Pearl's Un-Insides",
-   "year": 2018,
+   "artist": "The Smile",
+   "title": "Wall Of Eyes",
+   "year": 2024,
    "score": 85,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e11aa3a6-9820-483c-98f8-603b5823178b.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/87f4d5ae-5e94-4768-b8ee-f52fbabfbaa6.jpg",
    "genres": [
-    "deconstructed club",
-    "pop",
-    "post-industrial"
+    "art rock",
+    "rock",
+    "post-rock"
    ]
   },
   {
-   "artist": "Leonard Cohen",
-   "title": "New Skin for the Old Ceremony",
-   "year": 1974,
-   "score": 75,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/713b95c0-6259-33a5-9711-6bb791e15e3e.jpg",
+   "artist": "Ghost",
+   "title": "If you have Ghost",
+   "year": 2013,
+   "score": 85,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4a5ff916-24ef-45f7-8d84-23ed18bb02dc.jpg",
    "genres": [
+    "heavy metal",
     "rock",
-    "pop",
-    "singer-songwriter"
+    "hard rock"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-28",
+   "keys": [
+    "Rick James::Street Songs",
+    "Yung Schmoobin::YouTube Money: Resurrection",
+    "Nicolas Jaar::Nymphs I & II",
+    "The Smile::Wall Of Eyes",
+    "Ghost::If you have Ghost"
+   ]
+  },
   {
    "date": "2026-10-27",
    "keys": [
