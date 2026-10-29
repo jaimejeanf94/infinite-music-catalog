@@ -1,68 +1,76 @@
 {
- "date": "2026-10-28",
+ "date": "2026-10-29",
  "picks": [
   {
-   "artist": "Rick James",
-   "title": "Street Songs",
-   "year": 1981,
+   "artist": "Cookin Soul",
+   "title": "DOOM XMAS",
+   "year": 2020,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/24317b66-f34f-3b0c-9c73-7971c637ad47.jpg",
-   "genres": [
-    "funk",
-    "boogie",
-    "rock"
-   ]
-  },
-  {
-   "artist": "Yung Schmoobin",
-   "title": "YouTube Money: Resurrection",
-   "year": 2021,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e3bdfd15-f368-4bd5-b0a6-21413f02a70c.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2b47f95d-333a-4fa4-b1a3-41b424285b54.jpg",
    "genres": [
     "hip hop",
-    "comedy",
-    "alternative hip hop"
+    "boom bap"
    ]
   },
   {
-   "artist": "Nicolas Jaar",
-   "title": "Nymphs I & II",
-   "year": 2015,
+   "artist": "Gustavo Cerati",
+   "title": "Amor Amarillo",
+   "year": 1993,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/90a2d250-5c2a-428f-9bd2-9bfd29493e26.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ac98f1fe-9afe-39c8-be60-0f6cb2024a55.jpg",
    "genres": [
-    "ambient",
+    "rock",
+    "dream pop"
+   ]
+  },
+  {
+   "artist": "Cut Copy",
+   "title": "In Ghost Colours",
+   "year": 2007,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9154444d-7328-3302-8e65-ece04b563de4.jpg",
+   "genres": [
+    "rock",
     "electronic",
-    "deep house"
+    "electro"
    ]
   },
   {
-   "artist": "The Smile",
-   "title": "Wall Of Eyes",
-   "year": 2024,
+   "artist": "Saya Gray",
+   "title": "SAYA",
+   "year": 2025,
    "score": 85,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/87f4d5ae-5e94-4768-b8ee-f52fbabfbaa6.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c44a46d5-d745-49d9-930f-18f76b7fb017.jpg",
    "genres": [
-    "art rock",
-    "rock",
-    "post-rock"
+    "alternative pop",
+    "electroacoustic",
+    "electronic"
    ]
   },
   {
-   "artist": "Ghost",
-   "title": "If you have Ghost",
-   "year": 2013,
-   "score": 85,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4a5ff916-24ef-45f7-8d84-23ed18bb02dc.jpg",
+   "artist": "Muse",
+   "title": "Black Holes and Revelations",
+   "year": 2006,
+   "score": 100,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/af2e8e23-e9c3-4e67-8ad8-66387c5898fd.jpg",
    "genres": [
-    "heavy metal",
+    "alternative rock",
     "rock",
-    "hard rock"
+    "progressive rock"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-29",
+   "keys": [
+    "Cookin Soul::DOOM XMAS",
+    "Gustavo Cerati::Amor Amarillo",
+    "Cut Copy::In Ghost Colours",
+    "Saya Gray::SAYA",
+    "Muse::Black Holes and Revelations"
+   ]
+  },
   {
    "date": "2026-10-28",
    "keys": [
