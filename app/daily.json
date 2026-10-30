@@ -1,66 +1,78 @@
 {
- "date": "2026-10-29",
+ "date": "2026-10-30",
  "picks": [
   {
-   "artist": "Cookin Soul",
-   "title": "DOOM XMAS",
-   "year": 2020,
+   "artist": "Baroness",
+   "title": "Yellow & Green",
+   "year": 2012,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2b47f95d-333a-4fa4-b1a3-41b424285b54.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/20b8f926-56dd-423e-9deb-9a93bdead9cf.jpg",
    "genres": [
-    "hip hop",
-    "boom bap"
-   ]
-  },
-  {
-   "artist": "Gustavo Cerati",
-   "title": "Amor Amarillo",
-   "year": 1993,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ac98f1fe-9afe-39c8-be60-0f6cb2024a55.jpg",
-   "genres": [
+    "sludge metal",
     "rock",
-    "dream pop"
+    "heavy psych"
    ]
   },
   {
-   "artist": "Cut Copy",
-   "title": "In Ghost Colours",
-   "year": 2007,
+   "artist": "Exuma",
+   "title": "Exuma",
+   "year": 1970,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9154444d-7328-3302-8e65-ece04b563de4.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/fcc0d3b8-d932-36f4-ad5c-9be0b62c592a.jpg",
    "genres": [
-    "rock",
-    "electronic",
-    "electro"
+    "folk",
+    "blues",
+    "avant-folk"
    ]
   },
   {
-   "artist": "Saya Gray",
-   "title": "SAYA",
-   "year": 2025,
+   "artist": "Lily Allen",
+   "title": "It's Not Me, It's You",
+   "year": 2009,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ff01d241-0d23-3625-851d-a3e1dd0b2c05.jpg",
+   "genres": [
+    "pop",
+    "electropop",
+    "synth-pop"
+   ]
+  },
+  {
+   "artist": "Ghost",
+   "title": "Seven Inches of Satanic Panic",
+   "year": 2019,
    "score": 85,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c44a46d5-d745-49d9-930f-18f76b7fb017.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/58720e08-c2f3-4285-b3b3-855ca15758db.jpg",
    "genres": [
-    "alternative pop",
-    "electroacoustic",
-    "electronic"
+    "pop rock",
+    "rock",
+    "gothic metal"
    ]
   },
   {
-   "artist": "Muse",
-   "title": "Black Holes and Revelations",
-   "year": 2006,
-   "score": 100,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/af2e8e23-e9c3-4e67-8ad8-66387c5898fd.jpg",
+   "artist": "Frank Zappa",
+   "title": "Apostrophe",
+   "year": 1974,
+   "score": 75,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2f3aa511-3270-3bb0-9661-0a7ed7e04be0.jpg",
    "genres": [
-    "alternative rock",
     "rock",
-    "progressive rock"
+    "comedy rock",
+    "jazz"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-30",
+   "keys": [
+    "Baroness::Yellow & Green",
+    "Exuma::Exuma",
+    "Lily Allen::It's Not Me, It's You",
+    "Ghost::Seven Inches of Satanic Panic",
+    "Frank Zappa::Apostrophe"
+   ]
+  },
   {
    "date": "2026-10-29",
    "keys": [
