@@ -1,68 +1,77 @@
 {
- "date": "2026-10-30",
+ "date": "2026-10-31",
  "picks": [
   {
-   "artist": "Baroness",
-   "title": "Yellow & Green",
-   "year": 2012,
+   "artist": "Death Cab for Cuties",
+   "title": "Transatlanticism",
+   "year": 2003,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/20b8f926-56dd-423e-9deb-9a93bdead9cf.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f48c46e8-8178-3e74-b60f-72b677ebcb96.jpg",
    "genres": [
-    "sludge metal",
+    "indie rock",
+    "rock"
+   ]
+  },
+  {
+   "artist": "The Monks",
+   "title": "Black Monk Time",
+   "year": 1966,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f0d042e6-6f09-4860-ae7c-d6c70cd613db.jpg",
+   "genres": [
+    "garage rock",
     "rock",
-    "heavy psych"
+    "electronic"
    ]
   },
   {
-   "artist": "Exuma",
-   "title": "Exuma",
-   "year": 1970,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/fcc0d3b8-d932-36f4-ad5c-9be0b62c592a.jpg",
-   "genres": [
-    "folk",
-    "blues",
-    "avant-folk"
-   ]
-  },
-  {
-   "artist": "Lily Allen",
-   "title": "It's Not Me, It's You",
-   "year": 2009,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ff01d241-0d23-3625-851d-a3e1dd0b2c05.jpg",
-   "genres": [
-    "pop",
-    "electropop",
-    "synth-pop"
-   ]
-  },
-  {
-   "artist": "Ghost",
-   "title": "Seven Inches of Satanic Panic",
-   "year": 2019,
-   "score": 85,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/58720e08-c2f3-4285-b3b3-855ca15758db.jpg",
-   "genres": [
-    "pop rock",
-    "rock",
-    "gothic metal"
-   ]
-  },
-  {
-   "artist": "Frank Zappa",
-   "title": "Apostrophe",
+   "artist": "Queen",
+   "title": "Sheer Heart Attack",
    "year": 1974,
-   "score": 75,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2f3aa511-3270-3bb0-9661-0a7ed7e04be0.jpg",
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/002ed683-3327-3df0-88c8-318746089925.jpg",
    "genres": [
+    "hard rock",
+    "glam rock",
+    "progressive rock"
+   ]
+  },
+  {
+   "artist": "The White Stripes",
+   "title": "White Blood Cells",
+   "year": 2001,
+   "score": 95,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c5a0411f-374e-360d-9364-3ddec3007162.jpg",
+   "genres": [
+    "alternative rock",
     "rock",
-    "comedy rock",
-    "jazz"
+    "garage rock revival"
+   ]
+  },
+  {
+   "artist": "Bon Iver",
+   "title": "22, A Million",
+   "year": 2016,
+   "score": 70,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f0e8f425-a941-48df-b5d7-2ceeaaf77c71.jpg",
+   "genres": [
+    "folktronica",
+    "electronic",
+    "pop"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-10-31",
+   "keys": [
+    "Death Cab for Cuties::Transatlanticism",
+    "The Monks::Black Monk Time",
+    "Queen::Sheer Heart Attack",
+    "The White Stripes::White Blood Cells",
+    "Bon Iver::22, A Million"
+   ]
+  },
   {
    "date": "2026-10-30",
    "keys": [
