@@ -1,67 +1,78 @@
 {
- "date": "2026-10-31",
+ "date": "2026-11-01",
  "picks": [
   {
-   "artist": "Death Cab for Cuties",
-   "title": "Transatlanticism",
-   "year": 2003,
+   "artist": "The Mothers of Invention",
+   "title": "Uncle Meat",
+   "year": 1969,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f48c46e8-8178-3e74-b60f-72b677ebcb96.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/cf8759d6-02e4-3ca3-ad10-2a58b5bfb13f.jpg",
    "genres": [
+    "avant-garde",
+    "rock",
+    "alternative rock"
+   ]
+  },
+  {
+   "artist": "Warpaint",
+   "title": "Exquisite Corpse",
+   "year": 2009,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6920d617-3d51-4093-bd96-5ac2926de20a.jpg",
+   "genres": [
+    "rock",
+    "indie rock",
+    "psychedelic rock"
+   ]
+  },
+  {
+   "artist": "Low",
+   "title": "I Could Live in Hope",
+   "year": 1994,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/05605e58-2923-319e-87f0-3cdbf97f57f8.jpg",
+   "genres": [
+    "slowcore",
     "indie rock",
     "rock"
    ]
   },
   {
-   "artist": "The Monks",
-   "title": "Black Monk Time",
-   "year": 1966,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f0d042e6-6f09-4860-ae7c-d6c70cd613db.jpg",
+   "artist": "The Beatles",
+   "title": "1967-1970",
+   "year": 1973,
+   "score": 100,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f2e0599e-222b-37a5-8544-2f68ce65fd66.jpg",
    "genres": [
-    "garage rock",
     "rock",
-    "electronic"
+    "pop",
+    "pop rock"
    ]
   },
   {
-   "artist": "Queen",
-   "title": "Sheer Heart Attack",
-   "year": 1974,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/002ed683-3327-3df0-88c8-318746089925.jpg",
+   "artist": "The Caretaker",
+   "title": "Everywhere at The End of Time - Stage 2",
+   "year": 2017,
+   "score": 85,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/dc5fcc43-accf-4e10-83da-6a784ef0b988.jpg",
    "genres": [
-    "hard rock",
-    "glam rock",
-    "progressive rock"
-   ]
-  },
-  {
-   "artist": "The White Stripes",
-   "title": "White Blood Cells",
-   "year": 2001,
-   "score": 95,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c5a0411f-374e-360d-9364-3ddec3007162.jpg",
-   "genres": [
-    "alternative rock",
-    "rock",
-    "garage rock revival"
-   ]
-  },
-  {
-   "artist": "Bon Iver",
-   "title": "22, A Million",
-   "year": 2016,
-   "score": 70,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f0e8f425-a941-48df-b5d7-2ceeaaf77c71.jpg",
-   "genres": [
-    "folktronica",
     "electronic",
-    "pop"
+    "classical",
+    "ambient"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-11-01",
+   "keys": [
+    "The Mothers of Invention::Uncle Meat",
+    "Warpaint::Exquisite Corpse",
+    "Low::I Could Live in Hope",
+    "The Beatles::1967-1970",
+    "The Caretaker::Everywhere at The End of Time - Stage 2"
+   ]
+  },
   {
    "date": "2026-10-31",
    "keys": [
