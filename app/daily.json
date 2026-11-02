@@ -1,68 +1,75 @@
 {
- "date": "2026-11-01",
+ "date": "2026-11-02",
  "picks": [
   {
-   "artist": "The Mothers of Invention",
-   "title": "Uncle Meat",
-   "year": 1969,
+   "artist": "The War On Drugs",
+   "title": "Lost In The Dream",
+   "year": 2014,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/cf8759d6-02e4-3ca3-ad10-2a58b5bfb13f.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/943b191f-616f-4091-8516-0979987b5eef.jpg",
    "genres": [
-    "avant-garde",
+    "indie rock",
     "rock",
-    "alternative rock"
+    "heartland rock"
    ]
   },
   {
-   "artist": "Warpaint",
-   "title": "Exquisite Corpse",
-   "year": 2009,
+   "artist": "Los Prisioneros",
+   "title": "Pateando Piedras",
+   "year": 1986,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6920d617-3d51-4093-bd96-5ac2926de20a.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7595e654-b376-3ca9-9672-820a266dd0b3.jpg",
    "genres": [
-    "rock",
-    "indie rock",
-    "psychedelic rock"
-   ]
-  },
-  {
-   "artist": "Low",
-   "title": "I Could Live in Hope",
-   "year": 1994,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/05605e58-2923-319e-87f0-3cdbf97f57f8.jpg",
-   "genres": [
-    "slowcore",
-    "indie rock",
     "rock"
    ]
   },
   {
-   "artist": "The Beatles",
-   "title": "1967-1970",
-   "year": 1973,
-   "score": 100,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f2e0599e-222b-37a5-8544-2f68ce65fd66.jpg",
+   "artist": "Horace Andy",
+   "title": "Dance Hall Style",
+   "year": 1982,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/780f9051-cb86-3984-ad24-e441ba470057.jpg",
    "genres": [
-    "rock",
-    "pop",
-    "pop rock"
+    "roots reggae",
+    "reggae"
    ]
   },
   {
-   "artist": "The Caretaker",
-   "title": "Everywhere at The End of Time - Stage 2",
-   "year": 2017,
-   "score": 85,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/dc5fcc43-accf-4e10-83da-6a784ef0b988.jpg",
+   "artist": "Honningbarna",
+   "title": "Soft Spot",
+   "year": 2025,
+   "score": 80,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8176aa28-17af-4e40-908a-ba327748636e.jpg",
    "genres": [
-    "electronic",
-    "classical",
-    "ambient"
+    "rock",
+    "alternative rock",
+    "industrial rock"
+   ]
+  },
+  {
+   "artist": "Descendents",
+   "title": "Everything Sucks",
+   "year": 1996,
+   "score": 85,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d24b5fd4-ce48-3e49-84af-81de5ea71ca1.jpg",
+   "genres": [
+    "rock",
+    "punk rock",
+    "punk"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-11-02",
+   "keys": [
+    "The War On Drugs::Lost In The Dream",
+    "Los Prisioneros::Pateando Piedras",
+    "Horace Andy::Dance Hall Style",
+    "Honningbarna::Soft Spot",
+    "Descendents::Everything Sucks"
+   ]
+  },
   {
    "date": "2026-11-01",
    "keys": [
