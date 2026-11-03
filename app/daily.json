@@ -1,65 +1,78 @@
 {
- "date": "2026-11-02",
+ "date": "2026-11-03",
  "picks": [
   {
-   "artist": "The War On Drugs",
-   "title": "Lost In The Dream",
-   "year": 2014,
+   "artist": "Movements",
+   "title": "Feel Something",
+   "year": 2017,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/943b191f-616f-4091-8516-0979987b5eef.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/bdb515fc-b2e6-43ad-a11e-75c2a9724222.jpg",
    "genres": [
-    "indie rock",
-    "rock",
-    "heartland rock"
+    "post-hardcore",
+    "emo",
+    "alternative rock"
    ]
   },
   {
-   "artist": "Los Prisioneros",
-   "title": "Pateando Piedras",
-   "year": 1986,
+   "artist": "They Might Be Giants",
+   "title": "Flood",
+   "year": 1991,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7595e654-b376-3ca9-9672-820a266dd0b3.jpg",
-   "genres": [
-    "rock"
-   ]
-  },
-  {
-   "artist": "Horace Andy",
-   "title": "Dance Hall Style",
-   "year": 1982,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/780f9051-cb86-3984-ad24-e441ba470057.jpg",
-   "genres": [
-    "roots reggae",
-    "reggae"
-   ]
-  },
-  {
-   "artist": "Honningbarna",
-   "title": "Soft Spot",
-   "year": 2025,
-   "score": 80,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8176aa28-17af-4e40-908a-ba327748636e.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9eed8bfd-2eb6-3e02-a1ac-8cd9b2628ce6.jpg",
    "genres": [
     "rock",
     "alternative rock",
-    "industrial rock"
+    "pop"
    ]
   },
   {
-   "artist": "Descendents",
-   "title": "Everything Sucks",
-   "year": 1996,
-   "score": 85,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d24b5fd4-ce48-3e49-84af-81de5ea71ca1.jpg",
+   "artist": "Yasunori Mitsuda",
+   "title": "Chrono Trigger",
+   "year": 1995,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/84396682-04a4-4517-bc75-8266ba8435c8.jpg",
    "genres": [
+    "instrumental",
+    "ambient",
+    "celtic"
+   ]
+  },
+  {
+   "artist": "2manydjs",
+   "title": "As Heard on Radio Soulwax, Part 2",
+   "year": 2002,
+   "score": 100,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f818f48f-5266-313d-b70a-df88c522fe3c.jpg",
+   "genres": [
+    "electronic",
     "rock",
-    "punk rock",
-    "punk"
+    "pop"
+   ]
+  },
+  {
+   "artist": "Infinity Knives & Brian Ennals",
+   "title": "A City Drowned in God's Black Tears",
+   "year": 2025,
+   "score": 100,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/edd7c3bf-7b41-47a0-a916-71a569b34c9c.jpg",
+   "genres": [
+    "hip hop",
+    "experimental",
+    "doom metal"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-11-03",
+   "keys": [
+    "Movements::Feel Something",
+    "They Might Be Giants::Flood",
+    "Yasunori Mitsuda::Chrono Trigger",
+    "2manydjs::As Heard on Radio Soulwax, Part 2",
+    "Infinity Knives & Brian Ennals::A City Drowned in God's Black Tears"
+   ]
+  },
   {
    "date": "2026-11-02",
    "keys": [
