@@ -1,68 +1,78 @@
 {
- "date": "2026-11-03",
+ "date": "2026-11-04",
  "picks": [
   {
-   "artist": "Movements",
-   "title": "Feel Something",
-   "year": 2017,
+   "artist": "Universe Nekoko",
+   "title": "Kimi No Youni Ikiretara",
+   "year": 2019,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/bdb515fc-b2e6-43ad-a11e-75c2a9724222.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/manual/4175.jpg?v=1789928255057",
    "genres": [
-    "post-hardcore",
-    "emo",
+    "indie rock",
+    "dream pop",
+    "twee pop"
+   ]
+  },
+  {
+   "artist": "mewithoutYou",
+   "title": "Brother, Sister",
+   "year": 2006,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/bcdf50e0-4397-336d-a38f-2437566073df.jpg",
+   "genres": [
+    "indie rock",
+    "rock",
     "alternative rock"
    ]
   },
   {
-   "artist": "They Might Be Giants",
-   "title": "Flood",
-   "year": 1991,
+   "artist": "Sodom",
+   "title": "Agent Orange",
+   "year": 1989,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9eed8bfd-2eb6-3e02-a1ac-8cd9b2628ce6.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/bfdb97ce-02a2-31de-8a95-43664d771d4c.jpg",
    "genres": [
     "rock",
-    "alternative rock",
-    "pop"
+    "heavy metal",
+    "thrash metal"
    ]
   },
   {
-   "artist": "Yasunori Mitsuda",
-   "title": "Chrono Trigger",
-   "year": 1995,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/84396682-04a4-4517-bc75-8266ba8435c8.jpg",
-   "genres": [
-    "instrumental",
-    "ambient",
-    "celtic"
-   ]
-  },
-  {
-   "artist": "2manydjs",
-   "title": "As Heard on Radio Soulwax, Part 2",
-   "year": 2002,
-   "score": 100,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f818f48f-5266-313d-b70a-df88c522fe3c.jpg",
-   "genres": [
-    "electronic",
-    "rock",
-    "pop"
-   ]
-  },
-  {
-   "artist": "Infinity Knives & Brian Ennals",
-   "title": "A City Drowned in God's Black Tears",
+   "artist": "clipping.",
+   "title": "Dead Channel Sky",
    "year": 2025,
-   "score": 100,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/edd7c3bf-7b41-47a0-a916-71a569b34c9c.jpg",
+   "score": 85,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/dc8005ec-e1ef-44fb-a1d6-ccb5083bc132.jpg",
    "genres": [
+    "industrial hip hop",
     "hip hop",
-    "experimental",
-    "doom metal"
+    "edm"
+   ]
+  },
+  {
+   "artist": "The Beatles",
+   "title": "Magical Mystery Tour",
+   "year": 1967,
+   "score": 95,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9d445733-9f7d-3653-aed8-8099e5c9d1e8.jpg",
+   "genres": [
+    "psychedelic rock",
+    "rock",
+    "pop"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-11-04",
+   "keys": [
+    "Universe Nekoko::Kimi No Youni Ikiretara",
+    "mewithoutYou::Brother, Sister",
+    "Sodom::Agent Orange",
+    "clipping.::Dead Channel Sky",
+    "The Beatles::Magical Mystery Tour"
+   ]
+  },
   {
    "date": "2026-11-03",
    "keys": [
