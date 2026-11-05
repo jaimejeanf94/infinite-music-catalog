@@ -100101,10 +100101,10 @@
   "cover_from": "coverartarchive",
   "mb_year": "2002",
   "checked": "2026-10-06",
-  "apple_status": "nomatch",
-  "apple_checked": "2026-10-06",
+  "apple_checked": "2026-11-05",
   "cover_source_url": "https://coverartarchive.org/release-group/096a9c11-426b-3c6d-b092-537a3c6a7e91/front-500",
-  "cover_cached": "2026-10-06"
+  "cover_cached": "2026-10-06",
+  "apple_status": "nomatch"
  },
  "Collections of Colonies of Bees::Hawaii": {
   "status": "ok",

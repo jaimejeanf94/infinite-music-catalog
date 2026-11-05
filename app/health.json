@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-04T10:10:37.993Z",
+ "generated": "2026-11-05T10:04:00.997Z",
  "totals": {
   "albums": 4434,
-  "rated": 479,
+  "rated": 480,
   "withCover": 4434,
   "withGenres": 4433,
   "matched": 4318,
@@ -5685,7 +5685,7 @@
     {
      "artist": "Iron Maiden",
      "title": "Edward The Great: The Greatest Hits",
-     "note": "looked for on 2026-10-06",
+     "note": "looked for on 2026-11-05",
      "dismiss": "Not there"
     },
     {

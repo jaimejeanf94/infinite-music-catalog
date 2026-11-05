@@ -1,68 +1,77 @@
 {
- "date": "2026-11-04",
+ "date": "2026-11-05",
  "picks": [
   {
-   "artist": "Universe Nekoko",
-   "title": "Kimi No Youni Ikiretara",
-   "year": 2019,
+   "artist": "Slipknot",
+   "title": "Iowa",
+   "year": 2001,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/manual/4175.jpg?v=1789928255057",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/082c68eb-d993-36cf-9b32-6663cba2d052.jpg",
    "genres": [
-    "indie rock",
-    "dream pop",
-    "twee pop"
+    "metal",
+    "nu metal",
+    "death metal"
    ]
   },
   {
-   "artist": "mewithoutYou",
-   "title": "Brother, Sister",
-   "year": 2006,
+   "artist": "Collections of Colonies of Bees",
+   "title": "Hawaii",
+   "year": null,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/bcdf50e0-4397-336d-a38f-2437566073df.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4dbac494-9399-4fc2-9b8e-ed47691e6c40.jpg",
    "genres": [
-    "indie rock",
+    "art rock",
     "rock",
-    "alternative rock"
+    "indie rock"
    ]
   },
   {
-   "artist": "Sodom",
-   "title": "Agent Orange",
-   "year": 1989,
+   "artist": "青葉市子 [Ichiko Aoba]",
+   "title": "0",
+   "year": 2013,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/bfdb97ce-02a2-31de-8a95-43664d771d4c.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/de63344e-b5eb-4e79-abe1-7c82f40801d9.jpg",
    "genres": [
-    "rock",
-    "heavy metal",
-    "thrash metal"
+    "singer-songwriter",
+    "contemporary folk"
    ]
   },
   {
-   "artist": "clipping.",
-   "title": "Dead Channel Sky",
-   "year": 2025,
+   "artist": "Bright Eyes",
+   "title": "Fevers and Mirrors",
+   "year": 2000,
    "score": 85,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/dc8005ec-e1ef-44fb-a1d6-ccb5083bc132.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e32bd271-a151-3813-981e-818583799a4c.jpg",
    "genres": [
-    "industrial hip hop",
-    "hip hop",
-    "edm"
+    "indie rock",
+    "rock",
+    "alternative country"
    ]
   },
   {
-   "artist": "The Beatles",
-   "title": "Magical Mystery Tour",
-   "year": 1967,
-   "score": 95,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9d445733-9f7d-3653-aed8-8099e5c9d1e8.jpg",
+   "artist": "Jane Remover",
+   "title": "Revengeseekerz",
+   "year": 2025,
+   "score": 75,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a77018ca-5db9-45ed-918a-a04a30e8136b.jpg",
    "genres": [
-    "psychedelic rock",
-    "rock",
-    "pop"
+    "experimental hip hop",
+    "rage",
+    "digicore"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-11-05",
+   "keys": [
+    "Slipknot::Iowa",
+    "Collections of Colonies of Bees::Hawaii",
+    "青葉市子 [Ichiko Aoba]::0",
+    "Bright Eyes::Fevers and Mirrors",
+    "Jane Remover::Revengeseekerz"
+   ]
+  },
   {
    "date": "2026-11-04",
    "keys": [
