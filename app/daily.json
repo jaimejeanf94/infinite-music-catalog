@@ -1,67 +1,76 @@
 {
- "date": "2026-11-05",
+ "date": "2026-11-06",
  "picks": [
   {
-   "artist": "Slipknot",
-   "title": "Iowa",
+   "artist": "Crystal Castles",
+   "title": "(iii)",
+   "year": 2014,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5f5f106a-e5d1-4cee-bc6c-8c001ed96724.jpg",
+   "genres": [
+    "witch house",
+    "electronic",
+    "experimental"
+   ]
+  },
+  {
+   "artist": "Anathema",
+   "title": "Judgement",
+   "year": 1999,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e1e0a4a1-4188-3c9b-bd7c-5e795200acd9.jpg",
+   "genres": [
+    "alternative rock",
+    "doom metal",
+    "rock"
+   ]
+  },
+  {
+   "artist": "Miles Davis",
+   "title": "Miles Davis",
+   "year": 1959,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d72609a4-aa31-4302-a34c-9d0734f6c461.jpg",
+   "genres": [
+    "jazz"
+   ]
+  },
+  {
+   "artist": "Manitoba",
+   "title": "Start Breaking My Heart",
    "year": 2001,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/082c68eb-d993-36cf-9b32-6663cba2d052.jpg",
+   "score": 90,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b447342e-aa7d-3a3e-a21b-05fb6699f1e6.jpg",
    "genres": [
-    "metal",
-    "nu metal",
-    "death metal"
+    "electronic",
+    "idm",
+    "breaks"
    ]
   },
   {
-   "artist": "Collections of Colonies of Bees",
-   "title": "Hawaii",
-   "year": null,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4dbac494-9399-4fc2-9b8e-ed47691e6c40.jpg",
+   "artist": "Sampha",
+   "title": "Process",
+   "year": 2017,
+   "score": 90,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9dde8e62-7159-415f-9a54-74f170e2a4aa.jpg",
    "genres": [
-    "art rock",
-    "rock",
-    "indie rock"
-   ]
-  },
-  {
-   "artist": "青葉市子 [Ichiko Aoba]",
-   "title": "0",
-   "year": 2013,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/de63344e-b5eb-4e79-abe1-7c82f40801d9.jpg",
-   "genres": [
-    "singer-songwriter",
-    "contemporary folk"
-   ]
-  },
-  {
-   "artist": "Bright Eyes",
-   "title": "Fevers and Mirrors",
-   "year": 2000,
-   "score": 85,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e32bd271-a151-3813-981e-818583799a4c.jpg",
-   "genres": [
-    "indie rock",
-    "rock",
-    "alternative country"
-   ]
-  },
-  {
-   "artist": "Jane Remover",
-   "title": "Revengeseekerz",
-   "year": 2025,
-   "score": 75,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a77018ca-5db9-45ed-918a-a04a30e8136b.jpg",
-   "genres": [
-    "experimental hip hop",
-    "rage",
-    "digicore"
+    "contemporary r&b",
+    "electronic",
+    "soul"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-11-06",
+   "keys": [
+    "Crystal Castles::(iii)",
+    "Anathema::Judgement",
+    "Miles Davis::Miles Davis",
+    "Manitoba::Start Breaking My Heart",
+    "Sampha::Process"
+   ]
+  },
   {
    "date": "2026-11-05",
    "keys": [
