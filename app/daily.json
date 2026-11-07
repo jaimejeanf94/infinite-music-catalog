@@ -1,66 +1,76 @@
 {
- "date": "2026-11-06",
+ "date": "2026-11-07",
  "picks": [
   {
-   "artist": "Crystal Castles",
-   "title": "(iii)",
-   "year": 2014,
+   "artist": "Nujabes",
+   "title": "Modal Soul",
+   "year": 2005,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5f5f106a-e5d1-4cee-bc6c-8c001ed96724.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/bd62a5df-6643-3aef-b129-9d4e6e296022.jpg",
    "genres": [
-    "witch house",
+    "hip hop",
     "electronic",
-    "experimental"
-   ]
-  },
-  {
-   "artist": "Anathema",
-   "title": "Judgement",
-   "year": 1999,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e1e0a4a1-4188-3c9b-bd7c-5e795200acd9.jpg",
-   "genres": [
-    "alternative rock",
-    "doom metal",
-    "rock"
-   ]
-  },
-  {
-   "artist": "Miles Davis",
-   "title": "Miles Davis",
-   "year": 1959,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d72609a4-aa31-4302-a34c-9d0734f6c461.jpg",
-   "genres": [
     "jazz"
    ]
   },
   {
-   "artist": "Manitoba",
-   "title": "Start Breaking My Heart",
-   "year": 2001,
-   "score": 90,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b447342e-aa7d-3a3e-a21b-05fb6699f1e6.jpg",
+   "artist": "The Horrors",
+   "title": "Primary Colours",
+   "year": 2009,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3302c1c1-fcc9-37bd-b932-253a85d604c2.jpg",
    "genres": [
+    "rock",
     "electronic",
-    "idm",
-    "breaks"
+    "alternative rock"
    ]
   },
   {
-   "artist": "Sampha",
-   "title": "Process",
-   "year": 2017,
-   "score": 90,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9dde8e62-7159-415f-9a54-74f170e2a4aa.jpg",
+   "artist": "Westside Gunn & Conway the Machine",
+   "title": "Griselda Ghost",
+   "year": 2015,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b9335cbc-6380-43b7-9d61-c3a69e1d4f12.jpg",
    "genres": [
-    "contemporary r&b",
-    "electronic",
-    "soul"
+    "hip hop"
+   ]
+  },
+  {
+   "artist": "underscores",
+   "title": "U",
+   "year": 2025,
+   "score": 100,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/cec81633-5419-4f92-b0ac-6e9c508a042f.jpg",
+   "genres": [
+    "electropop",
+    "edm",
+    "dance-pop"
+   ]
+  },
+  {
+   "artist": "Have a Nice Life",
+   "title": "The Unnatural World",
+   "year": 2014,
+   "score": 70,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3af581eb-d389-4357-b80c-36575667f56c.jpg",
+   "genres": [
+    "shoegaze",
+    "post-punk",
+    "rock"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-11-07",
+   "keys": [
+    "Nujabes::Modal Soul",
+    "The Horrors::Primary Colours",
+    "Westside Gunn & Conway the Machine::Griselda Ghost",
+    "underscores::U",
+    "Have a Nice Life::The Unnatural World"
+   ]
+  },
   {
    "date": "2026-11-06",
    "keys": [
