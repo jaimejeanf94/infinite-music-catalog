@@ -1,66 +1,78 @@
 {
- "date": "2026-11-07",
+ "date": "2026-11-08",
  "picks": [
   {
-   "artist": "Nujabes",
-   "title": "Modal Soul",
-   "year": 2005,
+   "artist": "My Morning Jacket",
+   "title": "It Still Moves",
+   "year": 2003,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/bd62a5df-6643-3aef-b129-9d4e6e296022.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/edc79edc-6c02-33c2-be16-d410ff2c5c5f.jpg",
    "genres": [
-    "hip hop",
+    "rock",
+    "alternative rock",
+    "indie rock"
+   ]
+  },
+  {
+   "artist": "George Clanton",
+   "title": "100% Electronica",
+   "year": 2015,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/59784323-72ff-47a7-a707-de227854597e.jpg",
+   "genres": [
+    "chillwave",
+    "electronic",
+    "pop"
+   ]
+  },
+  {
+   "artist": "Colin Stetson",
+   "title": "New History Warfare Vol. 3: To See More Light",
+   "year": 2013,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/91074cab-f491-4aa0-9124-165fc2dc1b5e.jpg",
+   "genres": [
+    "rock",
     "electronic",
     "jazz"
    ]
   },
   {
-   "artist": "The Horrors",
-   "title": "Primary Colours",
-   "year": 2009,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3302c1c1-fcc9-37bd-b932-253a85d604c2.jpg",
-   "genres": [
-    "rock",
-    "electronic",
-    "alternative rock"
-   ]
-  },
-  {
-   "artist": "Westside Gunn & Conway the Machine",
-   "title": "Griselda Ghost",
+   "artist": "King Gizzard & The Lizard Wizard",
+   "title": "Paper Maché Dream Balloon",
    "year": 2015,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b9335cbc-6380-43b7-9d61-c3a69e1d4f12.jpg",
+   "score": 80,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/47f7aaaf-82ed-40f2-8f98-321b56f6d80d.jpg",
    "genres": [
-    "hip hop"
+    "psychedelic rock",
+    "psychedelic pop",
+    "neo-psychedelia"
    ]
   },
   {
-   "artist": "underscores",
-   "title": "U",
-   "year": 2025,
-   "score": 100,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/cec81633-5419-4f92-b0ac-6e9c508a042f.jpg",
+   "artist": "Asian Glow & Parannoul",
+   "title": "Paraglow",
+   "year": 2022,
+   "score": 85,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4bda47b2-52a1-429f-a1e3-1549b84f11a4.jpg",
    "genres": [
-    "electropop",
-    "edm",
-    "dance-pop"
-   ]
-  },
-  {
-   "artist": "Have a Nice Life",
-   "title": "The Unnatural World",
-   "year": 2014,
-   "score": 70,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3af581eb-d389-4357-b80c-36575667f56c.jpg",
-   "genres": [
+    "emo",
     "shoegaze",
-    "post-punk",
-    "rock"
+    "art rock"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-11-08",
+   "keys": [
+    "My Morning Jacket::It Still Moves",
+    "George Clanton::100% Electronica",
+    "Colin Stetson::New History Warfare Vol. 3: To See More Light",
+    "King Gizzard & The Lizard Wizard::Paper Maché Dream Balloon",
+    "Asian Glow & Parannoul::Paraglow"
+   ]
+  },
   {
    "date": "2026-11-07",
    "keys": [
