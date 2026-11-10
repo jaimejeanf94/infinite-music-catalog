@@ -1,68 +1,78 @@
 {
- "date": "2026-11-09",
+ "date": "2026-11-10",
  "picks": [
   {
-   "artist": "DJ Shadow",
-   "title": "Preemptive Strike",
-   "year": 1998,
+   "artist": "Virus",
+   "title": "Locura",
+   "year": 1985,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/914b1e71-2a30-329b-842b-6c51fc42be19.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2d171713-aeb2-308f-aade-c5c7d2c5d821.jpg",
    "genres": [
+    "rock",
     "electronic",
-    "downtempo",
-    "breaks"
+    "pop"
    ]
   },
   {
-   "artist": "Lil Ugly Mane",
-   "title": "Three Sided Tape Volume One",
-   "year": 2013,
+   "artist": "Nico",
+   "title": "Desertshore",
+   "year": 1970,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/12f568a1-41ef-4151-866f-cff94ac37a2c.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8c6a8264-be71-33ea-b94f-02c6f83dc6f9.jpg",
    "genres": [
-    "electronic",
-    "instrumental",
+    "avant-folk",
+    "folk",
     "experimental"
    ]
   },
   {
-   "artist": "The Knife",
-   "title": "Shaking The Habitual",
-   "year": 2013,
+   "artist": "Moses Sumney",
+   "title": "Black in Deep Red, 2014",
+   "year": 2018,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/06448e12-18d8-4d52-a51f-d4c83d07ec09.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3f3849c9-02ca-4f43-a7f5-4c75b6c24e4f.jpg",
    "genres": [
-    "electronic",
+    "rock",
+    "pop",
+    "singer-songwriter"
+   ]
+  },
+  {
+   "artist": "black midi",
+   "title": "Schlagenheim",
+   "year": 2019,
+   "score": 90,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c65fb96b-08dc-44b4-b0ca-3576317b5513.jpg",
+   "genres": [
     "experimental",
-    "post-industrial"
+    "math rock",
+    "experimental rock"
    ]
   },
   {
-   "artist": "Parliament",
-   "title": "Funkentelechy vs. the Placebo Syndrome",
-   "year": 1977,
-   "score": 75,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/65ad1bb2-1022-3f9e-a66f-4a1aa4536620.jpg",
+   "artist": "Mount Eerie",
+   "title": "Now Only",
+   "year": 2018,
+   "score": 85,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5cd7f051-a173-4d7a-84a2-74f6976139c0.jpg",
    "genres": [
-    "p-funk",
-    "funk",
-    "synth funk"
-   ]
-  },
-  {
-   "artist": "Deafheaven",
-   "title": "Sunbather",
-   "year": 2013,
-   "score": 100,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8a061d0e-fa0c-4571-91ff-8bc3911b6428.jpg",
-   "genres": [
-    "blackgaze",
-    "post-metal",
-    "atmospheric black metal"
+    "rock",
+    "folk",
+    "experimental"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-11-10",
+   "keys": [
+    "Virus::Locura",
+    "Nico::Desertshore",
+    "Moses Sumney::Black in Deep Red, 2014",
+    "black midi::Schlagenheim",
+    "Mount Eerie::Now Only"
+   ]
+  },
   {
    "date": "2026-11-09",
    "keys": [

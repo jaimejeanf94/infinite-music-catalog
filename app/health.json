@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-09T10:38:24.906Z",
+ "generated": "2026-11-10T10:39:38.889Z",
  "totals": {
-  "albums": 4434,
+  "albums": 4446,
   "rated": 484,
-  "withCover": 4434,
-  "withGenres": 4433,
-  "matched": 4318,
-  "apple": 3681
+  "withCover": 4446,
+  "withGenres": 4445,
+  "matched": 4330,
+  "apple": 3692
  },
  "sections": [
   {
@@ -655,7 +655,7 @@
    "title": "Apple Music matches held back",
    "why": "Probably the right record, not certainly. Open it to check, then link it or reject it.",
    "action": "link",
-   "count": 304,
+   "count": 305,
    "items": [
     {
      "artist": "Against All Logic",
@@ -3010,6 +3010,22 @@
      "dismiss": "Reject"
     },
     {
+     "artist": "Marnie Stern",
+     "title": "This Is It and I Am It and You Are It and So Is That and He Is It and She Is It and It Is It and That Is That",
+     "note": "Apple Music has \"This Is It and I Am It and You Are It and So Is...\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/this-is-it-and-i-am-it-and-you-are-it-and-so-is/313351130",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/this-is-it-and-i-am-it-and-you-are-it-and-so-is/313351130",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
      "artist": "Matana Roberts",
      "title": "Coin Coin Chapter One: Gens De Couleur Libre",
      "note": "Apple Music has \"Coin Coin Chapter One: Gens de Couleur Libres\" — the title is longer or shorter than yours",
@@ -4632,22 +4648,6 @@
      "preview": "https://music.apple.com/mx/album/1120747168",
      "suggest": {
       "apple_music_url": "https://music.apple.com/mx/album/1120747168",
-      "apple_music_locked": true
-     },
-     "was": {
-      "apple_music_url": null,
-      "apple_music_locked": false
-     },
-     "apply": "Link it",
-     "dismiss": "Reject"
-    },
-    {
-     "artist": "The Fall",
-     "title": "Perverted by Language",
-     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
-     "preview": "https://music.apple.com/mx/album/1145999601",
-     "suggest": {
-      "apple_music_url": "https://music.apple.com/mx/album/1145999601",
       "apple_music_locked": true
      },
      "was": {
