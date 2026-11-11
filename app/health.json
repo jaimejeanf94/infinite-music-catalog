@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-10T10:39:38.889Z",
+ "generated": "2026-11-11T10:07:45.653Z",
  "totals": {
-  "albums": 4446,
-  "rated": 484,
-  "withCover": 4446,
-  "withGenres": 4445,
-  "matched": 4330,
-  "apple": 3692
+  "albums": 4477,
+  "rated": 490,
+  "withCover": 4476,
+  "withGenres": 4472,
+  "matched": 4359,
+  "apple": 3717
  },
  "sections": [
   {
@@ -14,19 +14,40 @@
    "title": "No cover",
    "why": "Nothing to show on the shelf. Upload one from the album's own sheet.",
    "action": "upload",
-   "count": 0,
-   "items": []
+   "count": 1,
+   "items": [
+    {
+     "artist": "Carne",
+     "title": "Todos Mis Amigos Están Tristes"
+    }
+   ]
   },
   {
    "id": "no-genres",
    "title": "No genres",
    "why": "Invisible to every genre filter.",
    "action": "research",
-   "count": 1,
+   "count": 5,
    "items": [
+    {
+     "artist": "Carne",
+     "title": "Todos Mis Amigos Están Tristes"
+    },
     {
      "artist": "Isaam Hajali",
      "title": "Mouasalat Ila Jacad El Ard (Habibi Funk 010)"
+    },
+    {
+     "artist": "okgutta",
+     "title": "GOD (B)LESS AMERICA"
+    },
+    {
+     "artist": "War Child Records",
+     "title": "HELP(2)"
+    },
+    {
+     "artist": "zayok",
+     "title": "In elsewhere"
     }
    ]
   },
@@ -655,7 +676,7 @@
    "title": "Apple Music matches held back",
    "why": "Probably the right record, not certainly. Open it to check, then link it or reject it.",
    "action": "link",
-   "count": 305,
+   "count": 308,
    "items": [
     {
      "artist": "Against All Logic",
@@ -2018,7 +2039,7 @@
      "dismiss": "Reject"
     },
     {
-     "artist": "FONTAINES D.C",
+     "artist": "Fontaines D.C.",
      "title": "Skinty Fia",
      "note": "Apple Music has \"Skinty Fia (Edit) - Single\" — the title is longer or shorter than yours",
      "preview": "https://music.apple.com/mx/album/skinty-fia-edit-single/1783179443",
@@ -3650,6 +3671,22 @@
      "dismiss": "Reject"
     },
     {
+     "artist": "okgutta",
+     "title": "GOD (B)LESS AMERICA",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1812625031",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1812625031",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
      "artist": "Open Mike Eagle",
      "title": "A Special Episode Of",
      "note": "Apple Music has \"A Special Episode - EP\" — the title is longer or shorter than yours",
@@ -4640,22 +4677,6 @@
      },
      "apply": "Link it",
      "dismiss": "Reject"
-    },
-    {
-     "artist": "The Fall",
-     "title": "Hex Enduction Hour",
-     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
-     "preview": "https://music.apple.com/mx/album/1120747168",
-     "suggest": {
-      "apple_music_url": "https://music.apple.com/mx/album/1120747168",
-      "apple_music_locked": true
-     },
-     "was": {
-      "apple_music_url": null,
-      "apple_music_locked": false
-     },
-     "apply": "Link it",
-     "dismiss": "Reject"
     }
    ]
   },
@@ -4672,7 +4693,7 @@
    "title": "No Apple Music link",
    "why": "Apple Music has nothing under this name. Paste the link on the album's page if it is there, or say it is not.",
    "action": "link",
-   "count": 449,
+   "count": 451,
    "items": [
     {
      "artist": "$ilkmoney",
@@ -5035,6 +5056,12 @@
      "dismiss": "Not there"
     },
     {
+     "artist": "Carne",
+     "title": "Todos Mis Amigos Están Tristes",
+     "note": "looked for on 2026-11-11",
+     "dismiss": "Not there"
+    },
+    {
      "artist": "Cecil Taylor",
      "title": "Live at the Cafe Montmartre",
      "note": "looked for on 2026-10-22",
@@ -5092,6 +5119,12 @@
      "artist": "Cloud Nothings",
      "title": "Here and Nowhere Else",
      "note": "looked for on 2026-10-21",
+     "dismiss": "Not there"
+    },
+    {
+     "artist": "CMAT",
+     "title": "EURO-COUNTRY",
+     "note": "looked for on 2026-11-11",
      "dismiss": "Not there"
     },
     {
@@ -6159,18 +6192,6 @@
     {
      "artist": "Mos Def",
      "title": "Black on Both Sides",
-     "note": "looked for on 2026-10-23",
-     "dismiss": "Not there"
-    },
-    {
-     "artist": "Mos Def",
-     "title": "The Ecstatic",
-     "note": "looked for on 2026-10-23",
-     "dismiss": "Not there"
-    },
-    {
-     "artist": "Motion City Soundtrack",
-     "title": "Commit This to Memory",
      "note": "looked for on 2026-10-23",
      "dismiss": "Not there"
     }

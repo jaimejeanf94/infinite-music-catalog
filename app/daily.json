@@ -1,68 +1,78 @@
 {
- "date": "2026-11-10",
+ "date": "2026-11-11",
  "picks": [
   {
-   "artist": "Virus",
-   "title": "Locura",
-   "year": 1985,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2d171713-aeb2-308f-aade-c5c7d2c5d821.jpg",
-   "genres": [
-    "rock",
-    "electronic",
-    "pop"
-   ]
-  },
-  {
-   "artist": "Nico",
-   "title": "Desertshore",
+   "artist": "Santana",
+   "title": "Abraxas",
    "year": 1970,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8c6a8264-be71-33ea-b94f-02c6f83dc6f9.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/43424c73-fc58-36b0-b9cf-f8b057ac0603.jpg",
    "genres": [
-    "avant-folk",
-    "folk",
-    "experimental"
+    "rock",
+    "latin rock",
+    "latin"
    ]
   },
   {
-   "artist": "Moses Sumney",
-   "title": "Black in Deep Red, 2014",
-   "year": 2018,
+   "artist": "Madonna",
+   "title": "Erotica",
+   "year": 1992,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3f3849c9-02ca-4f43-a7f5-4c75b6c24e4f.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7a6a2e9f-c699-3da5-a2d7-144d6ccba3e6.jpg",
    "genres": [
-    "rock",
     "pop",
-    "singer-songwriter"
+    "downtempo",
+    "dance-pop"
    ]
   },
   {
-   "artist": "black midi",
-   "title": "Schlagenheim",
-   "year": 2019,
-   "score": 90,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c65fb96b-08dc-44b4-b0ca-3576317b5513.jpg",
+   "artist": "The Strokes",
+   "title": "Room on Fire",
+   "year": 2003,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1e9db573-5671-301f-87fc-846a605fe35b.jpg",
    "genres": [
-    "experimental",
-    "math rock",
-    "experimental rock"
-   ]
-  },
-  {
-   "artist": "Mount Eerie",
-   "title": "Now Only",
-   "year": 2018,
-   "score": 85,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5cd7f051-a173-4d7a-84a2-74f6976139c0.jpg",
-   "genres": [
+    "indie rock",
     "rock",
-    "folk",
+    "alternative punk"
+   ]
+  },
+  {
+   "artist": "Ulver",
+   "title": "Bergtatt - Et eeventyr i 5 capitler",
+   "year": 1995,
+   "score": 95,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c9e7b2fc-ec8a-3450-a22f-a79ddd67bd47.jpg",
+   "genres": [
+    "black metal",
+    "atmospheric black metal",
+    "pagan black metal"
+   ]
+  },
+  {
+   "artist": "G Jones",
+   "title": "Illusory Tracks",
+   "year": 2022,
+   "score": 80,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/674a1a5a-2c73-47c8-b246-f7b448230fa0.jpg",
+   "genres": [
+    "electronic",
+    "rave",
     "experimental"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-11-11",
+   "keys": [
+    "Santana::Abraxas",
+    "Madonna::Erotica",
+    "The Strokes::Room on Fire",
+    "Ulver::Bergtatt - Et eeventyr i 5 capitler",
+    "G Jones::Illusory Tracks"
+   ]
+  },
   {
    "date": "2026-11-10",
    "keys": [
