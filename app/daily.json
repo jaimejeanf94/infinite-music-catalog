@@ -1,68 +1,77 @@
 {
- "date": "2026-11-11",
+ "date": "2026-11-12",
  "picks": [
   {
-   "artist": "Santana",
-   "title": "Abraxas",
-   "year": 1970,
+   "artist": "Fatboy Slim",
+   "title": "Palookaville",
+   "year": 2004,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/43424c73-fc58-36b0-b9cf-f8b057ac0603.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2bf9bfe2-54b0-313b-9d08-8194acf52e6d.jpg",
    "genres": [
-    "rock",
-    "latin rock",
-    "latin"
+    "big beat",
+    "electronic",
+    "alternative dance"
    ]
   },
   {
-   "artist": "Madonna",
-   "title": "Erotica",
-   "year": 1992,
+   "artist": "XTC",
+   "title": "Black Sea",
+   "year": 1980,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7a6a2e9f-c699-3da5-a2d7-144d6ccba3e6.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3219729b-5773-3d4f-a32c-99144d6680be.jpg",
+   "genres": [
+    "new wave",
+    "rock",
+    "post-punk"
+   ]
+  },
+  {
+   "artist": "Los Planetas",
+   "title": "Unidad de desplazamiento",
+   "year": 2000,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c1579cec-4add-3340-aa12-14d85c84bd38.jpg",
+   "genres": [
+    "rock",
+    "indie rock"
+   ]
+  },
+  {
+   "artist": "Blood Orange",
+   "title": "Negro Swan",
+   "year": 2018,
+   "score": 75,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a1ee0d2c-2c29-43d0-836f-53a26ff422dc.jpg",
    "genres": [
     "pop",
-    "downtempo",
-    "dance-pop"
+    "r&b",
+    "contemporary r&b"
    ]
   },
   {
-   "artist": "The Strokes",
-   "title": "Room on Fire",
-   "year": 2003,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1e9db573-5671-301f-87fc-846a605fe35b.jpg",
-   "genres": [
-    "indie rock",
-    "rock",
-    "alternative punk"
-   ]
-  },
-  {
-   "artist": "Ulver",
-   "title": "Bergtatt - Et eeventyr i 5 capitler",
+   "artist": "Pavement",
+   "title": "Wowee Zowee",
    "year": 1995,
-   "score": 95,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c9e7b2fc-ec8a-3450-a22f-a79ddd67bd47.jpg",
+   "score": 70,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/fa79988d-62b5-3039-9169-ed0d17d53296.jpg",
    "genres": [
-    "black metal",
-    "atmospheric black metal",
-    "pagan black metal"
-   ]
-  },
-  {
-   "artist": "G Jones",
-   "title": "Illusory Tracks",
-   "year": 2022,
-   "score": 80,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/674a1a5a-2c73-47c8-b246-f7b448230fa0.jpg",
-   "genres": [
-    "electronic",
-    "rave",
-    "experimental"
+    "rock",
+    "indie rock",
+    "lo-fi"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-11-12",
+   "keys": [
+    "Fatboy Slim::Palookaville",
+    "XTC::Black Sea",
+    "Los Planetas::Unidad de desplazamiento",
+    "Blood Orange::Negro Swan",
+    "Pavement::Wowee Zowee"
+   ]
+  },
   {
    "date": "2026-11-11",
    "keys": [

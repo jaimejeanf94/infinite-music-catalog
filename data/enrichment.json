@@ -100433,7 +100433,12 @@
   "mb_year": "2026",
   "checked": "2026-11-11",
   "cover_source_url": "https://coverartarchive.org/release-group/e94228ce-5394-45f9-b535-7469a6e57d02/front-500",
-  "cover_cached": "2026-11-11"
+  "cover_cached": "2026-11-11",
+  "apple_status": "ok",
+  "apple_url": "https://music.apple.com/mx/album/vol-ii/1876355936",
+  "apple_title": "Vol.II",
+  "apple_via": "musicbrainz",
+  "apple_checked": "2026-11-12"
  },
  "Anna Von HaussWolff::ICONOCLASTS": {
   "status": "ok",
@@ -100466,7 +100471,8 @@
   "genres": [],
   "tried": "2026-11-11",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-11"
+  "apple_checked": "2026-11-11",
+  "rename_checked": "2026-11-12"
  },
  "Ciśnienie::[angry noises]": {
   "status": "ok",
@@ -100478,7 +100484,7 @@
    "noise rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/392c8588-1d89-4d25-b65c-f7d0d292120a/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/392c8588-1d89-4d25-b65c-f7d0d292120a.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2025",
   "checked": "2026-11-11",
@@ -100486,7 +100492,9 @@
   "apple_url": "https://music.apple.com/mx/album/angry-noises/1841050807",
   "apple_title": "(angry noises)",
   "apple_via": "musicbrainz",
-  "apple_checked": "2026-11-11"
+  "apple_checked": "2026-11-11",
+  "cover_source_url": "https://coverartarchive.org/release-group/392c8588-1d89-4d25-b65c-f7d0d292120a/front-500",
+  "cover_cached": "2026-11-12"
  },
  "CMAT::EURO-COUNTRY": {
   "status": "ok",
@@ -100564,7 +100572,7 @@
    "folk rock"
   ],
   "genre_source": "release",
-  "cover_url": "https://coverartarchive.org/release-group/0006784d-e58d-40a5-adbb-c20c1bcd8ce6/front-500",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/0006784d-e58d-40a5-adbb-c20c1bcd8ce6.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2025",
   "checked": "2026-11-11",
@@ -100572,7 +100580,9 @@
   "apple_url": "https://music.apple.com/mx/album/blizzard/1846713536",
   "apple_title": "Blizzard",
   "apple_via": "musicbrainz",
-  "apple_checked": "2026-11-11"
+  "apple_checked": "2026-11-11",
+  "cover_source_url": "https://coverartarchive.org/release-group/0006784d-e58d-40a5-adbb-c20c1bcd8ce6/front-500",
+  "cover_cached": "2026-11-12"
  },
  "Fontaines D.C.::Dopamine Chamber": {
   "status": "ok",
@@ -101061,7 +101071,8 @@
   "apple_why": "the title is longer or shorter than yours",
   "apple_checked": "2026-11-11",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/ee987bc5ae84a3e3d6143db84e91c0de/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-11-11"
+  "cover_cached": "2026-11-11",
+  "rename_checked": "2026-11-12"
  },
  "Westside Cowboy::It Goes On": {
   "status": "ok",
@@ -101100,5 +101111,53 @@
   "apple_checked": "2026-11-11",
   "cover_source_url": "https://coverartarchive.org/release-group/44821a44-3ada-4e58-8b82-70b69ae57da9/front-500",
   "cover_cached": "2026-11-11"
+ },
+ "brakence::Hypochondriac": {
+  "status": "ok",
+  "mbid": "078421fa-3732-494e-9061-0842bd31248c",
+  "genres": [
+   "hyperpop",
+   "electronic",
+   "glitch pop",
+   "emo rap",
+   "pop",
+   "hip hop",
+   "glitch",
+   "pop rap"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/078421fa-3732-494e-9061-0842bd31248c.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2022",
+  "checked": "2026-11-12",
+  "apple_status": "ok",
+  "apple_url": "https://music.apple.com/mx/album/hypochondriac/1653651532",
+  "apple_title": "hypochondriac",
+  "apple_via": "musicbrainz",
+  "apple_checked": "2026-11-12",
+  "cover_source_url": "https://coverartarchive.org/release-group/078421fa-3732-494e-9061-0842bd31248c/front-500",
+  "cover_cached": "2026-11-12"
+ },
+ "Sleep Token::This Place Will Become Your Tomb": {
+  "status": "ok",
+  "mbid": "ac9d3d59-77dd-4af2-9e1e-5740abbc3a23",
+  "genres": [
+   "alternative rock",
+   "rock",
+   "progressive rock",
+   "post-metal"
+  ],
+  "genre_source": "release",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ac9d3d59-77dd-4af2-9e1e-5740abbc3a23.jpg",
+  "cover_from": "coverartarchive",
+  "mb_year": "2021",
+  "checked": "2026-11-12",
+  "apple_status": "ok",
+  "apple_url": "https://music.apple.com/mx/album/this-place-will-become-your-tomb/1659203215",
+  "apple_title": "This Place Will Become Your Tomb",
+  "apple_via": "musicbrainz",
+  "apple_checked": "2026-11-12",
+  "cover_source_url": "https://coverartarchive.org/release-group/ac9d3d59-77dd-4af2-9e1e-5740abbc3a23/front-500",
+  "cover_cached": "2026-11-12"
  }
 }
