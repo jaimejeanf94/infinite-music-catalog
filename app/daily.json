@@ -1,67 +1,77 @@
 {
- "date": "2026-11-12",
+ "date": "2026-11-13",
  "picks": [
   {
-   "artist": "Fatboy Slim",
-   "title": "Palookaville",
-   "year": 2004,
+   "artist": "The Wailers",
+   "title": "Burnin",
+   "year": 1973,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2bf9bfe2-54b0-313b-9d08-8194acf52e6d.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/af83674d-066a-3e24-8c84-97099dfe9333.jpg",
    "genres": [
-    "big beat",
+    "reggae",
+    "roots reggae"
+   ]
+  },
+  {
+   "artist": "Demoniac",
+   "title": "Nube Negra",
+   "year": 2023,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/50ede783-ae0b-409f-b144-e68bd2949f30.jpg",
+   "genres": [
+    "thrash metal",
+    "metal",
+    "technical thrash metal"
+   ]
+  },
+  {
+   "artist": "Iglooghost",
+   "title": "Neō Wax Bloom",
+   "year": 2017,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/bf756a6e-e802-43ba-90a7-ec38dcf81e34.jpg",
+   "genres": [
+    "wonky",
     "electronic",
-    "alternative dance"
+    "drum and bass"
    ]
   },
   {
-   "artist": "XTC",
-   "title": "Black Sea",
-   "year": 1980,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3219729b-5773-3d4f-a32c-99144d6680be.jpg",
+   "artist": "King Gizzard & The Lizard Wizard",
+   "title": "Omnium Gatherum",
+   "year": 2022,
+   "score": 95,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/13c20751-6910-4233-8e81-a4b772b517c0.jpg",
    "genres": [
-    "new wave",
-    "rock",
-    "post-punk"
+    "psychedelic rock",
+    "psychedelic pop",
+    "rock"
    ]
   },
   {
-   "artist": "Los Planetas",
-   "title": "Unidad de desplazamiento",
-   "year": 2000,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c1579cec-4add-3340-aa12-14d85c84bd38.jpg",
+   "artist": "Poppy",
+   "title": "CHOKE",
+   "year": 2019,
+   "score": 100,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/75ed226d-ee9f-4c45-99e5-afdcd75392bf.jpg",
    "genres": [
-    "rock",
-    "indie rock"
-   ]
-  },
-  {
-   "artist": "Blood Orange",
-   "title": "Negro Swan",
-   "year": 2018,
-   "score": 75,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a1ee0d2c-2c29-43d0-836f-53a26ff422dc.jpg",
-   "genres": [
-    "pop",
-    "r&b",
-    "contemporary r&b"
-   ]
-  },
-  {
-   "artist": "Pavement",
-   "title": "Wowee Zowee",
-   "year": 1995,
-   "score": 70,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/fa79988d-62b5-3039-9169-ed0d17d53296.jpg",
-   "genres": [
-    "rock",
-    "indie rock",
-    "lo-fi"
+    "nu metal",
+    "electropop",
+    "post-hardcore"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-11-13",
+   "keys": [
+    "The Wailers::Burnin",
+    "Demoniac::Nube Negra",
+    "Iglooghost::Neō Wax Bloom",
+    "King Gizzard & The Lizard Wizard::Omnium Gatherum",
+    "Poppy::CHOKE"
+   ]
+  },
   {
    "date": "2026-11-12",
    "keys": [
