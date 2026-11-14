@@ -1,67 +1,78 @@
 {
- "date": "2026-11-13",
+ "date": "2026-11-14",
  "picks": [
   {
-   "artist": "The Wailers",
-   "title": "Burnin",
-   "year": 1973,
+   "artist": "Jimmy Eat World",
+   "title": "Eat Clarity",
+   "year": 1999,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/af83674d-066a-3e24-8c84-97099dfe9333.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4a12c3a5-5a5e-3e6f-aee9-1cfb2137da4c.jpg",
    "genres": [
-    "reggae",
-    "roots reggae"
+    "alternative rock",
+    "alternative punk",
+    "emo"
    ]
   },
   {
-   "artist": "Demoniac",
-   "title": "Nube Negra",
-   "year": 2023,
+   "artist": "The Books",
+   "title": "The Way Out",
+   "year": 2010,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/50ede783-ae0b-409f-b144-e68bd2949f30.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/60bdccd3-1b8a-49bd-a8ca-e7ee262fe22f.jpg",
    "genres": [
-    "thrash metal",
-    "metal",
-    "technical thrash metal"
-   ]
-  },
-  {
-   "artist": "Iglooghost",
-   "title": "Neō Wax Bloom",
-   "year": 2017,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/bf756a6e-e802-43ba-90a7-ec38dcf81e34.jpg",
-   "genres": [
-    "wonky",
     "electronic",
-    "drum and bass"
+    "pop",
+    "jazz"
    ]
   },
   {
-   "artist": "King Gizzard & The Lizard Wizard",
-   "title": "Omnium Gatherum",
-   "year": 2022,
-   "score": 95,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/13c20751-6910-4233-8e81-a4b772b517c0.jpg",
+   "artist": "Charles Mingus",
+   "title": "Mingus Mingus Mingus Mingus Mingus",
+   "year": 1965,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/48848da6-67a2-3e36-bb11-3e9fa18c1d9b.jpg",
    "genres": [
-    "psychedelic rock",
-    "psychedelic pop",
-    "rock"
+    "jazz",
+    "post-bop",
+    "hard bop"
    ]
   },
   {
-   "artist": "Poppy",
-   "title": "CHOKE",
-   "year": 2019,
-   "score": 100,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/75ed226d-ee9f-4c45-99e5-afdcd75392bf.jpg",
+   "artist": "Wilco",
+   "title": "Wilco (The Album)",
+   "year": 2009,
+   "score": 70,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c61adfc2-3488-3e14-9f91-5f904e577bc5.jpg",
    "genres": [
-    "nu metal",
-    "electropop",
-    "post-hardcore"
+    "rock",
+    "indie rock",
+    "pop"
+   ]
+  },
+  {
+   "artist": "Franz Ferdinand",
+   "title": "Hits To The Head",
+   "year": 2023,
+   "score": 75,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9ede8e88-d04d-4cf2-844e-b19d05a09851.jpg",
+   "genres": [
+    "rock",
+    "alternative rock",
+    "pop"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-11-14",
+   "keys": [
+    "Jimmy Eat World::Eat Clarity",
+    "The Books::The Way Out",
+    "Charles Mingus::Mingus Mingus Mingus Mingus Mingus",
+    "Wilco::Wilco (The Album)",
+    "Franz Ferdinand::Hits To The Head"
+   ]
+  },
   {
    "date": "2026-11-13",
    "keys": [
