@@ -160,3 +160,44 @@ create policy review_flags_read on public.review_flags
   for select to anon, authenticated using (true);
 create policy review_flags_write on public.review_flags
   for all to authenticated using (true) with check (true);
+
+-- ── playlists, playlist_tracks ──────────────────────────────────────────────
+-- A mirror of one Apple Music playlist, for the Playlist screen. Added by
+-- db/migrations/2026-11-15-playlists.sql, which explains each column; folded
+-- in here so this file still builds the whole database. The Music app is the
+-- source of truth: scripts/sync-playlist.mjs rewrites these rows nightly.
+create table if not exists public.playlists (
+  id          text primary key,      -- the Music app's persistent ID
+  name        text not null,
+  url         text,                  -- the share link, set by hand
+  track_count int  not null default 0,
+  synced_at   timestamptz not null default now()
+);
+
+create table if not exists public.playlist_tracks (
+  playlist_id text not null references public.playlists(id) on delete cascade,
+  position    int  not null check (position > 0),   -- 1-based, playlist order
+  track_id    text not null,         -- not unique: a song can be in twice
+  title       text not null,
+  artist      text not null default '',
+  album       text not null default '',
+  duration_s  int,
+  primary key (playlist_id, position)
+);
+
+-- The same starting rules as the tables above. public_hardening.sql then
+-- narrows the writes to your user id; reads stay public, like albums.
+alter table public.playlists       enable row level security;
+alter table public.playlist_tracks enable row level security;
+drop policy if exists playlists_read        on public.playlists;
+drop policy if exists playlists_write       on public.playlists;
+drop policy if exists playlist_tracks_read  on public.playlist_tracks;
+drop policy if exists playlist_tracks_write on public.playlist_tracks;
+create policy playlists_read on public.playlists
+  for select to anon, authenticated using (true);
+create policy playlists_write on public.playlists
+  for all to authenticated using (true) with check (true);
+create policy playlist_tracks_read on public.playlist_tracks
+  for select to anon, authenticated using (true);
+create policy playlist_tracks_write on public.playlist_tracks
+  for all to authenticated using (true) with check (true);

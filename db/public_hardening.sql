@@ -38,7 +38,12 @@ begin
   -- verdicts on the Fix list were readable by anyone holding the publishable
   -- key -- which is everyone, it is in config.js -- and writable by any
   -- account, the one-checkbox dependency this file exists to remove.
-  foreach t in array array['albums', 'rolls', 'review_flags'] loop
+  --
+  -- playlists and playlist_tracks arrived the same way, by
+  -- db/migrations/2026-11-15-playlists.sql. Only their writes are narrowed:
+  -- the Playlist screen is public, so their reads stay open like albums'.
+  foreach t in array array['albums', 'rolls', 'review_flags',
+                           'playlists', 'playlist_tracks'] loop
     execute format('drop policy if exists %I on public.%I', t || '_write', t);
     execute format(
       -- (select auth.uid()) rather than auth.uid(): wrapped in a subquery
@@ -78,12 +83,13 @@ end $$;
 select relname as table_name, relrowsecurity as rls_enabled
 from pg_class
 where relnamespace = 'public'::regnamespace
-  and relname in ('albums', 'rolls', 'review_flags')
+  and relname in ('albums', 'rolls', 'review_flags', 'playlists', 'playlist_tracks')
 order by relname;
 
--- Expect exactly six: a read and a write policy on each of the three tables.
--- `albums_read` should be the only one open to the `anon` role, and every
--- other condition should name your uid.
+-- Expect exactly ten: a read and a write policy on each of the five tables.
+-- `albums_read`, `playlists_read` and `playlist_tracks_read` should be the
+-- only ones open to the `anon` role, and every other condition should name
+-- your uid.
 select tablename, policyname, cmd, roles, qual::text as condition
 from pg_policies
 where schemaname = 'public'

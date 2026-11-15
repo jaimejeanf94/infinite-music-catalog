@@ -43,6 +43,17 @@ try {
   say("albums.apple_music_url", false, "missing — db/migrations/2026-09-21-apple-music-links.sql has not run");
 }
 
+// db/migrations/2026-11-15-playlists.sql
+try {
+  const lists = await api.select("playlists?select=id,name,track_count,synced_at");
+  await api.select("playlist_tracks?select=playlist_id,position,track_id&limit=1");
+  say("playlists", true, lists.length
+    ? lists.map((p) => `${p.name}: ${p.track_count} songs`).join(", ")
+    : "present, not synced yet — run scripts/playlist-backup.sh");
+} catch (e) {
+  say("playlists", false, "missing — db/migrations/2026-11-15-playlists.sql has not run");
+}
+
 // the write path the maintenance screen depends on
 try {
   await api.insert("review_flags", [{ kind: "__selftest", subject: "probe", state: "dismissed" }]);

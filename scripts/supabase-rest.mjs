@@ -110,6 +110,28 @@ export function rest(token) {
       });
       if (!res.ok) throw new Error(`POST ${table} -> ${res.status} ${await res.text()}`);
     },
+    // Insert, or overwrite the row that already holds this key. `onConflict`
+    // names the key's columns; only the columns sent are rewritten, so a
+    // column left out of `rows` keeps whatever it held.
+    async upsert(table, rows, onConflict) {
+      const res = await fetch(`${base}/${table}?on_conflict=${onConflict}`, {
+        method: "POST",
+        headers: { ...headers, Prefer: "resolution=merge-duplicates,return=minimal" },
+        body: JSON.stringify(rows),
+      });
+      if (!res.ok) throw new Error(`UPSERT ${table} -> ${res.status} ${await res.text()}`);
+    },
+    // A filter is required: PostgREST treats a DELETE with none as "every
+    // row", and nothing here should be able to ask for that by leaving an
+    // argument out.
+    async remove(table, filter) {
+      if (!filter) throw new Error(`DELETE ${table} refused: no filter`);
+      const res = await fetch(`${base}/${table}?${filter}`, {
+        method: "DELETE",
+        headers: { ...headers, Prefer: "return=minimal" },
+      });
+      if (!res.ok) throw new Error(`DELETE ${table} -> ${res.status} ${await res.text()}`);
+    },
     async update(table, filter, patch) {
       const res = await fetch(`${base}/${table}?${filter}`, {
         method: "PATCH",

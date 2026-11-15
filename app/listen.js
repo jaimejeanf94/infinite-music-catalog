@@ -29,6 +29,17 @@ function isAppleAlbumUrl(url) {
   }
 }
 
+// A playlist someone has shared: music.apple.com/<storefront>/playlist/<name>/pl.u-<id>.
+function isApplePlaylistUrl(url) {
+  try {
+    const u = new URL(url);
+    return u.protocol === "https:" && u.hostname === "music.apple.com" &&
+      /^\/[a-z]{2}\/playlist\/./.test(u.pathname);
+  } catch {
+    return false;
+  }
+}
+
 const query = (album) => encodeURIComponent(`${album.artist} ${album.title}`);
 
 // A Mac, but not an iPad: iPadOS reports itself as a Mac to get desktop sites,
@@ -49,6 +60,7 @@ function onMac() {
 // empty tab behind.
 const Listen = {
   isAppleAlbumUrl,
+  isApplePlaylistUrl,
   apple(album) {
     if (!isAppleAlbumUrl(album.apple_music_url)) {
       return { href: `https://music.apple.com/search?term=${query(album)}`, exact: false, newTab: true };
@@ -56,6 +68,16 @@ const Listen = {
     return onMac()
       ? { href: album.apple_music_url.replace(/^https:\/\//, "music://"), exact: true, newTab: false }
       : { href: album.apple_music_url, exact: true, newTab: true };
+  },
+  // The mirrored playlist's own page. There is no link that opens a playlist
+  // AT a song -- Apple documents none -- so this goes to the playlist and the
+  // Playlist screen copies the song's title for the playlist's search. Null
+  // when no share link has been stored, or it is not a playlist link.
+  playlist(url) {
+    if (!isApplePlaylistUrl(url)) return null;
+    return onMac()
+      ? { href: url.replace(/^https:\/\//, "music://"), newTab: false }
+      : { href: url, newTab: true };
   },
   spotify(album) {
     return { href: `https://open.spotify.com/search/${query(album)}`, exact: false, newTab: true };
