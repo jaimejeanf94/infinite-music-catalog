@@ -1,68 +1,76 @@
 {
- "date": "2026-11-14",
+ "date": "2026-11-15",
  "picks": [
   {
-   "artist": "Jimmy Eat World",
-   "title": "Eat Clarity",
-   "year": 1999,
+   "artist": "Yeule",
+   "title": "Serotonin II",
+   "year": 2019,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4a12c3a5-5a5e-3e6f-aee9-1cfb2137da4c.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7feebd9d-e40c-409c-8b9e-3b53cf89c2de.jpg",
    "genres": [
-    "alternative rock",
-    "alternative punk",
-    "emo"
+    "experimental",
+    "synth-pop",
+    "dark ambient"
    ]
   },
   {
-   "artist": "The Books",
-   "title": "The Way Out",
+   "artist": "Sun Kil Moon",
+   "title": "Common As Light And Love Are Red Valleys of Blood",
+   "year": 2017,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9b51094b-7397-4c52-ab39-1ee16973ee81.jpg",
+   "genres": [
+    "alternative rock",
+    "singer-songwriter",
+    "indie rock"
+   ]
+  },
+  {
+   "artist": "schnozz",
+   "title": "berdlycore chapter 1",
+   "year": 2021,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/manual/3275.jpg?v=1789927572319",
+   "genres": [
+    "dariacore"
+   ]
+  },
+  {
+   "artist": "Kendrick Lamar",
+   "title": "untitled. unmastered.",
+   "year": 2014,
+   "score": 80,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4e44335c-3f2b-4874-a6c3-71b5e65f75d5.jpg",
+   "genres": [
+    "hip hop",
+    "funk",
+    "jazz rap"
+   ]
+  },
+  {
+   "artist": "Daughters",
+   "title": "Daughters",
    "year": 2010,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/60bdccd3-1b8a-49bd-a8ca-e7ee262fe22f.jpg",
+   "score": 95,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f6cf7d14-3e96-4f6e-92fa-2648bdef6870.jpg",
    "genres": [
-    "electronic",
-    "pop",
-    "jazz"
-   ]
-  },
-  {
-   "artist": "Charles Mingus",
-   "title": "Mingus Mingus Mingus Mingus Mingus",
-   "year": 1965,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/48848da6-67a2-3e36-bb11-3e9fa18c1d9b.jpg",
-   "genres": [
-    "jazz",
-    "post-bop",
-    "hard bop"
-   ]
-  },
-  {
-   "artist": "Wilco",
-   "title": "Wilco (The Album)",
-   "year": 2009,
-   "score": 70,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c61adfc2-3488-3e14-9f91-5f904e577bc5.jpg",
-   "genres": [
+    "math rock",
     "rock",
-    "indie rock",
-    "pop"
-   ]
-  },
-  {
-   "artist": "Franz Ferdinand",
-   "title": "Hits To The Head",
-   "year": 2023,
-   "score": 75,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9ede8e88-d04d-4cf2-844e-b19d05a09851.jpg",
-   "genres": [
-    "rock",
-    "alternative rock",
-    "pop"
+    "electronic"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-11-15",
+   "keys": [
+    "Yeule::Serotonin II",
+    "Sun Kil Moon::Common As Light And Love Are Red Valleys of Blood",
+    "schnozz::berdlycore chapter 1",
+    "Kendrick Lamar::untitled. unmastered.",
+    "Daughters::Daughters"
+   ]
+  },
   {
    "date": "2026-11-14",
    "keys": [
