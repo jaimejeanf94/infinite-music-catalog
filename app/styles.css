@@ -362,6 +362,89 @@ main { max-width: 1100px; margin: 0 auto; padding: 20px 16px 40px; }
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
 
+/* ── playlist ─────────────────────────────────────────────────────────── */
+/* The card is the Roll screen's. What is new is below it: the songs that
+   follow, as a ledger rather than tiles -- they are a sequence, and the order
+   is the whole point -- and the mirror's own record of how current it is. */
+a.btn { display: inline-flex; align-items: center; text-decoration: none; }
+
+.queue { margin-top: 48px; }
+.queue h3 {
+  font-family: var(--mono); font-size: 10px; font-weight: 400;
+  text-transform: uppercase; letter-spacing: 0.14em;
+  color: var(--ink-dim); margin-bottom: 12px;
+}
+.queue__list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.queue__item {
+  display: grid; grid-template-columns: 64px minmax(0, 1fr) auto; gap: 12px;
+  align-items: baseline; padding: 10px 0; border-bottom: 1px solid var(--line);
+}
+.queue__pos, .queue__len {
+  font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em;
+  color: var(--ink-dim); font-variant-numeric: tabular-nums;
+}
+.queue__txt { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.queue__txt b {
+  font-family: var(--display); font-weight: 700; text-transform: uppercase;
+  font-size: 18px; line-height: 1.05; letter-spacing: 0.005em;
+  overflow-wrap: anywhere;
+}
+.queue__txt em {
+  font-style: normal; font-family: var(--mono); font-size: 10px;
+  letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-dim);
+}
+
+.mirror {
+  margin-top: 40px; display: grid; gap: 6px;
+  font-family: var(--mono); font-size: 11px; letter-spacing: 0.06em;
+  color: var(--ink-dim); font-variant-numeric: tabular-nums;
+}
+.mirror > div { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 12px; }
+.mirror dt { text-transform: uppercase; letter-spacing: 0.14em; font-size: 10px; }
+.mirror dd { margin: 0; color: var(--ink); overflow-wrap: anywhere; }
+.mirror dd b { font-weight: 400; }
+/* A missed night is the one thing on this screen that wants attention. */
+.mirror--stale dd b { color: var(--warn); }
+
+/* This screen is used on a phone, standing up, on the way to pressing play.
+   Stacked the way the Roll card stacks, the sleeve took the whole first
+   screen and a long title pushed both buttons under the fold -- and the
+   buttons are the screen. So here the sleeve steps back to a thumbnail beside
+   the name, everything else runs the full width, and the two buttons split
+   the row as thumb-sized targets. .card__body dissolves so its children can
+   sit on the card's own grid. */
+@media (max-width: 720px) {
+  .roll .card--song {
+    grid-template-columns: 112px minmax(0, 1fr);
+    /* The name's two rows take their own height and the sleeve spans both;
+       without the 1fr they split the sleeve's height and the title floats
+       half-way down it. */
+    grid-template-rows: auto 1fr;
+    column-gap: 22px; row-gap: 10px; padding: 4px 0 0; align-items: start;
+  }
+  .card--song .card__art {
+    width: 112px; height: 112px; aspect-ratio: auto;
+    grid-row: 1 / span 2;
+    box-shadow: 6px 6px 0 var(--accent);
+  }
+  /* Generated art sizes its initials from the 320px it is told it has, in an
+     inline style. At 112px that is two letters wider than the tile. */
+  .card--song .art--gen { font-size: 30px !important; overflow: hidden; }
+  .card--song .card__body { display: contents; }
+  .card--song .card__artist { grid-column: 2; font-size: 11px; letter-spacing: 0.14em; }
+  .card--song .card__title { grid-column: 2; font-size: 26px; line-height: 0.96; }
+  .card--song .card__meta, .card--song .row { grid-column: 1 / -1; }
+  .card--song .card__meta { flex-wrap: wrap; row-gap: 6px; }
+  .card--song .row { margin-top: 6px; }
+  .card--song .row .btn { flex: 1 1 0; justify-content: center; min-height: 52px; }
+  .queue { margin-top: 36px; }
+  .queue__item { grid-template-columns: 52px minmax(0, 1fr) auto; }
+}
+/* A key to press is no use where there are no keys. */
+@media (hover: none) {
+  .key-hint { display: none; }
+}
+
 /* ── browse ───────────────────────────────────────────────────────────── */
 
 .toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 12px; }
@@ -937,6 +1020,18 @@ button, a, input, select, textarea, .tile { touch-action: manipulation; }
 .nav__a--last::before {
   content: ""; position: absolute; left: 0; top: 50%;
   transform: translateY(-50%); height: 13px; width: 1px; background: var(--line);
+}
+/* Five links do not fit a phone at the desk's spacing: with Playlist added the
+   nav alone ran to 382px of a 390px screen and pushed Sign out off the edge.
+   Below 560px the links close up -- the same breakpoint, and the same reason,
+   as the running head going away. Sizes are untouched; only the air between
+   them goes. */
+@media (max-width: 560px) {
+  .top { gap: 10px; padding-left: 12px; padding-right: 12px; }
+  .nav { gap: 0; }
+  .nav__a { margin-right: 10px; letter-spacing: 0.08em; }
+  .nav__a:last-child { margin-right: 0; }
+  .nav__a--last { margin-left: 2px; padding-left: 12px; }
 }
 
 @media (max-width: 900px) {

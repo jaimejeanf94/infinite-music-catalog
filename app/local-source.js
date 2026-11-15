@@ -179,6 +179,37 @@ const LocalDB = {
     return LAST_FULL.filter((a) => !gone.has(editKey(a)));
   },
 
+  // The playlist mirror, from the copy export.mjs commits each night. A row's
+  // place in that file is its position -- it has no position column, so that
+  // dropping one song is a one-line diff rather than a renumbering.
+  // The file only exists once the Mac has synced a playlist and a nightly run
+  // has exported it; until then this resolves null, the same answer the cloud
+  // gives for "nothing mirrored yet".
+  async playlist() {
+    const res = await fetch("../data/uberplaylist.csv").catch(() => null);
+    if (!res || !res.ok) return null;
+    const [header, ...rows] = parseCsv(await res.text());
+    const col = Object.fromEntries(header.map((h, i) => [h.trim(), i]));
+    const tracks = rows.filter((r) => r[col.title] || r[col.artist]).map((r, i) => ({
+      position: i + 1,
+      track_id: r[col.track_id] || "",
+      title: r[col.title] || "",
+      artist: r[col.artist] || "",
+      album: r[col.album] || "",
+      duration_s: r[col.duration_s] ? Number(r[col.duration_s]) : null,
+    }));
+    if (!tracks.length) return null;
+    // The file carries the songs and nothing about the playlist itself. When
+    // it was last written is the nearest thing to "synced" there is here.
+    const stamp = Date.parse(res.headers.get("Last-Modified") || "");
+    return {
+      id: "local", name: "Überplaylist", url: null,
+      track_count: tracks.length,
+      synced_at: Number.isNaN(stamp) ? null : new Date(stamp).toISOString(),
+      tracks,
+    };
+  },
+
   async deletedAlbums() {
     const gone = load(LS_GONE, []);
     if (!LAST_FULL.length) await this.albums();

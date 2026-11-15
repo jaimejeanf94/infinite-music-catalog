@@ -27,3 +27,7 @@ db/local/
 .impeccable/live/roots.json
 .impeccable/live/inject-journal.json
 .impeccable/config.local.json
+
+# überplaylist snapshots and their log — a local safety net, written nightly by
+# scripts/playlist-backup.sh. The dated history is data/uberplaylist.csv.
+data/playlist-backups/

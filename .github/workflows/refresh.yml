@@ -174,6 +174,9 @@ jobs:
                   app/health.json README.md
           git add data/rename-suggestions.json \
                   data/rename-suggestions-review.json 2>/dev/null || true
+          # The playlist mirror, written by export.mjs once the Mac has synced
+          # it for the first time. Absent until then, hence its own line.
+          git add data/uberplaylist.csv 2>/dev/null || true
           # Nothing changed is a normal outcome, not a failure.
           if git diff --staged --quiet; then
             echo "nothing changed tonight"

@@ -55,6 +55,36 @@ const supabaseDb = {
   // ── reads ───────────────────────────────────────────────────────────────
   albums: fetchAllAlbums,
 
+  // The mirrored playlist and every track in it, for the Playlist screen. Not
+  // fetched with the albums: only that screen wants it, so only opening that
+  // screen pays for it. Read-only -- the rows are rewritten from the Music app
+  // each night by scripts/sync-playlist.mjs, and nothing here changes them.
+  // Resolves null when no playlist has been synced yet.
+  async playlist() {
+    const { data: lists, error } = await sb
+      .from("playlists")
+      .select("id, name, url, track_count, synced_at")
+      .order("synced_at", { ascending: false })
+      .limit(1);
+    if (error) throw error;
+    const list = lists[0];
+    if (!list) return null;
+
+    const tracks = [];
+    for (let from = 0; ; from += PAGE) {
+      const { data, error } = await sb
+        .from("playlist_tracks")
+        .select("position, track_id, title, artist, album, duration_s")
+        .eq("playlist_id", list.id)
+        .order("position", { ascending: true })
+        .range(from, from + PAGE - 1);
+      if (error) throw error;
+      tracks.push(...data);
+      if (data.length < PAGE) break;
+    }
+    return { ...list, tracks };
+  },
+
   // ── writes (owner only — RLS rejects these when signed out) ─────────────
   // Albums you add yourself. `source` marks them as added here rather than
   // carried over from the original spreadsheet.

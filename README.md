@@ -68,7 +68,7 @@ can only take abilities away, never grant them.
 
 ---
 
-## 2. The four screens
+## 2. The five screens
 
 Navigation sits top-left, where reading starts.
 
@@ -103,6 +103,43 @@ looking as if it knew something. **Weighted** favours what you rated highly
 working through the backlog. Switching mode rolls immediately rather than
 leaving the last album on screen. The number keys ignore Cmd and Ctrl, so
 switching browser tabs never rates the album on screen.
+
+### Playlist — a song at random
+
+The other randomiser, for a different habit: start a long playlist on a random
+song, then let it play in order. A music app's own shuffle is built to feel
+varied, which is not the same as fair — so this draws one song from the
+mirrored playlist with the Roll screen's generator, every position an equal
+shot, and shows the song, where it sits (`#812 of 1,483`) and the ten that
+follow it.
+
+| Control | Does |
+|---|---|
+| `space` / `enter`, or **Another song** | Draw another |
+| **Open playlist** | Copies the song's title, then opens the playlist — in the Apple Music app on an Android phone and on a Mac |
+
+Apple documents no link that opens a playlist *at* a song, which is why the
+button copies the title: paste it into the playlist's own search, tap the song,
+and it carries on in order from there. Until a share link is stored the button
+only copies; put one in `playlists.url` and it opens the playlist too.
+
+The sleeve is the shelf's when the song's album is on it, and then the album
+name links to it. An edition suffix does not get in the way — *Era Vulgaris
+(Bonus Track Version)* is *Era Vulgaris*. Anything else is looked up by name.
+
+The foot of the screen says how current the mirror is: when it was last synced,
+how many songs, and **the first and last song it holds**. The date says the
+sync ran; the two songs say what it read, which you can check against the
+playlist at a glance. A mirror more than a day and a half old says so in amber
+— that is a missed night, and section 3 says where to look.
+
+It is laid out for a phone first, because that is where it is used: below
+720px the sleeve steps back to a thumbnail beside the name, so the two buttons
+and the start of the list are on the first screen however long the title is.
+
+The song on screen is in the address (`#/playlist?song=812`), so Back from the
+shelf returns to it. Nothing on this screen writes, so a visitor sees exactly
+what you do.
 
 ### Shelf — browsing
 
@@ -236,7 +273,7 @@ the detail.
 
 | Script | What it does |
 |---|---|
-| `export.mjs` | Database → `data/albums.csv`. Runs twice: once before the work and once after, so the committed backup reflects what the run actually did |
+| `export.mjs` | Database → `data/albums.csv`, and the playlist mirror → `data/uberplaylist.csv`. Runs twice: once before the work and once after, so the committed backup reflects what the run actually did |
 | `suggest-renames.mjs` | Works out what a misspelt album really is. Confident corrections go to `rename.mjs`; anything uncertain joins the standing pile in `data/rename-suggestions-review.json`, which the Fix screen shows until you rename or reject each one |
 | `rename.mjs` | Applies a rename across both halves of an album's identity — the row *and* its enrichment record |
 | `enrich.mjs` | Genres, artwork and MusicBrainz ids. The biggest script, and the only one that talks to four external services |
@@ -246,6 +283,39 @@ the detail.
 | `health-report.mjs` | Writes `app/health.json`, the Fix screen's list. Runs `find-duplicates` itself |
 | `apple-music-links.mjs` | Finds each album's own Apple Music page, so the listen button opens the record instead of a search. By MusicBrainz identity first, search second, and every link confirmed against Apple's store here. Confident links are pushed by `import.mjs`; uncertain ones and albums with none go to the Fix screen. A batch a night, since Apple asks for about twenty lookups a minute |
 | `daily-picks.mjs` | Writes `app/daily.json`, tomorrow's five |
+
+### Runs itself, nightly, on your Mac
+
+The one part of this that cannot run on GitHub's machines: the playlist lives
+in the Music app, and the Music app is the only place the whole of it can be
+read for free. Apple's public page for a playlist carries its first stretch of
+songs, and the API that pages through the rest wants a paid developer key.
+
+| Script | What it does |
+|---|---|
+| `playlist-backup.sh` | 21:00, from launchd. Saves the playlist as `Artist - Song` lines — the format TuneMyMusic imports — in `data/playlist-backups/`, keeps the newest seven, and keeps *all* of them on a night the playlist grows or shrinks by a fifth, so one bad library sync cannot push the good copies out. Then calls the next script. Finds the playlist by its persistent ID, so renaming it breaks nothing |
+| `sync-playlist.mjs` | Rewrites `playlists` and `playlist_tracks` from the Music app: every position overwritten, then the tail cut off, so the table is never empty mid-sync. Called only after the snapshot is on disk and only on a night the size check passed. `--dry-run` reads and prints without writing |
+| `install-playlist-backup.sh` | Run once. Writes the launchd agent and loads it; run it again after moving this folder |
+
+Asleep at 21:00, the Mac runs it on waking. Switched off, that night is
+skipped, and the next run brings everything current — both the snapshot and
+the table are written whole each time, so nothing accumulates to catch up on.
+
+**Where to look when the Playlist screen says the mirror is stale:**
+`data/playlist-backups/backup.log`. Each night leaves `saved N songs`, then
+the sync's own lines — the count, the first song and the last — then `synced N
+songs to the catalogue`. A night that failed left an alert on screen as well.
+
+The snapshots and the log are git-ignored; they are a local safety net. The
+history that leaves the Mac is `data/uberplaylist.csv`, which `export.mjs`
+writes from the table and the nightly run commits — so `git log -p
+data/uberplaylist.csv` is every song added or dropped, by date. It has no
+position column: a row's place in the file is its position, so dropping one
+song is a one-line diff.
+
+One thing to know: launchd runs whatever is checked out. On a branch or an old
+commit that predates `playlist-backup.sh`, 21:00 finds no script — no backup,
+and no alert either, since the script is what raises them.
 
 ### Runs in CI, on every push
 
@@ -335,8 +405,8 @@ closed.
 7. **Export again** — so the committed backup reflects what this run just did,
    rather than the state before it started
 8. **Reports** — genre roots, the Fix list, tomorrow's five
-9. **Commit** — `data/albums.csv`, `app/daily.json`, `app/health.json`, and
-   the README's opening table
+9. **Commit** — `data/albums.csv`, `data/uberplaylist.csv`, `app/daily.json`,
+   `app/health.json`, and the README's opening table
 
 Step 9 is the point: `git log data/albums.csv` is a dated history of the
 collection, and any night of it can be put back (section 5).
@@ -399,7 +469,17 @@ albums    artist, title, year, score, notes, genres, mbid,
           source, deleted_at
 rolls     album_id, mode, outcome, rolled_at     -- what the randomiser served
 review_flags  kind, subject, album_id, state    -- your verdicts on the Fix list
+playlists        id, name, url, track_count, synced_at
+playlist_tracks  playlist_id, position, track_id, title, artist, album, duration_s
 ```
+
+The last two are a mirror, not a source of truth: the playlist lives in the
+Music app and `sync-playlist.mjs` rewrites both from it every night, so an edit
+made here is gone by morning. The one exception is `playlists.url`, the share
+link, which is set by hand and never touched. `playlists.id` is the Music
+app's persistent ID rather than the name, so a rename orphans nothing, and a
+track's key is its playlist and position — nothing else is unique, because the
+same song can be in a playlist twice.
 
 `score` is `NULL` until you rate it, and stays distinct from 100 on purpose —
 see section 6. `source` records whether an album came from the original
@@ -670,12 +750,13 @@ them: `frontend-design` and `web-design-guidelines` from Vercel, `supabase` and
 | `app/index.html` | Shell, routing, sign-in, optimistic saves |
 | `app/home.jsx` | The daily five |
 | `app/roll.jsx` | The randomiser screen |
+| `app/playlist.jsx` | The Playlist screen |
 | `app/browse.jsx` | Search, filters, grid, detail, add/delete/restore |
 | `app/admin.jsx` | The Fix list |
 | `app/cover-art.jsx` | Artwork by id, verified fallback, generated art |
 | `app/roller.js` | The weighting logic, kept plain so it can be tested |
 | `app/genres.js` | The genre/style split, computed in the browser |
-| `app/listen.js` | Where the Apple Music and Spotify buttons point, and what counts as an album link |
+| `app/listen.js` | Where the Apple Music and Spotify buttons point, and what counts as an album link or a playlist link |
 | `app/supabase-client.js` | Every call to the cloud, in one place |
 | `app/local-source.js` | The no-account fallback |
 | `app/config.js` | Your Supabase URL and key — the only file to edit by hand |
@@ -687,6 +768,8 @@ them: `frontend-design` and `web-design-guidelines` from Vercel, `supabase` and
 | `db/queries.sql` | The reports that never earned a screen |
 | `scripts/` | Section 3 |
 | `data/albums.csv` | The backup, and the collection's dated history |
+| `data/uberplaylist.csv` | The mirrored playlist, in order, and its dated history |
+| `data/playlist-backups/` | The Mac's own nightly snapshots and their log. Git-ignored |
 | `data/enrichment.json` | What enrichment found, keyed by artist + title |
 | `migration/` | How the data got here. Nothing in it runs any more |
 
