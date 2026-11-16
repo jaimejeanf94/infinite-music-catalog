@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-15T10:41:23.932Z",
+ "generated": "2026-11-16T10:31:49.444Z",
  "totals": {
   "albums": 4479,
   "rated": 492,
   "withCover": 4478,
   "withGenres": 4474,
-  "matched": 4361,
-  "apple": 3720
+  "matched": 4360,
+  "apple": 3723
  },
  "sections": [
   {
@@ -502,7 +502,7 @@
    "title": "Name corrections held back",
    "why": "The nightly scan found these but would not apply them: a changed sequence number, a gained or lost word, or a dropped collaborator.",
    "action": "rename",
-   "count": 11,
+   "count": 10,
    "items": [
     {
      "artist": "Asian Glow & Parannoul",
@@ -610,36 +610,6 @@
      "apply": "Rename"
     },
     {
-     "artist": "Djrum",
-     "title": "Dj-Kicks",
-     "note": "Djrum — DJ-Kicks: Djrum   (the title gains \"djrum\" — likely a different release)",
-     "suggest": {
-      "artist": "Djrum",
-      "title": "DJ-Kicks: Djrum"
-     },
-     "subject": "rename:Djrum::Dj-Kicks",
-     "was": {
-      "artist": "Djrum",
-      "title": "Dj-Kicks"
-     },
-     "apply": "Rename"
-    },
-    {
-     "artist": "Kyle Dixon & Michael Stein",
-     "title": "Stranger Things, Vol 1",
-     "note": "Kyle Dixon & Michael Stein — Stranger Things 2   (sequence number changed (Pt. 2 / Vol. 3 / Part One); looser than the confident band)",
-     "suggest": {
-      "artist": "Kyle Dixon & Michael Stein",
-      "title": "Stranger Things 2"
-     },
-     "subject": "rename:Kyle Dixon & Michael Stein::Stranger Things, Vol 1",
-     "was": {
-      "artist": "Kyle Dixon & Michael Stein",
-      "title": "Stranger Things, Vol 1"
-     },
-     "apply": "Rename"
-    },
-    {
      "artist": "Psychedelic Porn Crumpets",
      "title": "High Visceral pt. 1",
      "note": "Psychedelic Porn Crumpets — High Visceral {Part One}   (looser than the confident band)",
@@ -668,6 +638,21 @@
       "title": "High Visceral pt. 2"
      },
      "apply": "Rename"
+    },
+    {
+     "artist": "Kyle Dixon & Michael Stein",
+     "title": "Stranger Things, Vol 1",
+     "note": "Kyle Dixon & Michael Stein — Stranger Things 2   (sequence number changed (Pt. 2 / Vol. 3 / Part One); looser than the confident band)",
+     "suggest": {
+      "artist": "Kyle Dixon & Michael Stein",
+      "title": "Stranger Things 2"
+     },
+     "subject": "rename:Kyle Dixon & Michael Stein::Stranger Things, Vol 1",
+     "was": {
+      "artist": "Kyle Dixon & Michael Stein",
+      "title": "Stranger Things, Vol 1"
+     },
+     "apply": "Rename"
     }
    ]
   },
@@ -676,7 +661,7 @@
    "title": "Apple Music matches held back",
    "why": "Probably the right record, not certainly. Open it to check, then link it or reject it.",
    "action": "link",
-   "count": 309,
+   "count": 306,
    "items": [
     {
      "artist": "Against All Logic",
@@ -1741,22 +1726,6 @@
      "preview": "https://music.apple.com/mx/album/the-best-of-django-reinhardt/696823439",
      "suggest": {
       "apple_music_url": "https://music.apple.com/mx/album/the-best-of-django-reinhardt/696823439",
-      "apple_music_locked": true
-     },
-     "was": {
-      "apple_music_url": null,
-      "apple_music_locked": false
-     },
-     "apply": "Link it",
-     "dismiss": "Reject"
-    },
-    {
-     "artist": "Djrum",
-     "title": "Dj-Kicks",
-     "note": "Apple Music has \"DJ - Kicks: Djrum\" — the title is longer or shorter than yours",
-     "preview": "https://music.apple.com/mx/album/dj-kicks-djrum/6799998932",
-     "suggest": {
-      "apple_music_url": "https://music.apple.com/mx/album/dj-kicks-djrum/6799998932",
       "apple_music_locked": true
      },
      "was": {
@@ -2951,22 +2920,6 @@
      "dismiss": "Reject"
     },
     {
-     "artist": "Los Espíritus",
-     "title": "Aguardiante",
-     "note": "Apple Music has \"Agua Ardiente\" — the title is spelled differently",
-     "preview": "https://music.apple.com/mx/album/agua-ardiente/1462493156",
-     "suggest": {
-      "apple_music_url": "https://music.apple.com/mx/album/agua-ardiente/1462493156",
-      "apple_music_locked": true
-     },
-     "was": {
-      "apple_music_url": null,
-      "apple_music_locked": false
-     },
-     "apply": "Link it",
-     "dismiss": "Reject"
-    },
-    {
      "artist": "Los Jaivas",
      "title": "Alturas de Machu Pichu",
      "note": "Apple Music has \"Alturas de Macchu Picchu\" — the title is spelled differently",
@@ -3037,22 +2990,6 @@
      "preview": "https://music.apple.com/mx/album/breaking-atoms-instrumentals/6808702338",
      "suggest": {
       "apple_music_url": "https://music.apple.com/mx/album/breaking-atoms-instrumentals/6808702338",
-      "apple_music_locked": true
-     },
-     "was": {
-      "apple_music_url": null,
-      "apple_music_locked": false
-     },
-     "apply": "Link it",
-     "dismiss": "Reject"
-    },
-    {
-     "artist": "Marnie Stern",
-     "title": "This Is It and I Am It and You Are It and So Is That and He Is It and She Is It and It Is It and That Is That",
-     "note": "Apple Music has \"This Is It and I Am It and You Are It and So Is...\" — the title is longer or shorter than yours",
-     "preview": "https://music.apple.com/mx/album/this-is-it-and-i-am-it-and-you-are-it-and-so-is/313351130",
-     "suggest": {
-      "apple_music_url": "https://music.apple.com/mx/album/this-is-it-and-i-am-it-and-you-are-it-and-so-is/313351130",
       "apple_music_locked": true
      },
      "was": {
@@ -4677,6 +4614,54 @@
      },
      "apply": "Link it",
      "dismiss": "Reject"
+    },
+    {
+     "artist": "The Fall",
+     "title": "Grotesque (After the Gramme)",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1147767174",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1147767174",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "The Fall",
+     "title": "Hex Enduction Hour",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1120747168",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1120747168",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "The Fall",
+     "title": "Perverted by Language",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1145999601",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1145999601",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
     }
    ]
   },
@@ -4716,7 +4701,7 @@
     {
      "artist": "2 Many DJ's",
      "title": "Blue",
-     "note": "looked for on 2026-11-15",
+     "note": "looked for on 2026-11-16",
      "dismiss": "Not there"
     },
     {
@@ -4740,7 +4725,7 @@
     {
      "artist": "2 Many DJ's",
      "title": "Into The Vortex",
-     "note": "looked for on 2026-11-15",
+     "note": "looked for on 2026-11-16",
      "dismiss": "Not there"
     },
     {
@@ -5436,7 +5421,7 @@
     {
      "artist": "Faye Wong",
      "title": "浮躁 (Fúzào)",
-     "note": "looked for on 2026-11-15",
+     "note": "looked for on 2026-11-16",
      "dismiss": "Not there"
     },
     {
@@ -6138,7 +6123,7 @@
     {
      "artist": "Ministry",
      "title": "Psalm 69: The Way To Succeed and The Way To Suck Eggs",
-     "note": "looked for on 2026-11-15",
+     "note": "looked for on 2026-11-16",
      "dismiss": "Not there"
     },
     {

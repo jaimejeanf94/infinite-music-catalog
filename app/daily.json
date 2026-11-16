@@ -1,66 +1,78 @@
 {
- "date": "2026-11-15",
+ "date": "2026-11-16",
  "picks": [
   {
-   "artist": "Yeule",
-   "title": "Serotonin II",
-   "year": 2019,
+   "artist": "AC/DC",
+   "title": "Highway to Hell",
+   "year": 1979,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7feebd9d-e40c-409c-8b9e-3b53cf89c2de.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f85647ec-a69b-3b0a-ad04-bb6076c4dcf1.jpg",
    "genres": [
-    "experimental",
-    "synth-pop",
-    "dark ambient"
+    "hard rock",
+    "rock",
+    "blues rock"
    ]
   },
   {
-   "artist": "Sun Kil Moon",
-   "title": "Common As Light And Love Are Red Valleys of Blood",
-   "year": 2017,
+   "artist": "Gang Starr",
+   "title": "Moment of Truth",
+   "year": 1998,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9b51094b-7397-4c52-ab39-1ee16973ee81.jpg",
-   "genres": [
-    "alternative rock",
-    "singer-songwriter",
-    "indie rock"
-   ]
-  },
-  {
-   "artist": "schnozz",
-   "title": "berdlycore chapter 1",
-   "year": 2021,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/manual/3275.jpg?v=1789927572319",
-   "genres": [
-    "dariacore"
-   ]
-  },
-  {
-   "artist": "Kendrick Lamar",
-   "title": "untitled. unmastered.",
-   "year": 2014,
-   "score": 80,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4e44335c-3f2b-4874-a6c3-71b5e65f75d5.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/248b3e39-8504-3253-97be-e6afdf6c22fa.jpg",
    "genres": [
     "hip hop",
-    "funk",
-    "jazz rap"
+    "jazz rap",
+    "east coast hip hop"
    ]
   },
   {
-   "artist": "Daughters",
-   "title": "Daughters",
-   "year": 2010,
-   "score": 95,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f6cf7d14-3e96-4f6e-92fa-2648bdef6870.jpg",
+   "artist": "Number Girl",
+   "title": "School Girl Distortional Addict",
+   "year": 1999,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d68b32ab-f9d6-3b74-b2a3-f8957b5e2060.jpg",
    "genres": [
-    "math rock",
     "rock",
-    "electronic"
+    "alternative rock",
+    "punk"
+   ]
+  },
+  {
+   "artist": "The Beatles",
+   "title": "Let It Be (The Beatles) (2021 Mix)",
+   "year": 1970,
+   "score": 80,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/bff544a7-56e0-3ed6-9e0f-3b676cca9111.jpg",
+   "genres": [
+    "rock",
+    "pop rock",
+    "pop"
+   ]
+  },
+  {
+   "artist": "Olivia Rodrigo",
+   "title": "SOUR",
+   "year": 2021,
+   "score": 70,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2ae2e504-7116-4b4f-b632-9748bb18ccd2.jpg",
+   "genres": [
+    "pop",
+    "rock",
+    "pop punk"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-11-16",
+   "keys": [
+    "AC/DC::Highway to Hell",
+    "Gang Starr::Moment of Truth",
+    "Number Girl::School Girl Distortional Addict",
+    "The Beatles::Let It Be (The Beatles) (2021 Mix)",
+    "Olivia Rodrigo::SOUR"
+   ]
+  },
   {
    "date": "2026-11-15",
    "keys": [

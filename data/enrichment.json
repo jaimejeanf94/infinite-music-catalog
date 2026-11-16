@@ -2560,10 +2560,13 @@
   "apple_checked": "2026-09-21"
  },
  "Utada Hikaru::Fantôme": {
-  "status": "error",
-  "error": "MusicBrainz 503",
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-11-16",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-16"
  },
  "Triángulo de Amor Bizarro::Triángulo de Amor Bizarro": {
   "status": "ok",
@@ -3160,7 +3163,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/9748f090fcc6d1414d997ed340aa4695/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-11-15"
+  "cover_cached": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Linkin Park::Meteora": {
   "status": "ok",
@@ -3572,7 +3576,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Bill Evans::You Must Believe in Spring": {
   "status": "ok",
@@ -3978,7 +3983,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Floating Points::Cascade": {
   "status": "ok",
@@ -6149,7 +6155,8 @@
   "apple_status": "nomatch",
   "apple_checked": "2026-11-15",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/e4fdd9d30a5354a8a9a766b0263e7a08/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-11-15"
+  "cover_cached": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Laurie Anderson::Big Science": {
   "status": "ok",
@@ -7829,7 +7836,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "César y su Jardín::Corre y Suelta a los Perros": {
   "status": "ok",
@@ -7922,7 +7930,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Dillóm::Por Cesarea": {
   "status": "ok",
@@ -8166,7 +8175,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Joe Jackson::Night And Day": {
   "status": "ok",
@@ -8252,7 +8262,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "2 Many DJ's::As Produced By Soulwax 2020-2022": {
   "status": "ok",
@@ -8280,13 +8291,14 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "2 Many DJ's::Blue": {
   "status": "error",
-  "error": "MusicBrainz 503",
+  "error": "fetch failed",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-16"
  },
  "2 Many DJ's::Celestial Voyage Pt. 1": {
   "status": "ok",
@@ -8352,7 +8364,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "2 Many DJ's::D&SCO": {
   "status": "ok",
@@ -8389,7 +8402,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "2 Many DJ's::2ManyDJs Live at Primavera": {
   "status": "ok",
@@ -8441,7 +8455,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "2Pac::All Eyez on Me": {
   "status": "ok",
@@ -10152,7 +10167,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Amaarae::Fountain Baby": {
   "status": "ok",
@@ -10365,7 +10381,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Ana Frango Eléctrico::Me Chama De Gato Que Eu Sou Soa": {
   "status": "ok",
@@ -11178,7 +11195,8 @@
   "apple_status": "nomatch",
   "apple_checked": "2026-11-15",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/b86d778a2614f8b253d26e49abc14c09/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-11-15"
+  "cover_cached": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Antônio Carlos Jobim::Wave": {
   "status": "ok",
@@ -11584,7 +11602,8 @@
   "apple_status": "nomatch",
   "apple_checked": "2026-11-15",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/e69e9d3be642bb4ae67e645a5f9cfd3e/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-11-15"
+  "cover_cached": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Archers of Loaf::Icky Mettle": {
   "status": "ok",
@@ -14138,7 +14157,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Belle and Sebastian::Girls in Peacetime Want to Dance": {
   "status": "ok",
@@ -14460,7 +14480,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Beth Orton::Weather Alive": {
   "status": "ok",
@@ -14747,7 +14768,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Big K.R.I.T.::4eva Is A Mighty Long Time": {
   "status": "ok",
@@ -14897,7 +14919,8 @@
   "apple_why": "the title is longer or shorter than yours",
   "apple_checked": "2026-11-15",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/1e9ab81f18b1b24b3d6c4a55ef2de437/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-11-15"
+  "cover_cached": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Big Star::Radio City": {
   "status": "ok",
@@ -16720,7 +16743,8 @@
   "apple_why": "the title is longer or shorter than yours",
   "apple_checked": "2026-11-15",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/1e6f6130ca0ccbdd0cde4dc2b05e6df9/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-11-15"
+  "cover_cached": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Blur::13": {
   "status": "ok",
@@ -20363,7 +20387,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Captain Beefheart and His Magic Band::Safe as Milk": {
   "status": "nomatch",
@@ -20372,7 +20397,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Captain Beyond::Captain Beyond": {
   "status": "ok",
@@ -23421,7 +23447,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/fee3aa1ca1d680385cc2b93ad9d7e4f4/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-11-15"
+  "cover_cached": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Converge::Love Is Not Enough": {
   "status": "ok",
@@ -26540,7 +26567,8 @@
   "apple_status": "nomatch",
   "apple_checked": "2026-11-15",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/5161fcb913384cf32e52a253df53d0aa/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-11-15"
+  "cover_cached": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Death Grips::The Powers That B": {
   "status": "ok",
@@ -27449,7 +27477,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Deltron 3030::Deltron 3030": {
   "status": "ok",
@@ -28896,7 +28925,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "DJ Screw::Endonesia": {
   "status": "ok",
@@ -29073,7 +29103,8 @@
   "apple_status": "nomatch",
   "apple_checked": "2026-11-15",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/766626aaf9bd728e4948158575849b91/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-11-15"
+  "cover_cached": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Djo::Twenty Twenty": {
   "status": "ok",
@@ -29122,7 +29153,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "DMX::It's Dark and Hell Is Hot": {
   "status": "ok",
@@ -29767,7 +29799,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Drudkh::Кров у наших криницях (Blood in Our Wells)": {
   "status": "ok",
@@ -30487,7 +30520,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "El-p::Cancer for Cure": {
   "status": "ok",
@@ -32825,10 +32859,15 @@
   "apple_checked": "2026-09-21"
  },
  "Faye Wong::浮躁 (Fúzào)": {
-  "status": "error",
-  "error": "MusicBrainz 503",
+  "status": "partial",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8c5590945d9c8c3e.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-11-16",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-16",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/6503a812e44b37184e1a551ae3d78d8f/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-11-16"
  },
  "Fear Factory::Demanufacture": {
   "status": "ok",
@@ -33353,7 +33392,8 @@
   "apple_why": "the title is longer or shorter than yours, and it is a live album",
   "apple_checked": "2026-11-15",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/8e9aff8ee1ad2f731e0e58b922bff370/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-11-15"
+  "cover_cached": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Fishmans::Long Season": {
   "status": "ok",
@@ -36715,7 +36755,8 @@
   "apple_status": "nomatch",
   "apple_checked": "2026-11-15",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/37d2d702e8b11eb599ba364974353094/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-11-15"
+  "cover_cached": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Girls::Album": {
   "status": "ok",
@@ -37179,7 +37220,8 @@
   "apple_status": "nomatch",
   "apple_checked": "2026-11-15",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/8b059917e2f6d500cffb7dce368c72b7/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-11-15"
+  "cover_cached": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Gorillaz::Plastic beach": {
   "status": "ok",
@@ -38762,7 +38804,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Helado Negro::Phasor": {
   "status": "ok",
@@ -39247,7 +39290,8 @@
   "apple_status": "nomatch",
   "apple_checked": "2026-11-15",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/753119529fba74573b70d6a840aec9ad/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-11-15"
+  "cover_cached": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Hiroshi Yoshimura::Music For Nine Post Cards": {
   "status": "partial",
@@ -39256,11 +39300,17 @@
   "genres": [],
   "tried": "2026-11-15",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/2c4b23512a00a9b5d6d40931c2ad0687/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-11-15"
+  "cover_cached": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Hiroshi Yoshimura::Green": {
-  "status": "error",
-  "error": "MusicBrainz 503"
+  "status": "partial",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a3df331ec76d3423.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-11-16",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/8d6356d4ef54679286fd598377790f79/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-11-16"
  },
  "HMLTD::West of Eden": {
   "status": "ok",
@@ -39380,7 +39430,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-11-15"
+  "tried": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Holy Fawn::Death Spells": {
   "status": "ok",
@@ -40079,7 +40130,8 @@
   "apple_title": "Luminescent Creatures",
   "apple_via": "search",
   "apple_why": "the title is spelled differently",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "IDLES::CRAWLER": {
   "status": "ok",
@@ -41462,7 +41514,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Cluster::Zuckerseit": {
   "status": "ok",
@@ -43328,7 +43381,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Joe Satriani::Super Colossal": {
   "status": "ok",
@@ -46610,7 +46664,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/1c8352a9fde32e9e019969032a07a603/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-11-15"
+  "cover_cached": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Kirin J Calinan::Bravado": {
   "status": "ok",
@@ -47103,7 +47158,8 @@
   "apple_why": "the title is longer or shorter than yours",
   "apple_checked": "2026-11-15",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/0c3b635d809633aaaa76c88eedca9090/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-11-15"
+  "cover_cached": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Kyuss::Welcome to SKy Valley": {
   "status": "ok",
@@ -47410,7 +47466,8 @@
   "apple_status": "nomatch",
   "apple_checked": "2026-11-15",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/7072c41c8a9c6d6557d57f5670e9a154/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-11-15"
+  "cover_cached": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Lamp::恋人へ [For Lovers]": {
   "status": "ok",
@@ -48166,7 +48223,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Leon Vynehall::Nothing is Still": {
   "status": "ok",
@@ -50297,7 +50355,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/895d18c4c7a734dd69b6b411bb33bcdb/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-11-15"
+  "cover_cached": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Los Prisioneros::Corazones": {
   "status": "ok",
@@ -52681,7 +52740,8 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-11-15"
+  "tried": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Masayoshi Takanaka::TAKANAKA": {
   "status": "ok",
@@ -52712,7 +52772,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/0245da6981524b45f615257ff8fbf36b/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-11-15"
+  "cover_cached": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Masayoshi Takanaka::Seychelles": {
   "status": "partial",
@@ -52721,7 +52782,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/e7c6ff089705392c21f509aa3a3f0aee/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-11-15"
+  "cover_cached": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "MASS OF THE FERMENTING DREGS::World is yours": {
   "status": "partial",
@@ -57058,14 +57120,19 @@
   "apple_checked": "2026-09-21"
  },
  "Mulatu Astatke::Éthiopiques 4: Ethio Jazz & Musique Instrumentale 1969-1974": {
-  "status": "error",
-  "error": "MusicBrainz 503",
+  "status": "partial",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/eed6246b72583616.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-11-16",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/%C3%A9thiopiques-vol-4-ethio-jazz-musique-instrumentale/78928362",
   "apple_title": "Éthiopiques, Vol. 4: Ethio Jazz & Musique Instrumentale (1969-1974)",
   "apple_via": "search",
   "apple_why": "the title is spelled differently",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-16",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/82afd318191bbaef3f3f643684d2ba5f/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-11-16"
  },
  "Murmuüre::Murmuüre": {
   "status": "ok",
@@ -65611,7 +65678,8 @@
   "apple_why": "the title is longer or shorter than yours",
   "apple_checked": "2026-11-15",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/30c77f5c5fb27b02fa83011850911ed4/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-11-15"
+  "cover_cached": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Public Enemy::Fear of a Black Planet": {
   "status": "ok",
@@ -86601,10 +86669,13 @@
   "apple_checked": "2026-11-15"
  },
  "The World Is a Beautiful Place and I Am No Longer Afraid to Die::Whenever, If Ever": {
-  "status": "error",
-  "error": "MusicBrainz 503",
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-11-16",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-16"
  },
  "The Wrens::The Meadowlands": {
   "status": "ok",
@@ -92436,10 +92507,15 @@
   "apple_checked": "2026-09-21"
  },
  "Weezer::The White Album (Weezer)": {
-  "status": "error",
-  "error": "MusicBrainz 503",
+  "status": "partial",
+  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7e90955187b29765.jpg",
+  "cover_from": "deezer",
+  "genres": [],
+  "tried": "2026-11-16",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-16",
+  "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/39381d55274f8fd48d6c07158c76ef25/1000x1000-000000-80-0-0.jpg",
+  "cover_cached": "2026-11-16"
  },
  "Weezer::Everything Will Be Alright In The End": {
   "status": "ok",
@@ -96420,10 +96496,13 @@
   "apple_checked": "2026-09-21"
  },
  "2 Many DJ's::Into The Vortex": {
-  "status": "error",
-  "error": "MusicBrainz 503",
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-11-16",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-16"
  },
  "Basement Jaxx::Remedy": {
   "status": "ok",
@@ -97352,7 +97431,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Frankie Knuckles::Boiler Room London DJ Set": {
   "status": "nomatch",
@@ -97361,7 +97441,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "John Tabalot::Fin": {
   "status": "nomatch",
@@ -97370,7 +97451,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Litourgiya::Batushka": {
   "status": "nomatch",
@@ -97379,7 +97461,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "Louis Jordan::Five Guys Named Moe: Original Decca Recordings Vol. 2": {
   "status": "ok",
@@ -97427,10 +97510,13 @@
   "apple_status": "nomatch"
  },
  "Ministry::Psalm 69: The Way To Succeed and The Way To Suck Eggs": {
-  "status": "error",
-  "error": "MusicBrainz 503",
+  "status": "nomatch",
+  "cover_url": null,
+  "cover_from": null,
+  "genres": [],
+  "tried": "2026-11-16",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-16"
  },
  "Misfits::Beware": {
   "status": "ok",
@@ -97489,10 +97575,9 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-11-02",
+  "tried": "2026-11-16",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-02",
-  "rename_checked": "2026-11-03"
+  "apple_checked": "2026-11-16"
  },
  "schnozz::berdlycore chapter 2": {
   "status": "nomatch",
@@ -98319,7 +98404,8 @@
   "genres": [],
   "tried": "2026-11-15",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-15"
+  "apple_checked": "2026-11-15",
+  "rename_checked": "2026-11-16"
  },
  "James Chance & Contortions::Buy": {
   "status": "ok",
@@ -99914,8 +100000,7 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-11-02",
-  "rename_checked": "2026-11-03"
+  "tried": "2026-11-16"
  },
  "Iron Maiden::Edward The Great: The Greatest Hits": {
   "status": "ok",
@@ -99955,30 +100040,6 @@
   "apple_checked": "2026-10-10",
   "cover_source_url": "https://coverartarchive.org/release-group/4dbac494-9399-4fc2-9b8e-ed47691e6c40/front-500",
   "cover_cached": "2026-10-10"
- },
- "Djrum::Dj-Kicks": {
-  "status": "ok",
-  "mbid": "685a0fcc-09b6-4e3c-a41d-b8a05aeae165",
-  "genres": [
-   "ambient",
-   "dubstep",
-   "electronic",
-   "idm",
-   "techno"
-  ],
-  "genre_source": "artist",
-  "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/685a0fcc-09b6-4e3c-a41d-b8a05aeae165.jpg",
-  "cover_from": "coverartarchive",
-  "mb_year": "2026",
-  "checked": "2026-10-18",
-  "apple_status": "review",
-  "apple_url": "https://music.apple.com/mx/album/dj-kicks-djrum/6799998932",
-  "apple_title": "DJ - Kicks: Djrum",
-  "apple_via": "search",
-  "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-10-18",
-  "cover_source_url": "https://coverartarchive.org/release-group/685a0fcc-09b6-4e3c-a41d-b8a05aeae165/front-500",
-  "cover_cached": "2026-10-18"
  },
  "The Avalanches::No Bad Memories": {
   "status": "ok",
@@ -101012,5 +101073,14 @@
   "apple_checked": "2026-11-12",
   "cover_source_url": "https://coverartarchive.org/release-group/ac9d3d59-77dd-4af2-9e1e-5740abbc3a23/front-500",
   "cover_cached": "2026-11-12"
+ },
+ "Djrum::DJ-Kicks: Djrum": {
+  "status": "error",
+  "error": "fetch failed",
+  "apple_status": "ok",
+  "apple_url": "https://music.apple.com/mx/album/dj-kicks-djrum/6799998932",
+  "apple_title": "DJ - Kicks: Djrum",
+  "apple_via": "search",
+  "apple_checked": "2026-11-16"
  }
 }
