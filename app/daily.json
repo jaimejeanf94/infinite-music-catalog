@@ -1,68 +1,78 @@
 {
- "date": "2026-11-16",
+ "date": "2026-11-17",
  "picks": [
   {
-   "artist": "AC/DC",
-   "title": "Highway to Hell",
-   "year": 1979,
+   "artist": "Santana",
+   "title": "Caravanserai",
+   "year": 1972,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f85647ec-a69b-3b0a-ad04-bb6076c4dcf1.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5dc38932-b507-3bcd-94a9-3b39c1d96526.jpg",
    "genres": [
-    "hard rock",
     "rock",
-    "blues rock"
+    "psychedelic rock",
+    "jazz"
    ]
   },
   {
-   "artist": "Gang Starr",
-   "title": "Moment of Truth",
-   "year": 1998,
+   "artist": "Nas",
+   "title": "King's Disease III",
+   "year": 2022,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/248b3e39-8504-3253-97be-e6afdf6c22fa.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/782893b0-a8f6-4388-98e6-8cf926e77113.jpg",
    "genres": [
     "hip hop",
-    "jazz rap",
-    "east coast hip hop"
+    "boom bap",
+    "jazz rap"
    ]
   },
   {
-   "artist": "Number Girl",
-   "title": "School Girl Distortional Addict",
-   "year": 1999,
+   "artist": "The Newfound Interest In Connecticut",
+   "title": "Tell Me About the Long Dark Path Home",
+   "year": 2005,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d68b32ab-f9d6-3b74-b2a3-f8957b5e2060.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/82c74ea1-f933-49e6-b7a6-512a151e6216.jpg",
    "genres": [
-    "rock",
-    "alternative rock",
-    "punk"
+    "post-rock",
+    "emo",
+    "midwest emo"
+   ]
+  },
+  {
+   "artist": "caroline",
+   "title": "caroline 2",
+   "year": 2025,
+   "score": 95,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/52089578-57af-48be-8ee8-594db56a91ed.jpg",
+   "genres": [
+    "post-rock",
+    "indie rock",
+    "avant-folk"
    ]
   },
   {
    "artist": "The Beatles",
-   "title": "Let It Be (The Beatles) (2021 Mix)",
-   "year": 1970,
-   "score": 80,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/bff544a7-56e0-3ed6-9e0f-3b676cca9111.jpg",
+   "title": "Sgt. Pepper's Lonely Hearts Club Band",
+   "year": 1967,
+   "score": 100,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9f7a4c28-8fa2-3113-929c-c47a9f7982c3.jpg",
    "genres": [
     "rock",
-    "pop rock",
-    "pop"
-   ]
-  },
-  {
-   "artist": "Olivia Rodrigo",
-   "title": "SOUR",
-   "year": 2021,
-   "score": 70,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2ae2e504-7116-4b4f-b632-9748bb18ccd2.jpg",
-   "genres": [
-    "pop",
-    "rock",
-    "pop punk"
+    "psychedelic rock",
+    "baroque pop"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-11-17",
+   "keys": [
+    "Santana::Caravanserai",
+    "Nas::King's Disease III",
+    "The Newfound Interest In Connecticut::Tell Me About the Long Dark Path Home",
+    "caroline::caroline 2",
+    "The Beatles::Sgt. Pepper's Lonely Hearts Club Band"
+   ]
+  },
   {
    "date": "2026-11-16",
    "keys": [

@@ -13,7 +13,7 @@ Live at **<https://infinite-music-catalog.vercel.app>**.
 | Rated | 492. The other 89% is the point of the app |
 | Covers | 4,478 — 4,477 of them cached and CDN-served |
 | Genres | 4,474 tagged, 26 of them browsable |
-| Matched to MusicBrainz | 4,360 |
+| Matched to MusicBrainz | 4,361 |
 | Apple Music | 3,723 open straight to the album |
 | Cost to run | nothing — every service is on a free tier |
 <!-- stats:end -->

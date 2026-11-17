@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-16T10:31:49.444Z",
+ "generated": "2026-11-17T11:28:16.187Z",
  "totals": {
   "albums": 4479,
   "rated": 492,
   "withCover": 4478,
   "withGenres": 4474,
-  "matched": 4360,
+  "matched": 4361,
   "apple": 3723
  },
  "sections": [
@@ -610,6 +610,21 @@
      "apply": "Rename"
     },
     {
+     "artist": "Kyle Dixon & Michael Stein",
+     "title": "Stranger Things, Vol 1",
+     "note": "Kyle Dixon & Michael Stein — Stranger Things 2   (sequence number changed (Pt. 2 / Vol. 3 / Part One); looser than the confident band)",
+     "suggest": {
+      "artist": "Kyle Dixon & Michael Stein",
+      "title": "Stranger Things 2"
+     },
+     "subject": "rename:Kyle Dixon & Michael Stein::Stranger Things, Vol 1",
+     "was": {
+      "artist": "Kyle Dixon & Michael Stein",
+      "title": "Stranger Things, Vol 1"
+     },
+     "apply": "Rename"
+    },
+    {
      "artist": "Psychedelic Porn Crumpets",
      "title": "High Visceral pt. 1",
      "note": "Psychedelic Porn Crumpets — High Visceral {Part One}   (looser than the confident band)",
@@ -636,21 +651,6 @@
      "was": {
       "artist": "Psychedelic Porn Crumpets",
       "title": "High Visceral pt. 2"
-     },
-     "apply": "Rename"
-    },
-    {
-     "artist": "Kyle Dixon & Michael Stein",
-     "title": "Stranger Things, Vol 1",
-     "note": "Kyle Dixon & Michael Stein — Stranger Things 2   (sequence number changed (Pt. 2 / Vol. 3 / Part One); looser than the confident band)",
-     "suggest": {
-      "artist": "Kyle Dixon & Michael Stein",
-      "title": "Stranger Things 2"
-     },
-     "subject": "rename:Kyle Dixon & Michael Stein::Stranger Things, Vol 1",
-     "was": {
-      "artist": "Kyle Dixon & Michael Stein",
-      "title": "Stranger Things, Vol 1"
      },
      "apply": "Rename"
     }
@@ -4701,7 +4701,7 @@
     {
      "artist": "2 Many DJ's",
      "title": "Blue",
-     "note": "looked for on 2026-11-16",
+     "note": "looked for on 2026-11-17",
      "dismiss": "Not there"
     },
     {
