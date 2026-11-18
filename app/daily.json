@@ -1,68 +1,77 @@
 {
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "picks": [
   {
-   "artist": "Santana",
-   "title": "Caravanserai",
+   "artist": "Girlpool",
+   "title": "Before the World Was Big",
+   "year": 2015,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/46d35239-c6cc-45a1-b785-285315f7c2f0.jpg",
+   "genres": [
+    "rock",
+    "indie rock"
+   ]
+  },
+  {
+   "artist": "These New Puritans",
+   "title": "Field of Reeds",
+   "year": 2013,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8bebf7d7-f548-428c-8909-c09064676adf.jpg",
+   "genres": [
+    "post-rock",
+    "rock",
+    "electronic"
+   ]
+  },
+  {
+   "artist": "King Crimson",
+   "title": "In the Court of the Crimson King",
+   "year": 1969,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a50636b5-5233-3329-a7f3-dba3d0e00ef7.jpg",
+   "genres": [
+    "progressive rock",
+    "art rock",
+    "rock"
+   ]
+  },
+  {
+   "artist": "Manfred Mann's Earth Band",
+   "title": "Manfred Mann's Earth Band",
    "year": 1972,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5dc38932-b507-3bcd-94a9-3b39c1d96526.jpg",
+   "score": 90,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/692aa734-ce40-39af-9d31-b5206b1da3db.jpg",
    "genres": [
     "rock",
-    "psychedelic rock",
-    "jazz"
+    "progressive rock",
+    "pop rock"
    ]
   },
   {
-   "artist": "Nas",
-   "title": "King's Disease III",
-   "year": 2022,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/782893b0-a8f6-4388-98e6-8cf926e77113.jpg",
-   "genres": [
-    "hip hop",
-    "boom bap",
-    "jazz rap"
-   ]
-  },
-  {
-   "artist": "The Newfound Interest In Connecticut",
-   "title": "Tell Me About the Long Dark Path Home",
-   "year": 2005,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/82c74ea1-f933-49e6-b7a6-512a151e6216.jpg",
-   "genres": [
-    "post-rock",
-    "emo",
-    "midwest emo"
-   ]
-  },
-  {
-   "artist": "caroline",
-   "title": "caroline 2",
-   "year": 2025,
+   "artist": "Roxy Music",
+   "title": "Country Life",
+   "year": 1974,
    "score": 95,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/52089578-57af-48be-8ee8-594db56a91ed.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b2d10ce6-bf86-3091-8c71-3e8330f4b748.jpg",
    "genres": [
-    "post-rock",
-    "indie rock",
-    "avant-folk"
-   ]
-  },
-  {
-   "artist": "The Beatles",
-   "title": "Sgt. Pepper's Lonely Hearts Club Band",
-   "year": 1967,
-   "score": 100,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/9f7a4c28-8fa2-3113-929c-c47a9f7982c3.jpg",
-   "genres": [
-    "rock",
-    "psychedelic rock",
-    "baroque pop"
+    "art rock",
+    "glam rock",
+    "rock"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-11-18",
+   "keys": [
+    "Girlpool::Before the World Was Big",
+    "These New Puritans::Field of Reeds",
+    "King Crimson::In the Court of the Crimson King",
+    "Manfred Mann's Earth Band::Manfred Mann's Earth Band",
+    "Roxy Music::Country Life"
+   ]
+  },
   {
    "date": "2026-11-17",
    "keys": [
