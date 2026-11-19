@@ -1,67 +1,76 @@
 {
- "date": "2026-11-18",
+ "date": "2026-11-19",
  "picks": [
   {
-   "artist": "Girlpool",
-   "title": "Before the World Was Big",
-   "year": 2015,
+   "artist": "Sneaker Pimps",
+   "title": "Becoming X",
+   "year": 1996,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/46d35239-c6cc-45a1-b785-285315f7c2f0.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/62c14bd1-2a53-3a69-9b68-c3df4bc61032.jpg",
    "genres": [
-    "rock",
-    "indie rock"
+    "trip hop",
+    "electronic",
+    "downtempo"
    ]
   },
   {
-   "artist": "These New Puritans",
-   "title": "Field of Reeds",
-   "year": 2013,
+   "artist": "Calle 13",
+   "title": "MultiViral",
+   "year": 2014,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8bebf7d7-f548-428c-8909-c09064676adf.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/20aa7b37-7286-4db3-a20d-c54e889324c2.jpg",
    "genres": [
-    "post-rock",
+    "latin"
+   ]
+  },
+  {
+   "artist": "Superchunk",
+   "title": "Here’s Where the Strings Come In",
+   "year": 1995,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c789adb7-69ea-381f-9c88-65915fb7b8f6.jpg",
+   "genres": [
+    "indie rock",
     "rock",
     "electronic"
    ]
   },
   {
-   "artist": "King Crimson",
-   "title": "In the Court of the Crimson King",
-   "year": 1969,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a50636b5-5233-3329-a7f3-dba3d0e00ef7.jpg",
-   "genres": [
-    "progressive rock",
-    "art rock",
-    "rock"
-   ]
-  },
-  {
-   "artist": "Manfred Mann's Earth Band",
-   "title": "Manfred Mann's Earth Band",
+   "artist": "Emerson, Lake & Palmer",
+   "title": "Trilogy",
    "year": 1972,
-   "score": 90,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/692aa734-ce40-39af-9d31-b5206b1da3db.jpg",
+   "score": 70,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/990536ff-396d-37ad-9df3-fa7f548abcac.jpg",
    "genres": [
-    "rock",
     "progressive rock",
-    "pop rock"
+    "art rock",
+    "rock"
    ]
   },
   {
-   "artist": "Roxy Music",
-   "title": "Country Life",
-   "year": 1974,
-   "score": 95,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b2d10ce6-bf86-3091-8c71-3e8330f4b748.jpg",
+   "artist": "Floating Points, Pharoah Sanders",
+   "title": "Promises",
+   "year": 2021,
+   "score": 100,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/970f689d-1778-4953-b3ed-48d057625724.jpg",
    "genres": [
-    "art rock",
-    "glam rock",
-    "rock"
+    "jazz",
+    "electronic",
+    "third stream"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-11-19",
+   "keys": [
+    "Sneaker Pimps::Becoming X",
+    "Calle 13::MultiViral",
+    "Superchunk::Here’s Where the Strings Come In",
+    "Emerson, Lake & Palmer::Trilogy",
+    "Floating Points, Pharoah Sanders::Promises"
+   ]
+  },
   {
    "date": "2026-11-18",
    "keys": [
@@ -650,16 +659,6 @@
     "芸能山城組 [Geinoh Yamashirogumi]::Symphonic Suite AKIRA",
     "Slint::Spiderland",
     "JPEGMAFIA::All My Heroes Are Cornballs"
-   ]
-  },
-  {
-   "date": "2026-09-20",
-   "keys": [
-    "death's dynamic shroud::You Like Music",
-    "Paul White ft. Danny Brown::Accelerator",
-    "Little Brother::The Minstrel Show",
-    "Bon Iver::SABLE, fABLE",
-    "Morbid Angel::Altars of Madness"
    ]
   }
  ]
