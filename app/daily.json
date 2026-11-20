@@ -1,66 +1,75 @@
 {
- "date": "2026-11-19",
+ "date": "2026-11-20",
  "picks": [
   {
-   "artist": "Sneaker Pimps",
-   "title": "Becoming X",
-   "year": 1996,
+   "artist": "Daniel Johnston",
+   "title": "Hi, How Are You",
+   "year": 1983,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/62c14bd1-2a53-3a69-9b68-c3df4bc61032.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/22a18813-ca1b-3458-9e9f-a147d8ac5314.jpg",
    "genres": [
-    "trip hop",
-    "electronic",
-    "downtempo"
+    "lo-fi"
    ]
   },
   {
-   "artist": "Calle 13",
-   "title": "MultiViral",
-   "year": 2014,
+   "artist": "Duran Duran",
+   "title": "Rio",
+   "year": 1982,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/20aa7b37-7286-4db3-a20d-c54e889324c2.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3c638420-8208-3c01-b723-f061b10e3f3a.jpg",
    "genres": [
-    "latin"
+    "new wave",
+    "synth-pop",
+    "new romantic"
    ]
   },
   {
-   "artist": "Superchunk",
-   "title": "Here’s Where the Strings Come In",
-   "year": 1995,
+   "artist": "Belle and Sebastian",
+   "title": "Girls in Peacetime Want to Dance",
+   "year": 2015,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/c789adb7-69ea-381f-9c88-65915fb7b8f6.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d1a068a9-d112-4e6d-b058-ee7a72d01d6b.jpg",
    "genres": [
-    "indie rock",
+    "indie pop",
     "rock",
     "electronic"
    ]
   },
   {
-   "artist": "Emerson, Lake & Palmer",
-   "title": "Trilogy",
-   "year": 1972,
-   "score": 70,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/990536ff-396d-37ad-9df3-fa7f548abcac.jpg",
+   "artist": "Jon Hopkins",
+   "title": "Singularity",
+   "year": 2018,
+   "score": 80,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7b49f37f-06a6-4c71-970f-c1905c19906f.jpg",
    "genres": [
-    "progressive rock",
-    "art rock",
-    "rock"
+    "electronic",
+    "tech house"
    ]
   },
   {
-   "artist": "Floating Points, Pharoah Sanders",
-   "title": "Promises",
-   "year": 2021,
-   "score": 100,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/970f689d-1778-4953-b3ed-48d057625724.jpg",
+   "artist": "Underworld",
+   "title": "Dubnobasswithmyheadman",
+   "year": 1993,
+   "score": 85,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3fa924b2-aae8-3ab6-b2d3-f647a8a8e8f6.jpg",
    "genres": [
-    "jazz",
     "electronic",
-    "third stream"
+    "techno",
+    "progressive house"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-11-20",
+   "keys": [
+    "Daniel Johnston::Hi, How Are You",
+    "Duran Duran::Rio",
+    "Belle and Sebastian::Girls in Peacetime Want to Dance",
+    "Jon Hopkins::Singularity",
+    "Underworld::Dubnobasswithmyheadman"
+   ]
+  },
   {
    "date": "2026-11-19",
    "keys": [
@@ -649,16 +658,6 @@
     "Pete Rock & CL Smooth::Mecca and the Soul Brother",
     "Pavement::Brighten The Corners",
     "Manitoba::Start Breaking My Heart"
-   ]
-  },
-  {
-   "date": "2026-09-21",
-   "keys": [
-    "Basic Channel::Quadrant Dub",
-    "Navy Blue::Ways of Knowing",
-    "芸能山城組 [Geinoh Yamashirogumi]::Symphonic Suite AKIRA",
-    "Slint::Spiderland",
-    "JPEGMAFIA::All My Heroes Are Cornballs"
    ]
   }
  ]
