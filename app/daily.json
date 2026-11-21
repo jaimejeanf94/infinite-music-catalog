@@ -1,65 +1,77 @@
 {
- "date": "2026-11-20",
+ "date": "2026-11-21",
  "picks": [
   {
-   "artist": "Daniel Johnston",
-   "title": "Hi, How Are You",
-   "year": 1983,
+   "artist": "Kanye West",
+   "title": "My Beautiful Dark Twisted Fantasy",
+   "year": 2010,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/22a18813-ca1b-3458-9e9f-a147d8ac5314.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5d6e21e1-deb5-428e-bb42-c2a567f3619b.jpg",
    "genres": [
-    "lo-fi"
+    "hip hop",
+    "pop rap",
+    "pop soul"
    ]
   },
   {
-   "artist": "Duran Duran",
-   "title": "Rio",
-   "year": 1982,
+   "artist": "Ne Obliviscaris",
+   "title": "Portal of I",
+   "year": 2012,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3c638420-8208-3c01-b723-f061b10e3f3a.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7c1c9261-4961-4cff-9faa-8f2597174928.jpg",
    "genres": [
-    "new wave",
-    "synth-pop",
-    "new romantic"
+    "progressive metal",
+    "black metal",
+    "rock"
    ]
   },
   {
-   "artist": "Belle and Sebastian",
-   "title": "Girls in Peacetime Want to Dance",
-   "year": 2015,
+   "artist": "Voivod",
+   "title": "Nothingface",
+   "year": 1989,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d1a068a9-d112-4e6d-b058-ee7a72d01d6b.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/0cac78a5-2fd2-368a-b783-932eee29a1a4.jpg",
    "genres": [
-    "indie pop",
+    "heavy metal",
     "rock",
-    "electronic"
+    "progressive metal"
    ]
   },
   {
-   "artist": "Jon Hopkins",
-   "title": "Singularity",
-   "year": 2018,
+   "artist": "Fontaines D.C.",
+   "title": "Dogrel",
+   "year": 2019,
    "score": 80,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7b49f37f-06a6-4c71-970f-c1905c19906f.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/84c01ae7-82e5-4965-a5b6-7aeaf539f85c.jpg",
    "genres": [
-    "electronic",
-    "tech house"
+    "rock",
+    "post-punk"
    ]
   },
   {
-   "artist": "Underworld",
-   "title": "Dubnobasswithmyheadman",
-   "year": 1993,
-   "score": 85,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/3fa924b2-aae8-3ab6-b2d3-f647a8a8e8f6.jpg",
+   "artist": "SOPHIE",
+   "title": "Product",
+   "year": 2015,
+   "score": 75,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/787dc5d8-8a38-4a1c-b9f1-9edf7bcd653d.jpg",
    "genres": [
+    "deconstructed club",
     "electronic",
-    "techno",
-    "progressive house"
+    "pop"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-11-21",
+   "keys": [
+    "Kanye West::My Beautiful Dark Twisted Fantasy",
+    "Ne Obliviscaris::Portal of I",
+    "Voivod::Nothingface",
+    "Fontaines D.C.::Dogrel",
+    "SOPHIE::Product"
+   ]
+  },
   {
    "date": "2026-11-20",
    "keys": [
@@ -648,16 +660,6 @@
     "The HIRS Collective::We're Still Here",
     "Pavement::Watery, Domestic",
     "Father John Misty::I Love You, Honeybear"
-   ]
-  },
-  {
-   "date": "2026-09-22",
-   "keys": [
-    "Brittany Howard::What Now",
-    "Carcass::Necroticism: Descanting the Insalubrious",
-    "Pete Rock & CL Smooth::Mecca and the Soul Brother",
-    "Pavement::Brighten The Corners",
-    "Manitoba::Start Breaking My Heart"
    ]
   }
  ]
