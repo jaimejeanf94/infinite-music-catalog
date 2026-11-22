@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-21T10:45:15.182Z",
+ "generated": "2026-11-22T10:47:37.766Z",
  "totals": {
   "albums": 4479,
   "rated": 499,
   "withCover": 4478,
   "withGenres": 4474,
   "matched": 4361,
-  "apple": 3726
+  "apple": 3729
  },
  "sections": [
   {
@@ -661,7 +661,7 @@
    "title": "Apple Music matches held back",
    "why": "Probably the right record, not certainly. Open it to check, then link it or reject it.",
    "action": "link",
-   "count": 302,
+   "count": 301,
    "items": [
     {
      "artist": "Against All Logic",
@@ -3528,22 +3528,6 @@
      "dismiss": "Reject"
     },
     {
-     "artist": "NoMeansNo",
-     "title": "Wrong",
-     "note": "Apple Music has \"One\" — the title is spelled differently",
-     "preview": "https://music.apple.com/mx/album/one/1860313118",
-     "suggest": {
-      "apple_music_url": "https://music.apple.com/mx/album/one/1860313118",
-      "apple_music_locked": true
-     },
-     "was": {
-      "apple_music_url": null,
-      "apple_music_locked": false
-     },
-     "apply": "Link it",
-     "dismiss": "Reject"
-    },
-    {
      "artist": "Of Montreal",
      "title": "Hissing Fauna, Are You the Destroyer?",
      "note": "MusicBrainz links it, but Apple's store here could not confirm it",
@@ -3582,22 +3566,6 @@
      "preview": "https://music.apple.com/mx/album/a-special-episode-ep/1866866866",
      "suggest": {
       "apple_music_url": "https://music.apple.com/mx/album/a-special-episode-ep/1866866866",
-      "apple_music_locked": true
-     },
-     "was": {
-      "apple_music_url": null,
-      "apple_music_locked": false
-     },
-     "apply": "Link it",
-     "dismiss": "Reject"
-    },
-    {
-     "artist": "Paysage d'Hiver",
-     "title": "Winterkaelte",
-     "note": "Apple Music has \"Winterkälte\" — the title is spelled differently",
-     "preview": "https://music.apple.com/mx/album/winterk%C3%A4lte/1555250726",
-     "suggest": {
-      "apple_music_url": "https://music.apple.com/mx/album/winterk%C3%A4lte/1555250726",
       "apple_music_locked": true
      },
      "was": {
@@ -3854,6 +3822,22 @@
      "preview": "https://music.apple.com/mx/album/1174461751",
      "suggest": {
       "apple_music_url": "https://music.apple.com/mx/album/1174461751",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
+    },
+    {
+     "artist": "Radiohead",
+     "title": "In Rainbows: From the Basement",
+     "note": "Apple Music has \"In Rainbows\" — the title is longer or shorter than yours",
+     "preview": "https://music.apple.com/mx/album/in-rainbows/1109714933",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/in-rainbows/1109714933",
       "apple_music_locked": true
      },
      "was": {
@@ -4662,6 +4646,22 @@
      },
      "apply": "Link it",
      "dismiss": "Reject"
+    },
+    {
+     "artist": "The Jesus and Mary Chain",
+     "title": "Psychocandy",
+     "note": "MusicBrainz links it, but Apple's store here could not confirm it",
+     "preview": "https://music.apple.com/mx/album/1676759774",
+     "suggest": {
+      "apple_music_url": "https://music.apple.com/mx/album/1676759774",
+      "apple_music_locked": true
+     },
+     "was": {
+      "apple_music_url": null,
+      "apple_music_locked": false
+     },
+     "apply": "Link it",
+     "dismiss": "Reject"
     }
    ]
   },
@@ -4678,7 +4678,7 @@
    "title": "No Apple Music link",
    "why": "Apple Music has nothing under this name. Paste the link on the album's page if it is there, or say it is not.",
    "action": "link",
-   "count": 451,
+   "count": 449,
    "items": [
     {
      "artist": "$ilkmoney",
@@ -5349,7 +5349,7 @@
     {
      "artist": "drug bug",
      "title": "Hell for a Basement",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
@@ -5943,7 +5943,7 @@
     {
      "artist": "leroy",
      "title": "status update music",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
@@ -5973,13 +5973,13 @@
     {
      "artist": "Lil Wayne & DJ Drama",
      "title": "Dedication 2",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Lingua Ignota",
      "title": "Caligula",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
@@ -5991,73 +5991,73 @@
     {
      "artist": "Los Cogelones",
      "title": "Hijos del Sol",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Los Jaivas",
      "title": "Los Jaivas (El Indio)",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Louis Armstrong",
      "title": "Portrait of the Artist as a Young Man (1923 - 1932)",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Louis Jordan",
      "title": "Five Guys Named Moe: Original Decca Recordings Vol. 2",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Lucy Dacus",
      "title": "Home Video",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
      "artist": "M.I.A",
      "title": "Matangi",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
      "artist": "M.I.A.",
      "title": "Vicki Leekx",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
      "artist": "M.I.A. / Diplo",
      "title": "Piracy Funds Terrorism, Vol. 1",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Mac-Hommy",
      "title": "The G.A.T",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Madeon",
      "title": "Pop Culture",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Manitoba",
      "title": "Start Breaking My Heart",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Mario Galaxy Orchestra",
      "title": "Super Mario Galaxy: Original Soundtrack",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
@@ -6075,55 +6075,55 @@
     {
      "artist": "Maurizio",
      "title": "MCD",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Meat Puppets",
      "title": "Up on the Sun",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Metallica",
      "title": "The Black Album",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Michael Hurley/The Unholy Modal Rounders/Jeffrey Frederick & The Clamtones",
      "title": "Have Moicy!",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Mick Jenkins",
      "title": "The Water[s]",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Midori Takada",
      "title": "Through the Looking Glass",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Mighty Sparrow",
      "title": "Volume One",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
      "artist": "MIKE",
      "title": "Burning Desire!",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Milo",
      "title": "Things That Happen At Night",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
@@ -6135,49 +6135,49 @@
     {
      "artist": "Minor Threat",
      "title": "Minor Threat",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Miranda!",
      "title": "El Templo del Pop",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Misfits",
      "title": "Beware",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Misfits",
      "title": "Earth A.D./Wolfs Blood",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Misfits",
      "title": "Walk Among Us",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Modest Mouse",
      "title": "The Moon And Antarctica",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Moonsorrow",
      "title": "V: Hävitetty",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     },
     {
      "artist": "Mos Def",
      "title": "Black on Both Sides",
-     "note": "looked for on 2026-10-23",
+     "note": "looked for on 2026-11-22",
      "dismiss": "Not there"
     }
    ]

@@ -1,67 +1,78 @@
 {
- "date": "2026-11-21",
+ "date": "2026-11-22",
  "picks": [
   {
-   "artist": "Kanye West",
-   "title": "My Beautiful Dark Twisted Fantasy",
-   "year": 2010,
+   "artist": "Gang Starr",
+   "title": "Step in the Arena",
+   "year": 1991,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/5d6e21e1-deb5-428e-bb42-c2a567f3619b.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b66d223b-f057-3bba-9fee-92ee3db86257.jpg",
    "genres": [
     "hip hop",
-    "pop rap",
-    "pop soul"
+    "boom bap",
+    "jazz rap"
    ]
   },
   {
-   "artist": "Ne Obliviscaris",
-   "title": "Portal of I",
-   "year": 2012,
+   "artist": "Future Islands",
+   "title": "Singles",
+   "year": 2014,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7c1c9261-4961-4cff-9faa-8f2597174928.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/82b000c5-b4ca-4c6d-8ea1-68622dda00c8.jpg",
    "genres": [
-    "progressive metal",
-    "black metal",
-    "rock"
+    "synth-pop",
+    "indie rock",
+    "electronic"
    ]
   },
   {
-   "artist": "Voivod",
-   "title": "Nothingface",
-   "year": 1989,
+   "artist": "Clams Casino",
+   "title": "Instrumental Relics",
+   "year": 2020,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/0cac78a5-2fd2-368a-b783-932eee29a1a4.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a87a26f4-bed8-46b3-a7b7-838d9abfac81.jpg",
    "genres": [
-    "heavy metal",
-    "rock",
-    "progressive metal"
-   ]
-  },
-  {
-   "artist": "Fontaines D.C.",
-   "title": "Dogrel",
-   "year": 2019,
-   "score": 80,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/84c01ae7-82e5-4965-a5b6-7aeaf539f85c.jpg",
-   "genres": [
-    "rock",
-    "post-punk"
-   ]
-  },
-  {
-   "artist": "SOPHIE",
-   "title": "Product",
-   "year": 2015,
-   "score": 75,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/787dc5d8-8a38-4a1c-b9f1-9edf7bcd653d.jpg",
-   "genres": [
-    "deconstructed club",
     "electronic",
-    "pop"
+    "instrumental",
+    "hip hop"
+   ]
+  },
+  {
+   "artist": "David Bowie",
+   "title": "Low",
+   "year": 1977,
+   "score": 85,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f6a51281-56c4-3538-b915-65a9d4eb29b5.jpg",
+   "genres": [
+    "art rock",
+    "ambient",
+    "electronic"
+   ]
+  },
+  {
+   "artist": "Killing Joke",
+   "title": "Killing Joke",
+   "year": 1980,
+   "score": 85,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/30a8c233-66ab-3ceb-87e2-bda76f4164ca.jpg",
+   "genres": [
+    "rock",
+    "industrial rock",
+    "post-punk"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-11-22",
+   "keys": [
+    "Gang Starr::Step in the Arena",
+    "Future Islands::Singles",
+    "Clams Casino::Instrumental Relics",
+    "David Bowie::Low",
+    "Killing Joke::Killing Joke"
+   ]
+  },
   {
    "date": "2026-11-21",
    "keys": [
@@ -650,16 +661,6 @@
     "Gaby Amarantos::ROCK DOIDO",
     "The Chemical Brothers::Brotherhood",
     "Coldplay::Viva La Vida or Death and All His Friends"
-   ]
-  },
-  {
-   "date": "2026-09-23",
-   "keys": [
-    "The Tuss::Rushup Edge",
-    "Daft Punk::Homework",
-    "The HIRS Collective::We're Still Here",
-    "Pavement::Watery, Domestic",
-    "Father John Misty::I Love You, Honeybear"
    ]
   }
  ]
