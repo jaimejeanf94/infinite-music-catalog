@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-22T10:47:37.766Z",
+ "generated": "2026-11-23T11:47:06.403Z",
  "totals": {
   "albums": 4479,
   "rated": 499,
   "withCover": 4478,
   "withGenres": 4474,
   "matched": 4361,
-  "apple": 3729
+  "apple": 3730
  },
  "sections": [
   {
@@ -661,7 +661,7 @@
    "title": "Apple Music matches held back",
    "why": "Probably the right record, not certainly. Open it to check, then link it or reject it.",
    "action": "link",
-   "count": 301,
+   "count": 300,
    "items": [
     {
      "artist": "Against All Logic",

@@ -1,68 +1,76 @@
 {
- "date": "2026-11-22",
+ "date": "2026-11-23",
  "picks": [
   {
-   "artist": "Gang Starr",
-   "title": "Step in the Arena",
-   "year": 1991,
+   "artist": "CZARFACE",
+   "title": "Every Hero Needs A Villain",
+   "year": 2015,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b66d223b-f057-3bba-9fee-92ee3db86257.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/dceac5a3-6989-4536-9aac-cdcd0385820b.jpg",
    "genres": [
-    "hip hop",
-    "boom bap",
-    "jazz rap"
-   ]
-  },
-  {
-   "artist": "Future Islands",
-   "title": "Singles",
-   "year": 2014,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/82b000c5-b4ca-4c6d-8ea1-68622dda00c8.jpg",
-   "genres": [
-    "synth-pop",
-    "indie rock",
-    "electronic"
-   ]
-  },
-  {
-   "artist": "Clams Casino",
-   "title": "Instrumental Relics",
-   "year": 2020,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a87a26f4-bed8-46b3-a7b7-838d9abfac81.jpg",
-   "genres": [
-    "electronic",
-    "instrumental",
     "hip hop"
    ]
   },
   {
-   "artist": "David Bowie",
-   "title": "Low",
-   "year": 1977,
-   "score": 85,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/f6a51281-56c4-3538-b915-65a9d4eb29b5.jpg",
+   "artist": "Hideki Naganuma 長沼英樹",
+   "title": "Jet Set Radio Original Sound Tracks",
+   "year": 2000,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e70c76af-ffe0-37fb-959e-e18fe8de863d.jpg",
    "genres": [
-    "art rock",
-    "ambient",
+    "electronic",
+    "rock",
+    "big beat"
+   ]
+  },
+  {
+   "artist": "schnozz",
+   "title": "berdleycore Chapter Zero",
+   "year": 2022,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/manual/3274.jpg?v=1789927547053",
+   "genres": [
+    "dariacore",
+    "edm",
+    "complextro"
+   ]
+  },
+  {
+   "artist": "Beck",
+   "title": "Odelay",
+   "year": 1996,
+   "score": 100,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/df0bfd42-78a9-40c3-a45f-a12e10d446f8.jpg",
+   "genres": [
+    "alternative rock",
+    "rock",
     "electronic"
    ]
   },
   {
-   "artist": "Killing Joke",
-   "title": "Killing Joke",
-   "year": 1980,
-   "score": 85,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/30a8c233-66ab-3ceb-87e2-bda76f4164ca.jpg",
+   "artist": "The Flaming Lips",
+   "title": "Embryonic",
+   "year": 2009,
+   "score": 100,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6654ee18-9421-4204-ae48-f0fdc3d6ab9e.jpg",
    "genres": [
-    "rock",
-    "industrial rock",
-    "post-punk"
+    "krautrock",
+    "psychedelic rock",
+    "experimental rock"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-11-23",
+   "keys": [
+    "CZARFACE::Every Hero Needs A Villain",
+    "Hideki Naganuma 長沼英樹::Jet Set Radio Original Sound Tracks",
+    "schnozz::berdleycore Chapter Zero",
+    "Beck::Odelay",
+    "The Flaming Lips::Embryonic"
+   ]
+  },
   {
    "date": "2026-11-22",
    "keys": [
@@ -651,16 +659,6 @@
     "The Mars Volta::De-Loused in the Comatorium",
     "James Blake::Assume Form",
     "Underworld::Dubnobasswithmyheadman"
-   ]
-  },
-  {
-   "date": "2026-09-24",
-   "keys": [
-    "David Bowie::Changesbowie",
-    "Converge::No Heroes",
-    "Gaby Amarantos::ROCK DOIDO",
-    "The Chemical Brothers::Brotherhood",
-    "Coldplay::Viva La Vida or Death and All His Friends"
    ]
   }
  ]
