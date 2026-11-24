@@ -1,66 +1,78 @@
 {
- "date": "2026-11-23",
+ "date": "2026-11-24",
  "picks": [
   {
-   "artist": "CZARFACE",
-   "title": "Every Hero Needs A Villain",
-   "year": 2015,
+   "artist": "No Age",
+   "title": "Nouns",
+   "year": 2008,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/dceac5a3-6989-4536-9aac-cdcd0385820b.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a6a476d1-caa7-3641-b8a6-597c4b06886c.jpg",
    "genres": [
-    "hip hop"
+    "rock",
+    "noise",
+    "indie rock"
    ]
   },
   {
-   "artist": "Hideki Naganuma 長沼英樹",
-   "title": "Jet Set Radio Original Sound Tracks",
-   "year": 2000,
+   "artist": "INXS",
+   "title": "Kick",
+   "year": 1987,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e70c76af-ffe0-37fb-959e-e18fe8de863d.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ec6bc9d7-01e1-3d58-8e79-960611b26f44.jpg",
+   "genres": [
+    "rock",
+    "pop rock",
+    "alternative rock"
+   ]
+  },
+  {
+   "artist": "芸能山城組 [Geinoh Yamashirogumi]",
+   "title": "Symphonic Suite AKIRA",
+   "year": 1988,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6f1b786c-f459-3eef-b4b0-8b44095ec36f.jpg",
    "genres": [
     "electronic",
-    "rock",
-    "big beat"
+    "ambient",
+    "gamelan"
    ]
   },
   {
-   "artist": "schnozz",
-   "title": "berdleycore Chapter Zero",
-   "year": 2022,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/manual/3274.jpg?v=1789927547053",
+   "artist": "The Radio Dept.",
+   "title": "Clinging To A Scheme",
+   "year": 2010,
+   "score": 75,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/11e16d3d-f02f-4690-aadd-d4033993138f.jpg",
    "genres": [
-    "dariacore",
-    "edm",
-    "complextro"
-   ]
-  },
-  {
-   "artist": "Beck",
-   "title": "Odelay",
-   "year": 1996,
-   "score": 100,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/df0bfd42-78a9-40c3-a45f-a12e10d446f8.jpg",
-   "genres": [
-    "alternative rock",
+    "dream pop",
     "rock",
     "electronic"
    ]
   },
   {
-   "artist": "The Flaming Lips",
-   "title": "Embryonic",
-   "year": 2009,
-   "score": 100,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6654ee18-9421-4204-ae48-f0fdc3d6ab9e.jpg",
+   "artist": "Prince",
+   "title": "The Gold Experience",
+   "year": 1995,
+   "score": 70,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/11deb7b3-c4d5-3e46-809f-f23123602dca.jpg",
    "genres": [
-    "krautrock",
-    "psychedelic rock",
-    "experimental rock"
+    "pop rock",
+    "contemporary r&b",
+    "rock"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-11-24",
+   "keys": [
+    "No Age::Nouns",
+    "INXS::Kick",
+    "芸能山城組 [Geinoh Yamashirogumi]::Symphonic Suite AKIRA",
+    "The Radio Dept.::Clinging To A Scheme",
+    "Prince::The Gold Experience"
+   ]
+  },
   {
    "date": "2026-11-23",
    "keys": [
@@ -649,16 +661,6 @@
     "Silversun Pickups::Carnavas",
     "Laura Marling::I Speak Because I Can",
     "Sun Kil Moon::Benji"
-   ]
-  },
-  {
-   "date": "2026-09-25",
-   "keys": [
-    "The White Stripes::Elephant",
-    "Brockhampton::Saturation II",
-    "The Mars Volta::De-Loused in the Comatorium",
-    "James Blake::Assume Form",
-    "Underworld::Dubnobasswithmyheadman"
    ]
   }
  ]
