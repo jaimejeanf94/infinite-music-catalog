@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-24T13:11:26.719Z",
+ "generated": "2026-11-25T11:54:28.181Z",
  "totals": {
   "albums": 4481,
-  "rated": 499,
+  "rated": 500,
   "withCover": 4480,
   "withGenres": 4476,
   "matched": 4363,
@@ -5049,7 +5049,7 @@
     {
      "artist": "Carne",
      "title": "Todos Mis Amigos Están Tristes",
-     "note": "looked for on 2026-11-11",
+     "note": "looked for on 2026-11-25",
      "dismiss": "Not there"
     },
     {

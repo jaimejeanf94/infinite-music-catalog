@@ -100444,10 +100444,9 @@
   "cover_url": null,
   "cover_from": null,
   "genres": [],
-  "tried": "2026-11-11",
+  "tried": "2026-11-25",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-11",
-  "rename_checked": "2026-11-12"
+  "apple_checked": "2026-11-25"
  },
  "Ciśnienie::[angry noises]": {
   "status": "ok",
@@ -100793,15 +100792,15 @@
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/21c8105f-7995-446d-8db5-dfd388d908da.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2025",
-  "checked": "2026-11-11",
+  "checked": "2026-11-25",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/1812625031",
   "apple_title": null,
   "apple_via": "musicbrainz",
   "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-11-11",
+  "apple_checked": "2026-11-25",
   "cover_source_url": "https://coverartarchive.org/release-group/21c8105f-7995-446d-8db5-dfd388d908da/front-500",
-  "cover_cached": "2026-11-11"
+  "cover_cached": "2026-11-25"
  },
  "PISS::you made me / skin on linen": {
   "status": "ok",
@@ -101038,16 +101037,15 @@
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/38787141d87dc78a.jpg",
   "cover_from": "deezer",
   "genres": [],
-  "tried": "2026-11-11",
+  "tried": "2026-11-25",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/help/1528148273",
   "apple_title": "Help",
   "apple_via": "search",
   "apple_why": "the title is longer or shorter than yours",
-  "apple_checked": "2026-11-11",
+  "apple_checked": "2026-11-25",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/ee987bc5ae84a3e3d6143db84e91c0de/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-11-11",
-  "rename_checked": "2026-11-12"
+  "cover_cached": "2026-11-25"
  },
  "Westside Cowboy::It Goes On": {
   "status": "ok",
@@ -101077,15 +101075,15 @@
   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/44821a44-3ada-4e58-8b82-70b69ae57da9.jpg",
   "cover_from": "coverartarchive",
   "mb_year": "2025",
-  "checked": "2026-11-11",
+  "checked": "2026-11-25",
   "apple_status": "review",
   "apple_url": "https://music.apple.com/mx/album/1837764155",
   "apple_title": null,
   "apple_via": "musicbrainz",
   "apple_why": "MusicBrainz links it, but Apple's store here could not confirm it",
-  "apple_checked": "2026-11-11",
+  "apple_checked": "2026-11-25",
   "cover_source_url": "https://coverartarchive.org/release-group/44821a44-3ada-4e58-8b82-70b69ae57da9/front-500",
-  "cover_cached": "2026-11-11"
+  "cover_cached": "2026-11-25"
  },
  "brakence::Hypochondriac": {
   "status": "ok",

@@ -1,68 +1,78 @@
 {
- "date": "2026-11-24",
+ "date": "2026-11-25",
  "picks": [
   {
-   "artist": "No Age",
-   "title": "Nouns",
-   "year": 2008,
+   "artist": "Haru Nemuri",
+   "title": "Harutosyura",
+   "year": 2018,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a6a476d1-caa7-3641-b8a6-597c4b06886c.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d3dbb1bdd2c208da.jpg",
    "genres": [
-    "rock",
-    "noise",
-    "indie rock"
+    "j-pop",
+    "j-rock",
+    "noise pop"
    ]
   },
   {
-   "artist": "INXS",
-   "title": "Kick",
-   "year": 1987,
+   "artist": "Sui Generis",
+   "title": "Vida",
+   "year": 1972,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ec6bc9d7-01e1-3d58-8e79-960611b26f44.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7257d8e4-702b-36a7-bc38-b54cd0031b7d.jpg",
    "genres": [
+    "folk rock",
     "rock",
-    "pop rock",
-    "alternative rock"
+    "progressive folk"
    ]
   },
   {
-   "artist": "芸能山城組 [Geinoh Yamashirogumi]",
-   "title": "Symphonic Suite AKIRA",
-   "year": 1988,
+   "artist": "Masayoshi Takanaka",
+   "title": "Brasilian Skies",
+   "year": 1978,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6f1b786c-f459-3eef-b4b0-8b44095ec36f.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/61ccacd891d282c2.jpg",
    "genres": [
-    "electronic",
-    "ambient",
-    "gamelan"
+    "jazz-funk",
+    "latin jazz",
+    "jazz"
    ]
   },
   {
-   "artist": "The Radio Dept.",
-   "title": "Clinging To A Scheme",
-   "year": 2010,
-   "score": 75,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/11e16d3d-f02f-4690-aadd-d4033993138f.jpg",
-   "genres": [
-    "dream pop",
-    "rock",
-    "electronic"
-   ]
-  },
-  {
-   "artist": "Prince",
-   "title": "The Gold Experience",
-   "year": 1995,
+   "artist": "Autechre",
+   "title": "Confield",
+   "year": 2001,
    "score": 70,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/11deb7b3-c4d5-3e46-809f-f23123602dca.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b28324fc-00d4-3bc6-bc94-90218c377517.jpg",
    "genres": [
-    "pop rock",
-    "contemporary r&b",
-    "rock"
+    "idm",
+    "electronic",
+    "experimental"
+   ]
+  },
+  {
+   "artist": "Mount Eerie",
+   "title": "Lost Wisdom",
+   "year": 2008,
+   "score": 90,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/0047f33d-d5d9-3092-947b-254a0fa06391.jpg",
+   "genres": [
+    "rock",
+    "singer-songwriter",
+    "indie rock"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-11-25",
+   "keys": [
+    "Haru Nemuri::Harutosyura",
+    "Sui Generis::Vida",
+    "Masayoshi Takanaka::Brasilian Skies",
+    "Autechre::Confield",
+    "Mount Eerie::Lost Wisdom"
+   ]
+  },
   {
    "date": "2026-11-24",
    "keys": [
@@ -651,16 +661,6 @@
     "The Chemical Brothers::Exit Planet Dust",
     "Mac Miller::Watching Movies with the Sound Off",
     "Gil Scott-Heron & Jamie XX::We're New Here"
-   ]
-  },
-  {
-   "date": "2026-09-26",
-   "keys": [
-    "Steve Reich::Music for 18 Musicians",
-    "my bloody valentine::Tremolo EP",
-    "Silversun Pickups::Carnavas",
-    "Laura Marling::I Speak Because I Can",
-    "Sun Kil Moon::Benji"
    ]
   }
  ]
