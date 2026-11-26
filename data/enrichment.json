@@ -100446,7 +100446,8 @@
   "genres": [],
   "tried": "2026-11-25",
   "apple_status": "nomatch",
-  "apple_checked": "2026-11-25"
+  "apple_checked": "2026-11-25",
+  "rename_checked": "2026-11-26"
  },
  "Ciśnienie::[angry noises]": {
   "status": "ok",
@@ -101045,7 +101046,8 @@
   "apple_why": "the title is longer or shorter than yours",
   "apple_checked": "2026-11-25",
   "cover_source_url": "https://cdn-images.dzcdn.net/images/cover/ee987bc5ae84a3e3d6143db84e91c0de/1000x1000-000000-80-0-0.jpg",
-  "cover_cached": "2026-11-25"
+  "cover_cached": "2026-11-25",
+  "rename_checked": "2026-11-26"
  },
  "Westside Cowboy::It Goes On": {
   "status": "ok",

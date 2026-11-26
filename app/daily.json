@@ -1,68 +1,76 @@
 {
- "date": "2026-11-25",
+ "date": "2026-11-26",
  "picks": [
   {
-   "artist": "Haru Nemuri",
-   "title": "Harutosyura",
-   "year": 2018,
+   "artist": "Moonsorrow",
+   "title": "Verisäkeet",
+   "year": 2005,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d3dbb1bdd2c208da.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4fcf5820-9339-382f-811d-c3482d595f20.jpg",
    "genres": [
-    "j-pop",
-    "j-rock",
-    "noise pop"
+    "folk metal",
+    "black metal"
    ]
   },
   {
-   "artist": "Sui Generis",
-   "title": "Vida",
-   "year": 1972,
+   "artist": "Dillóm",
+   "title": "Por Cesarea",
+   "year": 2025,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/7257d8e4-702b-36a7-bc38-b54cd0031b7d.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/dd02ceef-6fe0-4040-8a8e-5ae45e9c88cd.jpg",
    "genres": [
-    "folk rock",
-    "rock",
-    "progressive folk"
+    "alternative rock",
+    "indie rock",
+    "neo soul"
    ]
   },
   {
-   "artist": "Masayoshi Takanaka",
-   "title": "Brasilian Skies",
-   "year": 1978,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/61ccacd891d282c2.jpg",
-   "genres": [
-    "jazz-funk",
-    "latin jazz",
-    "jazz"
-   ]
-  },
-  {
-   "artist": "Autechre",
-   "title": "Confield",
+   "artist": "Envy",
+   "title": "All the Footprints You've Ever Left and the Fear Expecting Ahead",
    "year": 2001,
-   "score": 70,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b28324fc-00d4-3bc6-bc94-90218c377517.jpg",
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1ed3c82d-2d69-3cc8-bb8f-eae669e6c932.jpg",
    "genres": [
-    "idm",
-    "electronic",
-    "experimental"
+    "rock",
+    "punk"
    ]
   },
   {
-   "artist": "Mount Eerie",
-   "title": "Lost Wisdom",
-   "year": 2008,
-   "score": 90,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/0047f33d-d5d9-3092-947b-254a0fa06391.jpg",
+   "artist": "black midi",
+   "title": "cavalcade",
+   "year": 2021,
+   "score": 75,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2ef2d793-4fe4-4947-a476-828ccfad19ad.jpg",
+   "genres": [
+    "experimental",
+    "math rock",
+    "rock"
+   ]
+  },
+  {
+   "artist": "Interpol",
+   "title": "Turn On The Bright Lights",
+   "year": 2002,
+   "score": 100,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e7227840-5ef2-3813-af26-15dab34e1a51.jpg",
    "genres": [
     "rock",
-    "singer-songwriter",
-    "indie rock"
+    "indie rock",
+    "post-punk revival"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-11-26",
+   "keys": [
+    "Moonsorrow::Verisäkeet",
+    "Dillóm::Por Cesarea",
+    "Envy::All the Footprints You've Ever Left and the Fear Expecting Ahead",
+    "black midi::cavalcade",
+    "Interpol::Turn On The Bright Lights"
+   ]
+  },
   {
    "date": "2026-11-25",
    "keys": [
@@ -651,16 +659,6 @@
     "Julia Jacklin::PRE PLEASURE",
     "Floating Points, Pharoah Sanders::Promises",
     "Bill Evans::You Must Believe in Spring"
-   ]
-  },
-  {
-   "date": "2026-09-27",
-   "keys": [
-    "Aliyah's Interlude::KUNTOLOGY 101 EP",
-    "Pearl Jam::Yield",
-    "The Chemical Brothers::Exit Planet Dust",
-    "Mac Miller::Watching Movies with the Sound Off",
-    "Gil Scott-Heron & Jamie XX::We're New Here"
    ]
   }
  ]
