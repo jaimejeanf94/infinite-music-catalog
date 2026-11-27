@@ -1,66 +1,78 @@
 {
- "date": "2026-11-26",
+ "date": "2026-11-27",
  "picks": [
   {
-   "artist": "Moonsorrow",
-   "title": "Verisäkeet",
-   "year": 2005,
+   "artist": "Lil Ugly Mane",
+   "title": "The Weeping Worm",
+   "year": 2014,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/4fcf5820-9339-382f-811d-c3482d595f20.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b0504408-31c9-4efe-8fe4-bfa74bc77138.jpg",
    "genres": [
-    "folk metal",
-    "black metal"
+    "experimental hip hop",
+    "memphis rap",
+    "horrorcore"
    ]
   },
   {
-   "artist": "Dillóm",
-   "title": "Por Cesarea",
-   "year": 2025,
+   "artist": "Altar of Plagues",
+   "title": "Teethed Glory & Injury",
+   "year": 2013,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/dd02ceef-6fe0-4040-8a8e-5ae45e9c88cd.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6d809bf6-4d98-4509-aa3b-587dcd82d081.jpg",
    "genres": [
-    "alternative rock",
-    "indie rock",
-    "neo soul"
-   ]
-  },
-  {
-   "artist": "Envy",
-   "title": "All the Footprints You've Ever Left and the Fear Expecting Ahead",
-   "year": 2001,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/1ed3c82d-2d69-3cc8-bb8f-eae669e6c932.jpg",
-   "genres": [
+    "black metal",
     "rock",
-    "punk"
+    "electronic"
    ]
   },
   {
-   "artist": "black midi",
-   "title": "cavalcade",
-   "year": 2021,
+   "artist": "Lauryn Hill",
+   "title": "The Miseducation of Lauryn Hill",
+   "year": 1998,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8691d12c-abd8-385c-b1eb-d841190124f7.jpg",
+   "genres": [
+    "r&b",
+    "hip hop",
+    "contemporary r&b"
+   ]
+  },
+  {
+   "artist": "Poppy",
+   "title": "I Disagree",
+   "year": 2020,
+   "score": 80,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a3848f9a-3dbf-4458-8aaf-4598315f0d31.jpg",
+   "genres": [
+    "industrial metal",
+    "nu metal",
+    "electronic"
+   ]
+  },
+  {
+   "artist": "King Gizzard & The Lizard Wizard",
+   "title": "Polygondwanaland",
+   "year": 2017,
    "score": 75,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/2ef2d793-4fe4-4947-a476-828ccfad19ad.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/df1f3af0-6004-44d3-9a32-12913fdc357c.jpg",
    "genres": [
-    "experimental",
-    "math rock",
-    "rock"
-   ]
-  },
-  {
-   "artist": "Interpol",
-   "title": "Turn On The Bright Lights",
-   "year": 2002,
-   "score": 100,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/e7227840-5ef2-3813-af26-15dab34e1a51.jpg",
-   "genres": [
-    "rock",
-    "indie rock",
-    "post-punk revival"
+    "psychedelic rock",
+    "progressive rock",
+    "krautrock"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-11-27",
+   "keys": [
+    "Lil Ugly Mane::The Weeping Worm",
+    "Altar of Plagues::Teethed Glory & Injury",
+    "Lauryn Hill::The Miseducation of Lauryn Hill",
+    "Poppy::I Disagree",
+    "King Gizzard & The Lizard Wizard::Polygondwanaland"
+   ]
+  },
   {
    "date": "2026-11-26",
    "keys": [
@@ -649,16 +661,6 @@
     "SZA::Crtl",
     "King Gizzard & The Lizard Wizard::K.G.",
     "Poppy::EAT"
-   ]
-  },
-  {
-   "date": "2026-09-28",
-   "keys": [
-    "Devin Townsend::Terria",
-    "Donna Summer::Bad Girls",
-    "Julia Jacklin::PRE PLEASURE",
-    "Floating Points, Pharoah Sanders::Promises",
-    "Bill Evans::You Must Believe in Spring"
    ]
   }
  ]
