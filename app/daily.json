@@ -1,68 +1,78 @@
 {
- "date": "2026-11-27",
+ "date": "2026-11-28",
  "picks": [
   {
-   "artist": "Lil Ugly Mane",
-   "title": "The Weeping Worm",
-   "year": 2014,
+   "artist": "Daughter",
+   "title": "The Wild Youth",
+   "year": 2011,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/b0504408-31c9-4efe-8fe4-bfa74bc77138.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/ec17aa06-b53d-47d8-810f-eb0e571cfef8.jpg",
    "genres": [
-    "experimental hip hop",
-    "memphis rap",
-    "horrorcore"
-   ]
-  },
-  {
-   "artist": "Altar of Plagues",
-   "title": "Teethed Glory & Injury",
-   "year": 2013,
-   "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/6d809bf6-4d98-4509-aa3b-587dcd82d081.jpg",
-   "genres": [
-    "black metal",
+    "indie rock",
     "rock",
-    "electronic"
+    "lo-fi"
    ]
   },
   {
-   "artist": "Lauryn Hill",
-   "title": "The Miseducation of Lauryn Hill",
-   "year": 1998,
+   "artist": "Invisible",
+   "title": "El Jardín de los Presentes",
+   "year": 1976,
    "score": null,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8691d12c-abd8-385c-b1eb-d841190124f7.jpg",
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/d73500e1-5105-3904-bbaf-ec9ae575c93b.jpg",
    "genres": [
-    "r&b",
-    "hip hop",
-    "contemporary r&b"
+    "rock",
+    "progressive rock",
+    "jazz rock"
    ]
   },
   {
-   "artist": "Poppy",
-   "title": "I Disagree",
-   "year": 2020,
-   "score": 80,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/a3848f9a-3dbf-4458-8aaf-4598315f0d31.jpg",
+   "artist": "The Orb",
+   "title": "The Orb's Adventures Beyond the Ultraworld",
+   "year": 1991,
+   "score": null,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/27b682b2-dd29-3e15-8ef2-f6475f4d262f.jpg",
    "genres": [
-    "industrial metal",
-    "nu metal",
+    "ambient house",
+    "ambient",
+    "downtempo"
+   ]
+  },
+  {
+   "artist": "James Blake",
+   "title": "Assume Form",
+   "year": 2019,
+   "score": 70,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/8fceea87-5273-408b-a2f3-723d9b64800a.jpg",
+   "genres": [
+    "art pop",
+    "alternative r&b",
     "electronic"
    ]
   },
   {
-   "artist": "King Gizzard & The Lizard Wizard",
-   "title": "Polygondwanaland",
-   "year": 2017,
-   "score": 75,
-   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/df1f3af0-6004-44d3-9a32-12913fdc357c.jpg",
+   "artist": "Lupe Fiasco",
+   "title": "Samurai",
+   "year": 2024,
+   "score": 85,
+   "cover_url": "https://hlgslntaqfzkqrxylrof.supabase.co/storage/v1/object/public/covers/461fb938-6f99-4554-89e7-5f84ef699b78.jpg",
    "genres": [
-    "psychedelic rock",
-    "progressive rock",
-    "krautrock"
+    "hip hop",
+    "neo soul",
+    "abstract hip hop"
    ]
   }
  ],
  "history": [
+  {
+   "date": "2026-11-28",
+   "keys": [
+    "Daughter::The Wild Youth",
+    "Invisible::El Jardín de los Presentes",
+    "The Orb::The Orb's Adventures Beyond the Ultraworld",
+    "James Blake::Assume Form",
+    "Lupe Fiasco::Samurai"
+   ]
+  },
   {
    "date": "2026-11-27",
    "keys": [
@@ -651,16 +661,6 @@
     "Kate Bush::50 Words for Snow",
     "The Waterboys::This Is The Sea",
     "Utada Hikaru::Fantôme"
-   ]
-  },
-  {
-   "date": "2026-09-29",
-   "keys": [
-    "Tim Hecker::Virgins",
-    "The Strokes::The New Abnormal",
-    "SZA::Crtl",
-    "King Gizzard & The Lizard Wizard::K.G.",
-    "Poppy::EAT"
    ]
   }
  ]
